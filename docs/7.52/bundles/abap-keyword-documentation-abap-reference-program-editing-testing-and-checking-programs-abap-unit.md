@@ -3,7 +3,33 @@
 Included pages: 12
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_unit.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_unit.htm)
+- [abapclass_for_testing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass_for_testing.htm)
+- [abapmethods_testing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_testing.htm)
+- [abapinterfaces_partially.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces_partially.htm)
+- [abentest_seams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_seams.htm)
+- [abaptest-seam.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptest-seam.htm)
+- [abapend-test-seam.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-test-seam.htm)
+- [abaptest-injection.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptest-injection.htm)
+- [abapend-test-injection.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-test-injection.htm)
+
+**Bundle Contains**: 9 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.503Z
+
+---
+
 ### abenabap_unit.htm
+
+> **📖 Official SAP Documentation**: [abenabap_unit.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_unit.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50,7 +76,14 @@ Continue
 [Test Seams](javascript:call_link\('abentest_seams.htm'\))
 
 
+
+**📖 Source**: [abenabap_unit.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_unit.htm)
+
 ### abapclass_for_testing.htm
+
+> **📖 Official SAP Documentation**: [abapclass_for_testing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass_for_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -154,7 +187,14 @@ See the program DEMO\_ABAP\_UNIT.
 The test method is called when the module test of DEMO\_ABAP\_UNIT is executed and should not produce an error.
 
 
+
+**📖 Source**: [abapclass_for_testing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass_for_testing.htm)
+
 ### abapmethods_testing.htm
+
+> **📖 Official SAP Documentation**: [abapmethods_testing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -236,7 +276,14 @@ CLASS mytest IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapmethods_testing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_testing.htm)
+
 ### abapinterfaces_partially.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_partially.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces_partially.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -330,7 +377,14 @@ ENDCLASS.
 In the test method, ICF is simulated by directly creating objects of the test doubles. The REQUEST test double simulates the form field. The RESPONSE test double contains the result that is checked after the method HANDLER is called for testing.
 
 
+
+**📖 Source**: [abapinterfaces_partially.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces_partially.htm)
+
 ### abentest_seams.htm
+
+> **📖 Official SAP Documentation**: [abentest_seams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_seams.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -466,7 +520,14 @@ Continue
 [TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\))
 
 
+
+**📖 Source**: [abentest_seams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_seams.htm)
+
 ### abaptest-seam.htm
+
+> **📖 Official SAP Documentation**: [abaptest-seam.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptest-seam.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -548,7 +609,14 @@ Continue
 [END-TEST-SEAM](javascript:call_link\('abapend-test-seam.htm'\))
 
 
+
+**📖 Source**: [abaptest-seam.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptest-seam.htm)
+
 ### abapend-test-seam.htm
+
+> **📖 Official SAP Documentation**: [abapend-test-seam.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-test-seam.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -571,7 +639,14 @@ Effect
 The statement END-TEST-SEAM closes a test seam introduced using [TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\)).
 
 
+
+**📖 Source**: [abapend-test-seam.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-test-seam.htm)
+
 ### abaptest-seam.htm
+
+> **📖 Official SAP Documentation**: [abaptest-seam.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptest-seam.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -653,7 +728,14 @@ Continue
 [END-TEST-SEAM](javascript:call_link\('abapend-test-seam.htm'\))
 
 
+
+**📖 Source**: [abaptest-seam.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptest-seam.htm)
+
 ### abaptest-injection.htm
+
+> **📖 Official SAP Documentation**: [abaptest-injection.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptest-injection.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -766,7 +848,14 @@ Continue
 [END-TEST-INJECTION](javascript:call_link\('abapend-test-injection.htm'\))
 
 
+
+**📖 Source**: [abaptest-injection.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptest-injection.htm)
+
 ### abapend-test-injection.htm
+
+> **📖 Official SAP Documentation**: [abapend-test-injection.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-test-injection.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -789,7 +878,14 @@ Effect
 The statement END-TEST-INJECTION closes a test injection that was initiated using [TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\)).
 
 
+
+**📖 Source**: [abapend-test-injection.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-test-injection.htm)
+
 ### abaptest-injection.htm
+
+> **📖 Official SAP Documentation**: [abaptest-injection.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptest-injection.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -902,7 +998,17 @@ Continue
 [END-TEST-INJECTION](javascript:call_link\('abapend-test-injection.htm'\))
 
 
+
+**📖 Source**: [abaptest-injection.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptest-injection.htm)
+
 ### abentest_seams.htm
+
+> **📖 Official SAP Documentation**: [abentest_seams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_seams.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abentest_seams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_seams.htm)
+
 
   
 

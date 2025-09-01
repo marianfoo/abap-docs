@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennaming_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennaming_guidl.htm)
+- [abenchoice_langu_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchoice_langu_guidl.htm)
+- [abentelling_names_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentelling_names_guidl.htm)
+- [abennames_repos_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennames_repos_obj_guidl.htm)
+- [abenprog_intern_names_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprog_intern_names_guidl.htm)
+- [abenstruc_comp_names_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstruc_comp_names_guidl.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.718Z
+
+---
+
 ### abennaming_guidl.htm
+
+> **📖 Official SAP Documentation**: [abennaming_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennaming_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41,7 +64,14 @@ Continue
 [Names of Structure Components](javascript:call_link\('abenstruc_comp_names_guidl.htm'\))
 
 
+
+**📖 Source**: [abennaming_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennaming_guidl.htm)
+
 ### abenchoice_langu_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenchoice_langu_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchoice_langu_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -78,7 +108,14 @@ Bad Example
 One of the most notorious examples of non-English names in ABAP is the component UZEIT of the structure SYST, plus its data element SYUZEIT. All other components (with the exception of the equally notorious DATUM (for date) and MANDT (for client)) are English terms or abbreviations.
 
 
+
+**📖 Source**: [abenchoice_langu_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchoice_langu_guidl.htm)
+
 ### abentelling_names_guidl.htm
+
+> **📖 Official SAP Documentation**: [abentelling_names_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentelling_names_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -235,7 +272,14 @@ ENDCLASS.
 The addition and multiplication operands are commutative, which means you can use digits here to distinguish them.
 
 
+
+**📖 Source**: [abentelling_names_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentelling_names_guidl.htm)
+
 ### abennames_repos_obj_guidl.htm
+
+> **📖 Official SAP Documentation**: [abennames_repos_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennames_repos_obj_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -317,7 +361,14 @@ Refer to the repository objects of the example application in the package SABAP\
 The subpackages of the SABAP\_DEMOS\_CAR\_RENTAL package start with the same name as the superpackage (as [recommended](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline") in these guidelines). A suffix indicates their specialization. The same applies to the package interfaces. Instead of a real namespace prefix, the repository objects of the packages have the DEMO\_ prefix. This indicates that the objects are part of a demo package. The affiliation with the car rental application is indicated by the abbreviation CR (car rental).
 
 
+
+**📖 Source**: [abennames_repos_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennames_repos_obj_guidl.htm)
+
 ### abenprog_intern_names_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenprog_intern_names_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprog_intern_names_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -512,7 +563,17 @@ All operands are now clearly known in the CONCATENATE statement. A prefix (l\_) 
 By applying the minimal naming convention used here, you can address all data objects that are declared in the above source code section in the method. Of course, the declaration of the global data objects is only implemented to demonstrate hiding and how to prevent it. Global data objects should [no longer be used](javascript:call_link\('abendeclaration_variables_guidl.htm'\) "Guideline") in programs that do not work with classic dynpros.
 
 
+
+**📖 Source**: [abenprog_intern_names_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprog_intern_names_guidl.htm)
+
 ### abenstruc_comp_names_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenstruc_comp_names_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstruc_comp_names_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenstruc_comp_names_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstruc_comp_names_guidl.htm)
+
 
   
 

@@ -3,7 +3,32 @@
 Included pages: 9
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_program_statement.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_program_statement.htm)
+- [abapreport.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreport.htm)
+- [abapreport_list_options.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreport_list_options.htm)
+- [abapprogram.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapprogram.htm)
+- [abapfunction-pool.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfunction-pool.htm)
+- [abapclass-pool.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass-pool.htm)
+- [abapinterface-pool.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinterface-pool.htm)
+- [abaptype-pool.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptype-pool.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.763Z
+
+---
+
 ### abenabap_program_statement.htm
+
+> **📖 Official SAP Documentation**: [abenabap_program_statement.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_program_statement.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52,7 +77,14 @@ Continue
 [TYPE-POOL](javascript:call_link\('abaptype-pool.htm'\))
 
 
+
+**📖 Source**: [abenabap_program_statement.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_program_statement.htm)
+
 ### abapreport.htm
+
+> **📖 Official SAP Documentation**: [abapreport.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreport.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -117,7 +149,14 @@ Continue
 [REPORT, list\_options](javascript:call_link\('abapreport_list_options.htm'\))
 
 
+
+**📖 Source**: [abapreport.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreport.htm)
+
 ### abapreport_list_options.htm
+
+> **📖 Official SAP Documentation**: [abapreport_list_options.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreport_list_options.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -197,7 +236,14 @@ The page length of the basic list is set to 65 lines, of which eight lines are r
 REPORT z\_myreport LINE-COUNT 65(8) LINE-SIZE 132.
 
 
+
+**📖 Source**: [abapreport_list_options.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreport_list_options.htm)
+
 ### abapreport.htm
+
+> **📖 Official SAP Documentation**: [abapreport.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreport.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -262,7 +308,14 @@ Continue
 [REPORT, list\_options](javascript:call_link\('abapreport_list_options.htm'\))
 
 
+
+**📖 Source**: [abapreport.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreport.htm)
+
 ### abapprogram.htm
+
+> **📖 Official SAP Documentation**: [abapprogram.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapprogram.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -331,7 +384,14 @@ Hints
 -   The use of REDUCED FUNCTIONALITY in a subroutine pool produces a syntax check warning that indicates that not all ABAP functions are available. If nonexistent functions are used, corresponding syntax errors are produced.
 
 
+
+**📖 Source**: [abapprogram.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapprogram.htm)
+
 ### abapfunction-pool.htm
+
+> **📖 Official SAP Documentation**: [abapfunction-pool.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfunction-pool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -406,7 +466,14 @@ INCLUDE labap\_docud00.               " Global Data for Screens
 INCLUDE labap\_docud01.               " Classes for Docu Display
 
 
+
+**📖 Source**: [abapfunction-pool.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfunction-pool.htm)
+
 ### abapclass-pool.htm
+
+> **📖 Official SAP Documentation**: [abapclass-pool.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass-pool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -469,7 +536,14 @@ Example
 The name of the master program of the class pool of the global class CL\_ABAP\_BROWSER is CL\_ABAP\_BROWSER===============CP.
 
 
+
+**📖 Source**: [abapclass-pool.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass-pool.htm)
+
 ### abapinterface-pool.htm
+
+> **📖 Official SAP Documentation**: [abapinterface-pool.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinterface-pool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -506,7 +580,17 @@ Example
 The name of the master program of the interface pool of the global interface IF\_DEMO\_CR\_CAR\_RENTL\_SERVICE is IF\_DEMO\_CR\_CAR\_RENTL\_SERVICE==IP.
 
 
+
+**📖 Source**: [abapinterface-pool.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinterface-pool.htm)
+
 ### abaptype-pool.htm
+
+> **📖 Official SAP Documentation**: [abaptype-pool.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptype-pool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abaptype-pool.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptype-pool.htm)
+
 
   
 

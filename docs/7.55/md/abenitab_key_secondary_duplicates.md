@@ -10,9 +10,7 @@ itab - Duplicate Non-Unique Keys
 
 Non-unique table keys can produce duplicate lines with respect to these keys. This section describes the order of these duplicates when inserting into tables with non-unique sorted table keys. This order is ignored with respect to non-unique primary keys in standard tables.
 
--   [Single Record Operations](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_1)
-
--   [Block Operations](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_2)
+-   [Single Record Operations](#abenitab-key-secondary-duplicates-1--------block-operations---@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_2)
 
 -   [Special Features](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_3)
 

@@ -3,7 +3,29 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_dependency_rules.htm)
+- [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_define_dependency_rule.htm)
+- [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_drul.htm)
+- [abenddicddl_define_filter_drul.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_filter_drul.htm)
+- [abenddicddl_define_join_drul.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_join_drul.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.450Z
+
+---
+
 ### abenddic_dependency_rules.htm
+
+> **📖 Official SAP Documentation**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_dependency_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36,7 +58,14 @@ Continue
 [DDIC - Dictionary DDL for Defining Dependency Rules](javascript:call_link\('abenddic_define_dependency_rule.htm'\))
 
 
+
+**📖 Source**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_dependency_rules.htm)
+
 ### abenddic_define_dependency_rule.htm
+
+> **📖 Official SAP Documentation**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_define_dependency_rule.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61,7 +90,14 @@ Continue
 [DDIC DDL - DEFINE DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_drul.htm'\))
 
 
+
+**📖 Source**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_define_dependency_rule.htm)
+
 ### abenddicddl_define_drul.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_drul.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -114,7 +150,14 @@ Continue
 [DDIC DDL - DEFINE JOIN DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_join_drul.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_drul.htm)
+
 ### abenddicddl_define_filter_drul.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_filter_drul.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_filter_drul.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -242,7 +285,14 @@ ASSERT result1 = result2.
 If the data in the DDIC database table is structured so that in rows where the column VALUE contains values greater than or equal to 30 the values in the column AREA are greater than or equal to 3, the result sets of both reads are identical. To derive an additional condition with a dependency on the condition value < 40, a further filter dependency rule could be defined for the same DDIC database table.
 
 
+
+**📖 Source**: [abenddicddl_define_filter_drul.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_filter_drul.htm)
+
 ### abenddicddl_define_join_drul.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_join_drul.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_join_drul.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -347,7 +397,14 @@ AND demo\_parts\_4~area <  4
 If the data in the DDIC database tables is structured correctly, the dependency rules do not modify the result set.
 
 
+
+**📖 Source**: [abenddicddl_define_join_drul.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_join_drul.htm)
+
 ### abenddicddl_define_drul.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_drul.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -400,7 +457,17 @@ Continue
 [DDIC DDL - DEFINE JOIN DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_join_drul.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_drul.htm)
+
 ### abenddic_define_dependency_rule.htm
+
+> **📖 Official SAP Documentation**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_define_dependency_rule.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_define_dependency_rule.htm)
+
 
   
 

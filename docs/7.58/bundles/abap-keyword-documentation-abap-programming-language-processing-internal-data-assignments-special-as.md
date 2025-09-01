@@ -3,7 +3,31 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_data_move.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_move.htm)
+- [abapmove_multiples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_multiples.htm)
+- [abapunpack.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapunpack.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.985Z
+
+---
+
 ### abenabap_data_move.htm
+
+> **📖 Official SAP Documentation**: [abenabap_data_move.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_move.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_data_move.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_move.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27,7 +51,18 @@ Continue
 [UNPACK](javascript:call_link\('abapunpack.htm'\))
 
 
+
+**📖 Source**: [abenabap_data_move.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_move.htm)
+
 ### abapmove_multiples.htm
+
+> **📖 Official SAP Documentation**: [abapmove_multiples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_multiples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapmove_multiples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_multiples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -72,7 +107,21 @@ name = \`Hugo\`.
 name3 = name2 = name1 = name.
 
 
+
+**📖 Source**: [abapmove_multiples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_multiples.htm)
+
 ### abapunpack.htm
+
+> **📖 Official SAP Documentation**: [abapunpack.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapunpack.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapunpack.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapunpack.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapunpack.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapunpack.htm)
+
 
   
 

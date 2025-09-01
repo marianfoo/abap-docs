@@ -10,8 +10,7 @@ ABAP Language Versions, Release Contracts and Released APIs
 
 ABAP can be developed on an [ABAP platform classic](javascript:call_link\('abenabap_platform_classic_glosry.htm'\) "Glossary Entry") or an [ABAP platform strict](javascript:call_link\('abenabap_platform_strict_glosry.htm'\) "Glossary Entry"). Especially for [strict ABAP](javascript:call_link\('abenstrict_abap_glosry.htm'\) "Glossary Entry"), the following subjects are important:
 
--   [ABAP Language Versions](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_1)
--   [Release Contracts](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_2)
+-   [ABAP Language Versions](#abenabap-versions-and-apis-1-------release-contracts---@ITOC@@ABENABAP_VERSIONS_AND_APIS_2)
 -   [Released APIs](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_3)
 
 ABAP Language Versions

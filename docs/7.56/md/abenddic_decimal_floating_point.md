@@ -10,10 +10,8 @@ DDIC - Decimal Floating Point Numbers
 
 In [decimal floating point numbers](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry"), a maximum of 16 or 34 places exactly are returned in the mantissa depending on the data type.
 
--   [Handling in ABAP Dictionary](#@@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_1)
-    -   [Decimal Floating Point Types](#@@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_2)
-    -   [Replacement Types](#@@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_3)
--   [Handling in Dynpros - Output Length and Output Style](#@@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_4)
+-   [Handling in ABAP Dictionary](#abenddic-decimal-floating-point-1-----------decimal-floating-point-types---@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_2)
+    -   [Replacement Types](#abenddic-decimal-floating-point-3-------handling-in-dynpros---output-length-and-output-style---@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_4)
 -   [Handling in ABAP Programs](#@@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_5)
 
 Handling in ABAP Dictionary

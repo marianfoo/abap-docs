@@ -3,7 +3,32 @@
 Included pages: 10
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_lists_interactive.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_lists_interactive.htm)
+- [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptop-of-page.htm)
+- [abenlist_top_of_page_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlist_top_of_page_abexa.htm)
+- [abapend-of-page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapend-of-page.htm)
+- [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_list_event.htm)
+- [abapat_line-selection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_line-selection.htm)
+- [abapat_user-command.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_user-command.htm)
+- [abapset_user-command.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_user-command.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.276Z
+
+---
+
 ### abenabap_lists_interactive.htm
+
+> **📖 Official SAP Documentation**: [abenabap_lists_interactive.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_lists_interactive.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49,7 +74,14 @@ Continue
 [SET USER-COMMAND](javascript:call_link\('abapset_user-command.htm'\))
 
 
+
+**📖 Source**: [abenabap_lists_interactive.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_lists_interactive.htm)
+
 ### abaptop-of-page.htm
+
+> **📖 Official SAP Documentation**: [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptop-of-page.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -94,7 +126,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - Page Header](javascript:call_link\('abenlist_top_of_page_abexa.htm'\))
 
 
+
+**📖 Source**: [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptop-of-page.htm)
+
 ### abenlist_top_of_page_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlist_top_of_page_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlist_top_of_page_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -142,7 +181,14 @@ This program creates a two-page list. In the self-defined page header, column he
 The alignment of the individual fields results from the ABAP default of representing character strings as left-aligned and numeric fields as right-aligned. The alignment can be adjusted using the formatting options LEFT-JUSTIFIED, RIGHT-JUSTIFIED, and CENTERED of the WRITE statement (see [WRITE - format\_options](javascript:call_link\('abapwrite_to_options.htm'\))).
 
 
+
+**📖 Source**: [abenlist_top_of_page_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlist_top_of_page_abexa.htm)
+
 ### abaptop-of-page.htm
+
+> **📖 Official SAP Documentation**: [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptop-of-page.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -187,7 +233,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - Page Header](javascript:call_link\('abenlist_top_of_page_abexa.htm'\))
 
 
+
+**📖 Source**: [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptop-of-page.htm)
+
 ### abapend-of-page.htm
+
+> **📖 Official SAP Documentation**: [abapend-of-page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapend-of-page.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -259,7 +312,14 @@ START-OF-SELECTION.
   ENDLOOP.
 
 
+
+**📖 Source**: [abapend-of-page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapend-of-page.htm)
+
 ### abapat_list_event.htm
+
+> **📖 Official SAP Documentation**: [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_list_event.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -341,7 +401,14 @@ Continue
 [AT USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\))
 
 
+
+**📖 Source**: [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_list_event.htm)
+
 ### abapat_line-selection.htm
+
+> **📖 Official SAP Documentation**: [abapat_line-selection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_line-selection.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -385,7 +452,14 @@ AT LINE-SELECTION.
   ENDIF.
 
 
+
+**📖 Source**: [abapat_line-selection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_line-selection.htm)
+
 ### abapat_user-command.htm
+
+> **📖 Official SAP Documentation**: [abapat_user-command.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_user-command.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -583,7 +657,14 @@ AT USER-COMMAND.
   ENDCASE.
 
 
+
+**📖 Source**: [abapat_user-command.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_user-command.htm)
+
 ### abapat_list_event.htm
+
+> **📖 Official SAP Documentation**: [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_list_event.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -665,7 +746,17 @@ Continue
 [AT USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\))
 
 
+
+**📖 Source**: [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_list_event.htm)
+
 ### abapset_user-command.htm
+
+> **📖 Official SAP Documentation**: [abapset_user-command.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_user-command.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapset_user-command.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_user-command.htm)
+
 
   
 

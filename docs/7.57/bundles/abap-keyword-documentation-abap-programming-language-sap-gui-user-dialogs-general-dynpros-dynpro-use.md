@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_dynpros_gui.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_gui.htm)
+- [abendynpro_gui_status_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_gui_status_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.280Z
+
+---
+
 ### abenabap_dynpros_gui.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_gui.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_gui.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32,7 +51,17 @@ Continue
 ![Example](exa.gif "Example") [dynpro - GUI Statuses and Function Codes](javascript:call_link\('abendynpro_gui_status_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_gui.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_gui.htm)
+
 ### abendynpro_gui_status_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_gui_status_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_gui_status_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abendynpro_gui_status_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_gui_status_abexa.htm)
+
 
   
 

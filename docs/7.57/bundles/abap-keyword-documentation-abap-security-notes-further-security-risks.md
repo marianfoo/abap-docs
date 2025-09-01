@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenother_programming_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenother_programming_scrty.htm)
+- [abenauthority_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenauthority_scrty.htm)
+- [abenuser_dependent_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuser_dependent_scrty.htm)
+- [abensystem_dependent_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_dependent_scrty.htm)
+- [abenclient_dependent_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_dependent_scrty.htm)
+- [abenobscure_code_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobscure_code_scrty.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.291Z
+
+---
+
 ### abenother_programming_scrty.htm
+
+> **📖 Official SAP Documentation**: [abenother_programming_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenother_programming_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32,7 +55,14 @@ Continue
 [Obscuring ABAP Source Code](javascript:call_link\('abenobscure_code_scrty.htm'\))
 
 
+
+**📖 Source**: [abenother_programming_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenother_programming_scrty.htm)
+
 ### abenauthority_scrty.htm
+
+> **📖 Official SAP Documentation**: [abenauthority_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenauthority_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -78,7 +108,14 @@ IF sy-subrc <> 0.
 ENDIF.
 
 
+
+**📖 Source**: [abenauthority_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenauthority_scrty.htm)
+
 ### abenuser_dependent_scrty.htm
+
+> **📖 Official SAP Documentation**: [abenuser_dependent_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuser_dependent_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -126,7 +163,14 @@ IF sy-subrc <> 0.
 ENDIF.
 
 
+
+**📖 Source**: [abenuser_dependent_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuser_dependent_scrty.htm)
+
 ### abensystem_dependent_scrty.htm
+
+> **📖 Official SAP Documentation**: [abensystem_dependent_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_dependent_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -152,7 +196,14 @@ As a [user-specific program flow](javascript:call_link\('abenuser_dependent_scrt
 It is possible to define additional system fields, for which this check is performed, by implementing [BAdI](javascript:call_link\('abenbadi_glosry.htm'\) "Glossary Entry") SLIN\_BADI\_SEC\_BACKDOOR.
 
 
+
+**📖 Source**: [abensystem_dependent_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_dependent_scrty.htm)
+
 ### abenclient_dependent_scrty.htm
+
+> **📖 Official SAP Documentation**: [abenclient_dependent_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_dependent_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -190,7 +241,17 @@ SELECT \*
 cl\_demo\_output=>display( customers ).
 
 
+
+**📖 Source**: [abenclient_dependent_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_dependent_scrty.htm)
+
 ### abenobscure_code_scrty.htm
+
+> **📖 Official SAP Documentation**: [abenobscure_code_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobscure_code_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenobscure_code_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobscure_code_scrty.htm)
+
 
   
 

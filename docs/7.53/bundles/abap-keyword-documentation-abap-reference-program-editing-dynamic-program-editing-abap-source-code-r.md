@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapread_report.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_report.htm)
+- [abapread_report_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_report_internal.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.222Z
+
+---
+
 ### abapread_report.htm
+
+> **📖 Official SAP Documentation**: [abapread_report.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_report.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -142,7 +161,17 @@ Continue
 [READ REPORT - Internal Addition](javascript:call_link\('abapread_report_internal.htm'\))
 
 
+
+**📖 Source**: [abapread_report.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_report.htm)
+
 ### abapread_report_internal.htm
+
+> **📖 Official SAP Documentation**: [abapread_report_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_report_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapread_report_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_report_internal.htm)
+
 
   
 

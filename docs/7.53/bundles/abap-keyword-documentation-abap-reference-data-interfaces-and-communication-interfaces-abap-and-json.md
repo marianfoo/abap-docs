@@ -3,7 +3,39 @@
 Included pages: 18
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_json_trafos.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_trafos.htm)
+- [abenabap_json_trafos_self.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_trafos_self.htm)
+- [abenabap_json_trafo_id.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_trafo_id.htm)
+- [abenabap_asjson.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson.htm)
+- [abenabap_asjson_general.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_general.htm)
+- [abenabap_asjson_abap_types.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types.htm)
+- [abenabap_asjson_abap_types_elem.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types_elem.htm)
+- [abenabap_asjson_abap_types_struc.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types_struc.htm)
+- [abenabap_asjson_abap_types_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types_table.htm)
+- [abenabap_asjson_abap_types_enum.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types_enum.htm)
+- [abenabap_asxml_references.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asxml_references.htm)
+- [abenabap_asjson_reference_var.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_reference_var.htm)
+- [abenabap_asjson_anonym_do.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_anonym_do.htm)
+- [abenabap_asjson_class_instances.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_class_instances.htm)
+- [abenabap_asjson_schema.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_schema.htm)
+
+**Bundle Contains**: 15 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.182Z
+
+---
+
 ### abenabap_json_trafos.htm
+
+> **📖 Official SAP Documentation**: [abenabap_json_trafos.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_trafos.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45,7 +77,14 @@ Continue
 [asJSON - Canonical JSON Representation](javascript:call_link\('abenabap_asjson.htm'\))
 
 
+
+**📖 Source**: [abenabap_json_trafos.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_trafos.htm)
+
 ### abenabap_json_trafos_self.htm
+
+> **📖 Official SAP Documentation**: [abenabap_json_trafos_self.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_trafos_self.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -80,7 +119,14 @@ Executable Example
 [Simple Transformation for Internal Tables](javascript:call_link\('abenabap_st_json_table_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_json_trafos_self.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_trafos_self.htm)
+
 ### abenabap_json_trafo_id.htm
+
+> **📖 Official SAP Documentation**: [abenabap_json_trafo_id.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_trafo_id.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -131,7 +177,14 @@ Executable Examples
 -   See the [asJSON](javascript:call_link\('abenabap_asjson.htm'\)) examples.
 
 
+
+**📖 Source**: [abenabap_json_trafo_id.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_trafo_id.htm)
+
 ### abenabap_asjson.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asjson.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -165,7 +218,14 @@ Continue
 [asJSON - Mapping Additional XML Schema Data Types](javascript:call_link\('abenabap_asjson_schema.htm'\))
 
 
+
+**📖 Source**: [abenabap_asjson.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson.htm)
+
 ### abenabap_asjson_general.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asjson_general.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_general.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -197,7 +257,14 @@ Executable Example
 [asJSON, General Format](javascript:call_link\('abenabap_hello_json_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_asjson_general.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_general.htm)
+
 ### abenabap_asjson_abap_types.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asjson_abap_types.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -239,7 +306,14 @@ Continue
 [asJSON - Mapping of Reference Variables and Objects](javascript:call_link\('abenabap_asxml_references.htm'\))
 
 
+
+**📖 Source**: [abenabap_asjson_abap_types.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types.htm)
+
 ### abenabap_asjson_abap_types_elem.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asjson_abap_types_elem.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types_elem.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -268,7 +342,14 @@ Executable Example
 [asJSON for Elementary ABAP Types](javascript:call_link\('abenabap_json_asjson_elem_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_asjson_abap_types_elem.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types_elem.htm)
+
 ### abenabap_asjson_abap_types_struc.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asjson_abap_types_struc.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types_struc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -291,7 +372,14 @@ Executable Example
 [asJSON for Structures](javascript:call_link\('abenabap_json_asjson_struc_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_asjson_abap_types_struc.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types_struc.htm)
+
 ### abenabap_asjson_abap_types_table.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asjson_abap_types_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -316,7 +404,14 @@ Executable Example
 [asJSON for Internal Tables](javascript:call_link\('abenabap_json_asjson_table_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_asjson_abap_types_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types_table.htm)
+
 ### abenabap_asjson_abap_types_enum.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asjson_abap_types_enum.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types_enum.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -365,7 +460,14 @@ The output is:
 }
 
 
+
+**📖 Source**: [abenabap_asjson_abap_types_enum.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types_enum.htm)
+
 ### abenabap_asxml_references.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asxml_references.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asxml_references.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -407,7 +509,14 @@ Continue
 [asXML - Instances of Classes](javascript:call_link\('abenabap_asjson_class_instances.htm'\))
 
 
+
+**📖 Source**: [abenabap_asxml_references.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asxml_references.htm)
+
 ### abenabap_asjson_reference_var.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asjson_reference_var.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_reference_var.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -432,7 +541,14 @@ Executable Example
 [Serializing Data References](javascript:call_link\('abenserialize_dref_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_asjson_reference_var.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_reference_var.htm)
+
 ### abenabap_asjson_anonym_do.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asjson_anonym_do.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_anonym_do.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -468,7 +584,14 @@ Executable Example
 [asJSON for Anonymous Data Objects](javascript:call_link\('abenabap_json_asjson_dref_abexa.htm'\)).
 
 
+
+**📖 Source**: [abenabap_asjson_anonym_do.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_anonym_do.htm)
+
 ### abenabap_asjson_class_instances.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asjson_class_instances.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_class_instances.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -508,7 +631,14 @@ Executable Example
 [asJSON for Object References](javascript:call_link\('abenabap_json_asjson_oref_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_asjson_class_instances.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_class_instances.htm)
+
 ### abenabap_asxml_references.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asxml_references.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asxml_references.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -550,7 +680,14 @@ Continue
 [asXML - Instances of Classes](javascript:call_link\('abenabap_asjson_class_instances.htm'\))
 
 
+
+**📖 Source**: [abenabap_asxml_references.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asxml_references.htm)
+
 ### abenabap_asjson_abap_types.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asjson_abap_types.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -592,7 +729,14 @@ Continue
 [asJSON - Mapping of Reference Variables and Objects](javascript:call_link\('abenabap_asxml_references.htm'\))
 
 
+
+**📖 Source**: [abenabap_asjson_abap_types.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_abap_types.htm)
+
 ### abenabap_asjson_schema.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asjson_schema.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_schema.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -617,7 +761,17 @@ Executable Example
 [asJSON for Additional XML Schema Data Types](javascript:call_link\('abenabap_json_asjson_xsd_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_asjson_schema.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_schema.htm)
+
 ### abenabap_asjson.htm
+
+> **📖 Official SAP Documentation**: [abenabap_asjson.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabap_asjson.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson.htm)
+
 
   
 

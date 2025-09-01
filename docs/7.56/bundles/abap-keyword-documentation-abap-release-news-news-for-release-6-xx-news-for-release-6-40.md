@@ -3,7 +3,38 @@
 Included pages: 14
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-640.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640.htm)
+- [abennews-640-objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-objects.htm)
+- [abennews-640-shared_objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-shared_objects.htm)
+- [abennews-640-create.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-create.htm)
+- [abennews-640-field_symbols.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-field_symbols.htm)
+- [abennews-640-selection_screens.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-selection_screens.htm)
+- [abennews-640-sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-sql.htm)
+- [abennews-640-dataset.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-dataset.htm)
+- [abennews-640-datacluster.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-datacluster.htm)
+- [abennews-640-rtti.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-rtti.htm)
+- [abennews-640-lists.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-lists.htm)
+- [abennews-640-external.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-external.htm)
+- [abennews-640-tools.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-tools.htm)
+- [abennews-640-others.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-others.htm)
+
+**Bundle Contains**: 14 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.512Z
+
+---
+
 ### abennews-640.htm
+
+> **📖 Official SAP Documentation**: [abennews-640.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47,7 +78,14 @@ Continue
 [Further Changes in Release 6.40](javascript:call_link\('abennews-640-others.htm'\))
 
 
+
+**📖 Source**: [abennews-640.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640.htm)
+
 ### abennews-640-objects.htm
+
+> **📖 Official SAP Documentation**: [abennews-640-objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -93,7 +131,14 @@ Unused Private Components
 From Release 6.40, all unused private components of a class produce a warning in the extended program check. Private methods must be called and private events must be both raised and handled.
 
 
+
+**📖 Source**: [abennews-640-objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-objects.htm)
+
 ### abennews-640-shared_objects.htm
+
+> **📖 Official SAP Documentation**: [abennews-640-shared_objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-shared_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -120,7 +165,14 @@ Transaction SHMA manages the [areas](javascript:call_link\('abenarea_glosry.htm'
 For more details, see [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)).
 
 
+
+**📖 Source**: [abennews-640-shared_objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-shared_objects.htm)
+
 ### abennews-640-create.htm
+
+> **📖 Official SAP Documentation**: [abennews-640-create.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-create.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -163,7 +215,14 @@ Reference to a Generic Table Type in CREATE DATA
 Previously, only non-generic table types could be specified in [CREATE DATA - TYPE](javascript:call_link\('abapcreate_data_existing.htm'\)). As of Release 6.40, table types with generic keys can also be specified. In this case, a new linked table type with a standard key is created and used.
 
 
+
+**📖 Source**: [abennews-640-create.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-create.htm)
+
 ### abennews-640-field_symbols.htm
+
+> **📖 Official SAP Documentation**: [abennews-640-field_symbols.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-field_symbols.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -184,7 +243,14 @@ The new addition [HANDLE](javascript:call_link\('abapassign_casting.htm'\)) of t
 From Release 6.40, the RTTS classes contain methods for creating type description objects independently of existing types (refer to [Runtime Type Services for Release 6.40](javascript:call_link\('abennews-640-rtti.htm'\))). Together with the addition HANDLE, this makes it possible to cast to any existing or dynamically created types at program runtime.
 
 
+
+**📖 Source**: [abennews-640-field_symbols.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-field_symbols.htm)
+
 ### abennews-640-selection_screens.htm
+
+> **📖 Official SAP Documentation**: [abennews-640-selection_screens.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-selection_screens.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -203,7 +269,14 @@ Arrangement of Radio Buttons
 From Release 6.40, the addition [RADIOBUTTON](javascript:call_link\('abapparameters_screen.htm'\)) of the statement [PARAMETERS](javascript:call_link\('abapparameters_screen.htm'\)) displays defined radio buttons in the first position of the selection screen and the associated text on the right. Before Release 6.40, radio buttons were displayed on the right of the text.
 
 
+
+**📖 Source**: [abennews-640-selection_screens.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-selection_screens.htm)
+
 ### abennews-640-sql.htm
+
+> **📖 Official SAP Documentation**: [abennews-640-sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-sql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -246,7 +319,14 @@ Hint
 This change was also transported back to Release 6.20.
 
 
+
+**📖 Source**: [abennews-640-sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-sql.htm)
+
 ### abennews-640-dataset.htm
+
+> **📖 Official SAP Documentation**: [abennews-640-dataset.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-dataset.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -281,7 +361,14 @@ Change to the addition POSITION END-OF-FILE
 In the statement [SET DATASET](javascript:call_link\('abapset_dataset.htm'\)), the name of the addition POSITION END-OF-FILE has been changed to POSITION END OF FILE for consistency. The END-OF-FILE spelling is still supported for compatibility reasons, but is no longer documented and no longer recommended.
 
 
+
+**📖 Source**: [abennews-640-dataset.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-dataset.htm)
+
 ### abennews-640-datacluster.htm
+
+> **📖 Official SAP Documentation**: [abennews-640-datacluster.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-datacluster.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -320,7 +407,14 @@ Stricter Structure Check in IMPORT
 The rule that structures and substructures (in the addition ACCEPTING PADDING) in a target structure in the statement [IMPORT](javascript:call_link\('abapimport_parameterlist.htm'\)) can have more components than the source structure can lead to problems in references to the structures defined in ABAP Dictionary, if the structure is indicated there as extensible. From Release 6.40, this situation can therefore produce a warning from the extended program check.
 
 
+
+**📖 Source**: [abennews-640-datacluster.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-datacluster.htm)
+
 ### abennews-640-rtti.htm
+
+> **📖 Official SAP Documentation**: [abennews-640-rtti.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-rtti.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -431,7 +525,14 @@ New Method GET\_DATA\_TYPE\_KIND
 A new public method GET\_DATA\_TYPE\_KIND has been introduced in class CL\_ABAP\_DATADESCR. This method returns the same values as the statement [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)) with the addition TYPE. These values are also defined as constants with the prefix TYPE\_KIND\_ of class CL\_ABAP\_DATADESCR.
 
 
+
+**📖 Source**: [abennews-640-rtti.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-rtti.htm)
+
 ### abennews-640-lists.htm
+
+> **📖 Official SAP Documentation**: [abennews-640-lists.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-lists.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -460,7 +561,14 @@ Hint
 These changes were also downported to Release 6.20.
 
 
+
+**📖 Source**: [abennews-640-lists.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-lists.htm)
+
 ### abennews-640-external.htm
+
+> **📖 Official SAP Documentation**: [abennews-640-external.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-external.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -499,7 +607,14 @@ Control Options for Transformations
 In [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)), the addition OPTIONS can be used to specify control options for the called transformations.
 
 
+
+**📖 Source**: [abennews-640-external.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-external.htm)
+
 ### abennews-640-tools.htm
+
+> **📖 Official SAP Documentation**: [abennews-640-tools.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-tools.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -578,7 +693,17 @@ When measuring [BSP](javascript:call_link\('abenbusiness_server_pages_glosry.htm
 The class CL\_ABAP\_RUNTIME provides methods for creating objects. The method GET\_RUNTIME can be used to execute multiple runtime measurements with different resolutions and parallel measurements (see [Class for Runtime Measurements](javascript:call_link\('abencl_abap_runtime.htm'\))).
 
 
+
+**📖 Source**: [abennews-640-tools.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-tools.htm)
+
 ### abennews-640-others.htm
+
+> **📖 Official SAP Documentation**: [abennews-640-others.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-others.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-640-others.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-640-others.htm)
+
 
   
 

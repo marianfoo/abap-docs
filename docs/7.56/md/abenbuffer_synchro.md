@@ -8,8 +8,7 @@ AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
 Table Buffering - Buffer Synchronization
 
--   [Invalidating and Updating](#@@ITOC@@ABENBUFFER_SYNCHRO_1)
--   [Displacement](#@@ITOC@@ABENBUFFER_SYNCHRO_2)
+-   [Invalidating and Updating](#abenbuffer-synchro-1-------displacement---@ITOC@@ABENBUFFER_SYNCHRO_2)
 -   [Resetting the Buffer](#@@ITOC@@ABENBUFFER_SYNCHRO_3)
 
 Invalidating and Updating

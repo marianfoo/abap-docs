@@ -15,16 +15,8 @@ The following sections list the most important [C0 contract](javascript:call_lin
 
 The general rules for [CDS service definition extensions](javascript:call_link\('abencds_service_def_ext_glosry.htm'\) "Glossary Entry") are described in topic [CDS SDL - EXTEND SERVICE](javascript:call_link\('abensrvd_extend_service.htm'\)).
 
--   [C0 Contract Rules for Providers of CDS Service Definitions](#@@ITOC@@ABENC0_CONTRACT_RULES_SD_1)
--   [C0 Contract Rules for Consumers of CDS Service Definitions](#@@ITOC@@ABENC0_CONTRACT_RULES_SD_2)
--   [Example: C0 Released CDS Service Definition, Design and Consumption](#@@ITOC@@ABENC0_CONTRACT_RULES_SD_3)
-
-C0 Contract Rules for Providers of CDS Service Definitions   
-
-Prerequisites for a C0 Release
-
--   A provider contract must be set using the syntax statement [PROVIDER CONTRACT](javascript:call_link\('abensrvd_provider_contract.htm'\)).
--   The annotation [@AbapCatalog.extensibility.extensible: true](javascript:call_link\('abencds_define_service_annos.htm'\)) must be set.
+-   [C0 Contract Rules for Providers of CDS Service Definitions](#abenc0-contract-rules-sd-1-------c0-contract-rules-for-consumers-of-cds-service-definitions---@ITOC@@ABENC0_CONTRACT_RULES_SD_2)
+-   [Example: C0 Released CDS Service Definition, Design and Consumption](#abenc0-contract-rules-sd-3---c0-contract-rules-for-providers-of-cds-service-definitions-----prerequisites-for-a-c0-release------a-provider-contract-must-be-set-using-the-syntax-statement--provider-contract--javascript-call-link---abensrvd-provider-contract-htm----------the-annotation--AbapCatalog.extensibility.extensible: true](javascript:call_link\('abencds_define_service_annos.htm'\)) must be set.
 -   The C0 release is possible only if all exposed entities use the correct [namespace](javascript:call_link\('abennames_repos_obj_guidl.htm'\) "Guideline") prefix. For repository objects developed in an SAP system, this means that the entity names must not start with YY or ZZ.
 
 Stability Rules After Release

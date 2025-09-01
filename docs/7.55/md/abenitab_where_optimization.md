@@ -36,9 +36,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 
 The following sections describe exactly when an access can be optimized.
 
--   [Prerequisites for the Optimization of Hash Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_1)
-
--   [Prerequisites for the Optimization of Sorted Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
+-   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1--------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
 
 -   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
 

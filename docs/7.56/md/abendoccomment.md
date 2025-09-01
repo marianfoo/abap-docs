@@ -10,12 +10,9 @@ ABAP Doc
 
 ABAP Doc allows [declarations](javascript:call_link\('abendeclaration_glosry.htm'\) "Glossary Entry") in ABAP programs to be documented, based on special ABAP Doc comments. In tools of an [ABAP development environment](javascript:call_link\('abenabap_dev_envir_glosry.htm'\) "Glossary Entry"), such as [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), that support [ABAP Doc](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), the content of ABAP Doc comments is evaluated, converted to HTML, and then displayed appropriately.
 
--   [ABAP Doc Comments](#@@ITOC@@ABENDOCCOMMENT_1)
--   [Parameter Interface of Procedures](#@@ITOC@@ABENDOCCOMMENT_2)
--   [Formatting](#@@ITOC@@ABENDOCCOMMENT_3)
--   [Short Texts and Their Synchronization](#@@ITOC@@ABENDOCCOMMENT_4)
--   [Documentation Links](#@@ITOC@@ABENDOCCOMMENT_5)
--   [Test Relations](#@@ITOC@@ABENDOCCOMMENT_6)
+-   [ABAP Doc Comments](#abendoccomment-1-------parameter-interface-of-procedures---@ITOC@@ABENDOCCOMMENT_2)
+-   [Formatting](#abendoccomment-3-------short-texts-and-their-synchronization---@ITOC@@ABENDOCCOMMENT_4)
+-   [Documentation Links](#abendoccomment-5-------test-relations---@ITOC@@ABENDOCCOMMENT_6)
 
 ABAP Doc Comments
 

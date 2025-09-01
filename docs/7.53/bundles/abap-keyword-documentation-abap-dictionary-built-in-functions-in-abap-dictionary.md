@@ -3,7 +3,33 @@
 Included pages: 12
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_builtin_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_functions.htm)
+- [abensql_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions.htm)
+- [abensql_functions_numeric.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_numeric.htm)
+- [abensql_functions_string.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_string.htm)
+- [abensql_function_upper_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_function_upper_abexa.htm)
+- [abensql_functions_null.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_null.htm)
+- [abenddic_special_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_functions.htm)
+- [abenddic_conversion_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_conversion_functions.htm)
+- [abenddic_date_time_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_functions.htm)
+
+**Bundle Contains**: 9 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.143Z
+
+---
+
 ### abenddic_builtin_functions.htm
+
+> **📖 Official SAP Documentation**: [abenddic_builtin_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28,7 +54,14 @@ Continue
 [Special Functions](javascript:call_link\('abenddic_special_functions.htm'\))
 
 
+
+**📖 Source**: [abenddic_builtin_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_functions.htm)
+
 ### abensql_functions.htm
+
+> **📖 Official SAP Documentation**: [abensql_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60,7 +93,14 @@ Continue
 [SQL Functions for Null Values](javascript:call_link\('abensql_functions_null.htm'\))
 
 
+
+**📖 Source**: [abensql_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions.htm)
+
 ### abensql_functions_numeric.htm
+
+> **📖 Official SAP Documentation**: [abensql_functions_numeric.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_numeric.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -205,7 +245,14 @@ MOD
 \-1
 
 
+
+**📖 Source**: [abensql_functions_numeric.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_numeric.htm)
+
 ### abensql_functions_string.htm
+
+> **📖 Official SAP Documentation**: [abensql_functions_string.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_string.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -379,7 +426,14 @@ Continue
 ![Example](exa.gif "Example") [SQL Function UPPER](javascript:call_link\('abensql_function_upper_abexa.htm'\))
 
 
+
+**📖 Source**: [abensql_functions_string.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_string.htm)
+
 ### abensql_function_upper_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_function_upper_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_function_upper_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -453,7 +507,14 @@ Another SELECT statement uses the SQL function UPPER directly to access the same
 Since SQL functions cannot yet be used on the left side of LIKE in the DDL of the ABAP CDS, the view returns a help field, which is evaluated in ABAP SQL. The results are the same. The search effected by the examples is not case-sensitive.
 
 
+
+**📖 Source**: [abensql_function_upper_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_function_upper_abexa.htm)
+
 ### abensql_functions_string.htm
+
+> **📖 Official SAP Documentation**: [abensql_functions_string.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_string.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -627,7 +688,14 @@ Continue
 ![Example](exa.gif "Example") [SQL Function UPPER](javascript:call_link\('abensql_function_upper_abexa.htm'\))
 
 
+
+**📖 Source**: [abensql_functions_string.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_string.htm)
+
 ### abensql_functions_null.htm
+
+> **📖 Official SAP Documentation**: [abensql_functions_null.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_null.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -664,7 +732,14 @@ x
 Descriptions of the potential operands and data types can be found in the corresponding documentation for [ABAP CDS](javascript:call_link\('abencds_f1_coalesce_expression.htm'\)) and [ABAP SQL](javascript:call_link\('abensql_coalesce.htm'\)).
 
 
+
+**📖 Source**: [abensql_functions_null.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions_null.htm)
+
 ### abensql_functions.htm
+
+> **📖 Official SAP Documentation**: [abensql_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -696,7 +771,14 @@ Continue
 [SQL Functions for Null Values](javascript:call_link\('abensql_functions_null.htm'\))
 
 
+
+**📖 Source**: [abensql_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_functions.htm)
+
 ### abenddic_special_functions.htm
+
+> **📖 Official SAP Documentation**: [abenddic_special_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -719,7 +801,14 @@ Continue
 [Date Functions and Time Functions](javascript:call_link\('abenddic_date_time_functions.htm'\))
 
 
+
+**📖 Source**: [abenddic_special_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_functions.htm)
+
 ### abenddic_conversion_functions.htm
+
+> **📖 Official SAP Documentation**: [abenddic_conversion_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_conversion_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -792,7 +881,14 @@ Setting the decimal separator.
 Descriptions of the potential operands and data types and how they work can be found in the corresponding documentation for [ABAP CDS](javascript:call_link\('abencds_f1_conversion_functions.htm'\)) and [ABAP SQL](javascript:call_link\('abenopen_sql_conversion_functions.htm'\)).
 
 
+
+**📖 Source**: [abenddic_conversion_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_conversion_functions.htm)
+
 ### abenddic_date_time_functions.htm
+
+> **📖 Official SAP Documentation**: [abenddic_date_time_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -937,7 +1033,17 @@ User time zone in AS ABAP.
 Descriptions of the potential operands and data types can be found in the corresponding documentation for [ABAP CDS](javascript:call_link\('abencds_f1_date_time_functions.htm'\)) and [ABAP SQL](javascript:call_link\('abenopen_sql_date_time_functions.htm'\)).
 
 
+
+**📖 Source**: [abenddic_date_time_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_functions.htm)
+
 ### abenddic_special_functions.htm
+
+> **📖 Official SAP Documentation**: [abenddic_special_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_special_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_special_functions.htm)
+
 
   
 

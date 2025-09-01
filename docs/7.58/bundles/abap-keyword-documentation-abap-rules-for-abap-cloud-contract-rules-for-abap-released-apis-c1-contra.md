@@ -3,7 +3,41 @@
 Included pages: 15
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenc1_contract_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_contract_rules.htm)
+- [abenc1_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules.htm)
+- [abenc1_provider_rules_elem.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_elem.htm)
+- [abenc1_provider_rules_ddic.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_ddic.htm)
+- [abenc1_provider_rules_cds_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_cds_type.htm)
+- [abenc1_provider_rules_cds_func.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_cds_func.htm)
+- [abenc1_provider_rules_cds.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_cds.htm)
+- [abenc1_provider_rules_rap.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_rap.htm)
+- [abenc1_provider_rules_abap.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_abap.htm)
+- [abenc1_consumer_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules.htm)
+- [abenc1_consumer_rules_elem.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules_elem.htm)
+- [abenc1_consumer_rules_struct.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules_struct.htm)
+- [abenc1_demo_1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_demo_1.htm)
+
+**Bundle Contains**: 13 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:29.020Z
+
+---
+
 ### abenc1_contract_rules.htm
+
+> **📖 Official SAP Documentation**: [abenc1_contract_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_contract_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_contract_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_contract_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +63,18 @@ Continue
 [C1 Contract Rules for API Consumers](javascript:call_link\('abenc1_consumer_rules.htm'\))
 
 
+
+**📖 Source**: [abenc1_contract_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_contract_rules.htm)
+
 ### abenc1_provider_rules.htm
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -65,7 +110,18 @@ Continue
 [C1 Contract Rules for Providing Objects Implemented in ABAP](javascript:call_link\('abenc1_provider_rules_abap.htm'\))
 
 
+
+**📖 Source**: [abenc1_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules.htm)
+
 ### abenc1_provider_rules_elem.htm
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_elem.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_elem.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_elem.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_elem.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -114,7 +170,18 @@ A provider of an elementary type must obey the following rules:
     The number of decimal places must not be decreased.
 
 
+
+**📖 Source**: [abenc1_provider_rules_elem.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_elem.htm)
+
 ### abenc1_provider_rules_ddic.htm
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_ddic.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_ddic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_ddic.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_ddic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -159,7 +226,18 @@ A provider of DDIC objects must obey the following rules:
     DDIC views cannot be released with a C1 contract.
 
 
+
+**📖 Source**: [abenc1_provider_rules_ddic.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_ddic.htm)
+
 ### abenc1_provider_rules_cds_type.htm
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_cds_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_cds_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_cds_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_cds_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -204,7 +282,18 @@ The following changes are allowed for user-defined types that are released with 
 -   Changing the sequence of enumerated constants of a CDS enumerated type is allowed.
 
 
+
+**📖 Source**: [abenc1_provider_rules_cds_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_cds_type.htm)
+
 ### abenc1_provider_rules_cds_func.htm
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_cds_func.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_cds_func.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_cds_func.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_cds_func.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -249,7 +338,18 @@ A provider of a [CDS scalar function](javascript:call_link\('abencds_scalar_func
     -   The type of implementation, that is, the runtime environment to which the scalar function in question is bound, must not be changed.
 
 
+
+**📖 Source**: [abenc1_provider_rules_cds_func.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_cds_func.htm)
+
 ### abenc1_provider_rules_cds.htm
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_cds.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_cds.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_cds.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_cds.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -280,7 +380,18 @@ A provider of ABAP CDS objects must obey the following rules:
     -   Changes to the elementary data types of elements and parameters are allowed but must follow the [rules for elementary data types](javascript:call_link\('abenc1_provider_rules_elem.htm'\)).
 
 
+
+**📖 Source**: [abenc1_provider_rules_cds.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_cds.htm)
+
 ### abenc1_provider_rules_rap.htm
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_rap.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_rap.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_rap.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_rap.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -302,7 +413,18 @@ A provider of [RAP behavior definitions](javascript:call_link\('abencds_behavior
 -   Parameters and results of actions and functions must be DDIC data elements or CDS entities.
 
 
+
+**📖 Source**: [abenc1_provider_rules_rap.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_rap.htm)
+
 ### abenc1_provider_rules_abap.htm
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_abap.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_abap.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules_abap.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_abap.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -353,7 +475,18 @@ Others than the following objects cannot be classified with the C1 contract.
     -   Exceptions cannot be added and non-class-based exceptions must not be deleted.
 
 
+
+**📖 Source**: [abenc1_provider_rules_abap.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules_abap.htm)
+
 ### abenc1_provider_rules.htm
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -389,7 +522,18 @@ Continue
 [C1 Contract Rules for Providing Objects Implemented in ABAP](javascript:call_link\('abenc1_provider_rules_abap.htm'\))
 
 
+
+**📖 Source**: [abenc1_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_provider_rules.htm)
+
 ### abenc1_consumer_rules.htm
+
+> **📖 Official SAP Documentation**: [abenc1_consumer_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_consumer_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -422,7 +566,18 @@ Continue
 [Example: Consumption of APIs with C1 Contract](javascript:call_link\('abenc1_demo_1.htm'\))
 
 
+
+**📖 Source**: [abenc1_consumer_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules.htm)
+
 ### abenc1_consumer_rules_elem.htm
+
+> **📖 Official SAP Documentation**: [abenc1_consumer_rules_elem.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules_elem.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_consumer_rules_elem.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules_elem.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -479,7 +634,18 @@ Operations with Structures  
 Changing the data type of a component of a structure changes the [technical type](javascript:call_link\('abentechnical_type_prpt_glosry.htm'\) "Glossary Entry") of the complete structure. This has a large impact since there are many operand positions, where compatibility is required for structures and generally, the same errors can occur that result from changing the elements of structures described below and the same mitigations apply.
 
 
+
+**📖 Source**: [abenc1_consumer_rules_elem.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules_elem.htm)
+
 ### abenc1_consumer_rules_struct.htm
+
+> **📖 Official SAP Documentation**: [abenc1_consumer_rules_struct.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules_struct.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_consumer_rules_struct.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules_struct.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -517,7 +683,18 @@ Mitigation
 No passing of released structures to remote RFMs.
 
 
+
+**📖 Source**: [abenc1_consumer_rules_struct.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules_struct.htm)
+
 ### abenc1_demo_1.htm
+
+> **📖 Official SAP Documentation**: [abenc1_demo_1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_demo_1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_demo_1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_demo_1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -589,7 +766,21 @@ SELECT single \*
        into @struc2.
 
 
+
+**📖 Source**: [abenc1_demo_1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_demo_1.htm)
+
 ### abenc1_consumer_rules.htm
+
+> **📖 Official SAP Documentation**: [abenc1_consumer_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc1_consumer_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenc1_consumer_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_consumer_rules.htm)
+
 
   
 

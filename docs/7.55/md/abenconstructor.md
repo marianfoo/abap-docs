@@ -14,9 +14,7 @@ Like normal methods, there are two types of constructors: instance constructors 
 
 Special rules apply to constructors in inheritance that are not described in the following, but can be found [here](javascript:call_link\('abeninheritance_constructors.htm'\)).
 
--   [Instance Constructors](#@@ITOC@@ABENCONSTRUCTOR_1)
-
--   [Static Constructors](#@@ITOC@@ABENCONSTRUCTOR_2)
+-   [Instance Constructors](#abenconstructor-1--------static-constructors---@ITOC@@ABENCONSTRUCTOR_2)
 
 Instance Constructors
 

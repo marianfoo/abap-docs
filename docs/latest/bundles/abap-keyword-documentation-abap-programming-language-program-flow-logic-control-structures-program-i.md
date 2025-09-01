@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenwait.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwait.htm)
+- [abapwait_up_to.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwait_up_to.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.943Z
+
+---
+
 ### abenwait.htm
+
+> **📖 Official SAP Documentation**: [abenwait.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwait.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33,7 +52,17 @@ Continue
 [WAIT UP TO](javascript:call_link\('abapwait_up_to.htm'\))
 
 
+
+**📖 Source**: [abenwait.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwait.htm)
+
 ### abapwait_up_to.htm
+
+> **📖 Official SAP Documentation**: [abapwait_up_to.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwait_up_to.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapwait_up_to.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwait_up_to.htm)
+
 
   
 

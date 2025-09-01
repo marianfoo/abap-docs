@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_forkeyrel.htm)
+- [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_checktab.htm)
+- [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_forkey.htm)
+- [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_deprecation.htm)
+- [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_deprecation_abexa.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.881Z
+
+---
+
 ### abenddic_database_tables_forkeyrel.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_forkeyrel.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35,7 +57,14 @@ Continue
 [DDIC - Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_forkeyrel.htm)
+
 ### abenddic_database_tables_checktab.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_checktab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60,7 +89,14 @@ Hints
 -   A special column can be used to [flag obsolete data](javascript:call_link\('abenddic_deprecation.htm'\)) in check tables.
 
 
+
+**📖 Source**: [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_checktab.htm)
+
 ### abenddic_database_tables_forkey.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_forkey.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -147,7 +183,14 @@ Foreign keys can have the following properties:
         If this type of foreign key field is defined, the foreign key table is handled as a text table of the check table. The primary key of the foreign key table must match the check table and it must have one additional language key field with the type LANG. There can be only one text table for each check table, otherwise an activation warning occurs. The texts in a text table are used, for example, to explain input helps on dynpros and Web Dynpros.
 
 
+
+**📖 Source**: [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_forkey.htm)
+
 ### abenddic_deprecation.htm
+
+> **📖 Official SAP Documentation**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_deprecation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -210,7 +253,14 @@ Continue
 ![Example](exa.gif "Example") [DDIC - Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation_abexa.htm'\))
 
 
+
+**📖 Source**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_deprecation.htm)
+
 ### abenddic_deprecation_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_deprecation_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -272,7 +322,17 @@ If checks on deprecated data are enabled, the following takes place:
 If the checkbox Check deprecated data is not selected, no warnings or error messages are produced and the input help displays all entries from the check table DEMO\_DEPR\_CHECK.
 
 
+
+**📖 Source**: [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_deprecation_abexa.htm)
+
 ### abenddic_deprecation.htm
+
+> **📖 Official SAP Documentation**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_deprecation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_deprecation.htm)
+
 
   
 

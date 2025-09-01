@@ -13,8 +13,7 @@ Specifying Individual Operands
 
 There are three ways to specify the [names of operands](javascript:call_link\('abenoperands_names.htm'\)):
 
--   [Static Specification](#@@ITOC@@ABENOPERANDS_SPECIFYING_1)
--   [Dynamic Specification in Parentheses](#@@ITOC@@ABENOPERANDS_SPECIFYING_2)
+-   [Static Specification](#abenoperands-specifying-1-------dynamic-specification-in-parentheses---@ITOC@@ABENOPERANDS_SPECIFYING_2)
 -   [Dynamic Specification](#@@ITOC@@ABENOPERANDS_SPECIFYING_3)
 
 Static Specification   

@@ -11,8 +11,7 @@ or%20improvement:)
 
 ABAP SQL - Strict Mode in ABAP Release 7.50
 
--   [Conditions for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_750_1)
--   [Rules for the Strict Mode](#@@ITOC@@ABENABAP_SQL_STRICTMODE_750_2)
+-   [Conditions for the Strict Mode](#abenabap-sql-strictmode-750-1-------rules-for-the-strict-mode---@ITOC@@ABENABAP_SQL_STRICTMODE_750_2)
 
 Conditions for the Strict Mode   
 

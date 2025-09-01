@@ -3,7 +3,27 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenlocal_expr_declarations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlocal_expr_declarations.htm)
+- [abaplet.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplet.htm)
+- [abenlet_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlet_abexa.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.946Z
+
+---
+
 ### abenlocal_expr_declarations.htm
+
+> **📖 Official SAP Documentation**: [abenlocal_expr_declarations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlocal_expr_declarations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55,7 +75,14 @@ Continue
 [let\_exp - LET ... IN](javascript:call_link\('abaplet.htm'\))
 
 
+
+**📖 Source**: [abenlocal_expr_declarations.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlocal_expr_declarations.htm)
+
 ### abaplet.htm
+
+> **📖 Official SAP Documentation**: [abaplet.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplet.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -181,7 +208,14 @@ Continue
 ![Example](exa.gif "Example") [LET Expression](javascript:call_link\('abenlet_abexa.htm'\))
 
 
+
+**📖 Source**: [abaplet.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplet.htm)
+
 ### abenlet_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlet_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlet_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -221,7 +255,17 @@ Description
 A constructor expression with the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) constructs rows in an internal table. The value of the local auxiliary variable it is passed to the table.
 
 
+
+**📖 Source**: [abenlet_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlet_abexa.htm)
+
 ### abaplet.htm
+
+> **📖 Official SAP Documentation**: [abaplet.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplet.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abaplet.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplet.htm)
+
 
   
 

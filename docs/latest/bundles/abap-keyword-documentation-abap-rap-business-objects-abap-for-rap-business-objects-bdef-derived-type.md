@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
+- [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.958Z
+
+---
+
 ### abaptype_table_for.htm
+
+> **📖 Official SAP Documentation**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -430,7 +449,17 @@ Continue
 ![Example](exa.gif "Example") [Using TYPE TABLE/TYPE STRUCTURE FOR HIERARCHY](javascript:call_link\('abenderived_type_hierarchy_abexa.htm'\))
 
 
+
+**📖 Source**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
+
 ### abenderived_type_hierarchy_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
+
 
   
 

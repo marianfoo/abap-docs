@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenc0_contract_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_contract_rules_bdef.htm)
+- [abenc0_provider_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_provider_rules_bdef.htm)
+- [abenc0_consumer_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_consumer_rules_bdef.htm)
+- [abenc0_demo_rap_bo.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_rap_bo.htm)
+- [abenc0_demo_service_proj.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_service_proj.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.960Z
+
+---
+
 ### abenc0_contract_rules_bdef.htm
+
+> **📖 Official SAP Documentation**: [abenc0_contract_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_contract_rules_bdef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36,7 +58,14 @@ Continue
 [Example: C0 Released Projection BDEF, Design and Consumption](javascript:call_link\('abenc0_demo_service_proj.htm'\))
 
 
+
+**📖 Source**: [abenc0_contract_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_contract_rules_bdef.htm)
+
 ### abenc0_provider_rules_bdef.htm
+
+> **📖 Official SAP Documentation**: [abenc0_provider_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_provider_rules_bdef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -155,7 +184,14 @@ Example Topics  
 [Example for a C0 released projection BDEF which is extended from ABAP for Cloud Development](javascript:call_link\('abenc0_demo_service_proj.htm'\)).
 
 
+
+**📖 Source**: [abenc0_provider_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_provider_rules_bdef.htm)
+
 ### abenc0_consumer_rules_bdef.htm
+
+> **📖 Official SAP Documentation**: [abenc0_consumer_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_consumer_rules_bdef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -212,7 +248,14 @@ Example Topics  
 [Example for a C0 released projection BDEF which is extended from the language version ABAP for Cloud Development](javascript:call_link\('abenc0_demo_service_proj.htm'\)).
 
 
+
+**📖 Source**: [abenc0_consumer_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_consumer_rules_bdef.htm)
+
 ### abenc0_demo_rap_bo.htm
+
+> **📖 Official SAP Documentation**: [abenc0_demo_rap_bo.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_rap_bo.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -268,7 +311,17 @@ extend behavior for RootInterface
 }
 
 
+
+**📖 Source**: [abenc0_demo_rap_bo.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_rap_bo.htm)
+
 ### abenc0_demo_service_proj.htm
+
+> **📖 Official SAP Documentation**: [abenc0_demo_service_proj.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_service_proj.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenc0_demo_service_proj.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_service_proj.htm)
+
 
   
 

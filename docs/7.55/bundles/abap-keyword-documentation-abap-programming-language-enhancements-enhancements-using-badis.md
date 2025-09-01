@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenbadi_enhancement.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbadi_enhancement.htm)
+- [abapget_badi.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_badi.htm)
+- [abapcall_badi.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_badi.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.739Z
+
+---
+
 ### abenbadi_enhancement.htm
+
+> **📖 Official SAP Documentation**: [abenbadi_enhancement.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbadi_enhancement.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53,7 +73,14 @@ Continue
 [CALL BADI](javascript:call_link\('abapcall_badi.htm'\))
 
 
+
+**📖 Source**: [abenbadi_enhancement.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbadi_enhancement.htm)
+
 ### abapget_badi.htm
+
+> **📖 Official SAP Documentation**: [abapget_badi.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_badi.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -214,7 +241,17 @@ CX\_BADI\_UNKNOWN\_ERROR
 -   Cause: The BAdI specified in the dynamic variant does not exist.
 
 
+
+**📖 Source**: [abapget_badi.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_badi.htm)
+
 ### abapcall_badi.htm
+
+> **📖 Official SAP Documentation**: [abapcall_badi.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_badi.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapcall_badi.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_badi.htm)
+
 
   
 

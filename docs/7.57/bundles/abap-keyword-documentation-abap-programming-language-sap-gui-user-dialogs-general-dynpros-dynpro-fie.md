@@ -3,7 +3,37 @@
 Included pages: 15
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_dynpros_help.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_help.htm)
+- [abenabap_dynpros_field_help.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_field_help.htm)
+- [abenabap_dynpros_value_help_auto.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help_auto.htm)
+- [abenabap_dynpros_value_help_dynp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help_dynp.htm)
+- [abenabap_dynpros_value_help_mod.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help_mod.htm)
+- [abenabap_dynpros_value_help.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help.htm)
+- [abenabap_dynpros_listbox.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_listbox.htm)
+- [abeninput_help_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninput_help_abexas.htm)
+- [abendynpro_f1_help_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_f1_help_abexa.htm)
+- [abendynpro_f4_help_dic_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_f4_help_dic_abexa.htm)
+- [abendynpro_f4_help_dial_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_f4_help_dial_abexa.htm)
+- [abendynpro_drop1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_drop1_abexa.htm)
+- [abendynpro_drop2_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_drop2_abexa.htm)
+
+**Bundle Contains**: 13 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.277Z
+
+---
+
 ### abenabap_dynpros_help.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_help.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_help.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38,7 +68,14 @@ Continue
 [dynpro - Field Helps, Input Helps, and Dropdown List Boxes](javascript:call_link\('abeninput_help_abexas.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_help.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_help.htm)
+
 ### abenabap_dynpros_field_help.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_field_help.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_field_help.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -86,7 +123,14 @@ Continue
 [dynpro - Input Help in Dialog Modules](javascript:call_link\('abenabap_dynpros_value_help_mod.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_field_help.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_field_help.htm)
+
 ### abenabap_dynpros_value_help_auto.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_value_help_auto.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help_auto.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -210,7 +254,14 @@ Executable Example
 [Input Helps from ABAP Dictionary](javascript:call_link\('abendynpro_f4_help_dic_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_value_help_auto.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help_auto.htm)
+
 ### abenabap_dynpros_value_help_dynp.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_value_help_dynp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help_dynp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -232,7 +283,14 @@ Hint
 Obsolete input helps on dynpros are possible using the additions [VALUES](javascript:call_link\('dynpfield_value_select.htm'\)) and [SELECT](javascript:call_link\('dynpfield_value_select.htm'\)) of the dynpro logic statement [FIELD](javascript:call_link\('dynpfield.htm'\)).
 
 
+
+**📖 Source**: [abenabap_dynpros_value_help_dynp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help_dynp.htm)
+
 ### abenabap_dynpros_value_help_mod.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_value_help_mod.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help_mod.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -274,7 +332,14 @@ Executable Example
 [Input Helps in Dialog Modules](javascript:call_link\('abendynpro_f4_help_dial_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_value_help_mod.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help_mod.htm)
+
 ### abenabap_dynpros_value_help.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_value_help.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -314,7 +379,14 @@ Continue
 [dynpro - Input Help in Dialog Modules](javascript:call_link\('abenabap_dynpros_value_help_mod.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_value_help.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help.htm)
+
 ### abenabap_dynpros_listbox.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_listbox.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_listbox.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -352,7 +424,14 @@ Executable Examples
 -   [List Box with Value List from PBO Module](javascript:call_link\('abendynpro_drop2_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_listbox.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_listbox.htm)
+
 ### abeninput_help_abexas.htm
+
+> **📖 Official SAP Documentation**: [abeninput_help_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninput_help_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -375,7 +454,14 @@ Continue
 ![Example](exa.gif "Example") [dynpro - List Box with Value List from PBO Module](javascript:call_link\('abendynpro_drop2_abexa.htm'\))
 
 
+
+**📖 Source**: [abeninput_help_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninput_help_abexas.htm)
+
 ### abendynpro_f1_help_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_f1_help_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_f1_help_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -457,7 +543,14 @@ The components FIELD1 through FIELD4 of the structure DEMOF1HELP refer to the da
 -   If the user chooses F1 on the input field for field6, the SAPscript document DEMO\_FOR\_F1\_HELP is displayed since this is called in the dialog module f1\_help\_field6 by the function module HELP\_OBJECT\_SHOW.
 
 
+
+**📖 Source**: [abendynpro_f1_help_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_f1_help_abexa.htm)
+
 ### abendynpro_f4_help_dic_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_f4_help_dic_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_f4_help_dic_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -494,7 +587,14 @@ The static next dynpro number of dynpro 100 is 100. The input fields are assigne
 -   The field Connection Number refers to the component CONNID of the DDIC structure. This component is assigned the search help DEMO\_F4\_FIELD. The search help has two parameters, CARRID and CONNID, which are assigned to the components CARRIER2 and CONNID of the structure. The search help imports CARRIER, reads the associated data from the database table SPFLI, displays CARRIER and CONNID, and exports CONNID.
 
 
+
+**📖 Source**: [abendynpro_f4_help_dic_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_f4_help_dic_abexa.htm)
+
 ### abendynpro_f4_help_dial_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_f4_help_dial_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_f4_help_dial_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -587,7 +687,14 @@ When selecting the F4 help for the individual fields, the user is shown the foll
 -   For the connection, the module value\_connection is called at POV. There, the function module DYNP\_VALUES\_READ passes the value of the dynpro field carrier to the program. SELECT then extracts the matching values from the database table SPFLI into the internal table values\_tab and passes them to the function module F4IF\_INT\_TABLE\_VALUE\_REQUEST. The function module displays these values as an input help and passes the selection of the user to the dynpro field connection.
 
 
+
+**📖 Source**: [abendynpro_f4_help_dial_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_f4_help_dial_abexa.htm)
+
 ### abendynpro_drop1_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_drop1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_drop1_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -680,7 +787,14 @@ The user is not allowed to enter values in the screen field. When the user selec
 When the user selects a line in the list box, the PAI event is raised using the function code SELECTED and the value in the first column of the internal table is copied to the input field.
 
 
+
+**📖 Source**: [abendynpro_drop1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_drop1_abexa.htm)
+
 ### abendynpro_drop2_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_drop2_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_drop2_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -775,7 +889,17 @@ The user is not allowed to enter values in the screen fields. When selecting the
 At the PBO event of dynpro 200, an internal table called list is filled with values from the database table SPFLI. The key component is filled with the flight connection numbers, and other relevant information is stored in the text field. The list table is passed to the VRM\_SET\_VALUES function module. When the user selects the input field on dynpro 200, the text column of the internal table is displayed in the list box. When the user selects an entry, the dynpro field is filled with the associated entry from the key column, and the event PAI is raised. The module user\_command\_200 checks and processes the OK field.
 
 
+
+**📖 Source**: [abendynpro_drop2_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_drop2_abexa.htm)
+
 ### abeninput_help_abexas.htm
+
+> **📖 Official SAP Documentation**: [abeninput_help_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninput_help_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abeninput_help_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninput_help_abexas.htm)
+
 
   
 

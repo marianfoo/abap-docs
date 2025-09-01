@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenole2.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenole2.htm)
+- [abapcreate_object_ole2.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_object_ole2.htm)
+- [abapcall_method_ole2.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_ole2.htm)
+- [abapget_property.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_property.htm)
+- [abapset_property.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_property.htm)
+- [abapfree_object.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfree_object.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.941Z
+
+---
+
 ### abenole2.htm
+
+> **📖 Official SAP Documentation**: [abenole2.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenole2.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45,7 +68,14 @@ Continue
 [FREE OBJECT - OLE](javascript:call_link\('abapfree_object.htm'\))
 
 
+
+**📖 Source**: [abenole2.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenole2.htm)
+
 ### abapcreate_object_ole2.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_ole2.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_object_ole2.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -129,7 +159,14 @@ DATA app TYPE ole2\_object.
 CREATE OBJECT app 'Excel.Application' NO FLUSH.
 
 
+
+**📖 Source**: [abapcreate_object_ole2.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_object_ole2.htm)
+
 ### abapcall_method_ole2.htm
+
+> **📖 Official SAP Documentation**: [abapcall_method_ole2.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_ole2.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -305,7 +342,14 @@ AT SELECTION-SCREEN.
   ENDCASE.
 
 
+
+**📖 Source**: [abapcall_method_ole2.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_ole2.htm)
+
 ### abapget_property.htm
+
+> **📖 Official SAP Documentation**: [abapget_property.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_property.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -390,7 +434,14 @@ CREATE OBJECT app 'Excel.Application'.
 GET PROPERTY OF app 'Visible' = vis.
 
 
+
+**📖 Source**: [abapget_property.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_property.htm)
+
 ### abapset_property.htm
+
+> **📖 Official SAP Documentation**: [abapset_property.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_property.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -469,7 +520,17 @@ CREATE OBJECT app 'Excel.Application'.
 SET PROPERTY OF app 'Visible' = 1.
 
 
+
+**📖 Source**: [abapset_property.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_property.htm)
+
 ### abapfree_object.htm
+
+> **📖 Official SAP Documentation**: [abapfree_object.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfree_object.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapfree_object.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfree_object.htm)
+
 
   
 

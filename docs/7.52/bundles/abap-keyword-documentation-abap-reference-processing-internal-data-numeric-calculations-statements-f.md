@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennum_processing_statements.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennum_processing_statements.htm)
+- [abapadd.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapadd.htm)
+- [abapsubtract.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubtract.htm)
+- [abapmultiply.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmultiply.htm)
+- [abapdivide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdivide.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.499Z
+
+---
+
 ### abennum_processing_statements.htm
+
+> **📖 Official SAP Documentation**: [abennum_processing_statements.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennum_processing_statements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40,7 +62,14 @@ Continue
 [DIVIDE](javascript:call_link\('abapdivide.htm'\))
 
 
+
+**📖 Source**: [abennum_processing_statements.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennum_processing_statements.htm)
+
 ### abapadd.htm
+
+> **📖 Official SAP Documentation**: [abapadd.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapadd.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -108,7 +137,14 @@ Runtime error: ADD\_FIELDS\_ILLEGAL\_ACCESS
     Runtime error: BCD\_BADDATA
 
 
+
+**📖 Source**: [abapadd.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapadd.htm)
+
 ### abapsubtract.htm
+
+> **📖 Official SAP Documentation**: [abapsubtract.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubtract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -176,7 +212,14 @@ Non-Handleable Exceptions
     Runtime error: BCD\_BADDATA
 
 
+
+**📖 Source**: [abapsubtract.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubtract.htm)
+
 ### abapmultiply.htm
+
+> **📖 Official SAP Documentation**: [abapmultiply.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmultiply.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -243,7 +286,17 @@ Non-Handleable Exceptions
     Runtime error: BCD\_BADDATA
 
 
+
+**📖 Source**: [abapmultiply.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmultiply.htm)
+
 ### abapdivide.htm
+
+> **📖 Official SAP Documentation**: [abapdivide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdivide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapdivide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdivide.htm)
+
 
   
 

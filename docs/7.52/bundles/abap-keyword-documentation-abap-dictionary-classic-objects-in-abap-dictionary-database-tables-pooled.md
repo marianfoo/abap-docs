@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_database_tables_poolclu.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poolclu.htm)
+- [abenddic_database_tables_pool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_pool.htm)
+- [abenddic_database_tables_cluster.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_cluster.htm)
+- [abenddic_database_tables_poclure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poclure.htm)
+- [abenddic_database_tables_poclutr.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poclutr.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.371Z
+
+---
+
 ### abenddic_database_tables_poolclu.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_poolclu.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poolclu.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32,7 +54,14 @@ Continue
 [Transforming Pooled Tables and Cluster Tables](javascript:call_link\('abenddic_database_tables_poclutr.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_poolclu.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poolclu.htm)
+
 ### abenddic_database_tables_pool.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_pool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_pool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -85,7 +114,14 @@ Note
 In systems where no transformation to transparent tables has taken place, the table PVERI\_CLNT is a pooled table in the table pool ATAB.
 
 
+
+**📖 Source**: [abenddic_database_tables_pool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_pool.htm)
+
 ### abenddic_database_tables_cluster.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_cluster.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_cluster.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -144,7 +180,14 @@ Example
 The cluster table DOKTL, which contains all documentation created in the transaction SE61, is a part of the table cluster DOKCLU in systems where no transformation to transparent tables has yet taken place.
 
 
+
+**📖 Source**: [abenddic_database_tables_cluster.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_cluster.htm)
+
 ### abenddic_database_tables_poclure.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_poclure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poclure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -199,7 +242,17 @@ The following restrictions apply when accessing pooled tables and cluster tables
 -   [Secondary connections](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") cannot be used to access pooled tables or cluster tables. The addition [CONNECTION](javascript:call_link\('abapselect_additions.htm'\)) of the statement [SELECT](javascript:call_link\('abapselect.htm'\)) and the addition [CONNECTION](javascript:call_link\('abapinsert_update_modify_conn.htm'\)) in [write statements](javascript:call_link\('abenopen_sql_writing.htm'\)) cannot be used.
 
 
+
+**📖 Source**: [abenddic_database_tables_poclure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poclure.htm)
+
 ### abenddic_database_tables_poclutr.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_poclutr.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poclutr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_database_tables_poclutr.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poclutr.htm)
+
 
   
 

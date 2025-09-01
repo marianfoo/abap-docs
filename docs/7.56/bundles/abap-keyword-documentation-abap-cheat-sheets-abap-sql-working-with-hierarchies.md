@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapsheet_abap_sql_hierarchies.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheet_abap_sql_hierarchies.htm)
+- [abensheet_abap_sql_hiera_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensheet_abap_sql_hiera_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.437Z
+
+---
+
 ### abapsheet_abap_sql_hierarchies.htm
+
+> **📖 Official SAP Documentation**: [abapsheet_abap_sql_hierarchies.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheet_abap_sql_hierarchies.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -391,7 +410,17 @@ Continue
 ![Example](exa.gif "Example") [ABAP SQL - Working with Hierarchies](javascript:call_link\('abensheet_abap_sql_hiera_abexa.htm'\))
 
 
+
+**📖 Source**: [abapsheet_abap_sql_hierarchies.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheet_abap_sql_hierarchies.htm)
+
 ### abensheet_abap_sql_hiera_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensheet_abap_sql_hiera_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensheet_abap_sql_hiera_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abensheet_abap_sql_hiera_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensheet_abap_sql_hiera_abexa.htm)
+
 
   
 

@@ -3,7 +3,41 @@
 Included pages: 17
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-46a.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm)
+- [abennews-46-objects-vererbung.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-vererbung.htm)
+- [abennews-46-objects-dynamic.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-dynamic.htm)
+- [abennews-46-objects-entwicklungen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-entwicklungen.htm)
+- [abennews-46-objects-obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-obsolete.htm)
+- [abennews-46-strings.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-strings.htm)
+- [abennews-46-data-references.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-data-references.htm)
+- [abennews-46-type-identification.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-type-identification.htm)
+- [abennews-46-includes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-includes.htm)
+- [abennews-46-assign-casting.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-assign-casting.htm)
+- [abennews-46-offset.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-offset.htm)
+- [abennews-46-internal-tables.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-internal-tables.htm)
+- [abennews-46-se30.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-se30.htm)
+- [abennews-46-debugger.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-debugger.htm)
+- [abennews-46-rfc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-rfc.htm)
+- [abennews-46-entwicklungen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-entwicklungen.htm)
+- [abennews-46-sonstiges.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-sonstiges.htm)
+
+**Bundle Contains**: 17 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.284Z
+
+---
+
 ### abennews-46a.htm
+
+> **📖 Official SAP Documentation**: [abennews-46a.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -62,7 +96,14 @@ Continue
 [Further Changes in Release 4.6A](javascript:call_link\('abennews-46-sonstiges.htm'\))
 
 
+
+**📖 Source**: [abennews-46a.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm)
+
 ### abennews-46-objects-vererbung.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-objects-vererbung.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-vererbung.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -102,7 +143,14 @@ Interfaces can be [nested](javascript:call_link\('abeninterface_composition.htm'
 [ENDINTERFACE.](javascript:call_link\('abapendinterface.htm'\))
 
 
+
+**📖 Source**: [abennews-46-objects-vererbung.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-vererbung.htm)
+
 ### abennews-46-objects-dynamic.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-objects-dynamic.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-dynamic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -146,7 +194,14 @@ f and c are fields containing the name of the method meth or class class.
 In contrast to subroutines and function modules, the actual parameters can also be passed dynamically in dynamic [method calls](javascript:call_link\('abapcall_method_dynamic.htm'\)).
 
 
+
+**📖 Source**: [abennews-46-objects-dynamic.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-dynamic.htm)
+
 ### abennews-46-objects-entwicklungen.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-objects-entwicklungen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-entwicklungen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -251,7 +306,14 @@ Internal Optimizations
 -   Finally, a separate interface load has been introduced to relieve the load of the implementing classes from some of its tasks.
 
 
+
+**📖 Source**: [abennews-46-objects-entwicklungen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-entwicklungen.htm)
+
 ### abennews-46-objects-obsolete.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-objects-obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -269,7 +331,14 @@ ABAP Objects - Obsolete Language Elements in Release 4.6A
 To clean up the ABAP Objects language, some more stringent syntax checks were introduced for previously valid constructs; some statements are no longer allowed at all.
 
 
+
+**📖 Source**: [abennews-46-objects-obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-obsolete.htm)
+
 ### abennews-46-strings.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-strings.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-strings.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -287,7 +356,14 @@ New Data Types string and xstring for Release 4.6A
 In Release 4.6A, the two new types string for character strings and xstring for byte strings are now available in addition to the elementary data types C and X.
 
 
+
+**📖 Source**: [abennews-46-strings.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-strings.htm)
+
 ### abennews-46-data-references.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-data-references.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-data-references.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -327,7 +403,14 @@ Assignment of Referenced Fields
 The statement [ASSIGN dref->\* TO <fs>](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)) makes the field symbol <fs> point to the same content as the data reference dref at runtime. If the field symbol is typed, the type is checked when the assignment is made.
 
 
+
+**📖 Source**: [abennews-46-data-references.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-data-references.htm)
+
 ### abennews-46-type-identification.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-type-identification.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-type-identification.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -365,7 +448,14 @@ tdescr = cl\_abap\_typedescr=>describe\_by\_name( name ).
 The type description classes contain all of the attributes and methods that can be assigned to the properties of the different types.
 
 
+
+**📖 Source**: [abennews-46-type-identification.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-type-identification.htm)
+
 ### abennews-46-includes.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-includes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-includes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -399,7 +489,14 @@ Advantages:
 -   Existing structures can be enhanced compatibly and are integrated in full into ABAP Dictionary.
 
 
+
+**📖 Source**: [abennews-46-includes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-includes.htm)
+
 ### abennews-46-assign-casting.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-assign-casting.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-assign-casting.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -443,7 +540,14 @@ Hint
 Typed field symbols should be used for performance reasons. The runtime of a typed ASSIGN statement is around 40 percent less than that required for an equivalent untyped ASSIGN statement.
 
 
+
+**📖 Source**: [abennews-46-assign-casting.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-assign-casting.htm)
+
 ### abennews-46-offset.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-offset.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-offset.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -467,7 +571,14 @@ g+off2(len2) = f+off1(len1).
 Starting with offset off2 in length len2, the field g is assigned the content of field f starting with offset off1 in length len2. If the two field lengths are not identical, the remaining positions are cut off or padded with initial values. The fields f and g must have the type x, c, n, d, or t. Structures are also allowed.
 
 
+
+**📖 Source**: [abennews-46-offset.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-offset.htm)
+
 ### abennews-46-internal-tables.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-internal-tables.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-internal-tables.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -591,7 +702,14 @@ Multiple Identical Keys Specified
 Identical keys specified more than once in the statement [READ](javascript:call_link\('abapread_table.htm'\)) produce a [warning](javascript:call_link\('abenwarning_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abennews-46-internal-tables.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-internal-tables.htm)
+
 ### abennews-46-se30.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-se30.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-se30.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -696,7 +814,14 @@ The user interface of the runtime analysis tool has been fully revised. The new 
 -   Analyzing the measurement results
 
 
+
+**📖 Source**: [abennews-46-se30.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-se30.htm)
+
 ### abennews-46-debugger.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-debugger.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-debugger.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -736,7 +861,14 @@ Other
 The 'System Debugging' setting is saved too when breakpoints are saved. Furthermore, the new 'Last [Short Dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry")' button makes it possible to display the last runtime error created. This can also be done using the transaction LAST\_SHORTDUMP.
 
 
+
+**📖 Source**: [abennews-46-debugger.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-debugger.htm)
+
 ### abennews-46-rfc.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-rfc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-rfc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -765,7 +897,14 @@ Main Session
 Main sessions could not be created, for example using the /O command in the OK code field, for synchronous RFC until Release 4.6. This function, previously only provided for asynchronous RFC, is now available from this release.
 
 
+
+**📖 Source**: [abennews-46-rfc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-rfc.htm)
+
 ### abennews-46-entwicklungen.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-entwicklungen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-entwicklungen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -847,7 +986,17 @@ The documentation has been improved as follows:
 -   All example programs for display, execution, and debugging available in transaction ABAPDOCU.
 
 
+
+**📖 Source**: [abennews-46-entwicklungen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-entwicklungen.htm)
+
 ### abennews-46-sonstiges.htm
+
+> **📖 Official SAP Documentation**: [abennews-46-sonstiges.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-sonstiges.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-46-sonstiges.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-sonstiges.htm)
+
 
   
 

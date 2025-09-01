@@ -3,7 +3,31 @@
 Included pages: 9
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_dcl_role_conditions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_role_conditions.htm)
+- [abencds_f1_cond_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_literal.htm)
+- [abencds_f1_dcl_cond_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_expression.htm)
+- [abencds_f1_cond_pfcg.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm)
+- [abencds_f1_dcl_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_pfcg_mapping.htm)
+- [abencds_f1_cond_user.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_user.htm)
+- [abencds_f1_dcl_cond_data_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_data_types.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.351Z
+
+---
+
 ### abencds_dcl_role_conditions.htm
+
+> **📖 Official SAP Documentation**: [abencds_dcl_role_conditions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_role_conditions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50,7 +74,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, Data Types](javascript:call_link\('abencds_f1_dcl_cond_data_types.htm'\))
 
 
+
+**📖 Source**: [abencds_dcl_role_conditions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_role_conditions.htm)
+
 ### abencds_f1_cond_literal.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_literal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -124,7 +155,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, operator](javascript:call_link\('abencds_f1_dcl_cond_expression.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_cond_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_literal.htm)
+
 ### abencds_f1_dcl_cond_expression.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_cond_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_expression.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -177,7 +215,14 @@ The value of the left side is greater than or equal to the value of the right si
 Like the operator \=. The condition is also met, however, if the value of the left side is the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") or a type-dependent initial value.
 
 
+
+**📖 Source**: [abencds_f1_dcl_cond_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_expression.htm)
+
 ### abencds_f1_cond_literal.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_literal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -251,7 +296,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, operator](javascript:call_link\('abencds_f1_dcl_cond_expression.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_cond_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_literal.htm)
+
 ### abencds_f1_cond_pfcg.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_pfcg.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -426,7 +478,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, Mapping of Field Values](javascript:call_link\('abencds_f1_dcl_pfcg_mapping.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_cond_pfcg.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm)
+
 ### abencds_f1_dcl_pfcg_mapping.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_pfcg_mapping.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -471,7 +530,14 @@ Example
 The field value "10%\*" produces the condition LIKE '10#%%' ESCAPE '#'.
 
 
+
+**📖 Source**: [abencds_f1_dcl_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_pfcg_mapping.htm)
+
 ### abencds_f1_cond_pfcg.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_pfcg.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -646,7 +712,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, Mapping of Field Values](javascript:call_link\('abencds_f1_dcl_pfcg_mapping.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_cond_pfcg.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm)
+
 ### abencds_f1_cond_user.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_user.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_user.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -700,7 +773,17 @@ define role demo\_cds\_role\_user {  
 The role grants a user AS ABAP access to his or her own entries in the database table ABDOCMODE, as well as to entries in which the UNAME column is initial or contains a [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abencds_f1_cond_user.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_user.htm)
+
 ### abencds_f1_dcl_cond_data_types.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_cond_data_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_data_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_dcl_cond_data_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_data_types.htm)
+
 
   
 

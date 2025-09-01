@@ -3,7 +3,35 @@
 Included pages: 13
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenmessage_interfaces.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_interfaces.htm)
+- [abenif_t100_message.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_message.htm)
+- [abenif_t100_message_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_message_abexa.htm)
+- [abenmessage_interface_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_interface_abexa.htm)
+- [abenmessage_interface_global_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_interface_global_abexa.htm)
+- [abenmessage_interface_reuse_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_interface_reuse_abexa.htm)
+- [abenif_t100_dyn_msg.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_dyn_msg.htm)
+- [abenif_t100_dyn_msg_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_dyn_msg_abexa.htm)
+- [abenraise_message_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenraise_message_abexa.htm)
+- [abenraise_message_global_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenraise_message_global_abexa.htm)
+- [abenraise_error_message_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenraise_error_message_abexa.htm)
+
+**Bundle Contains**: 11 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.509Z
+
+---
+
 ### abenmessage_interfaces.htm
+
+> **📖 Official SAP Documentation**: [abenmessage_interfaces.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_interfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27,7 +55,14 @@ Continue
 [Messages - System Interface IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\))
 
 
+
+**📖 Source**: [abenmessage_interfaces.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_interfaces.htm)
+
 ### abenif_t100_message.htm
+
+> **📖 Official SAP Documentation**: [abenif_t100_message.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_message.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -96,7 +131,14 @@ Continue
 ![Example](exa.gif "Example") [Messages - IF\_T100\_MESSAGE for Exception with Message](javascript:call_link\('abenmessage_interface_reuse_abexa.htm'\))
 
 
+
+**📖 Source**: [abenif_t100_message.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_message.htm)
+
 ### abenif_t100_message_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenif_t100_message_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_message_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -193,7 +235,14 @@ Hint
 See also the executable example [System Interface IF\_T100\_DYN\_MSG in Regular Class](javascript:call_link\('abenif_t100_dyn_msg_abexa.htm'\)).
 
 
+
+**📖 Source**: [abenif_t100_message_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_message_abexa.htm)
+
 ### abenmessage_interface_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmessage_interface_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_interface_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -286,7 +335,14 @@ See also the executable examples listed below.
 -   [System Interface IF\_T100\_DYN\_MSG in Local Exception Class](javascript:call_link\('abenraise_message_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmessage_interface_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_interface_abexa.htm)
+
 ### abenmessage_interface_global_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmessage_interface_global_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_interface_global_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -346,7 +402,14 @@ See also the executable examples listed below.
 -   [System Interface IF\_T100\_DYN\_MSG in Global Exception Class](javascript:call_link\('abenraise_message_global_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmessage_interface_global_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_interface_global_abexa.htm)
+
 ### abenmessage_interface_reuse_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmessage_interface_reuse_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_interface_reuse_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -410,7 +473,14 @@ The properties of the message sent using MESSAGE RAISING are available in the sy
 The [executable example](javascript:call_link\('abenraise_message_global_abexa.htm'\)) for the system interface IF\_T100\_DYN\_MSG in a global exception demonstrates how all properties of the message can be specified after the addition [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)).
 
 
+
+**📖 Source**: [abenmessage_interface_reuse_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_interface_reuse_abexa.htm)
+
 ### abenif_t100_message.htm
+
+> **📖 Official SAP Documentation**: [abenif_t100_message.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_message.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -479,7 +549,14 @@ Continue
 ![Example](exa.gif "Example") [Messages - IF\_T100\_MESSAGE for Exception with Message](javascript:call_link\('abenmessage_interface_reuse_abexa.htm'\))
 
 
+
+**📖 Source**: [abenif_t100_message.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_message.htm)
+
 ### abenif_t100_dyn_msg.htm
+
+> **📖 Official SAP Documentation**: [abenif_t100_dyn_msg.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_dyn_msg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -536,7 +613,14 @@ Continue
 ![Example](exa.gif "Example") [Messages - IF\_T100\_DYN\_MSG for Exception error\_message](javascript:call_link\('abenraise_error_message_abexa.htm'\))
 
 
+
+**📖 Source**: [abenif_t100_dyn_msg.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_dyn_msg.htm)
+
 ### abenif_t100_dyn_msg_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenif_t100_dyn_msg_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_dyn_msg_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -635,7 +719,14 @@ Description
 This example applies the [executable example](javascript:call_link\('abenif_t100_message_abexa.htm'\)) for the interface IF\_T100\_MESSAGE to the interface IF\_T100\_DYN\_MSG directly. If IF\_T100\_DYN\_MSG is used, it is no longer necessary to create separate attributes for the placeholders of the message. The attributes of the interface are used instead. Furthermore, a message type can be stored and evaluated in the interface attribute msgty. If IF\_T100\_MESSAGE is used, a separate attribute must be declared here.
 
 
+
+**📖 Source**: [abenif_t100_dyn_msg_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_dyn_msg_abexa.htm)
+
 ### abenraise_message_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenraise_message_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenraise_message_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -690,7 +781,14 @@ This example applies the [executable example](javascript:call_link\('abenmessage
 Unlike when using [IF\_T100\_MESSAGE](javascript:call_link\('abenif_t100_message.htm'\)), no separate attributes for the placeholders of the message and no implementation of the instance constructor are required in cx\_dyn\_t100. Furthermore, the message type is passed in an attribute of the exception object when IF\_T100\_DYN\_MSG is used. An alias name is introduced for this attribute here.
 
 
+
+**📖 Source**: [abenraise_message_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenraise_message_abexa.htm)
+
 ### abenraise_message_global_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenraise_message_global_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenraise_message_global_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -752,7 +850,14 @@ Hint
 See also the executable [example](javascript:call_link\('abenraise_message_glbl_shrt_abexa.htm'\)) for using a short form of statement [RAISE EXCEPTION MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)).
 
 
+
+**📖 Source**: [abenraise_message_global_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenraise_message_global_abexa.htm)
+
 ### abenraise_error_message_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenraise_error_message_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenraise_error_message_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -809,7 +914,17 @@ Hint
 See also the executable [example](javascript:call_link\('abenraise_error_message_shrt_abexa.htm'\)) for using a short form of statement [RAISE EXCEPTION MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)).
 
 
+
+**📖 Source**: [abenraise_error_message_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenraise_error_message_abexa.htm)
+
 ### abenif_t100_dyn_msg.htm
+
+> **📖 Official SAP Documentation**: [abenif_t100_dyn_msg.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_dyn_msg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenif_t100_dyn_msg.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_dyn_msg.htm)
+
 
   
 

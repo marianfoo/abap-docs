@@ -10,21 +10,13 @@ ABAP CDS - cast\_expr, Conversion Rules
 
 The following sections describe the conversion rules for [cast expressions](javascript:call_link\('abencds_f1_cast_expression.htm'\)) in [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry").
 
--   [Numeric source type](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_1)
+-   [Numeric source type](#abencds-f1-cast-expression-rules-1--------source-type-int1--int2--int4--int8---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_2)
 
--   [Source type INT1, INT2, INT4, INT8](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_2)
+-   [Source type DEC, CURR, QUAN](#abencds-f1-cast-expression-rules-3--------character-like-source-type---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_4)
 
--   [Source type DEC, CURR, QUAN](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_3)
+-   [Source types CHAR and SSTRING](#abencds-f1-cast-expression-rules-5--------source-type-numc---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_6)
 
--   [Character-like source type](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_4)
-
--   [Source types CHAR and SSTRING](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_5)
-
--   [Source type NUMC](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_6)
-
--   [Source types DATS and TIMS](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_7)
-
--   [Source types CLNT, LANG, UNIT, and CUKY](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_8)
+-   [Source types DATS and TIMS](#abencds-f1-cast-expression-rules-7--------source-types-clnt--lang--unit--and-cuky---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_8)
 
 Data types that cannot be converted to each other are not specified. In these cases, casts are either not possible or only casts between type-friendly operands. If the source type and the target type are technically identical, the content is transferred without being converted.
 

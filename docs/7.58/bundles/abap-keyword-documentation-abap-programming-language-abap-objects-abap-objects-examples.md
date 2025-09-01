@@ -3,7 +3,36 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_objects_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_abexas.htm)
+- [abenabap_objects_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_abexa.htm)
+- [abenclass_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_abexa.htm)
+- [abeninheritance_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninheritance_abexa.htm)
+- [abeninterface_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_abexa.htm)
+- [abenevents_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenevents_abexa.htm)
+- [abenfriends_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfriends_abexa.htm)
+- [abenoo_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoo_transaction_abexa.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.934Z
+
+---
+
 ### abenabap_objects_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_objects_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_objects_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35,7 +64,18 @@ Continue
 ![Example](exa.gif "Example") [ABAP Objects - Object Transaction](javascript:call_link\('abenoo_transaction_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_objects_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_abexas.htm)
+
 ### abenabap_objects_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenabap_objects_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_objects_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -269,7 +309,18 @@ Description  
 The class demonstrates how ABAP Objects can be used based on example classes for boats.
 
 
+
+**📖 Source**: [abenabap_objects_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_abexa.htm)
+
 ### abenclass_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenclass_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenclass_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -336,7 +387,18 @@ Description  
 The local class counter contains three public methods, set, increment, and get, which work with the private integer field count. Two of the methods have input and output parameters and therefore define the data interface of the class. The field count, on the other hand, is not visible externally.
 
 
+
+**📖 Source**: [abenclass_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_abexa.htm)
+
 ### abeninheritance_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninheritance_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abeninheritance_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninheritance_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -430,7 +492,18 @@ The local class counter\_ten is derived from counter and redefines the method in
 An object of the subclass is created to which a reference variable of the superclass type points. When the method increment is executed using the superclass reference, the redefined method of the subclass is executed.
 
 
+
+**📖 Source**: [abeninheritance_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninheritance_abexa.htm)
+
 ### abeninterface_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeninterface_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abeninterface_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -529,7 +602,18 @@ Using the constructor operator NEW, an object is created for each class to which
 Class reference variables are inserted in the interface reference table to have the lines in status\_tab point to the two objects as well. Using the interface references, it is possible to call the interface method write in the objects, but not the class methods increment or drive.
 
 
+
+**📖 Source**: [abeninterface_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_abexa.htm)
+
 ### abenevents_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenevents_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenevents_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenevents_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenevents_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -719,7 +803,18 @@ Description  
 The user actions on a classic list raise events in ABAP Objects. The list and its data are implemented in a class list. User actions are processed by the class status, which raises an event button\_clicked at AT USER-COMMAND time. The event is handled in the class list. The class list contains an object of the class ship or truck for each line of the list, which both implement the interface vehicle. If the speed of one of these objects changes, the event speed\_change is raised, to which the class list responds by adapting the list output.
 
 
+
+**📖 Source**: [abenevents_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenevents_abexa.htm)
+
 ### abenfriends_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfriends_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfriends_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfriends_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfriends_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -758,7 +853,21 @@ Description  
 The empty global interface IF\_DEMO\_FRIEND is a friend of the global class CL\_DEMO\_FRIENDSHIP. Every class that implements IF\_DEMO\_FRIEND can access the private components of CL\_DEMO\_FRIENDSHIP.
 
 
+
+**📖 Source**: [abenfriends_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfriends_abexa.htm)
+
 ### abenoo_transaction_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenoo_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoo_transaction_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenoo_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoo_transaction_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenoo_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoo_transaction_abexa.htm)
+
 
   
 

@@ -8,13 +8,9 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Source Field Type x
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_X_1)
+-   [Numeric Target Fields](#abenconversion-type-x-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_X_2)
 
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_X_2)
-
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_X_3)
-
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_X_4)
+-   [Byte-Like Target Fields](#abenconversion-type-x-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_X_4)
 
 Numeric Target Fields
 

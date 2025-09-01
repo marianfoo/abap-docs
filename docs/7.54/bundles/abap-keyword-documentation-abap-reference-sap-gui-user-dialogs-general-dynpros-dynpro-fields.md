@@ -3,7 +3,31 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_dynpros_fields.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_fields.htm)
+- [abendynpro_field_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_field_abexas.htm)
+- [abendynpro_in_out_field_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_in_out_field_abexa.htm)
+- [abendynpro_dict_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_dict_abexa.htm)
+- [abendynpro_push_button_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_push_button_abexa.htm)
+- [abendynpro_radio_button_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_radio_button_abexa.htm)
+- [abendynpro_strings_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_strings_abexa.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.991Z
+
+---
+
 ### abenabap_dynpros_fields.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_fields.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_fields.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -67,7 +91,14 @@ Continue
 [Screen Fields - Examples](javascript:call_link\('abendynpro_field_abexas.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_fields.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_fields.htm)
+
 ### abendynpro_field_abexas.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_field_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_field_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -87,7 +118,14 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Strings](javascript:call_link\('abendynpro_strings_abexa.htm'\))
 
 
+
+**📖 Source**: [abendynpro_field_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_field_abexas.htm)
+
 ### abendynpro_in_out_field_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_in_out_field_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_in_out_field_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -130,7 +168,14 @@ Description
 The static next screen number of screen 100 is 100. The screen fields of output, box1, box2, and box3 have been defined as not ready for input in Screen Painter. The length of input is specified so that the user can enter a nine-digit integer without thousands separators. However, the display in the output field contains up to two thousands separators. If the length of input had remained 11 digits, a runtime error could occur if users do not set thousand separators. The user entries in the input fields are passed to the ABAP program in the PAI event raised by ENTER and then assigned to the output fields in the dialog module user\_command\_100. The next time the screen appears, the screen fields contain the appropriate values. The input fields are set in the dialog module init\_screen\_100 in the event PBO.
 
 
+
+**📖 Source**: [abendynpro_in_out_field_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_in_out_field_abexa.htm)
+
 ### abendynpro_dict_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_dict_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_dict_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -172,7 +217,14 @@ Description
 The static next dynpro number of dynpro 100 is 100. The statement TABLES passes the components of the structure DEMO\_CONN from ABAP Dictionary. The structure DEMO\_CONN was especially created in ABAP Dictionary for dynpros of the flight data model. Apart from the components of the database table SPFLI, there is also a component MARK whose domain S\_FLAG only defines the fixed values " " and "X". On the dynpro, the ABAP Dictionary text for MARK is overwritten with "Cancel"; for all other fields the ABAP Dictionary fields are used. Some fields are no longer ready for input in Screen Painter. Users can enter values for the airline and flight number. In this process, the user is automatically assisted by the field and the input help and the valid value check against check tables of ABAP Dictionary. These checks are performed automatically before any dialog module is called in the ABAP program. It is not possible for the user to enter an airline not defined in the check table SCARR or to enter any flight numbers not matching the airlines defined in SPFLI, or to enter any values for MARK except " " and "X". Not all these checks need to be programmed in the ABAP program. The module user\_command\_0100 of the ABAP program reads additional values for the checked key from the database table SPFLI and sends them to the dynpro in the init\_screen\_100 event. The work area demo\_conn, declared using the statement TABLES is used as an interface, while the actual data from the database is edited in the work area wa\_spfli. If the user fills the Cancel field with "X", the program exits.
 
 
+
+**📖 Source**: [abendynpro_dict_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_dict_abexa.htm)
+
 ### abendynpro_push_button_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_push_button_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_push_button_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -217,7 +269,14 @@ Description
 The static next dynpro number of dynpro 100 is 100. The screen field of output is defined as not ready for input in Screen Painter. When the user chooses a pushbutton, the PAI event is triggered. The function code of the pushbutton is assigned to the dynpro field ok\_code, which is then assigned to the ABAP field with the same name. The module user\_command\_0100 is then processed. Firstly, the contents of the ok\_code field are copied to the auxiliary variable save\_ok code, and ok\_code is initialized. This procedure is always recommended since it makes sure that the dynpro field ok\_code is also reinitialized in the PBO event and does not contain any unwanted values. Next, in the CASE structure, a text symbol is assigned to the output field according to the button that the user chose. This is displayed in the output field on the dynpro. If the user chooses Cancel, the program ends.
 
 
+
+**📖 Source**: [abendynpro_push_button_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_push_button_abexa.htm)
+
 ### abendynpro_radio_button_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_radio_button_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_radio_button_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -265,7 +324,14 @@ Description
 The static next dynpro number of dynpro 100 is 100. The screen fields field1 to field3 are defined as not ready for input in Screen Painter. Selecting one of the three radio buttons raises the event PAI, which passes the function code RADIO and the field contents of the screen fields to the ABAP program. The dialog module user\_command\_0100 fills the fields field1 to field3 according to the radio button that was selected. These field contents appear the next time the dynpro is sent. The PAI event is also triggered if you select the checkbox. In this case, the function CANCEL is passed to the ABAP program, and the dialog module user\_command\_0100 immediately ends the program.
 
 
+
+**📖 Source**: [abendynpro_radio_button_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_radio_button_abexa.htm)
+
 ### abendynpro_strings_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_strings_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_strings_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -335,7 +401,17 @@ At PAI, STRING1 contains only three characters, because the blanks are suppresse
 In both STRING2 and CHAR2, all characters that do not fit into the corresponding dynpro fields are cut off.
 
 
+
+**📖 Source**: [abendynpro_strings_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_strings_abexa.htm)
+
 ### abendynpro_field_abexas.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_field_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_field_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abendynpro_field_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_field_abexas.htm)
+
 
   
 

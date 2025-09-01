@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapnew-page.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page.htm)
+- [abapnew-page_options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_options.htm)
+- [abapnew-page_print.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_print.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.232Z
+
+---
+
 ### abapnew-page.htm
+
+> **📖 Official SAP Documentation**: [abapnew-page.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41,7 +61,14 @@ Continue
 [NEW-PAGE - spool\_options](javascript:call_link\('abapnew-page_print.htm'\))
 
 
+
+**📖 Source**: [abapnew-page.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page.htm)
+
 ### abapnew-page_options.htm
+
+> **📖 Official SAP Documentation**: [abapnew-page_options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_options.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -182,7 +209,17 @@ TOP-OF-PAGE.
   WRITE 'Basic list'.
 
 
+
+**📖 Source**: [abapnew-page_options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_options.htm)
+
 ### abapnew-page_print.htm
+
+> **📖 Official SAP Documentation**: [abapnew-page_print.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_print.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapnew-page_print.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_print.htm)
+
 
   
 

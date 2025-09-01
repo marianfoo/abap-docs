@@ -3,7 +3,30 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_in_abp.htm)
+- [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapin_local_mode.htm)
+- [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_aug_entity_entities.htm)
+- [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_modify_augmenting_abexa.htm)
+- [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapauthority-check_disable.htm)
+- [abeneml_auth_check_disable_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_auth_check_disable_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.235Z
+
+---
+
 ### abeneml_in_abp.htm
+
+> **📖 Official SAP Documentation**: [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_in_abp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35,7 +58,14 @@ Continue
 [ABAP EML - AUTHORITY-CHECK DISABLE](javascript:call_link\('abapauthority-check_disable.htm'\))
 
 
+
+**📖 Source**: [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_in_abp.htm)
+
 ### abapin_local_mode.htm
+
+> **📖 Official SAP Documentation**: [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapin_local_mode.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -81,7 +111,14 @@ READ ENTITIES OF demo\_managed\_root\_3 IN LOCAL MODE
   FAILED DATA(failed).
 
 
+
+**📖 Source**: [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapin_local_mode.htm)
+
 ### abapmodify_aug_entity_entities.htm
+
+> **📖 Official SAP Documentation**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_aug_entity_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -175,7 +212,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\))
 
 
+
+**📖 Source**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_aug_entity_entities.htm)
+
 ### abeneml_modify_augmenting_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_modify_augmenting_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -355,7 +399,14 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 -   The output window shows the database entries of the root and child entities' tables.
 
 
+
+**📖 Source**: [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_modify_augmenting_abexa.htm)
+
 ### abapmodify_aug_entity_entities.htm
+
+> **📖 Official SAP Documentation**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_aug_entity_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -449,7 +500,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\))
 
 
+
+**📖 Source**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_aug_entity_entities.htm)
+
 ### abapauthority-check_disable.htm
+
+> **📖 Official SAP Documentation**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapauthority-check_disable.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -499,7 +557,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP EML - AUTHORITY-CHECK DISABLE](javascript:call_link\('abeneml_auth_check_disable_abexa.htm'\))
 
 
+
+**📖 Source**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapauthority-check_disable.htm)
+
 ### abeneml_auth_check_disable_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeneml_auth_check_disable_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_auth_check_disable_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -610,7 +675,17 @@ Table entries:
 -   Note that putting the authorization context ac2 inside an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END statement is irrelevant because it is implicitly there due to the BDEF specification.
 
 
+
+**📖 Source**: [abeneml_auth_check_disable_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_auth_check_disable_abexa.htm)
+
 ### abapauthority-check_disable.htm
+
+> **📖 Official SAP Documentation**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapauthority-check_disable.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapauthority-check_disable.htm)
+
 
   
 

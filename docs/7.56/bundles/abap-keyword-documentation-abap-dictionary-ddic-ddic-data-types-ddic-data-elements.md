@@ -3,7 +3,30 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_data_elements.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements.htm)
+- [abenddic_data_elements_tech.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements_tech.htm)
+- [abenddic_data_elements_sema.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements_sema.htm)
+- [abenddic_domains.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_domains.htm)
+- [abenddic_domains_tech.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_domains_tech.htm)
+- [abenddic_domains_sema.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_domains_sema.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.444Z
+
+---
+
 ### abenddic_data_elements.htm
+
+> **📖 Official SAP Documentation**: [abenddic_data_elements.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32,7 +55,14 @@ Continue
 [DDIC - Domains](javascript:call_link\('abenddic_domains.htm'\))
 
 
+
+**📖 Source**: [abenddic_data_elements.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements.htm)
+
 ### abenddic_data_elements_tech.htm
+
+> **📖 Official SAP Documentation**: [abenddic_data_elements_tech.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements_tech.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -67,7 +97,14 @@ Example
 The data element S\_CONN\_ID inherits its technical attributes (data type NUMC, length 4) from the domain S\_CONN\_ID. The data element S\_CONN\_ID has documentation and further texts that describe its semantics. It is used as a data type of many table fields that match these semantic attributes, such as the column CONNID of the DDIC database tables SPFLI, SBOOK, and SFLIGHT.
 
 
+
+**📖 Source**: [abenddic_data_elements_tech.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements_tech.htm)
+
 ### abenddic_data_elements_sema.htm
+
+> **📖 Official SAP Documentation**: [abenddic_data_elements_sema.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements_sema.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -162,7 +199,14 @@ Hint
 It is highly significant that many semantic attributes of a data element define the behavior of dynpro fields or Web Dynpro fields. For example, a data element whose documentation describes the internal attributes of a technical type is not usually suitable for use in UI fields. One example are the data elements SYST\_... that define the components of the system structure SYST. The documentation of these data elements describes the corresponding system fields and should not appear on a UI. Ideally, separate data elements are created with their own semantic attributes for UIs and DDIC database tables. Any data elements not used for UI fields do not usually require semantic attributes except for the short text and possibly documentation if this is not sufficient. Conversely, attributes such as the flag for change documents are not relevant for data elements for interfaces.
 
 
+
+**📖 Source**: [abenddic_data_elements_sema.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements_sema.htm)
+
 ### abenddic_domains.htm
+
+> **📖 Official SAP Documentation**: [abenddic_domains.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_domains.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -193,7 +237,14 @@ Continue
 [DDIC - Semantic Attributes of Domains](javascript:call_link\('abenddic_domains_sema.htm'\))
 
 
+
+**📖 Source**: [abenddic_domains.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_domains.htm)
+
 ### abenddic_domains_tech.htm
+
+> **📖 Official SAP Documentation**: [abenddic_domains_tech.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_domains_tech.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -216,7 +267,14 @@ Hint
 When existing domains are modified, all users of the domain are also affected. In particular, [foreign keys](javascript:call_link\('abenddic_database_tables_forkey.htm'\)) can become inconsistent when used for the fields of DDIC database tables, which makes [adjustments](javascript:call_link\('abenddic_database_tables_adj.htm'\)) necessary.
 
 
+
+**📖 Source**: [abenddic_domains_tech.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_domains_tech.htm)
+
 ### abenddic_domains_sema.htm
+
+> **📖 Official SAP Documentation**: [abenddic_domains_sema.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_domains_sema.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -290,7 +348,17 @@ Example
 The domain S\_CLASS with the type CHAR describes the possible classes in a flight booking. The value range of the domain is defined by the fixed values "C" (Business Class), "F" (First Class), and "Y" (Economy Class). This means that only the values "C", "F", and "Y" can be entered for all dynpro fields that refer to this domain.
 
 
+
+**📖 Source**: [abenddic_domains_sema.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_domains_sema.htm)
+
 ### abenddic_domains.htm
+
+> **📖 Official SAP Documentation**: [abenddic_domains.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_domains.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_domains.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_domains.htm)
+
 
   
 

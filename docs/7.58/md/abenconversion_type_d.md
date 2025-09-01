@@ -14,10 +14,8 @@ The conversion rules are designed in such a way that when data objects of the da
 
 Only dates in the format yyyymmdd are valid for data objects of type d where 00010101 is the first valid value. The conversion rules, however, also allow the assignment of date fields that contain invalid data. The latter is not recommended.
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_D_1)
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_D_2)
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_D_3)
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_D_4)
+-   [Numeric Target Fields](#abenconversion-type-d-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_D_2)
+-   [Byte-Like Target Fields](#abenconversion-type-d-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_D_4)
 
 Numeric Target Fields   
 

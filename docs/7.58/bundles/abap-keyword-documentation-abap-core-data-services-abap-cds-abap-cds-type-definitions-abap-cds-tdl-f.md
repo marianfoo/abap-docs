@@ -3,7 +3,34 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_enumeration_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enumeration_types.htm)
+- [abencds_define_enum_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_enum_type.htm)
+- [abencds_enum_type_anno.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_type_anno.htm)
+- [abencds_use_enum_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_use_enum_type.htm)
+- [abencds_enum_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_abexa.htm)
+- [abencds_enum_description_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_description_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.912Z
+
+---
+
 ### abencds_enumeration_types.htm
+
+> **📖 Official SAP Documentation**: [abencds_enumeration_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enumeration_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_enumeration_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enumeration_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50,7 +77,18 @@ Continue
 [CDS TDL - DEFINE TYPE ENUM](javascript:call_link\('abencds_define_enum_type.htm'\))
 
 
+
+**📖 Source**: [abencds_enumeration_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enumeration_types.htm)
+
 ### abencds_define_enum_type.htm
+
+> **📖 Official SAP Documentation**: [abencds_define_enum_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_enum_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_define_enum_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_enum_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -243,7 +281,18 @@ Continue
 ![Example](exa.gif "Example") [CDS TDL - CDS Enumerated Type, Type Description](javascript:call_link\('abencds_enum_description_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_define_enum_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_enum_type.htm)
+
 ### abencds_enum_type_anno.htm
+
+> **📖 Official SAP Documentation**: [abencds_enum_type_anno.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_type_anno.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_enum_type_anno.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_type_anno.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -400,7 +449,18 @@ Inheritance of Annotations  
 If a CDS enumerated type is based on another CDS enumerated type, it inherits the annotations of the underlying enumerated type. If required, these annotations can be overwritten using locally defined annotations in the overlying enumerated type.
 
 
+
+**📖 Source**: [abencds_enum_type_anno.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_type_anno.htm)
+
 ### abencds_use_enum_type.htm
+
+> **📖 Official SAP Documentation**: [abencds_use_enum_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_use_enum_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_use_enum_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_use_enum_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -651,7 +711,18 @@ Hints
 -   The base type describes how each enumerated value of the value set is stored internally, but it is not the type of the associated enumerated constant that can be used in a program. Its type is the enumerated type ENUM itself.
 
 
+
+**📖 Source**: [abencds_use_enum_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_use_enum_type.htm)
+
 ### abencds_enum_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_enum_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_enum_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -763,7 +834,18 @@ Description  
 The class selects from the CDS view entity DEMO\_CDS\_ENUM\_1 that casts the integer representation of weekdays to a CDS enumerated type. As a consequence, the column weekday contains the names of the enumerated constants as values.
 
 
+
+**📖 Source**: [abencds_enum_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_abexa.htm)
+
 ### abencds_enum_description_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_enum_description_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_description_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_enum_description_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_description_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -806,7 +888,21 @@ Description  
 The type description class CL\_ABAP\_ENUMDESCR returns properties of the CDS enumerated type DEMO\_CDS\_ENUM\_WEEKDAY.
 
 
+
+**📖 Source**: [abencds_enum_description_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_description_abexa.htm)
+
 ### abencds_define_enum_type.htm
+
+> **📖 Official SAP Documentation**: [abencds_define_enum_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_enum_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_define_enum_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_enum_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_define_enum_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_enum_type.htm)
+
 
   
 

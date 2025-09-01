@@ -10,9 +10,7 @@ CDS DCL - DEFINE ROLE, Converting Field Values
 
 Elements of CDS entities are associated with an [authorization object](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") in [PFCG conditions](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)) in the [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry"). The [access condition](javascript:call_link\('abenaccess_condition_glosry.htm'\) "Glossary Entry") itself is generated from [authorizations](javascript:call_link\('abenauthorization_glosry.htm'\) "Glossary Entry") of the current user for the authorization object. Here, the value of [CDS elements](javascript:call_link\('abencds_element_glosry.htm'\) "Glossary Entry") is supplied with field values of the authorizations. The following points should be noted.
 
--   [Invalid Values](#@@ITOC@@ABENCDS_F1_DCL_PFCG_MAPPING_1)
-
--   [Wildcard Characters](#@@ITOC@@ABENCDS_F1_DCL_PFCG_MAPPING_2)
+-   [Invalid Values](#abencds-f1-dcl-pfcg-mapping-1--------wildcard-characters---@ITOC@@ABENCDS_F1_DCL_PFCG_MAPPING_2)
 
 Invalid Values
 

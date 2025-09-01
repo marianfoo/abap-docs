@@ -10,17 +10,11 @@ INSERT, UPDATE, MODIFY dbtab - LOB Handles
 
 In the [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)), [UPDATE](javascript:call_link\('abapupdate.htm'\)), or [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)) statements, [LOB handles](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry") can be created as [writer streams](javascript:call_link\('abenwriter_stream_glosry.htm'\) "Glossary Entry") and specified as [locators](javascript:call_link\('abenlocator_glosry.htm'\) "Glossary Entry").
 
--   [Prerequisites](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_1)
+-   [Prerequisites](#abeninsert-update-modify-lob-1--------rules---@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_2)
 
--   [Rules](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_2)
+-   [Changing Accesses Using Writer Streams](#abeninsert-update-modify-lob-3--------changing-accesses-using-locators----@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_4)
 
--   [Changing Accesses Using Writer Streams](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_3)
-
--   [Changing Accesses Using Locators.](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_4)
-
--   [Restrictions](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_5)
-
--   [Examples](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_6)
+-   [Restrictions](#abeninsert-update-modify-lob-5--------examples---@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_6)
 
 Prerequisites
 

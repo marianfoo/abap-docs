@@ -22,17 +22,11 @@ format expects data objects of the type i. An invalid value for format raises an
 
 This function can be specified in [general](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") and [character-like expression positions](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry"). The return code has the type string.
 
--   [Rules for Markup Languages (Including JavaScript)](#@@ITOC@@ABENESCAPE_FUNCTIONS_1)
+-   [Rules for Markup Languages (Including JavaScript)](#abenescape-functions-1--------rules-for-url-uris---@ITOC@@ABENESCAPE_FUNCTIONS_2)
 
--   [Rules for URL/URIs](#@@ITOC@@ABENESCAPE_FUNCTIONS_2)
+-   [Rules for JSON](#abenescape-functions-3--------rules-for-regular-expressions---@ITOC@@ABENESCAPE_FUNCTIONS_4)
 
--   [Rules for JSON](#@@ITOC@@ABENESCAPE_FUNCTIONS_3)
-
--   [Rules for Regular Expressions](#@@ITOC@@ABENESCAPE_FUNCTIONS_4)
-
--   [Rules for String Templates](#@@ITOC@@ABENESCAPE_FUNCTIONS_5)
-
--   [Rules for Cross Site Scripting](#@@ITOC@@ABENESCAPE_FUNCTIONS_6)
+-   [Rules for String Templates](#abenescape-functions-5--------rules-for-cross-site-scripting---@ITOC@@ABENESCAPE_FUNCTIONS_6)
 
 Rules for Markup Languages (Including JavaScript)
 

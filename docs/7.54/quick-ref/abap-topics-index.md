@@ -1,5 +1,10 @@
 # ABAP Topics Index
 
+**📖 Source Documentation**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+**🔍 Search All Topics**: Use `abap_search` with any keyword below
+**📚 Get Complete Bundles**: Use `abap_get` with specific bundle IDs
+
+
 **Version**: 7.54
 **Generated**: 2025-09-01T11:14:58.247Z
 

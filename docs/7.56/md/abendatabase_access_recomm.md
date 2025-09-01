@@ -15,12 +15,9 @@ The preceding sections
 
 The following rules for accessing ABAP-managed database objects are based on these two points.
 
--   [Basic Rule](#@@ITOC@@ABENDATABASE_ACCESS_RECOMM_1)
--   [Rules for Valid Use](#@@ITOC@@ABENDATABASE_ACCESS_RECOMM_2)
-    -   [ABAP SQL](#@@ITOC@@ABENDATABASE_ACCESS_RECOMM_3)
-    -   [AMDP](#@@ITOC@@ABENDATABASE_ACCESS_RECOMM_4)
-    -   [ABAP-Managed Native SQL](#@@ITOC@@ABENDATABASE_ACCESS_RECOMM_5)
-    -   [Mixed Access](#@@ITOC@@ABENDATABASE_ACCESS_RECOMM_6)
+-   [Basic Rule](#abendatabase-access-recomm-1-------rules-for-valid-use---@ITOC@@ABENDATABASE_ACCESS_RECOMM_2)
+    -   [ABAP SQL](#abendatabase-access-recomm-3-----------amdp---@ITOC@@ABENDATABASE_ACCESS_RECOMM_4)
+    -   [ABAP-Managed Native SQL](#abendatabase-access-recomm-5-----------mixed-access---@ITOC@@ABENDATABASE_ACCESS_RECOMM_6)
 
 Basic Rule
 

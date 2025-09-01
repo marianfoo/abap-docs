@@ -25,8 +25,7 @@ are [allowed to be changed](javascript:call_link\('abenc1_provider_rules_elem.ht
 
 All these changes result in a larger value range compared with the original data type. A consumer must be able to handle larger values. This impacts all operations with elementary data objects that are typed with such a type as well as operations with structured data that contain components of such a type.
 
--   [Operations with Elementary Data Objects](#@@ITOC@@ABENC1_CONSUMER_RULES_ELEM_1)
--   [Operations with Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_ELEM_2)
+-   [Operations with Elementary Data Objects](#abenc1-consumer-rules-elem-1-------operations-with-structures---@ITOC@@ABENC1_CONSUMER_RULES_ELEM_2)
 
 Operations with Elementary Data Objects   
 

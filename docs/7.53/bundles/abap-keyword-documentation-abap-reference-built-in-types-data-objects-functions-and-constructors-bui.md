@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenbuilt_in_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_functions.htm)
+- [abenbuilt_in_functions_syntax.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_functions_syntax.htm)
+- [abenbuilt_in_functions_overview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_functions_overview.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.175Z
+
+---
+
 ### abenbuilt_in_functions.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28,7 +48,14 @@ Continue
 [Built-In Functions - Overview](javascript:call_link\('abenbuilt_in_functions_overview.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_functions.htm)
+
 ### abenbuilt_in_functions_syntax.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_syntax.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_functions_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -114,7 +141,17 @@ CLASS demo IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abenbuilt_in_functions_syntax.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_functions_syntax.htm)
+
 ### abenbuilt_in_functions_overview.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_overview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_functions_overview.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenbuilt_in_functions_overview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_functions_overview.htm)
+
 
   
 

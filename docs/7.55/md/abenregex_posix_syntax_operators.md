@@ -10,21 +10,13 @@ POSIX regex - Character String Patterns
 
 Character strings are represented by chainings or operators.
 
--   [Chainings](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_1)
+-   [Chainings](#abenregex-posix-syntax-operators-1--------operators-for-character-strings---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_2)
 
--   [Operators for Character Strings](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_2)
+-   [Chaining Operators](#abenregex-posix-syntax-operators-3--------alternatives---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_4)
 
--   [Chaining Operators](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_3)
+-   [Subgroups](#abenregex-posix-syntax-operators-5--------subgroups-with-registration---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_6)
 
--   [Alternatives](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_4)
-
--   [Subgroups](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_5)
-
--   [Subgroups with Registration](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_6)
-
--   [Literal Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_7)
-
--   [Reserved Enhancements](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_8)
+-   [Literal Characters](#abenregex-posix-syntax-operators-7--------reserved-enhancements---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_8)
 
 Chainings
 

@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencl_abap_math.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_math.htm)
+- [abenfloating_point_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfloating_point_class.htm)
+- [abenrandom_number_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrandom_number_class.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.499Z
+
+---
+
 ### abencl_abap_math.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_math.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_math.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24,7 +44,14 @@ Continue
 [Random Numbers](javascript:call_link\('abenrandom_number_class.htm'\))
 
 
+
+**📖 Source**: [abencl_abap_math.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_math.htm)
+
 ### abenfloating_point_class.htm
+
+> **📖 Official SAP Documentation**: [abenfloating_point_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfloating_point_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -112,7 +139,17 @@ cl\_demo\_output=>display(
 }\\nprecision = { cl\_abap\_math=>get\_number\_of\_digits( decf ) }| ).
 
 
+
+**📖 Source**: [abenfloating_point_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfloating_point_class.htm)
+
 ### abenrandom_number_class.htm
+
+> **📖 Official SAP Documentation**: [abenrandom_number_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrandom_number_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenrandom_number_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrandom_number_class.htm)
+
 
   
 

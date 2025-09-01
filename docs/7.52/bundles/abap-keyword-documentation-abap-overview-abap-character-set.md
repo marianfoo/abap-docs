@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencharacter_sets.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_sets.htm)
+- [abenunicode.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.375Z
+
+---
+
 ### abencharacter_sets.htm
+
+> **📖 Official SAP Documentation**: [abencharacter_sets.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_sets.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49,7 +68,17 @@ Continue
 [Switching to Unicode](javascript:call_link\('abenunicode.htm'\))
 
 
+
+**📖 Source**: [abencharacter_sets.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_sets.htm)
+
 ### abenunicode.htm
+
+> **📖 Official SAP Documentation**: [abenunicode.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenunicode.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode.htm)
+
 
   
 

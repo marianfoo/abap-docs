@@ -13,16 +13,11 @@ regex - Incompatibilities Between POSIX and PCRE
 
 This topics lists all features of POSIX regular expressions that cannot be reused directly in PCRE but require some migration effort by rewriting the regular expressions.
 
--   [Migrating Patterns](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_1)
-    -   [Fundamental Differences](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_2)
-    -   [Significance of Whitespaces in Patterns](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_3)
-    -   [Comments](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_4)
-    -   [Unicode Handling](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_5)
-    -   [Matching Uppercase and Lowercase Letters](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_6)
-    -   [Matching All Unicode Characters](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_7)
-    -   [Word Anchors](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_8)
--   [Migrating Replacement Strings](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_9)
-    -   [Substituting the Whole Match](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_10)
+-   [Migrating Patterns](#abenregex-posix-pcre-incompat-1-----------fundamental-differences---@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_2)
+    -   [Significance of Whitespaces in Patterns](#abenregex-posix-pcre-incompat-3-----------comments---@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_4)
+    -   [Unicode Handling](#abenregex-posix-pcre-incompat-5-----------matching-uppercase-and-lowercase-letters---@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_6)
+    -   [Matching All Unicode Characters](#abenregex-posix-pcre-incompat-7-----------word-anchors---@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_8)
+-   [Migrating Replacement Strings](#abenregex-posix-pcre-incompat-9-----------substituting-the-whole-match---@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_10)
     -   [Substituting Parts Around the Match](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_11)
 
 Migrating Patterns   

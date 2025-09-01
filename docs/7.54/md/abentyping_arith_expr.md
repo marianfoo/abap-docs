@@ -24,13 +24,9 @@ The parameters are read from left to right (and from inside to outside) and the 
 
 Special rules apply to typing checks, identifying the calculation type, and parameter passes.
 
--   [Checking Typing](#@@ITOC@@ABENTYPING_ARITH_EXPR_1)
+-   [Checking Typing](#abentyping-arith-expr-1--------calculation-type-and-calculation-length---@ITOC@@ABENTYPING_ARITH_EXPR_2)
 
--   [Calculation Type and Calculation Length](#@@ITOC@@ABENTYPING_ARITH_EXPR_2)
-
--   [Passing Parameters](#@@ITOC@@ABENTYPING_ARITH_EXPR_3)
-
--   [Fully Typed](#@@ITOC@@ABENTYPING_ARITH_EXPR_4)
+-   [Passing Parameters](#abentyping-arith-expr-3--------fully-typed---@ITOC@@ABENTYPING_ARITH_EXPR_4)
 
 -   [Generically Typed](#@@ITOC@@ABENTYPING_ARITH_EXPR_5)
 

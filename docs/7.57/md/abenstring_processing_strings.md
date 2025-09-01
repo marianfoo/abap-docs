@@ -11,8 +11,7 @@ r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Character Strings and Byte Chains
 
--   [Character Strings](#@@ITOC@@ABENSTRING_PROCESSING_STRINGS_1)
--   [Byte Chains](#@@ITOC@@ABENSTRING_PROCESSING_STRINGS_2)
+-   [Character Strings](#abenstring-processing-strings-1-------byte-chains---@ITOC@@ABENSTRING_PROCESSING_STRINGS_2)
 
 Character Strings   
 

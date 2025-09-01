@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenaddress_obsolet.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenaddress_obsolet.htm)
+- [abaptype-pools.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptype-pools.htm)
+- [abapclass_interface_load.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_interface_load.htm)
+- [abapfields.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfields.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.193Z
+
+---
+
 ### abenaddress_obsolet.htm
+
+> **📖 Official SAP Documentation**: [abenaddress_obsolet.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenaddress_obsolet.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27,7 +48,14 @@ Continue
 [FIELDS](javascript:call_link\('abapfields.htm'\))
 
 
+
+**📖 Source**: [abenaddress_obsolet.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenaddress_obsolet.htm)
+
 ### abaptype-pools.htm
+
+> **📖 Official SAP Documentation**: [abaptype-pools.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptype-pools.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -64,7 +92,14 @@ Notes
 -   The statement TYPE-POOLS can still be used to migrate current programs to lower releases. Otherwise it can be deleted.
 
 
+
+**📖 Source**: [abaptype-pools.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptype-pools.htm)
+
 ### abapclass_interface_load.htm
+
+> **📖 Official SAP Documentation**: [abapclass_interface_load.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_interface_load.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -94,7 +129,17 @@ Note
 These variants of the statements CLASS and INTERFACE can also be used in contexts other than the context described in [CLASS](javascript:call_link\('abapclass.htm'\)) and [INTERFACE](javascript:call_link\('abapinterface.htm'\)).
 
 
+
+**📖 Source**: [abapclass_interface_load.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_interface_load.htm)
+
 ### abapfields.htm
+
+> **📖 Official SAP Documentation**: [abapfields.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfields.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapfields.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfields.htm)
+
 
   
 

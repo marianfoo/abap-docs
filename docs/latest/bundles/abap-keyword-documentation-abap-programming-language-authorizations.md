@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenbc_authority_check.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbc_authority_check.htm)
+- [abapauthority-check.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapauthority-check.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.899Z
+
+---
+
 ### abenbc_authority_check.htm
+
+> **📖 Official SAP Documentation**: [abenbc_authority_check.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbc_authority_check.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -77,7 +96,17 @@ Continue
 [AUTHORITY-CHECK OBJECT](javascript:call_link\('abapauthority-check.htm'\))
 
 
+
+**📖 Source**: [abenbc_authority_check.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbc_authority_check.htm)
+
 ### abapauthority-check.htm
+
+> **📖 Official SAP Documentation**: [abapauthority-check.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapauthority-check.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapauthority-check.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapauthority-check.htm)
+
 
   
 

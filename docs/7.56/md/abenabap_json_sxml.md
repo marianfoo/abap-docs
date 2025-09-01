@@ -10,8 +10,7 @@ JSON - Parsing and Rendering
 
 The processing of [JSON](javascript:call_link\('abenjson_oview.htm'\)) data in ABAP is integrated in the [sXML](javascript:call_link\('abensxml_library_glosry.htm'\) "Glossary Entry") Library. Here, JSON is supported as a separate [format](javascript:call_link\('abenabap_sxml_lib_formats.htm'\)), with [JSON-XML](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry") used as an intermediate step.
 
--   [Parsing JSON Data](#@@ITOC@@ABENABAP_JSON_SXML_1)
--   [Rendering of JSON Data](#@@ITOC@@ABENABAP_JSON_SXML_2)
+-   [Parsing JSON Data](#abenabap-json-sxml-1-------rendering-of-json-data---@ITOC@@ABENABAP_JSON_SXML_2)
 
 Parsing JSON Data
 

@@ -3,7 +3,28 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenrestricted_apis.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrestricted_apis.htm)
+- [abenc1_compatibility_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_compatibility_rules.htm)
+- [abenc1_provider_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_provider_rules.htm)
+- [abenc1_consumer_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_consumer_rules.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.516Z
+
+---
+
 ### abenrestricted_apis.htm
+
+> **📖 Official SAP Documentation**: [abenrestricted_apis.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrestricted_apis.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25,7 +46,14 @@ Continue
 [Compatibility Rules for the C1 Contract](javascript:call_link\('abenc1_compatibility_rules.htm'\))
 
 
+
+**📖 Source**: [abenrestricted_apis.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrestricted_apis.htm)
+
 ### abenc1_compatibility_rules.htm
+
+> **📖 Official SAP Documentation**: [abenc1_compatibility_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_compatibility_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47,7 +75,14 @@ Continue
 [C1 Contract Rules for API Consumers](javascript:call_link\('abenc1_consumer_rules.htm'\))
 
 
+
+**📖 Source**: [abenc1_compatibility_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_compatibility_rules.htm)
+
 ### abenc1_provider_rules.htm
+
+> **📖 Official SAP Documentation**: [abenc1_provider_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_provider_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -174,7 +209,14 @@ Others than the following objects cannot be classified with the C1 contract.
     -   Exceptions cannot be added and non-class-based exceptions must not be deleted.
 
 
+
+**📖 Source**: [abenc1_provider_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_provider_rules.htm)
+
 ### abenc1_consumer_rules.htm
+
+> **📖 Official SAP Documentation**: [abenc1_consumer_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_consumer_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -381,7 +423,17 @@ SELECT single \*
        into @struc2.
 
 
+
+**📖 Source**: [abenc1_consumer_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_consumer_rules.htm)
+
 ### abenc1_compatibility_rules.htm
+
+> **📖 Official SAP Documentation**: [abenc1_compatibility_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_compatibility_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenc1_compatibility_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_compatibility_rules.htm)
+
 
   
 

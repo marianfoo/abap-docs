@@ -21,8 +21,7 @@ Specifies an [annotation](javascript:call_link\('abencds_annotation_glosry.htm'\
 
 The following tables show the possible [ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
 
--   [AbapCatalog Annotations](#@@ITOC@@ABENCDS_F1_HIERARCHY_ANNOTATIONS_1)
--   [AccessControl Annotations](#@@ITOC@@ABENCDS_F1_HIERARCHY_ANNOTATIONS_2)
+-   [AbapCatalog Annotations](#abencds-f1-hierarchy-annotations-1-------accesscontrol-annotations---@ITOC@@ABENCDS_F1_HIERARCHY_ANNOTATIONS_2)
 
 The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
 

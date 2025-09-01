@@ -3,7 +3,32 @@
 Included pages: 11
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_structure.htm)
+- [abenddicddl_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm)
+- [abenddicddl_define_struct_props.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_props.htm)
+- [abenddicddl_define_struct_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm)
+- [abenddicddl_define_struct_cmpprps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_cmpprps.htm)
+- [abenddicddl_define_struct_valuhelp.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_valuhelp.htm)
+- [abenddicddl_define_struct_incl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm)
+- [abenddicddl_define_struct_comp_ext.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comp_ext.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.660Z
+
+---
+
 ### abenddic_define_structure.htm
+
+> **📖 Official SAP Documentation**: [abenddic_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_structure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27,7 +52,14 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE](javascript:call_link\('abenddicddl_define_structure.htm'\))
 
 
+
+**📖 Source**: [abenddic_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_structure.htm)
+
 ### abenddicddl_define_structure.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -87,7 +119,14 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, include](javascript:call_link\('abenddicddl_define_struct_incl.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm)
+
 ### abenddicddl_define_struct_props.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_props.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_props.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -131,7 +170,14 @@ Hints
 -   The syntax used to specify the properties is based on [CDS annotations](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry"). There are, however, no visible associated [annotation definitions](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenddicddl_define_struct_props.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_props.htm)
+
 ### abenddicddl_define_struct_comps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -205,7 +251,14 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, value\_help](javascript:call_link\('abenddicddl_define_struct_valuhelp.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_struct_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm)
+
 ### abenddicddl_define_struct_cmpprps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_cmpprps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_cmpprps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -268,7 +321,14 @@ define structure struct {
   }
 
 
+
+**📖 Source**: [abenddicddl_define_struct_cmpprps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_cmpprps.htm)
+
 ### abenddicddl_define_struct_valuhelp.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_valuhelp.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_valuhelp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -309,7 +369,14 @@ define structure struct {
   }
 
 
+
+**📖 Source**: [abenddicddl_define_struct_valuhelp.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_valuhelp.htm)
+
 ### abenddicddl_define_struct_comps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -383,7 +450,14 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, value\_help](javascript:call_link\('abenddicddl_define_struct_valuhelp.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_struct_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comps.htm)
+
 ### abenddicddl_define_struct_incl.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_incl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -435,7 +509,14 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, extend](javascript:call_link\('abenddicddl_define_struct_comp_ext.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_struct_incl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm)
+
 ### abenddicddl_define_struct_comp_ext.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_comp_ext.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comp_ext.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -488,7 +569,14 @@ define structure struct {
   }
 
 
+
+**📖 Source**: [abenddicddl_define_struct_comp_ext.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_comp_ext.htm)
+
 ### abenddicddl_define_struct_incl.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_incl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -540,7 +628,17 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, extend](javascript:call_link\('abenddicddl_define_struct_comp_ext.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_struct_incl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_struct_incl.htm)
+
 ### abenddicddl_define_structure.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddicddl_define_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_structure.htm)
+
 
   
 

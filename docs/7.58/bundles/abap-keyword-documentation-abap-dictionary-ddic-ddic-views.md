@@ -3,7 +3,35 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm)
+- [abenddic_view_names.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_view_names.htm)
+- [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
+- [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_views.htm)
+- [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_projection_views.htm)
+- [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_maintenance_views.htm)
+- [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_help_views.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.921Z
+
+---
+
 ### abenddic_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54,7 +82,18 @@ Continue
 [DDIC - Table Views](javascript:call_link\('abenddic_table_views.htm'\))
 
 
+
+**📖 Source**: [abenddic_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm)
+
 ### abenddic_view_names.htm
+
+> **📖 Official SAP Documentation**: [abenddic_view_names.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_view_names.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_view_names.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_view_names.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -76,7 +115,18 @@ The name of a view defined in the ABAP Dictionary must comply to the following r
 -   It is located in the namespace of the [data types](javascript:call_link\('abenddic_data_types.htm'\)) in ABAP Dictionary and by that the namespace of all [global types](javascript:call_link\('abenglobal_type_glosry.htm'\) "Glossary Entry") of an AS ABAP.
 
 
+
+**📖 Source**: [abenddic_view_names.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_view_names.htm)
+
 ### abenddic_table_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -144,7 +194,18 @@ Continue
 [DDIC - Help Views](javascript:call_link\('abenddic_help_views.htm'\))
 
 
+
+**📖 Source**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
+
 ### abenddic_database_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -166,7 +227,18 @@ A DDIC database view defines a view on one or more basis tables. If there are mu
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_views.htm)
+
 ### abenddic_projection_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_projection_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_projection_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -214,7 +286,18 @@ SELECT \*
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_projection_views.htm)
+
 ### abenddic_maintenance_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_maintenance_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_maintenance_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -311,7 +394,18 @@ A DDIC maintenance view also has a [delivery class](javascript:call_link\('abend
 The delivery class of the basis tables of a maintenance view is not affected by this. The basis tables of a maintenance views have their own [delivery class](javascript:call_link\('abenddic_database_tables_delivery.htm'\)). This delivery class is used for upgrades and transports between customer systems
 
 
+
+**📖 Source**: [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_maintenance_views.htm)
+
 ### abenddic_help_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_help_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_help_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -340,7 +434,21 @@ Hints
 -   Selections using help views can only be made quicker by making restrictions on the primary table. When accessing help views from the ABAP runtime framework, special selection routines are generated. These routines always make the selection using the primary table first and then use the records found as a key for selecting the supplementary information.
 
 
+
+**📖 Source**: [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_help_views.htm)
+
 ### abenddic_table_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
+
 
   
 

@@ -8,9 +8,7 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Naming Conventions and Namespaces
 
--   [Naming Conventions](#@@ITOC@@ABENNAMING_CONVENTIONS_1)
-
--   [Namespaces](#@@ITOC@@ABENNAMING_CONVENTIONS_2)
+-   [Naming Conventions](#abennaming-conventions-1--------namespaces---@ITOC@@ABENNAMING_CONVENTIONS_2)
 
 -   [Reserved Names](#@@ITOC@@ABENNAMING_CONVENTIONS_3)
 

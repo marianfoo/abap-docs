@@ -10,9 +10,7 @@ arith\_exp - Calculation Type and Calculation Rules
 
 An arithmetic expression is assigned a calculation type that specifies the calculation rules for the expression. The calculation type is determined at program runtime from those data types involved that can be identified. The calculation type only needs to be determined statically if the target field is an [inline declaration](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry"), where generically type operands are included using a [standard type](javascript:call_link\('abenstandard_type_glosry.htm'\) "Glossary Entry").
 
--   [Determining the Calculation Type](#@@ITOC@@ABENARITH_TYPE_1)
-
--   [Calculation Rules for Calculation Type](#@@ITOC@@ABENARITH_TYPE_2)
+-   [Determining the Calculation Type](#abenarith-type-1--------calculation-rules-for-calculation-type---@ITOC@@ABENARITH_TYPE_2)
 
 -   [Handling the Result](#@@ITOC@@ABENARITH_TYPE_3)
 

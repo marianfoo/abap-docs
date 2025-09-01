@@ -3,7 +3,31 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencall_transformation_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transformation_abexas.htm)
+- [abencall_trafo_sources_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_sources_abexa.htm)
+- [abencall_trafo_results_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_results_abexa.htm)
+- [abenabap_deserl_no_elem_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_deserl_no_elem_abexa.htm)
+- [abenabap_deserl_empt_elem_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_deserl_empt_elem_abexa.htm)
+- [abencall_trafo_escaping_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_escaping_abexa.htm)
+- [abencall_trafo_upper_lower_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_upper_lower_abexa.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.184Z
+
+---
+
 ### abencall_transformation_abexas.htm
+
+> **📖 Official SAP Documentation**: [abencall_transformation_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transformation_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24,7 +48,14 @@ Continue
 ![Example](exa.gif "Example") [Transformation of XML Element Names](javascript:call_link\('abencall_trafo_upper_lower_abexa.htm'\))
 
 
+
+**📖 Source**: [abencall_transformation_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transformation_abexas.htm)
+
 ### abencall_trafo_sources_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_trafo_sources_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_sources_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -230,7 +261,14 @@ Description
 The [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID is called with all XML sources for which a format is possible, in the order of the formats. The XML target is always a byte string, which is produced after each successful transformation.
 
 
+
+**📖 Source**: [abencall_trafo_sources_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_sources_abexa.htm)
+
 ### abencall_trafo_results_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_trafo_results_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_results_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -354,7 +392,14 @@ Description
 The [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID is called for all possible XML targets and the result is displayed. The XML source is always the same byte string, which contains the XML data in JSON-XML format.
 
 
+
+**📖 Source**: [abencall_trafo_results_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_results_abexa.htm)
+
 ### abenabap_deserl_no_elem_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenabap_deserl_no_elem_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_deserl_no_elem_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -480,7 +525,14 @@ Note
 The modification of XML and JSON data using string processing is only shown here to make the example clearer. In production programs, the APIs of [class libraries for XML](javascript:call_link\('abenabap_xml_libs.htm'\)) should be used.
 
 
+
+**📖 Source**: [abenabap_deserl_no_elem_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_deserl_no_elem_abexa.htm)
+
 ### abenabap_deserl_empt_elem_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenabap_deserl_empt_elem_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_deserl_empt_elem_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -608,7 +660,14 @@ Note
 The modification of XML and JSON data using string processing is only shown here to make the example clearer. In production programs, the APIs of [class libraries for XML](javascript:call_link\('abenabap_xml_libs.htm'\)) should be used.
 
 
+
+**📖 Source**: [abenabap_deserl_empt_elem_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_deserl_empt_elem_abexa.htm)
+
 ### abencall_trafo_escaping_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_trafo_escaping_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_escaping_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -678,7 +737,17 @@ Four XSLT programs with different output methods are called and an ST program fo
 The results of the simple transformation DEMO\_ESCAPING\_ST match the XSL transformation with the output method "xml". Also, the text string is displayed here as an attribute in which the syntax character " is replaced by &quot;.
 
 
+
+**📖 Source**: [abencall_trafo_escaping_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_escaping_abexa.htm)
+
 ### abencall_trafo_upper_lower_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_trafo_upper_lower_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_upper_lower_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencall_trafo_upper_lower_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_trafo_upper_lower_abexa.htm)
+
 
   
 

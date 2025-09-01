@@ -7,6 +7,21 @@
 ---
 
 
+
+## 🔗 Complete Source Documentation
+
+**📖 Official Documentation**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+**🏷️ Category**: TYPES
+**🔍 Search Specific Topics**: Use `abap_search query:"types"` for focused results
+**📄 Individual Pages**: All source URLs included in each section below
+
+### 🎯 Quick Navigation
+- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
+- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
+- **Browse by difficulty**: Look for **Difficulty** markers in each section
+
+---
+
 ## ABAP - Keyword Documentation / ABAP - Dictionary (DDIC) / DDIC - Data Types / DDIC - Data Elements
 
 **Files**: 7 | **Difficulty**: intermediate
@@ -17,6 +32,10 @@ Included pages: 7
 
 
 ### abenddic_data_elements.htm
+
+> **📖 Official SAP Documentation**: [abenddic_data_elements.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_data_elements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48,7 +67,14 @@ Continue
 [DDIC - Domains](javascript:call_link\('abenddic_domains.htm'\))
 
 
+
+**📖 Source**: [abenddic_data_elements.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_data_elements.htm)
+
 ### abenddic_data_elements_tech.htm
+
+> **📖 Official SAP Documentation**: [abenddic_data_elements_tech.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_data_elements_tech.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -86,7 +112,14 @@ Example
 The data element S\_CONN\_ID inherits its technical properties (data type NUMC, length 4) from the domain S\_CONN\_ID. The data element S\_CONN\_ID has documentation and further texts that describe its semantics. It is used as a data type of many table fields that match these semantic properties, such as the column CONNID of the DDIC database tables SPFLI, SBOOK, and SFLIGHT.
 
 
+
+**📖 Source**: [abenddic_data_elements_tech.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_data_elements_tech.htm)
+
 ### abenddic_data_elements_sema.htm
+
+> **📖 Official SAP Documentation**: [abenddic_data_elements_sema.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_data_elements_sema.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -184,7 +217,14 @@ Hint
 It is highly significant that many semantic properties of a data element define the behavior of dynpro fields or Web Dynpro fields. For example, a data element whose documentation describes the internal properties of a technical type is not usually suitable for use in UI fields. One example are the data elements SYST\_... that define the components of the system structure SYST. The documentation of these data elements describes the corresponding system fields and should not appear on a UI. Ideally, separate data elements are created with their own semantic properties for UIs and DDIC database tables. Any data elements not used for UI fields do not usually require semantic properties except for the short text and possibly documentation if this is not sufficient. Conversely, properties such as the flag for change documents are not relevant for data elements for interfaces.
 
 
+
+**📖 Source**: [abenddic_data_elements_sema.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_data_elements_sema.htm)
+
 ### abenddic_domains.htm
+
+> **📖 Official SAP Documentation**: [abenddic_domains.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_domains.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -218,7 +258,14 @@ Continue
 [DDIC - Semantic Properties of Domains](javascript:call_link\('abenddic_domains_sema.htm'\))
 
 
+
+**📖 Source**: [abenddic_domains.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_domains.htm)
+
 ### abenddic_domains_tech.htm
+
+> **📖 Official SAP Documentation**: [abenddic_domains_tech.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_domains_tech.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -244,7 +291,14 @@ Hint
 When existing domains are modified, all users of the domain are also affected. In particular, [foreign keys](javascript:call_link\('abenddic_database_tables_forkey.htm'\)) can become inconsistent when used for the fields of DDIC database tables, which makes [adjustments](javascript:call_link\('abenddic_database_tables_adj.htm'\)) necessary.
 
 
+
+**📖 Source**: [abenddic_domains_tech.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_domains_tech.htm)
+
 ### abenddic_domains_sema.htm
+
+> **📖 Official SAP Documentation**: [abenddic_domains_sema.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_domains_sema.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -321,7 +375,14 @@ Example
 The domain S\_CLASS with the type CHAR describes the possible classes in a flight booking. The value range of the domain is defined by the fixed values "C" (Business Class), "F" (First Class), and "Y" (Economy Class). This means that only the values "C", "F", and "Y" can be entered for all dynpro fields that refer to this domain.
 
 
+
+**📖 Source**: [abenddic_domains_sema.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_domains_sema.htm)
+
 ### abenddic_domains.htm
+
+> **📖 Official SAP Documentation**: [abenddic_domains.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_domains.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -367,7 +428,14 @@ Continue
 Included pages: 2
 
 
+
+**📖 Source**: [abenddic_domains.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_domains.htm)
+
 ### abenddic_structures_tech.htm
+
+> **📖 Official SAP Documentation**: [abenddic_structures_tech.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_structures_tech.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -414,7 +482,14 @@ Continue
 [DDIC - Enhancement Category of Structures](javascript:call_link\('abenddic_structures_enh_cat.htm'\))
 
 
+
+**📖 Source**: [abenddic_structures_tech.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_structures_tech.htm)
+
 ### abenddic_structures_enh_cat.htm
+
+> **📖 Official SAP Documentation**: [abenddic_structures_enh_cat.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_structures_enh_cat.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -519,7 +594,14 @@ str = my\_struc+off(len).
 Included pages: 11
 
 
+
+**📖 Source**: [abenddic_structures_enh_cat.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_structures_enh_cat.htm)
+
 ### abenddic_define_structure.htm
+
+> **📖 Official SAP Documentation**: [abenddic_define_structure.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_define_structure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -546,7 +628,14 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE](javascript:call_link\('abenddicddl_define_structure.htm'\))
 
 
+
+**📖 Source**: [abenddic_define_structure.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_define_structure.htm)
+
 ### abenddicddl_define_structure.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_structure.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_structure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -605,7 +694,14 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, include](javascript:call_link\('abenddicddl_define_struct_incl.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_structure.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_structure.htm)
+
 ### abenddicddl_define_struct_props.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_props.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_props.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -644,7 +740,14 @@ Hints
 -   The syntax used to specify the properties is based on [CDS annotations](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry"). There are, however, no visible associated [annotation definitions](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenddicddl_define_struct_props.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_props.htm)
+
 ### abenddicddl_define_struct_comps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_comps.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -709,7 +812,14 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, value\_help](javascript:call_link\('abenddicddl_define_struct_valuhelp.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_struct_comps.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_comps.htm)
+
 ### abenddicddl_define_struct_cmpprps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_cmpprps.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_cmpprps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -765,7 +875,14 @@ define structure struct {
   }
 
 
+
+**📖 Source**: [abenddicddl_define_struct_cmpprps.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_cmpprps.htm)
+
 ### abenddicddl_define_struct_valuhelp.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_valuhelp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_valuhelp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -809,7 +926,14 @@ define structure struct {
   }
 
 
+
+**📖 Source**: [abenddicddl_define_struct_valuhelp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_valuhelp.htm)
+
 ### abenddicddl_define_struct_comps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_comps.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -874,7 +998,14 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, value\_help](javascript:call_link\('abenddicddl_define_struct_valuhelp.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_struct_comps.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_comps.htm)
+
 ### abenddicddl_define_struct_incl.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_incl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_incl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -926,7 +1057,14 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, extend](javascript:call_link\('abenddicddl_define_struct_comp_ext.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_struct_incl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_incl.htm)
+
 ### abenddicddl_define_struct_comp_ext.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_comp_ext.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_comp_ext.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -980,7 +1118,14 @@ define structure struct {
   }
 
 
+
+**📖 Source**: [abenddicddl_define_struct_comp_ext.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_comp_ext.htm)
+
 ### abenddicddl_define_struct_incl.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_struct_incl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_incl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1032,7 +1177,14 @@ Continue
 [DDIC DDL - DEFINE STRUCTURE, extend](javascript:call_link\('abenddicddl_define_struct_comp_ext.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_struct_incl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_struct_incl.htm)
+
 ### abenddicddl_define_structure.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_structure.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_structure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1103,7 +1255,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abenddicddl_define_structure.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_define_structure.htm)
+
 ### abenddic_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1155,7 +1314,14 @@ Continue
 [DDIC - Table Views](javascript:call_link\('abenddic_table_views.htm'\))
 
 
+
+**📖 Source**: [abenddic_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_views.htm)
+
 ### abenddic_view_names.htm
+
+> **📖 Official SAP Documentation**: [abenddic_view_names.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_view_names.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1178,7 +1344,14 @@ The name of a view defined in the ABAP Dictionary must comply to the following r
 -   It is located in the namespace of the [data types](javascript:call_link\('abenddic_data_types.htm'\)) in ABAP Dictionary and by that the namespace of all [global types](javascript:call_link\('abenglobal_type_glosry.htm'\) "Glossary Entry") of an AS ABAP.
 
 
+
+**📖 Source**: [abenddic_view_names.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_view_names.htm)
+
 ### abenddic_table_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1247,7 +1420,14 @@ Continue
 [DDIC - Help Views](javascript:call_link\('abenddic_help_views.htm'\))
 
 
+
+**📖 Source**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_views.htm)
+
 ### abenddic_database_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1270,7 +1450,14 @@ A DDIC database view is a general view for one or more basis tables. If there ar
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_views.htm)
+
 ### abenddic_projection_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_projection_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1319,7 +1506,14 @@ SELECT \*
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_projection_views.htm)
+
 ### abenddic_maintenance_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_maintenance_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1417,7 +1611,14 @@ A DDIC maintenance view also has a [delivery class](javascript:call_link\('abend
 Regardless of this, the transport of the basis tables involved in upgrades and in transports between customer systems is determined solely by their [delivery class](javascript:call_link\('abenddic_database_tables_delivery.htm'\)).
 
 
+
+**📖 Source**: [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_maintenance_views.htm)
+
 ### abenddic_help_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_help_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1447,7 +1648,14 @@ Hints
 -   Selections using help views can only be made quicker by making restrictions on the primary table. When accessing help views from the ABAP runtime framework, special selection routines are generated. These routines always make the selection using the primary table first and then use the records found as a key for selecting the supplementary information.
 
 
+
+**📖 Source**: [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_help_views.htm)
+
 ### abenddic_table_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1528,7 +1736,14 @@ Continue
 Included pages: 9
 
 
+
+**📖 Source**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_views.htm)
+
 ### abenddic_enhancements.htm
+
+> **📖 Official SAP Documentation**: [abenddic_enhancements.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_enhancements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1565,7 +1780,14 @@ Continue
 [DDIC - Fixed Value Appends](javascript:call_link\('abenddic_fixed_value_appends.htm'\))
 
 
+
+**📖 Source**: [abenddic_enhancements.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_enhancements.htm)
+
 ### abenddic_customizing_includes.htm
+
+> **📖 Official SAP Documentation**: [abenddic_customizing_includes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_customizing_includes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1587,7 +1809,14 @@ A customizing include can be included in multiple DDIC database tables or DDIC s
 Enhancements of a delivered DDIC structure or DDIC database table using a customizing include are not modifications. If a customizing include is used to add fields to a DDIC database table or DDIC structure in the standard system, these fields are inserted automatically in the new DDIC structure or DDIC database table delivered by SAP in an upgrade.
 
 
+
+**📖 Source**: [abenddic_customizing_includes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_customizing_includes.htm)
+
 ### abenddic_append_structures.htm
+
+> **📖 Official SAP Documentation**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_append_structures.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1637,7 +1866,14 @@ Continue
 [DDIC - Dictionary DDL for Structure Extensions](javascript:call_link\('abenddic_extend_type.htm'\))
 
 
+
+**📖 Source**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_append_structures.htm)
+
 ### abenddic_extend_type.htm
+
+> **📖 Official SAP Documentation**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_extend_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1664,7 +1900,14 @@ Continue
 [DDIC DDL - EXTEND TYPE](javascript:call_link\('abenddicddl_extend_type.htm'\))
 
 
+
+**📖 Source**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_extend_type.htm)
+
 ### abenddicddl_extend_type.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_extend_type.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_extend_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1720,7 +1963,14 @@ extend type demo\_structure with demo\_append\_structure {
 The source code used to define the structure DEMO\_STRUCTURE is not modified by this extension. In the ADT, however, an icon indicates that the structure is extended using DEMO\_APPEND\_STRUCTURE.
 
 
+
+**📖 Source**: [abenddicddl_extend_type.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddicddl_extend_type.htm)
+
 ### abenddic_extend_type.htm
+
+> **📖 Official SAP Documentation**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_extend_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1747,7 +1997,14 @@ Continue
 [DDIC DDL - EXTEND TYPE](javascript:call_link\('abenddicddl_extend_type.htm'\))
 
 
+
+**📖 Source**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_extend_type.htm)
+
 ### abenddic_append_structures.htm
+
+> **📖 Official SAP Documentation**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_append_structures.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1797,7 +2054,14 @@ Continue
 [DDIC - Dictionary DDL for Structure Extensions](javascript:call_link\('abenddic_extend_type.htm'\))
 
 
+
+**📖 Source**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_append_structures.htm)
+
 ### abenddic_append_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_append_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_append_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1830,7 +2094,14 @@ Example
 The DDIC append view DEMO\_APPEND\_VIEW is added to the DDIC database view DEMO\_ORIGINAL. The program DEMO\_APPEND\_VIEW uses [SELECT](javascript:call_link\('abapselect.htm'\)) to access the extended view and also displays the components of the structures in question.
 
 
+
+**📖 Source**: [abenddic_append_views.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_append_views.htm)
+
 ### abenddic_fixed_value_appends.htm
+
+> **📖 Official SAP Documentation**: [abenddic_fixed_value_appends.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_fixed_value_appends.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1868,7 +2139,14 @@ The fixed value append DEMO\_FIXED\_VALUE\_APPEND is added to the domain DEMO\_O
 Included pages: 2
 
 
+
+**📖 Source**: [abenddic_fixed_value_appends.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_fixed_value_appends.htm)
+
 ### abenlogic_functions.htm
+
+> **📖 Official SAP Documentation**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogic_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1896,7 +2174,14 @@ Continue
 [boolc, boolx, xsdbool, Boolean Functions](javascript:call_link\('abenboole_functions.htm'\))
 
 
+
+**📖 Source**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogic_functions.htm)
+
 ### abenboole_functions.htm
+
+> **📖 Official SAP Documentation**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2047,7 +2332,14 @@ ENDIF.
 Included pages: 2
 
 
+
+**📖 Source**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_functions.htm)
+
 ### abentime_system_fields.htm
+
+> **📖 Official SAP Documentation**: [abentime_system_fields.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentime_system_fields.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2175,7 +2467,14 @@ Continue
 [GET TIME](javascript:call_link\('abapget_time.htm'\))
 
 
+
+**📖 Source**: [abentime_system_fields.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentime_system_fields.htm)
+
 ### abapget_time.htm
+
+> **📖 Official SAP Documentation**: [abapget_time.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_time.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2254,7 +2553,14 @@ cl\_demo\_output=>display( time - sy-uzeit ).
 Included pages: 2
 
 
+
+**📖 Source**: [abapget_time.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_time.htm)
+
 ### abenobsolete_typing.htm
+
+> **📖 Official SAP Documentation**: [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobsolete_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2275,7 +2581,17 @@ Continue
 [LIKE, Obsolete](javascript:call_link\('abenlike_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobsolete_typing.htm)
+
 ### abenlike_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlike_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlike_obsolete.htm)
+
 
   
 

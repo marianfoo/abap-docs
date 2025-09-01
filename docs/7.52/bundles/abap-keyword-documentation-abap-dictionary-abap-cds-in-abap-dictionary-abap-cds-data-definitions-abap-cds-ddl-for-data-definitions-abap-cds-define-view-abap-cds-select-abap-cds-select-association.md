@@ -3,7 +3,28 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_f1_association.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm)
+- [abencds_f1_path_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm)
+- [abencds_path_expression_attr.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm)
+- [abencds_assoc_join_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_assoc_join_abexa.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.359Z
+
+---
+
 ### abencds_f1_association.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_association.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -252,7 +273,14 @@ Continue
 [ABAP CDS - path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_association.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm)
+
 ### abencds_f1_path_expression.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_path_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -381,7 +409,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP CDS - Joins of Associations](javascript:call_link\('abencds_assoc_join_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_path_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm)
+
 ### abencds_path_expression_attr.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_attr.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -632,7 +667,14 @@ FROM (
 )
 
 
+
+**📖 Source**: [abencds_path_expression_attr.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm)
+
 ### abencds_assoc_join_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_assoc_join_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_assoc_join_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -844,7 +886,17 @@ In the DDL Source Text Editor of the [ADT](javascript:call_link\('abenadt_glosry
 This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of Open-SQL statements [SELECT](javascript:call_link\('abapselect.htm'\)) with explicitly programmed left outer and inner joins. The system accesses the database tables DEMO\_JOIN1, DEMO\_JOIN2 and DEMO\_JOIN3, which are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
 
 
+
+**📖 Source**: [abencds_assoc_join_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_assoc_join_abexa.htm)
+
 ### abencds_f1_path_expression.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_path_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_path_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm)
+
 
   
 

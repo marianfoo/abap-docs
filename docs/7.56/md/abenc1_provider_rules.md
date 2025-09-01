@@ -12,10 +12,8 @@ Generally, a repository object that is classified with the C1 contract must not 
 
 The following sections show the most important rules that a C1 contract imposes on different kinds of repository objects.
 
--   [General Rules for Elementary Data Types](#@@ITOC@@ABENC1_PROVIDER_RULES_1)
--   [Dictionary Objects](#@@ITOC@@ABENC1_PROVIDER_RULES_2)
--   [ABAP CDS Objects](#@@ITOC@@ABENC1_PROVIDER_RULES_3)
--   [Objects implemented in ABAP](#@@ITOC@@ABENC1_PROVIDER_RULES_4)
+-   [General Rules for Elementary Data Types](#abenc1-provider-rules-1-------dictionary-objects---@ITOC@@ABENC1_PROVIDER_RULES_2)
+-   [ABAP CDS Objects](#abenc1-provider-rules-3-------objects-implemented-in-abap---@ITOC@@ABENC1_PROVIDER_RULES_4)
 
 General Rules for Elementary Data Types
 

@@ -8,9 +8,7 @@ AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
 iXML Library - Streams and Documents
 
--   [Input Streams and Output Streams](#@@ITOC@@ABENABAP_IXML_LIB_INPUT_OUTPUT_1)
-
--   [XML documents](#@@ITOC@@ABENABAP_IXML_LIB_INPUT_OUTPUT_2)
+-   [Input Streams and Output Streams](#abenabap-ixml-lib-input-output-1--------xml-documents---@ITOC@@ABENABAP_IXML_LIB_INPUT_OUTPUT_2)
 
 Input Streams and Output Streams
 

@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_select_clauses.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_select_clauses.htm)
+- [abencds_f1_where_clause.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_where_clause.htm)
+- [abencds_f1_group_by.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_group_by.htm)
+- [abencds_f1_having_clause.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_having_clause.htm)
+- [abencds_f1_union.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_union.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.133Z
+
+---
+
 ### abencds_select_clauses.htm
+
+> **📖 Official SAP Documentation**: [abencds_select_clauses.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_select_clauses.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41,7 +63,14 @@ Continue
 [ABAP CDS - SELECT, UNION](javascript:call_link\('abencds_f1_union.htm'\))
 
 
+
+**📖 Source**: [abencds_select_clauses.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_select_clauses.htm)
+
 ### abencds_f1_where_clause.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_where_clause.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_where_clause.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -90,7 +119,14 @@ define view sales\_order as
                                      and 20130401000000.0; //Jan-March
 
 
+
+**📖 Source**: [abencds_f1_where_clause.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_where_clause.htm)
+
 ### abencds_f1_group_by.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_group_by.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_group_by.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -136,7 +172,14 @@ define view sales\_order as
       group by bp\_role, snwd\_so.currency\_code;
 
 
+
+**📖 Source**: [abencds_f1_group_by.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_group_by.htm)
+
 ### abencds_f1_having_clause.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_having_clause.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_having_clause.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -179,7 +222,17 @@ define view sales\_order as
   having sum(snwd\_so.gross\_amount) > 100000.00;
 
 
+
+**📖 Source**: [abencds_f1_having_clause.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_having_clause.htm)
+
 ### abencds_f1_union.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_union.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_union.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_union.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_union.htm)
+
 
   
 

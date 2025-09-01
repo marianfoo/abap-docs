@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_examples.htm)
+- [abenldb_example.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_example.htm)
+- [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_selections_example.htm)
+- [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_program_example.htm)
+- [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreport_abexa.htm)
+- [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_database_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.478Z
+
+---
+
 ### abenldb_examples.htm
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +52,14 @@ Continue
 ![Example](exa.gif "Example") [LDB - Calls Using a Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
 
 
+
+**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_examples.htm)
+
 ### abenldb_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -97,7 +127,14 @@ The database tables are read in accordance with the selection criteria of the us
 This program is only intended to demonstrate the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronological order of the subroutine calls is determined by the structure of the logical database.
 
 
+
+**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_example.htm)
+
 ### abenldb_selections_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -165,7 +202,14 @@ This automatically created selection include can be completed, for example, as f
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and connected to the node BKPF. Dynamic selections are defined for the tablesLFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
+
+**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_selections_example.htm)
+
 ### abenldb_program_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -346,7 +390,14 @@ If the selections specify [dynamic selections](javascript:call_link\('abenldb_fr
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.
 
 
+
+**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_program_example.htm)
+
 ### abenreport_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -400,7 +451,17 @@ Description
 This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
 
 
+
+**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreport_abexa.htm)
+
 ### abenlogical_database_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_database_abexa.htm)
+
 
   
 

@@ -11,8 +11,7 @@ uggestion%20for%20improvement:)
 
 Operands in Character String and Byte String Processing
 
--   [Operands in Character String Processing](#@@ITOC@@ABENSTRING_PROCESSING_OPERANDS_1)
--   [Operands in Byte String Processing](#@@ITOC@@ABENSTRING_PROCESSING_OPERANDS_2)
+-   [Operands in Character String Processing](#abenstring-processing-operands-1-------operands-in-byte-string-processing---@ITOC@@ABENSTRING_PROCESSING_OPERANDS_2)
 
 Operands in Character String Processing   
 

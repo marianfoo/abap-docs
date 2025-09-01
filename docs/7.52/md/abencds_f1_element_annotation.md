@@ -18,9 +18,7 @@ Both the elements of a CDS table function and the elements of the SELECT list in
 
 The following tables show the possible [ABAP annotations](javascript:call_link\('abencore_annotation_glosry.htm'\) "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime environment for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)). These are not evaluated by the ABAP runtime environment but by other SAP frameworks instead.
 
--   [EndUserText Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_1)
-
--   [Environment Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_2)
+-   [EndUserText Annotations](#abencds-f1-element-annotation-1--------environment-annotations---@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_2)
 
 -   [Semantics Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_3)
 

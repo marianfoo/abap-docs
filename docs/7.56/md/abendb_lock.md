@@ -15,10 +15,8 @@ Simultaneous access by multiple transactions to the same dataset requires databa
 
 The following sections are a short discussion of the properties of database locks:
 
--   [Setting Locks](#@@ITOC@@ABENDB_LOCK_1)
--   [Locked Objects](#@@ITOC@@ABENDB_LOCK_2)
--   [Lock Mode](#@@ITOC@@ABENDB_LOCK_3)
--   [Lock Duration](#@@ITOC@@ABENDB_LOCK_4)
+-   [Setting Locks](#abendb-lock-1-------locked-objects---@ITOC@@ABENDB_LOCK_2)
+-   [Lock Mode](#abendb-lock-3-------lock-duration---@ITOC@@ABENDB_LOCK_4)
 
 Setting Locks
 

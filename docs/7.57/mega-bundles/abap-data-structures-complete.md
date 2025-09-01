@@ -7,6 +7,21 @@
 ---
 
 
+
+## 🔗 Complete Source Documentation
+
+**📖 Official Documentation**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+**🏷️ Category**: DATA-STRUCTURES
+**🔍 Search Specific Topics**: Use `abap_search query:"data-structures"` for focused results
+**📄 Individual Pages**: All source URLs included in each section below
+
+### 🎯 Quick Navigation
+- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
+- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
+- **Browse by difficulty**: Look for **Difficulty** markers in each section
+
+---
+
 ## ABAP - Keyword Documentation / ABAP - Dictionary (DDIC) / DDIC - Data Types / DDIC - Table Types
 
 **Files**: 4 | **Difficulty**: intermediate
@@ -17,6 +32,10 @@ Included pages: 4
 
 
 ### abenddic_table_types.htm
+
+> **📖 Official SAP Documentation**: [abenddic_table_types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57,7 +76,14 @@ Continue
 [DDIC - Ranges Table Type](javascript:call_link\('abenddic_table_types_ranges.htm'\))
 
 
+
+**📖 Source**: [abenddic_table_types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_types.htm)
+
 ### abenddic_table_types_tech.htm
+
+> **📖 Official SAP Documentation**: [abenddic_table_types_tech.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_types_tech.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -109,7 +135,14 @@ Hints
 -   A line type cannot be defined using a reference to a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"), nor using a reference to a [CDS-managed DDIC view (obsolete)](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") of a corresponding [CDS DDIC-based views (obsolete)](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry"). The reason is that CDS-managed DDIC views (obsolete) are [obsolete](javascript:call_link\('abencds_access_obsolete.htm'\)).
 
 
+
+**📖 Source**: [abenddic_table_types_tech.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_types_tech.htm)
+
 ### abenddic_table_types_sema.htm
+
+> **📖 Official SAP Documentation**: [abenddic_table_types_sema.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_types_sema.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -139,7 +172,14 @@ Table types in the ABAP Dictionary can be given the following semantic propertie
     Each secondary key his assigned a short descriptive text that must be specified when it is created.
 
 
+
+**📖 Source**: [abenddic_table_types_sema.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_types_sema.htm)
+
 ### abenddic_table_types_ranges.htm
+
+> **📖 Official SAP Documentation**: [abenddic_table_types_ranges.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_types_ranges.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -178,7 +218,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abenddic_table_types_ranges.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_table_types_ranges.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -427,7 +474,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -496,7 +550,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -745,7 +806,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -814,7 +882,14 @@ Hints
 Included pages: 13
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abapcall_transaction.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -919,7 +994,14 @@ Continue
 [Transaction Call, Examples](javascript:call_link\('abentransactions_abexas.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction.htm)
+
 ### abapcall_transaction_standard.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_standard.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -985,7 +1067,14 @@ Continue
 [CALL TRANSACTION, AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_standard.htm)
+
 ### abapcall_transaction_authority.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_authority.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1050,7 +1139,14 @@ Hints
 -   If the addition WITHOUT AUTHORITY-CHECK is specified, the content of the DDIC database table [TCDCOUPLES](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)) is ignored.
 
 
+
+**📖 Source**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_authority.htm)
+
 ### abapcall_transaction_standard.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_standard.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1116,7 +1212,14 @@ Continue
 [CALL TRANSACTION, AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_standard.htm)
+
 ### abapcall_transaction_using.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1342,7 +1445,14 @@ Continue
 [CALL TRANSACTION, Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_using.htm)
+
 ### abenbatch_input_table.htm
+
+> **📖 Official SAP Documentation**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1393,7 +1503,14 @@ Executable Example
 [Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
 
 
+
+**📖 Source**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_table.htm)
+
 ### abapcall_transaction_using.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1619,7 +1736,14 @@ Continue
 [CALL TRANSACTION, Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_using.htm)
+
 ### abentransactions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransactions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1641,7 +1765,14 @@ Continue
 ![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](javascript:call_link\('abencall_transaction_dialog_abexa.htm'\))
 
 
+
+**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransactions_abexas.htm)
+
 ### abencall_transaction_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1685,7 +1816,14 @@ Description  
 The transaction DEMO\_TRANSACTION displays the details for a flight uniquely identified by the airline and the flight number. It is called from main using the statement CALL TRANSACTION and filled with [SPA/GPA parameters](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry") as initial values using the statement SET PARAMETER.
 
 
+
+**📖 Source**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_abexa.htm)
+
 ### abencall_transaction_bdc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_bdc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1734,7 +1872,14 @@ Description  
 Call of the Class Builder (transaction SE24) and display of the class CL\_ABAP\_BROWSER. The required authorization is checked by using the addition WITH AUTHORITY-CHECK. The internal table bdcdata\_tab contains the entry for the processing of the first dynpro (1000) of the transaction. The structure opt is used to configure processing to skip the first screen and display the subsequent screen in standard size.
 
 
+
+**📖 Source**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_bdc_abexa.htm)
+
 ### abencall_transaction_repo_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_repo_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1791,7 +1936,14 @@ Description  
 When the assigned transaction DEMO\_REPORT\_TRANSACT is called, the executable program starts with the selection screen 500 in the same GUI window. Further processing is described in the executable example [Selection Screens, Calling Standalone Selection Screens](javascript:call_link\('abensel_screen_call_sel_scr_abexa.htm'\)).
 
 
+
+**📖 Source**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_repo_abexa.htm)
+
 ### abencall_transaction_dialog_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_dialog_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1834,7 +1986,14 @@ Description  
 When the associated transaction DEMO\_SELSCREEN\_DYNP is called, the program starts by displaying selection screen 500. The user input on the selection screen can be processed, for example, at the event AT SELECTION-SCREEN or later in the application logic. After the event AT SELECTION-SCREEN is processed (PAI of the selection screen), the program branches to a next dynpro, 100.
 
 
+
+**📖 Source**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_dialog_abexa.htm)
+
 ### abentransactions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransactions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1868,7 +2027,14 @@ Continue
 Included pages: 13
 
 
+
+**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransactions_abexas.htm)
+
 ### abapcall_transaction.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1973,7 +2139,14 @@ Continue
 [Transaction Call, Examples](javascript:call_link\('abentransactions_abexas.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction.htm)
+
 ### abapcall_transaction_standard.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_standard.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2039,7 +2212,14 @@ Continue
 [CALL TRANSACTION, AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_standard.htm)
+
 ### abapcall_transaction_authority.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_authority.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2104,7 +2284,14 @@ Hints
 -   If the addition WITHOUT AUTHORITY-CHECK is specified, the content of the DDIC database table [TCDCOUPLES](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)) is ignored.
 
 
+
+**📖 Source**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_authority.htm)
+
 ### abapcall_transaction_standard.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_standard.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2170,7 +2357,14 @@ Continue
 [CALL TRANSACTION, AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_standard.htm)
+
 ### abapcall_transaction_using.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2396,7 +2590,14 @@ Continue
 [CALL TRANSACTION, Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_using.htm)
+
 ### abenbatch_input_table.htm
+
+> **📖 Official SAP Documentation**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2447,7 +2648,14 @@ Executable Example
 [Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
 
 
+
+**📖 Source**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_table.htm)
+
 ### abapcall_transaction_using.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2673,7 +2881,14 @@ Continue
 [CALL TRANSACTION, Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_using.htm)
+
 ### abentransactions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransactions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2695,7 +2910,14 @@ Continue
 ![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](javascript:call_link\('abencall_transaction_dialog_abexa.htm'\))
 
 
+
+**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransactions_abexas.htm)
+
 ### abencall_transaction_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2739,7 +2961,14 @@ Description  
 The transaction DEMO\_TRANSACTION displays the details for a flight uniquely identified by the airline and the flight number. It is called from main using the statement CALL TRANSACTION and filled with [SPA/GPA parameters](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry") as initial values using the statement SET PARAMETER.
 
 
+
+**📖 Source**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_abexa.htm)
+
 ### abencall_transaction_bdc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_bdc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2788,7 +3017,14 @@ Description  
 Call of the Class Builder (transaction SE24) and display of the class CL\_ABAP\_BROWSER. The required authorization is checked by using the addition WITH AUTHORITY-CHECK. The internal table bdcdata\_tab contains the entry for the processing of the first dynpro (1000) of the transaction. The structure opt is used to configure processing to skip the first screen and display the subsequent screen in standard size.
 
 
+
+**📖 Source**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_bdc_abexa.htm)
+
 ### abencall_transaction_repo_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_repo_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2845,7 +3081,14 @@ Description  
 When the assigned transaction DEMO\_REPORT\_TRANSACT is called, the executable program starts with the selection screen 500 in the same GUI window. Further processing is described in the executable example [Selection Screens, Calling Standalone Selection Screens](javascript:call_link\('abensel_screen_call_sel_scr_abexa.htm'\)).
 
 
+
+**📖 Source**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_repo_abexa.htm)
+
 ### abencall_transaction_dialog_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_dialog_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2888,7 +3131,14 @@ Description  
 When the associated transaction DEMO\_SELSCREEN\_DYNP is called, the program starts by displaying selection screen 500. The user input on the selection screen can be processed, for example, at the event AT SELECTION-SCREEN or later in the application logic. After the event AT SELECTION-SCREEN is processed (PAI of the selection screen), the program branches to a next dynpro, 100.
 
 
+
+**📖 Source**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_dialog_abexa.htm)
+
 ### abentransactions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransactions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2922,7 +3172,14 @@ Continue
 Included pages: 2
 
 
+
+**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransactions_abexas.htm)
+
 ### abenlogic_functions.htm
+
+> **📖 Official SAP Documentation**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogic_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2950,7 +3207,14 @@ Continue
 [boolc, boolx, xsdbool, Boolean Functions](javascript:call_link\('abenboole_functions.htm'\))
 
 
+
+**📖 Source**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogic_functions.htm)
+
 ### abenboole_functions.htm
+
+> **📖 Official SAP Documentation**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3101,7 +3365,14 @@ ENDIF.
 Included pages: 2
 
 
+
+**📖 Source**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_functions.htm)
+
 ### abenitab_perfo.htm
+
+> **📖 Official SAP Documentation**: [abenitab_perfo.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_perfo.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3148,233 +3419,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / READ TABLE itab / READ TABLE, result
-
-**Files**: 3 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---read-table-itab---read-table--result----files----3-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -3411,233 +3456,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / LOOP AT itab / LOOP AT itab, Basic Form / LOOP AT itab, cond
-
-**Files**: 4 | **Difficulty**: beginner
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---loop-at-itab---loop-at-itab--basic-form---loop-at-itab--cond----files----4-----difficulty----beginner----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -3674,233 +3493,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / LOOP AT itab / LOOP AT itab, Basic Form / AT, Group Level Processing
-
-**Files**: 8 | **Difficulty**: beginner
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---loop-at-itab---loop-at-itab--basic-form---at--group-level-processing----files----8-----difficulty----beginner----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -3937,233 +3530,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / INSERT itab
-
-**Files**: 5 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---insert-itab----files----5-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -4200,233 +3567,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / COLLECT
-
-**Files**: 2 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---collect----files----2-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -4463,233 +3604,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / APPEND
-
-**Files**: 4 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---append----files----4-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -4726,233 +3641,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / MODIFY itab
-
-**Files**: 8 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---modify-itab----files----8-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -4989,233 +3678,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / DELETE itab / DELETE itab, itab_line
-
-**Files**: 5 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---delete-itab---delete-itab--itab-line----files----5-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -5252,233 +3715,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / DELETE itab / DELETE itab, itab_lines
-
-**Files**: 2 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---delete-itab---delete-itab--itab-lines----files----2-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -5515,233 +3752,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / DELETE itab / DELETE itab, duplicates
-
-**Files**: 2 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---delete-itab---delete-itab--duplicates----files----2-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -5778,233 +3789,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / SORT itab
-
-**Files**: 5 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---sort-itab----files----5-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -6041,233 +3826,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / FIND IN TABLE itab
-
-**Files**: 3 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---find-in-table-itab----files----3-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -6304,233 +3863,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / REPLACE IN TABLE itab
-
-**Files**: 3 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---replace-in-table-itab----files----3-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -6567,233 +3900,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Processing Statements / itab - Interval Join
-
-**Files**: 4 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---processing-statements---itab---interval-join----files----4-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -6830,233 +3937,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Expressions and Functions / itab - Table Expressions (table_exp) / table_exp - itab_line
-
-**Files**: 2 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---expressions-and-functions---itab---table-expressions--table-exp----table-exp---itab-line----files----2-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -7093,233 +3974,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Expressions and Functions / itab - Table Expressions (table_exp) / table_exp - Result
-
-**Files**: 2 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---expressions-and-functions---itab---table-expressions--table-exp----table-exp---result----files----2-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -7356,233 +4011,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Expressions and Functions / itab - Table Expressions (table_exp) / table_exp - Chainings
-
-**Files**: 2 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---expressions-and-functions---itab---table-expressions--table-exp----table-exp---chainings----files----2-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -7619,233 +4048,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Expressions and Functions / itab - Table Expressions (table_exp) / table_exp - default
-
-**Files**: 2 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---expressions-and-functions---itab---table-expressions--table-exp----table-exp---default----files----2-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -7882,233 +4085,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Expressions and Functions / itab - Table Expressions (table_exp) / table_exp - Write Positions
-
-**Files**: 2 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---expressions-and-functions---itab---table-expressions--table-exp----table-exp---write-positions----files----2-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -8145,233 +4122,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Expressions and Functions / itab - Table Functions (table_func)
-
-**Files**: 5 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---expressions-and-functions---itab---table-functions--table-func-----files----5-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -8408,233 +4159,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Expressions and Functions / FOR, Table Iterations / itab - Examples of Table Comprehensions
-
-**Files**: 7 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---expressions-and-functions---for--table-iterations---itab---examples-of-table-comprehensions----files----7-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -8671,233 +4196,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Expressions and Functions / FOR, Table Iterations / itab - Examples of Table Reductions
-
-**Files**: 6 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---expressions-and-functions---for--table-iterations---itab---examples-of-table-reductions----files----6-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -8934,233 +4233,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Expressions and Functions / FOR, Table Iterations / itab - Examples of Grouping with FOR
-
-**Files**: 11 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---expressions-and-functions---for--table-iterations---itab---examples-of-grouping-with-for----files----11-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -9197,233 +4270,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Expressions and Functions / FILTER, Filter Operator
-
-**Files**: 8 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---expressions-and-functions---filter--filter-operator----files----8-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -9460,233 +4307,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-**Files**: 2 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Processing Internal Data / Internal Tables (itab) / itab - Performance Notes
-
-Included pages: 2
-
-
-### abenitab_perfo.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes----files----2-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---processing-internal-data---internal-tables--itab----itab---performance-notes--included-pages--2---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abenitab-perfo-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------processing-internal-data--javascript-call-link---abenabap-data-working-htm---------internal-tables--itab---javascript-call-link---abenitab-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: itab - Performance Notes, ABENITAB_PERFO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
 
 itab - Performance Notes
@@ -9723,233 +4344,7 @@ If there are no or insufficient relational expressions to meet both of these pre
 The following sections describe exactly when an access can be optimized.
 
 -   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
--   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
-
-Hint
-
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
-
-Prerequisites for the Optimization of Hash Keys   
-
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
-
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
-
-These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
-
-Hint
-
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
-
-Example
-
-In the following example, the first two WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  The optimizable conditions for b, d, and e cover the entire key.
-2.  The optimizable conditions b, d, and e cover the entire key and a is a condition on a non-key column that is not involved in the part of the WHERE condition required for the optimization.
-3.  The optimizable conditions b, d, and e cover the entire key and the other two conditions on the key columns b and d are not optimizable and are hence not involved in the part of the WHERE condition required for the optimization.
-
-The next six WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  The key component d is not specified.
-2.  A key component is combined using OR instead of AND.
-3.  Two non-optimizable comparison operators are used.
-4.  An operand of type i is used in the comparison b of type c, which does not meet the requirements made on the operands.
-5.  The Boolean operator NOT is used in front of a key component.
-6.  A further comparison is combined using OR.
-7.  A further comparison is negated using NOT.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE HASHED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE a = '...' AND b = '...' AND d = '...' AND e IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE  b = '...' AND d = '...' AND e IS INITIAL AND
-                b IN b\_tab AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND e IS INITIAL.                     "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' OR d = '...' AND e IS INITIAL OR      "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d <> '...' AND e IS NOT INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = 333 AND d = '...' AND e IS INITIAL.         "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...'  AND NOT d = '...' AND e IS INITIAL.  "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL OR     "syntax error
-               a = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-         WHERE b = '...' AND d = '...' AND e IS INITIAL AND    "syntax error
-               NOT a = '...'.
-    ENDLOOP.
-    
-
-Prerequisites for the Optimization of Sorted Keys   
-
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
-
-The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
-
-Example
-
-In the following example, the first five WHERE conditions can be optimized as key accesses with the secondary table key key. This is because:
-
-1.  b is an initial part of the key.
-2.  b is an initial part of the key and a is an independent condition.
-3.  b and e are an initial part of the key.
-4.  b, e, and d are an initial part of the key and the order in the WHERE condition is ignored.
-5.  b is an initial part of the key and in this case, d is an independent condition, even though it is part of the key.
-
-The next five WHERE conditions cannot be optimized and produce syntax errors. This is because:
-
-1.  e is not an initial part of the key.
-2.  No inequality comparison takes place.
-3.  A comparison in a ranges table is specified.
-4.  The Boolean operator NOT is used.
-5.  An additional OR relationship is used.
-    
-    DATA: BEGIN OF line,
-            a TYPE c LENGTH 3,
-            b TYPE c LENGTH 3,
-            c TYPE c LENGTH 3,
-            d TYPE c LENGTH 3,
-            e TYPE c LENGTH 3,
-            f TYPE c LENGTH 3,
-          END OF line.
-    DATA itab LIKE STANDARD TABLE OF line
-                   WITH UNIQUE SORTED KEY key COMPONENTS b e d.
-    DATA b\_tab LIKE RANGE OF line-b.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE a = '...' AND b IS INITIAL.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d IS INITIAL AND e = '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...' AND d <> '...'.
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE e = '...'.                    "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b <> '...'.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b IN b\_tab.                   "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key
-                 WHERE b = '...'  AND NOT e = '...'. "syntax error
-    ENDLOOP.
-    LOOP AT itab INTO line USING KEY key             "syntax error
-                 WHERE b = '...'  AND ( d = '...' OR e IS INITIAL ).
-    ENDLOOP.
-    
-
-Requirements Made on the Operands   
-
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
-
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
-
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
-
--   only fully compatible operands are optimizable,
--   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
-
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
-
-Example
-
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
-
-DATA text\_short TYPE c LENGTH 2.
-DATA text\_long  TYPE c LENGTH 4.
-DATA itab LIKE TABLE OF text\_short
-          WITH UNIQUE HASHED KEY key COMPONENTS table\_line.
-itab = VALUE #( ( 'AA' )
-                ( 'BB' )
-                ( 'CC' )
-                ( 'DD' )
-                ( 'EE' )
-                ( 'FF' )
-                ( 'GG' )
-                ( 'HH' )
-                ( 'II' )
-                ( 'JJ' )
-                ( 'KK' )
-                ( 'LL' )
-                ( 'MM' ) ).
-text\_short = 'AA'.
-text\_long  = 'AAXX'.
-LOOP AT itab INTO text\_short USING KEY key
-             WHERE table\_line = text\_long.
-ENDLOOP.
-cl\_demo\_output=>write( |LOOP: { sy-subrc }| ).
-"Statement
-READ TABLE itab INTO text\_short WITH TABLE KEY key
-                                COMPONENTS table\_line = text\_long.
-cl\_demo\_output=>write( |READ: { sy-subrc }| ).
-"Expression
-TRY.
-    text\_short = itab\[ KEY key COMPONENTS table\_line = text\_long \].
-  catch CX\_SY\_ITAB\_LINE\_NOT\_FOUND.
-    ...
-ENDTRY.
-cl\_demo\_output=>display( |Expression: { text\_short }| ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / General Dynpros / dynpro - Statements in the Dynpro Flow Logic / dynpro - Table Controls
-
-**Files**: 8 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / SAP GUI User Dialogs / General Dynpros / dynpro - Statements in the Dynpro Flow Logic / dynpro - Subscreens, Tabstrips, and Splitter Controls
-
-Included pages: 11
-
-
-### abendynp_subscreens.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - Subscreens, Tabstrips, and Splitter Controls, ABENDYNP_SUBSCREENS, 757%0D%0A
+-   [Requirements Made on the Operands](#abenitab-where-optimization-3---hint--if-the-lines-selected-using-where-are-modified-or-deleted-using--modify--javascript-call-link---abapmodify-itab-htm-----or--delete--javascript-call-link---abapdelete-itab-htm-----and-not-just-read-using--loop-at--javascript-call-link---abaploop-at-itab-htm------further-update-costs-are-incurred-in-addition-to-the-search-for-the-lines--when-deleting-lines-from-standard-tables--it-should-be-noted-that-searches-using-a-secondary-key-optimize-the-selection-of-lines-to-be-deleted--but-not-the-update-required-for-the-primary-key--which-is-usually-performed-using-a-linear-search---prerequisites-for-the-optimization-of-hash-keys-----in-the-case-of--hash-key--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---accesses--there-must-be-exactly-one-relational-expression-combined-using-and-for-each-component-of-the-key--this-expression-is-either------a--comparison-expression--javascript-call-link---abencomparison-expression-glosry-htm-----glossary-entry---with-the-comparison-operator-----or-eq---whose-operands-meet-the-requirements-above-or-----a--predicate-expression--javascript-call-link---abenpredicate-expression-glosry-htm-----glossary-entry---is-initial-without-the-addition-not---these-relational-expressions-construct-the-part-of-the-logical-expression-used-for-the-key-access--this-part-must-not-contain-duplicate-key-components--the-remainder-of-the-logical-expression-can-contain-any-number-of-relational-expressions-combined-using-and--optimization-may-not-be-possible--however--if-the-boolean-operators-not-or-or-are-used--key-components-may-be-used-in-the-relational-expressions-not-used-for-the-key-access---hint--relational-expressions-other-than-comparisons-using-----or-eq--or-predicate-expressions-is-initial-are-not-part-of-the-key-access--this-applies-particularly-to-the-tabular-comparison-operator--in-range--tab--javascript-call-link---abenlogexp-select-option-htm------even-if-it-can-be-traced-back-to-optimizable-comparisons---example--in-the-following-example--the-first-two-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---the-optimizable-conditions-for-b--d--and-e-cover-the-entire-key--2---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-a-is-a-condition-on-a-non-key-column-that-is-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization--3---the-optimizable-conditions-b--d--and-e-cover-the-entire-key-and-the-other-two-conditions-on-the-key-columns-b-and-d-are-not-optimizable-and-are-hence-not-involved-in-the-part-of-the-where-condition-required-for-the-optimization---the-next-six-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---the-key-component-d-is-not-specified--2---a-key-component-is-combined-using-or-instead-of-and--3---two-non-optimizable-comparison-operators-are-used--4---an-operand-of-type-i-is-used-in-the-comparison-b-of-type-c--which-does-not-meet-the-requirements-made-on-the-operands--5---the-boolean-operator-not-is-used-in-front-of-a-key-component--6---a-further-comparison-is-combined-using-or--7---a-further-comparison-is-negated-using-not-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-hashed-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where-a---------and-b---------and-d---------and-e-is-initial------endloop------loop-at-itab-into-line-using-key-key----------where--b---------and-d---------and-e-is-initial-and-----------------b-in-b--tab-and-d---------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-e-is-initial-----------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------or-d---------and-e-is-initial-or-------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d----------and-e-is-not-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---333-and-d---------and-e-is-initial-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b----------and-not-d---------and-e-is-initial----syntax-error-----endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-or------syntax-error----------------a--------------endloop------loop-at-itab-into-line-using-key-key----------where-b---------and-d---------and-e-is-initial-and-----syntax-error----------------not-a--------------endloop--------prerequisites-for-the-optimization-of-sorted-keys-----in-the-case-of-reads-using-a--sorted-key--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry----the-same-applies-as-to-a-hash-key--the-only-difference-is-that-only-an-initial-section-of-the-key-consisting-of-at-least-one-component-needs-to-be-covered-rather-than-the-entire-key---the-internal-table-is-accessed-in-part-sequentially--the-starting-point-for-the-processing-of-the-table-is-determined-by-a-binary-search-using-the-subconditions-that-cover-the-table-key-completely-or-partially--from-the-starting-point-onwards--the-table-is-only-processed-for-as-long-as-these-subconditions-remain-fulfilled---example--in-the-following-example--the-first-five-where-conditions-can-be-optimized-as-key-accesses-with-the-secondary-table-key-key--this-is-because---1---b-is-an-initial-part-of-the-key--2---b-is-an-initial-part-of-the-key-and-a-is-an-independent-condition--3---b-and-e-are-an-initial-part-of-the-key--4---b--e--and-d-are-an-initial-part-of-the-key-and-the-order-in-the-where-condition-is-ignored--5---b-is-an-initial-part-of-the-key-and-in-this-case--d-is-an-independent-condition--even-though-it-is-part-of-the-key---the-next-five-where-conditions-cannot-be-optimized-and-produce-syntax-errors--this-is-because---1---e-is-not-an-initial-part-of-the-key--2---no-inequality-comparison-takes-place--3---a-comparison-in-a-ranges-table-is-specified--4---the-boolean-operator-not-is-used--5---an-additional-or-relationship-is-used-----------data--begin-of-line--------------a-type-c-length-3--------------b-type-c-length-3--------------c-type-c-length-3--------------d-type-c-length-3--------------e-type-c-length-3--------------f-type-c-length-3------------end-of-line------data-itab-like-standard-table-of-line--------------------with-unique-sorted-key-key-components-b-e-d------data-b--tab-like-range-of-line-b------loop-at-itab-into-line-using-key-key------------------where-b--------------endloop------loop-at-itab-into-line-using-key-key------------------where-a---------and-b-is-initial------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d-is-initial-and-e--------------endloop------loop-at-itab-into-line-using-key-key------------------where-b---------and-d---------------endloop------loop-at-itab-into-line-using-key-key------------------where-e------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b------------------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b-in-b--tab---------------------syntax-error-----endloop------loop-at-itab-into-line-using-key-key------------------where-b----------and-not-e-----------syntax-error-----endloop------loop-at-itab-into-line-using-key-key--------------syntax-error------------------where-b----------and---d---------or-e-is-initial--------endloop--------requirements-made-on-the-operands-----the-part-of-the-logical-expression-that-can-be-mapped-to-a-key-access-must-select-the-same-lines-as-a-statement--read-table--javascript-call-link---abapread-table-htm-----or-a-corresponding--table-expression--javascript-call-link---abentable-expressions-htm-----that-specifies-the-corresponding-components-as-keys-------when-comparing-incompatible-data-objects--the-where-condition-is-subject-to-the-same--comparison-rules--javascript-call-link---abenlogexp-rules-htm-----for-incompatible-data-types--here--the-data-types-involved-determine-which-operand-is-converted-to-which-comparison-type------if-the-additions--with-table-key--javascript-call-link---abapread-table-key-htm-----and--with-key--javascript-call-link---abapread-table-free-htm-----of-the-statement-read-or--key--javascript-call-link---abentable-exp-itab-line-htm-----in-a-table-expression-are-used--however--the-content-of-the-specified-data-objects-is-always-converted-to-the-data-type-of-the-columns-before-the-comparison---if-this-produces-differing-results--an-optimization-is-not-possible--due-to-the-complexity-of-the-comparison-rules--particularly-for--elementary-data-types--javascript-call-link---abenlogexp-rules-operands-htm------it-is-not-a-good-idea-to-construct-a-set-of-rules-detailing-exactly-when-the-comparison-type-matches-the-data-type-of-the-left-operand--generally-speaking-------only-fully-compatible-operands-are-optimizable------in-some-cases--elementary-operands-with-different-data-types-can-be-optimized--if-the-value-ranges-or-lengths-are-suitable--for-example--a-comparison-of-a-column-with-the-type-of-a-floating-point-number-with-an-operand-of-type-integer-or-of-a-column-of-c-with-a-similar-operand--if-its-length-is-less-than-the-length-of-the-column---for-this-reason--it-is-advisable-to-use-only-pairs-of--compatible--javascript-call-link---abencompatible-glosry-htm-----glossary-entry---operands-in-the-where-condition--this-guarantees-that-the-differences-in-behavior-of-the-where-condition-and-the-specified-key-do-not-affect-the-result---example--the-following-example-is-largely-similar-to-the-example-in-the-section-where-log--exp-in--loop-at-itab--javascript-call-link---abaploop-at-itab-cond-htm------in-that-case--access-takes-place-using-the-primary-key-and-no-optimization--here--however--access-takes-place-using-a-secondary-table-key-and-a-syntax-check-warning-is-produced-and-an-exception-raised-when-the-program-is-executed--the-number-of-lines-in-the-internal-table-determines-whether-the-exception-is-raised---data-text--short-type-c-length-2--data-text--long--type-c-length-4--data-itab-like-table-of-text--short-----------with-unique-hashed-key-key-components-table--line--itab---value-------aa-----------------------bb-----------------------cc-----------------------dd-----------------------ee-----------------------ff-----------------------gg-----------------------hh-----------------------ii-----------------------jj-----------------------kk-----------------------ll-----------------------mm-------text--short----aa---text--long-----aaxx---loop-at-itab-into-text--short-using-key-key--------------where-table--line---text--long--endloop--cl--demo--output--write---loop----sy-subrc--------statement-read-table-itab-into-text--short-with-table-key-key---------------------------------components-table--line---text--long--cl--demo--output--write---read----sy-subrc--------expression-try------text--short---itab---key-key-components-table--line---text--long-------catch-cx--sy--itab--line--not--found----------endtry--cl--demo--output--display---expression----text--short------------------abap---keyword-documentation---abap---programming-language---sap-gui-user-dialogs---general-dynpros---dynpro---statements-in-the-dynpro-flow-logic---dynpro---table-controls----files----8-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---sap-gui-user-dialogs---general-dynpros---dynpro---statements-in-the-dynpro-flow-logic---dynpro---subscreens--tabstrips--and-splitter-controls--included-pages--11---------source-----abenitab-perfo-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenitab-perfo-htm-------abendynp-subscreens-htm-------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------sap-gui-user-dialogs--javascript-call-link---abenabap-screens-htm---------general-dynpros--javascript-call-link---abenabap-dynpros-htm---------dynpro---statements-in-the-dynpro-flow-logic--javascript-call-link---abenabap-dynpros-dynpro-statements-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - Subscreens, Tabstrips, and Splitter Controls, ABENDYNP_SUBSCREENS, 757%0D%0A
 %0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 dynpro - Subscreens, Tabstrips, and Splitter Controls
@@ -9968,7 +4363,14 @@ Continue
 [dynpro - Examples of Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abentab_strip_control_abexas.htm'\))
 
 
+
+**📖 Source**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynp_subscreens.htm)
+
 ### abendynp_subscreen.htm
+
+> **📖 Official SAP Documentation**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynp_subscreen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9996,7 +4398,14 @@ Executable Example
 [Dynpros, Subscreens](javascript:call_link\('abendynpro_subscreen_abexa.htm'\))
 
 
+
+**📖 Source**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynp_subscreen.htm)
+
 ### abendynp_tabstrip.htm
+
+> **📖 Official SAP Documentation**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynp_tabstrip.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10032,7 +4441,14 @@ Executable Examples
 -   [Dynpros, Tabstrips with Scrolling in AS instance](javascript:call_link\('abentab_strip_control2_abexa.htm'\))
 
 
+
+**📖 Source**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynp_tabstrip.htm)
+
 ### abendynp_splitter_control_spcl.htm
+
+> **📖 Official SAP Documentation**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynp_splitter_control_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10078,7 +4494,14 @@ Executable Example
 [Dynpros, Splitter Controls](javascript:call_link\('abendynpro_splitter_control_abexa.htm'\))
 
 
+
+**📖 Source**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynp_splitter_control_spcl.htm)
+
 ### dynpcall.htm
+
+> **📖 Official SAP Documentation**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/dynpcall.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10157,7 +4580,14 @@ PROCESS AFTER INPUT.
   MODULE handle\_user\_command.
 
 
+
+**📖 Source**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/dynpcall.htm)
+
 ### abentab_strip_control_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentab_strip_control_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10179,7 +4609,14 @@ Continue
 ![Example](exa.gif "Example") [dynpro - Splitter Control](javascript:call_link\('abendynpro_splitter_control_abexa.htm'\))
 
 
+
+**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentab_strip_control_abexas.htm)
+
 ### abendynpro_subscreen_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_subscreen_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10291,7 +4728,14 @@ Since all subscreen dynpros use the same field name field, the identically named
 The function code of the pushbuttons of the subscreen dynpros is different and regular handling in an ABAP field is enough. If the function codes had the same names, it would be necessary to use multiple helper fields here as well.
 
 
+
+**📖 Source**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_subscreen_abexa.htm)
+
 ### abentab_strip_control1_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentab_strip_control1_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10340,7 +4784,14 @@ When the program is executed, the user sees a screen, the second tab page of whi
 When the user chooses Continue, the PAI event is raised, and an information message displays the function code of the tab title of the page that is currently active.
 
 
+
+**📖 Source**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentab_strip_control1_abexa.htm)
+
 ### abentab_strip_control2_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentab_strip_control2_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10401,7 +4852,14 @@ The dynpro flow logic of dynpro 100 makes a dynamic binding to PBO, a subscreen 
 This example works in exactly the same way as the [example with local scrolling](javascript:call_link\('abentab_strip_control1_abexa.htm'\)) except that scrolling between the tabstrip pages is programmed in the ABAP program. Each time the user chooses a tab title, the function code from the OK field is assigned to the activetab component of structure mytabstrip. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
 
 
+
+**📖 Source**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentab_strip_control2_abexa.htm)
+
 ### abendynpro_splitter_control_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_splitter_control_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10445,7 +4903,14 @@ Description  
 A subscreen is assigned to both parts of the splitter control. The subscreens are called in the dynpro flow logic.
 
 
+
+**📖 Source**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_splitter_control_abexa.htm)
+
 ### abentab_strip_control_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentab_strip_control_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10479,7 +4944,14 @@ Continue
 Included pages: 3
 
 
+
+**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentab_strip_control_abexas.htm)
+
 ### abenfield_symbols_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenfield_symbols_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfield_symbols_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10501,7 +4973,14 @@ Continue
 ![Example](exa.gif "Example") [Field Symbols, Cast Structures](javascript:call_link\('abenfield_symbols_struc_abexa.htm'\))
 
 
+
+**📖 Source**: [abenfield_symbols_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfield_symbols_obsolete.htm)
+
 ### abapfield-symbols_obsolete_typing.htm
+
+> **📖 Official SAP Documentation**: [abapfield-symbols_obsolete_typing.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfield-symbols_obsolete_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10578,7 +5057,14 @@ Executable Example
 [Field Symbols, Cast Structures](javascript:call_link\('abenfield_symbols_struc_abexa.htm'\))
 
 
+
+**📖 Source**: [abapfield-symbols_obsolete_typing.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfield-symbols_obsolete_typing.htm)
+
 ### abenfield_symbols_struc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfield_symbols_struc_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfield_symbols_struc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10649,7 +5135,14 @@ The structures are cast using the ASSIGN CASTING statement. The obsolete additio
 Included pages: 6
 
 
+
+**📖 Source**: [abenfield_symbols_struc_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfield_symbols_struc_abexa.htm)
+
 ### abenldb_examples.htm
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10678,7 +5171,14 @@ Continue
 ![Example](exa.gif "Example") [LDB - Calls Using a Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
 
 
+
+**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_examples.htm)
+
 ### abenldb_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10749,7 +5249,14 @@ The database tables are read in accordance with the selection criteria of the us
 This program is only intended to demonstrate the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronological order of the subroutine calls is determined by the structure of the logical database.
 
 
+
+**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_example.htm)
+
 ### abenldb_selections_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10820,7 +5327,14 @@ This automatically created selection include can be completed, for example, as f
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and connected to the node BKPF. Dynamic selections are defined for the tablesLFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
+
+**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_selections_example.htm)
+
 ### abenldb_program_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11004,7 +5518,14 @@ If the selections specify [dynamic selections](javascript:call_link\('abenldb_fr
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.
 
 
+
+**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_program_example.htm)
+
 ### abenreport_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11061,7 +5582,14 @@ Description  
 This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
 
 
+
+**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreport_abexa.htm)
+
 ### abenlogical_database_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11173,7 +5701,14 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 8
 
 
+
+**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_database_abexa.htm)
+
 ### abenitab_gdl.htm
+
+> **📖 Official SAP Documentation**: [abenitab_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11237,7 +5772,14 @@ Continue
 [Loop Processing](javascript:call_link\('abenloop_guidl.htm'\))
 
 
+
+**📖 Source**: [abenitab_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_gdl.htm)
+
 ### abenselect_table_type_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenselect_table_type_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_table_type_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11299,7 +5841,14 @@ Depending on the length of the key and the number of lines in an internal table,
 If you use [secondary keys](javascript:call_link\('abensecondary_key_guidl.htm'\) "Guideline"), the rules mentioned here may be qualified to a certain degree, as the overall costs need to be considered in this case.
 
 
+
+**📖 Source**: [abenselect_table_type_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_table_type_guidl.htm)
+
 ### abensecondary_key_guidl.htm
+
+> **📖 Official SAP Documentation**: [abensecondary_key_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_key_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11385,7 +5934,14 @@ LOOP AT itab USING KEY second\_key.
 ENDLOOP.
 
 
+
+**📖 Source**: [abensecondary_key_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_key_guidl.htm)
+
 ### abeninitial_memory_requ_guidl.htm
+
+> **📖 Official SAP Documentation**: [abeninitial_memory_requ_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninitial_memory_requ_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11451,7 +6007,14 @@ TYPES: BEGIN OF line\_structure,
                  WITH UNIQUE KEY ...
 
 
+
+**📖 Source**: [abeninitial_memory_requ_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninitial_memory_requ_guidl.htm)
+
 ### abensort_guidl.htm
+
+> **📖 Official SAP Documentation**: [abensort_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensort_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11517,7 +6080,14 @@ ENDLOOP.
 ...
 
 
+
+**📖 Source**: [abensort_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensort_guidl.htm)
+
 ### abencollect_guidl.htm
+
+> **📖 Official SAP Documentation**: [abencollect_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencollect_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11550,7 +6120,14 @@ The statement COLLECT is based on unique entries with respect to the primary key
 -   COLLECT can be used for sorted tables and hashed tables without any problems since these, unlike standard tables, always have a separate, stable key administration that can be utilized by COLLECT. COLLECT can work properly for sorted tables only if the primary key is unique. If a sorted table has a non-unique key, only COLLECT can be used to fill the table, which is difficult to guarantee. In hashed tables, the key values are always unique.
 
 
+
+**📖 Source**: [abencollect_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencollect_guidl.htm)
+
 ### abentable_output_guidl.htm
+
+> **📖 Official SAP Documentation**: [abentable_output_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_output_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11622,7 +6199,17 @@ LOOP AT itab ASSIGNING <fs>.
 ENDLOOP.
 
 
+
+**📖 Source**: [abentable_output_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_output_guidl.htm)
+
 ### abenloop_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenloop_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenloop_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenloop_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenloop_guidl.htm)
+
 
   
 

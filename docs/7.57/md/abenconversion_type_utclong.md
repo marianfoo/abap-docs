@@ -11,10 +11,8 @@ D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Source Field Type utclong
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_UTCLONG_1)
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_UTCLONG_2)
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_UTCLONG_3)
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_UTCLONG_4)
+-   [Numeric Target Fields](#abenconversion-type-utclong-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_UTCLONG_2)
+-   [Byte-Like Target Fields](#abenconversion-type-utclong-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_UTCLONG_4)
 
 Numeric Target Fields   
 

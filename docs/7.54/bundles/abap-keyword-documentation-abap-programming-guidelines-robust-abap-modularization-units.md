@@ -3,7 +3,34 @@
 Included pages: 10
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenmodularization_unit_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmodularization_unit_guidl.htm)
+- [abenfunct_module_subroutine_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunct_module_subroutine_guidl.htm)
+- [abentype_formal_param_proc_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_formal_param_proc_guidl.htm)
+- [abentype_transf_formal_para_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_transf_formal_para_guidl.htm)
+- [abenref_transf_output_param_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenref_transf_output_param_guidl.htm)
+- [abentype_formal_param_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_formal_param_guidl.htm)
+- [abenintern_extern_proc_call_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenintern_extern_proc_call_guidl.htm)
+- [abenexit_procedure_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexit_procedure_guidl.htm)
+- [abendial_mod_event_block_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendial_mod_event_block_guidl.htm)
+- [abenmacros_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmacros_guidl.htm)
+
+**Bundle Contains**: 10 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.922Z
+
+---
+
 ### abenmodularization_unit_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenmodularization_unit_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmodularization_unit_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61,7 +88,14 @@ Continue
 [Macros](javascript:call_link\('abenmacros_guidl.htm'\))
 
 
+
+**📖 Source**: [abenmodularization_unit_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmodularization_unit_guidl.htm)
+
 ### abenfunct_module_subroutine_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenfunct_module_subroutine_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunct_module_subroutine_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -104,7 +138,14 @@ All the rules in these programming guidelines that relate to procedures actually
 If you cannot adhere to the rule ["Use ABAP Objects"](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") and the above rule because, for example, existing legacy function modules and subroutines need to be maintained or enhanced and you cannot switch to methods, the rules in these programming guidelines that refer to procedures also apply to function modules and subroutines.
 
 
+
+**📖 Source**: [abenfunct_module_subroutine_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunct_module_subroutine_guidl.htm)
+
 ### abentype_formal_param_proc_guidl.htm
+
+> **📖 Official SAP Documentation**: [abentype_formal_param_proc_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_formal_param_proc_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -203,7 +244,14 @@ CLASS class IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abentype_formal_param_proc_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_formal_param_proc_guidl.htm)
+
 ### abentype_transf_formal_para_guidl.htm
+
+> **📖 Official SAP Documentation**: [abentype_transf_formal_para_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_transf_formal_para_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -256,7 +304,14 @@ Example
 See the example in the section about [Code Inspector](javascript:call_link\('abencode_inspector_guidl.htm'\) "Guideline"). In this example, an internal table is passed by reference due to performance reasons, while an elementary parameter is passed by value due to robustness reasons.
 
 
+
+**📖 Source**: [abentype_transf_formal_para_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_transf_formal_para_guidl.htm)
+
 ### abenref_transf_output_param_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenref_transf_output_param_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenref_transf_output_param_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -312,7 +367,14 @@ CLASS class IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abenref_transf_output_param_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenref_transf_output_param_guidl.htm)
+
 ### abentype_formal_param_guidl.htm
+
+> **📖 Official SAP Documentation**: [abentype_formal_param_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_formal_param_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -428,7 +490,14 @@ itab TYPE STANDARD TABLE OF struc
 ...
 
 
+
+**📖 Source**: [abentype_formal_param_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_formal_param_guidl.htm)
+
 ### abenintern_extern_proc_call_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenintern_extern_proc_call_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenintern_extern_proc_call_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -520,7 +589,14 @@ ENDFORM.
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 
+
+**📖 Source**: [abenintern_extern_proc_call_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenintern_extern_proc_call_guidl.htm)
+
 ### abenexit_procedure_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenexit_procedure_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexit_procedure_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -589,7 +665,14 @@ METHOD some\_method.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenexit_procedure_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexit_procedure_guidl.htm)
+
 ### abendial_mod_event_block_guidl.htm
+
+> **📖 Official SAP Documentation**: [abendial_mod_event_block_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendial_mod_event_block_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -662,7 +745,17 @@ MODULE reservations\_mark INPUT.
 ENDMODULE.
 
 
+
+**📖 Source**: [abendial_mod_event_block_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendial_mod_event_block_guidl.htm)
+
 ### abenmacros_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenmacros_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmacros_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenmacros_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmacros_guidl.htm)
+
 
   
 

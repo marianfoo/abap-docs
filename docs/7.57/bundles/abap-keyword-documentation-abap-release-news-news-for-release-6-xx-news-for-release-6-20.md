@@ -3,7 +3,33 @@
 Included pages: 9
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-620.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620.htm)
+- [abennews-620-objects.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-objects.htm)
+- [abennews-620-structures.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-structures.htm)
+- [abennews-620-exceptions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-exceptions.htm)
+- [abennews-620-additions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-additions.htm)
+- [abennews-620-dumps.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-dumps.htm)
+- [abennews-620-tools.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-tools.htm)
+- [abennews-620-classes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-classes.htm)
+- [abennews-620-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-others.htm)
+
+**Bundle Contains**: 9 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.285Z
+
+---
+
 ### abennews-620.htm
+
+> **📖 Official SAP Documentation**: [abennews-620.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40,7 +66,14 @@ Continue
 [Further Changes in Release 6.20](javascript:call_link\('abennews-620-others.htm'\))
 
 
+
+**📖 Source**: [abennews-620.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620.htm)
+
 ### abennews-620-objects.htm
+
+> **📖 Official SAP Documentation**: [abennews-620-objects.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -111,7 +144,14 @@ Recursions of RAISE EVENT
 The number of possible recursions of the statement [RAISE EVENT](javascript:call_link\('abapraise_event.htm'\)) has been raised from 63 to 1023.
 
 
+
+**📖 Source**: [abennews-620-objects.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-objects.htm)
+
 ### abennews-620-structures.htm
+
+> **📖 Official SAP Documentation**: [abennews-620-structures.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-structures.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -131,7 +171,14 @@ Since Release 3.0, customers have been able to make changes to SAP's ABAP Dictio
 In Release 6.20, it has therefore been made possible to classify dictionary structures and tables, so that problems caused by structure enhancements can be easily recognized and dealt with. In the ABAP programming checks, this classification is used to flag up all places in the source code that can cause problems in the context of structure enhancements. These problems are due to syntax errors or modified program behavior caused by structure enhancements. The dictionary categories and their effect in ABAP programs are described in [Enhancement Category](javascript:call_link\('abenddic_structures_enh_cat.htm'\)).
 
 
+
+**📖 Source**: [abennews-620-structures.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-structures.htm)
+
 ### abennews-620-exceptions.htm
+
+> **📖 Official SAP Documentation**: [abennews-620-exceptions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-exceptions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -233,7 +280,14 @@ Catchable Exceptions in PROVIDE
 The exception classes CX\_SY\_PROVIDE\_INTERVAL\_OVERLAP and CX\_SY\_PROVIDE\_TABLE\_NOT\_SORTED have been introduced for the new variant of the statement [PROVIDE](javascript:call_link\('abapprovide.htm'\)). These exceptions are not raised by the short form of PROVIDE.
 
 
+
+**📖 Source**: [abennews-620-exceptions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-exceptions.htm)
+
 ### abennews-620-additions.htm
+
+> **📖 Official SAP Documentation**: [abennews-620-additions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-additions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -299,7 +353,14 @@ DISPLAY*|*MEMORY OFFSET in GET*|*SET CURSOR*|*LINE
 When OFFSET is specified with the additions DISPLAY or MEMORY in list processing, the statements [GET CURSOR *{* FIELD f *|* LINE l *}*](javascript:call_link\('abapget_cursor_list.htm'\)) and [SET CURSOR *{* FIELD f *|* LINE l*}*](javascript:call_link\('abapset_cursor_list.htm'\)) can be used to specify whether the column in the displayed list or the position in the list buffer is intended. The addition DISPLAY is the standard and can be omitted.
 
 
+
+**📖 Source**: [abennews-620-additions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-additions.htm)
+
 ### abennews-620-dumps.htm
+
+> **📖 Official SAP Documentation**: [abennews-620-dumps.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-dumps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -352,7 +413,14 @@ When [short dumps](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary
 As soon as a text is found, the system stops the search and displays the text.
 
 
+
+**📖 Source**: [abennews-620-dumps.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-dumps.htm)
+
 ### abennews-620-tools.htm
+
+> **📖 Official SAP Documentation**: [abennews-620-tools.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-tools.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -410,7 +478,14 @@ In Runtime Analysis, it is no longer possible to create temporary variants. Inst
 Additionally, the create, delete, and copy functions are again included in the measurement restrictions block on the initial screen. While create and copy can only be executed as single functions, the F4 key can be used to delete multiple variants.
 
 
+
+**📖 Source**: [abennews-620-tools.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-tools.htm)
+
 ### abennews-620-classes.htm
+
+> **📖 Official SAP Documentation**: [abennews-620-classes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-classes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -460,7 +535,17 @@ Two new methods have been introduced in class CL\_ABAP\_DATADESCR for determinin
 -   The method APPLIES\_TO\_DATA\_REF executes a type check between the description and the data object. This makes it possible to determine the compatibility of data objects.
 
 
+
+**📖 Source**: [abennews-620-classes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-classes.htm)
+
 ### abennews-620-others.htm
+
+> **📖 Official SAP Documentation**: [abennews-620-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-others.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-620-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-620-others.htm)
+
 
   
 

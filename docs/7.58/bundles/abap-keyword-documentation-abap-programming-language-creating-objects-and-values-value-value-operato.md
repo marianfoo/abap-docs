@@ -3,7 +3,33 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenvalue_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_constructor_params_itab.htm)
+- [abenvalue_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_constructor_params_lspc.htm)
+- [abenvalue_itab_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_itab_abexa.htm)
+- [abenvalue_itab_let_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_itab_let_abexa.htm)
+- [abenvalue_itab_base_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_itab_base_abexa.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.946Z
+
+---
+
 ### abenvalue_constructor_params_itab.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_constructor_params_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenvalue_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_constructor_params_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -204,7 +230,18 @@ Continue
 ![Example](exa.gif "Example") [VALUE, Addition BASE for Internal Tables](javascript:call_link\('abenvalue_itab_base_abexa.htm'\))
 
 
+
+**📖 Source**: [abenvalue_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_constructor_params_itab.htm)
+
 ### abenvalue_constructor_params_lspc.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_constructor_params_lspc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenvalue_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_constructor_params_lspc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -325,7 +362,18 @@ FINAL(itab) = VALUE t\_itab( ( ) ( 20 ) ( 40 )
   ( LINES OF jtab FROM 6 STEP 2 ) ).
 
 
+
+**📖 Source**: [abenvalue_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_constructor_params_lspc.htm)
+
 ### abenvalue_itab_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_itab_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_itab_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -391,7 +439,18 @@ The example shows various effects when using the left side of an assignment in l
 -   In the construction of itab4, the left side is saved in the helper variable x before it is initialization and is then used in LINES OF. The result is the same as when the left side is used after BASE.
 
 
+
+**📖 Source**: [abenvalue_itab_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_itab_abexa.htm)
+
 ### abenvalue_itab_let_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_let_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_itab_let_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_let_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_itab_let_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -446,7 +505,21 @@ Description  
 Construction of an internal table with an elementary line type with type string and filling it with three lines. The result is a table that contains the previous day, today, and the next day in the formatting for the current language environment. Today's date is produced using a method. To make sure that the method is called only once, the return value is assigned to a local helper field in a [LET expression](javascript:call_link\('abaplet.htm'\)).
 
 
+
+**📖 Source**: [abenvalue_itab_let_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_itab_let_abexa.htm)
+
 ### abenvalue_itab_base_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_base_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_itab_base_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_base_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_itab_base_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenvalue_itab_base_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_itab_base_abexa.htm)
+
 
   
 

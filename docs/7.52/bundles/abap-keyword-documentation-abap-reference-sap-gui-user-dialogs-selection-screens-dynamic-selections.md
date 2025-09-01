@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenfree_selections.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfree_selections.htm)
+- [abenfree_selection_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfree_selection_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.518Z
+
+---
+
 ### abenfree_selections.htm
+
+> **📖 Official SAP Documentation**: [abenfree_selections.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfree_selections.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -64,7 +83,17 @@ Continue
 ![Example](exa.gif "Example") [Dynamic Selections](javascript:call_link\('abenfree_selection_abexa.htm'\))
 
 
+
+**📖 Source**: [abenfree_selections.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfree_selections.htm)
+
 ### abenfree_selection_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfree_selection_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfree_selection_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenfree_selection_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfree_selection_abexa.htm)
+
 
   
 

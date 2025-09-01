@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenunsupported_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunsupported_obsolete.htm)
+- [abapmark.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmark.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.254Z
+
+---
+
 ### abenunsupported_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenunsupported_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunsupported_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26,7 +45,17 @@ Continue
 [MARK](javascript:call_link\('abapmark.htm'\))
 
 
+
+**📖 Source**: [abenunsupported_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunsupported_obsolete.htm)
+
 ### abapmark.htm
+
+> **📖 Official SAP Documentation**: [abapmark.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmark.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapmark.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmark.htm)
+
 
   
 

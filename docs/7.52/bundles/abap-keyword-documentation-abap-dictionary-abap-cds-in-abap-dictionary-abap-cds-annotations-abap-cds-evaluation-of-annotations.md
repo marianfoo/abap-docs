@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_annotations_analysis.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_analysis.htm)
+- [abencds_semantics_annotation_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_semantics_annotation_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.353Z
+
+---
+
 ### abencds_annotations_analysis.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_analysis.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_analysis.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17,21 +36,13 @@ ABAP CDS - Evaluation of Annotations
 
 When an object defined in the [CDS source code](javascript:call_link\('abencds_source_code_glosry.htm'\) "Glossary Entry") is activated, the annotations defined in the [CDS annotation syntax](javascript:call_link\('abencds_annotation_syntax_glosry.htm'\) "Glossary Entry") there are saved in internal database tables in ABAP Dictionary. These tables can then be accessed to evaluate the data. This is done for every annotation with correct syntax regardless of name and value.
 
--   [System Class CL\_DD\_DDL\_ANNOTATION\_SERVICE](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_1)
+-   [System Class CL\_DD\_DDL\_ANNOTATION\_SERVICE](#abencds-annotations-analysis-1--------metadata-extensions---@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_2)
 
--   [Metadata Extensions](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_2)
+-   [Direct, Inherited, and Derived Annotations](#abencds-annotations-analysis-3--------subannotations---@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_4)
 
--   [Direct, Inherited, and Derived Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_3)
+-   [Annotation Array](#abencds-annotations-analysis-5--------null-values---@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_6)
 
--   [Subannotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_4)
-
--   [Annotation Array](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_5)
-
--   [Null Values](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_6)
-
--   [Annotations for Translatable Texts](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_7)
-
--   [Performing the Evaluation](#@@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_8)
+-   [Annotations for Translatable Texts](#abencds-annotations-analysis-7--------performing-the-evaluation---@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_8)
 
 System Class CL\_DD\_DDL\_ANNOTATION\_SERVICE
 
@@ -378,7 +389,17 @@ Continue
 ![Example](exa.gif "Example") [ABAP CDS, Evaluation of Annotations](javascript:call_link\('abencds_semantics_annotation_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_annotations_analysis.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_analysis.htm)
+
 ### abencds_semantics_annotation_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_semantics_annotation_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_semantics_annotation_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_semantics_annotation_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_semantics_annotation_abexa.htm)
+
 
   
 

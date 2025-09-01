@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenevent_block_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevent_block_obsolete.htm)
+- [abapstart-of-editing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstart-of-editing.htm)
+- [abapend-of-editing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-of-editing.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.195Z
+
+---
+
 ### abenevent_block_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenevent_block_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevent_block_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26,7 +46,14 @@ Continue
 [END-OF-EDITING](javascript:call_link\('abapend-of-editing.htm'\))
 
 
+
+**📖 Source**: [abenevent_block_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevent_block_obsolete.htm)
+
 ### abapstart-of-editing.htm
+
+> **📖 Official SAP Documentation**: [abapstart-of-editing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstart-of-editing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53,7 +80,17 @@ Note
 An implementation of the event block START-OF-EDITING is not required.
 
 
+
+**📖 Source**: [abapstart-of-editing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstart-of-editing.htm)
+
 ### abapend-of-editing.htm
+
+> **📖 Official SAP Documentation**: [abapend-of-editing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-of-editing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapend-of-editing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-of-editing.htm)
+
 
   
 

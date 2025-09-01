@@ -3,7 +3,34 @@
 Included pages: 10
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-740_sp05.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05.htm)
+- [abennews-740_sp05-expressions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-expressions.htm)
+- [abennews-740_sp05-itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-itab.htm)
+- [abennews-740_sp05-mesh.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-mesh.htm)
+- [abennews-740_sp05-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-abap_sql.htm)
+- [abennews-740_sp05-abap_cds.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-abap_cds.htm)
+- [abennews-740_sp05-amdp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-amdp.htm)
+- [abennews-740_sp05-abap_channels.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-abap_channels.htm)
+- [abennews-740-slin_sec.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740-slin_sec.htm)
+- [abennews-740_sp05-others.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-others.htm)
+
+**Bundle Contains**: 10 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.513Z
+
+---
+
 ### abennews-740_sp05.htm
+
+> **📖 Official SAP Documentation**: [abennews-740_sp05.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39,7 +66,14 @@ Continue
 [Further Changes in Release 7.40, SP05](javascript:call_link\('abennews-740_sp05-others.htm'\))
 
 
+
+**📖 Source**: [abennews-740_sp05.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05.htm)
+
 ### abennews-740_sp05-expressions.htm
+
+> **📖 Official SAP Documentation**: [abennews-740_sp05-expressions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-expressions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -74,7 +108,14 @@ Table Comprehensions
 [Table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry") are an enhancement of the [instance operator](javascript:call_link\('abeninstance_operator_glosry.htm'\) "Glossary Entry") [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) or the [value operator](javascript:call_link\('abenvalue_operator_glosry.htm'\) "Glossary Entry") [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) and are used to create the content of internal tables. One or more [FOR expressions](javascript:call_link\('abenfor_in_itab.htm'\)) can now be specified as a subexpression of the constructor expression. These FOR expressions evaluate existing internal tables whose content can be used to construct the result within the loops.
 
 
+
+**📖 Source**: [abennews-740_sp05-expressions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-expressions.htm)
+
 ### abennews-740_sp05-itab.htm
+
+> **📖 Official SAP Documentation**: [abennews-740_sp05-itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -104,7 +145,14 @@ Table Comprehensions
 [Table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry") are an enhancement of the [instance operator](javascript:call_link\('abeninstance_operator_glosry.htm'\) "Glossary Entry") [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) or the [value operator](javascript:call_link\('abenvalue_operator_glosry.htm'\) "Glossary Entry") [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) and are used to create the content of internal tables. One or more [FOR expressions](javascript:call_link\('abenfor_in_itab.htm'\)) can now be specified as subexpressions of the constructor expression. These FOR expressions evaluate existing internal tables whose content can be used to construct the result within the loops.
 
 
+
+**📖 Source**: [abennews-740_sp05-itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-itab.htm)
+
 ### abennews-740_sp05-mesh.htm
+
+> **📖 Official SAP Documentation**: [abennews-740_sp05-mesh.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-mesh.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -151,7 +199,14 @@ These relationships (defined using mesh associations) between mesh nodes in a me
 -   [SET ASSOCIATION mesh\_path](javascript:call_link\('abenmesh_set_association.htm'\))
 
 
+
+**📖 Source**: [abennews-740_sp05-mesh.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-mesh.htm)
+
 ### abennews-740_sp05-abap_sql.htm
+
+> **📖 Official SAP Documentation**: [abennews-740_sp05-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-abap_sql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -289,7 +344,14 @@ Specifying Dynamic Tokens
 From Release 7.40, SP05 and higher, internal tables, which are specified as dynamic tokens can also have secondary keys in [modifying ABAP SQL statements](javascript:call_link\('abenabap_sql_writing.htm'\)).
 
 
+
+**📖 Source**: [abennews-740_sp05-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-abap_sql.htm)
+
 ### abennews-740_sp05-abap_cds.htm
+
+> **📖 Official SAP Documentation**: [abennews-740_sp05-abap_cds.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-abap_cds.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -306,7 +368,14 @@ The new [ABAP CDS](javascript:call_link\('abencds.htm'\)) is the ABAP-specific i
 [CDS views](javascript:call_link\('abencds_v1_views.htm'\)), used together with ABAP SQL to perform reads.
 
 
+
+**📖 Source**: [abennews-740_sp05-abap_cds.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-abap_cds.htm)
+
 ### abennews-740_sp05-amdp.htm
+
+> **📖 Official SAP Documentation**: [abennews-740_sp05-amdp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-amdp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -336,7 +405,14 @@ Implementation of AMDP Methods
 The new addition [BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT](javascript:call_link\('abapmethod_by_db_proc.htm'\)) for the statement METHOD turns a method of an [AMDP](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") class into an [AMDP procedure implementation](javascript:call_link\('abenamdp_procedure_method_glosry.htm'\) "Glossary Entry"). This is implemented in the SQLScript language of the SAP HANA database and not in ABAP. The ABAP runtime framework creates a corresponding database procedure in SAP HANA database. This procedure is executed when the AMDP method is called.
 
 
+
+**📖 Source**: [abennews-740_sp05-amdp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-amdp.htm)
+
 ### abennews-740_sp05-abap_channels.htm
+
+> **📖 Official SAP Documentation**: [abennews-740_sp05-abap_channels.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-abap_channels.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -366,7 +442,14 @@ New Variant of WAIT UNTIL
 The new variant [WAIT FOR PUSH CHANNELS](javascript:call_link\('abapwait_apc.htm'\)) waits for APC messages in [ABAP Push Channels (APC)](javascript:call_link\('abenapc.htm'\)).
 
 
+
+**📖 Source**: [abennews-740_sp05-abap_channels.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-abap_channels.htm)
+
 ### abennews-740-slin_sec.htm
+
+> **📖 Official SAP Documentation**: [abennews-740-slin_sec.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740-slin_sec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -404,7 +487,17 @@ Documentation of Security Risks
 Potential security risks in ABAP programs are documented in the [ABAP security notes](javascript:call_link\('abenabap_security.htm'\)).
 
 
+
+**📖 Source**: [abennews-740-slin_sec.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740-slin_sec.htm)
+
 ### abennews-740_sp05-others.htm
+
+> **📖 Official SAP Documentation**: [abennews-740_sp05-others.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-others.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-740_sp05-others.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-740_sp05-others.htm)
+
 
   
 

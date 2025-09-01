@@ -8,13 +8,9 @@ AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
 Source Field Type f
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_F_1)
+-   [Numeric Target Fields](#abenconversion-type-f-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_F_2)
 
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_F_2)
-
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_F_3)
-
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_F_4)
+-   [Byte-Like Target Fields](#abenconversion-type-f-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_F_4)
 
 Numeric Target Fields
 

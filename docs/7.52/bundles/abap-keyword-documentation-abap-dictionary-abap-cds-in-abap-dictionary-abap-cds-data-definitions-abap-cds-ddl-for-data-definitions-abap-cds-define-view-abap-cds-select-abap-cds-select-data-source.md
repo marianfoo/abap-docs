@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_f1_data_source.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm)
+- [abencds_f1_select_parameters.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_parameters.htm)
+- [abencds_f1_joined_data_source.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_joined_data_source.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.361Z
+
+---
+
 ### abencds_f1_data_source.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_data_source.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60,7 +80,14 @@ Continue
 [ABAP CDS - SELECT, JOIN](javascript:call_link\('abencds_f1_joined_data_source.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_data_source.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm)
+
 ### abencds_f1_select_parameters.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_select_parameters.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_parameters.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -122,7 +149,17 @@ define view demo\_cds\_parameters\_join
     };
 
 
+
+**📖 Source**: [abencds_f1_select_parameters.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_parameters.htm)
+
 ### abencds_f1_joined_data_source.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_joined_data_source.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_joined_data_source.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_joined_data_source.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_joined_data_source.htm)
+
 
   
 

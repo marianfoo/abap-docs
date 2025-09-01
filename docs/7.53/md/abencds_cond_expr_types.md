@@ -10,9 +10,7 @@ ABAP CDS - cond\_expr, Comparable Types
 
 The following tables show which [built-in data types](javascript:call_link\('abenddic_builtin_types.htm'\)) in ABAP Dictionary can be compared with each other in a [condition](javascript:call_link\('abencds_f1_conditional_expression.htm'\)) of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry").
 
--   [Comparisons with Fields of Data Sources](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_1)
-
--   [Comparisons with Parameters](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_2)
+-   [Comparisons with Fields of Data Sources](#abencds-cond-expr-types-1--------comparisons-with-parameters---@ITOC@@ABENCDS_COND_EXPR_TYPES_2)
 
 -   [Comparisons with literals](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_3)
 

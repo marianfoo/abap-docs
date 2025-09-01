@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_syntax.htm)
+- [abenbdl_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_general_syntax_rules.htm)
+- [abenbdl_pragma.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_pragma.htm)
+- [abenrap_feature_table.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_feature_table.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.960Z
+
+---
+
 ### abenbdl_syntax.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +50,14 @@ Continue
 [RAP BDL - Feature Tables](javascript:call_link\('abenrap_feature_table.htm'\))
 
 
+
+**📖 Source**: [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_syntax.htm)
+
 ### abenbdl_general_syntax_rules.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_general_syntax_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59,7 +87,14 @@ The general syntax rules for the [RAP BDL](javascript:call_link\('abencds_bdl_gl
     -   Statements can be closed using a semicolon (;). Sometimes this is mandatory.
 
 
+
+**📖 Source**: [abenbdl_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_general_syntax_rules.htm)
+
 ### abenbdl_pragma.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_pragma.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_pragma.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -144,7 +179,17 @@ The following BDEF uses three different pragmas to suppress syntax check warning
     }
 
 
+
+**📖 Source**: [abenbdl_pragma.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_pragma.htm)
+
 ### abenrap_feature_table.htm
+
+> **📖 Official SAP Documentation**: [abenrap_feature_table.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_feature_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenrap_feature_table.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_feature_table.htm)
+
 
   
 

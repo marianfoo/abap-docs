@@ -3,7 +3,35 @@
 Included pages: 11
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abeninheritance.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance.htm)
+- [abeninheritance_redefinition.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_redefinition.htm)
+- [abeninheritance_abstract_final.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abstract_final.htm)
+- [abeninheritance_references.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_references.htm)
+- [abeninheritance_interfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_interfaces.htm)
+- [abeninheritance_visibility.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_visibility.htm)
+- [abeninheritance_name_space.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_name_space.htm)
+- [abeninheritance_statical.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_statical.htm)
+- [abeninheritance_constructors.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_constructors.htm)
+- [abeninheritance_instantiation.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_instantiation.htm)
+- [abeninheritance_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_events.htm)
+
+**Bundle Contains**: 11 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.896Z
+
+---
+
 ### abeninheritance.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46,7 +74,14 @@ Continue
 [ABAP Objects - Inheritance and Events](javascript:call_link\('abeninheritance_events.htm'\))
 
 
+
+**📖 Source**: [abeninheritance.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance.htm)
+
 ### abeninheritance_redefinition.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_redefinition.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_redefinition.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -70,7 +105,14 @@ Each reference that points to a subclass object uses the redefined method, even 
 Within a redefined method, [super->meth](javascript:call_link\('abapcall_method_meth_super.htm'\)) can be used to access the hidden method, for example, to adapt and supplement its functions.
 
 
+
+**📖 Source**: [abeninheritance_redefinition.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_redefinition.htm)
+
 ### abeninheritance_abstract_final.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_abstract_final.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abstract_final.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -97,7 +139,14 @@ Hints
 -   Private methods cannot be redefined and therefore cannot be abstract.
 
 
+
+**📖 Source**: [abeninheritance_abstract_final.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abstract_final.htm)
+
 ### abeninheritance_references.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_references.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_references.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -119,7 +168,14 @@ A static user can use a reference variable to address those components that are 
 When an instance method is redefined in one or more subclasses, different implementations of the method can be executed after a method call using the same reference variable, depending on where the class of the referenced object is located in the inheritance tree. This property, that different classes can have the same interface and can therefore be addressed using reference variables of one type is called [polymorphism](javascript:call_link\('abenpolymorphism_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abeninheritance_references.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_references.htm)
+
 ### abeninheritance_interfaces.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_interfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_interfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -139,7 +195,14 @@ ABAP Objects - Inheritance and Interfaces
 The interface concept exists completely independent of and in addition to the inheritance concept. The classes of an inheritance tree can implement any number of interfaces, but each interface can be implemented only once in each inheritance tree. This ensures that each interface component comp has a unique name across the entire inheritance tree intf~icomp and that it is contained in all subclasses starting with the class that implements it. [Interface reference variables](javascript:call_link\('abeninterface_ref_variable_glosry.htm'\) "Glossary Entry") that can point to a class of the inheritance tree can also point to all subclasses. Once they are implemented, interface methods are fully functioning components of a class and can be redefined in subclasses. In the case of interface methods defined as optional using [DEFAULT](javascript:call_link\('abapmethods_default.htm'\)), and without explicit implementation, the default behavior is applied along a path of an inheritance tree until a redefinition with explicit implementation occurs.
 
 
+
+**📖 Source**: [abeninheritance_interfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_interfaces.htm)
+
 ### abeninheritance_visibility.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_visibility.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_visibility.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -202,7 +265,14 @@ CLASS c2 IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abeninheritance_visibility.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_visibility.htm)
+
 ### abeninheritance_name_space.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_name_space.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_name_space.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -222,7 +292,14 @@ A subclass contains all components of all its superclasses. Only the public and 
 When methods are [redefined](javascript:call_link\('abeninheritance_redefinition.htm'\)), the newly implemented method hides the identically named method of the superclass. As soon as the method is redefined, it replaces the old method to ensure that the name remains unique. The [pseudo reference](javascript:call_link\('abenpseudo_reference_glosry.htm'\) "Glossary Entry") [super->](javascript:call_link\('abapcall_method_meth_super.htm'\)) can be used in subclasses to access a method of the direct superclass hidden by a redefinition.
 
 
+
+**📖 Source**: [abeninheritance_name_space.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_name_space.htm)
+
 ### abeninheritance_statical.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_statical.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_statical.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -329,7 +406,14 @@ Executable Example
 [Events in Inheritance](javascript:call_link\('abenevent_inheritance_abexa.htm'\))
 
 
+
+**📖 Source**: [abeninheritance_statical.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_statical.htm)
+
 ### abeninheritance_constructors.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_constructors.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_constructors.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -393,7 +477,14 @@ Every class has a [static constructor](javascript:call_link\('abenstatic_constru
 When a subclass is addressed for the first time in a program by creating an instance of the class or by addressing a static component (except for types and constants) using the class component selector, the static constructor is called. However, the preceding static constructors of all of the entire inheritance tree must have been called first. On the other hand, a static constructor may only be called once at program runtime. Therefore, when subclass is first addressed, the system looks for the next highest superclass whose static constructor has not yet been called. It calls the static constructor of this class, followed by those of all classes between this class and the addressed subclass.
 
 
+
+**📖 Source**: [abeninheritance_constructors.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_constructors.htm)
+
 ### abeninheritance_instantiation.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_instantiation.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_instantiation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -443,7 +534,17 @@ Subclass is a Friend of the Superclass
 If the subclass has no addition, it inherits the attribute CREATE PRIVATE. However, all CREATE additions are allowed. As a friend, the subclass can publish the private constructor of the superclass in any form.
 
 
+
+**📖 Source**: [abeninheritance_instantiation.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_instantiation.htm)
+
 ### abeninheritance_events.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_events.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abeninheritance_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_events.htm)
+
 
   
 

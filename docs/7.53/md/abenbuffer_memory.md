@@ -8,9 +8,7 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Table Buffering - Buffer Management
 
--   [Storage in the Memory](#@@ITOC@@ABENBUFFER_MEMORY_1)
-
--   [Buffer Monitor](#@@ITOC@@ABENBUFFER_MEMORY_2)
+-   [Storage in the Memory](#abenbuffer-memory-1--------buffer-monitor---@ITOC@@ABENBUFFER_MEMORY_2)
 
 Storage in the Memory
 

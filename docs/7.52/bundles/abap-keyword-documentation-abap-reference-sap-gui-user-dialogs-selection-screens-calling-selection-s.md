@@ -3,7 +3,27 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenselection_screen_call.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_call.htm)
+- [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_selection_screen.htm)
+- [abensel_screen_call_sel_scr_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_call_sel_scr_abexa.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.517Z
+
+---
+
 ### abenselection_screen_call.htm
+
+> **📖 Official SAP Documentation**: [abenselection_screen_call.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_call.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49,7 +69,14 @@ Continue
 [CALL SELECTION-SCREEN](javascript:call_link\('abapcall_selection_screen.htm'\))
 
 
+
+**📖 Source**: [abenselection_screen_call.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_call.htm)
+
 ### abapcall_selection_screen.htm
+
+> **📖 Official SAP Documentation**: [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_selection_screen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -128,7 +155,14 @@ Continue
 ![Example](exa.gif "Example") [Selection screens, call standalone selection screens](javascript:call_link\('abensel_screen_call_sel_scr_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_selection_screen.htm)
+
 ### abensel_screen_call_sel_scr_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensel_screen_call_sel_scr_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_call_sel_scr_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -182,7 +216,17 @@ Description
 In this executable program, two standalone selection screens, 100 and 500, are defined. Selection screen 500 contains the block sel1 of selection screen 100. Note at which events the titles of the individual screens are defined. First, selection screen 100 is called, then 500, and then again 100.
 
 
+
+**📖 Source**: [abensel_screen_call_sel_scr_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_call_sel_scr_abexa.htm)
+
 ### abapcall_selection_screen.htm
+
+> **📖 Official SAP Documentation**: [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_selection_screen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_selection_screen.htm)
+
 
   
 

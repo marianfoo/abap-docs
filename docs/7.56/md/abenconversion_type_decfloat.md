@@ -10,10 +10,8 @@ Source Field Type decfloat16, decfloat34
 
 If the source field does not contain a [valid decimal floating point number](javascript:call_link\('abenbuiltin_types_numeric.htm'\)), the catchable exception CX\_SY\_CONVERSION\_NO\_NUMBER is raised, except in the case of assignments to another decimal floating point number. In ABAP, invalid decimal floating point numbers are also the special values "+Infinity", "-Infinity", "NaN", and "sNaN", which represent infinity or invalid numbers and are designated in standard IEEE-754-2008.
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_1)
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_2)
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_3)
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_4)
+-   [Numeric Target Fields](#abenconversion-type-decfloat-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_2)
+-   [Byte-Like Target Fields](#abenconversion-type-decfloat-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_4)
 
 Numeric Target Fields
 

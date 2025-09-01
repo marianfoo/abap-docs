@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abendata_storage_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_storage_gdl.htm)
+- [abenpersistent_data_storage_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpersistent_data_storage_guidl.htm)
+- [abendatabase_access_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_access_guidl.htm)
+- [abenclient_handling_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_handling_guidl.htm)
+- [abenuse_shared_memory_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_shared_memory_guidl.htm)
+- [abenuse_shared_objects_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_shared_objects_guidl.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.221Z
+
+---
+
 ### abendata_storage_gdl.htm
+
+> **📖 Official SAP Documentation**: [abendata_storage_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_storage_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34,7 +57,14 @@ Continue
 [Using Shared Objects](javascript:call_link\('abenuse_shared_objects_guidl.htm'\))
 
 
+
+**📖 Source**: [abendata_storage_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_storage_gdl.htm)
+
 ### abenpersistent_data_storage_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenpersistent_data_storage_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpersistent_data_storage_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -90,7 +120,14 @@ Under no circumstances should you use existing database tables (or files) to sto
 You must also be careful when using seemingly cross-system resources, such as the predefined INDX database table, to store data clusters. Such a resource must only be used to store temporary data for the short term, if at all. You should create specific database tables, for example, [export/import tables](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry"), for application-specific and longer-lasting data.
 
 
+
+**📖 Source**: [abenpersistent_data_storage_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpersistent_data_storage_guidl.htm)
+
 ### abendatabase_access_guidl.htm
+
+> **📖 Official SAP Documentation**: [abendatabase_access_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_access_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -157,7 +194,14 @@ Bad Example
 See the executable example [Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\)). In this case, a specific built-in function of HANA SQL is used that was not generally available in ABAP SQL. Meanwhile, the function [currency\_conversion](javascript:call_link\('abensql_curr_unit_conv_func.htm'\)) is available in ABAP SQL and can replace the usage of AMDP.
 
 
+
+**📖 Source**: [abendatabase_access_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_access_guidl.htm)
+
 ### abenclient_handling_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenclient_handling_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_handling_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -217,7 +261,14 @@ SELECT SINGLE ...
        INTO ...
 
 
+
+**📖 Source**: [abenclient_handling_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_handling_guidl.htm)
+
 ### abenuse_shared_memory_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenuse_shared_memory_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_shared_memory_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -299,7 +350,17 @@ ASSERT cl\_docu\_tables\_broker=>root->index\_html
        IS NOT INITIAL.
 
 
+
+**📖 Source**: [abenuse_shared_memory_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_shared_memory_guidl.htm)
+
 ### abenuse_shared_objects_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenuse_shared_objects_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_shared_objects_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenuse_shared_objects_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_shared_objects_guidl.htm)
+
 
   
 

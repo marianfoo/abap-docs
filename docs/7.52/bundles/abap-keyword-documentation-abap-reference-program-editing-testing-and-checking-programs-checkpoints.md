@@ -3,7 +3,30 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencheckpoints.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoints.htm)
+- [abapassert.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassert.htm)
+- [abapbreak-point.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapbreak-point.htm)
+- [abapbreak-point_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapbreak-point_internal.htm)
+- [abaplog-point.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaplog-point.htm)
+- [abencheckpoint_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoint_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.503Z
+
+---
+
 ### abencheckpoints.htm
+
+> **📖 Official SAP Documentation**: [abencheckpoints.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoints.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36,7 +59,14 @@ Continue
 ![Example](exa.gif "Example") [Checkpoints and checkpoint groups](javascript:call_link\('abencheckpoint_abexa.htm'\))
 
 
+
+**📖 Source**: [abencheckpoints.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoints.htm)
+
 ### abapassert.htm
+
+> **📖 Official SAP Documentation**: [abapassert.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassert.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -221,7 +251,14 @@ ASSERT CONDITION gui\_flag = abap\_true.
 CALL SCREEN 100.
 
 
+
+**📖 Source**: [abapassert.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassert.htm)
+
 ### abapbreak-point.htm
+
+> **📖 Official SAP Documentation**: [abapbreak-point.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapbreak-point.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -356,7 +393,14 @@ Continue
 [BREAK-POINT - interner Zusatz](javascript:call_link\('abapbreak-point_internal.htm'\))
 
 
+
+**📖 Source**: [abapbreak-point.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapbreak-point.htm)
+
 ### abapbreak-point_internal.htm
+
+> **📖 Official SAP Documentation**: [abapbreak-point_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapbreak-point_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -387,7 +431,14 @@ This addition can be optionally entered after log\_text, but not together with t
 If system debugging is not activated and the addition AT NEXT APPLICATION STATEMENT is not used, BREAK-POINT statements in the contexts listed above are ignored.
 
 
+
+**📖 Source**: [abapbreak-point_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapbreak-point_internal.htm)
+
 ### abapbreak-point.htm
+
+> **📖 Official SAP Documentation**: [abapbreak-point.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapbreak-point.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -522,7 +573,14 @@ Continue
 [BREAK-POINT - interner Zusatz](javascript:call_link\('abapbreak-point_internal.htm'\))
 
 
+
+**📖 Source**: [abapbreak-point.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapbreak-point.htm)
+
 ### abaplog-point.htm
+
+> **📖 Official SAP Documentation**: [abaplog-point.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaplog-point.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -603,7 +661,17 @@ LOG-POINT ID demo\_checkpoint\_group
              FIELDS sy-batch sy-cprog.
 
 
+
+**📖 Source**: [abaplog-point.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaplog-point.htm)
+
 ### abencheckpoint_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencheckpoint_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoint_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencheckpoint_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoint_abexa.htm)
+
 
   
 

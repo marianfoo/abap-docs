@@ -16,12 +16,9 @@ The following sections explain the steps involved in truncating data. The result
 
 If the individual [formatting options](javascript:call_link\('abapwrite_to_options.htm'\)) deviate from the rules shown here, these deviations are described for the relevant option.
 
--   [Numeric Data Types](#@@ITOC@@ABENWRITE_TRUNCATIONS_1)
-    -   [Whole Numbers and Packed Numbers](#@@ITOC@@ABENWRITE_TRUNCATIONS_2)
-    -   [Decimal Floating Point Numbers](#@@ITOC@@ABENWRITE_TRUNCATIONS_3)
-    -   [Binary Floating Point Numbers](#@@ITOC@@ABENWRITE_TRUNCATIONS_4)
--   [Character-Like and Byte-Like Data Types](#@@ITOC@@ABENWRITE_TRUNCATIONS_5)
--   [Time Stamp](#@@ITOC@@ABENWRITE_TRUNCATIONS_6)
+-   [Numeric Data Types](#abenwrite-truncations-1-----------whole-numbers-and-packed-numbers---@ITOC@@ABENWRITE_TRUNCATIONS_2)
+    -   [Decimal Floating Point Numbers](#abenwrite-truncations-3-----------binary-floating-point-numbers---@ITOC@@ABENWRITE_TRUNCATIONS_4)
+-   [Character-Like and Byte-Like Data Types](#abenwrite-truncations-5-------time-stamp---@ITOC@@ABENWRITE_TRUNCATIONS_6)
 
 Executable Example
 

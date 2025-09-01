@@ -3,7 +3,28 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_f1_select_list_entry.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_entry.htm)
+- [abencds_f1_element_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_element_annotations.htm)
+- [abencds_f1_select_list_association.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_association.htm)
+- [abencds_publish_assocs_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_publish_assocs_abexa.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.139Z
+
+---
+
 ### abencds_f1_select_list_entry.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_select_list_entry.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_entry.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -235,7 +256,14 @@ Continue
 [ABAP CDS - SELECT, association](javascript:call_link\('abencds_f1_select_list_association.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_select_list_entry.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_entry.htm)
+
 ### abencds_f1_element_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_element_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_element_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -329,7 +357,14 @@ define view Demo\_Cds\_Assoc\_Anno1\_Loc
 If the association \_some\_assoc were published from Demo\_Cds\_Assoc\_Anno2 instead of or in addition to \_some\_assoc by specifying the name Demo\_Cds\_Assoc\_Anno2.\_some\_assoc explicitly, the annotation would be inherited again. The program DEMO\_CDS\_ASSOC\_ANNO evaluates the annotations of both views. No local element annotations are defined for the locally defined association \_some\_assoc of the view Demo\_Cds\_Assoc\_Anno1\_Loc, which means that the result for this association is empty.
 
 
+
+**📖 Source**: [abencds_f1_element_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_element_annotations.htm)
+
 ### abencds_f1_select_list_association.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_select_list_association.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_association.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -398,7 +433,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP CDS - Publishing Associations](javascript:call_link\('abencds_publish_assocs_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_select_list_association.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_association.htm)
+
 ### abencds_publish_assocs_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_publish_assocs_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_publish_assocs_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -608,7 +650,17 @@ define view demo\_cds\_publish\_assoc\_3A
 When the association demo\_cds\_publish\_assoc\_3a\\\_demo\_join2 is accessed, the results set of the left side of the join is restricted by the WHERE condition in the source data source of the path expression. The disjoint WHERE condition in demo\_cds\_publish\_assoc\_1a means that no matching rows are found, however, and the results set of the left side of the join is empty.
 
 
+
+**📖 Source**: [abencds_publish_assocs_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_publish_assocs_abexa.htm)
+
 ### abencds_f1_select_list_association.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_select_list_association.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_association.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_select_list_association.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_association.htm)
+
 
   
 

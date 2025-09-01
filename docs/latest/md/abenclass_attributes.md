@@ -14,10 +14,8 @@ Attributes are internal data objects of a class of any ABAP data type. The conte
 
 Attributes are defined in the declaration part of a class. Public attributes are visible from outside the class without restrictions and as such are part of the interface between objects and their users. To encapsulate the state of the object, protected, package-visible, or private attributes must be used. In addition to the visibility, the modifiability of non-private attributes can also be restricted using the addition [READ-ONLY](javascript:call_link\('abapdata_options.htm'\)) in the declaration.
 
--   [Instance Attributes](#@@ITOC@@ABENCLASS_ATTRIBUTES_1)
--   [Static Attributes](#@@ITOC@@ABENCLASS_ATTRIBUTES_2)
--   [Data Types of Attributes](#@@ITOC@@ABENCLASS_ATTRIBUTES_3)
--   [Boxed Components](#@@ITOC@@ABENCLASS_ATTRIBUTES_4)
+-   [Instance Attributes](#abenclass-attributes-1-------static-attributes---@ITOC@@ABENCLASS_ATTRIBUTES_2)
+-   [Data Types of Attributes](#abenclass-attributes-3-------boxed-components---@ITOC@@ABENCLASS_ATTRIBUTES_4)
 
 Instance Attributes   
 

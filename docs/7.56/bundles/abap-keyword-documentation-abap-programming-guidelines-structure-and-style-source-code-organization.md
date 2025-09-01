@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abensource_code_orga_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensource_code_orga_gdl.htm)
+- [abensource_code_modular_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensource_code_modular_guidl.htm)
+- [abenmultiple_use_include_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmultiple_use_include_guidl.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.461Z
+
+---
+
 ### abensource_code_orga_gdl.htm
+
+> **📖 Official SAP Documentation**: [abensource_code_orga_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensource_code_orga_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25,7 +45,14 @@ Continue
 [Multiple Use of Include Programs](javascript:call_link\('abenmultiple_use_include_guidl.htm'\))
 
 
+
+**📖 Source**: [abensource_code_orga_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensource_code_orga_gdl.htm)
+
 ### abensource_code_modular_guidl.htm
+
+> **📖 Official SAP Documentation**: [abensource_code_modular_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensource_code_modular_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -64,7 +91,17 @@ Include programs that you create manually must contain a logically related secti
 Include programs you create manually should be named in accordance with the naming conventions of ABAP Workbench for automatically generated include programs. These conventions emphasize the relationship between the include program and the compilation unit and prevent include programs [from being used more than once](javascript:call_link\('abenmultiple_use_include_guidl.htm'\) "Guideline").
 
 
+
+**📖 Source**: [abensource_code_modular_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensource_code_modular_guidl.htm)
+
 ### abenmultiple_use_include_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenmultiple_use_include_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmultiple_use_include_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenmultiple_use_include_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmultiple_use_include_guidl.htm)
+
 
   
 

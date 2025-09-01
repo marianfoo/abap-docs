@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddlx_syntax.htm)
+- [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
+- [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm)
+- [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_para_list.htm)
+- [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_sele_list.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.654Z
+
+---
+
 ### abencds_f1_ddlx_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddlx_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +51,14 @@ Continue
 [CDS DDL - ANNOTATE ENTITY, VIEW](javascript:call_link\('abencds_f1_annotate_view.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddlx_syntax.htm)
+
 ### abencds_f1_annotate_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -191,7 +220,14 @@ Continue
 [CDS DDL - ANNOTATE, element\_list](javascript:call_link\('abencds_f1_annotate_view_sele_list.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
+
 ### abencds_f1_metadata_ext_annos.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -249,7 +285,14 @@ ABAP Platform
 \-
 
 
+
+**📖 Source**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_metadata_ext_annos.htm)
+
 ### abencds_f1_annotate_view_para_list.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_para_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -301,7 +344,14 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
+
+**📖 Source**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_para_list.htm)
+
 ### abencds_f1_annotate_view_sele_list.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_sele_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -355,7 +405,17 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
+
+**📖 Source**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view_sele_list.htm)
+
 ### abencds_f1_annotate_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_annotate_view.htm)
+
 
   
 

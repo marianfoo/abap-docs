@@ -8,9 +8,7 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Character Strings and Byte Strings
 
--   [Character Strings](#@@ITOC@@ABENSTRING_PROCESSING_STRINGS_1)
-
--   [Byte Chains](#@@ITOC@@ABENSTRING_PROCESSING_STRINGS_2)
+-   [Character Strings](#abenstring-processing-strings-1--------byte-chains---@ITOC@@ABENSTRING_PROCESSING_STRINGS_2)
 
 Character Strings
 

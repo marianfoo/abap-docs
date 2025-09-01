@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencl_abap_math.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_math.htm)
+- [abenfloating_point_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfloating_point_class.htm)
+- [abencl_abap_decfloat_doc.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_decfloat_doc.htm)
+- [abenrandom_number_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrandom_number_class.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.975Z
+
+---
+
 ### abencl_abap_math.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_math.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_math.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27,7 +48,14 @@ Continue
 [Random Numbers](javascript:call_link\('abenrandom_number_class.htm'\))
 
 
+
+**📖 Source**: [abencl_abap_math.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_math.htm)
+
 ### abenfloating_point_class.htm
+
+> **📖 Official SAP Documentation**: [abenfloating_point_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfloating_point_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -117,7 +145,14 @@ cl\_demo\_output=>display(
 This translation does not reflect the current version of the documentation.
 
 
+
+**📖 Source**: [abenfloating_point_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfloating_point_class.htm)
+
 ### abencl_abap_decfloat_doc.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_decfloat_doc.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_decfloat_doc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -136,7 +171,17 @@ The system class CL\_ABAP\_DECFLOAT contains methods for handling [decimal float
 -   The methods CONVERT\_CURR\_TO\_DECFLOAT and CONVERT\_DECFLOAT\_TO\_CURR convert currency amounts to decimal floating point numbers (and back) as specified by a currency key.
 
 
+
+**📖 Source**: [abencl_abap_decfloat_doc.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_decfloat_doc.htm)
+
 ### abenrandom_number_class.htm
+
+> **📖 Official SAP Documentation**: [abenrandom_number_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrandom_number_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenrandom_number_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrandom_number_class.htm)
+
 
   
 

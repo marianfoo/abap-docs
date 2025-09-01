@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenoperands_data_objects.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_data_objects.htm)
+- [abendata_objects_usage_reading.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_objects_usage_reading.htm)
+- [abendata_objects_usage_writing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_objects_usage_writing.htm)
+- [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoffset_length.htm)
+- [abendata_process_fields_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_process_fields_abexa.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.930Z
+
+---
+
 ### abenoperands_data_objects.htm
+
+> **📖 Official SAP Documentation**: [abenoperands_data_objects.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_data_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +51,14 @@ Continue
 [Substring Access](javascript:call_link\('abenoffset_length.htm'\))
 
 
+
+**📖 Source**: [abenoperands_data_objects.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_data_objects.htm)
+
 ### abendata_objects_usage_reading.htm
+
+> **📖 Official SAP Documentation**: [abendata_objects_usage_reading.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_objects_usage_reading.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -74,7 +103,14 @@ Notes
 -   [Enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") with an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") can be used in all reading positions in which the operand type is their enumerated type or in which the operand is converted to one of the character-like types c or string.
 
 
+
+**📖 Source**: [abendata_objects_usage_reading.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_objects_usage_reading.htm)
+
 ### abendata_objects_usage_writing.htm
+
+> **📖 Official SAP Documentation**: [abendata_objects_usage_writing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_objects_usage_writing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -105,7 +141,14 @@ Notes
 -   [Enumerated variables](javascript:call_link\('abenenumerated_variable_glosry.htm'\) "Glossary Entry") can only be used in writing positions in which the operand type is the enumerated type and only the associated [enumerated values](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") can be written.
 
 
+
+**📖 Source**: [abendata_objects_usage_writing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_objects_usage_writing.htm)
+
 ### abenoffset_length.htm
+
+> **📖 Official SAP Documentation**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoffset_length.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -263,7 +306,14 @@ Continue
 ![Example](exa.gif "Example") [Substrings](javascript:call_link\('abendata_process_fields_abexa.htm'\))
 
 
+
+**📖 Source**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoffset_length.htm)
+
 ### abendata_process_fields_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendata_process_fields_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_process_fields_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -344,7 +394,17 @@ In the third part, assignments are used. First, the content of f1 is assigned to
 In part four, the WRITE TO statement is used. The first six places in the field number are written to the last 12 places of the string field as left-justified, centered, and right-justified places.
 
 
+
+**📖 Source**: [abendata_process_fields_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_process_fields_abexa.htm)
+
 ### abenoffset_length.htm
+
+> **📖 Official SAP Documentation**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoffset_length.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoffset_length.htm)
+
 
   
 

@@ -3,7 +3,32 @@
 Included pages: 11
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenrap_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_obsolete.htm)
+- [abenabp_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_obsolete.htm)
+- [abapmethods_for_behavior.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_for_behavior.htm)
+- [abapmethods_for_det_val_obs.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_for_det_val_obs.htm)
+- [abeneml_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_obsolete.htm)
+- [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_get_features.htm)
+- [abenrap_le_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_le_obsolete.htm)
+- [abapderived_types_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_obsolete.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.253Z
+
+---
+
 ### abenrap_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenrap_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26,7 +51,14 @@ Continue
 [Obsolete ABAP EML Language Elements](javascript:call_link\('abenrap_le_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenrap_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_obsolete.htm)
+
 ### abenabp_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenabp_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49,7 +81,14 @@ Continue
 [METHODS, FOR DETERMINATION, VALIDATION](javascript:call_link\('abapmethods_for_det_val_obs.htm'\))
 
 
+
+**📖 Source**: [abenabp_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_obsolete.htm)
+
 ### abapmethods_for_behavior.htm
+
+> **📖 Official SAP Documentation**: [abapmethods_for_behavior.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_for_behavior.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -83,7 +122,14 @@ Instead the following declarations should be used:
 Here, the name of the method is not prescribed. The meaning of the methods is defined by the addition FOR MODIFY, FOR READ, or FOR LOCK instead.
 
 
+
+**📖 Source**: [abapmethods_for_behavior.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_for_behavior.htm)
+
 ### abapmethods_for_det_val_obs.htm
+
+> **📖 Official SAP Documentation**: [abapmethods_for_det_val_obs.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_for_det_val_obs.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -108,7 +154,14 @@ Effect
 Obsolete declaration of [ABP handler methods](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") in the [handler class](javascript:call_link\('abenabp_handler_class_glosry.htm'\) "Glossary Entry") of an [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abapmethods_for_det_val_obs.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_for_det_val_obs.htm)
+
 ### abenabp_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenabp_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -131,7 +184,14 @@ Continue
 [METHODS, FOR DETERMINATION, VALIDATION](javascript:call_link\('abapmethods_for_det_val_obs.htm'\))
 
 
+
+**📖 Source**: [abenabp_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_obsolete.htm)
+
 ### abeneml_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abeneml_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -152,7 +212,14 @@ Continue
 [GET FEATURES](javascript:call_link\('abeneml_get_features.htm'\))
 
 
+
+**📖 Source**: [abeneml_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_obsolete.htm)
+
 ### abeneml_get_features.htm
+
+> **📖 Official SAP Documentation**: [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_get_features.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -274,7 +341,14 @@ Effect
 The dynamic form of the statement allows multiple instances to be collected for which information should be retrieved in multiple entities in one statement.
 
 
+
+**📖 Source**: [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_get_features.htm)
+
 ### abeneml_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abeneml_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -295,7 +369,14 @@ Continue
 [GET FEATURES](javascript:call_link\('abeneml_get_features.htm'\))
 
 
+
+**📖 Source**: [abeneml_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_obsolete.htm)
+
 ### abenrap_le_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenrap_le_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_le_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -316,7 +397,14 @@ Continue
 [ABAP EML - Obsolete BDEF Derived Types](javascript:call_link\('abapderived_types_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenrap_le_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_le_obsolete.htm)
+
 ### abapderived_types_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abapderived_types_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -368,7 +456,17 @@ Further Information
 -   [TYPE STRUCTURE FOR](javascript:call_link\('abaptype_structure_for.htm'\))
 
 
+
+**📖 Source**: [abapderived_types_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_obsolete.htm)
+
 ### abenrap_le_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenrap_le_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_le_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenrap_le_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_le_obsolete.htm)
+
 
   
 

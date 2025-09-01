@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abentext_environment_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_obsolete.htm)
+- [abapset_locale_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale_obsolete.htm)
+- [abapget_locale_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale_obsolete.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.254Z
+
+---
+
 ### abentext_environment_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abentext_environment_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26,7 +46,14 @@ Continue
 [GET LOCALE, obsolete\_parameters](javascript:call_link\('abapget_locale_obsolete.htm'\))
 
 
+
+**📖 Source**: [abentext_environment_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_obsolete.htm)
+
 ### abapset_locale_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abapset_locale_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -81,7 +108,17 @@ The addition MODIFIER was intended for setting different locales for a language 
 This function is not implemented. The addition MODIFIER is ignored when the statement is executed.
 
 
+
+**📖 Source**: [abapset_locale_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale_obsolete.htm)
+
 ### abapget_locale_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abapget_locale_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapget_locale_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale_obsolete.htm)
+
 
   
 

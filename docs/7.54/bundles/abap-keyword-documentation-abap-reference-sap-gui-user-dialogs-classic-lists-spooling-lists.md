@@ -3,7 +3,33 @@
 Included pages: 14
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenprint.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint.htm)
+- [abenprint_on_off.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_on_off.htm)
+- [abenprint_spool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_spool.htm)
+- [abenprint_parameters.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_parameters.htm)
+- [abenprint_control.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_control.htm)
+- [abapset_margin.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_margin.htm)
+- [abapprint-control.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprint-control.htm)
+- [abenprint_screen.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_screen.htm)
+- [abenprint_list_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_list_abexa.htm)
+
+**Bundle Contains**: 9 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.990Z
+
+---
+
 ### abenprint.htm
+
+> **📖 Official SAP Documentation**: [abenprint.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54,7 +80,14 @@ Continue
 ![Example](exa.gif "Example") [Spooling Lists](javascript:call_link\('abenprint_list_abexa.htm'\))
 
 
+
+**📖 Source**: [abenprint.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint.htm)
+
 ### abenprint_on_off.htm
+
+> **📖 Official SAP Documentation**: [abenprint_on_off.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_on_off.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -142,7 +175,14 @@ IF valid <> space.
 ENDIF.
 
 
+
+**📖 Source**: [abenprint_on_off.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_on_off.htm)
+
 ### abenprint_spool.htm
+
+> **📖 Official SAP Documentation**: [abenprint_spool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_spool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -579,7 +619,14 @@ VALID\_FOR\_SPOOL\_CREATION
 If "X", enough spool parameters are available to create a spool request. There is no guarantee, however, that this request can be printed or archived. If " ", the structures are empty and a spool request cannot be created. This is different from VALID only if the spool dialog box is not displayed. If the spool dialog box is displayed, VALID\_FOR\_SPOOL\_CREATION is filled just like VALID.
 
 
+
+**📖 Source**: [abenprint_spool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_spool.htm)
+
 ### abenprint_parameters.htm
+
+> **📖 Official SAP Documentation**: [abenprint_parameters.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_parameters.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -613,7 +660,14 @@ Continue
 [Overview of All Spool Parameters](javascript:call_link\('abenprint_parameters_overview.htm'\))
 
 
+
+**📖 Source**: [abenprint_parameters.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_parameters.htm)
+
 ### abenprint_control.htm
+
+> **📖 Official SAP Documentation**: [abenprint_control.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_control.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -642,7 +696,14 @@ Continue
 [PRINT-CONTROL](javascript:call_link\('abapprint-control.htm'\))
 
 
+
+**📖 Source**: [abenprint_control.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_control.htm)
+
 ### abapset_margin.htm
+
+> **📖 Official SAP Documentation**: [abapset_margin.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_margin.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -673,7 +734,14 @@ Note
 For printers with an active list driver, margins can be defined in millimeters in the spool dialog. When pages are sent from the spool system to the printer, the pages, including the margins set using SET MARGIN, are positioned within these margins.
 
 
+
+**📖 Source**: [abapset_margin.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_margin.htm)
+
 ### abapprint-control.htm
+
+> **📖 Official SAP Documentation**: [abapprint-control.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprint-control.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -743,7 +811,14 @@ DO number TIMES.
 ENDDO.
 
 
+
+**📖 Source**: [abapprint-control.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprint-control.htm)
+
 ### abenprint_control.htm
+
+> **📖 Official SAP Documentation**: [abenprint_control.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_control.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -772,7 +847,14 @@ Continue
 [PRINT-CONTROL](javascript:call_link\('abapprint-control.htm'\))
 
 
+
+**📖 Source**: [abenprint_control.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_control.htm)
+
 ### abenprint_screen.htm
+
+> **📖 Official SAP Documentation**: [abenprint_screen.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_screen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -801,7 +883,17 @@ Notes
 -   A screen list cannot contain any index lines created using [PRINT-CONTROL](javascript:call_link\('abapprint-control.htm'\)). Indexed searches are not possible in an archived screen list.
 
 
+
+**📖 Source**: [abenprint_screen.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_screen.htm)
+
 ### abenprint_list_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenprint_list_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_list_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenprint_list_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_list_abexa.htm)
+
 
   
 

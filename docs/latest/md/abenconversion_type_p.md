@@ -12,10 +12,8 @@ Source Field Type p
 
 If the program property [fixed point arithmetic](javascript:call_link\('abenfixed_point_arithmetic_glosry.htm'\) "Glossary Entry") is not set, the decimal separator in source fields with the type [p](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) is ignored, except in assignments to character-like target fields with the types c and string.
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_P_1)
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_P_2)
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_P_3)
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_P_4)
+-   [Numeric Target Fields](#abenconversion-type-p-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_P_2)
+-   [Byte-Like Target Fields](#abenconversion-type-p-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_P_4)
 
 Numeric Target Fields   
 

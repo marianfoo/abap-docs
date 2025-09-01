@@ -3,7 +3,31 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abeninternationalization_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternationalization_gdl.htm)
+- [abensystem_text_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_text_guidl.htm)
+- [abentrans_relevant_text_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentrans_relevant_text_guidl.htm)
+- [abentext_environm_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_environm_guidl.htm)
+- [abencharacter_set_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharacter_set_guidl.htm)
+- [abensplit_text_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensplit_text_guidl.htm)
+- [abencodepage_file_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencodepage_file_guidl.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.457Z
+
+---
+
 ### abeninternationalization_gdl.htm
+
+> **📖 Official SAP Documentation**: [abeninternationalization_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternationalization_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33,7 +57,14 @@ Continue
 [Code Pages for Files](javascript:call_link\('abencodepage_file_guidl.htm'\))
 
 
+
+**📖 Source**: [abeninternationalization_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternationalization_gdl.htm)
+
 ### abensystem_text_guidl.htm
+
+> **📖 Official SAP Documentation**: [abensystem_text_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_text_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -83,7 +114,14 @@ APPEND html\_line TO html\_body.
 ...
 
 
+
+**📖 Source**: [abensystem_text_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_text_guidl.htm)
+
 ### abentrans_relevant_text_guidl.htm
+
+> **📖 Official SAP Documentation**: [abentrans_relevant_text_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentrans_relevant_text_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -150,7 +188,14 @@ The entry &2 was not found in table &1
 a MESSAGE statement when logged on in English would produce a correct text.
 
 
+
+**📖 Source**: [abentrans_relevant_text_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentrans_relevant_text_guidl.htm)
+
 ### abentext_environm_guidl.htm
+
+> **📖 Official SAP Documentation**: [abentext_environm_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_environm_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -209,7 +254,14 @@ METHOD ...
 ENDMETHOD.
 
 
+
+**📖 Source**: [abentext_environm_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_environm_guidl.htm)
+
 ### abencharacter_set_guidl.htm
+
+> **📖 Official SAP Documentation**: [abencharacter_set_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharacter_set_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -248,7 +300,14 @@ Since the programs with the ABAP language version [Standard ABAP](javascript:cal
 In a current system, all [ABAP source code](javascript:call_link\('abenabap_source_code_glosry.htm'\) "Glossary Entry") is stored in Unicode and this is why this problem does not occur there. If a guarantee could be given that a program was written only for Unicode systems, the rule above would not be needed for literals and comments (at the very least). It is not possible to ensure that a program is not used in any non-Unicode systems, which is why general robustness rules should always be followed. This ensures that programs can be transported from Unicode systems to non-Unicode systems without conversion losses.
 
 
+
+**📖 Source**: [abencharacter_set_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharacter_set_guidl.htm)
+
 ### abensplit_text_guidl.htm
+
+> **📖 Official SAP Documentation**: [abensplit_text_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensplit_text_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -281,7 +340,17 @@ Operations that split character strings include:
 If texts containing combined characters or surrogates are split, this can produce undefined characters that cannot be displayed. If there is a risk of this occurring, you can define a suitable separation position by using the method STRING\_SPLIT\_AT\_POSITION of classCL\_SCP\_LINEBREAK\_UTIL.
 
 
+
+**📖 Source**: [abensplit_text_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensplit_text_guidl.htm)
+
 ### abencodepage_file_guidl.htm
+
+> **📖 Official SAP Documentation**: [abencodepage_file_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencodepage_file_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencodepage_file_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencodepage_file_guidl.htm)
+
 
   
 

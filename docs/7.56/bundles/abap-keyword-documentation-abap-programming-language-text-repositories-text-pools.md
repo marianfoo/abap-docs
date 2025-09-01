@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abentext_pool.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_pool.htm)
+- [abapset_language.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_language.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.509Z
+
+---
+
 ### abentext_pool.htm
+
+> **📖 Official SAP Documentation**: [abentext_pool.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_pool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42,7 +61,17 @@ Continue
 [SET LANGUAGE](javascript:call_link\('abapset_language.htm'\))
 
 
+
+**📖 Source**: [abentext_pool.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_pool.htm)
+
 ### abapset_language.htm
+
+> **📖 Official SAP Documentation**: [abapset_language.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_language.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapset_language.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_language.htm)
+
 
   
 

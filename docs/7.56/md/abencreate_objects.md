@@ -10,8 +10,7 @@ Creating Objects and Values
 
 This section describes how data objects and instances of classes are created and values constructed.
 
--   [Creating Objects](#@@ITOC@@ABENCREATE_OBJECTS_1)
--   [Constructing Values](#@@ITOC@@ABENCREATE_OBJECTS_2)
+-   [Creating Objects](#abencreate-objects-1-------constructing-values---@ITOC@@ABENCREATE_OBJECTS_2)
 
 Creating Objects
 

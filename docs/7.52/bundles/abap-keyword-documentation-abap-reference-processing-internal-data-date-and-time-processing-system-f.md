@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abentime_system_fields.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_system_fields.htm)
+- [abapget_time.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_time.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.491Z
+
+---
+
 ### abentime_system_fields.htm
+
+> **📖 Official SAP Documentation**: [abentime_system_fields.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_system_fields.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -128,7 +147,17 @@ Continue
 [GET TIME](javascript:call_link\('abapget_time.htm'\))
 
 
+
+**📖 Source**: [abentime_system_fields.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_system_fields.htm)
+
 ### abapget_time.htm
+
+> **📖 Official SAP Documentation**: [abapget_time.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_time.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapget_time.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_time.htm)
+
 
   
 

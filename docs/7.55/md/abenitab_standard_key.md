@@ -10,9 +10,7 @@ itab - Standard Key
 
 The standard key is a special [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") of an internal table.
 
--   [Key Fields of the Standard Key](#@@ITOC@@ABENITAB_STANDARD_KEY_1)
-
--   [Declaration of the Standard Key](#@@ITOC@@ABENITAB_STANDARD_KEY_2)
+-   [Key Fields of the Standard Key](#abenitab-standard-key-1--------declaration-of-the-standard-key---@ITOC@@ABENITAB_STANDARD_KEY_2)
 
 -   [Notes on Use](#@@ITOC@@ABENITAB_STANDARD_KEY_3)
 

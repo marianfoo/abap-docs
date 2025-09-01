@@ -3,7 +3,40 @@
 Included pages: 15
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenoperand_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoperand_positions.htm)
+- [abenoperand_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoperand_type.htm)
+- [abenexpression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions.htm)
+- [abenexpression_positions_write.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_write.htm)
+- [abendeclaration_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclaration_positions.htm)
+- [abenresult_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenresult_positions.htm)
+- [abenexpression_positions_read.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_read.htm)
+- [abengeneral_expression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expression_positions.htm)
+- [abennumeric_expression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumeric_expression_positions.htm)
+- [abenstring_expression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_expression_positions.htm)
+- [abentimestamp_expr_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentimestamp_expr_positions.htm)
+- [abenfunctional_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_positions.htm)
+
+**Bundle Contains**: 12 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:29.005Z
+
+---
+
 ### abenoperand_positions.htm
+
+> **📖 Official SAP Documentation**: [abenoperand_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoperand_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenoperand_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoperand_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38,7 +71,18 @@ Continue
 [Expression Positions for Functions and Expressions](javascript:call_link\('abenexpression_positions.htm'\))
 
 
+
+**📖 Source**: [abenoperand_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoperand_positions.htm)
+
 ### abenoperand_type.htm
+
+> **📖 Official SAP Documentation**: [abenoperand_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoperand_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenoperand_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoperand_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -82,7 +126,18 @@ Operand Positions with Reference Data Type  
 Depending on the operand type, either data or object reference variables must be specified at operand positions for [reference variables](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry") when the statement is executed. Formal parameters or field symbols of the generic types data or any can also be specified statically.
 
 
+
+**📖 Source**: [abenoperand_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoperand_type.htm)
+
 ### abenexpression_positions.htm
+
+> **📖 Official SAP Documentation**: [abenexpression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexpression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -107,7 +162,18 @@ Continue
 [Read Positions for Functions and Expressions](javascript:call_link\('abenexpression_positions_read.htm'\))
 
 
+
+**📖 Source**: [abenexpression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions.htm)
+
 ### abenexpression_positions_write.htm
+
+> **📖 Official SAP Documentation**: [abenexpression_positions_write.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_write.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexpression_positions_write.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_write.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -132,7 +198,18 @@ Continue
 [Result Positions](javascript:call_link\('abenresult_positions.htm'\))
 
 
+
+**📖 Source**: [abenexpression_positions_write.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_write.htm)
+
 ### abendeclaration_positions.htm
+
+> **📖 Official SAP Documentation**: [abendeclaration_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclaration_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendeclaration_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclaration_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -327,7 +404,18 @@ SELECT \*
        INTO TABLE @FINAL(itab).
 
 
+
+**📖 Source**: [abendeclaration_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclaration_positions.htm)
+
 ### abenresult_positions.htm
+
+> **📖 Official SAP Documentation**: [abenresult_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenresult_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenresult_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenresult_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -362,7 +450,18 @@ DO 3 TIMES.
 ENDDO.
 
 
+
+**📖 Source**: [abenresult_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenresult_positions.htm)
+
 ### abenexpression_positions_write.htm
+
+> **📖 Official SAP Documentation**: [abenexpression_positions_write.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_write.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexpression_positions_write.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_write.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -387,7 +486,18 @@ Continue
 [Result Positions](javascript:call_link\('abenresult_positions.htm'\))
 
 
+
+**📖 Source**: [abenexpression_positions_write.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_write.htm)
+
 ### abenexpression_positions_read.htm
+
+> **📖 Official SAP Documentation**: [abenexpression_positions_read.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_read.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexpression_positions_read.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_read.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -416,7 +526,18 @@ Continue
 [Functional Operand Positions](javascript:call_link\('abenfunctional_positions.htm'\))
 
 
+
+**📖 Source**: [abenexpression_positions_read.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_read.htm)
+
 ### abengeneral_expression_positions.htm
+
+> **📖 Official SAP Documentation**: [abengeneral_expression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expression_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abengeneral_expression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expression_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -470,7 +591,18 @@ cl\_demo\_output=>display(
                  NEXT s &&= <wa> && \` \` ) ).
 
 
+
+**📖 Source**: [abengeneral_expression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expression_positions.htm)
+
 ### abennumeric_expression_positions.htm
+
+> **📖 Official SAP Documentation**: [abennumeric_expression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumeric_expression_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennumeric_expression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumeric_expression_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -550,7 +682,18 @@ DO lines( itab ) TIMES.
 ENDDO.
 
 
+
+**📖 Source**: [abennumeric_expression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumeric_expression_positions.htm)
+
 ### abenstring_expression_positions.htm
+
+> **📖 Official SAP Documentation**: [abenstring_expression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_expression_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenstring_expression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_expression_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -638,7 +781,18 @@ DATA: text TYPE string,
 FIND PCRE \`(\` && sub && \`)+\` IN text.
 
 
+
+**📖 Source**: [abenstring_expression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_expression_positions.htm)
+
 ### abentimestamp_expr_positions.htm
+
+> **📖 Official SAP Documentation**: [abentimestamp_expr_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentimestamp_expr_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentimestamp_expr_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentimestamp_expr_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -682,7 +836,18 @@ cl\_demo\_output=>display(
                         hours = 1 ) ) ).
 
 
+
+**📖 Source**: [abentimestamp_expr_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentimestamp_expr_positions.htm)
+
 ### abenfunctional_positions.htm
+
+> **📖 Official SAP Documentation**: [abenfunctional_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfunctional_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -811,7 +976,18 @@ CONVERT TIME STAMP cl\_abap\_tstmp=>normalize( ts ) TIME ZONE 'UTC'
         INTO DATE FINAL(date) TIME FINAL(time).
 
 
+
+**📖 Source**: [abenfunctional_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_positions.htm)
+
 ### abenexpression_positions_read.htm
+
+> **📖 Official SAP Documentation**: [abenexpression_positions_read.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_read.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexpression_positions_read.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_read.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -840,7 +1016,21 @@ Continue
 [Functional Operand Positions](javascript:call_link\('abenfunctional_positions.htm'\))
 
 
+
+**📖 Source**: [abenexpression_positions_read.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_read.htm)
+
 ### abenexpression_positions.htm
+
+> **📖 Official SAP Documentation**: [abenexpression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexpression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenexpression_positions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions.htm)
+
 
   
 

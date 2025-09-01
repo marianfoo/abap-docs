@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaprap_system_classes.htm)
+- [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.236Z
+
+---
+
 ### abaprap_system_classes.htm
+
+> **📖 Official SAP Documentation**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaprap_system_classes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45,7 +64,17 @@ Continue
 ![Example](exa.gif "Example") [Getting RAP Context Information Using CL\_ABAP\_BEHV\_AUX](javascript:call_link\('abenrap_cl_abap_behv_aux_abexa.htm'\))
 
 
+
+**📖 Source**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaprap_system_classes.htm)
+
 ### abenrap_cl_abap_behv_aux_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+
 
   
 

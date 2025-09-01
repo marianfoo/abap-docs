@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_cds_table_functions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_table_functions.htm)
+- [abencds_func_client_handling.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_handling.htm)
+- [abencds_func_client_handling_obs.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_handling_obs.htm)
+- [abencds_func_client_dep_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_dep_abexa.htm)
+- [abencds_func_client_indep_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_indep_abexa.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.365Z
+
+---
+
 ### abenddic_cds_table_functions.htm
+
+> **📖 Official SAP Documentation**: [abenddic_cds_table_functions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_table_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51,7 +73,14 @@ Continue
 [ABAP CDS - Client Handling in CDS Table Functions](javascript:call_link\('abencds_func_client_handling.htm'\))
 
 
+
+**📖 Source**: [abenddic_cds_table_functions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_table_functions.htm)
+
 ### abencds_func_client_handling.htm
+
+> **📖 Official SAP Documentation**: [abencds_func_client_handling.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_handling.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -146,7 +175,14 @@ Continue
 ![Example](exa.gif "Example") [Cross-Client CDS Table Functions](javascript:call_link\('abencds_func_client_indep_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_func_client_handling.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_handling.htm)
+
 ### abencds_func_client_handling_obs.htm
+
+> **📖 Official SAP Documentation**: [abencds_func_client_handling_obs.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_handling_obs.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -167,7 +203,14 @@ Before the annotation [@ClientHandling.type](javascript:call_link\('abencds_f1_f
 Only the annotation @ClientHandling.type should now be used in new CDS table functions. The annotations @ClientHandling and @ClientDependent cannot be used together in the definition of a CDS table function. If neither of the annotations @ClientHandling.type and @ClientDependent is specified, the default value of @ClientHandling.type applies.
 
 
+
+**📖 Source**: [abencds_func_client_handling_obs.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_handling_obs.htm)
+
 ### abencds_func_client_dep_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_func_client_dep_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_dep_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -266,7 +309,14 @@ define table function DEMO\_CDS\_GET\_SCARR\_SPFLI\_INPCL
 The result of the accesses performed without the addition CLIENT SPECIFIED is the same for both CDS table functions. If the addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client.htm'\)) is used to access the CDS table function without an input parameter for the client, the results set has an extra client column and the current client must be selected explicitly in the WHERE column. The addition CLIENT SPECIFIED cannot be specified for the CDS table function with an input parameter for the client.
 
 
+
+**📖 Source**: [abencds_func_client_dep_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_dep_abexa.htm)
+
 ### abencds_func_client_indep_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_func_client_indep_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_indep_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -362,7 +412,17 @@ Note
 In both table functions, the input field for the client ID could also be annotated with the predefined value [#CLIENT](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)) using the annotation [@Environment.systemField](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)) to stop the client ID from being passed explicitly by SELECTs.
 
 
+
+**📖 Source**: [abencds_func_client_indep_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_indep_abexa.htm)
+
 ### abencds_func_client_handling.htm
+
+> **📖 Official SAP Documentation**: [abencds_func_client_handling.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_handling.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_func_client_handling.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_handling.htm)
+
 
   
 

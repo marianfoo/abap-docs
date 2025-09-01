@@ -18,8 +18,7 @@ Elementary ABAP types are mapped to the appropriate types in SQLScript as shown 
 
 The tables distinguish parameters that reference a type defined in ABAP from those that reference a [built-in type in the ABAP Dictionary](javascript:call_link\('abenddic_builtin_types.htm'\)). No parameters or type references can be defined for SQLScript types that are not listed here.
 
--   [Mapping with Reference to Types Defined in ABAP](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_MAPPING_1)
--   [Mapping with Reference to Types Defined in ABAP Dictionary](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_MAPPING_2)
+-   [Mapping with Reference to Types Defined in ABAP](#abenamdp-hdb-sqlscript-mapping-1-------mapping-with-reference-to-types-defined-in-abap-dictionary---@ITOC@@ABENAMDP_HDB_SQLSCRIPT_MAPPING_2)
 
 Mapping with Reference to Types Defined in ABAP   
 

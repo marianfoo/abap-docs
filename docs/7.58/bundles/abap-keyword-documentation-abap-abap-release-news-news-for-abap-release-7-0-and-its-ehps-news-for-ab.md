@@ -3,7 +3,42 @@
 Included pages: 14
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-70.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70.htm)
+- [abennews-70-sfw.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-sfw.htm)
+- [abennews-70-enhancement.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-enhancement.htm)
+- [abennews-70-tabellen.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-tabellen.htm)
+- [abennews-70-regex.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-regex.htm)
+- [abennews-70-shared_objects.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-shared_objects.htm)
+- [abennews-70-dataset.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-dataset.htm)
+- [abennews-700-object_services.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-700-object_services.htm)
+- [abennews-70-rfc.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-rfc.htm)
+- [abennews-70-xml.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-xml.htm)
+- [abennews-700-tools.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-700-tools.htm)
+- [abennews-700-others.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-700-others.htm)
+- [abennews-70-cleanup.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-cleanup.htm)
+- [abennews-70-docu.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-docu.htm)
+
+**Bundle Contains**: 14 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.899Z
+
+---
+
 ### abennews-70.htm
+
+> **📖 Official SAP Documentation**: [abennews-70.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-70.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49,7 +84,18 @@ Continue
 [ABAP Keyword Documentation in ABAP Release 7.0](javascript:call_link\('abennews-70-docu.htm'\))
 
 
+
+**📖 Source**: [abennews-70.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70.htm)
+
 ### abennews-70-sfw.htm
+
+> **📖 Official SAP Documentation**: [abennews-70-sfw.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-sfw.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-70-sfw.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-sfw.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -87,7 +133,18 @@ When the statement [GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerat
 As a standard setting, a syntax check performed using the statement [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)) uses the switch configuration available at the time the statement is executed. To achieve the same behavior as with the statement [GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerate_subroutine_pool.htm'\)), the addition WITH CURRENT SWITCHSTATES has been introduced.
 
 
+
+**📖 Source**: [abennews-70-sfw.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-sfw.htm)
+
 ### abennews-70-enhancement.htm
+
+> **📖 Official SAP Documentation**: [abennews-70-enhancement.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-enhancement.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-70-enhancement.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-enhancement.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -129,7 +186,18 @@ For enhancements using [BAdIs](javascript:call_link\('abenbadi_glosry.htm'\) "Gl
 -   [CALL BADI](javascript:call_link\('abapcall_badi.htm'\))
 
 
+
+**📖 Source**: [abennews-70-enhancement.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-enhancement.htm)
+
 ### abennews-70-tabellen.htm
+
+> **📖 Official SAP Documentation**: [abennews-70-tabellen.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-tabellen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-70-tabellen.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-tabellen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -168,7 +236,18 @@ Optimization when Specifying a WHERE Condition
 Until now, the optimized table reads performed when specifying an initial segment of the table key (using equality queries joined using AND) in cases where a WHERE condition was specified in the statements [LOOP](javascript:call_link\('abaploop_at_itab_cond.htm'\)), [DELETE](javascript:call_link\('abapdelete_itab_lines.htm'\)), and [MODIFY](javascript:call_link\('abapmodify_itab_multiple.htm'\)) were only optimized for [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry"). From ABAP release 7.0, this is done for [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") too. In hashed tables, however, the entire table key must be specified for the optimization to take place.
 
 
+
+**📖 Source**: [abennews-70-tabellen.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-tabellen.htm)
+
 ### abennews-70-regex.htm
+
+> **📖 Official SAP Documentation**: [abennews-70-regex.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-regex.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-70-regex.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-regex.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -222,7 +301,18 @@ From ABAP release 7.0, the addition LINES OF in the statement [CONCATENATE](java
 The new addition RESPECTING BLANKS enables trailing blanks to be respected data objects of fixed length. This can also be used to assign text fields to strings when respecting the trailing blanks.
 
 
+
+**📖 Source**: [abennews-70-regex.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-regex.htm)
+
 ### abennews-70-shared_objects.htm
+
+> **📖 Official SAP Documentation**: [abennews-70-shared_objects.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-shared_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-70-shared_objects.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-shared_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -255,7 +345,18 @@ Waiting Time for Change Locks
 From ABAP release 7.0, a waiting period can be passed to the parameter WAIT\_TIME for the methods ATTACH\_FOR\_WRITE and ATTACH\_FOR\_UPDATE of the [area class](javascript:call_link\('abenarea_class_glosry.htm'\) "Glossary Entry") and for MULTI\_ATTACH in CL\_SHM\_AREA.
 
 
+
+**📖 Source**: [abennews-70-shared_objects.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-shared_objects.htm)
+
 ### abennews-70-dataset.htm
+
+> **📖 Official SAP Documentation**: [abennews-70-dataset.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-dataset.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-70-dataset.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-dataset.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -305,7 +406,18 @@ For [text files](javascript:call_link\('abentext_file_glosry.htm'\) "Glossary En
 -   If, when reading a legacy EBCDIC text file using [READ DATASET](javascript:call_link\('abapread_dataset.htm'\)), the target object must be padded with blank characters, it is now padded with the blanks of the current [system code page](javascript:call_link\('abensystem_codepage_glosry.htm'\) "Glossary Entry"). Before ABAP release 7.0, it was padded with hexadecimal 80.
 
 
+
+**📖 Source**: [abennews-70-dataset.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-dataset.htm)
+
 ### abennews-700-object_services.htm
+
+> **📖 Official SAP Documentation**: [abennews-700-object_services.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-700-object_services.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-700-object_services.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-700-object_services.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -336,7 +448,18 @@ Query Service
 From ABAP release 7.0, the [object services](javascript:call_link\('abenobject_services_glosry.htm'\) "Glossary Entry") offer a [query service](javascript:call_link\('abenabap_object_services_query.htm'\)) to find and load [persistent objects](javascript:call_link\('abenpersistent_object_glosry.htm'\) "Glossary Entry") from the database.
 
 
+
+**📖 Source**: [abennews-700-object_services.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-700-object_services.htm)
+
 ### abennews-70-rfc.htm
+
+> **📖 Official SAP Documentation**: [abennews-70-rfc.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-rfc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-70-rfc.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-rfc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -361,7 +484,18 @@ Hint
 Complete shipment from [ABAP release 7.0, EhP2](javascript:call_link\('abennews-71-rfc.htm'\)) only.
 
 
+
+**📖 Source**: [abennews-70-rfc.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-rfc.htm)
+
 ### abennews-70-xml.htm
+
+> **📖 Official SAP Documentation**: [abennews-70-xml.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-xml.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-70-xml.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-xml.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -402,7 +536,18 @@ In the statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transform
 -   abap\_trans\_objbind\_tab for the specification of object references.
 
 
+
+**📖 Source**: [abennews-70-xml.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-xml.htm)
+
 ### abennews-700-tools.htm
+
+> **📖 Official SAP Documentation**: [abennews-700-tools.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-700-tools.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-700-tools.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-700-tools.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -483,7 +628,18 @@ Logpoints
 The new [LOG-POINT](javascript:call_link\('abaplog-point.htm'\)) statement enables unconditional log entries to the log also used by [ASSERT](javascript:call_link\('abapassert.htm'\)). Logpoints are [activatable checkpoints](javascript:call_link\('abenactivatable_checkpoint_glosry.htm'\) "Glossary Entry"), whose activation must be controlled using [checkpoint groups](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry") or [activation variants](javascript:call_link\('abenactivation_variant_glosry.htm'\) "Glossary Entry"). Logpoints replace the incorrect usage of ASSERT for logging-only purposes.
 
 
+
+**📖 Source**: [abennews-700-tools.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-700-tools.htm)
+
 ### abennews-700-others.htm
+
+> **📖 Official SAP Documentation**: [abennews-700-others.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-700-others.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-700-others.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-700-others.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -552,7 +708,18 @@ Format of Lists when Sending
 The internal format into which an ABAP list is packed when the send function is called, has been changed. The previous format can still be read. From ABAP release 7.0, to send lists to systems with older releases, the new format must be converted to the previous format using the function module LIST\_CONVERT\_NEW\_TO\_OLD\_FORMAT.
 
 
+
+**📖 Source**: [abennews-700-others.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-700-others.htm)
+
 ### abennews-70-cleanup.htm
+
+> **📖 Official SAP Documentation**: [abennews-70-cleanup.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-cleanup.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-70-cleanup.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-cleanup.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -804,7 +971,21 @@ Hint
 Programs that so far have used the language constructions stated above must now be considered as incorrect. If the respective positions in the program have been executed, runtime errors or undefined states occurred. The current syntax cleanup is intended to avoid error situations like the ones described here, when they are known statically in advance.
 
 
+
+**📖 Source**: [abennews-70-cleanup.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-cleanup.htm)
+
 ### abennews-70-docu.htm
+
+> **📖 Official SAP Documentation**: [abennews-70-docu.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-docu.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennews-70-docu.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-docu.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-70-docu.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70-docu.htm)
+
 
   
 

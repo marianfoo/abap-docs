@@ -10,9 +10,7 @@ Date Fields, Time Fields, and Time Stamp Fields
 
 The following data types in ABAP Dictionary describe date fields, time fields, and time stamp fields:
 
--   [Date Types, Time Types, and Time Stamp Types](#@@ITOC@@ABENDDIC_DATE_TIME_TYPES_1)
-
--   [Character-Like Date Fields and Time Fields](#@@ITOC@@ABENDDIC_DATE_TIME_TYPES_2)
+-   [Date Types, Time Types, and Time Stamp Types](#abenddic-date-time-types-1--------character-like-date-fields-and-time-fields---@ITOC@@ABENDDIC_DATE_TIME_TYPES_2)
 
 Date Types, Time Types, and Time Stamp Types
 

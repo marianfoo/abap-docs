@@ -3,7 +3,30 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abentype_names.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_names.htm)
+- [abenabs_type_names_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabs_type_names_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.949Z
+
+---
+
 ### abentype_names.htm
+
+> **📖 Official SAP Documentation**: [abentype_names.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_names.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentype_names.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_names.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -490,7 +513,21 @@ Continue
 ![Example](exa.gif "Example") [Absolute Type Names, Executable Example](javascript:call_link\('abenabs_type_names_abexa.htm'\))
 
 
+
+**📖 Source**: [abentype_names.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_names.htm)
+
 ### abenabs_type_names_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenabs_type_names_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabs_type_names_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabs_type_names_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabs_type_names_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabs_type_names_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabs_type_names_abexa.htm)
+
 
   
 

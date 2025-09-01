@@ -3,7 +3,32 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenorganization_of_modules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenorganization_of_modules.htm)
+- [abenmemory_organization.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_organization.htm)
+- [abenuser_sessions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuser_sessions.htm)
+- [abeninternal_session.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.936Z
+
+---
+
 ### abenorganization_of_modules.htm
+
+> **📖 Official SAP Documentation**: [abenorganization_of_modules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenorganization_of_modules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenorganization_of_modules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenorganization_of_modules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56,7 +81,18 @@ Continue
 [Programs in the Internal Session](javascript:call_link\('abeninternal_session.htm'\))
 
 
+
+**📖 Source**: [abenorganization_of_modules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenorganization_of_modules.htm)
+
 ### abenmemory_organization.htm
+
+> **📖 Official SAP Documentation**: [abenmemory_organization.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_organization.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenmemory_organization.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_organization.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -155,7 +191,18 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abenmemory_organization.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_organization.htm)
+
 ### abenuser_sessions.htm
+
+> **📖 Official SAP Documentation**: [abenuser_sessions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuser_sessions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenuser_sessions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuser_sessions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -228,7 +275,21 @@ From a user session, it is possible to programmatically open further user sessio
 -   ICF and APC clients can address the current or another AS instance as ICF or APC servers and thus open new user sessions.
 
 
+
+**📖 Source**: [abenuser_sessions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuser_sessions.htm)
+
 ### abeninternal_session.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_session.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abeninternal_session.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abeninternal_session.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session.htm)
+
 
   
 

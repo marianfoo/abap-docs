@@ -10,8 +10,7 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 Obsolete System Fields
 
--   [Former System Fields](#@@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_1)
--   [Spool Parameters](#@@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2)
+-   [Former System Fields](#abensystem-fields-obsolete-1-------spool-parameters---@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2)
 
 Former System Fields   
 

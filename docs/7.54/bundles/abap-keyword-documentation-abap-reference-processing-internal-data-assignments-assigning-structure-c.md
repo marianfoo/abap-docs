@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencl_abap_corresponding.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding.htm)
+- [abencl_abap_corresponding_1.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding_1.htm)
+- [abencl_abap_corresponding_3.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding_3.htm)
+- [abencl_abap_corresponding_2.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding_2.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.963Z
+
+---
+
 ### abencl_abap_corresponding.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_corresponding.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +50,14 @@ Continue
 [CL\_ABAP\_CORRESPONDING - Lookup Table](javascript:call_link\('abencl_abap_corresponding_2.htm'\))
 
 
+
+**📖 Source**: [abencl_abap_corresponding.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding.htm)
+
 ### abencl_abap_corresponding_1.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_corresponding_1.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding_1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -157,7 +185,14 @@ Executable Examples
 -   [CL\_ABAP\_CORRESPONDING for Tabular Components](javascript:call_link\('abencl_abap_corr_deep_abexa.htm'\))
 
 
+
+**📖 Source**: [abencl_abap_corresponding_1.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding_1.htm)
+
 ### abencl_abap_corresponding_3.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_corresponding_3.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding_3.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -231,7 +266,17 @@ mapper->execute( EXPORTING source      = struct1
 cl\_demo\_output=>display( struct2 ).
 
 
+
+**📖 Source**: [abencl_abap_corresponding_3.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding_3.htm)
+
 ### abencl_abap_corresponding_2.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_corresponding_2.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding_2.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencl_abap_corresponding_2.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding_2.htm)
+
 
   
 

@@ -3,7 +3,31 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenadbc_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_abexas.htm)
+- [abenadbc_dml_ddl_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_dml_ddl_abexa.htm)
+- [abenadbc_dml_ddl_binding_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_dml_ddl_binding_abexa.htm)
+- [abenadbc_dml_ddl_bulk_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
+- [abenadbc_query_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_query_abexa.htm)
+- [abenadbc_procedure_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_procedure_abexa.htm)
+- [abenadbc_sql_prepared_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_sql_prepared_abexa.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.204Z
+
+---
+
 ### abenadbc_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenadbc_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24,7 +48,14 @@ Continue
 ![Example](exa.gif "Example") [ADBC, Prepared Statement](javascript:call_link\('abenadbc_sql_prepared_abexa.htm'\))
 
 
+
+**📖 Source**: [abenadbc_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_abexas.htm)
+
 ### abenadbc_dml_ddl_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_dml_ddl_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -144,7 +175,14 @@ This program makes it possible to create a database table whose name can be chos
 Any exceptions are handled. When rows are exported, quotation marks are escaped in the user input. This prevents [SQL injections](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenadbc_dml_ddl_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_dml_ddl_abexa.htm)
+
 ### abenadbc_dml_ddl_binding_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_binding_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_dml_ddl_binding_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -292,7 +330,14 @@ The program is identical to the executable example for [DDL and DML](javascript:
 The parameter binding removes the need to escape quotation marks in the user input for the key when reading data.
 
 
+
+**📖 Source**: [abenadbc_dml_ddl_binding_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_dml_ddl_binding_abexa.htm)
+
 ### abenadbc_dml_ddl_bulk_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_bulk_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -434,7 +479,14 @@ In all methods for DML statements, parameters are bound using an internal table.
 -   select reads the results set of a query across all rows of the database table to an internal table.
 
 
+
+**📖 Source**: [abenadbc_dml_ddl_bulk_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
+
 ### abenadbc_query_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenadbc_query_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_query_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -497,7 +549,14 @@ The method EXECUTE\_QUERY from the class CL\_SQL\_STATEMENT is used to extract t
 Quotation marks are escaped in the user input. This prevents [SQL injections](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenadbc_query_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_query_abexa.htm)
+
 ### abenadbc_procedure_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenadbc_procedure_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_procedure_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -616,7 +675,17 @@ This procedure must be implemented specially for each database. The databases in
 The executable example [AMDP, simple procedure call of an SQL Script procedure](javascript:call_link\('abenamdp_abexa.htm'\)) shows how the procedure can be managed and called as an [ABAP Managed Database Procedure](javascript:call_link\('abenamdp.htm'\)). A further [executable example](javascript:call_link\('abencall_db_procedure_abexa.htm'\)), specific to SAP HANA database, shows how the procedure is called using the statement [CALL DATABASE PROCEDURE](javascript:call_link\('abapcall_database_procedure.htm'\)).
 
 
+
+**📖 Source**: [abenadbc_procedure_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_procedure_abexa.htm)
+
 ### abenadbc_sql_prepared_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenadbc_sql_prepared_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_sql_prepared_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenadbc_sql_prepared_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_sql_prepared_abexa.htm)
+
 
   
 

@@ -10,13 +10,9 @@ Contexts - Buffering Concept
 
 A context buffer is managed by the context program CONTEXT\_X\_... of a [context](javascript:call_link\('abencontext_glosry.htm'\) "Glossary Entry"). From a technical point of view, it is a [cross-transaction application buffer](javascript:call_link\('abencrosstrans_app_buffer_glosry.htm'\) "Glossary Entry") of structure CONTEXTB and of ID IB in the [shared memory](javascript:call_link\('abenshared_memory_glosry.htm'\) "Glossary Entry") of the current [AS instance](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry"), which is processed in the context program with statements [EXPORT TO SHARED BUFFER](javascript:call_link\('abapexport_data_cluster_medium.htm'\)) and [IMPORT FROM SHARED BUFFER](javascript:call_link\('abapimport_medium.htm'\)). The context program renews the context buffer at specific times, but does not try to synchronously or nearly synchronously track current changes.
 
--   [Buffering Types](#@@ITOC@@ABENCONTEXT_BUFFER_1)
+-   [Buffering Types](#abencontext-buffer-1--------buffer-size---@ITOC@@ABENCONTEXT_BUFFER_2)
 
--   [Buffer Size](#@@ITOC@@ABENCONTEXT_BUFFER_2)
-
--   [Buffering Types](#@@ITOC@@ABENCONTEXT_BUFFER_3)
-
--   [Performance](#@@ITOC@@ABENCONTEXT_BUFFER_4)
+-   [Buffering Types](#abencontext-buffer-3--------performance---@ITOC@@ABENCONTEXT_BUFFER_4)
 
 Buffering Types
 

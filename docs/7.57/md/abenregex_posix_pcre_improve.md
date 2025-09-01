@@ -15,16 +15,11 @@ While topic [Incompatibilities between POSIX and PCRE](javascript:call_link\('ab
 
 An introduction to some of these features is provided in the following, the list is however far from complete.
 
--   [Making Use of New Features for Patterns](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_1)
-    -   [Lazy Quantifiers](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_2)
-    -   [Look-behind Assertions](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_3)
-    -   [Multiline Mode](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_4)
-    -   [Named Capture Groups](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_5)
-    -   [Subroutine Calls and Recursion](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_6)
-    -   [Callouts](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_7)
--   [Making Use of New Features for Replacements](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_8)
-    -   [Conditional Substitution](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_9)
-    -   [Case Conversion](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_10)
+-   [Making Use of New Features for Patterns](#abenregex-posix-pcre-improve-1-----------lazy-quantifiers---@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_2)
+    -   [Look-behind Assertions](#abenregex-posix-pcre-improve-3-----------multiline-mode---@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_4)
+    -   [Named Capture Groups](#abenregex-posix-pcre-improve-5-----------subroutine-calls-and-recursion---@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_6)
+    -   [Callouts](#abenregex-posix-pcre-improve-7-------making-use-of-new-features-for-replacements---@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_8)
+    -   [Conditional Substitution](#abenregex-posix-pcre-improve-9-----------case-conversion---@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_10)
 
 Making Use of New Features for Patterns   
 

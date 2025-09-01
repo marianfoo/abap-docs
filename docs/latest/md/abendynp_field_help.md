@@ -15,8 +15,7 @@ In the event blocks at [POH](javascript:call_link\('abenpoh_glosry.htm'\) "Gloss
 
 If the statement FIELD is specified more than once for the same [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry"), only the first statement is executed. If the event blocks at POH and POV are not implemented, field or input help fields are displayed that are defined in the system or in the ABAP Dictionary. If no help is defined, this is displayed in a message in the task bar.
 
--   [Calling a Dialog Module](#@@ITOC@@ABENDYNP_FIELD_HELP_1)
--   [Calling the Data Element Supplementary Documentation](#@@ITOC@@ABENDYNP_FIELD_HELP_2)
+-   [Calling a Dialog Module](#abendynp-field-help-1-------calling-the-data-element-supplementary-documentation---@ITOC@@ABENDYNP_FIELD_HELP_2)
 
 Hint
 

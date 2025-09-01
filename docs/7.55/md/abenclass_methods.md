@@ -10,21 +10,13 @@ ABAP Objects - Methods of Classes
 
 Methods are internal [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") of a class that determine the behavior of an object. They can access all attributes of all instances of their class and can therefore change the status of an object. Methods have a parameter interface that is used to supply values to them when they are called, and which can be used to return values to the caller. The private attributes of a class can only be changed using methods of the same class.
 
--   [Definition](#@@ITOC@@ABENCLASS_METHODS_1)
+-   [Definition](#abenclass-methods-1--------instance-methods---@ITOC@@ABENCLASS_METHODS_2)
 
--   [Instance Methods](#@@ITOC@@ABENCLASS_METHODS_2)
+-   [Static Methods](#abenclass-methods-3--------constructors---@ITOC@@ABENCLASS_METHODS_4)
 
--   [Static Methods](#@@ITOC@@ABENCLASS_METHODS_3)
+-   [Functional Methods](#abenclass-methods-5--------optional-methods---@ITOC@@ABENCLASS_METHODS_6)
 
--   [Constructors](#@@ITOC@@ABENCLASS_METHODS_4)
-
--   [Functional Methods](#@@ITOC@@ABENCLASS_METHODS_5)
-
--   [Optional Methods](#@@ITOC@@ABENCLASS_METHODS_6)
-
--   [Special Methods](#@@ITOC@@ABENCLASS_METHODS_7)
-
--   [AMDP Methods](#@@ITOC@@ABENCLASS_METHODS_8)
+-   [Special Methods](#abenclass-methods-7--------amdp-methods---@ITOC@@ABENCLASS_METHODS_8)
 
 -   [Kernel Methods](#@@ITOC@@ABENCLASS_METHODS_9)
 

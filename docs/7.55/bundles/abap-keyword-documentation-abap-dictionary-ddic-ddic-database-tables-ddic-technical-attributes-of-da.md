@@ -3,7 +3,34 @@
 Included pages: 11
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_database_tables_tech.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_tech.htm)
+- [abenddic_database_tables_techstruc.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_techstruc.htm)
+- [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_techspec.htm)
+- [abenddic_database_tables_tab_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_tab_type.htm)
+- [abenddic_database_tables_dat_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_dat_type.htm)
+- [abenddic_database_tables_siz_cat.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_siz_cat.htm)
+- [abenddic_database_tables_buffer.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_buffer.htm)
+- [abenddic_database_tables_protocol.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_protocol.htm)
+- [abenddic_database_tables_storage.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_storage.htm)
+- [abenddic_database_tables_act_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_act_type.htm)
+
+**Bundle Contains**: 10 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.665Z
+
+---
+
 ### abenddic_database_tables_tech.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_tech.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_tech.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26,7 +53,14 @@ Continue
 [DDIC - Table-Specific Technical Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_techspec.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_tech.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_tech.htm)
+
 ### abenddic_database_tables_techstruc.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_techstruc.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_techstruc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -93,7 +127,14 @@ Hints
 -   The limit on the number of fields and the length of the structure for tables in the software component SAP\_BASIS is chosen deliberately so that the requirements of any supported database platform can be met. At SAP, tables can be flagged to allow this restriction to be exceeded if enhancements are used. When tables flagged in this way are accessed using ABAP SQL, a syntax warning from the [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry") occurs. The warning indicates that a cross-platform replacement implementation may be necessary. The class [CL\_ABAP\_DBFEATURES](javascript:call_link\('abencl_abap_dbfeatures.htm'\)) can be used to identify which limit is supported by a particular database system. The limits applied to tables in other software components for S/4HANA is only defined by the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenddic_database_tables_techstruc.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_techstruc.htm)
+
 ### abenddic_database_tables_techspec.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_techspec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -135,7 +176,14 @@ Continue
 [DDIC - Activation Type of Database Tables](javascript:call_link\('abenddic_database_tables_act_type.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_techspec.htm)
+
 ### abenddic_database_tables_tab_type.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_tab_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_tab_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -162,7 +210,14 @@ Hint
 The ABAP Dictionary [tool](javascript:call_link\('abenddic_tools.htm'\)) makes it possible to transform DDIC database tables from one category to another. To create a different table category as a transparent table, a transparent table must be created first and then transformed into a different table category. In [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry"), the table category is defined using the annotation [@AbapCatalog.tableCategory](javascript:call_link\('abenddicddl_define_table_props.htm'\)).
 
 
+
+**📖 Source**: [abenddic_database_tables_tab_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_tab_type.htm)
+
 ### abenddic_database_tables_dat_type.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_dat_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_dat_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -196,7 +251,14 @@ DDIC database tables for customer developments in a separate tablespace.
 There are also other data classes for system tables used internally by the runtime environment, such as SDIC for ABAP Dictionary tables.
 
 
+
+**📖 Source**: [abenddic_database_tables_dat_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_dat_type.htm)
+
 ### abenddic_database_tables_siz_cat.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_siz_cat.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_siz_cat.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -265,7 +327,14 @@ Expected Rows
 14,000,000 to 590,000,000
 
 
+
+**📖 Source**: [abenddic_database_tables_siz_cat.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_siz_cat.htm)
+
 ### abenddic_database_tables_buffer.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_buffer.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_buffer.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -314,7 +383,14 @@ The buffering type determines which data is loaded from the table to the table b
 -   [Full buffering](javascript:call_link\('abenbuffer_complete_buffering.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_buffer.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_buffer.htm)
+
 ### abenddic_database_tables_protocol.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_protocol.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_protocol.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -353,7 +429,14 @@ Hints
 -   The documented method IS\_LOGGING\_ON of the system class CL\_DBI\_UTILITIES can be used to verify whether logging is currently switched on for a DDIC database table.
 
 
+
+**📖 Source**: [abenddic_database_tables_protocol.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_protocol.htm)
+
 ### abenddic_database_tables_storage.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_storage.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_storage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -388,7 +471,14 @@ Hint
 More information about the differences between row store and column store on the SAP HANA database can be found in the SAP HANA documentation.
 
 
+
+**📖 Source**: [abenddic_database_tables_storage.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_storage.htm)
+
 ### abenddic_database_tables_act_type.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_act_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_act_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -418,7 +508,17 @@ The default setting in which a DDIC database table can be activated interactivel
     The DDIC database table is required before other objects are modified as part of a transport.
 
 
+
+**📖 Source**: [abenddic_database_tables_act_type.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_act_type.htm)
+
 ### abenddic_database_tables_techspec.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_techspec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_techspec.htm)
+
 
   
 

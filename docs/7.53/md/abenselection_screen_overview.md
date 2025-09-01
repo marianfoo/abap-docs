@@ -8,13 +8,9 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Selection Screens - Overview
 
--   [Selection Screens as Dynpros](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_1)
+-   [Selection Screens as Dynpros](#abenselection-screen-overview-1--------selection-screen-tasks---@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_2)
 
--   [Selection Screen Tasks](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_2)
-
--   [GUI Status of Selection Screens](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_3)
-
--   [Selection Screen Events](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_4)
+-   [GUI Status of Selection Screens](#abenselection-screen-overview-3--------selection-screen-events---@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_4)
 
 -   [Selection Screens and Logical Databases](#@@ITOC@@ABENSELECTION_SCREEN_OVERVIEW_5)
 

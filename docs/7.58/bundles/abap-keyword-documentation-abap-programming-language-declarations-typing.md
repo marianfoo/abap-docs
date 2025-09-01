@@ -3,7 +3,38 @@
 Included pages: 12
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abentyping.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping.htm)
+- [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_syntax.htm)
+- [abentyping_generic.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_generic.htm)
+- [abentyping_complete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_complete.htm)
+- [abentyping_check.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_check.htm)
+- [abentyping_check_general.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_check_general.htm)
+- [abentyping_return_values.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_return_values.htm)
+- [abentyping_literals.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_literals.htm)
+- [abentyping_arith_expr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_arith_expr.htm)
+- [abentyping_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_abexa.htm)
+
+**Bundle Contains**: 10 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.957Z
+
+---
+
 ### abentyping.htm
+
+> **📖 Official SAP Documentation**: [abentyping.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentyping.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57,7 +88,18 @@ Continue
 ![Example](exa.gif "Example") [Generic Typing and Complete Typing](javascript:call_link\('abentyping_abexa.htm'\))
 
 
+
+**📖 Source**: [abentyping.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping.htm)
+
 ### abentyping_syntax.htm
+
+> **📖 Official SAP Documentation**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -99,7 +141,18 @@ Continue
 [typing Addition, complete\_type](javascript:call_link\('abentyping_complete.htm'\))
 
 
+
+**📖 Source**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_syntax.htm)
+
 ### abentyping_generic.htm
+
+> **📖 Official SAP Documentation**: [abentyping_generic.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_generic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentyping_generic.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_generic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -166,7 +219,18 @@ READ TABLE <index\_table> INDEX 1
                          INTO <any\_object>.
 
 
+
+**📖 Source**: [abentyping_generic.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_generic.htm)
+
 ### abentyping_complete.htm
+
+> **📖 Official SAP Documentation**: [abentyping_complete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_complete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentyping_complete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_complete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -222,7 +286,18 @@ FIELD-SYMBOLS <spfli> TYPE spfli.
 <spfli>-carrid = ...
 
 
+
+**📖 Source**: [abentyping_complete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_complete.htm)
+
 ### abentyping_syntax.htm
+
+> **📖 Official SAP Documentation**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -264,7 +339,18 @@ Continue
 [typing Addition, complete\_type](javascript:call_link\('abentyping_complete.htm'\))
 
 
+
+**📖 Source**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_syntax.htm)
+
 ### abentyping_check.htm
+
+> **📖 Official SAP Documentation**: [abentyping_check.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_check.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentyping_check.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_check.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -299,7 +385,18 @@ Continue
 [Functions and Expressions as Actual Parameters](javascript:call_link\('abentyping_arith_expr.htm'\))
 
 
+
+**📖 Source**: [abentyping_check.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_check.htm)
+
 ### abentyping_check_general.htm
+
+> **📖 Official SAP Documentation**: [abentyping_check_general.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_check_general.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentyping_check_general.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_check_general.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -342,7 +439,18 @@ Hints
 -   In addition in the case of formal parameters of externally called subroutines, the typing is only checked at the time of the assignment. In the case of formal parameters of internally called subroutines, the check is performed by the [syntax check](javascript:call_link\('abensyntax_check_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abentyping_check_general.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_check_general.htm)
+
 ### abentyping_return_values.htm
+
+> **📖 Official SAP Documentation**: [abentyping_return_values.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_return_values.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentyping_return_values.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_return_values.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -377,7 +485,18 @@ Hints
 -   The special rule that a generic formal parameter of type p gets the length of 16 when a functional method is passed does not apply to the other generic types any, data, simple, or numeric.
 
 
+
+**📖 Source**: [abentyping_return_values.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_return_values.htm)
+
 ### abentyping_literals.htm
+
+> **📖 Official SAP Documentation**: [abentyping_literals.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_literals.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentyping_literals.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_literals.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -505,7 +624,18 @@ Hint
 The requirements in the table above do not completely exclude numeric literals from being passed to actual parameters that do not match their value range. An exception is raised in this case.
 
 
+
+**📖 Source**: [abentyping_literals.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_literals.htm)
+
 ### abentyping_arith_expr.htm
+
+> **📖 Official SAP Documentation**: [abentyping_arith_expr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_arith_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentyping_arith_expr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_arith_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -559,7 +689,21 @@ Continue
 [Functions and Expressions as Actual Parameters](javascript:call_link\('abentyping_arith_expr.htm'\))
 
 
+
+**📖 Source**: [abentyping_arith_expr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_arith_expr.htm)
+
 ### abentyping_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentyping_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentyping_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abentyping_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_abexa.htm)
+
 
   
 

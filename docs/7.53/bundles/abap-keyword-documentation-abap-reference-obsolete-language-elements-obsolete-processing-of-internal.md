@@ -3,7 +3,38 @@
 Included pages: 17
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_extracts_extended.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_extracts_extended.htm)
+- [abapfield-groups.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfield-groups.htm)
+- [abapinsert_fg.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_fg.htm)
+- [abapextract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapextract.htm)
+- [abapsort_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
+- [abapsort_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_key.htm)
+- [abaploop-.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop-.htm)
+- [abapat_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
+- [abapcnt.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcnt.htm)
+- [abapsum_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsum_extract.htm)
+- [abenextract_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm)
+- [abenextract_at_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm)
+- [abenextract_group_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_group_abexa.htm)
+- [abenextract_sum_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_sum_abexa.htm)
+
+**Bundle Contains**: 14 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.197Z
+
+---
+
 ### abenabap_extracts_extended.htm
+
+> **📖 Official SAP Documentation**: [abenabap_extracts_extended.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_extracts_extended.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47,7 +78,14 @@ Continue
 [Examples of Extracts](javascript:call_link\('abenextract_abexas.htm'\))
 
 
+
+**📖 Source**: [abenabap_extracts_extended.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_extracts_extended.htm)
+
 ### abapfield-groups.htm
+
+> **📖 Official SAP Documentation**: [abapfield-groups.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfield-groups.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -85,7 +123,14 @@ Example
 See [INSERT](javascript:call_link\('abapinsert_fg.htm'\)).
 
 
+
+**📖 Source**: [abapfield-groups.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfield-groups.htm)
+
 ### abapinsert_fg.htm
+
+> **📖 Official SAP Documentation**: [abapinsert_fg.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_fg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -145,7 +190,14 @@ Non-Handleable Exceptions
     Runtime error: INSERT\_INTO\_LOCKED\_FIELD\_GROUP
 
 
+
+**📖 Source**: [abapinsert_fg.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_fg.htm)
+
 ### abapextract.htm
+
+> **📖 Official SAP Documentation**: [abapextract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapextract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -247,7 +299,14 @@ Non-Handleable Exceptions
     Runtime error: EXTRACT\_TOO\_LARGE
 
 
+
+**📖 Source**: [abapextract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapextract.htm)
+
 ### abapsort_extract.htm
+
+> **📖 Official SAP Documentation**: [abapsort_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -351,7 +410,14 @@ Continue
 [SORT - sort\_key](javascript:call_link\('abapsort_key.htm'\))
 
 
+
+**📖 Source**: [abapsort_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
+
 ### abapsort_key.htm
+
+> **📖 Official SAP Documentation**: [abapsort_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -399,7 +465,14 @@ Addition 2
 Without the addition AS TEXT after a text-like component field1 field2 ..., the default is applied. If the addition AS TEXT is specified after a text-like component, it overwrites the default for this component. In the case of non-text-like components, AS TEXT cannot be specified. If AS TEXT is specified after a field group, the addition is only applied to the text-like components of this group.
 
 
+
+**📖 Source**: [abapsort_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_key.htm)
+
 ### abapsort_extract.htm
+
+> **📖 Official SAP Documentation**: [abapsort_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -503,7 +576,14 @@ Continue
 [SORT - sort\_key](javascript:call_link\('abapsort_key.htm'\))
 
 
+
+**📖 Source**: [abapsort_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
+
 ### abaploop-.htm
+
+> **📖 Official SAP Documentation**: [abaploop-.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop-.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -564,7 +644,14 @@ Non-Handleable Exceptions
     Runtime error: LOOP\_WITHIN\_LOOP
 
 
+
+**📖 Source**: [abaploop-.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop-.htm)
+
 ### abapat_extract.htm
+
+> **📖 Official SAP Documentation**: [abapat_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -672,7 +759,14 @@ Continue
 [sum( )](javascript:call_link\('abapsum_extract.htm'\))
 
 
+
+**📖 Source**: [abapat_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
+
 ### abapcnt.htm
+
+> **📖 Official SAP Documentation**: [abapcnt.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcnt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -703,7 +797,14 @@ Notes
 -   No [customizing include](javascript:call_link\('abencustomizing_include_glosry.htm'\) "Glossary Entry") may be specified for field if it is empty.
 
 
+
+**📖 Source**: [abapcnt.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcnt.htm)
+
 ### abapsum_extract.htm
+
+> **📖 Official SAP Documentation**: [abapsum_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsum_extract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -732,7 +833,14 @@ Notes
 -   No [customizing include](javascript:call_link\('abencustomizing_include_glosry.htm'\) "Glossary Entry") may be specified for field if it is empty.
 
 
+
+**📖 Source**: [abapsum_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsum_extract.htm)
+
 ### abapat_extract.htm
+
+> **📖 Official SAP Documentation**: [abapat_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -840,7 +948,14 @@ Continue
 [sum( )](javascript:call_link\('abapsum_extract.htm'\))
 
 
+
+**📖 Source**: [abapat_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
+
 ### abenextract_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenextract_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -858,7 +973,14 @@ Continue
 ![Example](exa.gif "Example") [Extracts, Determining Numbers and Totals](javascript:call_link\('abenextract_sum_abexa.htm'\))
 
 
+
+**📖 Source**: [abenextract_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm)
+
 ### abenextract_at_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenextract_at_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -937,7 +1059,14 @@ Description
 This example continues the example given under [EXTRACT](javascript:call_link\('abapextract.htm'\)). After the extract dataset is filled, it is sorted by field group header and, afterwards, control level processing is executed in a LOOP. Here, structured output is created.
 
 
+
+**📖 Source**: [abenextract_at_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm)
+
 ### abenextract_group_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenextract_group_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_group_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1008,7 +1137,14 @@ Description
 An example extract is created that contains only the fields from the field group header and is sorted by these fields. The content of the data set and the resulting group level change are produced in the LOOP.
 
 
+
+**📖 Source**: [abenextract_group_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_group_abexa.htm)
+
 ### abenextract_sum_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenextract_sum_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_sum_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1074,7 +1210,17 @@ Description
 An example extract is created that contains only fields from the field group header. After being sorted, the contents of the data set, plus the numbers from the different fields t1 and the sums of the fields t2, are produced at the end of every control level and at the end of the loop.
 
 
+
+**📖 Source**: [abenextract_sum_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_sum_abexa.htm)
+
 ### abenextract_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenextract_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenextract_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm)
+
 
   
 

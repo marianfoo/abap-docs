@@ -3,7 +3,30 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenlocal_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_obsolete.htm)
+- [abaplocal.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplocal.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.965Z
+
+---
+
 ### abenlocal_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenlocal_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenlocal_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23,7 +46,21 @@ Continue
 [LOCAL](javascript:call_link\('abaplocal.htm'\))
 
 
+
+**📖 Source**: [abenlocal_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_obsolete.htm)
+
 ### abaplocal.htm
+
+> **📖 Official SAP Documentation**: [abaplocal.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplocal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abaplocal.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplocal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abaplocal.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplocal.htm)
+
 
   
 

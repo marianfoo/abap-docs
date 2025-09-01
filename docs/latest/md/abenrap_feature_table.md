@@ -12,8 +12,7 @@ RAP BDL - Feature Tables
 
 The following sections shows all available language elements of the [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") and their release dates. For further information on the release dates, see [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)).
 
--   [BDL](#@@ITOC@@ABENRAP_FEATURE_TABLE_1)
-    -   [RAP Behavior Definitions](#@@ITOC@@ABENRAP_FEATURE_TABLE_2)
+-   [BDL](#abenrap-feature-table-1-----------rap-behavior-definitions---@ITOC@@ABENRAP_FEATURE_TABLE_2)
     -   [BDEF Extensions](#@@ITOC@@ABENRAP_FEATURE_TABLE_3)
 
 BDL   

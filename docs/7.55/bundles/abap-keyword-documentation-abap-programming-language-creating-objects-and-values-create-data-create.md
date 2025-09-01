@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_data_area_handle.htm)
+- [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencreate_shared_data_objct_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.727Z
+
+---
+
 ### abapcreate_data_area_handle.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_data_area_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -124,7 +143,17 @@ Continue
 ![Example](exa.gif "Example") [Creating a Data Object as a Shared Object](javascript:call_link\('abencreate_shared_data_objct_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_data_area_handle.htm)
+
 ### abencreate_shared_data_objct_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencreate_shared_data_objct_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencreate_shared_data_objct_abexa.htm)
+
 
   
 

@@ -3,7 +3,34 @@
 Included pages: 10
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenerror_handling_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenerror_handling_guidl.htm)
+- [abenreaction_error_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreaction_error_guidl.htm)
+- [abenclass_exception_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_exception_guidl.htm)
+- [abenexception_category_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_category_guidl.htm)
+- [abenexception_texts_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_texts_guidl.htm)
+- [abenuse_exception_class_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_exception_class_guidl.htm)
+- [abenhandl_prop_except_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhandl_prop_except_guidl.htm)
+- [abencleanup_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencleanup_guidl.htm)
+- [abenassertions_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassertions_guidl.htm)
+- [abenmessages_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessages_guidl.htm)
+
+**Bundle Contains**: 10 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.159Z
+
+---
+
 ### abenerror_handling_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenerror_handling_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenerror_handling_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53,7 +80,14 @@ Continue
 [Messages](javascript:call_link\('abenmessages_guidl.htm'\))
 
 
+
+**📖 Source**: [abenerror_handling_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenerror_handling_guidl.htm)
+
 ### abenreaction_error_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenreaction_error_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreaction_error_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -110,7 +144,14 @@ The statement MESSAGE is not only used to display dialog messages in a classic d
 For contemporary programming that takes the [separation of concerns](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline") (SoC) into account, the question of whether a message is to be sent to the user in the event of an error can usually only be answered in a higher software layer. The layer in which such an error situation occurs must therefore react with an exception initially, which in turn represents a new situation for a higher layer, to which it can react with a dialog message or any other error message.
 
 
+
+**📖 Source**: [abenreaction_error_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreaction_error_guidl.htm)
+
 ### abenclass_exception_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenclass_exception_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_exception_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -223,7 +264,14 @@ ENDTRY.
 This simple example is perhaps not the most obvious demonstration of the great advantage of class-based exceptions over classic exceptions. However, the advantage is clearly seen in nested procedure calls and the handling of exceptions that were raised in more distant call levels.
 
 
+
+**📖 Source**: [abenclass_exception_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_exception_guidl.htm)
+
 ### abenexception_category_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenexception_category_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_category_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -275,7 +323,14 @@ Note
 The resumability of a class-based exception is not an attribute of the exception class; it is defined instead by the RESUMABLE addition of the RAISE EXCEPTION statement when the exception is raised. This attribute can be lost for exceptions of the categories CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK during propagation, if the exceptions are not also declared there using RESUMABLE. CX\_NO\_CHECK always preserves its resumability implicitly.
 
 
+
+**📖 Source**: [abenexception_category_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_category_guidl.htm)
+
 ### abenexception_texts_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenexception_texts_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_texts_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -340,7 +395,14 @@ RAISE EXCEPTION TYPE cx\_system\_exception
 ...
 
 
+
+**📖 Source**: [abenexception_texts_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_texts_guidl.htm)
+
 ### abenuse_exception_class_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenuse_exception_class_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_exception_class_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -413,7 +475,14 @@ CLASS warehouse IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abenuse_exception_class_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_exception_class_guidl.htm)
+
 ### abenhandl_prop_except_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenhandl_prop_except_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhandl_prop_except_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -454,7 +523,14 @@ Note
 Forwarding the exceptions to higher software layers usually results in a generalization of previously very special exceptions. The more general an exception is, the higher the software layer usually is in which it is handled. In particular, the most general of all possible exceptions (in other words, the exceptions of type CX\_STATIC\_CHECK, CX\_DYNAMIC\_ CHECK, CX\_NO\_CHECK, or CX\_ROOT) should only be caught at the highest software layers and only if a runtime error must be avoided at all costs.
 
 
+
+**📖 Source**: [abenhandl_prop_except_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhandl_prop_except_guidl.htm)
+
 ### abencleanup_guidl.htm
+
+> **📖 Official SAP Documentation**: [abencleanup_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencleanup_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -511,7 +587,14 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abencleanup_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencleanup_guidl.htm)
+
 ### abenassertions_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenassertions_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassertions_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -565,7 +648,17 @@ ASSERT sy-subrc = 0.
 ...
 
 
+
+**📖 Source**: [abenassertions_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassertions_guidl.htm)
+
 ### abenmessages_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenmessages_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessages_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenmessages_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessages_guidl.htm)
+
 
   
 

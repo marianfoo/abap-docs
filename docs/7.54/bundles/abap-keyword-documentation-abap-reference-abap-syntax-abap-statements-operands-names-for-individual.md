@@ -3,7 +3,31 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenoperands_names.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_names.htm)
+- [abenstructure_component_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_component_selector.htm)
+- [abenobject_component_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_component_selector.htm)
+- [abenclass_component_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_component_selector.htm)
+- [abeninterface_component_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterface_component_selector.htm)
+- [abendereferencing_operator.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendereferencing_operator.htm)
+- [abencomponent_chaining_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponent_chaining_selector.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.932Z
+
+---
+
 ### abenoperands_names.htm
+
+> **📖 Official SAP Documentation**: [abenoperands_names.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_names.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60,7 +84,14 @@ Continue
 [Chainings](javascript:call_link\('abencomponent_chaining_selector.htm'\))
 
 
+
+**📖 Source**: [abenoperands_names.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_names.htm)
+
 ### abenstructure_component_selector.htm
+
+> **📖 Official SAP Documentation**: [abenstructure_component_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_component_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -95,7 +126,14 @@ DATA struc TYPE spfli.
 ... struc-carrid ...
 
 
+
+**📖 Source**: [abenstructure_component_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_component_selector.htm)
+
 ### abenobject_component_selector.htm
+
+> **📖 Official SAP Documentation**: [abenobject_component_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_component_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -154,7 +192,14 @@ DATA dref TYPE REF TO sflight.
 ... dref->carrid ...
 
 
+
+**📖 Source**: [abenobject_component_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_component_selector.htm)
+
 ### abenclass_component_selector.htm
+
+> **📖 Official SAP Documentation**: [abenclass_component_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_component_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -205,7 +250,14 @@ CLASS factory IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abenclass_component_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_component_selector.htm)
+
 ### abeninterface_component_selector.htm
+
+> **📖 Official SAP Documentation**: [abeninterface_component_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterface_component_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -259,7 +311,14 @@ CLASS c1 IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abeninterface_component_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterface_component_selector.htm)
+
 ### abendereferencing_operator.htm
+
+> **📖 Official SAP Documentation**: [abendereferencing_operator.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendereferencing_operator.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -299,7 +358,17 @@ cl\_demo\_output=>write( |sy-subrc { sy-subrc }| ).
 cl\_demo\_output=>display( ).
 
 
+
+**📖 Source**: [abendereferencing_operator.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendereferencing_operator.htm)
+
 ### abencomponent_chaining_selector.htm
+
+> **📖 Official SAP Documentation**: [abencomponent_chaining_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponent_chaining_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencomponent_chaining_selector.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponent_chaining_selector.htm)
+
 
   
 

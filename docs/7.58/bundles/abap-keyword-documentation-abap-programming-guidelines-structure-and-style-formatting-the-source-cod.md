@@ -3,7 +3,33 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenformatting_code_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenformatting_code_gdl.htm)
+- [abenlower_upper_case_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlower_upper_case_guidl.htm)
+- [abenstatement_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatement_guidl.htm)
+- [abenuse_pretty_printer_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_pretty_printer_guidl.htm)
+- [abenline_width_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenline_width_guidl.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.932Z
+
+---
+
 ### abenformatting_code_gdl.htm
+
+> **📖 Official SAP Documentation**: [abenformatting_code_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenformatting_code_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenformatting_code_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenformatting_code_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +57,18 @@ Continue
 [Line Width](javascript:call_link\('abenline_width_guidl.htm'\))
 
 
+
+**📖 Source**: [abenformatting_code_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenformatting_code_gdl.htm)
+
 ### abenlower_upper_case_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenlower_upper_case_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlower_upper_case_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenlower_upper_case_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlower_upper_case_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -79,7 +116,18 @@ The lower part of the source code shows the declaration of a class in ABAP style
 Once the program has been called, the example is formatted according to the proposed Pretty Printer [setting](javascript:call_link\('abenuse_pretty_printer_guidl.htm'\) "Guideline"), with ABAP words in uppercase and operands in lowercase. Regardless of its configuration, the separation of the words in the names would be preserved after each execution of Pretty Printer.
 
 
+
+**📖 Source**: [abenlower_upper_case_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlower_upper_case_guidl.htm)
+
 ### abenstatement_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenstatement_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatement_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenstatement_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatement_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -152,7 +200,18 @@ CLASS class IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abenstatement_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatement_guidl.htm)
+
 ### abenuse_pretty_printer_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenuse_pretty_printer_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_pretty_printer_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenuse_pretty_printer_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_pretty_printer_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -242,7 +301,21 @@ endmethod.
 endclass.
 
 
+
+**📖 Source**: [abenuse_pretty_printer_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_pretty_printer_guidl.htm)
+
 ### abenline_width_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenline_width_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenline_width_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenline_width_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenline_width_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenline_width_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenline_width_guidl.htm)
+
 
   
 

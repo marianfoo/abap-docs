@@ -13,8 +13,7 @@ table\_exp - Chainings
 
 [Table expressions](javascript:call_link\('abentable_expressions.htm'\)) can be chained with the structure component selector \-, with other table expressions, and with the object component selector \->.
 
--   [Chainings with the Structure Component Selector](#@@ITOC@@ABENTABLE_EXP_CHAINING_1)
--   [Chainings with Table Expressions](#@@ITOC@@ABENTABLE_EXP_CHAINING_2)
+-   [Chainings with the Structure Component Selector](#abentable-exp-chaining-1-------chainings-with-table-expressions---@ITOC@@ABENTABLE_EXP_CHAINING_2)
 -   [Chainings with the Object Component Selector](#@@ITOC@@ABENTABLE_EXP_CHAINING_3)
 
 If the constructor operator VALUE or REF is specified before a chaining to [control the result](javascript:call_link\('abentable_exp_result.htm'\)), only the final result is affected. Any intermediate results are always temporary field symbols and the corresponding performance notes should be considered.

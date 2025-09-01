@@ -7,6 +7,21 @@
 ---
 
 
+
+## 🔗 Complete Source Documentation
+
+**📖 Official Documentation**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+**🏷️ Category**: TYPES
+**🔍 Search Specific Topics**: Use `abap_search query:"types"` for focused results
+**📄 Individual Pages**: All source URLs included in each section below
+
+### 🎯 Quick Navigation
+- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
+- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
+- **Browse by difficulty**: Look for **Difficulty** markers in each section
+
+---
+
 ## ABAP Keyword Documentation / ABAP − Reference / Program Flow Logic / Expressions and Functions for Conditions / log_exp - Logical Expressions / rel_exp - Comparison Expressions / rel_exp - Comparison Rules / rel_exp - Comparing Elementary Data Types / rel_exp - Comparison Type of Calculation Expressions
 
 **Files**: 4 | **Difficulty**: intermediate
@@ -17,6 +32,10 @@ Included pages: 2
 
 
 ### abenlogic_functions.htm
+
+> **📖 Official SAP Documentation**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogic_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42,7 +61,14 @@ Continue
 [boolc, boolx, xsdbool - Boolean Functions](javascript:call_link\('abenboole_functions.htm'\))
 
 
+
+**📖 Source**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogic_functions.htm)
+
 ### abenboole_functions.htm
+
+> **📖 Official SAP Documentation**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenboole_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -196,7 +222,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenboole_functions.htm)
+
 ### abentime_stamps_packed.htm
+
+> **📖 Official SAP Documentation**: [abentime_stamps_packed.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamps_packed.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -348,7 +381,14 @@ Continue
 ![Example](exa.gif "Example") [Convert Time Stamps in Packed Numbers](javascript:call_link\('abenconvert_time_stamp_abexa.htm'\))
 
 
+
+**📖 Source**: [abentime_stamps_packed.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamps_packed.htm)
+
 ### abapget_time-stamp.htm
+
+> **📖 Official SAP Documentation**: [abapget_time-stamp.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_time-stamp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -406,7 +446,14 @@ Non-Handleable Exceptions
     Runtime error: GET\_TIMESTAMP\_FORMAT
 
 
+
+**📖 Source**: [abapget_time-stamp.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_time-stamp.htm)
+
 ### abapconvert_time-stamp.htm
+
+> **📖 Official SAP Documentation**: [abapconvert_time-stamp.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_time-stamp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -531,7 +578,14 @@ Non-Handleable Exceptions
     Runtime error: CONVERT\_TSTMP\_INCONSISTENT\_TAB
 
 
+
+**📖 Source**: [abapconvert_time-stamp.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_time-stamp.htm)
+
 ### abapconvert_date_time-stamp.htm
+
+> **📖 Official SAP Documentation**: [abapconvert_date_time-stamp.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_time-stamp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -650,7 +704,14 @@ Non-Handleable Exceptions
     Runtime error: CONVERT\_TSTMP\_INCONSISTENT\_TAB
 
 
+
+**📖 Source**: [abapconvert_date_time-stamp.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_time-stamp.htm)
+
 ### abencl_abap_tstmp.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_tstmp.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_tstmp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -699,7 +760,14 @@ cl\_demo\_output=>display(
      cl\_abap\_tstmp=>utclong2tstmp\_short( ts ) TIMESTAMP = ISO }| ).
 
 
+
+**📖 Source**: [abencl_abap_tstmp.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_tstmp.htm)
+
 ### abenconvert_time_stamp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenconvert_time_stamp_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconvert_time_stamp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -970,7 +1038,14 @@ The third and fifth rows demonstrate that invalid summer time data produces the 
 Included pages: 6
 
 
+
+**📖 Source**: [abenconvert_time_stamp_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconvert_time_stamp_abexa.htm)
+
 ### abenrpm_derived_types.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_derived_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_derived_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -996,7 +1071,14 @@ Continue
 [Component of the Derived Types](javascript:call_link\('abencomponents_derived_types.htm'\))
 
 
+
+**📖 Source**: [abenrpm_derived_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_derived_types.htm)
+
 ### abenrpm_input_parameters.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_input_parameters.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_input_parameters.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1045,7 +1127,14 @@ CLASS lcl\_handler DEFINITION
 ENDCLASS.
 
 
+
+**📖 Source**: [abenrpm_input_parameters.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_input_parameters.htm)
+
 ### abenrpm_export_parameters.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_export_parameters.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_export_parameters.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1121,7 +1210,14 @@ CLASS lcl\_handler DEFINITION
 ENDCLASS.
 
 
+
+**📖 Source**: [abenrpm_export_parameters.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_export_parameters.htm)
+
 ### abenspecific_derived_types.htm
+
+> **📖 Official SAP Documentation**: [abenspecific_derived_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenspecific_derived_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1164,7 +1260,14 @@ ENDCLASS.
 This translation does not reflect the current version of the documentation.
 
 
+
+**📖 Source**: [abenspecific_derived_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenspecific_derived_types.htm)
+
 ### abenvariables_derived_types.htm
+
+> **📖 Official SAP Documentation**: [abenvariables_derived_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvariables_derived_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1272,7 +1375,14 @@ CLASS lcl\_handler DEFINITION
 ENDCLASS.
 
 
+
+**📖 Source**: [abenvariables_derived_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvariables_derived_types.htm)
+
 ### abencomponents_derived_types.htm
+
+> **📖 Official SAP Documentation**: [abencomponents_derived_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponents_derived_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1349,7 +1459,14 @@ item points to a row of the input parameters, for example update\_import\_parame
 Included pages: 2
 
 
+
+**📖 Source**: [abencomponents_derived_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponents_derived_types.htm)
+
 ### abenobsolete_typing.htm
+
+> **📖 Official SAP Documentation**: [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobsolete_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1367,7 +1484,17 @@ Continue
 [LIKE - obsolete](javascript:call_link\('abenlike_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobsolete_typing.htm)
+
 ### abenlike_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlike_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlike_obsolete.htm)
+
 
   
 

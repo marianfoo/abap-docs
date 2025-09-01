@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenrap_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_events.htm)
+- [abenclass_for_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_for_events.htm)
+- [abencl_abap_behavior_event_handler.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_behavior_event_handler.htm)
+- [abenmethod_for_entity_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_for_entity_event.htm)
+- [abapraise_entity_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_entity_event.htm)
+- [abenrap_events_local_consume_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_events_local_consume_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.958Z
+
+---
+
 ### abenrap_events.htm
+
+> **📖 Official SAP Documentation**: [abenrap_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_events.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33,7 +56,14 @@ Continue
 ![Example](exa.gif "Example") [Local Consumption of RAP Business Events](javascript:call_link\('abenrap_events_local_consume_abexa.htm'\))
 
 
+
+**📖 Source**: [abenrap_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_events.htm)
+
 ### abenclass_for_events.htm
+
+> **📖 Official SAP Documentation**: [abenclass_for_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_for_events.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -78,7 +108,14 @@ Executable Example
 The example [Local Consumption of RAP Business Events](javascript:call_link\('abenrap_events_local_consume_abexa.htm'\)) demonstrates the use of a RAP event handler class.
 
 
+
+**📖 Source**: [abenclass_for_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_for_events.htm)
+
 ### abencl_abap_behavior_event_handler.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_behavior_event_handler.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_behavior_event_handler.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -116,7 +153,14 @@ Executable Example
 The example [Local Consumption of RAP Business Events](javascript:call_link\('abenrap_events_local_consume_abexa.htm'\)) demonstrates the use of a RAP event handler class.
 
 
+
+**📖 Source**: [abencl_abap_behavior_event_handler.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_behavior_event_handler.htm)
+
 ### abenmethod_for_entity_event.htm
+
+> **📖 Official SAP Documentation**: [abenmethod_for_entity_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_for_entity_event.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -185,7 +229,14 @@ Executable Example
 The example [Local Consumption of RAP Business Events](javascript:call_link\('abenrap_events_local_consume_abexa.htm'\)) demonstrates the use of RAP event handler methods.
 
 
+
+**📖 Source**: [abenmethod_for_entity_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_for_entity_event.htm)
+
 ### abapraise_entity_event.htm
+
+> **📖 Official SAP Documentation**: [abapraise_entity_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_entity_event.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -250,7 +301,17 @@ Executable Example
 The example [Local Consumption of RAP Business Events](javascript:call_link\('abenrap_events_local_consume_abexa.htm'\)) demonstrates the use of RAISE ENTITY EVENT statements.
 
 
+
+**📖 Source**: [abapraise_entity_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_entity_event.htm)
+
 ### abenrap_events_local_consume_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_events_local_consume_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_events_local_consume_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenrap_events_local_consume_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_events_local_consume_abexa.htm)
+
 
   
 

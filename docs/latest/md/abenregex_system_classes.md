@@ -12,8 +12,7 @@ regex - System Classes
 
 The system classes for regular expressions are CL\_ABAP\_REGEX and CL\_ABAP\_MATCHER. Both are documented in the class library.
 
--   [CL\_ABAP\_REGEX](#@@ITOC@@ABENREGEX_SYSTEM_CLASSES_1)
--   [CL\_ABAP\_MATCHER](#@@ITOC@@ABENREGEX_SYSTEM_CLASSES_2)
+-   [CL\_ABAP\_REGEX](#abenregex-system-classes-1-------cl--abap--matcher---@ITOC@@ABENREGEX_SYSTEM_CLASSES_2)
 
 CL\_ABAP\_REGEX   
 

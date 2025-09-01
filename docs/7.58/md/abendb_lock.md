@@ -17,74 +17,9 @@ Simultaneous access by multiple transactions to the same dataset requires databa
 
 The following sections are a short discussion of the properties of database locks:
 
--   [Setting Locks](#@@ITOC@@ABENDB_LOCK_1)
--   [Locked Objects](#@@ITOC@@ABENDB_LOCK_2)
--   [Lock Mode](#@@ITOC@@ABENDB_LOCK_3)
--   [Lock Duration](#@@ITOC@@ABENDB_LOCK_4)
--   [Monitoring Locks](#@@ITOC@@ABENDB_LOCK_5)
-
-Setting Locks   
-
-Database systems do not usually provide commands for explicitly setting locks. Database locks are set implicitly each time data on the database is accessed. In ABAP, databases are accessed in the following ways:
-
--   Using one of the [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry") statements [SELECT](javascript:call_link\('abapselect.htm'\)), [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)), [UPDATE](javascript:call_link\('abapupdate.htm'\)), [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)), or [DELETE](javascript:call_link\('abapdelete_dbtab.htm'\)).
--   Using a [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statement.
--   Calling [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry").
--   Using other statements that access the database, such as [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) and [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) FROM and TO DATABASE.
-
-Locked Objects   
-
-Database systems set physical locks: All rows affected by a database call are locked. In the case of SELECT, these are the selected rows, in the case of UPDATE, DELETE, INSERT, and MODIFY, these are rows to be changed, deleted, or inserted.
-
-Take the following call, for example:
-
-SELECT SINGLE FOR UPDATE \* FROM sflight
-  WHERE
-    carrid   = 'LH'       AND
-    connid   = '0400'     AND
-    fldate   = '19960516'
-  INTO ... .
-
-It locks the entry in the table SFLIGHT for Lufthansa flight 0400 on May 16, 1996.
-
-It is not always the table row that is locked. Tables, data pages, and index pages can also be locked, for example. The units locked depend on the database system used and the respective access.
-
-Lock Mode   
-
-In principle, one type of lock is sufficient to control competing data access. However, to allow a larger number of transactions to run in parallel, database systems use a range of lock types. These can vary from system to system, but the following two examples outline sufficiently how locks work:
-
--   Shared lock
-    
-    Shared locks allow the system to set other shared locks simultaneously, but prevent other transactions from setting exclusive locks for the locked objects.
-    
--   Exclusive lock
-    
-    Exclusive locks do not allow other transactions to set any locks for the locked objects.
-    
-
-Exclusive locks are set by the ABAP SQL statements [SELECT SINGLE FOR UPDATE](javascript:call_link\('abapselect_single.htm'\)), [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)), [UPDATE](javascript:call_link\('abapupdate.htm'\)), [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)), and [DELETE](javascript:call_link\('abapdelete_dbtab.htm'\)), the corresponding Native SQL statements or platform-dependent statements in [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry"), plus [EXPORT TO DATABASE](javascript:call_link\('abapexport_data_cluster_medium.htm'\)).
-
-The current [isolation level](javascript:call_link\('abendb_isolation.htm'\)) specifies whether the SQL statement SELECT sets a shared lock.
-
--   The following settings are possible in all databases except the SAP HANA database and Oracle databases:
-    -   [Uncommitted reads](javascript:call_link\('abendb_isolation.htm'\)) (the default setting) do not attempt to set shared locks. Data is also read that is still protected by an exclusive lock and not yet committed using a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry").
-    -   [Committed reads](javascript:call_link\('abendb_isolation.htm'\)) (which can be configured using the function module DB\_SET\_ISOLATION\_LEVEL) set a shared lock during the read and then remove it again. This is possible only when exclusive locks do not exist, which can entail wait times.
--   The SAP HANA database and Oracle databases do not set shared locks, but also only read data committed by a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry").
-
-If a transaction cannot lock an object because it is already locked by another transaction, it waits until the other transaction releases this lock. This can produce a deadlock. A [deadlock](javascript:call_link\('abendeadlock_glosry.htm'\) "Glossary Entry") occurs, for example, when two transactions are waiting for a lock held by the other.
-
-Example
-
-A booking needs to be made in a flight reservation system for Lufthansa flight 0400 on May 16, 1996. This is possible only if there are enough free seats. To prevent two bookings from being made at the same time and avoid overbooking, the entry in the DDIC database table SFLIGHT for this flight must be locked to prevent it from being changed by other transactions. This ensures that the query to determine the number of free seats in the SEATSOCC field can be carried out, the flight can be booked, and the SEATSOCC field can be updated by other transactions. The following program excerpt shows a solution for this problem:
-
-DATA: sflight\_wa TYPE sflight, sbook\_wa type sbook.
-SELECT SINGLE FOR UPDATE \*
-  FROM sflight
-  WHERE
-    carrid   = 'LH'       AND
-    connid   = '0400'     AND
-    fldate   = '19960516'
-  INTO @sflight\_wa.
+-   [Setting Locks](#abendb-lock-1-------locked-objects---@ITOC@@ABENDB_LOCK_2)
+-   [Lock Mode](#abendb-lock-3-------lock-duration---@ITOC@@ABENDB_LOCK_4)
+-   [Monitoring Locks](#abendb-lock-5---setting-locks-----database-systems-do-not-usually-provide-commands-for-explicitly-setting-locks--database-locks-are-set-implicitly-each-time-data-on-the-database-is-accessed--in-abap--databases-are-accessed-in-the-following-ways-------using-one-of-the--abap-sql--javascript-call-link---abenabap-sql-glosry-htm-----glossary-entry---statements--select--javascript-call-link---abapselect-htm-------insert--javascript-call-link---abapinsert-dbtab-htm-------update--javascript-call-link---abapupdate-htm-------modify--javascript-call-link---abapmodify-dbtab-htm------or--delete--javascript-call-link---abapdelete-dbtab-htm----------using-a--native-sql--javascript-call-link---abennative-sql-glosry-htm-----glossary-entry---statement------calling--amdp-methods--javascript-call-link---abenamdp-method-glosry-htm-----glossary-entry--------using-other-statements-that-access-the-database--such-as--import--javascript-call-link---abapimport-data-cluster-htm-----and--export--javascript-call-link---abapexport-data-cluster-htm-----from-and-to-database---locked-objects-----database-systems-set-physical-locks--all-rows-affected-by-a-database-call-are-locked--in-the-case-of-select--these-are-the-selected-rows--in-the-case-of-update--delete--insert--and-modify--these-are-rows-to-be-changed--deleted--or-inserted---take-the-following-call--for-example---select-single-for-update----from-sflight---where-----carrid------lh--------and-----connid------0400------and-----fldate------19960516----into--------it-locks-the-entry-in-the-table-sflight-for-lufthansa-flight-0400-on-may-16--1996---it-is-not-always-the-table-row-that-is-locked--tables--data-pages--and-index-pages-can-also-be-locked--for-example--the-units-locked-depend-on-the-database-system-used-and-the-respective-access---lock-mode-----in-principle--one-type-of-lock-is-sufficient-to-control-competing-data-access--however--to-allow-a-larger-number-of-transactions-to-run-in-parallel--database-systems-use-a-range-of-lock-types--these-can-vary-from-system-to-system--but-the-following-two-examples-outline-sufficiently-how-locks-work-------shared-lock----------shared-locks-allow-the-system-to-set-other-shared-locks-simultaneously--but-prevent-other-transactions-from-setting-exclusive-locks-for-the-locked-objects-----------exclusive-lock----------exclusive-locks-do-not-allow-other-transactions-to-set-any-locks-for-the-locked-objects--------exclusive-locks-are-set-by-the-abap-sql-statements--select-single-for-update--javascript-call-link---abapselect-single-htm-------insert--javascript-call-link---abapinsert-dbtab-htm-------update--javascript-call-link---abapupdate-htm-------modify--javascript-call-link---abapmodify-dbtab-htm------and--delete--javascript-call-link---abapdelete-dbtab-htm------the-corresponding-native-sql-statements-or-platform-dependent-statements-in--amdp-methods--javascript-call-link---abenamdp-method-glosry-htm-----glossary-entry----plus--export-to-database--javascript-call-link---abapexport-data-cluster-medium-htm-------the-current--isolation-level--javascript-call-link---abendb-isolation-htm-----specifies-whether-the-sql-statement-select-sets-a-shared-lock-------the-following-settings-are-possible-in-all-databases-except-the-sap-hana-database-and-oracle-databases-----------uncommitted-reads--javascript-call-link---abendb-isolation-htm------the-default-setting--do-not-attempt-to-set-shared-locks--data-is-also-read-that-is-still-protected-by-an-exclusive-lock-and-not-yet-committed-using-a--database-commit--javascript-call-link---abendatabase-commit-glosry-htm-----glossary-entry-------------committed-reads--javascript-call-link---abendb-isolation-htm------which-can-be-configured-using-the-function-module-db--set--isolation--level--set-a-shared-lock-during-the-read-and-then-remove-it-again--this-is-possible-only-when-exclusive-locks-do-not-exist--which-can-entail-wait-times------the-sap-hana-database-and-oracle-databases-do-not-set-shared-locks--but-also-only-read-data-committed-by-a--database-commit--javascript-call-link---abendatabase-commit-glosry-htm-----glossary-entry-----if-a-transaction-cannot-lock-an-object-because-it-is-already-locked-by-another-transaction--it-waits-until-the-other-transaction-releases-this-lock--this-can-produce-a-deadlock--a--deadlock--javascript-call-link---abendeadlock-glosry-htm-----glossary-entry---occurs--for-example--when-two-transactions-are-waiting-for-a-lock-held-by-the-other---example--a-booking-needs-to-be-made-in-a-flight-reservation-system-for-lufthansa-flight-0400-on-may-16--1996--this-is-possible-only-if-there-are-enough-free-seats--to-prevent-two-bookings-from-being-made-at-the-same-time-and-avoid-overbooking--the-entry-in-the-ddic-database-table-sflight-for-this-flight-must-be-locked-to-prevent-it-from-being-changed-by-other-transactions--this-ensures-that-the-query-to-determine-the-number-of-free-seats-in-the-seatsocc-field-can-be-carried-out--the-flight-can-be-booked--and-the-seatsocc-field-can-be-updated-by-other-transactions--the-following-program-excerpt-shows-a-solution-for-this-problem---data--sflight--wa-type-sflight--sbook--wa-type-sbook--select-single-for-update------from-sflight---where-----carrid------lh--------and-----connid------0400------and-----fldate------19960516----into-sflight\_wa.
 IF sy-subrc <> 0.
   MESSAGE e...
 ENDIF.

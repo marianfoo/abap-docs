@@ -3,7 +3,35 @@
 Included pages: 11
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-751.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751.htm)
+- [abennews-751-types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-types.htm)
+- [abennews-751-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-assignments.htm)
+- [abennews-751-abap_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-abap_sql.htm)
+- [abennews-751-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-abap_cds.htm)
+- [abennews-751-amdp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-amdp.htm)
+- [abennews-751-data_cluster.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-data_cluster.htm)
+- [abennews-751-messages.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-messages.htm)
+- [abennews-751-transformations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-transformations.htm)
+- [abennews-751-channels.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-channels.htm)
+- [abennews-751-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-others.htm)
+
+**Bundle Contains**: 11 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.287Z
+
+---
+
 ### abennews-751.htm
+
+> **📖 Official SAP Documentation**: [abennews-751.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44,7 +72,14 @@ Continue
 [Further Changes in Release 7.51](javascript:call_link\('abennews-751-others.htm'\))
 
 
+
+**📖 Source**: [abennews-751.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751.htm)
+
 ### abennews-751-types.htm
+
+> **📖 Official SAP Documentation**: [abennews-751-types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -68,7 +103,14 @@ The statement [TYPES BEGIN OF ENUM](javascript:call_link\('abaptypes_enum.htm'\)
 The document [Enumerated Objects](javascript:call_link\('abenenumerated_types_usage.htm'\)) summarizes the properties of enumerated types and enumerated objects.
 
 
+
+**📖 Source**: [abennews-751-types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-types.htm)
+
 ### abennews-751-assignments.htm
+
+> **📖 Official SAP Documentation**: [abennews-751-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-assignments.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -92,7 +134,14 @@ The new methods [CREATE\_USING](javascript:call_link\('abencl_abap_corresponding
 If the method [EXECUTE](javascript:call_link\('abencl_abap_corresponding_1.htm'\)) for simple assignment is used, the restriction that source and target cannot be identical has been lifted. It should be noted, however, that no temporary copy of the source is created as a target object (like in [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\))), which means that the result in the case of overlapping source and target components is different than when the operator [CORRESPONDING](javascript:call_link\('abencorresponding_constr_arg_type.htm'\)) is used reflexively.
 
 
+
+**📖 Source**: [abennews-751-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-assignments.htm)
+
 ### abennews-751-abap_sql.htm
+
+> **📖 Official SAP Documentation**: [abennews-751-abap_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-abap_sql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -193,7 +242,14 @@ Restrictions Removed
 -   When accessing [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") that use [session variables](javascript:call_link\('abencds_session_variable_v1.htm'\)), the addition [USING CLIENT](javascript:call_link\('abapselect_client.htm'\)) can now be used. When accessing [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") that do not use the [session variable](javascript:call_link\('abencds_session_variable_v1.htm'\)) client, the addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client.htm'\)) can now be used.
 
 
+
+**📖 Source**: [abennews-751-abap_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-abap_sql.htm)
+
 ### abennews-751-abap_cds.htm
+
+> **📖 Official SAP Documentation**: [abennews-751-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-abap_cds.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -323,7 +379,14 @@ Key Fields
 -   The new view annotation [AbapCatalog.preserveKey](javascript:call_link\('abencds_view_anno_v1.htm'\)) can be used to override the default behavior of the addition [KEY](javascript:call_link\('abencds_select_list_entry_v1.htm'\)) for defining key fields of a CDS view. If the annotation is specified with the value true, the key fields defined using KEY are also used for the associated CDS-managed DDIC view (obsolete).
 
 
+
+**📖 Source**: [abennews-751-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-abap_cds.htm)
+
 ### abennews-751-amdp.htm
+
+> **📖 Official SAP Documentation**: [abennews-751-amdp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-amdp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -358,7 +421,14 @@ When an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glos
 can be used to specify logical database schemas instead of physical database schemas. The ABAP runtime environment replaces these schemas on the database with the associated physical database schemas.
 
 
+
+**📖 Source**: [abennews-751-amdp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-amdp.htm)
+
 ### abennews-751-data_cluster.htm
+
+> **📖 Official SAP Documentation**: [abennews-751-data_cluster.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-data_cluster.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -384,7 +454,14 @@ In this [structure](javascript:call_link\('abenexport_data_cluster_indx.htm'\)),
 The new structure is recommended for export tables and import tables.
 
 
+
+**📖 Source**: [abennews-751-data_cluster.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-data_cluster.htm)
+
 ### abennews-751-messages.htm
+
+> **📖 Official SAP Documentation**: [abennews-751-messages.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-messages.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -406,7 +483,14 @@ Implicit Message Type in IF\_T100\_DYN\_MSG
 If the object reference variable oref in the variant [MESSAGE oref](javascript:call_link\('abapmessage_msg.htm'\)) of the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)) (used to send a message) points to an object that includes the system interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)), the addition TYPE can be omitted. The message type from the interface attribute MSGTY of the object is then used implicitly.
 
 
+
+**📖 Source**: [abennews-751-messages.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-messages.htm)
+
 ### abennews-751-transformations.htm
+
+> **📖 Official SAP Documentation**: [abennews-751-transformations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-transformations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -474,7 +558,14 @@ noError New for the Attributeoption of tt:value
 [noError](javascript:call_link\('abenst_option_format.htm'\)) now can be specified in the attribute [option](javascript:call_link\('abenst_option.htm'\)) of the ST command [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)), where it prevents exceptions in the formattings language, currCode, and unitCode. These formattings evaluate entries in database tables.
 
 
+
+**📖 Source**: [abennews-751-transformations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-transformations.htm)
+
 ### abennews-751-channels.htm
+
+> **📖 Official SAP Documentation**: [abennews-751-channels.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-channels.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -507,7 +598,17 @@ Suppressing AMC Messages
 The new parameter I\_SUPPRESS\_ECHO of the method CREATE\_MESSAGE\_PRODUCER of the class CL\_AMC\_CHANNEL\_MANAGER can be used to control whether [AMC](javascript:call_link\('abenamc.htm'\)) messages can be sent to the current ABAP session or not.
 
 
+
+**📖 Source**: [abennews-751-channels.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-channels.htm)
+
 ### abennews-751-others.htm
+
+> **📖 Official SAP Documentation**: [abennews-751-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-others.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-751-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-751-others.htm)
+
 
   
 

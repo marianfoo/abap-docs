@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenalternative_spelling_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenalternative_spelling_guidl.htm)
+- [abenalternative_langu_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenalternative_langu_guidl.htm)
+- [abenchained_statements_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchained_statements_guidl.htm)
+- [abenmethod_call_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmethod_call_guidl.htm)
+- [abenassign_calc_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassign_calc_guidl.htm)
+- [abencalc_expresssion_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencalc_expresssion_guidl.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.712Z
+
+---
+
 ### abenalternative_spelling_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenalternative_spelling_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenalternative_spelling_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35,7 +58,14 @@ Continue
 [Calculations](javascript:call_link\('abencalc_expresssion_guidl.htm'\))
 
 
+
+**📖 Source**: [abenalternative_spelling_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenalternative_spelling_guidl.htm)
+
 ### abenalternative_langu_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenalternative_langu_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenalternative_langu_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -102,7 +132,14 @@ FIND SUBSTRING '...' IN text.
 ...
 
 
+
+**📖 Source**: [abenalternative_langu_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenalternative_langu_guidl.htm)
+
 ### abenchained_statements_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenchained_statements_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchained_statements_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -247,7 +284,14 @@ cl\_demo\_output=>new(
   )->display( ).
 
 
+
+**📖 Source**: [abenchained_statements_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchained_statements_guidl.htm)
+
 ### abenmethod_call_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenmethod_call_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmethod_call_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -322,7 +366,14 @@ cl\_class=>do\_something(
 ...
 
 
+
+**📖 Source**: [abenmethod_call_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmethod_call_guidl.htm)
+
 ### abenassign_calc_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenassign_calc_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassign_calc_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -413,7 +464,17 @@ DATA number2 TYPE i.
 DATA(result) = CONV decfloat34( number1 \* number2 ).
 
 
+
+**📖 Source**: [abenassign_calc_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassign_calc_guidl.htm)
+
 ### abencalc_expresssion_guidl.htm
+
+> **📖 Official SAP Documentation**: [abencalc_expresssion_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencalc_expresssion_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencalc_expresssion_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencalc_expresssion_guidl.htm)
+
 
   
 

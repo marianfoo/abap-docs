@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenuser_interfaces_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuser_interfaces_guidl.htm)
+- [abeninterface_tech_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninterface_tech_guidl.htm)
+- [abenencap_class_interf_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenencap_class_interf_guidl.htm)
+- [abenlist_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlist_guidl.htm)
+- [abenaccessibility_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenaccessibility_guidl.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.686Z
+
+---
+
 ### abenuser_interfaces_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenuser_interfaces_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuser_interfaces_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32,7 +54,14 @@ Continue
 [Accessibility](javascript:call_link\('abenaccessibility_guidl.htm'\))
 
 
+
+**📖 Source**: [abenuser_interfaces_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuser_interfaces_guidl.htm)
+
 ### abeninterface_tech_guidl.htm
+
+> **📖 Official SAP Documentation**: [abeninterface_tech_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninterface_tech_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -105,7 +134,14 @@ The transaction DEMO\_CR\_CAR\_RENTAL is called. Now two user interfaces can be 
 Since the example application strictly separates all concerns, you can use it with different UIs without having to make adjustments to the application and persistence logic. The SoC is therefore a critical prerequisite for potential changeovers from classic dynpros to Web Dynpro ABAP.
 
 
+
+**📖 Source**: [abeninterface_tech_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninterface_tech_guidl.htm)
+
 ### abenencap_class_interf_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenencap_class_interf_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenencap_class_interf_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -236,7 +272,14 @@ ENDMODULE.
 Dynpro 100 is called in a function module but can also be linked to a transaction code. In the classic PBO and PAI modules, methods of local classes are called. However the implementation of these methods is not shown here. There is a class for general screen handling and a class for each table control. The application layer is accessed using the specified interface for implementations of the class.
 
 
+
+**📖 Source**: [abenencap_class_interf_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenencap_class_interf_guidl.htm)
+
 ### abenlist_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenlist_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlist_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -299,7 +342,17 @@ Good Example
 Executing the program DEMO\_ALV\_REPORTING produces ALV lists with the same content and the same functions as the classic lists in the previous example. ALV lists replace classic lists in those cases in which classic dynpros are still used.
 
 
+
+**📖 Source**: [abenlist_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlist_guidl.htm)
+
 ### abenaccessibility_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenaccessibility_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenaccessibility_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenaccessibility_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenaccessibility_guidl.htm)
+
 
   
 

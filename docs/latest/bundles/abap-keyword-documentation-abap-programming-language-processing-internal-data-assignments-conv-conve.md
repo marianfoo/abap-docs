@@ -3,7 +3,29 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenconstructor_expression_conv.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_conv.htm)
+- [abenconv_constructor_inference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_constructor_inference.htm)
+- [abenconv_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_type_inference_abexa.htm)
+- [abenconv_constructor_enum.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_constructor_enum.htm)
+- [abenconv_enum_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_enum_abexa.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.933Z
+
+---
+
 ### abenconstructor_expression_conv.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_conv.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_conv.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -109,7 +131,14 @@ Continue
 [CONV, Conversion of Enumerated Types](javascript:call_link\('abenconv_constructor_enum.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_conv.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_conv.htm)
+
 ### abenconv_constructor_inference.htm
+
+> **📖 Official SAP Documentation**: [abenconv_constructor_inference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_constructor_inference.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -199,7 +228,14 @@ Continue
 ![Example](exa.gif "Example") [Conversion Operator, Type Inference](javascript:call_link\('abenconv_type_inference_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconv_constructor_inference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_constructor_inference.htm)
+
 ### abenconv_type_inference_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenconv_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_type_inference_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -306,7 +342,14 @@ Constructor expressions with the conversion operator [CONV](javascript:call_link
     -   In the third call, no type can be determined from the generically typed field symbol <fs> and the type string is used, which is indicated by a syntax check warning.
 
 
+
+**📖 Source**: [abenconv_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_type_inference_abexa.htm)
+
 ### abenconv_constructor_inference.htm
+
+> **📖 Official SAP Documentation**: [abenconv_constructor_inference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_constructor_inference.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -396,7 +439,14 @@ Continue
 ![Example](exa.gif "Example") [Conversion Operator, Type Inference](javascript:call_link\('abenconv_type_inference_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconv_constructor_inference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_constructor_inference.htm)
+
 ### abenconv_constructor_enum.htm
+
+> **📖 Official SAP Documentation**: [abenconv_constructor_enum.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_constructor_enum.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -532,7 +582,14 @@ Continue
 ![Example](exa.gif "Example") [Conversion Operator, Enumerated Types](javascript:call_link\('abenconv_enum_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconv_constructor_enum.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_constructor_enum.htm)
+
 ### abenconv_enum_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenconv_enum_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_enum_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -588,7 +645,17 @@ Description  
 The inner conversion operator [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) return the value of the enumerated constant earth in the base type i of the [enumerated type](javascript:call_link\('abenenum_type_glosry.htm'\) "Glossary Entry") planet. An input value is added to this. Applying the conversion operator to the result determines a planet, which has the specified distance of earth.
 
 
+
+**📖 Source**: [abenconv_enum_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_enum_abexa.htm)
+
 ### abenconv_constructor_enum.htm
+
+> **📖 Official SAP Documentation**: [abenconv_constructor_enum.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_constructor_enum.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenconv_constructor_enum.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconv_constructor_enum.htm)
+
 
   
 

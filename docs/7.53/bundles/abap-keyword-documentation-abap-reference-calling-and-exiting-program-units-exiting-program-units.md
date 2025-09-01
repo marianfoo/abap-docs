@@ -3,7 +3,37 @@
 Included pages: 16
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenleave_program_units.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_program_units.htm)
+- [abenabap_leave_program.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_leave_program.htm)
+- [abapleave_program.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapleave_program.htm)
+- [abenleave_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_processing_blocks.htm)
+- [abenend_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenend_processing_blocks.htm)
+- [abapreturn.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreturn.htm)
+- [abapexit_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexit_processing_blocks.htm)
+- [abapcheck_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcheck_processing_blocks.htm)
+- [abapstop.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstop.htm)
+- [abenleave_loops.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_loops.htm)
+- [abapexit_loop.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexit_loop.htm)
+- [abapcheck_loop.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcheck_loop.htm)
+- [abapcontinue.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontinue.htm)
+
+**Bundle Contains**: 13 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.177Z
+
+---
+
 ### abenleave_program_units.htm
+
+> **📖 Official SAP Documentation**: [abenleave_program_units.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_program_units.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +59,14 @@ Continue
 [Exiting Loops](javascript:call_link\('abenleave_loops.htm'\))
 
 
+
+**📖 Source**: [abenleave_program_units.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_program_units.htm)
+
 ### abenabap_leave_program.htm
+
+> **📖 Official SAP Documentation**: [abenabap_leave_program.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_leave_program.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55,7 +92,14 @@ Continue
 [LEAVE PROGRAM](javascript:call_link\('abapleave_program.htm'\))
 
 
+
+**📖 Source**: [abenabap_leave_program.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_leave_program.htm)
+
 ### abapleave_program.htm
+
+> **📖 Official SAP Documentation**: [abapleave_program.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapleave_program.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -111,7 +155,14 @@ IF sy-subrc > 1.
 ENDIF.
 
 
+
+**📖 Source**: [abapleave_program.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapleave_program.htm)
+
 ### abenabap_leave_program.htm
+
+> **📖 Official SAP Documentation**: [abenabap_leave_program.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_leave_program.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -137,7 +188,14 @@ Continue
 [LEAVE PROGRAM](javascript:call_link\('abapleave_program.htm'\))
 
 
+
+**📖 Source**: [abenabap_leave_program.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_leave_program.htm)
+
 ### abenleave_processing_blocks.htm
+
+> **📖 Official SAP Documentation**: [abenleave_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_processing_blocks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -197,7 +255,14 @@ Continue
 [STOP](javascript:call_link\('abapstop.htm'\))
 
 
+
+**📖 Source**: [abenleave_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_processing_blocks.htm)
+
 ### abenend_processing_blocks.htm
+
+> **📖 Official SAP Documentation**: [abenend_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenend_processing_blocks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -238,7 +303,14 @@ START-OF-SELECTION.
   cl\_demo\_output=>display( \`After procedure\` ).
 
 
+
+**📖 Source**: [abenend_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenend_processing_blocks.htm)
+
 ### abapreturn.htm
+
+> **📖 Official SAP Documentation**: [abapreturn.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreturn.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -298,7 +370,14 @@ METHOD show\_list.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abapreturn.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreturn.htm)
+
 ### abapexit_processing_blocks.htm
+
+> **📖 Official SAP Documentation**: [abapexit_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexit_processing_blocks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -370,7 +449,14 @@ START-OF-SELECTION.
               itab = itab ).
 
 
+
+**📖 Source**: [abapexit_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexit_processing_blocks.htm)
+
 ### abapcheck_processing_blocks.htm
+
+> **📖 Official SAP Documentation**: [abapcheck_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcheck_processing_blocks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -433,7 +519,14 @@ START-OF-SELECTION.
   demo=>main( ).
 
 
+
+**📖 Source**: [abapcheck_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcheck_processing_blocks.htm)
+
 ### abapstop.htm
+
+> **📖 Official SAP Documentation**: [abapstop.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstop.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -502,7 +595,14 @@ Non-Handleable Exceptions
     Runtime error: STOP\_WITHIN\_CALLED\_DYNPRO
 
 
+
+**📖 Source**: [abapstop.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstop.htm)
+
 ### abenleave_processing_blocks.htm
+
+> **📖 Official SAP Documentation**: [abenleave_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_processing_blocks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -562,7 +662,14 @@ Continue
 [STOP](javascript:call_link\('abapstop.htm'\))
 
 
+
+**📖 Source**: [abenleave_processing_blocks.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_processing_blocks.htm)
+
 ### abenleave_loops.htm
+
+> **📖 Official SAP Documentation**: [abenleave_loops.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_loops.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -588,7 +695,14 @@ Continue
 [CONTINUE](javascript:call_link\('abapcontinue.htm'\))
 
 
+
+**📖 Source**: [abenleave_loops.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_loops.htm)
+
 ### abapexit_loop.htm
+
+> **📖 Official SAP Documentation**: [abapexit_loop.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexit_loop.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -628,7 +742,14 @@ ENDDO.
 cl\_demo\_output=>display( ).
 
 
+
+**📖 Source**: [abapexit_loop.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexit_loop.htm)
+
 ### abapcheck_loop.htm
+
+> **📖 Official SAP Documentation**: [abapcheck_loop.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcheck_loop.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -675,7 +796,14 @@ ENDDO.
 cl\_demo\_output=>display( ).
 
 
+
+**📖 Source**: [abapcheck_loop.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcheck_loop.htm)
+
 ### abapcontinue.htm
+
+> **📖 Official SAP Documentation**: [abapcontinue.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontinue.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -712,7 +840,17 @@ ENDDO.
 cl\_demo\_output=>display( ).
 
 
+
+**📖 Source**: [abapcontinue.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontinue.htm)
+
 ### abenleave_loops.htm
+
+> **📖 Official SAP Documentation**: [abenleave_loops.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_loops.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenleave_loops.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleave_loops.htm)
+
 
   
 

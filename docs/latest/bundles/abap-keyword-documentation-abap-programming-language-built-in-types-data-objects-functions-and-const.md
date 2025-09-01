@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenbuilt_in_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm)
+- [abenbuilt_in_functions_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_syntax.htm)
+- [abenbuilt_in_functions_overview.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_overview.htm)
+- [abenbuilt_in_functions_hiding.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_hiding.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.900Z
+
+---
+
 ### abenbuilt_in_functions.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +52,14 @@ Continue
 [Built-In Functions, Hiding by Methods](javascript:call_link\('abenbuilt_in_functions_hiding.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm)
+
 ### abenbuilt_in_functions_syntax.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -86,7 +114,14 @@ FINAL(str2) = condense( val = \`...\` ).
 FINAL(str3) = condense( val = \`...\`  del = \` \` ).
 
 
+
+**📖 Source**: [abenbuilt_in_functions_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_syntax.htm)
+
 ### abenbuilt_in_functions_overview.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_overview.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_overview.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -296,7 +331,17 @@ Index function
 [→ More about](javascript:call_link\('abentable_functions.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_functions_overview.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_overview.htm)
+
 ### abenbuilt_in_functions_hiding.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_hiding.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_hiding.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenbuilt_in_functions_hiding.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_hiding.htm)
+
 
   
 

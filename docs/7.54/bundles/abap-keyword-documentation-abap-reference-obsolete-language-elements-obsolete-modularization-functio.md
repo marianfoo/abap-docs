@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenfunction_modules_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_modules_obsolete.htm)
+- [abaptables_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptables_parameters_obsolete.htm)
+- [abentables_parameters_restrictions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentables_parameters_restrictions.htm)
+- [abapfunction_typing_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction_typing_obsolete.htm)
+- [abenglobal_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenglobal_parameters_obsolete.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.952Z
+
+---
+
 ### abenfunction_modules_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenfunction_modules_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_modules_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +51,14 @@ Continue
 [Global Parameters](javascript:call_link\('abenglobal_parameters_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenfunction_modules_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_modules_obsolete.htm)
+
 ### abaptables_parameters_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abaptables_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptables_parameters_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -82,7 +111,14 @@ Continue
 [Exceptions when Accessing TABLES Parameters](javascript:call_link\('abentables_parameters_restrictions.htm'\))
 
 
+
+**📖 Source**: [abaptables_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptables_parameters_obsolete.htm)
+
 ### abentables_parameters_restrictions.htm
+
+> **📖 Official SAP Documentation**: [abentables_parameters_restrictions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentables_parameters_restrictions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -117,7 +153,14 @@ If a TABLES parameter is typed using STRUCTURE it can also be bound to actual pa
 This exception is particularly likely if the [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") is used as an implicit work area. An explicit work area with the type of the actual parameter should be used to avoid this runtime error.
 
 
+
+**📖 Source**: [abentables_parameters_restrictions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentables_parameters_restrictions.htm)
+
 ### abaptables_parameters_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abaptables_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptables_parameters_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -170,7 +213,14 @@ Continue
 [Exceptions when Accessing TABLES Parameters](javascript:call_link\('abentables_parameters_restrictions.htm'\))
 
 
+
+**📖 Source**: [abaptables_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptables_parameters_obsolete.htm)
+
 ### abapfunction_typing_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abapfunction_typing_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction_typing_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -210,7 +260,17 @@ Notes
 -   Formal parameters typed with STRUCTURE can usually be replaced by formal parameters typed with TYPE. If a casting is necessary, generic formal parameters should be used and assigned to field symbols using the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)) and the addition CASTING.
 
 
+
+**📖 Source**: [abapfunction_typing_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction_typing_obsolete.htm)
+
 ### abenglobal_parameters_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenglobal_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenglobal_parameters_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenglobal_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenglobal_parameters_obsolete.htm)
+
 
   
 

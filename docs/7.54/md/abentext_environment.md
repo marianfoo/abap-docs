@@ -8,9 +8,7 @@ AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
 Text Environment Language and Text Environment
 
--   [Text Environment Language](#@@ITOC@@ABENTEXT_ENVIRONMENT_1)
-
--   [Text Environment](#@@ITOC@@ABENTEXT_ENVIRONMENT_2)
+-   [Text Environment Language](#abentext-environment-1--------text-environment---@ITOC@@ABENTEXT_ENVIRONMENT_2)
 
 Text Environment Language
 

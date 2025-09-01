@@ -10,13 +10,9 @@ Automatic Authorization Checks
 
 The following authorization checks take place automatically during data access:
 
--   [Authorization Check in the Operating System](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_1)
+-   [Authorization Check in the Operating System](#abenfile-interface-authority-1--------authorization-checks-for-special-files---@ITOC@@ABENFILE_INTERFACE_AUTHORITY_2)
 
--   [Authorization Checks for Special Files](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_2)
-
--   [Authorization Object S\_DATASET](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_3)
-
--   [Database Table SPTH and Authorization Object S\_PATH](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_4)
+-   [Authorization Object S\_DATASET](#abenfile-interface-authority-3--------database-table-spth-and-authorization-object-s--path---@ITOC@@ABENFILE_INTERFACE_AUTHORITY_4)
 
 Authorization Check in the Operating System
 

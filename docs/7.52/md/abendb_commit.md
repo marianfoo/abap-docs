@@ -10,9 +10,7 @@ Database Commit
 
 In [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry"), database commits are triggered either implicitly or explicitly.
 
--   [Implicit Database Commits](#@@ITOC@@ABENDB_COMMIT_1)
-
--   [Explicit Database Commits](#@@ITOC@@ABENDB_COMMIT_2)
+-   [Implicit Database Commits](#abendb-commit-1--------explicit-database-commits---@ITOC@@ABENDB_COMMIT_2)
 
 Note
 

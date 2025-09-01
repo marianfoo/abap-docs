@@ -10,13 +10,9 @@ RFC Destination
 
 The information about the target system of an RFC call is stored in the RFC destination.
 
--   [Static Destinations](#@@ITOC@@ABENRFC_DESTINATION_1)
+-   [Static Destinations](#abenrfc-destination-1--------dynamic-destinations---@ITOC@@ABENRFC_DESTINATION_2)
 
--   [Dynamic Destinations](#@@ITOC@@ABENRFC_DESTINATION_2)
-
--   [Predefined Destinations](#@@ITOC@@ABENRFC_DESTINATION_3)
-
--   [AS Instances as Destinations](#@@ITOC@@ABENRFC_DESTINATION_4)
+-   [Predefined Destinations](#abenrfc-destination-3--------as-instances-as-destinations---@ITOC@@ABENRFC_DESTINATION_4)
 
 -   [More Information](#@@ITOC@@ABENRFC_DESTINATION_5)
 

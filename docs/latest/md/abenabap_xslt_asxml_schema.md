@@ -98,14 +98,10 @@ KM, MI
 
 The following sections describe the domains and their mappings in more detail.
 
--   [boolean](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_1)
--   [date](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_2)
--   [dateTime](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_3)
--   [QName](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_4)
--   [time](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_5)
--   [UUID](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_6)
--   [language](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_7)
--   [currCode](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_8)
+-   [boolean](#abenabap-xslt-asxml-schema-1-------date---@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_2)
+-   [dateTime](#abenabap-xslt-asxml-schema-3-------qname---@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_4)
+-   [time](#abenabap-xslt-asxml-schema-5-------uuid---@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_6)
+-   [language](#abenabap-xslt-asxml-schema-7-------currcode---@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_8)
 -   [unitCode](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_9)
 
 The following applies to all domains:

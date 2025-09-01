@@ -3,7 +3,31 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenrtti.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti.htm)
+- [abenrtti_data_type_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti_data_type_abexa.htm)
+- [abenrtti_object_type_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti_object_type_abexa.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.986Z
+
+---
+
 ### abenrtti.htm
+
+> **📖 Official SAP Documentation**: [abenrtti.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenrtti.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -82,7 +106,18 @@ Continue
 ![Example](exa.gif "Example") [Determining Object Types](javascript:call_link\('abenrtti_object_type_abexa.htm'\))
 
 
+
+**📖 Source**: [abenrtti.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti.htm)
+
 ### abenrtti_data_type_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrtti_data_type_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti_data_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenrtti_data_type_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti_data_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -156,7 +191,21 @@ This example expands on the [executable example](javascript:call_link\('abendesc
 When complex types, such as SCARR and SPFLI, are entered in the input fields, the RTTI determines the full [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenrtti_data_type_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti_data_type_abexa.htm)
+
 ### abenrtti_object_type_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrtti_object_type_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti_object_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenrtti_object_type_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti_object_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenrtti_object_type_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti_object_type_abexa.htm)
+
 
   
 

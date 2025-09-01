@@ -15,10 +15,8 @@ Generally, a [repository object](javascript:call_link\('abenrepository_object_gl
 
 The following sections show the most important rules that a C0 contract imposes on different kinds of repository objects.
 
--   [Prerequisites for C0 Release](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_1)
--   [Stability Rules After Release](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_2)
--   [Restrictions](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_3)
--   [Example Topics](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_4)
+-   [Prerequisites for C0 Release](#abenc0-provider-rules-cds-1-------stability-rules-after-release---@ITOC@@ABENC0_PROVIDER_RULES_CDS_2)
+-   [Restrictions](#abenc0-provider-rules-cds-3-------example-topics---@ITOC@@ABENC0_PROVIDER_RULES_CDS_4)
 
 Prerequisites for C0 Release   
 

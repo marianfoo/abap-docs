@@ -21,13 +21,7 @@ Specifies an [annotation](javascript:call_link\('abencds_annotation_glosry.htm'\
 
 The table below shows the possible [ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") that can be specified, and their meanings.
 
--   [Metadata Annotations](#@@ITOC@@ABENCDS_F1_METADATA_EXT_ANNOS_1)
-
-The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
-
-Hint
-
-All other annotations specified in this place are extension annotations [@entity\_annot1](javascript:call_link\('abencds_f1_annotate_view.htm'\)), [@entity\_annot2](javascript:call_link\('abencds_f1_annotate_view.htm'\)), ..., [@view\_annot1](javascript:call_link\('abencds_f1_annotate_view.htm'\)), [@view\_annot2](javascript:call_link\('abencds_f1_annotate_view.htm'\)), ..., used to expand the entity.
+-   [Metadata Annotations](#abencds-f1-metadata-ext-annos-1---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---hint--all-other-annotations-specified-in-this-place-are-extension-annotations--entity\_annot1](javascript:call_link\('abencds_f1_annotate_view.htm'\)), [@entity\_annot2](javascript:call_link\('abencds_f1_annotate_view.htm'\)), ..., [@view\_annot1](javascript:call_link\('abencds_f1_annotate_view.htm'\)), [@view\_annot2](javascript:call_link\('abencds_f1_annotate_view.htm'\)), ..., used to expand the entity.
 
 Metadata Annotations   
 

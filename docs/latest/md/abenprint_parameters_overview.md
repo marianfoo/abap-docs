@@ -11,10 +11,8 @@ improvement:)
 
 Lists - Overview of All Spool Parameters
 
--   [Spool Parameters](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_1)
--   [Archiving Parameters](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_2)
--   [Control Parameters](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_3)
--   [Output Parameters of GET\_PRINT\_PARAMETERS](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_4)
+-   [Spool Parameters](#abenprint-parameters-overview-1-------archiving-parameters---@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_2)
+-   [Control Parameters](#abenprint-parameters-overview-3-------output-parameters-of-get--print--parameters---@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_4)
 
 Spool Parameters   
 

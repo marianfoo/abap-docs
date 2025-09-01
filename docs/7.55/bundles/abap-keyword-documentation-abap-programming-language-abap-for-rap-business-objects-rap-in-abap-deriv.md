@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenrpm_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm)
+- [abenrpm_input_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_input_parameters.htm)
+- [abenrpm_export_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_export_parameters.htm)
+- [abenspecific_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenspecific_derived_types.htm)
+- [abenvariables_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvariables_derived_types.htm)
+- [abencomponents_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.720Z
+
+---
+
 ### abenrpm_derived_types.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +54,14 @@ Continue
 [Component of the Derived Types](javascript:call_link\('abencomponents_derived_types.htm'\))
 
 
+
+**📖 Source**: [abenrpm_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm)
+
 ### abenrpm_input_parameters.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_input_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_input_parameters.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -84,7 +114,14 @@ CLASS lcl\_handler DEFINITION
 ENDCLASS.
 
 
+
+**📖 Source**: [abenrpm_input_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_input_parameters.htm)
+
 ### abenrpm_export_parameters.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_export_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_export_parameters.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -162,7 +199,14 @@ CLASS lcl\_handler DEFINITION
 ENDCLASS.
 
 
+
+**📖 Source**: [abenrpm_export_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_export_parameters.htm)
+
 ### abenspecific_derived_types.htm
+
+> **📖 Official SAP Documentation**: [abenspecific_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenspecific_derived_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -205,7 +249,14 @@ CLASS lcl\_handler DEFINITION
 ENDCLASS.
 
 
+
+**📖 Source**: [abenspecific_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenspecific_derived_types.htm)
+
 ### abenvariables_derived_types.htm
+
+> **📖 Official SAP Documentation**: [abenvariables_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvariables_derived_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -315,7 +366,17 @@ CLASS lcl\_handler DEFINITION
 ENDCLASS.
 
 
+
+**📖 Source**: [abenvariables_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvariables_derived_types.htm)
+
 ### abencomponents_derived_types.htm
+
+> **📖 Official SAP Documentation**: [abencomponents_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencomponents_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm)
+
 
   
 

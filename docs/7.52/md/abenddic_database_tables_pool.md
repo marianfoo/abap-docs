@@ -10,9 +10,7 @@ Pooled Tables in Table Pools
 
 Pooled tables are a special category of database table in ABAP Dictionary. They are defined by being saved in table pools rather than being defined as pooled tables on the database.
 
--   [Table Pools](#@@ITOC@@ABENDDIC_DATABASE_TABLES_POOL_1)
-
--   [Pooled Tables](#@@ITOC@@ABENDDIC_DATABASE_TABLES_POOL_2)
+-   [Table Pools](#abenddic-database-tables-pool-1--------pooled-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_POOL_2)
 
 Table Pools
 

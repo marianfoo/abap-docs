@@ -3,7 +3,34 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_objects_statements.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_statements.htm)
+- [abendefining_classes_interfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendefining_classes_interfaces.htm)
+- [abendefining_methods.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendefining_methods.htm)
+- [abenclass_interace_pools.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_interace_pools.htm)
+- [abenobjects_keywords.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobjects_keywords.htm)
+- [abenabap_objects_strict.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_strict.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.936Z
+
+---
+
 ### abenabap_objects_statements.htm
+
+> **📖 Official SAP Documentation**: [abenabap_objects_statements.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_statements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_objects_statements.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_statements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43,7 +70,18 @@ Continue
 [ABAP Objects - Stricter Syntax Rules](javascript:call_link\('abenabap_objects_strict.htm'\))
 
 
+
+**📖 Source**: [abenabap_objects_statements.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_statements.htm)
+
 ### abendefining_classes_interfaces.htm
+
+> **📖 Official SAP Documentation**: [abendefining_classes_interfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendefining_classes_interfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendefining_classes_interfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendefining_classes_interfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -121,7 +159,18 @@ No statements other than those specified above are necessary for defining classe
 The [stricter syntax](javascript:call_link\('abenabap_objects_strict.htm'\)) in ABAP Objects applies to all statements for class and interface definitions.
 
 
+
+**📖 Source**: [abendefining_classes_interfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendefining_classes_interfaces.htm)
+
 ### abendefining_methods.htm
+
+> **📖 Official SAP Documentation**: [abendefining_methods.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendefining_methods.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendefining_methods.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendefining_methods.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -141,7 +190,18 @@ The functions of classes are implemented in methods, that is, between METHOD - E
 The statements allowed in methods include the entire ABAP language range that is allowed in all procedures. It must be noted, however, that all statements in methods are subject to the [stricter syntax](javascript:call_link\('abenabap_objects_strict.htm'\)) of ABAP Objects.
 
 
+
+**📖 Source**: [abendefining_methods.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendefining_methods.htm)
+
 ### abenclass_interace_pools.htm
+
+> **📖 Official SAP Documentation**: [abenclass_interace_pools.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_interace_pools.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenclass_interace_pools.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_interace_pools.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -234,7 +294,18 @@ The following restrictions are particularly important:
     [Extract data sets](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry") cannot be processed in global classes since the defining statement [FIELD-GROUPS](javascript:call_link\('abapfield-groups.htm'\)) is forbidden in class or interface pools.
 
 
+
+**📖 Source**: [abenclass_interace_pools.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_interace_pools.htm)
+
 ### abenobjects_keywords.htm
+
+> **📖 Official SAP Documentation**: [abenobjects_keywords.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobjects_keywords.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenobjects_keywords.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobjects_keywords.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -319,7 +390,21 @@ Raises an [event](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry
 Registers an [event](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry")
 
 
+
+**📖 Source**: [abenobjects_keywords.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobjects_keywords.htm)
+
 ### abenabap_objects_strict.htm
+
+> **📖 Official SAP Documentation**: [abenabap_objects_strict.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_strict.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_objects_strict.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_strict.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabap_objects_strict.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects_strict.htm)
+
 
   
 

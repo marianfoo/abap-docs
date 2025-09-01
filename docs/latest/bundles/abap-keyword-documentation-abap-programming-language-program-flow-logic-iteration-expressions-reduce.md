@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenconstructor_expression_reduce.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_reduce.htm)
+- [abenreduce_constructor_inference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreduce_constructor_inference.htm)
+- [abenreduce_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreduce_type_inference_abexa.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.945Z
+
+---
+
 ### abenconstructor_expression_reduce.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_reduce.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_reduce.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -103,7 +123,14 @@ Continue
 ![Example](exa.gif "Example") [Reduce Operator, Type Inference](javascript:call_link\('abenreduce_type_inference_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_reduce.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_reduce.htm)
+
 ### abenreduce_constructor_inference.htm
+
+> **📖 Official SAP Documentation**: [abenreduce_constructor_inference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreduce_constructor_inference.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -164,7 +191,17 @@ Executable Example
 [Reduce Operator, Type Inference](javascript:call_link\('abenreduce_type_inference_abexa.htm'\))
 
 
+
+**📖 Source**: [abenreduce_constructor_inference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreduce_constructor_inference.htm)
+
 ### abenreduce_type_inference_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenreduce_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreduce_type_inference_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenreduce_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreduce_type_inference_abexa.htm)
+
 
   
 

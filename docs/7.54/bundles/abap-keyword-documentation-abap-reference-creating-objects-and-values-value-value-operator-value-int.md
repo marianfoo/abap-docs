@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenvalue_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_constructor_params_itab.htm)
+- [abenvalue_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_constructor_params_lspc.htm)
+- [abenvalue_itab_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_itab_abexa.htm)
+- [abenvalue_itab_let_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_itab_let_abexa.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.940Z
+
+---
+
 ### abenvalue_constructor_params_itab.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_constructor_params_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -211,7 +232,14 @@ Continue
 ![Example](exa.gif "Example") [VALUE - Operator with LET for Internal Tables](javascript:call_link\('abenvalue_itab_let_abexa.htm'\))
 
 
+
+**📖 Source**: [abenvalue_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_constructor_params_itab.htm)
+
 ### abenvalue_constructor_params_lspc.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_constructor_params_lspc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -329,7 +357,14 @@ DATA(itab) = VALUE t\_itab( ( ) ( 1 ) ( 2 ) ( LINES OF jtab ) ).
 cl\_demo\_output=>display( itab ).
 
 
+
+**📖 Source**: [abenvalue_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_constructor_params_lspc.htm)
+
 ### abenvalue_itab_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_itab_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -394,7 +429,17 @@ The example shows various effects when using the left side of an assignment in s
 -   In the construction of itab4, the left side is saved in the helper variable x before it is initialized. It is then used in LINES OF. The result is the same as when the left side is used after BASE.
 
 
+
+**📖 Source**: [abenvalue_itab_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_itab_abexa.htm)
+
 ### abenvalue_itab_let_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_let_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_itab_let_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenvalue_itab_let_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_itab_let_abexa.htm)
+
 
   
 

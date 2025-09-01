@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenmemory.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmemory.htm)
+- [abapset_parameter.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_parameter.htm)
+- [abapget_parameter.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_parameter.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.939Z
+
+---
+
 ### abenmemory.htm
+
+> **📖 Official SAP Documentation**: [abenmemory.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmemory.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -78,7 +98,14 @@ Continue
 [GET PARAMETER](javascript:call_link\('abapget_parameter.htm'\))
 
 
+
+**📖 Source**: [abenmemory.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmemory.htm)
+
 ### abapset_parameter.htm
+
+> **📖 Official SAP Documentation**: [abapset_parameter.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_parameter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -146,7 +173,17 @@ Non-Handleable Exceptions
     Runtime error: SET\_PARAMETER\_MEMORY\_OVERFLOW
 
 
+
+**📖 Source**: [abapset_parameter.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_parameter.htm)
+
 ### abapget_parameter.htm
+
+> **📖 Official SAP Documentation**: [abapget_parameter.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_parameter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapget_parameter.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_parameter.htm)
+
 
   
 

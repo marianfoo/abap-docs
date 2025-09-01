@@ -10,16 +10,11 @@ Structures in a Nutshell
 
 This cheat sheet provides information and tips on [structures](javascript:call_link\('abenstructure_glosry.htm'\) "Glossary Entry") in a nutshell. Furthermore, it serves as a collection of syntax and code snippets in one place for your reference. For more details, refer to the respective topic in the ABAP Keyword Documentation.
 
--   [Structures ...](#@@ITOC@@ABAPSHEETS_STRUCTURES_1)
--   [Creating structures and structured types](#@@ITOC@@ABAPSHEETS_STRUCTURES_2)
--   [Variants of structures](#@@ITOC@@ABAPSHEETS_STRUCTURES_3)
--   [Working with structures](#@@ITOC@@ABAPSHEETS_STRUCTURES_4)
-    -   [Accessing components of structures](#@@ITOC@@ABAPSHEETS_STRUCTURES_5)
-    -   [Filling structures](#@@ITOC@@ABAPSHEETS_STRUCTURES_6)
-    -   [Clearing structures](#@@ITOC@@ABAPSHEETS_STRUCTURES_7)
-    -   [Structures in use in the context of tables](#@@ITOC@@ABAPSHEETS_STRUCTURES_8)
-    -   [Excursion: Including structures](#@@ITOC@@ABAPSHEETS_STRUCTURES_9)
--   [Demonstration program](#@@ITOC@@ABAPSHEETS_STRUCTURES_10)
+-   [Structures ...](#abapsheets-structures-1-------creating-structures-and-structured-types---@ITOC@@ABAPSHEETS_STRUCTURES_2)
+-   [Variants of structures](#abapsheets-structures-3-------working-with-structures---@ITOC@@ABAPSHEETS_STRUCTURES_4)
+    -   [Accessing components of structures](#abapsheets-structures-5-----------filling-structures---@ITOC@@ABAPSHEETS_STRUCTURES_6)
+    -   [Clearing structures](#abapsheets-structures-7-----------structures-in-use-in-the-context-of-tables---@ITOC@@ABAPSHEETS_STRUCTURES_8)
+    -   [Excursion: Including structures](#abapsheets-structures-9-------demonstration-program---@ITOC@@ABAPSHEETS_STRUCTURES_10)
 
 Structures ...
 

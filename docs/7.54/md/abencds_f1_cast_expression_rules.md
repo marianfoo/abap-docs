@@ -10,17 +10,11 @@ ABAP CDS - cast\_expr, Conversion Rules
 
 The following sections describe the conversion rules for [cast expressions](javascript:call_link\('abencds_f1_cast_expression.htm'\)) in [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry").
 
--   [Numeric Source Type](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_1)
+-   [Numeric Source Type](#abencds-f1-cast-expression-rules-1--------source-types-int1--int2--int4--int8--dec---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_2)
 
--   [Source Types INT1, INT2, INT4, INT8, DEC](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_2)
+-   [Character-Like Source Type](#abencds-f1-cast-expression-rules-3--------source-types-char-and-sstring---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_4)
 
--   [Character-Like Source Type](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_3)
-
--   [Source Types CHAR and SSTRING](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_4)
-
--   [Source Type NUMC](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_5)
-
--   [Source Types DATS and TIMS](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_6)
+-   [Source Type NUMC](#abencds-f1-cast-expression-rules-5--------source-types-dats-and-tims---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_6)
 
 -   [Source Types CLNT, LANG, UNIT, and CUKY](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_7)
 

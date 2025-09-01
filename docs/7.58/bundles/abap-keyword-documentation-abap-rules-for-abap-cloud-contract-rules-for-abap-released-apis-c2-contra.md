@@ -3,7 +3,31 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenc2_contract_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_contract_rules.htm)
+- [abenc2_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules.htm)
+- [abenc2_provider_rules_cds_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules_cds_type.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:29.020Z
+
+---
+
 ### abenc2_contract_rules.htm
+
+> **📖 Official SAP Documentation**: [abenc2_contract_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_contract_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc2_contract_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_contract_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27,7 +51,18 @@ Continue
 [C2 Contract Rules for API Providers](javascript:call_link\('abenc2_provider_rules.htm'\))
 
 
+
+**📖 Source**: [abenc2_contract_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_contract_rules.htm)
+
 ### abenc2_provider_rules.htm
+
+> **📖 Official SAP Documentation**: [abenc2_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc2_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51,7 +86,18 @@ Continue
 [C2 Contract Rules for Providing CDS Types](javascript:call_link\('abenc2_provider_rules_cds_type.htm'\))
 
 
+
+**📖 Source**: [abenc2_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules.htm)
+
 ### abenc2_provider_rules_cds_type.htm
+
+> **📖 Official SAP Documentation**: [abenc2_provider_rules_cds_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules_cds_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc2_provider_rules_cds_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules_cds_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -69,7 +115,21 @@ C2 Contract Rules for Providing CDS Types
 The rules for releasing a [CDS user-defined type](javascript:call_link\('abencds_user_defined_type_glosry.htm'\) "Glossary Entry") with the C2 contract are the same as the C1 contract rules for providing types, see topic [C1 Contract Rules for Providing CDS Types](javascript:call_link\('abenc1_provider_rules_cds_type.htm'\)).
 
 
+
+**📖 Source**: [abenc2_provider_rules_cds_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules_cds_type.htm)
+
 ### abenc2_provider_rules.htm
+
+> **📖 Official SAP Documentation**: [abenc2_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenc2_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenc2_provider_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc2_provider_rules.htm)
+
 
   
 

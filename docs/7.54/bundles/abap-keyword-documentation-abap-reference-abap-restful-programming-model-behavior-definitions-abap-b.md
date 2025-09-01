@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenbdl_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example.htm)
+- [abenbdl_example_root_entity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_root_entity.htm)
+- [abenbdl_example_cds_entity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_cds_entity.htm)
+- [abenbdl_example_data.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_data.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.926Z
+
+---
+
 ### abenbdl_example.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56,7 +77,14 @@ Continue
 [Other entity examples](javascript:call_link\('abenbdl_example_data.htm'\))
 
 
+
+**📖 Source**: [abenbdl_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example.htm)
+
 ### abenbdl_example_root_entity.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_example_root_entity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_root_entity.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -145,7 +173,14 @@ define root view /DMO/I\_Travel
 }
 
 
+
+**📖 Source**: [abenbdl_example_root_entity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_root_entity.htm)
+
 ### abenbdl_example_cds_entity.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_example_cds_entity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_cds_entity.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -233,7 +268,17 @@ define view /DMO/I\_Booking
 }
 
 
+
+**📖 Source**: [abenbdl_example_cds_entity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_cds_entity.htm)
+
 ### abenbdl_example_data.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_example_data.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_data.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenbdl_example_data.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example_data.htm)
+
 
   
 

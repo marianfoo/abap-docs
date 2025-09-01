@@ -10,15 +10,9 @@ ABAP CDS - Obsolete Client Handling in Views
 
 Before the annotation [@ClientHandling](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)) was introduced, the [client dependency](javascript:call_link\('abencds_func_client_handling.htm'\)) of a CDS view was specified using the annotation ClientDependent with the possible values true and false.
 
--   [Determining Client Dependency](#@@ITOC@@ABENCDS_VIEW_CLIENT_HANDLING_OBS_1)
+-   [Determining Client Dependency](#abencds-view-client-handling-obs-1--------determining-client-handling---@ITOC@@ABENCDS_VIEW_CLIENT_HANDLING_OBS_2)
 
--   [Determining Client Handling](#@@ITOC@@ABENCDS_VIEW_CLIENT_HANDLING_OBS_2)
-
--   [Properties of Cross-Client CDS Views](#@@ITOC@@ABENCDS_VIEW_CLIENT_HANDLING_OBS_3)
-
-Determining Client Dependency
-
-The possible values true and false of the obsolete annotation @ClientDependent have the following effects on client dependency:
+-   [Properties of Cross-Client CDS Views](#abencds-view-client-handling-obs-3---determining-client-dependency--the-possible-values-true-and-false-of-the-obsolete-annotation-ClientDependent have the following effects on client dependency:
 
 -   true
 

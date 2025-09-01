@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_structures.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures.htm)
+- [abenddic_structures_tech.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_tech.htm)
+- [abenddic_structures_enh_cat.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_enh_cat.htm)
+- [abenddic_structures_sema.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_sema.htm)
+- [abenddic_include_structure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_include_structure.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.369Z
+
+---
+
 ### abenddic_structures.htm
+
+> **📖 Official SAP Documentation**: [abenddic_structures.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61,7 +83,14 @@ Continue
 [Include Structures](javascript:call_link\('abenddic_include_structure.htm'\))
 
 
+
+**📖 Source**: [abenddic_structures.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures.htm)
+
 ### abenddic_structures_tech.htm
+
+> **📖 Official SAP Documentation**: [abenddic_structures_tech.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_tech.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -113,7 +142,14 @@ Continue
 [Enhancement Category of Structures](javascript:call_link\('abenddic_structures_enh_cat.htm'\))
 
 
+
+**📖 Source**: [abenddic_structures_tech.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_tech.htm)
+
 ### abenddic_structures_enh_cat.htm
+
+> **📖 Official SAP Documentation**: [abenddic_structures_enh_cat.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_enh_cat.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -203,7 +239,14 @@ DATA: my\_struc TYPE ddic\_struc,
 str = my\_struc+off(len).
 
 
+
+**📖 Source**: [abenddic_structures_enh_cat.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_enh_cat.htm)
+
 ### abenddic_structures_tech.htm
+
+> **📖 Official SAP Documentation**: [abenddic_structures_tech.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_tech.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -255,7 +298,14 @@ Continue
 [Enhancement Category of Structures](javascript:call_link\('abenddic_structures_enh_cat.htm'\))
 
 
+
+**📖 Source**: [abenddic_structures_tech.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_tech.htm)
+
 ### abenddic_structures_sema.htm
+
+> **📖 Official SAP Documentation**: [abenddic_structures_sema.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_sema.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -306,7 +356,17 @@ Note
 Structure components whose type is defined using [data elements](javascript:call_link\('abenddic_data_elements.htm'\)) and not by being defined directly have the additional semantic attributes of the data elements.
 
 
+
+**📖 Source**: [abenddic_structures_sema.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_sema.htm)
+
 ### abenddic_include_structure.htm
+
+> **📖 Official SAP Documentation**: [abenddic_include_structure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_include_structure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_include_structure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_include_structure.htm)
+
 
   
 

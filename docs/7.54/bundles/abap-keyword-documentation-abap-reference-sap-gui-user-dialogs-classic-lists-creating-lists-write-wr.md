@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapwrite_list_elements.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwrite_list_elements.htm)
+- [abenlist_line_elements_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlist_line_elements_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.988Z
+
+---
+
 ### abapwrite_list_elements.htm
+
+> **📖 Official SAP Documentation**: [abapwrite_list_elements.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwrite_list_elements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -217,7 +236,17 @@ Continue
 ![Example](exa.gif "Example") [Lists, Line Elements](javascript:call_link\('abenlist_line_elements_abexa.htm'\))
 
 
+
+**📖 Source**: [abapwrite_list_elements.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwrite_list_elements.htm)
+
 ### abenlist_line_elements_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlist_line_elements_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlist_line_elements_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenlist_line_elements_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlist_line_elements_abexa.htm)
+
 
   
 

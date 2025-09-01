@@ -3,7 +3,28 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_builtin_types_special.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types_special.htm)
+- [abenddic_date_time_types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_date_time_types.htm)
+- [abenddic_special_character_types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_special_character_types.htm)
+- [abenddic_currency_field.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_currency_field.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.202Z
+
+---
+
 ### abenddic_builtin_types_special.htm
+
+> **📖 Official SAP Documentation**: [abenddic_builtin_types_special.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types_special.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32,7 +53,14 @@ Continue
 [DDIC - Geodata Types](javascript:call_link\('abenddic_geo_data.htm'\))
 
 
+
+**📖 Source**: [abenddic_builtin_types_special.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types_special.htm)
+
 ### abenddic_date_time_types.htm
+
+> **📖 Official SAP Documentation**: [abenddic_date_time_types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_date_time_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -91,7 +119,14 @@ Hints
 -   When a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") is represented with reference to the type ACCP (but not in the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\))) and there is enough output length, a point is inserted between the year YYYY and the month MM.
 
 
+
+**📖 Source**: [abenddic_date_time_types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_date_time_types.htm)
+
 ### abenddic_special_character_types.htm
+
+> **📖 Official SAP Documentation**: [abenddic_special_character_types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_special_character_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -126,7 +161,17 @@ Hint
 When the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) are used to represent a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") with the type LANG (and when a field that references this type is formatted), this field has an output length of 2 and is converted automatically from the single-character internal language ID to the matching two-character ISO ID using the [conversion routine](javascript:call_link\('abenconversion_routine_glosry.htm'\) "Glossary Entry") ISOLA (and back).
 
 
+
+**📖 Source**: [abenddic_special_character_types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_special_character_types.htm)
+
 ### abenddic_currency_field.htm
+
+> **📖 Official SAP Documentation**: [abenddic_currency_field.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_currency_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_currency_field.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_currency_field.htm)
+
 
   
 

@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencheck_correctness_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencheck_correctness_gdl.htm)
+- [abensyntax_check_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensyntax_check_guidl.htm)
+- [abenextended_program_check_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextended_program_check_guidl.htm)
+- [abencode_inspector_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencode_inspector_guidl.htm)
+- [abenabap-testcockpit_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap-testcockpit_guidl.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.885Z
+
+---
+
 ### abencheck_correctness_gdl.htm
+
+> **📖 Official SAP Documentation**: [abencheck_correctness_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencheck_correctness_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +53,14 @@ Continue
 [ABAP Test Cockpit](javascript:call_link\('abenabap-testcockpit_guidl.htm'\))
 
 
+
+**📖 Source**: [abencheck_correctness_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencheck_correctness_gdl.htm)
+
 ### abensyntax_check_guidl.htm
+
+> **📖 Official SAP Documentation**: [abensyntax_check_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensyntax_check_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -103,7 +132,14 @@ ASSIGN itab\[ KEY cities
              COMPONENTS cityfrom = '...' cityto = '...' \] TO <fs>.
 
 
+
+**📖 Source**: [abensyntax_check_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensyntax_check_guidl.htm)
+
 ### abenextended_program_check_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenextended_program_check_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextended_program_check_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -174,7 +210,14 @@ IF <fs> IS ASSIGNED.
 ENDIF.
 
 
+
+**📖 Source**: [abenextended_program_check_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextended_program_check_guidl.htm)
+
 ### abencode_inspector_guidl.htm
+
+> **📖 Official SAP Documentation**: [abencode_inspector_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencode_inspector_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -285,7 +328,17 @@ CLASS class IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abencode_inspector_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencode_inspector_guidl.htm)
+
 ### abenabap-testcockpit_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenabap-testcockpit_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap-testcockpit_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabap-testcockpit_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap-testcockpit_guidl.htm)
+
 
   
 

@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenformatting_code_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenformatting_code_guidl.htm)
+- [abenlower_upper_case_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlower_upper_case_guidl.htm)
+- [abenstatement_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatement_guidl.htm)
+- [abenuse_pretty_printer_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuse_pretty_printer_guidl.htm)
+- [abenline_width_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenline_width_guidl.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.412Z
+
+---
+
 ### abenformatting_code_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenformatting_code_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenformatting_code_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32,7 +54,14 @@ Continue
 [Line Width](javascript:call_link\('abenline_width_guidl.htm'\))
 
 
+
+**📖 Source**: [abenformatting_code_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenformatting_code_guidl.htm)
+
 ### abenlower_upper_case_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenlower_upper_case_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlower_upper_case_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -79,7 +108,14 @@ Note
 The built-in character string functions, to\_mixed and from\_mixed, allow conversions between names in ABAP style with underscores and names in mixed case style or camel case style, which can be helpful for data exchange with external systems.
 
 
+
+**📖 Source**: [abenlower_upper_case_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlower_upper_case_guidl.htm)
+
 ### abenstatement_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenstatement_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatement_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -150,7 +186,14 @@ CLASS class IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abenstatement_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatement_guidl.htm)
+
 ### abenuse_pretty_printer_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenuse_pretty_printer_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuse_pretty_printer_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -234,7 +277,17 @@ endmethod.
 endclass.
 
 
+
+**📖 Source**: [abenuse_pretty_printer_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuse_pretty_printer_guidl.htm)
+
 ### abenline_width_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenline_width_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenline_width_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenline_width_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenline_width_guidl.htm)
+
 
   
 

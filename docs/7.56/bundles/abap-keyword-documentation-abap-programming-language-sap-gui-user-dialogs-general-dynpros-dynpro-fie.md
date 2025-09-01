@@ -3,7 +3,29 @@
 Included pages: 15
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_dynpros_help.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_help.htm)
+- [abenabap_dynpros_field_help.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_field_help.htm)
+- [abendynpro_drop1_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_drop1_abexa.htm)
+- [abendynpro_drop2_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_drop2_abexa.htm)
+- [abeninput_help_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_help_abexas.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.504Z
+
+---
+
 ### abenabap_dynpros_help.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_help.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_help.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35,7 +57,14 @@ Continue
 [dynpro - Field Helps, Input Helps, and Dropdown List Boxes](javascript:call_link\('abeninput_help_abexas.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_help.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_help.htm)
+
 ### abenabap_dynpros_field_help.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_field_help.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_field_help.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -83,7 +112,14 @@ When selecting the F4 help for the individual fields, the user is shown the foll
 -   For the connection, the module value\_connection is called at POV. There, the function module DYNP\_VALUES\_READ passes the value of the dynpro field carrier to the program. SELECT then extracts the matching values from the database table SPFLI into the internal table values\_tab and passes them to the function module F4IF\_INT\_TABLE\_VALUE\_REQUEST. The function module displays these values as an input help and passes the selection of the user to the dynpro field connection.
 
 
+
+**📖 Source**: [abenabap_dynpros_field_help.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_field_help.htm)
+
 ### abendynpro_drop1_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_drop1_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_drop1_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -173,7 +209,14 @@ The user is not allowed to enter values in the screen field. When the user selec
 When the user selects a line in the list box, the PAI event is raised using the function code SELECTED and the value in the first column of the internal table is copied to the input field.
 
 
+
+**📖 Source**: [abendynpro_drop1_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_drop1_abexa.htm)
+
 ### abendynpro_drop2_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_drop2_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_drop2_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -265,7 +308,17 @@ The user is not allowed to enter values in the screen fields. When selecting the
 At the PBO event of dynpro 200, an internal table called list is filled with values from the database table SPFLI. The key component is filled with the flight connection numbers, and other relevant information is stored in the text field. The list table is passed to the VRM\_SET\_VALUES function module. When the user selects the input field on dynpro 200, the text column of the internal table is displayed in the list box. When the user selects an entry, the dynpro field is filled with the associated entry from the key column, and the event PAI is raised. The module user\_command\_200 checks and processes the OK field.
 
 
+
+**📖 Source**: [abendynpro_drop2_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_drop2_abexa.htm)
+
 ### abeninput_help_abexas.htm
+
+> **📖 Official SAP Documentation**: [abeninput_help_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_help_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abeninput_help_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_help_abexas.htm)
+
 
   
 

@@ -13,14 +13,10 @@ ABAP SQL - Streaming
 
 ABAP SQL supports [streaming](javascript:call_link\('abenstreaming_glosry.htm'\) "Glossary Entry") for [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") in data sources.
 
--   [System Classes and System Interfaces for Reader and Writer Streams](#@@ITOC@@ABENABAP_SQL_STREAMING_1)
--   [Important Methods](#@@ITOC@@ABENABAP_SQL_STREAMING_2)
--   [Data Sources and Data Sinks](#@@ITOC@@ABENABAP_SQL_STREAMING_3)
--   [Creating Data Streams for LOBs](#@@ITOC@@ABENABAP_SQL_STREAMING_4)
-    -   [Reader Streams](#@@ITOC@@ABENABAP_SQL_STREAMING_5)
-    -   [Writer Streams](#@@ITOC@@ABENABAP_SQL_STREAMING_6)
--   [Closing Data Streams for LOBs](#@@ITOC@@ABENABAP_SQL_STREAMING_7)
--   [Examples](#@@ITOC@@ABENABAP_SQL_STREAMING_8)
+-   [System Classes and System Interfaces for Reader and Writer Streams](#abenabap-sql-streaming-1-------important-methods---@ITOC@@ABENABAP_SQL_STREAMING_2)
+-   [Data Sources and Data Sinks](#abenabap-sql-streaming-3-------creating-data-streams-for-lobs---@ITOC@@ABENABAP_SQL_STREAMING_4)
+    -   [Reader Streams](#abenabap-sql-streaming-5-----------writer-streams---@ITOC@@ABENABAP_SQL_STREAMING_6)
+-   [Closing Data Streams for LOBs](#abenabap-sql-streaming-7-------examples---@ITOC@@ABENABAP_SQL_STREAMING_8)
 
 System Classes and System Interfaces for Reader and Writer Streams   
 

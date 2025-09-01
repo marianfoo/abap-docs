@@ -3,7 +3,30 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenicf.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf.htm)
+- [abenicf_post_service_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_post_service_abexa.htm)
+- [abenicf_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_client_abexa.htm)
+- [abenicf_mime_pictures_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_mime_pictures_abexa.htm)
+- [abenhttp_mime_pictures_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhttp_mime_pictures_abexa.htm)
+- [abenicf_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_abexas.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.186Z
+
+---
+
 ### abenicf.htm
+
+> **📖 Official SAP Documentation**: [abenicf.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41,7 +64,14 @@ Note
 The HTTP service must be activated in transaction SICF before the example can work.
 
 
+
+**📖 Source**: [abenicf.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf.htm)
+
 ### abenicf_post_service_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenicf_post_service_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_post_service_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -102,7 +132,14 @@ Note
 The HTTP service must be activated in transaction SICF before the example can work.
 
 
+
+**📖 Source**: [abenicf_post_service_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_post_service_abexa.htm)
+
 ### abenicf_client_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenicf_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_client_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -175,7 +212,14 @@ Note
 The proxy setting for the HTTP client must be configured correctly in transaction SICF before this example can work.
 
 
+
+**📖 Source**: [abenicf_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_client_abexa.htm)
+
 ### abenicf_mime_pictures_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenicf_mime_pictures_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_mime_pictures_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -233,7 +277,14 @@ The example contains the node /sap/public/bc/abap/mime\_demo in both the transac
 See also the [executable example](javascript:call_link\('abenmime_pictures_abexa.htm'\)) for accessing objects from the MIME repository using the associated API.
 
 
+
+**📖 Source**: [abenicf_mime_pictures_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_mime_pictures_abexa.htm)
+
 ### abenhttp_mime_pictures_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhttp_mime_pictures_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhttp_mime_pictures_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -299,7 +350,17 @@ The HTTP service /sap/bc/abap/demo\_mime can be called with different contents o
 -   If the form field has the value api, the handler class CL\_HTTP\_EXT\_MIME\_DEMO creates the HTML file and also the image that is referenced in the HTML file. The image is loaded and forwarded using MIME-API.
 
 
+
+**📖 Source**: [abenhttp_mime_pictures_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhttp_mime_pictures_abexa.htm)
+
 ### abenicf_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenicf_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenicf_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_abexas.htm)
+
 
   
 

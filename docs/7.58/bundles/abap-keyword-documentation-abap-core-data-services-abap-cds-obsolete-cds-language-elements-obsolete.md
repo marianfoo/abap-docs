@@ -3,7 +3,35 @@
 Included pages: 9
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_v1.htm)
+- [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v1.htm)
+- [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_card_v1.htm)
+- [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_jointype_v1.htm)
+- [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v1.htm)
+- [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cond_expr_filter_v1.htm)
+- [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_assoc_join_v1_abexa.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.913Z
+
+---
+
 ### abencds_path_expression_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -144,7 +172,18 @@ Continue
 ![Example](exa.gif "Example") [CDS DDL - DDIC-Based View, Joins of Associations](javascript:call_link\('abencds_assoc_join_v1_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_v1.htm)
+
 ### abencds_path_expr_attr_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -177,7 +216,18 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](javascript:call_link\('abencds_path_expression_filter_v1.htm'\))
 
 
+
+**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v1.htm)
+
 ### abencds_path_expr_card_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_card_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_card_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -212,7 +262,18 @@ Hint
 The addition 1: prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](javascript:call_link\('abencds_where_clause_v1.htm'\)) clause or [HAVING](javascript:call_link\('abencds_having_clause_v1.htm'\)) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
 
 
+
+**📖 Source**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_card_v1.htm)
+
 ### abencds_path_expr_jointype_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_jointype_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_jointype_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -252,7 +313,18 @@ Executable Example
 [Joins of CDS Associations](javascript:call_link\('abencds_assoc_join_v1_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_jointype_v1.htm)
+
 ### abencds_path_expression_filter_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -442,7 +514,18 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](javascript:call_link\('abencds_cond_expr_filter_v1.htm'\))
 
 
+
+**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v1.htm)
+
 ### abencds_cond_expr_filter_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cond_expr_filter_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cond_expr_filter_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -467,7 +550,18 @@ Rules for conditions [cds\_cond](javascript:call_link\('abencds_conditional_expr
 -   No path expressions or other expressions or function calls can be specified.
 
 
+
+**📖 Source**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cond_expr_filter_v1.htm)
+
 ### abencds_path_expression_filter_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -657,7 +751,18 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](javascript:call_link\('abencds_cond_expr_filter_v1.htm'\))
 
 
+
+**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v1.htm)
+
 ### abencds_path_expr_attr_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -690,7 +795,21 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](javascript:call_link\('abencds_path_expression_filter_v1.htm'\))
 
 
+
+**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v1.htm)
+
 ### abencds_assoc_join_v1_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_assoc_join_v1_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_assoc_join_v1_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_assoc_join_v1_abexa.htm)
+
 
   
 

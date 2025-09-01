@@ -3,7 +3,31 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenmesh_path_result.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result.htm)
+- [abenmesh_path_result_init_assoc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result_init_assoc.htm)
+- [abenmesh_path_result_chaining.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result_chaining.htm)
+- [abenmesh_path_result_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result_abexas.htm)
+- [abenmesh_for_forward_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_for_forward_abexa.htm)
+- [abenmesh_for_inverse_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_for_inverse_abexa.htm)
+- [abenmesh_for_reflex_sngl_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_for_reflex_sngl_abexa.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.495Z
+
+---
+
 ### abenmesh_path_result.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_path_result.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33,7 +57,14 @@ Continue
 [Meshes - Example of Results of Mesh Paths](javascript:call_link\('abenmesh_path_result_abexas.htm'\))
 
 
+
+**📖 Source**: [abenmesh_path_result.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result.htm)
+
 ### abenmesh_path_result_init_assoc.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_path_result_init_assoc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result_init_assoc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -64,7 +95,14 @@ Executable Examples
 [Results of Mesh Paths](javascript:call_link\('abenmesh_path_result_abexas.htm'\))
 
 
+
+**📖 Source**: [abenmesh_path_result_init_assoc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result_init_assoc.htm)
+
 ### abenmesh_path_result_chaining.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_path_result_chaining.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result_chaining.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -97,7 +135,14 @@ Executable Example
 [Results of Mesh Paths](javascript:call_link\('abenmesh_path_result_abexas.htm'\))
 
 
+
+**📖 Source**: [abenmesh_path_result_chaining.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result_chaining.htm)
+
 ### abenmesh_path_result_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_path_result_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -115,7 +160,14 @@ Continue
 ![Example](exa.gif "Example") [Reflexive Associations in Mesh Paths](javascript:call_link\('abenmesh_for_reflex_sngl_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmesh_path_result_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result_abexas.htm)
+
 ### abenmesh_for_forward_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_for_forward_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_for_forward_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -229,7 +281,14 @@ Description
 [Table comprehensions](javascript:call_link\('abenmesh_for.htm'\)) are used to construct and return internal tables that are described using forward associations in the mesh nodesmesh-node2 and mesh-node3.
 
 
+
+**📖 Source**: [abenmesh_for_forward_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_for_forward_abexa.htm)
+
 ### abenmesh_for_inverse_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_for_inverse_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_for_inverse_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -344,7 +403,14 @@ Description
 [Table comprehensions](javascript:call_link\('abenmesh_for.htm'\)) are used to construct and return internal tables that are described using inverse associations in the mesh nodesmesh-node2 and mesh-node1.
 
 
+
+**📖 Source**: [abenmesh_for_inverse_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_for_inverse_abexa.htm)
+
 ### abenmesh_for_reflex_sngl_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_for_reflex_sngl_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_for_reflex_sngl_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -450,7 +516,17 @@ mesh-node\\\_node\*\[ mesh-node\[ id = id \] \]
 The results set also includes the row described by source.
 
 
+
+**📖 Source**: [abenmesh_for_reflex_sngl_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_for_reflex_sngl_abexa.htm)
+
 ### abenmesh_path_result_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_path_result_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenmesh_path_result_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result_abexas.htm)
+
 
   
 

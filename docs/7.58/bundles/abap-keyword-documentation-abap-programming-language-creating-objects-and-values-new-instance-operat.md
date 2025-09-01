@@ -3,7 +3,30 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennew_constructor_params_class.htm)
+- [abennew_on_the_left_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennew_on_the_left_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.941Z
+
+---
+
 ### abennew_constructor_params_class.htm
+
+> **📖 Official SAP Documentation**: [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennew_constructor_params_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennew_constructor_params_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -157,7 +180,21 @@ Continue
 ![Example](exa.gif "Example") [Instance Operator NEW on the Left](javascript:call_link\('abennew_on_the_left_abexa.htm'\))
 
 
+
+**📖 Source**: [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennew_constructor_params_class.htm)
+
 ### abennew_on_the_left_abexa.htm
+
+> **📖 Official SAP Documentation**: [abennew_on_the_left_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennew_on_the_left_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennew_on_the_left_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennew_on_the_left_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennew_on_the_left_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennew_on_the_left_abexa.htm)
+
 
   
 

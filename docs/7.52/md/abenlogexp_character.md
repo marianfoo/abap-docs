@@ -10,13 +10,9 @@ rel\_exp - Comparison Type of Character-Like Data Objects
 
 The following tables show the [comparison types](javascript:call_link\('abencomparison_type_glosry.htm'\) "Glossary Entry") for comparisons between character-like data types and other data types. If the type of an operand is not the same as the comparison type, it is [converted](javascript:call_link\('abenconversion_elementary.htm'\)) to this type. The [comparison rules for the comparison types](javascript:call_link\('abencomparison_type.htm'\)) determine how the comparison is performed. If no comparison type is specified for a combination, no comparison is possible.
 
--   [Comparisons with Numeric Data Types](#@@ITOC@@ABENLOGEXP_CHARACTER_1)
+-   [Comparisons with Numeric Data Types](#abenlogexp-character-1--------comparisons-with-character-like-data-types---@ITOC@@ABENLOGEXP_CHARACTER_2)
 
--   [Comparisons with Character-Like Data Types](#@@ITOC@@ABENLOGEXP_CHARACTER_2)
-
--   [Comparisons with Byte-Like Data Types](#@@ITOC@@ABENLOGEXP_CHARACTER_3)
-
--   [Comparisons with Date/Time Types](#@@ITOC@@ABENLOGEXP_CHARACTER_4)
+-   [Comparisons with Byte-Like Data Types](#abenlogexp-character-3--------comparisons-with-date-time-types---@ITOC@@ABENLOGEXP_CHARACTER_4)
 
 Comparisons with Numeric Data Types
 

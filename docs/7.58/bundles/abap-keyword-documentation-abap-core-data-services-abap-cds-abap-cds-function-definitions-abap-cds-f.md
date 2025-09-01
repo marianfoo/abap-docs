@@ -3,7 +3,32 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_sql_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sql_scalar_function.htm)
+- [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm)
+- [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm)
+- [abencds_with_reference_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_with_reference_type.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.908Z
+
+---
+
 ### abencds_sql_scalar_function.htm
+
+> **📖 Official SAP Documentation**: [abencds_sql_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sql_scalar_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_sql_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sql_scalar_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36,7 +61,18 @@ Continue
 [CDS FDL - DEFINE SCALAR FUNCTION](javascript:call_link\('abencds_define_scalar_function.htm'\))
 
 
+
+**📖 Source**: [abencds_sql_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sql_scalar_function.htm)
+
 ### abencds_define_scalar_function.htm
+
+> **📖 Official SAP Documentation**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -143,7 +179,18 @@ Continue
 [CDS FDL - typing](javascript:call_link\('abencds_scalar_typing.htm'\))
 
 
+
+**📖 Source**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm)
+
 ### abencds_scalar_typing.htm
+
+> **📖 Official SAP Documentation**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -274,7 +321,18 @@ Continue
 [CDS FDL - WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))
 
 
+
+**📖 Source**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm)
+
 ### abencds_with_reference_type.htm
+
+> **📖 Official SAP Documentation**: [abencds_with_reference_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_with_reference_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_with_reference_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_with_reference_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -438,7 +496,18 @@ The reference type of the input parameter or return parameter can be defined dyn
 -   For input parameters, the ELSE branch is optional. For the return parameter, the ELSE branch is mandatory.
 
 
+
+**📖 Source**: [abencds_with_reference_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_with_reference_type.htm)
+
 ### abencds_scalar_typing.htm
+
+> **📖 Official SAP Documentation**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -569,7 +638,21 @@ Continue
 [CDS FDL - WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))
 
 
+
+**📖 Source**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm)
+
 ### abencds_define_scalar_function.htm
+
+> **📖 Official SAP Documentation**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm)
+
 
   
 

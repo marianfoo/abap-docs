@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenmesh_delete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_delete.htm)
+- [abenmesh_delete_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_delete_table_abexa.htm)
+- [abenmesh_delete_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_delete_abexa.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.216Z
+
+---
+
 ### abenmesh_delete.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_delete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_delete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -84,7 +104,14 @@ Continue
 ![Example](exa.gif "Example") [Deleting Multiple Rows in Mesh Paths](javascript:call_link\('abenmesh_delete_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmesh_delete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_delete.htm)
+
 ### abenmesh_delete_table_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_delete_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_delete_table_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -189,7 +216,17 @@ DELETE TABLE mesh-node1\\\_node2\[ mesh-node1\[ 3 \] \]
 The row of node mesh-node2, identified starting with the third row of node mesh-node1 using the initial association \\\_node2, is deleted. Since the ON condition does not cover the secondary key mkey, the missing key field must be specified using addition FROM wa.
 
 
+
+**📖 Source**: [abenmesh_delete_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_delete_table_abexa.htm)
+
 ### abenmesh_delete_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_delete_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_delete_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenmesh_delete_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_delete_abexa.htm)
+
 
   
 

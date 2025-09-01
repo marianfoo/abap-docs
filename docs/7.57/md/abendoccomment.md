@@ -19,15 +19,9 @@ Effect
 
 A comment for ABAP Doc is introduced by the string "!. This is a special form of a regular [line end comment](javascript:call_link\('abencomment.htm'\)) that is introduced by ". ABAP Doc allows [declarations](javascript:call_link\('abendeclaration_glosry.htm'\) "Glossary Entry") in ABAP programs to be documented, based on special ABAP Doc comments. In tools of an [ABAP development environment](javascript:call_link\('abenabap_dev_envir_glosry.htm'\) "Glossary Entry"), such as [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), that support [ABAP Doc](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), the content of ABAP Doc comments is evaluated, converted to HTML, and then displayed appropriately.
 
--   [Rules for ABAP Doc Comments](#@@ITOC@@ABENDOCCOMMENT_1)
--   [Parameter Interface of Procedures](#@@ITOC@@ABENDOCCOMMENT_2)
--   [Formatting](#@@ITOC@@ABENDOCCOMMENT_3)
--   [Short Texts and Their Synchronization](#@@ITOC@@ABENDOCCOMMENT_4)
--   [Documentation Links](#@@ITOC@@ABENDOCCOMMENT_5)
-
-Hint
-
-A special ABAP Doc comment ["! @testing ...](javascript:call_link\('abentest_relations.htm'\)) can be used to define a [test relation](javascript:call_link\('abentest_relation_glosry.htm'\) "Glossary Entry") between a [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") or a [test method](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") and another repository object.
+-   [Rules for ABAP Doc Comments](#abendoccomment-1-------parameter-interface-of-procedures---@ITOC@@ABENDOCCOMMENT_2)
+-   [Formatting](#abendoccomment-3-------short-texts-and-their-synchronization---@ITOC@@ABENDOCCOMMENT_4)
+-   [Documentation Links](#abendoccomment-5---hint--a-special-abap-doc-comment-----testing ...](javascript:call_link\('abentest_relations.htm'\)) can be used to define a [test relation](javascript:call_link\('abentest_relation_glosry.htm'\) "Glossary Entry") between a [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") or a [test method](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") and another repository object.
 
 Rules for ABAP Doc Comments   
 

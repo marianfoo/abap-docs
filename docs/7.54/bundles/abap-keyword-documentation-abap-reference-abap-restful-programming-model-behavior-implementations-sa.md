@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenrpm_saver_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_saver_class.htm)
+- [abensaver_finalize.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_finalize.htm)
+- [abensaver_check_before_save.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_check_before_save.htm)
+- [abensaver_adjust_numbers.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_adjust_numbers.htm)
+- [abensaver_method_save.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_method_save.htm)
+- [abensaver_method_cleanup.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_method_cleanup.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.928Z
+
+---
+
 ### abenrpm_saver_class.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_saver_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_saver_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -129,7 +152,14 @@ Continue
 [CLEANUP method](javascript:call_link\('abensaver_method_cleanup.htm'\))
 
 
+
+**📖 Source**: [abenrpm_saver_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_saver_class.htm)
+
 ### abensaver_finalize.htm
+
+> **📖 Official SAP Documentation**: [abensaver_finalize.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_finalize.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -156,7 +186,14 @@ Remarks
 -   The implementation of the method finalize is not mandatory.
 
 
+
+**📖 Source**: [abensaver_finalize.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_finalize.htm)
+
 ### abensaver_check_before_save.htm
+
+> **📖 Official SAP Documentation**: [abensaver_check_before_save.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_check_before_save.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -183,7 +220,14 @@ Remarks
 -   The implementation of the method check\_before\_save is not mandatory.
 
 
+
+**📖 Source**: [abensaver_check_before_save.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_check_before_save.htm)
+
 ### abensaver_adjust_numbers.htm
+
+> **📖 Official SAP Documentation**: [abensaver_adjust_numbers.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_adjust_numbers.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -214,7 +258,14 @@ Tip
 Ideally, the late numbering is implemented separately from the save. In many legacy applications, however, the final numbers are determined during the save. In this case, we recommend implementing the save logic in the method adjust\_numbers and leaving the method save empty.
 
 
+
+**📖 Source**: [abensaver_adjust_numbers.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_adjust_numbers.htm)
+
 ### abensaver_method_save.htm
+
+> **📖 Official SAP Documentation**: [abensaver_method_save.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_method_save.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -257,7 +308,17 @@ FUNCTION /dmo/flight\_travel\_save.
 ENDFUNCTION.
 
 
+
+**📖 Source**: [abensaver_method_save.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_method_save.htm)
+
 ### abensaver_method_cleanup.htm
+
+> **📖 Official SAP Documentation**: [abensaver_method_cleanup.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_method_cleanup.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abensaver_method_cleanup.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensaver_method_cleanup.htm)
+
 
   
 

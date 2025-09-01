@@ -14,8 +14,7 @@ A quantity field is a component of a DDIC structure, DDIC database table, or DDI
 
 The unit key defines the unit and the number of decimal places. It is a component of a DDIC structure, DDIC database table, or DDIC view of type UNIT and can contain a [unit ID](javascript:call_link\('abenunit_id_glosry.htm'\) "Glossary Entry") from the DDIC database table T006.
 
--   [Handling in ABAP Dictionary](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_1)
--   [Handling in Dynpros](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_2)
+-   [Handling in ABAP Dictionary](#abenddic-quantity-field-1-------handling-in-dynpros---@ITOC@@ABENDDIC_QUANTITY_FIELD_2)
 -   [Handling in ABAP Programs](#@@ITOC@@ABENDDIC_QUANTITY_FIELD_3)
 
 Hints

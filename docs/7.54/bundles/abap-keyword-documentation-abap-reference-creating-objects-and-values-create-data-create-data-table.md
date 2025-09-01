@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapcreate_data_itab.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data_itab.htm)
+- [abencreate_tabular_data_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencreate_tabular_data_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.937Z
+
+---
+
 ### abapcreate_data_itab.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_data_itab.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -78,7 +97,17 @@ Continue
 ![Example](exa.gif "Example") [Creating Tabular Data Objects](javascript:call_link\('abencreate_tabular_data_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_data_itab.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data_itab.htm)
+
 ### abencreate_tabular_data_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencreate_tabular_data_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencreate_tabular_data_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencreate_tabular_data_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencreate_tabular_data_abexa.htm)
+
 
   
 

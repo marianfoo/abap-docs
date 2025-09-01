@@ -13,8 +13,7 @@ CDS DDL - Conceptual Background, Analytical Query
 
 This topic explains some of the conceptual background of analytical data models.
 
--   [Analytical Cube View and Analytical Dimension View](#@@ITOC@@ABENCDS_MEASURE_DIMENSION_APV_1)
--   [Analytical Query](#@@ITOC@@ABENCDS_MEASURE_DIMENSION_APV_2)
+-   [Analytical Cube View and Analytical Dimension View](#abencds-measure-dimension-apv-1-------analytical-query---@ITOC@@ABENCDS_MEASURE_DIMENSION_APV_2)
 
 Analytical Cube View and Analytical Dimension View   
 

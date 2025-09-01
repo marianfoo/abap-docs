@@ -10,9 +10,7 @@ Time Stamp Field with Time Stamp Type
 
 ABAP contains the built-in ABAP type [utclong](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) for time stamps with a precision of 100 nanoseconds. A data object of this time stamp type is a time stamp field. Each valid value of a time stamp field is a [UTC time stamp](javascript:call_link\('abenutc_timestamp_glosry.htm'\) "Glossary Entry") and represents a unique time in [UTC](javascript:call_link\('abenutc_glosry.htm'\) "Glossary Entry") reference time. In accordance with the POSIX standard, [leap seconds](javascript:call_link\('abenleap_second_glosry.htm'\) "Glossary Entry") are not supported, that is, each day has exactly 86400 seconds.
 
--   [Access to Time Stamp Fields](#@@ITOC@@ABENUTCLONG_1)
-
--   [Initial Value of a Time Stamp Field](#@@ITOC@@ABENUTCLONG_2)
+-   [Access to Time Stamp Fields](#abenutclong-1--------initial-value-of-a-time-stamp-field---@ITOC@@ABENUTCLONG_2)
 
 -   [Internal Representation of a Time Stamp in a Time Stamp Field](#@@ITOC@@ABENUTCLONG_3)
 

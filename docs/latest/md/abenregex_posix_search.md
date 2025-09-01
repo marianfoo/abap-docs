@@ -13,12 +13,9 @@ POSIX regex - Search Patterns (obsolete)
 
 A main application of regular expressions is the search for and subsequent [replacement of](javascript:call_link\('abenregex_posix_replace.htm'\)) substrings in character strings. In general, a user is interested in a specific selection of substrings that match a regular expression. In ABAP, searches using regular expressions are implemented using the addition [REGEX](javascript:call_link\('abapfind_pattern.htm'\)) of the statement [FIND](javascript:call_link\('abapfind.htm'\)) or one of the [search functions](javascript:call_link\('abensearch_function_glosry.htm'\) "Glossary Entry"). Here, the found substrings are determined with no overlaps in accordance with the leftmost-longest rule.
 
--   [Leftmost-Longest Rule](#@@ITOC@@ABENREGEX_POSIX_SEARCH_1)
--   [Operators for Search Patterns](#@@ITOC@@ABENREGEX_POSIX_SEARCH_2)
-    -   [Start and End of a Line](#@@ITOC@@ABENREGEX_POSIX_SEARCH_3)
-    -   [Start and End of a Character String](#@@ITOC@@ABENREGEX_POSIX_SEARCH_4)
-    -   [Start and End of a Word](#@@ITOC@@ABENREGEX_POSIX_SEARCH_5)
-    -   [Preview Conditions](#@@ITOC@@ABENREGEX_POSIX_SEARCH_6)
+-   [Leftmost-Longest Rule](#abenregex-posix-search-1-------operators-for-search-patterns---@ITOC@@ABENREGEX_POSIX_SEARCH_2)
+    -   [Start and End of a Line](#abenregex-posix-search-3-----------start-and-end-of-a-character-string---@ITOC@@ABENREGEX_POSIX_SEARCH_4)
+    -   [Start and End of a Word](#abenregex-posix-search-5-----------preview-conditions---@ITOC@@ABENREGEX_POSIX_SEARCH_6)
     -   [Cut Operator](#@@ITOC@@ABENREGEX_POSIX_SEARCH_7)
 
 Leftmost-Longest Rule   

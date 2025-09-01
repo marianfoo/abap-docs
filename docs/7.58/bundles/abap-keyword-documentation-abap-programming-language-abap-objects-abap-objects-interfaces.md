@@ -3,7 +3,30 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abeninterfac.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfac.htm)
+- [abeninterface_composition.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_composition.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.935Z
+
+---
+
 ### abeninterfac.htm
+
+> **📖 Official SAP Documentation**: [abeninterfac.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfac.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abeninterfac.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfac.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -102,7 +125,21 @@ Continue
 [ABAP Objects - Nesting Interfaces](javascript:call_link\('abeninterface_composition.htm'\))
 
 
+
+**📖 Source**: [abeninterfac.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfac.htm)
+
 ### abeninterface_composition.htm
+
+> **📖 Official SAP Documentation**: [abeninterface_composition.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_composition.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abeninterface_composition.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_composition.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abeninterface_composition.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_composition.htm)
+
 
   
 

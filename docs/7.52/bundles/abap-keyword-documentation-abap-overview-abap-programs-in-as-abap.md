@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenorganization_of_modules.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenorganization_of_modules.htm)
+- [abenmemory_organization.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmemory_organization.htm)
+- [abenuser_sessions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_sessions.htm)
+- [abeninternal_session.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.375Z
+
+---
+
 ### abenorganization_of_modules.htm
+
+> **📖 Official SAP Documentation**: [abenorganization_of_modules.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenorganization_of_modules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +50,14 @@ Continue
 [Programs in the Internal Session](javascript:call_link\('abeninternal_session.htm'\))
 
 
+
+**📖 Source**: [abenorganization_of_modules.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenorganization_of_modules.htm)
+
 ### abenmemory_organization.htm
+
+> **📖 Official SAP Documentation**: [abenmemory_organization.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmemory_organization.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -108,7 +136,14 @@ Note
 Instances of classes, with the exception of [shared objects](javascript:call_link\('abenshared_objects_glosry.htm'\) "Glossary Entry"), are located in the internal session. It is therefore not possible to store references to objects in the ABAP memory.
 
 
+
+**📖 Source**: [abenmemory_organization.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmemory_organization.htm)
+
 ### abenuser_sessions.htm
+
+> **📖 Official SAP Documentation**: [abenuser_sessions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_sessions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -179,7 +214,17 @@ From a user session, it is possible to open further user sessions on the same ap
 -   ICF clients and APC clients can address the current application server or other servers as ICF servers or APC servers and hence open new user sessions.
 
 
+
+**📖 Source**: [abenuser_sessions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_sessions.htm)
+
 ### abeninternal_session.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_session.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abeninternal_session.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session.htm)
+
 
   
 

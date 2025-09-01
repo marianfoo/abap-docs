@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_object_services_query.htm)
+- [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_terms.htm)
+- [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_comps.htm)
+- [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_filter_cond.htm)
+- [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_abexa.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.929Z
+
+---
+
 ### abenabap_object_services_query.htm
+
+> **📖 Official SAP Documentation**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_object_services_query.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32,7 +54,14 @@ Continue
 ![Example](exa.gif "Example") [OS - Query Service](javascript:call_link\('abenos_query_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_object_services_query.htm)
+
 ### abenos_query_terms.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_terms.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61,7 +90,14 @@ Hint
 When the result set of a query is determined, the changes that are made to persistent objects in the current transaction are ignored. The query is executed directly in the database.
 
 
+
+**📖 Source**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_terms.htm)
+
 ### abenos_query_comps.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -213,7 +249,14 @@ Methods of the Interface IF\_OS\_QUERY\_EXPR\_FACTORY  
     The attributes used for the sort are appended consecutively when the method APPEND\_ASCENDING or APPEND\_DESCENDING of the additional interface IF\_OS\_QUERY\_ORDERING\_EXPR is called. The parameter name is passed to the parameter I\_ATTR.
 
 
+
+**📖 Source**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_comps.htm)
+
 ### abenos_query_filter_cond.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_filter_cond.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -254,7 +297,17 @@ Example
 price ASCENDING date DESCENDING
 
 
+
+**📖 Source**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_filter_cond.htm)
+
 ### abenos_query_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_abexa.htm)
+
 
   
 

@@ -13,8 +13,7 @@ Assignments Between Data Reference Variables
 
 Data reference variables are either completely typed or typed with the generic type data.
 
--   [Upcasts in Data References](#@@ITOC@@ABENCONVERSION_REFERENCES_DATA_1)
--   [Downcasts in Data References](#@@ITOC@@ABENCONVERSION_REFERENCES_DATA_2)
+-   [Upcasts in Data References](#abenconversion-references-data-1-------downcasts-in-data-references---@ITOC@@ABENCONVERSION_REFERENCES_DATA_2)
 
 Upcasts in Data References   
 

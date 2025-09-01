@@ -7,6 +7,21 @@
 ---
 
 
+
+## 🔗 Complete Source Documentation
+
+**📖 Official Documentation**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+**🏷️ Category**: OOP
+**🔍 Search Specific Topics**: Use `abap_search query:"oop"` for focused results
+**📄 Individual Pages**: All source URLs included in each section below
+
+### 🎯 Quick Navigation
+- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
+- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
+- **Browse by difficulty**: Look for **Difficulty** markers in each section
+
+---
+
 ## ABAP - Keyword Documentation / ABAP - Dictionary (DDIC) / DDIC - Replacement Objects
 
 **Files**: 2 | **Difficulty**: intermediate
@@ -17,6 +32,10 @@ Included pages: 2
 
 
 ### abenddic_replacement_objects.htm
+
+> **📖 Official SAP Documentation**: [abenddic_replacement_objects.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_replacement_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -105,7 +124,14 @@ Continue
 ![Example](exa.gif "Example") [DDIC - Replacement Object for Database Table](javascript:call_link\('abenddic_replacement_object_abexa.htm'\))
 
 
+
+**📖 Source**: [abenddic_replacement_objects.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_replacement_objects.htm)
+
 ### abenddic_replacement_object_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenddic_replacement_object_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_replacement_object_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -248,7 +274,14 @@ This view accesses the replacement object of the DDIC database table DEMO\_SUMDI
 Included pages: 14
 
 
+
+**📖 Source**: [abenddic_replacement_object_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_replacement_object_abexa.htm)
+
 ### abenddic_tuning_objects.htm
+
+> **📖 Official SAP Documentation**: [abenddic_tuning_objects.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_tuning_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -272,7 +305,14 @@ Continue
 [DDIC - Dynamic Caches](javascript:call_link\('abenddic_dynamic_caches.htm'\))
 
 
+
+**📖 Source**: [abenddic_tuning_objects.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_tuning_objects.htm)
+
 ### abenddic_dependency_rules.htm
+
+> **📖 Official SAP Documentation**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_dependency_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -307,7 +347,14 @@ Continue
 [DDIC - Dictionary DDL for Defining Dependency Rules](javascript:call_link\('abenddic_define_dependency_rule.htm'\))
 
 
+
+**📖 Source**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_dependency_rules.htm)
+
 ### abenddic_define_dependency_rule.htm
+
+> **📖 Official SAP Documentation**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_define_dependency_rule.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -335,7 +382,14 @@ Continue
 [DDIC DDL - DEFINE DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_drul.htm'\))
 
 
+
+**📖 Source**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_define_dependency_rule.htm)
+
 ### abenddicddl_define_drul.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_drul.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -389,7 +443,14 @@ Continue
 [DDIC DDL - DEFINE JOIN DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_join_drul.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_drul.htm)
+
 ### abenddicddl_define_filter_drul.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_filter_drul.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_filter_drul.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -520,7 +581,14 @@ ASSERT result1 = result2.
 If the data in the DDIC database table is structured so that in rows where the column VALUE contains values greater than or equal to 30 and the values in the column AREA are greater than or equal to 3, the result sets of both reads are identical. To derive an additional condition with a dependency on the condition value < 40, a further filter dependency rule could be defined for the same DDIC database table.
 
 
+
+**📖 Source**: [abenddicddl_define_filter_drul.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_filter_drul.htm)
+
 ### abenddicddl_define_join_drul.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_join_drul.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_join_drul.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -628,7 +696,14 @@ AND demo\_parts\_4~area <  4
 If the data in the DDIC database tables is structured correctly, the dependency rules do not modify the result set.
 
 
+
+**📖 Source**: [abenddicddl_define_join_drul.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_join_drul.htm)
+
 ### abenddicddl_define_drul.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_drul.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -682,7 +757,14 @@ Continue
 [DDIC DDL - DEFINE JOIN DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_join_drul.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_drul.htm)
+
 ### abenddic_define_dependency_rule.htm
+
+> **📖 Official SAP Documentation**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_define_dependency_rule.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -710,7 +792,14 @@ Continue
 [DDIC DDL - DEFINE DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_drul.htm'\))
 
 
+
+**📖 Source**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_define_dependency_rule.htm)
+
 ### abenddic_dependency_rules.htm
+
+> **📖 Official SAP Documentation**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_dependency_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -745,7 +834,14 @@ Continue
 [DDIC - Dictionary DDL for Defining Dependency Rules](javascript:call_link\('abenddic_define_dependency_rule.htm'\))
 
 
+
+**📖 Source**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_dependency_rules.htm)
+
 ### abenddic_dynamic_caches.htm
+
+> **📖 Official SAP Documentation**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_dynamic_caches.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -779,7 +875,14 @@ Continue
 [DDIC - Dictionary DDL for Defining Dynamic Caches](javascript:call_link\('abenddic_define_dynamic_cache.htm'\))
 
 
+
+**📖 Source**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_dynamic_caches.htm)
+
 ### abenddic_define_dynamic_cache.htm
+
+> **📖 Official SAP Documentation**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_define_dynamic_cache.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -809,7 +912,14 @@ Continue
 [DDIC DDL - DEFINE DYNAMIC CACHE](javascript:call_link\('abenddicddl_define_dynamic_cache.htm'\))
 
 
+
+**📖 Source**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_define_dynamic_cache.htm)
+
 ### abenddicddl_define_dynamic_cache.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_dynamic_cache.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -906,7 +1016,14 @@ This cache is generated as SQL view on the database. Client handling is added au
 ![Figure](dynamic_cache.png)
 
 
+
+**📖 Source**: [abenddicddl_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_define_dynamic_cache.htm)
+
 ### abenddic_define_dynamic_cache.htm
+
+> **📖 Official SAP Documentation**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_define_dynamic_cache.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -936,7 +1053,14 @@ Continue
 [DDIC DDL - DEFINE DYNAMIC CACHE](javascript:call_link\('abenddicddl_define_dynamic_cache.htm'\))
 
 
+
+**📖 Source**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_define_dynamic_cache.htm)
+
 ### abenddic_dynamic_caches.htm
+
+> **📖 Official SAP Documentation**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_dynamic_caches.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -982,7 +1106,14 @@ Continue
 Included pages: 2
 
 
+
+**📖 Source**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_dynamic_caches.htm)
+
 ### abenddic_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenddic_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1004,7 +1135,14 @@ Continue
 [DDIC - External Views (Obsolete)](javascript:call_link\('abenddic_external_views.htm'\))
 
 
+
+**📖 Source**: [abenddic_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_obsolete.htm)
+
 ### abenddic_external_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_external_views.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_external_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1124,7 +1262,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abenddic_external_views.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_external_views.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1372,7 +1517,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1441,7 +1593,14 @@ Hints
 Included pages: 4
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_tuning_objects.htm
+
+> **📖 Official SAP Documentation**: [abencds_tuning_objects.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_tuning_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1465,7 +1624,14 @@ Continue
 [ABAP CDS - Entity Buffers](javascript:call_link\('abencds_entity_buffers.htm'\))
 
 
+
+**📖 Source**: [abencds_tuning_objects.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_tuning_objects.htm)
+
 ### abencds_entity_buffers.htm
+
+> **📖 Official SAP Documentation**: [abencds_entity_buffers.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_buffers.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1495,7 +1661,14 @@ Continue
 [CDS DDL - DEFINE VIEW ENTITY BUFFER](javascript:call_link\('abencds_define_view_entity_buffer.htm'\))
 
 
+
+**📖 Source**: [abencds_entity_buffers.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_buffers.htm)
+
 ### abencds_define_view_entity_buffer.htm
+
+> **📖 Official SAP Documentation**: [abencds_define_view_entity_buffer.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_view_entity_buffer.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1579,7 +1752,14 @@ define view entity buffer on DEMO\_CDS\_SINGLE\_BUFFERED\_VIEW
 The three CDS entities DEMO\_CDS\_FULL\_BUFFERED\_VIEW, DEMO\_CDS\_GEN\_BUFFERED\_VIEW, and DEMO\_CDS\_SINGLE\_BUFFERED\_VIEW all contain the annotation @AbapCatalog.entityBuffer.definitionAllowed: true.
 
 
+
+**📖 Source**: [abencds_define_view_entity_buffer.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_view_entity_buffer.htm)
+
 ### abencds_entity_buffers.htm
+
+> **📖 Official SAP Documentation**: [abencds_entity_buffers.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_buffers.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1621,7 +1801,14 @@ Continue
 Included pages: 7
 
 
+
+**📖 Source**: [abencds_entity_buffers.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_buffers.htm)
+
 ### abenabap_functions.htm
+
+> **📖 Official SAP Documentation**: [abenabap_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1652,7 +1839,14 @@ Continue
 [ENDFUNCTION](javascript:call_link\('abapendfunction.htm'\))
 
 
+
+**📖 Source**: [abenabap_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_functions.htm)
+
 ### abapfunction.htm
+
+> **📖 Official SAP Documentation**: [abapfunction.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfunction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1710,7 +1904,14 @@ Continue
 [Function Module Interface](javascript:call_link\('abenfunction.htm'\))
 
 
+
+**📖 Source**: [abapfunction.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfunction.htm)
+
 ### abenfunction.htm
+
+> **📖 Official SAP Documentation**: [abenfunction.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1800,7 +2001,14 @@ Continue
 [Properties of Interface Parameters](javascript:call_link\('abenfunction_parameters.htm'\))
 
 
+
+**📖 Source**: [abenfunction.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction.htm)
+
 ### abenfunction_parameters.htm
+
+> **📖 Official SAP Documentation**: [abenfunction_parameters.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction_parameters.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1866,7 +2074,14 @@ Hint
 Within a function module, the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [IS SUPPLIED](javascript:call_link\('abenlogexp_supplied.htm'\)) can be used to check whether an optional formal parameter was assigned an actual parameter when it was called.
 
 
+
+**📖 Source**: [abenfunction_parameters.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction_parameters.htm)
+
 ### abenfunction.htm
+
+> **📖 Official SAP Documentation**: [abenfunction.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1956,7 +2171,14 @@ Continue
 [Properties of Interface Parameters](javascript:call_link\('abenfunction_parameters.htm'\))
 
 
+
+**📖 Source**: [abenfunction.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction.htm)
+
 ### abapfunction.htm
+
+> **📖 Official SAP Documentation**: [abapfunction.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfunction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2014,7 +2236,14 @@ Continue
 [Function Module Interface](javascript:call_link\('abenfunction.htm'\))
 
 
+
+**📖 Source**: [abapfunction.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfunction.htm)
+
 ### abapendfunction.htm
+
+> **📖 Official SAP Documentation**: [abapendfunction.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendfunction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2051,7 +2280,14 @@ The statement ENDFUNCTION closes a function module introduced using [FUNCTION](j
 Included pages: 2
 
 
+
+**📖 Source**: [abapendfunction.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendfunction.htm)
+
 ### abenconstructor.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2099,7 +2335,14 @@ Continue
 [ABAP Objects - Visibility of Instance Constructors](javascript:call_link\('abenconstructor_visibility.htm'\))
 
 
+
+**📖 Source**: [abenconstructor.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor.htm)
+
 ### abenconstructor_visibility.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_visibility.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_visibility.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2139,7 +2382,14 @@ If a class was defined using CREATE PRIVATE, only the class itself can instantia
 Included pages: 2
 
 
+
+**📖 Source**: [abenconstructor_visibility.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_visibility.htm)
+
 ### abenconstructor.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2187,7 +2437,14 @@ Continue
 [ABAP Objects - Visibility of Instance Constructors](javascript:call_link\('abenconstructor_visibility.htm'\))
 
 
+
+**📖 Source**: [abenconstructor.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor.htm)
+
 ### abenconstructor_visibility.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_visibility.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_visibility.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2227,7 +2484,14 @@ If a class was defined using CREATE PRIVATE, only the class itself can instantia
 Included pages: 11
 
 
+
+**📖 Source**: [abenconstructor_visibility.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_visibility.htm)
+
 ### abeninheritance.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2270,7 +2534,14 @@ Continue
 [ABAP Objects - Inheritance and Events](javascript:call_link\('abeninheritance_events.htm'\))
 
 
+
+**📖 Source**: [abeninheritance.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance.htm)
+
 ### abeninheritance_redefinition.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_redefinition.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_redefinition.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2294,7 +2565,14 @@ Each reference that points to a subclass object uses the redefined method, even 
 Within a redefined method, [super->meth](javascript:call_link\('abapcall_method_meth_super.htm'\)) can be used to access the hidden method, for example, to adapt and supplement its functions.
 
 
+
+**📖 Source**: [abeninheritance_redefinition.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_redefinition.htm)
+
 ### abeninheritance_abstract_final.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_abstract_final.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abstract_final.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2321,7 +2599,14 @@ Hints
 -   Private methods cannot be redefined and therefore cannot be abstract.
 
 
+
+**📖 Source**: [abeninheritance_abstract_final.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abstract_final.htm)
+
 ### abeninheritance_references.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_references.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_references.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2343,7 +2628,14 @@ A static user can use a reference variable to address those components that are 
 When an instance method is redefined in one or more subclasses, different implementations of the method can be executed after a method call using the same reference variable, depending on where the class of the referenced object is located in the inheritance tree. This property, that different classes can have the same interface and can therefore be addressed using reference variables of one type is called [polymorphism](javascript:call_link\('abenpolymorphism_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abeninheritance_references.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_references.htm)
+
 ### abeninheritance_interfaces.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_interfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_interfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2363,7 +2655,14 @@ ABAP Objects - Inheritance and Interfaces
 The interface concept exists completely independent of and in addition to the inheritance concept. The classes of an inheritance tree can implement any number of interfaces, but each interface can be implemented only once in each inheritance tree. This ensures that each interface component comp has a unique name across the entire inheritance tree intf~icomp and that it is contained in all subclasses starting with the class that implements it. [Interface reference variables](javascript:call_link\('abeninterface_ref_variable_glosry.htm'\) "Glossary Entry") that can point to a class of the inheritance tree can also point to all subclasses. Once they are implemented, interface methods are fully functioning components of a class and can be redefined in subclasses. In the case of interface methods defined as optional using [DEFAULT](javascript:call_link\('abapmethods_default.htm'\)), and without explicit implementation, the default behavior is applied along a path of an inheritance tree until a redefinition with explicit implementation occurs.
 
 
+
+**📖 Source**: [abeninheritance_interfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_interfaces.htm)
+
 ### abeninheritance_visibility.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_visibility.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_visibility.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2426,7 +2725,14 @@ CLASS c2 IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abeninheritance_visibility.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_visibility.htm)
+
 ### abeninheritance_name_space.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_name_space.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_name_space.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2446,7 +2752,14 @@ A subclass contains all components of all its superclasses. Only the public and 
 When methods are [redefined](javascript:call_link\('abeninheritance_redefinition.htm'\)), the newly implemented method hides the identically named method of the superclass. As soon as the method is redefined, it replaces the old method to ensure that the name remains unique. The [pseudo reference](javascript:call_link\('abenpseudo_reference_glosry.htm'\) "Glossary Entry") [super->](javascript:call_link\('abapcall_method_meth_super.htm'\)) can be used in subclasses to access a method of the direct superclass hidden by a redefinition.
 
 
+
+**📖 Source**: [abeninheritance_name_space.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_name_space.htm)
+
 ### abeninheritance_statical.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_statical.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_statical.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2553,7 +2866,14 @@ Executable Example
 [Events in Inheritance](javascript:call_link\('abenevent_inheritance_abexa.htm'\))
 
 
+
+**📖 Source**: [abeninheritance_statical.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_statical.htm)
+
 ### abeninheritance_constructors.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_constructors.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_constructors.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2617,7 +2937,14 @@ Every class has a [static constructor](javascript:call_link\('abenstatic_constru
 When a subclass is addressed for the first time in a program by creating an instance of the class or by addressing a static component (except for types and constants) using the class component selector, the static constructor is called. However, the preceding static constructors of all of the entire inheritance tree must have been called first. On the other hand, a static constructor may only be called once at program runtime. Therefore, when subclass is first addressed, the system looks for the next highest superclass whose static constructor has not yet been called. It calls the static constructor of this class, followed by those of all classes between this class and the addressed subclass.
 
 
+
+**📖 Source**: [abeninheritance_constructors.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_constructors.htm)
+
 ### abeninheritance_instantiation.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_instantiation.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_instantiation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2667,7 +2994,14 @@ Subclass is a Friend of the Superclass
 If the subclass has no addition, it inherits the attribute CREATE PRIVATE. However, all CREATE additions are allowed. As a friend, the subclass can publish the private constructor of the superclass in any form.
 
 
+
+**📖 Source**: [abeninheritance_instantiation.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_instantiation.htm)
+
 ### abeninheritance_events.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_events.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2709,7 +3043,14 @@ Executable Example
 Included pages: 2
 
 
+
+**📖 Source**: [abeninheritance_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_events.htm)
+
 ### abeninterfac.htm
+
+> **📖 Official SAP Documentation**: [abeninterfac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfac.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2808,7 +3149,14 @@ Continue
 [ABAP Objects - Nesting Interfaces](javascript:call_link\('abeninterface_composition.htm'\))
 
 
+
+**📖 Source**: [abeninterfac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfac.htm)
+
 ### abeninterface_composition.htm
+
+> **📖 Official SAP Documentation**: [abeninterface_composition.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_composition.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2931,7 +3279,14 @@ Assignments using upcasts are always possible. Class reference variables for cla
 Included pages: 4
 
 
+
+**📖 Source**: [abeninterface_composition.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_composition.htm)
+
 ### abenobject.htm
+
+> **📖 Official SAP Documentation**: [abenobject.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2982,7 +3337,14 @@ Continue
 [ABAP Objects - Object References in Internal Tables](javascript:call_link\('abenclass_attributes_as_key.htm'\))
 
 
+
+**📖 Source**: [abenobject.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject.htm)
+
 ### abenreferences.htm
+
+> **📖 Official SAP Documentation**: [abenreferences.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreferences.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3097,7 +3459,14 @@ Assigning Object References to Field Symbols  
 To assign object references to typed field symbols, the same applies as to passing a reference to typed formal parameters: The types must be identical. Otherwise, incompatibilities between dynamic and static types may occur here. For example, it is sufficient to assign two class reference variables of different classes that implement the same interface one after the other to the same field symbol to cause an inconsistent status.
 
 
+
+**📖 Source**: [abenreferences.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreferences.htm)
+
 ### abenclass_components_addressing.htm
+
+> **📖 Official SAP Documentation**: [abenclass_components_addressing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_components_addressing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3208,7 +3577,14 @@ f and c are fields that contain the name of the method meth or class class.
 In the case of a dynamic method call, the actual parameter can be passed dynamically to [specific internal tables](javascript:call_link\('abapcall_method_parameter_tables.htm'\)), similarly to calling function modules.
 
 
+
+**📖 Source**: [abenclass_components_addressing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_components_addressing.htm)
+
 ### abenclass_attributes_as_key.htm
+
+> **📖 Official SAP Documentation**: [abenclass_attributes_as_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_attributes_as_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3247,7 +3623,14 @@ If a table contains unstructured lines with the type of an object reference vari
 Included pages: 6
 
 
+
+**📖 Source**: [abenclass_attributes_as_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_attributes_as_key.htm)
+
 ### abenabap_objects_statements.htm
+
+> **📖 Official SAP Documentation**: [abenabap_objects_statements.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_statements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3287,7 +3670,14 @@ Continue
 [ABAP Objects - Stricter Syntax Rules](javascript:call_link\('abenabap_objects_strict.htm'\))
 
 
+
+**📖 Source**: [abenabap_objects_statements.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_statements.htm)
+
 ### abendefining_classes_interfaces.htm
+
+> **📖 Official SAP Documentation**: [abendefining_classes_interfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendefining_classes_interfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3365,7 +3755,14 @@ No statements other than those specified above are necessary for defining classe
 The [stricter syntax](javascript:call_link\('abenabap_objects_strict.htm'\)) in ABAP Objects applies to all statements for class and interface definitions.
 
 
+
+**📖 Source**: [abendefining_classes_interfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendefining_classes_interfaces.htm)
+
 ### abendefining_methods.htm
+
+> **📖 Official SAP Documentation**: [abendefining_methods.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendefining_methods.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3385,7 +3782,14 @@ The functions of classes are implemented in methods, that is, between METHOD - E
 The statements allowed in methods include the entire ABAP language range that is allowed in all procedures. It must be noted, however, that all statements in methods are subject to the [stricter syntax](javascript:call_link\('abenabap_objects_strict.htm'\)) of ABAP Objects.
 
 
+
+**📖 Source**: [abendefining_methods.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendefining_methods.htm)
+
 ### abenclass_interace_pools.htm
+
+> **📖 Official SAP Documentation**: [abenclass_interace_pools.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_interace_pools.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3478,7 +3882,14 @@ The following restrictions are particularly important:
     [Extract data sets](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry") cannot be processed in global classes since the defining statement [FIELD-GROUPS](javascript:call_link\('abapfield-groups.htm'\)) is forbidden in class or interface pools.
 
 
+
+**📖 Source**: [abenclass_interace_pools.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_interace_pools.htm)
+
 ### abenobjects_keywords.htm
+
+> **📖 Official SAP Documentation**: [abenobjects_keywords.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobjects_keywords.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3563,7 +3974,14 @@ Raises an [event](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry
 Registers an [event](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry")
 
 
+
+**📖 Source**: [abenobjects_keywords.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobjects_keywords.htm)
+
 ### abenabap_objects_strict.htm
+
+> **📖 Official SAP Documentation**: [abenabap_objects_strict.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_strict.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3597,7 +4015,14 @@ The stricter syntax applies to all [statements in ABAP Objects](javascript:call_
 Included pages: 8
 
 
+
+**📖 Source**: [abenabap_objects_strict.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_strict.htm)
+
 ### abenabap_objects_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_objects_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3629,7 +4054,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP Objects - Object Transaction](javascript:call_link\('abenoo_transaction_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_objects_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexas.htm)
+
 ### abenabap_objects_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenabap_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3863,7 +4295,14 @@ Description  
 The class demonstrates how ABAP Objects can be used based on example classes for boats.
 
 
+
+**📖 Source**: [abenabap_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexa.htm)
+
 ### abenclass_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenclass_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3930,7 +4369,14 @@ Description  
 The local class counter contains three public methods, set, increment, and get, which work with the private integer field count. Two of the methods have input and output parameters and therefore define the data interface of the class. The field count, on the other hand, is not visible externally.
 
 
+
+**📖 Source**: [abenclass_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_abexa.htm)
+
 ### abeninheritance_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4024,7 +4470,14 @@ The local class counter\_ten is derived from counter and redefines the method in
 An object of the subclass is created to which a reference variable of the superclass type points. When the method increment is executed using the superclass reference, the redefined method of the subclass is executed.
 
 
+
+**📖 Source**: [abeninheritance_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abexa.htm)
+
 ### abeninterface_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeninterface_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4123,7 +4576,14 @@ Using the constructor operator NEW, an object is created for each class to which
 Class reference variables are inserted in the interface reference table to have the lines in status\_tab point to the two objects as well. Using the interface references, it is possible to call the interface method write in the objects, but not the class methods increment or drive.
 
 
+
+**📖 Source**: [abeninterface_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_abexa.htm)
+
 ### abenevents_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenevents_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevents_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4313,7 +4773,14 @@ Description  
 The user actions on a classic list raise events in ABAP Objects. The list and its data are implemented in a class list. User actions are processed by the class status, which raises an event button\_clicked at AT USER-COMMAND time. The event is handled in the class list. The class list contains an object of the class ship or truck for each line of the list, which both implement the interface vehicle. If the speed of one of these objects changes, the event speed\_change is raised, to which the class list responds by adapting the list output.
 
 
+
+**📖 Source**: [abenevents_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevents_abexa.htm)
+
 ### abenfriends_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfriends_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfriends_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4352,7 +4819,14 @@ Description  
 The empty global interface IF\_DEMO\_FRIEND is a friend of the global class CL\_DEMO\_FRIENDSHIP. Every class that implements IF\_DEMO\_FRIEND can access the private components of CL\_DEMO\_FRIENDSHIP.
 
 
+
+**📖 Source**: [abenfriends_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfriends_abexa.htm)
+
 ### abenoo_transaction_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenoo_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoo_transaction_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4404,7 +4878,14 @@ The program DEMO\_OO\_TRANSACTION is a subroutine pool that does not contain any
 Included pages: 5
 
 
+
+**📖 Source**: [abenoo_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoo_transaction_abexa.htm)
+
 ### abendata_references.htm
+
+> **📖 Official SAP Documentation**: [abendata_references.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_references.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4447,7 +4928,14 @@ Continue
 [Weak References](javascript:call_link\('abencl_abap_weak_reference.htm'\))
 
 
+
+**📖 Source**: [abendata_references.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_references.htm)
+
 ### abendata_reference_type.htm
+
+> **📖 Official SAP Documentation**: [abendata_reference_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_reference_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4483,7 +4971,14 @@ SELECT SINGLE \*
 cl\_demo\_output=>display\_data( dref->carrid ).
 
 
+
+**📖 Source**: [abendata_reference_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_reference_type.htm)
+
 ### abenobject_reference_type.htm
+
+> **📖 Official SAP Documentation**: [abenobject_reference_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_reference_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4518,7 +5013,14 @@ FINAL(out) = cl\_demo\_output=>new( ).
 out->display( \`Hello\` ).
 
 
+
+**📖 Source**: [abenobject_reference_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_reference_type.htm)
+
 ### abenheap_stack_reference.htm
+
+> **📖 Official SAP Documentation**: [abenheap_stack_reference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenheap_stack_reference.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4568,7 +5070,14 @@ FINAL(heap\_ref)  = NEW i( 111 ).
 FINAL(stack\_ref) = REF #( heap\_ref ).
 
 
+
+**📖 Source**: [abenheap_stack_reference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenheap_stack_reference.htm)
+
 ### abencl_abap_weak_reference.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_weak_reference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_weak_reference.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4623,7 +5132,14 @@ cl\_demo\_output=>display( ).
 Included pages: 8
 
 
+
+**📖 Source**: [abencl_abap_weak_reference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_weak_reference.htm)
+
 ### abendata_objects_structure.htm
+
+> **📖 Official SAP Documentation**: [abendata_objects_structure.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_objects_structure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4768,7 +5284,14 @@ Continue
 [Examples of Structures](javascript:call_link\('abenstructure_abexas.htm'\))
 
 
+
+**📖 Source**: [abendata_objects_structure.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_objects_structure.htm)
+
 ### abenboxed_components.htm
+
+> **📖 Official SAP Documentation**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenboxed_components.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4803,7 +5326,14 @@ Continue
 [Static Boxes](javascript:call_link\('abenstatic_boxes.htm'\))
 
 
+
+**📖 Source**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenboxed_components.htm)
+
 ### abenstatic_boxes.htm
+
+> **📖 Official SAP Documentation**: [abenstatic_boxes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_boxes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4861,7 +5391,14 @@ TYPES:
   END OF struct.
 
 
+
+**📖 Source**: [abenstatic_boxes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_boxes.htm)
+
 ### abenboxed_components.htm
+
+> **📖 Official SAP Documentation**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenboxed_components.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4896,7 +5433,14 @@ Continue
 [Static Boxes](javascript:call_link\('abenstatic_boxes.htm'\))
 
 
+
+**📖 Source**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenboxed_components.htm)
+
 ### abenstructure_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4918,7 +5462,14 @@ Continue
 ![Example](exa.gif "Example") [Structure from ABAP Dictionary](javascript:call_link\('abendictionary_structure_abexa.htm'\))
 
 
+
+**📖 Source**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_abexas.htm)
+
 ### abenstructure_filling_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenstructure_filling_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_filling_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5002,7 +5553,14 @@ If a structure is declared with the statement DATA by reference to a structure t
 The content of both structures is the same. The value operator VALUE represents the modern way, where the need of expressing all the component names explicitly is replaced by the use of parentheses.
 
 
+
+**📖 Source**: [abenstructure_filling_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_filling_abexa.htm)
+
 ### abendictionary_structure_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendictionary_structure_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendictionary_structure_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5047,7 +5605,14 @@ Description  
 Structure types of the ABAP Dictionary are typically used in ABAP programs to define structures or internal tables with a structured line type to process data that is imported from the database. The example shows how a structure carrier local to a method is declared by reference to a database table SCARR defined in the ABAP Dictionary, and used as the target area of a [SELECT](javascript:call_link\('abapselect.htm'\)) statement.
 
 
+
+**📖 Source**: [abendictionary_structure_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendictionary_structure_abexa.htm)
+
 ### abenstructure_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5081,7 +5646,14 @@ Continue
 Included pages: 12
 
 
+
+**📖 Source**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_abexas.htm)
+
 ### abenitab_key.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5109,7 +5681,14 @@ Continue
 [itab - Duplicate Non-Unique Keys](javascript:call_link\('abenitab_key_secondary_duplicates.htm'\))
 
 
+
+**📖 Source**: [abenitab_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key.htm)
+
 ### abenitab_key_primary.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_primary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5163,7 +5742,14 @@ Continue
 [itab - Empty Table Key](javascript:call_link\('abenitab_empty_key.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_primary.htm)
+
 ### abenitab_standard_key.htm
+
+> **📖 Official SAP Documentation**: [abenitab_standard_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_standard_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5243,7 +5829,14 @@ READ REPORT 'DEMO\_TAB\_EXP\_LINE' INTO source.
 cl\_demo\_output=>display( source ).
 
 
+
+**📖 Source**: [abenitab_standard_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_standard_key.htm)
+
 ### abenitab_key_primary.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_primary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5297,7 +5890,14 @@ Continue
 [itab - Empty Table Key](javascript:call_link\('abenitab_empty_key.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_primary.htm)
+
 ### abenitab_key_secondary.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5394,7 +5994,14 @@ Continue
 [itab - Restrictions for Secondary Keys](javascript:call_link\('abenitab_key_secondary_restrict.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary.htm)
+
 ### abenitab_key_secondary_update.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_update.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary_update.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5430,7 +6037,14 @@ Executable Example
 The example for [Deletion Using Table Keys](javascript:call_link\('abendelete_itab_using_key_abexa.htm'\)) demonstrates the runtimes that are required to create the secondary key and when they occur.
 
 
+
+**📖 Source**: [abenitab_key_secondary_update.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary_update.htm)
+
 ### abenitab_key_secondary_usage.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_usage.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary_usage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5461,7 +6075,14 @@ Example
 The program DEMO\_SECONDARY\_KEYS demonstrates how a secondary table key is specified and the resulting performance gain.
 
 
+
+**📖 Source**: [abenitab_key_secondary_usage.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary_usage.htm)
+
 ### abenitab_key_secondary_restrict.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_restrict.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary_restrict.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5499,7 +6120,14 @@ The use of tables with secondary keys causes syntax or runtime errors for the fo
     -   itab in [WRITE TO itab](javascript:call_link\('abapwrite_to_itab.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_secondary_restrict.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary_restrict.htm)
+
 ### abenitab_key_secondary.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5596,7 +6224,14 @@ Continue
 [itab - Restrictions for Secondary Keys](javascript:call_link\('abenitab_key_secondary_restrict.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary.htm)
+
 ### abenitab_key_duplicates.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_duplicates.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_duplicates.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5643,7 +6278,14 @@ INSERT 2 INTO TABLE itab.
 INSERT 2 INTO itab INDEX 2.
 
 
+
+**📖 Source**: [abenitab_key_duplicates.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_duplicates.htm)
+
 ### abenitab_key_secondary_duplicates.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_duplicates.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_key_secondary_duplicates.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5661,80 +6303,7 @@ itab - Duplicate Non-Unique Keys
 Non-unique table keys can produce duplicate lines with respect to these keys. This section describes the order of these duplicates when inserting into tables with non-unique sorted table keys. This order is ignored with respect to non-unique primary keys in standard tables.
 
 -   [Single Record Operations](#abenitab-key-secondary-duplicates-1-------block-operations---@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_2)
--   [Special Features](#@@ITOC@@ABENITAB_KEY_SECONDARY_DUPLICATES_3)
-
-Single Record Operations   
-
-When individual lines are inserted where the insert position is determined using a table key, that is, in the case of
-
--   the operations [INSERT ... INTO TABLE ...](javascript:call_link\('abapinsert_itab_position.htm'\)) or
--   in [lazy updates](javascript:call_link\('abenlazy_update_glosry.htm'\) "Glossary Entry") of sorted secondary keys
-
-the order of the duplicates with respect to the table key of the target table is determined in accordance with the insertion order of the individual lines. The duplicate line that was last inserted into the table is sorted before all other duplicates.
-
-Block Operations   
-
-For block operations such as an [assignment](javascript:call_link\('abapmove.htm'\)) of an internal table to another table or when inserting multiple lines using [INSERT LINES OF](javascript:call_link\('abapinsert_itab_linespec.htm'\)), the order of duplicates with respect to a sorted key of the target table in the block is taken from the source table. If there are already one or more duplicates in the target table, the source block duplicates are inserted in their original order in front of the first duplicate in the target table.
-
-Special Features   
-
-Some operations have the characteristics of block operations but are executed internally as sequences of single record operations. In this case, the original order of duplicates with respect to a sorted key in the target table is not retained. This is the case for the following operations:
-
--   Filling an internal table using [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) from a table previously stored using [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) and all operations that are based internally on such an import, such as [posting](javascript:call_link\('abapcall_function_update.htm'\)) operations.
--   Passing and inheriting internal tables for [Remote Function Calls](javascript:call_link\('abapcall_function_destination_para.htm'\)).
--   The deserialization of an internal table from a table previously serialized to XML using [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)).
-
-Example
-
-The result of the following insertion is
-
-a a
-b z
-b y
-b x
-b b
-
-TYPES:
-  BEGIN OF line,
-    col1 TYPE string,
-    col2 TYPE string,
-  END OF line,
-  itab TYPE SORTED TABLE OF line
-            WITH NON-UNIQUE KEY col1.
-DATA(itab) = VALUE itab(
-( col1 = 'b' col2 = 'b' )
-( col1 = 'a' col2 = 'a' ) ).
-FINAL(jtab) = VALUE itab(
-( col1 = 'b' col2 = 'x' )
-( col1 = 'b' col2 = 'y' )
-( col1 = 'b' col2 = 'z' ) ).
-INSERT LINES OF jtab INTO TABLE itab.
-cl\_demo\_output=>display( itab ).
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Programming Language / Data Types and Data Objects / Data Objects / Memory Management of Deep Objects
-
-**Files**: 6 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - Programming Language / Data Types and Data Objects / Data Objects / Memory Management of Deep Objects
-
-Included pages: 6
-
-
-### abenmemory_consumption.htm
-
-  
-
-* * *
-
-AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Memory%20Management%20of%20Deep%20Objects%2C%20ABENMEMORY_CONSUMPTION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+-   [Special Features](#abenitab-key-secondary-duplicates-3---single-record-operations-----when-individual-lines-are-inserted-where-the-insert-position-is-determined-using-a-table-key--that-is--in-the-case-of------the-operations--insert-----into-table------javascript-call-link---abapinsert-itab-position-htm-----or-----in--lazy-updates--javascript-call-link---abenlazy-update-glosry-htm-----glossary-entry---of-sorted-secondary-keys--the-order-of-the-duplicates-with-respect-to-the-table-key-of-the-target-table-is-determined-in-accordance-with-the-insertion-order-of-the-individual-lines--the-duplicate-line-that-was-last-inserted-into-the-table-is-sorted-before-all-other-duplicates---block-operations-----for-block-operations-such-as-an--assignment--javascript-call-link---abapmove-htm-----of-an-internal-table-to-another-table-or-when-inserting-multiple-lines-using--insert-lines-of--javascript-call-link---abapinsert-itab-linespec-htm------the-order-of-duplicates-with-respect-to-a-sorted-key-of-the-target-table-in-the-block-is-taken-from-the-source-table--if-there-are-already-one-or-more-duplicates-in-the-target-table--the-source-block-duplicates-are-inserted-in-their-original-order-in-front-of-the-first-duplicate-in-the-target-table---special-features-----some-operations-have-the-characteristics-of-block-operations-but-are-executed-internally-as-sequences-of-single-record-operations--in-this-case--the-original-order-of-duplicates-with-respect-to-a-sorted-key-in-the-target-table-is-not-retained--this-is-the-case-for-the-following-operations-------filling-an-internal-table-using--import--javascript-call-link---abapimport-data-cluster-htm-----from-a-table-previously-stored-using--export--javascript-call-link---abapexport-data-cluster-htm-----and-all-operations-that-are-based-internally-on-such-an-import--such-as--posting--javascript-call-link---abapcall-function-update-htm-----operations------passing-and-inheriting-internal-tables-for--remote-function-calls--javascript-call-link---abapcall-function-destination-para-htm----------the-deserialization-of-an-internal-table-from-a-table-previously-serialized-to-xml-using--call-transformation--javascript-call-link---abapcall-transformation-htm-------example--the-result-of-the-following-insertion-is--a-a-b-z-b-y-b-x-b-b--types----begin-of-line------col1-type-string------col2-type-string----end-of-line----itab-type-sorted-table-of-line-------------with-non-unique-key-col1--data-itab----value-itab----col1----b--col2----b------col1----a--col2----a-------final-jtab----value-itab----col1----b--col2----x------col1----b--col2----y------col1----b--col2----z-------insert-lines-of-jtab-into-table-itab--cl--demo--output--display--itab---------------abap---keyword-documentation---abap---programming-language---data-types-and-data-objects---data-objects---memory-management-of-deep-objects----files----6-----difficulty----intermediate----abap---keyword-documentation---abap---programming-language---data-types-and-data-objects---data-objects---memory-management-of-deep-objects--included-pages--6---------source-----abenitab-key-secondary-duplicates-htm--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenitab-key-secondary-duplicates-htm-------abenmemory-consumption-htm-------------as-abap-release-758---copyright-2024-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---programming-language--javascript-call-link---abenabap-reference-htm---------data-types-and-data-objects--javascript-call-link---abentypes-and-objects-htm---------data-objects--javascript-call-link---abendata-objects-htm---------------mail-gif-object-mail-gif--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Memory%20Management%20of%20Deep%20Objects%2C%20ABENMEMORY_CONSUMPTION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Memory Management of Deep Objects
 
@@ -5763,7 +6332,14 @@ Continue
 ![Example](exa.gif "Example") [Deep Data Objects, Memory Consumption](javascript:call_link\('abenmemory_usage_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmemory_consumption.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption.htm)
+
 ### abenmemory_consumption_1.htm
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption_1.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5813,7 +6389,14 @@ Executable Example
 [Deep Data Objects, Memory Consumption](javascript:call_link\('abenmemory_usage_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmemory_consumption_1.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_1.htm)
+
 ### abenmemory_consumption_2.htm
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption_2.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_2.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5865,7 +6448,14 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abenmemory_consumption_2.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_2.htm)
+
 ### abenmemory_consumption_3.htm
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption_3.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_3.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5902,7 +6492,14 @@ Hints
 -   Sharing is also supported when accessing [shared objects](javascript:call_link\('abenshared_objects_glosry.htm'\) "Glossary Entry"), for as long as an [area instance version](javascript:call_link\('abenarea_instance_version_glosry.htm'\) "Glossary Entry") is bound to the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") using an [area handle](javascript:call_link\('abenarea_handle_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenmemory_consumption_3.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_3.htm)
+
 ### abenmemory_consumption_4.htm
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption_4.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_4.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5947,7 +6544,14 @@ Executable Example
 See [Deep Data Objects, Memory Usage](javascript:call_link\('abenmemory_usage_abexa.htm'\)).
 
 
+
+**📖 Source**: [abenmemory_consumption_4.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_4.htm)
+
 ### abenmemory_usage_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmemory_usage_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_usage_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6045,7 +6649,14 @@ This example shows, for example, that for internal tables with deep line types t
 Included pages: 2
 
 
+
+**📖 Source**: [abenmemory_usage_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_usage_abexa.htm)
+
 ### abentype_names.htm
+
+> **📖 Official SAP Documentation**: [abentype_names.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_names.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6532,7 +7143,14 @@ Continue
 ![Example](exa.gif "Example") [Absolute Type Names, Executable Example](javascript:call_link\('abenabs_type_names_abexa.htm'\))
 
 
+
+**📖 Source**: [abentype_names.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_names.htm)
+
 ### abenabs_type_names_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenabs_type_names_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabs_type_names_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6682,7 +7300,14 @@ The following absolute type names are composed and used for creating [anonymous 
 Included pages: 4
 
 
+
+**📖 Source**: [abenabs_type_names_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabs_type_names_abexa.htm)
+
 ### abenbuilt_in_functions.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6710,7 +7335,14 @@ Continue
 [Built-In Functions, Hiding by Methods](javascript:call_link\('abenbuilt_in_functions_hiding.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm)
+
 ### abenbuilt_in_functions_syntax.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6765,7 +7397,14 @@ FINAL(str2) = condense( val = \`...\` ).
 FINAL(str3) = condense( val = \`...\`  del = \` \` ).
 
 
+
+**📖 Source**: [abenbuilt_in_functions_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_syntax.htm)
+
 ### abenbuilt_in_functions_overview.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_overview.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_overview.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6975,7 +7614,14 @@ Index function
 [→ More about](javascript:call_link\('abentable_functions.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_functions_overview.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_overview.htm)
+
 ### abenbuilt_in_functions_hiding.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_hiding.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_hiding.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7033,7 +7679,14 @@ ENDCLASS.
 Included pages: 4
 
 
+
+**📖 Source**: [abenbuilt_in_functions_hiding.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_hiding.htm)
+
 ### abenbuilt_in_functions.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7061,7 +7714,14 @@ Continue
 [Built-In Functions, Hiding by Methods](javascript:call_link\('abenbuilt_in_functions_hiding.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm)
+
 ### abenbuilt_in_functions_syntax.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7116,7 +7776,14 @@ FINAL(str2) = condense( val = \`...\` ).
 FINAL(str3) = condense( val = \`...\`  del = \` \` ).
 
 
+
+**📖 Source**: [abenbuilt_in_functions_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_syntax.htm)
+
 ### abenbuilt_in_functions_overview.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_overview.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_overview.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7326,7 +7993,14 @@ Index function
 [→ More about](javascript:call_link\('abentable_functions.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_functions_overview.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_overview.htm)
+
 ### abenbuilt_in_functions_hiding.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_hiding.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_hiding.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7384,7 +8058,14 @@ ENDCLASS.
 Included pages: 4
 
 
+
+**📖 Source**: [abenbuilt_in_functions_hiding.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_hiding.htm)
+
 ### abenbuilt_in_functions.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7412,7 +8093,14 @@ Continue
 [Built-In Functions, Hiding by Methods](javascript:call_link\('abenbuilt_in_functions_hiding.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm)
+
 ### abenbuilt_in_functions_syntax.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7467,7 +8155,14 @@ FINAL(str2) = condense( val = \`...\` ).
 FINAL(str3) = condense( val = \`...\`  del = \` \` ).
 
 
+
+**📖 Source**: [abenbuilt_in_functions_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_syntax.htm)
+
 ### abenbuilt_in_functions_overview.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_overview.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_overview.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7677,7 +8372,14 @@ Index function
 [→ More about](javascript:call_link\('abentable_functions.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_functions_overview.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_overview.htm)
+
 ### abenbuilt_in_functions_hiding.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_functions_hiding.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_hiding.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7735,7 +8437,14 @@ ENDCLASS.
 Included pages: 10
 
 
+
+**📖 Source**: [abenbuilt_in_functions_hiding.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions_hiding.htm)
+
 ### abenoperands_names.htm
+
+> **📖 Official SAP Documentation**: [abenoperands_names.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperands_names.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7786,7 +8495,14 @@ Continue
 [Offset/Length Specifications for Substring Access](javascript:call_link\('abenoffset_length.htm'\))
 
 
+
+**📖 Source**: [abenoperands_names.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperands_names.htm)
+
 ### abenstructure_component_selector.htm
+
+> **📖 Official SAP Documentation**: [abenstructure_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_component_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7821,7 +8537,14 @@ DATA struc TYPE spfli.
 ... struc-carrid ...
 
 
+
+**📖 Source**: [abenstructure_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_component_selector.htm)
+
 ### abenobject_component_selector.htm
+
+> **📖 Official SAP Documentation**: [abenobject_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_component_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7940,7 +8663,14 @@ ASSERT exc = 'X'.
 "target = dref->carrid.
 
 
+
+**📖 Source**: [abenobject_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_component_selector.htm)
+
 ### abenclass_component_selector.htm
+
+> **📖 Official SAP Documentation**: [abenclass_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_component_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8001,7 +8731,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abenclass_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_component_selector.htm)
+
 ### abeninterface_component_selector.htm
+
+> **📖 Official SAP Documentation**: [abeninterface_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_component_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8066,7 +8803,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abeninterface_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_component_selector.htm)
+
 ### abendereferencing_operator.htm
+
+> **📖 Official SAP Documentation**: [abendereferencing_operator.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendereferencing_operator.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8112,7 +8856,14 @@ cl\_demo\_output=>write( |sy-subrc { sy-subrc }| ).
 cl\_demo\_output=>display( ).
 
 
+
+**📖 Source**: [abendereferencing_operator.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendereferencing_operator.htm)
+
 ### abencomponent_chaining_selector.htm
+
+> **📖 Official SAP Documentation**: [abencomponent_chaining_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomponent_chaining_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8179,7 +8930,14 @@ ENDCLASS.
 ... c2=>oref->i1~struc3-dref->struc2-comp ...
 
 
+
+**📖 Source**: [abencomponent_chaining_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomponent_chaining_selector.htm)
+
 ### abenoffset_length.htm
+
+> **📖 Official SAP Documentation**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_length.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8340,7 +9098,14 @@ Continue
 ![Example](exa.gif "Example") [Offset/Length Specifications](javascript:call_link\('abendata_process_fields_abexa.htm'\))
 
 
+
+**📖 Source**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_length.htm)
+
 ### abendata_process_fields_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendata_process_fields_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_process_fields_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8425,7 +9190,14 @@ In the third part, assignments are used. First, the content of f1 is assigned to
 In the fourth part, string templates are used. The first six places of the field number are written left-aligned, centered, and right-aligned to the last 12 places of the text field
 
 
+
+**📖 Source**: [abendata_process_fields_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_process_fields_abexa.htm)
+
 ### abenoffset_length.htm
+
+> **📖 Official SAP Documentation**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_length.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8598,7 +9370,14 @@ Continue
 Included pages: 6
 
 
+
+**📖 Source**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_length.htm)
+
 ### abeninterfaces.htm
+
+> **📖 Official SAP Documentation**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8630,7 +9409,14 @@ Continue
 [ALIASES](javascript:call_link\('abapaliases.htm'\))
 
 
+
+**📖 Source**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfaces.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8670,7 +9456,14 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+
 ### abapinterfaces_class.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8893,7 +9686,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_class.htm)
+
 ### abapinterfaces_ifac.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_ifac.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8969,7 +9769,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_ifac.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9009,7 +9816,14 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+
 ### abapaliases.htm
+
+> **📖 Official SAP Documentation**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapaliases.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9090,7 +9904,14 @@ ENDCLASS.
 Included pages: 6
 
 
+
+**📖 Source**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapaliases.htm)
+
 ### abeninterfaces.htm
+
+> **📖 Official SAP Documentation**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9122,7 +9943,14 @@ Continue
 [ALIASES](javascript:call_link\('abapaliases.htm'\))
 
 
+
+**📖 Source**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfaces.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9162,7 +9990,14 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+
 ### abapinterfaces_class.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9385,7 +10220,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_class.htm)
+
 ### abapinterfaces_ifac.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_ifac.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9461,7 +10303,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_ifac.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9501,7 +10350,14 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+
 ### abapaliases.htm
+
+> **📖 Official SAP Documentation**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapaliases.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9582,7 +10438,14 @@ ENDCLASS.
 Included pages: 6
 
 
+
+**📖 Source**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapaliases.htm)
+
 ### abeninterfaces.htm
+
+> **📖 Official SAP Documentation**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9614,7 +10477,14 @@ Continue
 [ALIASES](javascript:call_link\('abapaliases.htm'\))
 
 
+
+**📖 Source**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfaces.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9654,7 +10524,14 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+
 ### abapinterfaces_class.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9877,7 +10754,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_class.htm)
+
 ### abapinterfaces_ifac.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_ifac.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9953,7 +10837,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_ifac.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9993,7 +10884,14 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+
 ### abapaliases.htm
+
+> **📖 Official SAP Documentation**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapaliases.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10074,7 +10972,14 @@ ENDCLASS.
 Included pages: 6
 
 
+
+**📖 Source**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapaliases.htm)
+
 ### abeninterfaces.htm
+
+> **📖 Official SAP Documentation**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10106,7 +11011,14 @@ Continue
 [ALIASES](javascript:call_link\('abapaliases.htm'\))
 
 
+
+**📖 Source**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfaces.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10146,7 +11058,14 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+
 ### abapinterfaces_class.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10369,7 +11288,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_class.htm)
+
 ### abapinterfaces_ifac.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_ifac.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10445,7 +11371,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_ifac.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10485,7 +11418,14 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+
 ### abapaliases.htm
+
+> **📖 Official SAP Documentation**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapaliases.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10566,7 +11506,14 @@ ENDCLASS.
 Included pages: 6
 
 
+
+**📖 Source**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapaliases.htm)
+
 ### abeninterfaces.htm
+
+> **📖 Official SAP Documentation**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10598,7 +11545,14 @@ Continue
 [ALIASES](javascript:call_link\('abapaliases.htm'\))
 
 
+
+**📖 Source**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfaces.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10638,7 +11592,14 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+
 ### abapinterfaces_class.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10861,7 +11822,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_class.htm)
+
 ### abapinterfaces_ifac.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_ifac.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10937,7 +11905,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_ifac.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10977,7 +11952,14 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+
 ### abapaliases.htm
+
+> **📖 Official SAP Documentation**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapaliases.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11058,7 +12040,14 @@ ENDCLASS.
 Included pages: 6
 
 
+
+**📖 Source**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapaliases.htm)
+
 ### abeninterfaces.htm
+
+> **📖 Official SAP Documentation**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11090,7 +12079,14 @@ Continue
 [ALIASES](javascript:call_link\('abapaliases.htm'\))
 
 
+
+**📖 Source**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterfaces.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11130,7 +12126,14 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+
 ### abapinterfaces_class.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11353,7 +12356,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_class.htm)
+
 ### abapinterfaces_ifac.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_ifac.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11429,7 +12439,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces_ifac.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11469,7 +12486,14 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinterfaces.htm)
+
 ### abapaliases.htm
+
+> **📖 Official SAP Documentation**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapaliases.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11550,7 +12574,14 @@ ENDCLASS.
 Included pages: 5
 
 
+
+**📖 Source**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapaliases.htm)
+
 ### abapdata_itab.htm
+
+> **📖 Official SAP Documentation**: [abapdata_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11606,7 +12637,14 @@ Continue
 [DATA, tabkeys](javascript:call_link\('abapdata_keydef.htm'\))
 
 
+
+**📖 Source**: [abapdata_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_itab.htm)
+
 ### abapdata_keydef.htm
+
+> **📖 Official SAP Documentation**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11654,7 +12692,14 @@ Continue
 [DATA, secondary\_key](javascript:call_link\('abapdata_secondary_key.htm'\))
 
 
+
+**📖 Source**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+
 ### abapdata_primary_key.htm
+
+> **📖 Official SAP Documentation**: [abapdata_primary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_primary_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11754,7 +12799,14 @@ DATA unsorted\_carrier\_list
      WITH EMPTY KEY.
 
 
+
+**📖 Source**: [abapdata_primary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_primary_key.htm)
+
 ### abapdata_secondary_key.htm
+
+> **📖 Official SAP Documentation**: [abapdata_secondary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_secondary_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11823,7 +12875,14 @@ Example
 The program DEMO\_SECONDARY\_KEYS demonstrates the declaration and use of a secondary table key and the resulting performance gains.
 
 
+
+**📖 Source**: [abapdata_secondary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_secondary_key.htm)
+
 ### abapdata_keydef.htm
+
+> **📖 Official SAP Documentation**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11883,7 +12942,14 @@ Continue
 Included pages: 5
 
 
+
+**📖 Source**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+
 ### abapdata_itab.htm
+
+> **📖 Official SAP Documentation**: [abapdata_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11939,7 +13005,14 @@ Continue
 [DATA, tabkeys](javascript:call_link\('abapdata_keydef.htm'\))
 
 
+
+**📖 Source**: [abapdata_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_itab.htm)
+
 ### abapdata_keydef.htm
+
+> **📖 Official SAP Documentation**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11987,7 +13060,14 @@ Continue
 [DATA, secondary\_key](javascript:call_link\('abapdata_secondary_key.htm'\))
 
 
+
+**📖 Source**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+
 ### abapdata_primary_key.htm
+
+> **📖 Official SAP Documentation**: [abapdata_primary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_primary_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12087,7 +13167,14 @@ DATA unsorted\_carrier\_list
      WITH EMPTY KEY.
 
 
+
+**📖 Source**: [abapdata_primary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_primary_key.htm)
+
 ### abapdata_secondary_key.htm
+
+> **📖 Official SAP Documentation**: [abapdata_secondary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_secondary_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12156,7 +13243,14 @@ Example
 The program DEMO\_SECONDARY\_KEYS demonstrates the declaration and use of a secondary table key and the resulting performance gains.
 
 
+
+**📖 Source**: [abapdata_secondary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_secondary_key.htm)
+
 ### abapdata_keydef.htm
+
+> **📖 Official SAP Documentation**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12216,7 +13310,14 @@ Continue
 Included pages: 5
 
 
+
+**📖 Source**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+
 ### abapdata_itab.htm
+
+> **📖 Official SAP Documentation**: [abapdata_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12272,7 +13373,14 @@ Continue
 [DATA, tabkeys](javascript:call_link\('abapdata_keydef.htm'\))
 
 
+
+**📖 Source**: [abapdata_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_itab.htm)
+
 ### abapdata_keydef.htm
+
+> **📖 Official SAP Documentation**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12320,7 +13428,14 @@ Continue
 [DATA, secondary\_key](javascript:call_link\('abapdata_secondary_key.htm'\))
 
 
+
+**📖 Source**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+
 ### abapdata_primary_key.htm
+
+> **📖 Official SAP Documentation**: [abapdata_primary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_primary_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12420,7 +13535,14 @@ DATA unsorted\_carrier\_list
      WITH EMPTY KEY.
 
 
+
+**📖 Source**: [abapdata_primary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_primary_key.htm)
+
 ### abapdata_secondary_key.htm
+
+> **📖 Official SAP Documentation**: [abapdata_secondary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_secondary_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12489,7 +13611,14 @@ Example
 The program DEMO\_SECONDARY\_KEYS demonstrates the declaration and use of a secondary table key and the resulting performance gains.
 
 
+
+**📖 Source**: [abapdata_secondary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_secondary_key.htm)
+
 ### abapdata_keydef.htm
+
+> **📖 Official SAP Documentation**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12549,7 +13678,14 @@ Continue
 Included pages: 2
 
 
+
+**📖 Source**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+
 ### abapcreate_data_area_handle.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12656,7 +13792,14 @@ Continue
 ![Example](exa.gif "Example") [Creating a Data Object as a Shared Object](javascript:call_link\('abencreate_shared_data_objct_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+
 ### abencreate_shared_data_objct_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12733,7 +13876,14 @@ After write access has been completed using DETACH\_COMMIT, a read is performed 
 Included pages: 2
 
 
+
+**📖 Source**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+
 ### abapcreate_data_area_handle.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12840,7 +13990,14 @@ Continue
 ![Example](exa.gif "Example") [Creating a Data Object as a Shared Object](javascript:call_link\('abencreate_shared_data_objct_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+
 ### abencreate_shared_data_objct_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12917,7 +14074,14 @@ After write access has been completed using DETACH\_COMMIT, a read is performed 
 Included pages: 2
 
 
+
+**📖 Source**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+
 ### abapcreate_data_area_handle.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13024,7 +14188,14 @@ Continue
 ![Example](exa.gif "Example") [Creating a Data Object as a Shared Object](javascript:call_link\('abencreate_shared_data_objct_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+
 ### abencreate_shared_data_objct_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13101,7 +14272,14 @@ After write access has been completed using DETACH\_COMMIT, a read is performed 
 Included pages: 2
 
 
+
+**📖 Source**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+
 ### abapcreate_data_area_handle.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13208,7 +14386,14 @@ Continue
 ![Example](exa.gif "Example") [Creating a Data Object as a Shared Object](javascript:call_link\('abencreate_shared_data_objct_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+
 ### abencreate_shared_data_objct_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13285,7 +14470,14 @@ After write access has been completed using DETACH\_COMMIT, a read is performed 
 Included pages: 2
 
 
+
+**📖 Source**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+
 ### abapcreate_data_area_handle.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13392,7 +14584,14 @@ Continue
 ![Example](exa.gif "Example") [Creating a Data Object as a Shared Object](javascript:call_link\('abencreate_shared_data_objct_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+
 ### abencreate_shared_data_objct_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13469,7 +14668,14 @@ After write access has been completed using DETACH\_COMMIT, a read is performed 
 Included pages: 2
 
 
+
+**📖 Source**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+
 ### abapcreate_data_area_handle.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13576,7 +14782,14 @@ Continue
 ![Example](exa.gif "Example") [Creating a Data Object as a Shared Object](javascript:call_link\('abencreate_shared_data_objct_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+
 ### abencreate_shared_data_objct_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13653,7 +14866,14 @@ After write access has been completed using DETACH\_COMMIT, a read is performed 
 Included pages: 2
 
 
+
+**📖 Source**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+
 ### abapcreate_data_area_handle.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13760,7 +14980,14 @@ Continue
 ![Example](exa.gif "Example") [Creating a Data Object as a Shared Object](javascript:call_link\('abencreate_shared_data_objct_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_data_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_data_area_handle.htm)
+
 ### abencreate_shared_data_objct_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13837,7 +15064,14 @@ After write access has been completed using DETACH\_COMMIT, a read is performed 
 Included pages: 8
 
 
+
+**📖 Source**: [abencreate_shared_data_objct_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_data_objct_abexa.htm)
+
 ### abapcreate_object.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13927,7 +15161,14 @@ Continue
 [CREATE OBJECT, parameter\_tables](javascript:call_link\('abapcreate_object_para_tables.htm'\))
 
 
+
+**📖 Source**: [abapcreate_object.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object.htm)
+
 ### abapcreate_object_implicit.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_implicit.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_implicit.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13976,7 +15217,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapcreate_object_implicit.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_implicit.htm)
+
 ### abapcreate_object_explicit.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_explicit.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_explicit.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14057,7 +15305,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abapcreate_object_explicit.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_explicit.htm)
+
 ### abapcreate_object_area_handle.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_area_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14143,7 +15398,14 @@ Continue
 ![Example](exa.gif "Example") [Creating an Instance of a Class as a Shared Object](javascript:call_link\('abencreate_shared_object_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_object_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_area_handle.htm)
+
 ### abencreate_shared_object_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencreate_shared_object_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_object_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14222,7 +15484,14 @@ If the addition AREA HANDLE is used, an instance of the local class class is cre
 After write access has been completed using the method DETACH\_COMMIT, a read is performed to demonstrate how the objects in the shared memory are accessed. Such an access can also be made in another program, as long as the area instance version exists in the shared memory.
 
 
+
+**📖 Source**: [abencreate_shared_object_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_shared_object_abexa.htm)
+
 ### abapcreate_object_area_handle.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_area_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14308,7 +15577,14 @@ Continue
 ![Example](exa.gif "Example") [Creating an Instance of a Class as a Shared Object](javascript:call_link\('abencreate_shared_object_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_object_area_handle.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_area_handle.htm)
+
 ### abapcreate_object_parameters.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_parameters.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_parameters.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14349,7 +15625,14 @@ CREATE OBJECT dialog\_box
                  height = 350.
 
 
+
+**📖 Source**: [abapcreate_object_parameters.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_parameters.htm)
+
 ### abapcreate_object_para_tables.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_para_tables.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_para_tables.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14445,7 +15728,14 @@ ENDTRY.
 Included pages: 2
 
 
+
+**📖 Source**: [abapcreate_object_para_tables.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_para_tables.htm)
+
 ### abennew_constructor_params_class.htm
+
+> **📖 Official SAP Documentation**: [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennew_constructor_params_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14599,7 +15889,14 @@ Continue
 ![Example](exa.gif "Example") [Instance Operator NEW on the Left](javascript:call_link\('abennew_on_the_left_abexa.htm'\))
 
 
+
+**📖 Source**: [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennew_constructor_params_class.htm)
+
 ### abennew_on_the_left_abexa.htm
+
+> **📖 Official SAP Documentation**: [abennew_on_the_left_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennew_on_the_left_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14673,7 +15970,14 @@ Although the reference variable only exists during the statement, the reference 
 Included pages: 2
 
 
+
+**📖 Source**: [abennew_on_the_left_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennew_on_the_left_abexa.htm)
+
 ### abennew_constructor_params_class.htm
+
+> **📖 Official SAP Documentation**: [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennew_constructor_params_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14827,7 +16131,14 @@ Continue
 ![Example](exa.gif "Example") [Instance Operator NEW on the Left](javascript:call_link\('abennew_on_the_left_abexa.htm'\))
 
 
+
+**📖 Source**: [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennew_constructor_params_class.htm)
+
 ### abennew_on_the_left_abexa.htm
+
+> **📖 Official SAP Documentation**: [abennew_on_the_left_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennew_on_the_left_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14901,7 +16212,14 @@ Although the reference variable only exists during the statement, the reference 
 Included pages: 5
 
 
+
+**📖 Source**: [abennew_on_the_left_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennew_on_the_left_abexa.htm)
+
 ### abenvalue_constructor_params_itab.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15102,7 +16420,14 @@ Continue
 ![Example](exa.gif "Example") [VALUE, Addition BASE for Internal Tables](javascript:call_link\('abenvalue_itab_base_abexa.htm'\))
 
 
+
+**📖 Source**: [abenvalue_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_itab.htm)
+
 ### abenvalue_constructor_params_lspc.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_lspc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15223,7 +16548,14 @@ FINAL(itab) = VALUE t\_itab( ( ) ( 20 ) ( 40 )
   ( LINES OF jtab FROM 6 STEP 2 ) ).
 
 
+
+**📖 Source**: [abenvalue_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_lspc.htm)
+
 ### abenvalue_itab_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15289,7 +16621,14 @@ The example shows various effects when using the left side of an assignment in l
 -   In the construction of itab4, the left side is saved in the helper variable x before it is initialization and is then used in LINES OF. The result is the same as when the left side is used after BASE.
 
 
+
+**📖 Source**: [abenvalue_itab_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_abexa.htm)
+
 ### abenvalue_itab_let_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_let_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_let_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15344,7 +16683,14 @@ Description  
 Construction of an internal table with an elementary line type with type string and filling it with three lines. The result is a table that contains the previous day, today, and the next day in the formatting for the current language environment. Today's date is produced using a method. To make sure that the method is called only once, the return value is assigned to a local helper field in a [LET expression](javascript:call_link\('abaplet.htm'\)).
 
 
+
+**📖 Source**: [abenvalue_itab_let_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_let_abexa.htm)
+
 ### abenvalue_itab_base_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_base_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_base_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15407,7 +16753,14 @@ With the addition BASE, the value inserts its line into an internal table that i
 Included pages: 5
 
 
+
+**📖 Source**: [abenvalue_itab_base_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_base_abexa.htm)
+
 ### abenvalue_constructor_params_itab.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15608,7 +16961,14 @@ Continue
 ![Example](exa.gif "Example") [VALUE, Addition BASE for Internal Tables](javascript:call_link\('abenvalue_itab_base_abexa.htm'\))
 
 
+
+**📖 Source**: [abenvalue_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_itab.htm)
+
 ### abenvalue_constructor_params_lspc.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_lspc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15729,7 +17089,14 @@ FINAL(itab) = VALUE t\_itab( ( ) ( 20 ) ( 40 )
   ( LINES OF jtab FROM 6 STEP 2 ) ).
 
 
+
+**📖 Source**: [abenvalue_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_constructor_params_lspc.htm)
+
 ### abenvalue_itab_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15795,7 +17162,14 @@ The example shows various effects when using the left side of an assignment in l
 -   In the construction of itab4, the left side is saved in the helper variable x before it is initialization and is then used in LINES OF. The result is the same as when the left side is used after BASE.
 
 
+
+**📖 Source**: [abenvalue_itab_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_abexa.htm)
+
 ### abenvalue_itab_let_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_let_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_let_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15850,7 +17224,14 @@ Description  
 Construction of an internal table with an elementary line type with type string and filling it with three lines. The result is a table that contains the previous day, today, and the next day in the formatting for the current language environment. Today's date is produced using a method. To make sure that the method is called only once, the return value is assigned to a local helper field in a [LET expression](javascript:call_link\('abaplet.htm'\)).
 
 
+
+**📖 Source**: [abenvalue_itab_let_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_let_abexa.htm)
+
 ### abenvalue_itab_base_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvalue_itab_base_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_base_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15913,7 +17294,14 @@ With the addition BASE, the value inserts its line into an internal table that i
 Included pages: 3
 
 
+
+**📖 Source**: [abenvalue_itab_base_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_itab_base_abexa.htm)
+
 ### abenshm_examples_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15935,7 +17323,14 @@ Continue
 ![Example](exa.gif "Example") [Shared Objects - Writing to and Reading from an Area](javascript:call_link\('abenshared_objects2_abexa.htm'\))
 
 
+
+**📖 Source**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm)
+
 ### abenshared_objects_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16066,7 +17461,14 @@ The class shm\_demo demonstrates a user. The method main creates an object of th
 After executing the class, the area instance version can be examined in transaction SHMM.
 
 
+
+**📖 Source**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
+
 ### abenshared_objects2_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16194,7 +17596,14 @@ After the executing the class, the area instance versions can be examined in tra
 Included pages: 3
 
 
+
+**📖 Source**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
+
 ### abenshm_examples_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16216,7 +17625,14 @@ Continue
 ![Example](exa.gif "Example") [Shared Objects - Writing to and Reading from an Area](javascript:call_link\('abenshared_objects2_abexa.htm'\))
 
 
+
+**📖 Source**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm)
+
 ### abenshared_objects_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16347,7 +17763,14 @@ The class shm\_demo demonstrates a user. The method main creates an object of th
 After executing the class, the area instance version can be examined in transaction SHMM.
 
 
+
+**📖 Source**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
+
 ### abenshared_objects2_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16475,7 +17898,14 @@ After the executing the class, the area instance versions can be examined in tra
 Included pages: 3
 
 
+
+**📖 Source**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
+
 ### abenshm_examples_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16497,7 +17927,14 @@ Continue
 ![Example](exa.gif "Example") [Shared Objects - Writing to and Reading from an Area](javascript:call_link\('abenshared_objects2_abexa.htm'\))
 
 
+
+**📖 Source**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm)
+
 ### abenshared_objects_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16628,7 +18065,14 @@ The class shm\_demo demonstrates a user. The method main creates an object of th
 After executing the class, the area instance version can be examined in transaction SHMM.
 
 
+
+**📖 Source**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
+
 ### abenshared_objects2_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16756,7 +18200,14 @@ After the executing the class, the area instance versions can be examined in tra
 Included pages: 3
 
 
+
+**📖 Source**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
+
 ### abenshm_examples_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16778,7 +18229,14 @@ Continue
 ![Example](exa.gif "Example") [Shared Objects - Writing to and Reading from an Area](javascript:call_link\('abenshared_objects2_abexa.htm'\))
 
 
+
+**📖 Source**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm)
+
 ### abenshared_objects_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16909,7 +18367,14 @@ The class shm\_demo demonstrates a user. The method main creates an object of th
 After executing the class, the area instance version can be examined in transaction SHMM.
 
 
+
+**📖 Source**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
+
 ### abenshared_objects2_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17037,7 +18502,14 @@ After the executing the class, the area instance versions can be examined in tra
 Included pages: 3
 
 
+
+**📖 Source**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
+
 ### abenshm_examples_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17059,7 +18531,14 @@ Continue
 ![Example](exa.gif "Example") [Shared Objects - Writing to and Reading from an Area](javascript:call_link\('abenshared_objects2_abexa.htm'\))
 
 
+
+**📖 Source**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm)
+
 ### abenshared_objects_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17190,7 +18669,14 @@ The class shm\_demo demonstrates a user. The method main creates an object of th
 After executing the class, the area instance version can be examined in transaction SHMM.
 
 
+
+**📖 Source**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
+
 ### abenshared_objects2_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17318,7 +18804,14 @@ After the executing the class, the area instance versions can be examined in tra
 Included pages: 3
 
 
+
+**📖 Source**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
+
 ### abenspa_gpa.htm
+
+> **📖 Official SAP Documentation**: [abenspa_gpa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenspa_gpa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17388,7 +18881,14 @@ Continue
 [GET PARAMETER](javascript:call_link\('abapget_parameter.htm'\))
 
 
+
+**📖 Source**: [abenspa_gpa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenspa_gpa.htm)
+
 ### abapset_parameter.htm
+
+> **📖 Official SAP Documentation**: [abapset_parameter.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_parameter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17453,7 +18953,14 @@ Uncatchable Exceptions
     Runtime error: SET\_PARAMETER\_MEMORY\_OVERFLOW
 
 
+
+**📖 Source**: [abapset_parameter.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_parameter.htm)
+
 ### abapget_parameter.htm
+
+> **📖 Official SAP Documentation**: [abapget_parameter.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_parameter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17528,7 +19035,14 @@ ENDIF.
 Included pages: 2
 
 
+
+**📖 Source**: [abapget_parameter.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_parameter.htm)
+
 ### abenlogic_functions.htm
+
+> **📖 Official SAP Documentation**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogic_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17555,7 +19069,14 @@ Continue
 [boolc, boolx, xsdbool, Boolean Functions](javascript:call_link\('abenboole_functions.htm'\))
 
 
+
+**📖 Source**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogic_functions.htm)
+
 ### abenboole_functions.htm
+
+> **📖 Official SAP Documentation**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenboole_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17706,7 +19227,14 @@ ENDIF.
 Included pages: 4
 
 
+
+**📖 Source**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenboole_functions.htm)
+
 ### abenexception_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17730,7 +19258,14 @@ Continue
 ![Example](exa.gif "Example") [Exceptions, CATCH](javascript:call_link\('abencatch_exception_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm)
+
 ### abenraise_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17790,7 +19325,14 @@ This example shows the two variants of the statement RAISE EXCEPTION. The first 
 The output of the line number in which the exception was raised indicates that, when the existing exception object was reused, its information was changed.
 
 
+
+**📖 Source**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
+
 ### abentry_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17872,7 +19414,14 @@ Description  
 -   Any other exceptions are handled in the final CATCH block of the TRY control structure of the compilation unit, which catches all possible exceptions by specifying the most generic exception class CX\_ROOT. If, for example, CX\_SY\_ARG\_OUT\_OF\_DOMAIN or one of its superclasses was not declared in the method interface, the exception CX\_SY\_NO\_HANDLER would be raised and would be handled in the final CATCH block.
 
 
+
+**📖 Source**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
+
 ### abencatch_exception_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18022,7 +19571,14 @@ The method meth1 raises a non-resumable exception and the method meth2 raises a 
 Included pages: 4
 
 
+
+**📖 Source**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
+
 ### abenexception_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18046,7 +19602,14 @@ Continue
 ![Example](exa.gif "Example") [Exceptions, CATCH](javascript:call_link\('abencatch_exception_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm)
+
 ### abenraise_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18106,7 +19669,14 @@ This example shows the two variants of the statement RAISE EXCEPTION. The first 
 The output of the line number in which the exception was raised indicates that, when the existing exception object was reused, its information was changed.
 
 
+
+**📖 Source**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
+
 ### abentry_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18188,7 +19758,14 @@ Description  
 -   Any other exceptions are handled in the final CATCH block of the TRY control structure of the compilation unit, which catches all possible exceptions by specifying the most generic exception class CX\_ROOT. If, for example, CX\_SY\_ARG\_OUT\_OF\_DOMAIN or one of its superclasses was not declared in the method interface, the exception CX\_SY\_NO\_HANDLER would be raised and would be handled in the final CATCH block.
 
 
+
+**📖 Source**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
+
 ### abencatch_exception_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18338,7 +19915,14 @@ The method meth1 raises a non-resumable exception and the method meth2 raises a 
 Included pages: 4
 
 
+
+**📖 Source**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
+
 ### abenexception_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18362,7 +19946,14 @@ Continue
 ![Example](exa.gif "Example") [Exceptions, CATCH](javascript:call_link\('abencatch_exception_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm)
+
 ### abenraise_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18422,7 +20013,14 @@ This example shows the two variants of the statement RAISE EXCEPTION. The first 
 The output of the line number in which the exception was raised indicates that, when the existing exception object was reused, its information was changed.
 
 
+
+**📖 Source**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
+
 ### abentry_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18504,7 +20102,14 @@ Description  
 -   Any other exceptions are handled in the final CATCH block of the TRY control structure of the compilation unit, which catches all possible exceptions by specifying the most generic exception class CX\_ROOT. If, for example, CX\_SY\_ARG\_OUT\_OF\_DOMAIN or one of its superclasses was not declared in the method interface, the exception CX\_SY\_NO\_HANDLER would be raised and would be handled in the final CATCH block.
 
 
+
+**📖 Source**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
+
 ### abencatch_exception_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18654,7 +20259,14 @@ The method meth1 raises a non-resumable exception and the method meth2 raises a 
 Included pages: 4
 
 
+
+**📖 Source**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
+
 ### abenexception_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18678,7 +20290,14 @@ Continue
 ![Example](exa.gif "Example") [Exceptions, CATCH](javascript:call_link\('abencatch_exception_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm)
+
 ### abenraise_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18738,7 +20357,14 @@ This example shows the two variants of the statement RAISE EXCEPTION. The first 
 The output of the line number in which the exception was raised indicates that, when the existing exception object was reused, its information was changed.
 
 
+
+**📖 Source**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
+
 ### abentry_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18820,7 +20446,14 @@ Description  
 -   Any other exceptions are handled in the final CATCH block of the TRY control structure of the compilation unit, which catches all possible exceptions by specifying the most generic exception class CX\_ROOT. If, for example, CX\_SY\_ARG\_OUT\_OF\_DOMAIN or one of its superclasses was not declared in the method interface, the exception CX\_SY\_NO\_HANDLER would be raised and would be handled in the final CATCH block.
 
 
+
+**📖 Source**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
+
 ### abencatch_exception_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18970,7 +20603,14 @@ The method meth1 raises a non-resumable exception and the method meth2 raises a 
 Included pages: 4
 
 
+
+**📖 Source**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
+
 ### abenexception_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18994,7 +20634,14 @@ Continue
 ![Example](exa.gif "Example") [Exceptions, CATCH](javascript:call_link\('abencatch_exception_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm)
+
 ### abenraise_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19054,7 +20701,14 @@ This example shows the two variants of the statement RAISE EXCEPTION. The first 
 The output of the line number in which the exception was raised indicates that, when the existing exception object was reused, its information was changed.
 
 
+
+**📖 Source**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
+
 ### abentry_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19136,7 +20790,14 @@ Description  
 -   Any other exceptions are handled in the final CATCH block of the TRY control structure of the compilation unit, which catches all possible exceptions by specifying the most generic exception class CX\_ROOT. If, for example, CX\_SY\_ARG\_OUT\_OF\_DOMAIN or one of its superclasses was not declared in the method interface, the exception CX\_SY\_NO\_HANDLER would be raised and would be handled in the final CATCH block.
 
 
+
+**📖 Source**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
+
 ### abencatch_exception_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19286,7 +20947,14 @@ The method meth1 raises a non-resumable exception and the method meth2 raises a 
 Included pages: 2
 
 
+
+**📖 Source**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
+
 ### abenabap_language_exceptions.htm
+
+> **📖 Official SAP Documentation**: [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19362,7 +21030,14 @@ Continue
 [Exception Classes for ABAP Statements](javascript:call_link\('abenabap_exception_classes.htm'\))
 
 
+
+**📖 Source**: [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
+
 ### abenabap_exception_classes.htm
+
+> **📖 Official SAP Documentation**: [abenabap_exception_classes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_exception_classes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19692,7 +21367,14 @@ CX\_ROOT
 Included pages: 8
 
 
+
+**📖 Source**: [abenabap_exception_classes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_exception_classes.htm)
+
 ### abenequals_operator.htm
+
+> **📖 Official SAP Documentation**: [abenequals_operator.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_operator.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19755,7 +21437,14 @@ Continue
 [\=, Assign Calculation Expressions](javascript:call_link\('abenequals_calc_expr.htm'\))
 
 
+
+**📖 Source**: [abenequals_operator.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_operator.htm)
+
 ### abapmove.htm
+
+> **📖 Official SAP Documentation**: [abapmove.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19859,7 +21548,14 @@ Uncatchable Exceptions
     Runtime error: MOVE\_TO\_LOOP\_REF
 
 
+
+**📖 Source**: [abapmove.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove.htm)
+
 ### abenequals_return_values.htm
+
+> **📖 Official SAP Documentation**: [abenequals_return_values.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_return_values.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19920,7 +21616,14 @@ cl\_demo\_output=>new(
   )->display( ).
 
 
+
+**📖 Source**: [abenequals_return_values.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_return_values.htm)
+
 ### abenequals_calc_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19946,7 +21649,14 @@ Continue
 [\=, Bit Expression](javascript:call_link\('abenequals_bit_expr.htm'\))
 
 
+
+**📖 Source**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+
 ### abenequals_arith_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_arith_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_arith_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20010,7 +21720,14 @@ FINAL(result5) = CONV pack8\_3( 1 \* number1 ). "p, length 8, decimals 3
 FINAL(result6) = CONV pack16(  1 \* number2 ). "p, length 16
 
 
+
+**📖 Source**: [abenequals_arith_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_arith_expr.htm)
+
 ### abenequals_string_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_string_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_string_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20058,7 +21775,14 @@ DATA number TYPE i.
 number = 1 && 2.
 
 
+
+**📖 Source**: [abenequals_string_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_string_expr.htm)
+
 ### abenequals_bit_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_bit_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_bit_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20098,7 +21822,14 @@ cl\_demo\_output=>write(   result1 ).
 cl\_demo\_output=>display( result2 ).
 
 
+
+**📖 Source**: [abenequals_bit_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_bit_expr.htm)
+
 ### abenequals_calc_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20136,7 +21867,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+
 ### abenequals_operator.htm
+
+> **📖 Official SAP Documentation**: [abenequals_operator.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_operator.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20199,7 +21937,14 @@ Continue
 [\=, Assign Calculation Expressions](javascript:call_link\('abenequals_calc_expr.htm'\))
 
 
+
+**📖 Source**: [abenequals_operator.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_operator.htm)
+
 ### abapmove.htm
+
+> **📖 Official SAP Documentation**: [abapmove.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20303,7 +22048,14 @@ Uncatchable Exceptions
     Runtime error: MOVE\_TO\_LOOP\_REF
 
 
+
+**📖 Source**: [abapmove.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove.htm)
+
 ### abenequals_return_values.htm
+
+> **📖 Official SAP Documentation**: [abenequals_return_values.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_return_values.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20364,7 +22116,14 @@ cl\_demo\_output=>new(
   )->display( ).
 
 
+
+**📖 Source**: [abenequals_return_values.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_return_values.htm)
+
 ### abenequals_calc_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20390,7 +22149,14 @@ Continue
 [\=, Bit Expression](javascript:call_link\('abenequals_bit_expr.htm'\))
 
 
+
+**📖 Source**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+
 ### abenequals_arith_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_arith_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_arith_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20454,7 +22220,14 @@ FINAL(result5) = CONV pack8\_3( 1 \* number1 ). "p, length 8, decimals 3
 FINAL(result6) = CONV pack16(  1 \* number2 ). "p, length 16
 
 
+
+**📖 Source**: [abenequals_arith_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_arith_expr.htm)
+
 ### abenequals_string_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_string_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_string_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20502,7 +22275,14 @@ DATA number TYPE i.
 number = 1 && 2.
 
 
+
+**📖 Source**: [abenequals_string_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_string_expr.htm)
+
 ### abenequals_bit_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_bit_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_bit_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20542,7 +22322,14 @@ cl\_demo\_output=>write(   result1 ).
 cl\_demo\_output=>display( result2 ).
 
 
+
+**📖 Source**: [abenequals_bit_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_bit_expr.htm)
+
 ### abenequals_calc_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20580,7 +22367,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+
 ### abenequals_operator.htm
+
+> **📖 Official SAP Documentation**: [abenequals_operator.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_operator.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20643,7 +22437,14 @@ Continue
 [\=, Assign Calculation Expressions](javascript:call_link\('abenequals_calc_expr.htm'\))
 
 
+
+**📖 Source**: [abenequals_operator.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_operator.htm)
+
 ### abapmove.htm
+
+> **📖 Official SAP Documentation**: [abapmove.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20747,7 +22548,14 @@ Uncatchable Exceptions
     Runtime error: MOVE\_TO\_LOOP\_REF
 
 
+
+**📖 Source**: [abapmove.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove.htm)
+
 ### abenequals_return_values.htm
+
+> **📖 Official SAP Documentation**: [abenequals_return_values.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_return_values.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20808,7 +22616,14 @@ cl\_demo\_output=>new(
   )->display( ).
 
 
+
+**📖 Source**: [abenequals_return_values.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_return_values.htm)
+
 ### abenequals_calc_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20834,7 +22649,14 @@ Continue
 [\=, Bit Expression](javascript:call_link\('abenequals_bit_expr.htm'\))
 
 
+
+**📖 Source**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+
 ### abenequals_arith_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_arith_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_arith_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20898,7 +22720,14 @@ FINAL(result5) = CONV pack8\_3( 1 \* number1 ). "p, length 8, decimals 3
 FINAL(result6) = CONV pack16(  1 \* number2 ). "p, length 16
 
 
+
+**📖 Source**: [abenequals_arith_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_arith_expr.htm)
+
 ### abenequals_string_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_string_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_string_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20946,7 +22775,14 @@ DATA number TYPE i.
 number = 1 && 2.
 
 
+
+**📖 Source**: [abenequals_string_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_string_expr.htm)
+
 ### abenequals_bit_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_bit_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_bit_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20986,7 +22822,14 @@ cl\_demo\_output=>write(   result1 ).
 cl\_demo\_output=>display( result2 ).
 
 
+
+**📖 Source**: [abenequals_bit_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_bit_expr.htm)
+
 ### abenequals_calc_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21024,7 +22867,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+
 ### abenequals_operator.htm
+
+> **📖 Official SAP Documentation**: [abenequals_operator.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_operator.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21087,7 +22937,14 @@ Continue
 [\=, Assign Calculation Expressions](javascript:call_link\('abenequals_calc_expr.htm'\))
 
 
+
+**📖 Source**: [abenequals_operator.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_operator.htm)
+
 ### abapmove.htm
+
+> **📖 Official SAP Documentation**: [abapmove.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21191,7 +23048,14 @@ Uncatchable Exceptions
     Runtime error: MOVE\_TO\_LOOP\_REF
 
 
+
+**📖 Source**: [abapmove.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove.htm)
+
 ### abenequals_return_values.htm
+
+> **📖 Official SAP Documentation**: [abenequals_return_values.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_return_values.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21252,7 +23116,14 @@ cl\_demo\_output=>new(
   )->display( ).
 
 
+
+**📖 Source**: [abenequals_return_values.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_return_values.htm)
+
 ### abenequals_calc_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21278,7 +23149,14 @@ Continue
 [\=, Bit Expression](javascript:call_link\('abenequals_bit_expr.htm'\))
 
 
+
+**📖 Source**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+
 ### abenequals_arith_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_arith_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_arith_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21342,7 +23220,14 @@ FINAL(result5) = CONV pack8\_3( 1 \* number1 ). "p, length 8, decimals 3
 FINAL(result6) = CONV pack16(  1 \* number2 ). "p, length 16
 
 
+
+**📖 Source**: [abenequals_arith_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_arith_expr.htm)
+
 ### abenequals_string_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_string_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_string_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21390,7 +23275,14 @@ DATA number TYPE i.
 number = 1 && 2.
 
 
+
+**📖 Source**: [abenequals_string_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_string_expr.htm)
+
 ### abenequals_bit_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_bit_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_bit_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21430,7 +23322,14 @@ cl\_demo\_output=>write(   result1 ).
 cl\_demo\_output=>display( result2 ).
 
 
+
+**📖 Source**: [abenequals_bit_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_bit_expr.htm)
+
 ### abenequals_calc_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21468,7 +23367,14 @@ Continue
 Included pages: 6
 
 
+
+**📖 Source**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_calc_expr.htm)
+
 ### abapassign_casting.htm
+
+> **📖 Official SAP Documentation**: [abapassign_casting.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21742,7 +23648,14 @@ Continue
 [Casting Examples](javascript:call_link\('abencasting_obsolete_abexas.htm'\))
 
 
+
+**📖 Source**: [abapassign_casting.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting.htm)
+
 ### abencasting_obsolete_abexas.htm
+
+> **📖 Official SAP Documentation**: [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21766,7 +23679,14 @@ Continue
 ![Example](exa.gif "Example") [Field Symbols, Casting Decimal Places](javascript:call_link\('abencasting_obsolete_dec_abexa.htm'\))
 
 
+
+**📖 Source**: [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_abexas.htm)
+
 ### abencasting_imp_exp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencasting_imp_exp_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_imp_exp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21830,7 +23750,14 @@ An implicit casting is performed in the first part of the method main. The field
 An explicit casting is performed in the second part of the method main. The field symbol <fs2> is completely generic. A cast is performed to the local type t\_date for the field sy-datum using the addition CASTING of the statement ASSIGN. The field symbol <fs2> can now be handled like a structure but does not recognize components. For this reason, it must be assigned to another field symbol <fs3>, component by component.
 
 
+
+**📖 Source**: [abencasting_imp_exp_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_imp_exp_abexa.htm)
+
 ### abencasting_obsolete_type_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencasting_obsolete_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21884,7 +23811,14 @@ This example demonstrates how casting works on built-in data types. First the ch
 The section of the method that has been commented out also shows the syntax for the respective [obsolete casting](javascript:call_link\('abapassign_casting_obsolete.htm'\)).
 
 
+
+**📖 Source**: [abencasting_obsolete_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_type_abexa.htm)
+
 ### abencasting_obsolete_dec_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencasting_obsolete_dec_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_dec_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21949,7 +23883,14 @@ The three fields of type p all have two decimal places. The field symbols <f1> a
 The section of the method that has been commented out also shows the syntax for the respective [obsolete casting](javascript:call_link\('abapassign_casting_obsolete.htm'\)).
 
 
+
+**📖 Source**: [abencasting_obsolete_dec_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_dec_abexa.htm)
+
 ### abencasting_obsolete_abexas.htm
+
+> **📖 Official SAP Documentation**: [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21985,7 +23926,14 @@ Continue
 Included pages: 9
 
 
+
+**📖 Source**: [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_abexas.htm)
+
 ### abencl_abap_math.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_math.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_math.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22013,7 +23961,14 @@ Continue
 [Random Numbers](javascript:call_link\('abenrandom_number_class.htm'\))
 
 
+
+**📖 Source**: [abencl_abap_math.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_math.htm)
+
 ### abenfloating_point_class.htm
+
+> **📖 Official SAP Documentation**: [abenfloating_point_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22097,7 +24052,14 @@ cl\_demo\_output=>display(
 }\\nprecision = { cl\_abap\_math=>get\_number\_of\_digits( decf ) }| ).
 
 
+
+**📖 Source**: [abenfloating_point_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_class.htm)
+
 ### abencl_abap_decfloat_doc.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_decfloat_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_decfloat_doc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22121,7 +24083,14 @@ Hint
 The formatting option [CURRENCY](javascript:call_link\('abapwrite_to_options.htm'\)) of the [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) and [WRITE](javascript:call_link\('abapwrite-.htm'\)) statements works like the method CONVERT\_DECFLOAT\_TO\_CURR.
 
 
+
+**📖 Source**: [abencl_abap_decfloat_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_decfloat_doc.htm)
+
 ### abencl_abap_bigint_doc.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_bigint_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_bigint_doc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22147,7 +24116,14 @@ Continue
 ![Example](exa.gif "Example") [CL\_ABAP\_BIGINT, Square Root Calculation](javascript:call_link\('abenbigint1_abexa.htm'\))
 
 
+
+**📖 Source**: [abencl_abap_bigint_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_bigint_doc.htm)
+
 ### abenbigint_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenbigint_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbigint_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22367,7 +24343,14 @@ Description  
 Public and private RSA key pairs are generated using methods of the system class CL\_ABAP\_BIGINT. These key pairs are used to encrypt a text. The key pairs, as well as the encrypted and decrypted text, are generated as screen output.
 
 
+
+**📖 Source**: [abenbigint_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbigint_abexa.htm)
+
 ### abenbigint1_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenbigint1_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbigint1_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22437,7 +24420,14 @@ The user can enter two integers:
 Methods of the system class CL\_ABAP\_BIGINT are used to return the square root of p\_int with the required number of decimal places.
 
 
+
+**📖 Source**: [abenbigint1_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbigint1_abexa.htm)
+
 ### abencl_abap_bigint_doc.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_bigint_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_bigint_doc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22463,7 +24453,14 @@ Continue
 ![Example](exa.gif "Example") [CL\_ABAP\_BIGINT, Square Root Calculation](javascript:call_link\('abenbigint1_abexa.htm'\))
 
 
+
+**📖 Source**: [abencl_abap_bigint_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_bigint_doc.htm)
+
 ### abencl_abap_rational_doc.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_rational_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_rational_doc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22506,7 +24503,14 @@ lo\_rational->sub( cl\_abap\_rational=>factory\_from\_string(
 \`461293641239461293641237946192785619264124\` ) ).
 
 
+
+**📖 Source**: [abencl_abap_rational_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_rational_doc.htm)
+
 ### abenrandom_number_class.htm
+
+> **📖 Official SAP Documentation**: [abenrandom_number_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrandom_number_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22554,7 +24558,14 @@ FINAL(r) = cl\_abap\_random\_int=>create( seed = CONV i( time )
 Included pages: 5
 
 
+
+**📖 Source**: [abenrandom_number_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrandom_number_class.htm)
+
 ### abencl_abap_string_utilities.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_string_utilities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_string_utilities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22581,7 +24592,14 @@ Continue
 [Methods for Handling Code Pages](javascript:call_link\('abencl_abap_conv_codepage.htm'\))
 
 
+
+**📖 Source**: [abencl_abap_string_utilities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_string_utilities.htm)
+
 ### abenstring_util.htm
+
+> **📖 Official SAP Documentation**: [abenstring_util.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_util.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22614,7 +24632,14 @@ cl\_abap\_string\_utilities=>del\_trailing\_blanks( CHANGING str = rslt ).
 ASSERT rslt =  shift\_right( str ).
 
 
+
+**📖 Source**: [abenstring_util.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_util.htm)
+
 ### abencl_abap_gzip.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_gzip.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_gzip.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22654,7 +24679,14 @@ cl\_abap\_gzip=>decompress\_text(
 ASSERT txt = \`Hello!\`.
 
 
+
+**📖 Source**: [abencl_abap_gzip.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_gzip.htm)
+
 ### abencl_abap_char_utilities.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_char_utilities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_char_utilities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22682,7 +24714,14 @@ ASSERT cl\_abap\_char\_utilities=>horizontal\_tab = |\\t|.
 ASSERT cl\_abap\_char\_utilities=>cr\_lf          = |\\r\\n|.
 
 
+
+**📖 Source**: [abencl_abap_char_utilities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_char_utilities.htm)
+
 ### abencl_abap_conv_codepage.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_conv_codepage.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_conv_codepage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22723,7 +24762,14 @@ ASSERT
 Included pages: 5
 
 
+
+**📖 Source**: [abencl_abap_conv_codepage.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_conv_codepage.htm)
+
 ### abencl_abap_string_utilities.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_string_utilities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_string_utilities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22750,7 +24796,14 @@ Continue
 [Methods for Handling Code Pages](javascript:call_link\('abencl_abap_conv_codepage.htm'\))
 
 
+
+**📖 Source**: [abencl_abap_string_utilities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_string_utilities.htm)
+
 ### abenstring_util.htm
+
+> **📖 Official SAP Documentation**: [abenstring_util.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_util.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22783,7 +24836,14 @@ cl\_abap\_string\_utilities=>del\_trailing\_blanks( CHANGING str = rslt ).
 ASSERT rslt =  shift\_right( str ).
 
 
+
+**📖 Source**: [abenstring_util.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_util.htm)
+
 ### abencl_abap_gzip.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_gzip.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_gzip.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22823,7 +24883,14 @@ cl\_abap\_gzip=>decompress\_text(
 ASSERT txt = \`Hello!\`.
 
 
+
+**📖 Source**: [abencl_abap_gzip.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_gzip.htm)
+
 ### abencl_abap_char_utilities.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_char_utilities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_char_utilities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22851,7 +24918,14 @@ ASSERT cl\_abap\_char\_utilities=>horizontal\_tab = |\\t|.
 ASSERT cl\_abap\_char\_utilities=>cr\_lf          = |\\r\\n|.
 
 
+
+**📖 Source**: [abencl_abap_char_utilities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_char_utilities.htm)
+
 ### abencl_abap_conv_codepage.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_conv_codepage.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_conv_codepage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22892,7 +24966,14 @@ ASSERT
 Included pages: 6
 
 
+
+**📖 Source**: [abencl_abap_conv_codepage.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_conv_codepage.htm)
+
 ### abenenumerated_types_usage.htm
+
+> **📖 Official SAP Documentation**: [abenenumerated_types_usage.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_types_usage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23316,7 +25397,14 @@ Continue
 ![Example](exa.gif "Example") [enum, General Use](javascript:call_link\('abenenum_usage_abexa.htm'\))
 
 
+
+**📖 Source**: [abenenumerated_types_usage.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_types_usage.htm)
+
 ### abenenum_declaration_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenum_declaration_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_declaration_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23440,7 +25528,14 @@ This example shows enumerated objects defined with reference to an [ABAP enumera
 Note that only enumerated constants or variables with the same enumerated type are assigned to enumerated variables.
 
 
+
+**📖 Source**: [abenenum_declaration_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_declaration_abexa.htm)
+
 ### abenenum_formal_para_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenum_formal_para_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_formal_para_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23499,7 +25594,14 @@ Description  
 The method meth has a parameter psimple of generic type simple and a parameter penum of CDS enumerated type DEMO\_CDS\_ENUM\_WEEKDAY. To both, enumerated objects of that enumerated type can be passed. psimple cannot be used in a comparison, where the other operand is an enumerated object. But it is possible to use psimple at a write position and to assign it to a field symbol that is typed with the enumerated type and use that in the comparison. Note that the assignment to the field symbol works since the operand position after ASSIGN is not handled as a read position.
 
 
+
+**📖 Source**: [abenenum_formal_para_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_formal_para_abexa.htm)
+
 ### abenenum_description_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenum_description_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_description_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23557,7 +25659,14 @@ The statement [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\))
 See also [CDS Enumerated Type, Type Description](javascript:call_link\('abencds_enum_description_abexa.htm'\))
 
 
+
+**📖 Source**: [abenenum_description_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_description_abexa.htm)
+
 ### abenenum_deserialization_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenum_deserialization_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_deserialization_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23629,7 +25738,14 @@ A byte string is composed in such a way that it represents an XML file in asXML 
 The dynamic assignment of the name to a field symbol shown in the following also produces the required result, but requires that the enumeration type size is known in the current context. The XML file, on the other hand, can be deserialized into an enumeration object without static knowledge of the enumeration type.
 
 
+
+**📖 Source**: [abenenum_deserialization_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_deserialization_abexa.htm)
+
 ### abenenum_usage_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenum_usage_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_usage_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23728,7 +25844,14 @@ Enumerated values can be entered for the size and format when the class is execu
 Included pages: 2
 
 
+
+**📖 Source**: [abenenum_usage_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_usage_abexa.htm)
+
 ### abenitab_perfo.htm
+
+> **📖 Official SAP Documentation**: [abenitab_perfo.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_perfo.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23960,7 +26083,14 @@ cl\_demo\_output=>display( |Expression: { text\_short }| ).
 Included pages: 3
 
 
+
+**📖 Source**: [abenitab_perfo.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_perfo.htm)
+
 ### abenrtti.htm
+
+> **📖 Official SAP Documentation**: [abenrtti.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24039,7 +26169,14 @@ Continue
 ![Example](exa.gif "Example") [Determining Object Types](javascript:call_link\('abenrtti_object_type_abexa.htm'\))
 
 
+
+**📖 Source**: [abenrtti.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti.htm)
+
 ### abenrtti_data_type_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrtti_data_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_data_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24113,7 +26250,14 @@ This example expands on the [executable example](javascript:call_link\('abendesc
 When complex types, such as SCARR and SPFLI, are entered in the input fields, the RTTI determines the full [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenrtti_data_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_data_type_abexa.htm)
+
 ### abenrtti_object_type_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrtti_object_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_object_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24217,7 +26361,14 @@ This example is the equivalent of the [executable example](javascript:call_link\
 Included pages: 3
 
 
+
+**📖 Source**: [abenrtti_object_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_object_type_abexa.htm)
+
 ### abenrtti.htm
+
+> **📖 Official SAP Documentation**: [abenrtti.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24296,7 +26447,14 @@ Continue
 ![Example](exa.gif "Example") [Determining Object Types](javascript:call_link\('abenrtti_object_type_abexa.htm'\))
 
 
+
+**📖 Source**: [abenrtti.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti.htm)
+
 ### abenrtti_data_type_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrtti_data_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_data_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24370,7 +26528,14 @@ This example expands on the [executable example](javascript:call_link\('abendesc
 When complex types, such as SCARR and SPFLI, are entered in the input fields, the RTTI determines the full [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenrtti_data_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_data_type_abexa.htm)
+
 ### abenrtti_object_type_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrtti_object_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_object_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24474,7 +26639,14 @@ This example is the equivalent of the [executable example](javascript:call_link\
 Included pages: 3
 
 
+
+**📖 Source**: [abenrtti_object_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_object_type_abexa.htm)
+
 ### abenrtti.htm
+
+> **📖 Official SAP Documentation**: [abenrtti.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24553,7 +26725,14 @@ Continue
 ![Example](exa.gif "Example") [Determining Object Types](javascript:call_link\('abenrtti_object_type_abexa.htm'\))
 
 
+
+**📖 Source**: [abenrtti.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti.htm)
+
 ### abenrtti_data_type_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrtti_data_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_data_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24627,7 +26806,14 @@ This example expands on the [executable example](javascript:call_link\('abendesc
 When complex types, such as SCARR and SPFLI, are entered in the input fields, the RTTI determines the full [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenrtti_data_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_data_type_abexa.htm)
+
 ### abenrtti_object_type_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrtti_object_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_object_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24731,7 +26917,14 @@ This example is the equivalent of the [executable example](javascript:call_link\
 Included pages: 3
 
 
+
+**📖 Source**: [abenrtti_object_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_object_type_abexa.htm)
+
 ### abenrtti.htm
+
+> **📖 Official SAP Documentation**: [abenrtti.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24810,7 +27003,14 @@ Continue
 ![Example](exa.gif "Example") [Determining Object Types](javascript:call_link\('abenrtti_object_type_abexa.htm'\))
 
 
+
+**📖 Source**: [abenrtti.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti.htm)
+
 ### abenrtti_data_type_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrtti_data_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_data_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24884,7 +27084,14 @@ This example expands on the [executable example](javascript:call_link\('abendesc
 When complex types, such as SCARR and SPFLI, are entered in the input fields, the RTTI determines the full [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenrtti_data_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_data_type_abexa.htm)
+
 ### abenrtti_object_type_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrtti_object_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_object_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24988,7 +27195,14 @@ This example is the equivalent of the [executable example](javascript:call_link\
 Included pages: 3
 
 
+
+**📖 Source**: [abenrtti_object_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti_object_type_abexa.htm)
+
 ### abendataset_auth.htm
+
+> **📖 Official SAP Documentation**: [abendataset_auth.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendataset_auth.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25010,7 +27224,14 @@ Continue
 [Validation of File Names](javascript:call_link\('abendataset_auth_self.htm'\))
 
 
+
+**📖 Source**: [abendataset_auth.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendataset_auth.htm)
+
 ### abenfile_interface_authority.htm
+
+> **📖 Official SAP Documentation**: [abenfile_interface_authority.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfile_interface_authority.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25276,7 +27497,14 @@ This configuration forbids the use of any relative paths when files are accessed
 -   Access to the path specified as \* should also be subject to an authorization group allowing access using any relative paths for authorized users.
 
 
+
+**📖 Source**: [abenfile_interface_authority.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfile_interface_authority.htm)
+
 ### abendataset_auth_self.htm
+
+> **📖 Official SAP Documentation**: [abendataset_auth_self.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendataset_auth_self.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25410,7 +27638,14 @@ OPEN DATASET phys\_name FOR OUTPUT IN TEXT MODE ENCODING UTF-8.
 Included pages: 5
 
 
+
+**📖 Source**: [abendataset_auth_self.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendataset_auth_self.htm)
+
 ### abapopen_dataset_mode.htm
+
+> **📖 Official SAP Documentation**: [abapopen_dataset_mode.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_mode.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25550,7 +27785,14 @@ Continue
 [OPEN DATASET, CODE PAGE](javascript:call_link\('abapopen_dataset_code_page.htm'\))
 
 
+
+**📖 Source**: [abapopen_dataset_mode.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_mode.htm)
+
 ### abapopen_dataset_encoding.htm
+
+> **📖 Official SAP Documentation**: [abapopen_dataset_encoding.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_encoding.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25707,7 +27949,14 @@ cl\_demo\_output=>display( text ).
 DELETE DATASET dset.
 
 
+
+**📖 Source**: [abapopen_dataset_encoding.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_encoding.htm)
+
 ### abapopen_dataset_linefeed.htm
+
+> **📖 Official SAP Documentation**: [abapopen_dataset_linefeed.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_linefeed.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25889,7 +28138,14 @@ DELETE DATASET dset.
 ASSERT xstr = cl\_abap\_conv\_codepage=>create\_out( )->convert( |\\r\\n| ).
 
 
+
+**📖 Source**: [abapopen_dataset_linefeed.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_linefeed.htm)
+
 ### abapopen_dataset_endian.htm
+
+> **📖 Official SAP Documentation**: [abapopen_dataset_endian.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_endian.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25942,7 +28198,14 @@ cl\_demo\_output=>display( ).
 DELETE DATASET dset.
 
 
+
+**📖 Source**: [abapopen_dataset_endian.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_endian.htm)
+
 ### abapopen_dataset_code_page.htm
+
+> **📖 Official SAP Documentation**: [abapopen_dataset_code_page.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_code_page.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26009,7 +28272,14 @@ DELETE DATASET dset.
 Included pages: 13
 
 
+
+**📖 Source**: [abapopen_dataset_code_page.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_code_page.htm)
+
 ### abenmessage_interfaces.htm
+
+> **📖 Official SAP Documentation**: [abenmessage_interfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_interfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26035,7 +28305,14 @@ Continue
 [Messages - System Interface IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\))
 
 
+
+**📖 Source**: [abenmessage_interfaces.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_interfaces.htm)
+
 ### abenif_t100_message.htm
+
+> **📖 Official SAP Documentation**: [abenif_t100_message.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenif_t100_message.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26107,7 +28384,14 @@ Continue
 ![Example](exa.gif "Example") [Messages - IF\_T100\_MESSAGE for Exception with Message](javascript:call_link\('abenmessage_interface_reuse_abexa.htm'\))
 
 
+
+**📖 Source**: [abenif_t100_message.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenif_t100_message.htm)
+
 ### abenif_t100_message_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenif_t100_message_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenif_t100_message_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26210,7 +28494,14 @@ Hint
 See also the executable example [System Interface IF\_T100\_DYN\_MSG in Regular Class](javascript:call_link\('abenif_t100_dyn_msg_abexa.htm'\)).
 
 
+
+**📖 Source**: [abenif_t100_message_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenif_t100_message_abexa.htm)
+
 ### abenmessage_interface_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmessage_interface_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_interface_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26310,7 +28601,14 @@ See also the executable examples listed below.
 -   [System Interface IF\_T100\_DYN\_MSG in Local Exception Class](javascript:call_link\('abenraise_message_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmessage_interface_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_interface_abexa.htm)
+
 ### abenmessage_interface_global_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmessage_interface_global_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_interface_global_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26375,7 +28673,14 @@ See also the executable examples listed below.
 -   [System Interface IF\_T100\_DYN\_MSG in Global Exception Class](javascript:call_link\('abenraise_message_global_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmessage_interface_global_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_interface_global_abexa.htm)
+
 ### abenmessage_interface_reuse_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmessage_interface_reuse_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_interface_reuse_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26444,7 +28749,14 @@ The properties of the message sent using MESSAGE RAISING are available in the sy
 The [executable example](javascript:call_link\('abenraise_message_global_abexa.htm'\)) for the system interface IF\_T100\_DYN\_MSG in a global exception demonstrates how all properties of the message can be specified after the addition [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)).
 
 
+
+**📖 Source**: [abenmessage_interface_reuse_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmessage_interface_reuse_abexa.htm)
+
 ### abenif_t100_message.htm
+
+> **📖 Official SAP Documentation**: [abenif_t100_message.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenif_t100_message.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26516,7 +28828,14 @@ Continue
 ![Example](exa.gif "Example") [Messages - IF\_T100\_MESSAGE for Exception with Message](javascript:call_link\('abenmessage_interface_reuse_abexa.htm'\))
 
 
+
+**📖 Source**: [abenif_t100_message.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenif_t100_message.htm)
+
 ### abenif_t100_dyn_msg.htm
+
+> **📖 Official SAP Documentation**: [abenif_t100_dyn_msg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenif_t100_dyn_msg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26576,7 +28895,14 @@ Continue
 ![Example](exa.gif "Example") [Messages - IF\_T100\_DYN\_MSG for Exception error\_message](javascript:call_link\('abenraise_error_message_abexa.htm'\))
 
 
+
+**📖 Source**: [abenif_t100_dyn_msg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenif_t100_dyn_msg.htm)
+
 ### abenif_t100_dyn_msg_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenif_t100_dyn_msg_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenif_t100_dyn_msg_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26681,7 +29007,14 @@ Description  
 This example applies the [executable example](javascript:call_link\('abenif_t100_message_abexa.htm'\)) for the interface IF\_T100\_MESSAGE to the interface IF\_T100\_DYN\_MSG directly. If IF\_T100\_DYN\_MSG is used, it is no longer necessary to create separate attributes for the placeholders of the message. The attributes of the interface are used instead. Furthermore, the message type can be stored and evaluated in the interface attribute msgty. If IF\_T100\_MESSAGE is used, a separate attribute must be declared here. The attribute can then be used in the MESSAGE statement in ABAP language versions where that syntax is allowed.
 
 
+
+**📖 Source**: [abenif_t100_dyn_msg_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenif_t100_dyn_msg_abexa.htm)
+
 ### abenraise_message_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenraise_message_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_message_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26742,7 +29075,14 @@ This example applies the [executable example](javascript:call_link\('abenmessage
 Unlike when using [IF\_T100\_MESSAGE](javascript:call_link\('abenif_t100_message.htm'\)), no separate attributes for the placeholders of the message and no implementation of the instance constructor are required in cx\_dyn\_t100. Furthermore, the message type is passed in an attribute of the exception object when IF\_T100\_DYN\_MSG is used. An alias name is introduced for this attribute here.
 
 
+
+**📖 Source**: [abenraise_message_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_message_abexa.htm)
+
 ### abenraise_message_global_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenraise_message_global_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_message_global_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26809,7 +29149,14 @@ Hint
 See also the executable [example](javascript:call_link\('abenraise_message_glbl_shrt_abexa.htm'\)) for using a short form of statement [RAISE EXCEPTION MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)).
 
 
+
+**📖 Source**: [abenraise_message_global_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_message_global_abexa.htm)
+
 ### abenraise_error_message_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenraise_error_message_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_error_message_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26872,7 +29219,14 @@ Hint
 See also the executable [example](javascript:call_link\('abenraise_error_message_shrt_abexa.htm'\)) for using a short form of statement [RAISE EXCEPTION MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)).
 
 
+
+**📖 Source**: [abenraise_error_message_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_error_message_abexa.htm)
+
 ### abenif_t100_dyn_msg.htm
+
+> **📖 Official SAP Documentation**: [abenif_t100_dyn_msg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenif_t100_dyn_msg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26944,7 +29298,14 @@ Continue
 Included pages: 7
 
 
+
+**📖 Source**: [abenif_t100_dyn_msg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenif_t100_dyn_msg.htm)
+
 ### abenrfc_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26974,7 +29335,14 @@ Continue
 ![Example](exa.gif "Example") [RFC - Implicit Logon Data](javascript:call_link\('abenrfc_logon_data_abexa.htm'\))
 
 
+
+**📖 Source**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_abexas.htm)
+
 ### abenrfc_parameters_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameters_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27084,7 +29452,14 @@ The function module DEMO\_RFM\_PARAMETERS is called using [synchronous](javascri
 -   In asynchronous calls, parameters can only be passed in the statement CALL FUNCTION. Parameters are applied using the statement [RECEIVE](javascript:call_link\('abapreceive.htm'\)) in a callback routine. The statement [WAIT FOR ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_arfc.htm'\)) is used to wait for this routine.
 
 
+
+**📖 Source**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameters_abexa.htm)
+
 ### abenrfc_exceptions_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_exceptions_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27140,7 +29515,14 @@ The DEMO\_RFM\_CLASSIC\_EXCEPTION function module raises the non-class-based exc
 When DEMO\_RFM\_CLASSIC\_EXCEPTION is called, EXCEPTIONS is specified and values for sy-subrc are assigned to the possible classic exceptions. If none of the predefined RFC interface exceptions are raised, sy-subrc is set to 3.
 
 
+
+**📖 Source**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_exceptions_abexa.htm)
+
 ### abenrfc_parameter_tables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_parameter_tables_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameter_tables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27227,7 +29609,14 @@ Description  
 The function module DEMO\_RFM\_PARAMETERS is called using [sRFC](javascript:call_link\('abensrfc_glosry.htm'\) "Glossary Entry"). Parameters are passed and exceptions are handled dynamically using internal tables ptab and etab.
 
 
+
+**📖 Source**: [abenrfc_parameter_tables_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameter_tables_abexa.htm)
+
 ### abenparallel_rfc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparallel_rfc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27336,7 +29725,14 @@ The addition GROUP DEFAULT is used to distribute the execution across all [AS in
 After all function modules have been started, the system waits until all callback routines have been executed. After that, the internal table task\_list filled there is produced. The output shows the order in which the individual tasks were completed and on which AS instance they were executed.
 
 
+
+**📖 Source**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparallel_rfc_abexa.htm)
+
 ### abenrfc_dynamic_dest_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_dynamic_dest_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27421,7 +29817,14 @@ Description  
 The method CREATE\_RFC\_DESTINATION of class CL\_DYNAMIC\_DESTINATION is used to create a [dynamic destination](javascript:call_link\('abenrfc_destination.htm'\)). Input values, whose default values are determined from system fields for the current AS ABAP, are passed as parameters. A remote-enabled function module is called using the dynamic destination. The call is only successful if the destination is created correctly.
 
 
+
+**📖 Source**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_dynamic_dest_abexa.htm)
+
 ### abenrfc_logon_data_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_logon_data_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27501,7 +29904,14 @@ If the function module DEMO\_RFM\_LOGON\_DATA is called remotely again, the RFC 
 Included pages: 7
 
 
+
+**📖 Source**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_logon_data_abexa.htm)
+
 ### abenrfc_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27531,7 +29941,14 @@ Continue
 ![Example](exa.gif "Example") [RFC - Implicit Logon Data](javascript:call_link\('abenrfc_logon_data_abexa.htm'\))
 
 
+
+**📖 Source**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_abexas.htm)
+
 ### abenrfc_parameters_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameters_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27641,7 +30058,14 @@ The function module DEMO\_RFM\_PARAMETERS is called using [synchronous](javascri
 -   In asynchronous calls, parameters can only be passed in the statement CALL FUNCTION. Parameters are applied using the statement [RECEIVE](javascript:call_link\('abapreceive.htm'\)) in a callback routine. The statement [WAIT FOR ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_arfc.htm'\)) is used to wait for this routine.
 
 
+
+**📖 Source**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameters_abexa.htm)
+
 ### abenrfc_exceptions_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_exceptions_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27697,7 +30121,14 @@ The DEMO\_RFM\_CLASSIC\_EXCEPTION function module raises the non-class-based exc
 When DEMO\_RFM\_CLASSIC\_EXCEPTION is called, EXCEPTIONS is specified and values for sy-subrc are assigned to the possible classic exceptions. If none of the predefined RFC interface exceptions are raised, sy-subrc is set to 3.
 
 
+
+**📖 Source**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_exceptions_abexa.htm)
+
 ### abenrfc_parameter_tables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_parameter_tables_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameter_tables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27784,7 +30215,14 @@ Description  
 The function module DEMO\_RFM\_PARAMETERS is called using [sRFC](javascript:call_link\('abensrfc_glosry.htm'\) "Glossary Entry"). Parameters are passed and exceptions are handled dynamically using internal tables ptab and etab.
 
 
+
+**📖 Source**: [abenrfc_parameter_tables_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameter_tables_abexa.htm)
+
 ### abenparallel_rfc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparallel_rfc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27893,7 +30331,14 @@ The addition GROUP DEFAULT is used to distribute the execution across all [AS in
 After all function modules have been started, the system waits until all callback routines have been executed. After that, the internal table task\_list filled there is produced. The output shows the order in which the individual tasks were completed and on which AS instance they were executed.
 
 
+
+**📖 Source**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparallel_rfc_abexa.htm)
+
 ### abenrfc_dynamic_dest_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_dynamic_dest_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27978,7 +30423,14 @@ Description  
 The method CREATE\_RFC\_DESTINATION of class CL\_DYNAMIC\_DESTINATION is used to create a [dynamic destination](javascript:call_link\('abenrfc_destination.htm'\)). Input values, whose default values are determined from system fields for the current AS ABAP, are passed as parameters. A remote-enabled function module is called using the dynamic destination. The call is only successful if the destination is created correctly.
 
 
+
+**📖 Source**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_dynamic_dest_abexa.htm)
+
 ### abenrfc_logon_data_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_logon_data_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28058,7 +30510,14 @@ If the function module DEMO\_RFM\_LOGON\_DATA is called remotely again, the RFC 
 Included pages: 7
 
 
+
+**📖 Source**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_logon_data_abexa.htm)
+
 ### abenrfc_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28088,7 +30547,14 @@ Continue
 ![Example](exa.gif "Example") [RFC - Implicit Logon Data](javascript:call_link\('abenrfc_logon_data_abexa.htm'\))
 
 
+
+**📖 Source**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_abexas.htm)
+
 ### abenrfc_parameters_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameters_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28198,7 +30664,14 @@ The function module DEMO\_RFM\_PARAMETERS is called using [synchronous](javascri
 -   In asynchronous calls, parameters can only be passed in the statement CALL FUNCTION. Parameters are applied using the statement [RECEIVE](javascript:call_link\('abapreceive.htm'\)) in a callback routine. The statement [WAIT FOR ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_arfc.htm'\)) is used to wait for this routine.
 
 
+
+**📖 Source**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameters_abexa.htm)
+
 ### abenrfc_exceptions_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_exceptions_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28254,7 +30727,14 @@ The DEMO\_RFM\_CLASSIC\_EXCEPTION function module raises the non-class-based exc
 When DEMO\_RFM\_CLASSIC\_EXCEPTION is called, EXCEPTIONS is specified and values for sy-subrc are assigned to the possible classic exceptions. If none of the predefined RFC interface exceptions are raised, sy-subrc is set to 3.
 
 
+
+**📖 Source**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_exceptions_abexa.htm)
+
 ### abenrfc_parameter_tables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_parameter_tables_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameter_tables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28341,7 +30821,14 @@ Description  
 The function module DEMO\_RFM\_PARAMETERS is called using [sRFC](javascript:call_link\('abensrfc_glosry.htm'\) "Glossary Entry"). Parameters are passed and exceptions are handled dynamically using internal tables ptab and etab.
 
 
+
+**📖 Source**: [abenrfc_parameter_tables_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameter_tables_abexa.htm)
+
 ### abenparallel_rfc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparallel_rfc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28450,7 +30937,14 @@ The addition GROUP DEFAULT is used to distribute the execution across all [AS in
 After all function modules have been started, the system waits until all callback routines have been executed. After that, the internal table task\_list filled there is produced. The output shows the order in which the individual tasks were completed and on which AS instance they were executed.
 
 
+
+**📖 Source**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparallel_rfc_abexa.htm)
+
 ### abenrfc_dynamic_dest_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_dynamic_dest_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28535,7 +31029,14 @@ Description  
 The method CREATE\_RFC\_DESTINATION of class CL\_DYNAMIC\_DESTINATION is used to create a [dynamic destination](javascript:call_link\('abenrfc_destination.htm'\)). Input values, whose default values are determined from system fields for the current AS ABAP, are passed as parameters. A remote-enabled function module is called using the dynamic destination. The call is only successful if the destination is created correctly.
 
 
+
+**📖 Source**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_dynamic_dest_abexa.htm)
+
 ### abenrfc_logon_data_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_logon_data_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28615,7 +31116,14 @@ If the function module DEMO\_RFM\_LOGON\_DATA is called remotely again, the RFC 
 Included pages: 7
 
 
+
+**📖 Source**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_logon_data_abexa.htm)
+
 ### abenrfc_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28645,7 +31153,14 @@ Continue
 ![Example](exa.gif "Example") [RFC - Implicit Logon Data](javascript:call_link\('abenrfc_logon_data_abexa.htm'\))
 
 
+
+**📖 Source**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_abexas.htm)
+
 ### abenrfc_parameters_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameters_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28755,7 +31270,14 @@ The function module DEMO\_RFM\_PARAMETERS is called using [synchronous](javascri
 -   In asynchronous calls, parameters can only be passed in the statement CALL FUNCTION. Parameters are applied using the statement [RECEIVE](javascript:call_link\('abapreceive.htm'\)) in a callback routine. The statement [WAIT FOR ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_arfc.htm'\)) is used to wait for this routine.
 
 
+
+**📖 Source**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameters_abexa.htm)
+
 ### abenrfc_exceptions_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_exceptions_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28811,7 +31333,14 @@ The DEMO\_RFM\_CLASSIC\_EXCEPTION function module raises the non-class-based exc
 When DEMO\_RFM\_CLASSIC\_EXCEPTION is called, EXCEPTIONS is specified and values for sy-subrc are assigned to the possible classic exceptions. If none of the predefined RFC interface exceptions are raised, sy-subrc is set to 3.
 
 
+
+**📖 Source**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_exceptions_abexa.htm)
+
 ### abenrfc_parameter_tables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_parameter_tables_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameter_tables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28898,7 +31427,14 @@ Description  
 The function module DEMO\_RFM\_PARAMETERS is called using [sRFC](javascript:call_link\('abensrfc_glosry.htm'\) "Glossary Entry"). Parameters are passed and exceptions are handled dynamically using internal tables ptab and etab.
 
 
+
+**📖 Source**: [abenrfc_parameter_tables_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameter_tables_abexa.htm)
+
 ### abenparallel_rfc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparallel_rfc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29007,7 +31543,14 @@ The addition GROUP DEFAULT is used to distribute the execution across all [AS in
 After all function modules have been started, the system waits until all callback routines have been executed. After that, the internal table task\_list filled there is produced. The output shows the order in which the individual tasks were completed and on which AS instance they were executed.
 
 
+
+**📖 Source**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparallel_rfc_abexa.htm)
+
 ### abenrfc_dynamic_dest_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_dynamic_dest_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29092,7 +31635,14 @@ Description  
 The method CREATE\_RFC\_DESTINATION of class CL\_DYNAMIC\_DESTINATION is used to create a [dynamic destination](javascript:call_link\('abenrfc_destination.htm'\)). Input values, whose default values are determined from system fields for the current AS ABAP, are passed as parameters. A remote-enabled function module is called using the dynamic destination. The call is only successful if the destination is created correctly.
 
 
+
+**📖 Source**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_dynamic_dest_abexa.htm)
+
 ### abenrfc_logon_data_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_logon_data_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29172,7 +31722,14 @@ If the function module DEMO\_RFM\_LOGON\_DATA is called remotely again, the RFC 
 Included pages: 7
 
 
+
+**📖 Source**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_logon_data_abexa.htm)
+
 ### abenrfc_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29202,7 +31759,14 @@ Continue
 ![Example](exa.gif "Example") [RFC - Implicit Logon Data](javascript:call_link\('abenrfc_logon_data_abexa.htm'\))
 
 
+
+**📖 Source**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_abexas.htm)
+
 ### abenrfc_parameters_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameters_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29312,7 +31876,14 @@ The function module DEMO\_RFM\_PARAMETERS is called using [synchronous](javascri
 -   In asynchronous calls, parameters can only be passed in the statement CALL FUNCTION. Parameters are applied using the statement [RECEIVE](javascript:call_link\('abapreceive.htm'\)) in a callback routine. The statement [WAIT FOR ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_arfc.htm'\)) is used to wait for this routine.
 
 
+
+**📖 Source**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameters_abexa.htm)
+
 ### abenrfc_exceptions_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_exceptions_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29368,7 +31939,14 @@ The DEMO\_RFM\_CLASSIC\_EXCEPTION function module raises the non-class-based exc
 When DEMO\_RFM\_CLASSIC\_EXCEPTION is called, EXCEPTIONS is specified and values for sy-subrc are assigned to the possible classic exceptions. If none of the predefined RFC interface exceptions are raised, sy-subrc is set to 3.
 
 
+
+**📖 Source**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_exceptions_abexa.htm)
+
 ### abenrfc_parameter_tables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_parameter_tables_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameter_tables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29455,7 +32033,14 @@ Description  
 The function module DEMO\_RFM\_PARAMETERS is called using [sRFC](javascript:call_link\('abensrfc_glosry.htm'\) "Glossary Entry"). Parameters are passed and exceptions are handled dynamically using internal tables ptab and etab.
 
 
+
+**📖 Source**: [abenrfc_parameter_tables_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_parameter_tables_abexa.htm)
+
 ### abenparallel_rfc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparallel_rfc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29564,7 +32149,14 @@ The addition GROUP DEFAULT is used to distribute the execution across all [AS in
 After all function modules have been started, the system waits until all callback routines have been executed. After that, the internal table task\_list filled there is produced. The output shows the order in which the individual tasks were completed and on which AS instance they were executed.
 
 
+
+**📖 Source**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparallel_rfc_abexa.htm)
+
 ### abenrfc_dynamic_dest_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_dynamic_dest_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29649,7 +32241,14 @@ Description  
 The method CREATE\_RFC\_DESTINATION of class CL\_DYNAMIC\_DESTINATION is used to create a [dynamic destination](javascript:call_link\('abenrfc_destination.htm'\)). Input values, whose default values are determined from system fields for the current AS ABAP, are passed as parameters. A remote-enabled function module is called using the dynamic destination. The call is only successful if the destination is created correctly.
 
 
+
+**📖 Source**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_dynamic_dest_abexa.htm)
+
 ### abenrfc_logon_data_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_logon_data_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29729,7 +32328,14 @@ If the function module DEMO\_RFM\_LOGON\_DATA is called remotely again, the RFC 
 Included pages: 2
 
 
+
+**📖 Source**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_logon_data_abexa.htm)
+
 ### abendata_communication_internal.htm
+
+> **📖 Official SAP Documentation**: [abendata_communication_internal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_communication_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29753,7 +32359,14 @@ Continue
 [CALL, System Function Call](javascript:call_link\('abapcall-.htm'\))
 
 
+
+**📖 Source**: [abendata_communication_internal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_communication_internal.htm)
+
 ### abapcall-.htm
+
+> **📖 Official SAP Documentation**: [abapcall-.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall-.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29837,7 +32450,14 @@ Uncatchable Exceptions
 Included pages: 6
 
 
+
+**📖 Source**: [abapcall-.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall-.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29865,7 +32485,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29890,7 +32517,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29949,7 +32583,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30021,7 +32662,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30046,7 +32694,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30103,7 +32758,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30131,7 +32793,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30156,7 +32825,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30215,7 +32891,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30287,7 +32970,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30312,7 +33002,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30369,7 +33066,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30397,7 +33101,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30422,7 +33133,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30481,7 +33199,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30553,7 +33278,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30578,7 +33310,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30635,7 +33374,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30663,7 +33409,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30688,7 +33441,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30747,7 +33507,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30819,7 +33586,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30844,7 +33618,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30901,7 +33682,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30929,7 +33717,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30954,7 +33749,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31013,7 +33815,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31085,7 +33894,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31110,7 +33926,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31167,7 +33990,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31195,7 +34025,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31220,7 +34057,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31279,7 +34123,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31351,7 +34202,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31376,7 +34234,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31433,7 +34298,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31461,7 +34333,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31486,7 +34365,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31545,7 +34431,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31617,7 +34510,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31642,7 +34542,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31699,7 +34606,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31727,7 +34641,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31752,7 +34673,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31811,7 +34739,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31883,7 +34818,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31908,7 +34850,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31965,7 +34914,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31993,7 +34949,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32018,7 +34981,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32077,7 +35047,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32149,7 +35126,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32174,7 +35158,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32231,7 +35222,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32259,7 +35257,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32284,7 +35289,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32343,7 +35355,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32415,7 +35434,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32440,7 +35466,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32497,7 +35530,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32525,7 +35565,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32550,7 +35597,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32609,7 +35663,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32681,7 +35742,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32706,7 +35774,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32763,7 +35838,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32791,7 +35873,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32816,7 +35905,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32875,7 +35971,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32947,7 +36050,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32972,7 +36082,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33029,7 +36146,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33057,7 +36181,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33082,7 +36213,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33141,7 +36279,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33213,7 +36358,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33238,7 +36390,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33295,7 +36454,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33323,7 +36489,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33348,7 +36521,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33407,7 +36587,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33479,7 +36666,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33504,7 +36698,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33561,7 +36762,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33589,7 +36797,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33614,7 +36829,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33673,7 +36895,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33745,7 +36974,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33770,7 +37006,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33827,7 +37070,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33855,7 +37105,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33880,7 +37137,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33939,7 +37203,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34011,7 +37282,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34036,7 +37314,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34093,7 +37378,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34121,7 +37413,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34146,7 +37445,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34205,7 +37511,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34277,7 +37590,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34302,7 +37622,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34359,7 +37686,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34387,7 +37721,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34412,7 +37753,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34471,7 +37819,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34543,7 +37898,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34568,7 +37930,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34625,7 +37994,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34653,7 +38029,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34678,7 +38061,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34737,7 +38127,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34809,7 +38206,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34834,7 +38238,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34891,7 +38302,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34919,7 +38337,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34944,7 +38369,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35003,7 +38435,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35075,7 +38514,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35100,7 +38546,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35157,7 +38610,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35185,7 +38645,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35210,7 +38677,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35269,7 +38743,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35341,7 +38822,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35366,7 +38854,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35423,7 +38918,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35451,7 +38953,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35476,7 +38985,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35535,7 +39051,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35607,7 +39130,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35632,7 +39162,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35689,7 +39226,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35717,7 +39261,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35742,7 +39293,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35801,7 +39359,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35873,7 +39438,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35898,7 +39470,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35955,7 +39534,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35983,7 +39569,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36008,7 +39601,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36067,7 +39667,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36139,7 +39746,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36164,7 +39778,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36221,7 +39842,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36249,7 +39877,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36274,7 +39909,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36333,7 +39975,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36405,7 +40054,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36430,7 +40086,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36487,7 +40150,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36515,7 +40185,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36540,7 +40217,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36599,7 +40283,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36671,7 +40362,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36696,7 +40394,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36753,7 +40458,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36781,7 +40493,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36806,7 +40525,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36865,7 +40591,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36937,7 +40670,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36962,7 +40702,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37019,7 +40766,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37047,7 +40801,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37072,7 +40833,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37131,7 +40899,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37203,7 +40978,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37228,7 +41010,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37285,7 +41074,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37313,7 +41109,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37338,7 +41141,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37397,7 +41207,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37469,7 +41286,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37494,7 +41318,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37551,7 +41382,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37579,7 +41417,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37604,7 +41449,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37663,7 +41515,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37735,7 +41594,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37760,7 +41626,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37817,7 +41690,14 @@ ENDIF.
 Included pages: 6
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37845,7 +41725,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37870,7 +41757,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37929,7 +41823,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38001,7 +41902,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38026,7 +41934,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38083,7 +41998,14 @@ ENDIF.
 Included pages: 2
 
 
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_pres.htm)
+
 ### abenfrontend_services.htm
+
+> **📖 Official SAP Documentation**: [abenfrontend_services.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfrontend_services.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38193,7 +42115,14 @@ Continue
 ![Example](exa.gif "Example") [Uploading an Excel File](javascript:call_link\('abenexcel_to_itab_abexa.htm'\))
 
 
+
+**📖 Source**: [abenfrontend_services.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfrontend_services.htm)
+
 ### abenexcel_to_itab_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenexcel_to_itab_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexcel_to_itab_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38287,7 +42216,14 @@ After loading a file with GUI\_UPLOAD of CL\_GUI\_FRONTEND\_SERVICES it is tried
 Included pages: 2
 
 
+
+**📖 Source**: [abenexcel_to_itab_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexcel_to_itab_abexa.htm)
+
 ### abendata_communication_internal.htm
+
+> **📖 Official SAP Documentation**: [abendata_communication_internal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_communication_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38311,7 +42247,14 @@ Continue
 [CALL, System Function Call](javascript:call_link\('abapcall-.htm'\))
 
 
+
+**📖 Source**: [abendata_communication_internal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_communication_internal.htm)
+
 ### abapcall-.htm
+
+> **📖 Official SAP Documentation**: [abapcall-.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall-.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38395,7 +42338,14 @@ Uncatchable Exceptions
 Included pages: 2
 
 
+
+**📖 Source**: [abapcall-.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall-.htm)
+
 ### abenabap_dynpros_gui.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_gui.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpros_gui.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38423,7 +42373,14 @@ Continue
 ![Example](exa.gif "Example") [dynpro - GUI Statuses and Function Codes](javascript:call_link\('abendynpro_gui_status_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_gui.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpros_gui.htm)
+
 ### abendynpro_gui_status_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_gui_status_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_gui_status_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38488,7 +42445,14 @@ The other function codes are passed in accordance with their definition, but wit
 Included pages: 2
 
 
+
+**📖 Source**: [abendynpro_gui_status_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_gui_status_abexa.htm)
+
 ### abaphide.htm
+
+> **📖 Official SAP Documentation**: [abaphide.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38559,7 +42523,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - HIDE Technology](javascript:call_link\('abenlist_hide_abexa.htm'\))
 
 
+
+**📖 Source**: [abaphide.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphide.htm)
+
 ### abenlist_hide_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlist_hide_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_hide_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38668,7 +42639,14 @@ The program itself sets all page headers and the title bar of the dialog box.
 Included pages: 2
 
 
+
+**📖 Source**: [abenlist_hide_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_hide_abexa.htm)
+
 ### abaphide.htm
+
+> **📖 Official SAP Documentation**: [abaphide.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38739,7 +42717,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - HIDE Technology](javascript:call_link\('abenlist_hide_abexa.htm'\))
 
 
+
+**📖 Source**: [abaphide.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphide.htm)
+
 ### abenlist_hide_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlist_hide_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_hide_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38848,7 +42833,14 @@ The program itself sets all page headers and the title bar of the dialog box.
 Included pages: 2
 
 
+
+**📖 Source**: [abenlist_hide_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_hide_abexa.htm)
+
 ### abaphide.htm
+
+> **📖 Official SAP Documentation**: [abaphide.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38919,7 +42911,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - HIDE Technology](javascript:call_link\('abenlist_hide_abexa.htm'\))
 
 
+
+**📖 Source**: [abaphide.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphide.htm)
+
 ### abenlist_hide_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlist_hide_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_hide_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39028,7 +43027,14 @@ The program itself sets all page headers and the title bar of the dialog box.
 Included pages: 2
 
 
+
+**📖 Source**: [abenlist_hide_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_hide_abexa.htm)
+
 ### abaphide.htm
+
+> **📖 Official SAP Documentation**: [abaphide.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39099,7 +43105,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - HIDE Technology](javascript:call_link\('abenlist_hide_abexa.htm'\))
 
 
+
+**📖 Source**: [abaphide.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphide.htm)
+
 ### abenlist_hide_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlist_hide_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_hide_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39208,7 +43221,14 @@ The program itself sets all page headers and the title bar of the dialog box.
 Included pages: 2
 
 
+
+**📖 Source**: [abenlist_hide_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_hide_abexa.htm)
+
 ### abaphide.htm
+
+> **📖 Official SAP Documentation**: [abaphide.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39279,7 +43299,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - HIDE Technology](javascript:call_link\('abenlist_hide_abexa.htm'\))
 
 
+
+**📖 Source**: [abaphide.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphide.htm)
+
 ### abenlist_hide_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlist_hide_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_hide_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39388,7 +43415,14 @@ The program itself sets all page headers and the title bar of the dialog box.
 Included pages: 14
 
 
+
+**📖 Source**: [abenlist_hide_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_hide_abexa.htm)
+
 ### abenabap_lists_complex.htm
+
+> **📖 Official SAP Documentation**: [abenabap_lists_complex.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_lists_complex.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39418,7 +43452,14 @@ Continue
 [DESCRIBE LIST](javascript:call_link\('abapdescribe_list.htm'\))
 
 
+
+**📖 Source**: [abenabap_lists_complex.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_lists_complex.htm)
+
 ### abapread_line.htm
+
+> **📖 Official SAP Documentation**: [abapread_line.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39514,7 +43555,14 @@ Continue
 [READ LINE, result](javascript:call_link\('abapread_line_result.htm'\))
 
 
+
+**📖 Source**: [abapread_line.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_line.htm)
+
 ### abapread_line_result.htm
+
+> **📖 Official SAP Documentation**: [abapread_line_result.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_line_result.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39570,7 +43618,14 @@ Hints
 -   The content of the line or of the individual output areas in the list is character-like and formatted according to the rules for the WRITE statement. When the read line or an area is assigned to a data object, the conversion rules apply in the same way as to a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\)). This can cause problems with the target fields dobj1 dob ... or war war ..., particularly if these fields are numeric and the output contains separators. Due to this, use of READ LINE is mainly recommended for the evaluation of fields that are ready for input. For other evaluations, [HIDE](javascript:call_link\('abaphide.htm'\)) can be used to save values in a type-compliant way.
 
 
+
+**📖 Source**: [abapread_line_result.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_line_result.htm)
+
 ### abapread_line.htm
+
+> **📖 Official SAP Documentation**: [abapread_line.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39666,7 +43721,14 @@ Continue
 [READ LINE, result](javascript:call_link\('abapread_line_result.htm'\))
 
 
+
+**📖 Source**: [abapread_line.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_line.htm)
+
 ### abapmodify_line.htm
+
+> **📖 Official SAP Documentation**: [abapmodify_line.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39747,7 +43809,14 @@ Continue
 [MODIFY LINE, source](javascript:call_link\('abapmodify_line_modification.htm'\))
 
 
+
+**📖 Source**: [abapmodify_line.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_line.htm)
+
 ### abapmodify_line_modification.htm
+
+> **📖 Official SAP Documentation**: [abapmodify_line_modification.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_line_modification.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39816,7 +43885,14 @@ For ext\_format\_options, one or more additions of the statement [FORMAT](javasc
 If data objects dobj1 dobj2... appear more than once in a line with the same name, only the first one is processed. If a data object dobj1 dobj2 ... does not exist at all, the specification is ignored.
 
 
+
+**📖 Source**: [abapmodify_line_modification.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_line_modification.htm)
+
 ### abapmodify_line.htm
+
+> **📖 Official SAP Documentation**: [abapmodify_line.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39897,7 +43973,14 @@ Continue
 [MODIFY LINE, source](javascript:call_link\('abapmodify_line_modification.htm'\))
 
 
+
+**📖 Source**: [abapmodify_line.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_line.htm)
+
 ### abapscroll.htm
+
+> **📖 Official SAP Documentation**: [abapscroll.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39986,7 +44069,14 @@ Continue
 [SCROLL LIST, vertical](javascript:call_link\('abapscroll_list_vertical.htm'\))
 
 
+
+**📖 Source**: [abapscroll.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll.htm)
+
 ### abapscroll_list_horizontal.htm
+
+> **📖 Official SAP Documentation**: [abapscroll_list_horizontal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll_list_horizontal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40062,7 +44152,14 @@ Effect
 The addition RIGHT without BY n PLACES sets the line length (sy-linsz) minus the window width (sy-scols minus 2) for the first column in the screen segment. If the result is less than or equal to 0, it is processed as 1. The addition RIGHT with BY n PLACES enters the current first column (sy-staco) plus the value in n for the first column in the display segment; n expects a data object of type i. If the result is greater than the current line length, it is processed like the current line length and sy-subrc is set to 4.
 
 
+
+**📖 Source**: [abapscroll_list_horizontal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll_list_horizontal.htm)
+
 ### abapscroll_list_vertical.htm
+
+> **📖 Official SAP Documentation**: [abapscroll_list_vertical.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll_list_vertical.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40141,7 +44238,14 @@ The additions FORWARD and BACKWARD without n PAGES move the current screen segme
 The additions FORWARD and BACKWARD with n PAGES define the top page in the screen segment on the page derived by adding or subtracting the value in n from the current top page. n expects a data object of type i. If the resulting value is less than or equal to 0 or is greater than the number of pages, it is processed as 1 or like this number of pages and sy-subrc is set to 4. The resulting page is displayed starting with the first line.
 
 
+
+**📖 Source**: [abapscroll_list_vertical.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll_list_vertical.htm)
+
 ### abapscroll.htm
+
+> **📖 Official SAP Documentation**: [abapscroll.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40230,7 +44334,14 @@ Continue
 [SCROLL LIST, vertical](javascript:call_link\('abapscroll_list_vertical.htm'\))
 
 
+
+**📖 Source**: [abapscroll.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll.htm)
+
 ### abapdescribe_list.htm
+
+> **📖 Official SAP Documentation**: [abapdescribe_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40340,7 +44451,14 @@ Continue
 [DESCRIBE LIST, page\_properties](javascript:call_link\('abapdescribe_list_page_properties.htm'\))
 
 
+
+**📖 Source**: [abapdescribe_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_list.htm)
+
 ### abapdescribe_list_page_properties.htm
+
+> **📖 Official SAP Documentation**: [abapdescribe_list_page_properties.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_list_page_properties.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40448,7 +44566,14 @@ Effect
 Inserts the number of lines reserved by the addition LINE-COUNT of the statement at the start of the program for the [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry") after footer\_lines.
 
 
+
+**📖 Source**: [abapdescribe_list_page_properties.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_list_page_properties.htm)
+
 ### abapdescribe_list.htm
+
+> **📖 Official SAP Documentation**: [abapdescribe_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40570,7 +44695,14 @@ Continue
 Included pages: 15
 
 
+
+**📖 Source**: [abapdescribe_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_list.htm)
+
 ### abenlists_displayed.htm
+
+> **📖 Official SAP Documentation**: [abenlists_displayed.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlists_displayed.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40618,7 +44750,14 @@ Continue
 [GET CURSOR, List](javascript:call_link\('abapget_cursor_list.htm'\))
 
 
+
+**📖 Source**: [abenlists_displayed.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlists_displayed.htm)
+
 ### abapleave_to_list-processing.htm
+
+> **📖 Official SAP Documentation**: [abapleave_to_list-processing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_to_list-processing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40671,7 +44810,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - Call from Dynpro Processing](javascript:call_link\('abenleave_to_list_proc_abexa.htm'\))
 
 
+
+**📖 Source**: [abapleave_to_list-processing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_to_list-processing.htm)
+
 ### abenleave_to_list_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenleave_to_list_proc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenleave_to_list_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40759,7 +44905,14 @@ If the user selects a line on the basic list, a details list appears. This is do
 Since there is only one list system in this program, there is no need for case distinctions within the list events.
 
 
+
+**📖 Source**: [abenleave_to_list_proc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenleave_to_list_proc_abexa.htm)
+
 ### abapleave_to_list-processing.htm
+
+> **📖 Official SAP Documentation**: [abapleave_to_list-processing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_to_list-processing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40812,7 +44965,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - Call from Dynpro Processing](javascript:call_link\('abenleave_to_list_proc_abexa.htm'\))
 
 
+
+**📖 Source**: [abapleave_to_list-processing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_to_list-processing.htm)
+
 ### abapleave_list-processing.htm
+
+> **📖 Official SAP Documentation**: [abapleave_list-processing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_list-processing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40865,7 +45025,14 @@ AT LINE-SELECTION.
   ENDIF.
 
 
+
+**📖 Source**: [abapleave_list-processing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_list-processing.htm)
+
 ### abapwindow.htm
+
+> **📖 Official SAP Documentation**: [abapwindow.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwindow.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40933,7 +45100,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - Dialog Box](javascript:call_link\('abenlist_window_abexa.htm'\))
 
 
+
+**📖 Source**: [abapwindow.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwindow.htm)
+
 ### abenlist_window_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlist_window_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_window_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40982,7 +45156,14 @@ Titles WI1 and WI2 are defined for the dialog boxes. In the second dialog box, t
 The system displays horizontal scroll bars in the dialog boxes since the list width of the dialog boxes is not adjusted and therefore corresponds to the standard width of the basic list.
 
 
+
+**📖 Source**: [abenlist_window_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_window_abexa.htm)
+
 ### abapwindow.htm
+
+> **📖 Official SAP Documentation**: [abapwindow.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwindow.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41050,7 +45231,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - Dialog Box](javascript:call_link\('abenlist_window_abexa.htm'\))
 
 
+
+**📖 Source**: [abapwindow.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwindow.htm)
+
 ### abapset_pf-status_list.htm
+
+> **📖 Official SAP Documentation**: [abapset_pf-status_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_pf-status_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41126,7 +45314,14 @@ AT LINE-SELECTION.
   WRITE / \`Don't pick me!\`.
 
 
+
+**📖 Source**: [abapset_pf-status_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_pf-status_list.htm)
+
 ### abapset_titlebar_list.htm
+
+> **📖 Official SAP Documentation**: [abapset_titlebar_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_titlebar_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41171,7 +45366,14 @@ Effect
 As for [dynpros](javascript:call_link\('abapset_titlebar_dynpro.htm'\)).
 
 
+
+**📖 Source**: [abapset_titlebar_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_titlebar_list.htm)
+
 ### abapset_cursor_list.htm
+
+> **📖 Official SAP Documentation**: [abapset_cursor_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_cursor_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41267,7 +45469,14 @@ Effect
 The cursor is positioned in the column specified in col and the line specified in lin in the list window. col and lin expect data objects of the type i. Column counting begins at 2.
 
 
+
+**📖 Source**: [abapset_cursor_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_cursor_list.htm)
+
 ### abapget_cursor_list.htm
+
+> **📖 Official SAP Documentation**: [abapget_cursor_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_cursor_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41346,7 +45555,14 @@ Continue
 [GET CURSOR, line\_properties](javascript:call_link\('abapget_cursor_list_line.htm'\))
 
 
+
+**📖 Source**: [abapget_cursor_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_cursor_list.htm)
+
 ### abapget_cursor_list_field.htm
+
+> **📖 Official SAP Documentation**: [abapget_cursor_list_field.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_cursor_list_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41417,7 +45633,14 @@ Effect
 The addition LINE assigns the number of the list line on which the cursor is positioned to the data object lin. lin expects a variable of the type i.
 
 
+
+**📖 Source**: [abapget_cursor_list_field.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_cursor_list_field.htm)
+
 ### abapget_cursor_list_line.htm
+
+> **📖 Official SAP Documentation**: [abapget_cursor_list_line.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_cursor_list_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41474,7 +45697,14 @@ The addition OFFSET without an addition or with the addition DISPLAY assigns the
 The addition OFFSET with the addition MEMORY assigns the position of the character in the list buffer line on whose output the cursor is currently positioned to the data object off. If the cursor is on one of the characters < or > for characters cut off in the display, the position of the character in the list buffer that is overwritten by the character is assigned. off expects a variable of the type i.
 
 
+
+**📖 Source**: [abapget_cursor_list_line.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_cursor_list_line.htm)
+
 ### abapget_cursor_list.htm
+
+> **📖 Official SAP Documentation**: [abapget_cursor_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_cursor_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41565,7 +45795,14 @@ Continue
 Included pages: 14
 
 
+
+**📖 Source**: [abapget_cursor_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_cursor_list.htm)
+
 ### abenprint.htm
+
+> **📖 Official SAP Documentation**: [abenprint.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41613,7 +45850,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - Spool](javascript:call_link\('abenprint_list_abexa.htm'\))
 
 
+
+**📖 Source**: [abenprint.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint.htm)
+
 ### abenprint_on_off.htm
+
+> **📖 Official SAP Documentation**: [abenprint_on_off.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_on_off.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41708,7 +45952,14 @@ IF valid <> space.
 ENDIF.
 
 
+
+**📖 Source**: [abenprint_on_off.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_on_off.htm)
+
 ### abenprint_spool.htm
+
+> **📖 Official SAP Documentation**: [abenprint_spool.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_spool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41750,7 +46001,14 @@ Continue
 [Lists - Overview of All Spool Parameters](javascript:call_link\('abenprint_parameters_overview.htm'\))
 
 
+
+**📖 Source**: [abenprint_spool.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_spool.htm)
+
 ### abenprint_parameters_window.htm
+
+> **📖 Official SAP Documentation**: [abenprint_parameters_window.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_parameters_window.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41778,7 +46036,14 @@ Hints
 -   Using SET\_PRINT\_PARAMETERS only allows the setting those spool parameters that are stored in components of the PRI\_PARAMS structure.
 
 
+
+**📖 Source**: [abenprint_parameters_window.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_parameters_window.htm)
+
 ### abenprint_parameters_function.htm
+
+> **📖 Official SAP Documentation**: [abenprint_parameters_function.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_parameters_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41814,7 +46079,14 @@ Hints
 -   The GET\_PRINT\_PARAMETERS function module can be called multiple times consecutively. For example, the spool dialog box can be called at the start of a program if the user enters the basic setting. When it is called again, the parameter records created in this way can be passed collectively to the PRI\_PARAMS and ARC\_PARAMS input parameters of the function module and partially overwritten there. This enables the spooling of wide lists in landscape format or narrow lists in portrait format with otherwise unchanged settings.
 
 
+
+**📖 Source**: [abenprint_parameters_function.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_parameters_function.htm)
+
 ### abenprint_parameters_overview.htm
+
+> **📖 Official SAP Documentation**: [abenprint_parameters_overview.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_parameters_overview.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42243,7 +46515,14 @@ VALID\_FOR\_SPOOL\_CREATION
 If X, enough spool parameters are available to create a spool request. There is no guarantee, however, that this request can be printed or archived. If blank, the structures a empty, and a spool request cannot be created. This is different from VALID only if the spool dialog box is not displayed. If the spool dialog box is displayed, VALID\_FOR\_SPOOL\_CREATION is filled just like VALID.
 
 
+
+**📖 Source**: [abenprint_parameters_overview.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_parameters_overview.htm)
+
 ### abenprint_parameters.htm
+
+> **📖 Official SAP Documentation**: [abenprint_parameters.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_parameters.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42277,7 +46556,14 @@ Continue
 [Lists - Overview of All Spool Parameters](javascript:call_link\('abenprint_parameters_overview.htm'\))
 
 
+
+**📖 Source**: [abenprint_parameters.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_parameters.htm)
+
 ### abenprint_control.htm
+
+> **📖 Official SAP Documentation**: [abenprint_control.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_control.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42308,7 +46594,14 @@ Continue
 [PRINT-CONTROL](javascript:call_link\('abapprint-control.htm'\))
 
 
+
+**📖 Source**: [abenprint_control.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_control.htm)
+
 ### abapset_margin.htm
+
+> **📖 Official SAP Documentation**: [abapset_margin.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_margin.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42341,7 +46634,14 @@ Hint
 For printers with an active list driver, margins can be defined in millimeters in the spool dialog. When pages are sent from the spool system to the printer, the pages, including the margins set using SET MARGIN, are positioned within these margins.
 
 
+
+**📖 Source**: [abapset_margin.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_margin.htm)
+
 ### abapprint-control.htm
+
+> **📖 Official SAP Documentation**: [abapprint-control.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapprint-control.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42411,7 +46711,14 @@ DO number TIMES.
 ENDDO.
 
 
+
+**📖 Source**: [abapprint-control.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapprint-control.htm)
+
 ### abenprint_control.htm
+
+> **📖 Official SAP Documentation**: [abenprint_control.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_control.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42442,7 +46749,14 @@ Continue
 [PRINT-CONTROL](javascript:call_link\('abapprint-control.htm'\))
 
 
+
+**📖 Source**: [abenprint_control.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_control.htm)
+
 ### abenprint_screen.htm
+
+> **📖 Official SAP Documentation**: [abenprint_screen.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_screen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42469,7 +46783,14 @@ Hints
 -   A screen list cannot contain any index lines created using [PRINT-CONTROL](javascript:call_link\('abapprint-control.htm'\)). Indexed searches are not possible in an archived screen list.
 
 
+
+**📖 Source**: [abenprint_screen.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_screen.htm)
+
 ### abenprint_list_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenprint_list_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_list_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42575,7 +46896,14 @@ The fifth list is created in the static method print of class print\_demo. The f
 Included pages: 10
 
 
+
+**📖 Source**: [abenprint_list_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_list_abexa.htm)
+
 ### abenabap_lists_interactive.htm
+
+> **📖 Official SAP Documentation**: [abenabap_lists_interactive.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_lists_interactive.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42620,7 +46948,14 @@ Continue
 [SET USER-COMMAND](javascript:call_link\('abapset_user-command.htm'\))
 
 
+
+**📖 Source**: [abenabap_lists_interactive.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_lists_interactive.htm)
+
 ### abaptop-of-page.htm
+
+> **📖 Official SAP Documentation**: [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptop-of-page.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42664,7 +46999,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - Page Header](javascript:call_link\('abenlist_top_of_page_abexa.htm'\))
 
 
+
+**📖 Source**: [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptop-of-page.htm)
+
 ### abenlist_top_of_page_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlist_top_of_page_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_top_of_page_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42711,7 +47053,14 @@ This program creates a two-page list. In the user-defined page header, column he
 The alignment of the individual fields results from the ABAP default of representing character strings as left-aligned and numeric fields as right-aligned. The alignment can be adjusted using the formatting options LEFT-JUSTIFIED, RIGHT-JUSTIFIED, and CENTERED of the WRITE statement (see [WRITE - format\_options](javascript:call_link\('abapwrite_to_options.htm'\))).
 
 
+
+**📖 Source**: [abenlist_top_of_page_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_top_of_page_abexa.htm)
+
 ### abaptop-of-page.htm
+
+> **📖 Official SAP Documentation**: [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptop-of-page.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42755,7 +47104,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - Page Header](javascript:call_link\('abenlist_top_of_page_abexa.htm'\))
 
 
+
+**📖 Source**: [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptop-of-page.htm)
+
 ### abapend-of-page.htm
+
+> **📖 Official SAP Documentation**: [abapend-of-page.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapend-of-page.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42826,7 +47182,14 @@ START-OF-SELECTION.
   ENDLOOP.
 
 
+
+**📖 Source**: [abapend-of-page.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapend-of-page.htm)
+
 ### abapat_list_event.htm
+
+> **📖 Official SAP Documentation**: [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_list_event.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42907,7 +47270,14 @@ Continue
 [AT USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\))
 
 
+
+**📖 Source**: [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_list_event.htm)
+
 ### abapat_line-selection.htm
+
+> **📖 Official SAP Documentation**: [abapat_line-selection.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_line-selection.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42950,7 +47320,14 @@ AT LINE-SELECTION.
   ENDIF.
 
 
+
+**📖 Source**: [abapat_line-selection.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_line-selection.htm)
+
 ### abapat_user-command.htm
+
+> **📖 Official SAP Documentation**: [abapat_user-command.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_user-command.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43147,7 +47524,14 @@ AT USER-COMMAND.
   ENDCASE.
 
 
+
+**📖 Source**: [abapat_user-command.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_user-command.htm)
+
 ### abapat_list_event.htm
+
+> **📖 Official SAP Documentation**: [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_list_event.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43228,7 +47612,14 @@ Continue
 [AT USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\))
 
 
+
+**📖 Source**: [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_list_event.htm)
+
 ### abapset_user-command.htm
+
+> **📖 Official SAP Documentation**: [abapset_user-command.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_user-command.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43300,7 +47691,14 @@ AT LINE-SELECTION.
 Included pages: 3
 
 
+
+**📖 Source**: [abapset_user-command.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_user-command.htm)
+
 ### abenbuilt_in_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43322,7 +47720,14 @@ Continue
 [The Built-In Structure screen](javascript:call_link\('abenscreen_structure_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_obsolete.htm)
+
 ### abensystem_fields_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abensystem_fields_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_fields_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43811,7 +48216,14 @@ c
 [Title of the spooler program](javascript:call_link\('abenprint_parameters_overview.htm'\))
 
 
+
+**📖 Source**: [abensystem_fields_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_fields_obsolete.htm)
+
 ### abenscreen_structure_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenscreen_structure_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscreen_structure_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43850,7 +48262,14 @@ Hints
 Included pages: 3
 
 
+
+**📖 Source**: [abenscreen_structure_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscreen_structure_obsolete.htm)
+
 ### abenfield_symbols_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenfield_symbols_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbols_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43871,7 +48290,14 @@ Continue
 ![Example](exa.gif "Example") [Field Symbols, Cast Structures](javascript:call_link\('abenfield_symbols_struc_abexa.htm'\))
 
 
+
+**📖 Source**: [abenfield_symbols_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbols_obsolete.htm)
+
 ### abapfield-symbols_obsolete_typing.htm
+
+> **📖 Official SAP Documentation**: [abapfield-symbols_obsolete_typing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols_obsolete_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43947,7 +48373,14 @@ Executable Example
 [Field Symbols, Cast Structures](javascript:call_link\('abenfield_symbols_struc_abexa.htm'\))
 
 
+
+**📖 Source**: [abapfield-symbols_obsolete_typing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols_obsolete_typing.htm)
+
 ### abenfield_symbols_struc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfield_symbols_struc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbols_struc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44020,7 +48453,14 @@ The structures are cast using the ASSIGN CASTING statement. The obsolete additio
 Included pages: 3
 
 
+
+**📖 Source**: [abenfield_symbols_struc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbols_struc_abexa.htm)
+
 ### abenfield_symbols_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenfield_symbols_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbols_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44041,7 +48481,14 @@ Continue
 ![Example](exa.gif "Example") [Field Symbols, Cast Structures](javascript:call_link\('abenfield_symbols_struc_abexa.htm'\))
 
 
+
+**📖 Source**: [abenfield_symbols_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbols_obsolete.htm)
+
 ### abapfield-symbols_obsolete_typing.htm
+
+> **📖 Official SAP Documentation**: [abapfield-symbols_obsolete_typing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols_obsolete_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44117,7 +48564,14 @@ Executable Example
 [Field Symbols, Cast Structures](javascript:call_link\('abenfield_symbols_struc_abexa.htm'\))
 
 
+
+**📖 Source**: [abapfield-symbols_obsolete_typing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols_obsolete_typing.htm)
+
 ### abenfield_symbols_struc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfield_symbols_struc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbols_struc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44190,7 +48644,14 @@ The structures are cast using the ASSIGN CASTING statement. The obsolete additio
 Included pages: 2
 
 
+
+**📖 Source**: [abenfield_symbols_struc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbols_struc_abexa.htm)
+
 ### abenassign_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenassign_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassign_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44210,7 +48671,14 @@ Continue
 [ASSIGN LOCAL COPY](javascript:call_link\('abapassign_local_copy.htm'\))
 
 
+
+**📖 Source**: [abenassign_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassign_obsolete.htm)
+
 ### abapassign_local_copy.htm
+
+> **📖 Official SAP Documentation**: [abapassign_local_copy.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_local_copy.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44341,7 +48809,14 @@ ENDFORM.
 Included pages: 17
 
 
+
+**📖 Source**: [abapassign_local_copy.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_local_copy.htm)
+
 ### abenextern_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenextern_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextern_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44369,7 +48844,14 @@ Continue
 [ABAP and JavaScript](javascript:call_link\('abenabap_java_script.htm'\))
 
 
+
+**📖 Source**: [abenextern_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextern_obsolete.htm)
+
 ### abenrfc_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44393,7 +48875,14 @@ Continue
 [CALL FUNCTION, IN BACKGROUND TASK](javascript:call_link\('abapcall_function_background_task.htm'\))
 
 
+
+**📖 Source**: [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_obsolete.htm)
+
 ### abapcall_function_background_task.htm
+
+> **📖 Official SAP Documentation**: [abapcall_function_background_task.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function_background_task.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44457,7 +48946,14 @@ Hints
 -   When handling the registration entries in the DDIC database tables ARFCSSTATE and ARFCSDATA, it should be noted that they are subject to the regular administration rules for a [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry"). For example, the database LUW is ended by a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"), all registration entries of the current database LUW are deleted.
 
 
+
+**📖 Source**: [abapcall_function_background_task.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function_background_task.htm)
+
 ### abenrfc_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44481,7 +48977,14 @@ Continue
 [CALL FUNCTION, IN BACKGROUND TASK](javascript:call_link\('abapcall_function_background_task.htm'\))
 
 
+
+**📖 Source**: [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_obsolete.htm)
+
 ### abenwait_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwait_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44501,7 +49004,14 @@ Continue
 [WAIT UNTIL, Short Form](javascript:call_link\('abapwait_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwait_obsolete.htm)
+
 ### abapwait_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abapwait_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwait_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44532,7 +49042,14 @@ Hint
 The complete form using FOR ASYNCHRONOUS TASKS should always be used. This addition expresses that an [asynchronous RFC](javascript:call_link\('abenasynchronous_rfc_glosry.htm'\) "Glossary Entry") is expected and distinguishes the statement from [WAIT FOR MESSAGING CHANNELS](javascript:call_link\('abapwait_amc.htm'\)) or [WAIT FOR PUSH CHANNELS](javascript:call_link\('abapwait_apc.htm'\)), which are waiting for messages from [ABAP Messaging Channels](javascript:call_link\('abenabap_messaging_channels_glosry.htm'\) "Glossary Entry") or [ABAP Push Channels](javascript:call_link\('abenabap_push_channels_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abapwait_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwait_obsolete.htm)
+
 ### abenwait_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwait_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44552,7 +49069,14 @@ Continue
 [WAIT UNTIL, Short Form](javascript:call_link\('abapwait_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwait_obsolete.htm)
+
 ### abenabap_xml_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44572,7 +49096,14 @@ Continue
 [CALL TRANSFORMATION, OBJECTS](javascript:call_link\('abapcall_transformation_objects.htm'\))
 
 
+
+**📖 Source**: [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml_obsolete.htm)
+
 ### abapcall_transformation_objects.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transformation_objects.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_transformation_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44603,7 +49134,14 @@ Hint
 The addition OBJECTS is obsolete. External objects are handled like parameters and object references must be passed accordingly with the addition [PARAMETERS](javascript:call_link\('abapcall_transformation.htm'\)).
 
 
+
+**📖 Source**: [abapcall_transformation_objects.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_transformation_objects.htm)
+
 ### abenabap_xml_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44623,7 +49161,14 @@ Continue
 [CALL TRANSFORMATION, OBJECTS](javascript:call_link\('abapcall_transformation_objects.htm'\))
 
 
+
+**📖 Source**: [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml_obsolete.htm)
+
 ### abenabap_cpic.htm
+
+> **📖 Official SAP Documentation**: [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_cpic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44647,7 +49192,14 @@ Continue
 [COMMUNICATION](javascript:call_link\('abapcommunication.htm'\))
 
 
+
+**📖 Source**: [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_cpic.htm)
+
 ### abapcommunication.htm
+
+> **📖 Official SAP Documentation**: [abapcommunication.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommunication.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44784,7 +49336,14 @@ Continue
 [COMMUNICATION, cpic\_options](javascript:call_link\('abapcommunication_options.htm'\))
 
 
+
+**📖 Source**: [abapcommunication.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommunication.htm)
+
 ### abapcommunication_comstep.htm
+
+> **📖 Official SAP Documentation**: [abapcommunication_comstep.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommunication_comstep.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44884,7 +49443,14 @@ Effect
 The connection is closed, and all memory areas are released.
 
 
+
+**📖 Source**: [abapcommunication_comstep.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommunication_comstep.htm)
+
 ### abapcommunication_options.htm
+
+> **📖 Official SAP Documentation**: [abapcommunication_options.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommunication_options.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45033,7 +49599,14 @@ Effect
 This addition can only be specified for the communication step RECEIVE. It prevents a change of the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") when receiving data to avoid the possible loss of the [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry"). In this case, the current work process waits until all data has been received.
 
 
+
+**📖 Source**: [abapcommunication_options.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommunication_options.htm)
+
 ### abapcommunication.htm
+
+> **📖 Official SAP Documentation**: [abapcommunication.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommunication.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45170,7 +49743,14 @@ Continue
 [COMMUNICATION, cpic\_options](javascript:call_link\('abapcommunication_options.htm'\))
 
 
+
+**📖 Source**: [abapcommunication.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommunication.htm)
+
 ### abenabap_cpic.htm
+
+> **📖 Official SAP Documentation**: [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_cpic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45194,7 +49774,14 @@ Continue
 [COMMUNICATION](javascript:call_link\('abapcommunication.htm'\))
 
 
+
+**📖 Source**: [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_cpic.htm)
+
 ### abenabap_java_script.htm
+
+> **📖 Official SAP Documentation**: [abenabap_java_script.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_java_script.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45233,7 +49820,14 @@ The program DEMO\_JAVA\_SCRIPT\_MINI\_EDITOR is an example of a minimal JavaScri
 Included pages: 4
 
 
+
+**📖 Source**: [abenabap_java_script.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_java_script.htm)
+
 ### abenbdl_syntax.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45259,7 +49853,14 @@ Continue
 [RAP BDL - Feature Tables](javascript:call_link\('abenrap_feature_table.htm'\))
 
 
+
+**📖 Source**: [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_syntax.htm)
+
 ### abenbdl_general_syntax_rules.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_general_syntax_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45289,7 +49890,14 @@ The general syntax rules for the [RAP BDL](javascript:call_link\('abencds_bdl_gl
     -   Statements can be closed using a semicolon (;). Sometimes this is mandatory.
 
 
+
+**📖 Source**: [abenbdl_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_general_syntax_rules.htm)
+
 ### abenbdl_pragma.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_pragma.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_pragma.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45374,7 +49982,14 @@ The following BDEF uses three different pragmas to suppress syntax check warning
     }
 
 
+
+**📖 Source**: [abenbdl_pragma.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_pragma.htm)
+
 ### abenrap_feature_table.htm
+
+> **📖 Official SAP Documentation**: [abenrap_feature_table.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_feature_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45391,829 +50006,7 @@ RAP BDL - Feature Tables
 The following sections shows all available language elements of the [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") and their release dates. For further information on the release dates, see [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)).
 
 -   [BDL](#abenrap-feature-table-1-----------rap-behavior-definitions---@ITOC@@ABENRAP_FEATURE_TABLE_2)
-    -   [BDEF Extensions](#@@ITOC@@ABENRAP_FEATURE_TABLE_3)
-
-BDL   
-
-RAP Behavior Definitions   
-
-RAP Behavior Definition Header
-
-The following tables list the keywords that can be used in BDEFs of type managed, unmanaged, and projection. If the release dates differ per implementation type, the release dates are given per implementation type.
-
-Language Element
-
-Meaning
-
-ABAP Release
-
-[managed](javascript:call_link\('abenbdl_impl_type.htm'\))
-
-Defines a [managed RAP BO](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry").
-
-7.77, 7.54
-
-[unmanaged](javascript:call_link\('abenbdl_impl_type.htm'\))
-
-Defines an [unmanaged RAP BO](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry").
-
-7.73, 7.53
-
-[projection](javascript:call_link\('abenbdl_impl_type.htm'\))
-
-Defines a projection RAP BO.
-
-7.77, 7.54
-
-[implementation in class *\[*unique*\]*](javascript:call_link\('abenbdl_in_class_unique.htm'\))
-
-Class for manual method implementation.
-
-7.77, 7.54
-
-[strict](javascript:call_link\('abenbdl_strict_1.htm'\))
-
-Enables [BDEF strict mode](javascript:call_link\('abenrap_strict_mode_glosry.htm'\) "Glossary Entry").
-
-7.84, 7.56
-
-[strict(2)](javascript:call_link\('abenbdl_strict_2.htm'\))
-
-Enables [BDEF strict mode, version 2](javascript:call_link\('abenrap_strict_mode_glosry.htm'\) "Glossary Entry").
-
-7.89, 7.57
-
-[extensible](javascript:call_link\('abenbdl_extensible.htm'\))
-
-[RAP extensibility enablement](javascript:call_link\('abenrap_ext_enablement_glosry.htm'\) "Glossary Entry") for managed and unmanaged RAP BOs and for projection BDEFs.
-
-7.89, 7.57
-
-[with validations on save
-with determinations on save
-with determinations on modify
-with additional save
-(extensible)](javascript:call_link\('abenbdl_extensible.htm'\))
-
-[RAP extensibility enablement](javascript:call_link\('abenrap_ext_enablement_glosry.htm'\) "Glossary Entry").
-Caution: Currently only available for managed RAP BOs.
-
-7.89, 7.57
-
-[with managed instance filter](javascript:call_link\('abenbdl_mngd_instance_check_proj.htm'\))
-
-Optional addition for [projection BDEFs](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry") and [interface BDEFs](javascript:call_link\('abencds_interface_bdef_glosry.htm'\) "Glossary Entry"). If specified, the [WHERE](javascript:call_link\('abencds_proj_view_cond_expr.htm'\)) condition of the underlying [CDS transactional query](javascript:call_link\('abencds_transactional_pv_glosry.htm'\) "Glossary Entry") or [CDS transactional interface](javascript:call_link\('abencds_trans_interface_glosry.htm'\) "Glossary Entry") is evaluated when the BDEF is accessed with [ABAP EML](javascript:call_link\('abenabap_eml_glosry.htm'\) "Glossary Entry") or [OData](javascript:call_link\('abenodata_glosry.htm'\) "Glossary Entry") requests from Web clients.
-
-7.93, 7.58
-
-[with draft](javascript:call_link\('abenbdl_with_draft.htm'\))
-
-Enables [RAP draft handling](javascript:call_link\('abenrap_draft_handling_glosry.htm'\) "Glossary Entry").
-
-7.81, 7.55
-
-[use draft](javascript:call_link\('abenbdl_use_projection.htm'\))
-
-Reuse of [RAP draft handling](javascript:call_link\('abenrap_draft_handling_glosry.htm'\) "Glossary Entry") in a [CDS projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
-
-7.77, 7.54
-
-[use side effects](javascript:call_link\('abenbdl_use_projection.htm'\))
-
-Reuse of [RAP side effects](javascript:call_link\('abenrap_side_effects_glosry.htm'\) "Glossary Entry") in a [CDS projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
-
-7.91, 7.58
-
-[with privileged mode](javascript:call_link\('abenbdl_privileged_mode.htm'\))
-
-Enables [BDEF privileged mode](javascript:call_link\('abenrap_privileged_mode_glosry.htm'\) "Glossary Entry").
-
-7.83, 7.56. Obsolete as of 7.89, 7.57.
-
-[with privileged mode disabling](javascript:call_link\('abenbdl_privileged_mode.htm'\))
-
-Enables [BDEF privileged mode](javascript:call_link\('abenrap_privileged_mode_glosry.htm'\) "Glossary Entry") for managed and unmanaged RAP BOs.
-
-7.89, 7.56
-
-[with privileged mode disabling base context *\[*and*\]*](javascript:call_link\('abenbdl_privileged_mode.htm'\))
-
-Enables [BDEF privileged mode](javascript:call_link\('abenrap_privileged_mode_glosry.htm'\) "Glossary Entry") in projection BDEFs.
-
-7.86, 7.57
-
-[foreign entity](javascript:call_link\('abenbdl_foreign.htm'\))
-
-Defines an entity which is not part of the BO structure as component for the response structures, thus enabling message mapping for other BOs.
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77, 7.54
-Projection BDEF: 7.77, 7.54
-
-Entity Behavior Definition
-
-Language Element
-
-Meaning
-
-ABAP Release
-
-[define behavior for...alias](javascript:call_link\('abenbdl_define_beh.htm'\))
-
-Defines an [entity behavior definition](javascript:call_link\('abencds_entity_bdef_glosry.htm'\) "Glossary Entry").
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77, 7.54
-Projection BDEF: 7.77, 7.54
-
-Authorization Context Definition
-
-Language Element
-
-Meaning
-
-ABAP Release
-
-[define authorization context ...
-*\[*for disable *{*modify*|*read*|*modify,read*}**\]*](javascript:call_link\('abenbdl_def_auth_context.htm'\))
-
-Defines an [authorization context](javascript:call_link\('abencds_auth_context_glosry.htm'\) "Glossary Entry") that lists [authorization objects](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") that can be skipped when the respective authorization context is activated.
-
-7.85, 7.56
-
-[define own authorization context](javascript:call_link\('abenbdl_def_own_auth_context.htm'\))
-
-Defines an [own authorization context](javascript:call_link\('abencds_own_ac_glosry.htm'\) "Glossary Entry") that documents authorization objects used in the implementation of the RAP BO in question.
-
-7.86, 7.57
-
-[define own authorization context by privileged mode *\[*and*\]*{...}](javascript:call_link\('abenbdl_def_own_auth_context.htm'\))
-
-Defines an [own authorization context](javascript:call_link\('abencds_own_ac_glosry.htm'\) "Glossary Entry")
-
-7.89, 7.56
-
-Entity Behavior Characteristics
-
-Language Element
-
-Meaning
-
-ABAP Release
-
-[persistent table](javascript:call_link\('abenbdl_persistent_table.htm'\))
-
-Defines a persistent database table in a managed RAP BO.
-
-7.77, 7.54
-
-[draft table](javascript:call_link\('abenbdl_draft_table.htm'\))
-
-Defines the [draft database table](javascript:call_link\('abendraft_table_glosry.htm'\) "Glossary Entry") used to store draft data.
-
-7.81, 7.55
-
-[query](javascript:call_link\('abenbdl_draft_query_view.htm'\))
-
-Defines a [draft query view](javascript:call_link\('abendraft_query_view_glosry.htm'\) "Glossary Entry") for a draft database table.
-
-7.89, 7.57
-
-[with additional save](javascript:call_link\('abenbdl_saving.htm'\))
-
-User-defined saving strategy for managed RAP BOs.
-
-7.78, 7.55
-
-[with unmanaged save](javascript:call_link\('abenbdl_saving.htm'\))
-
-User-defined saving strategy for managed RAP BOs.
-
-7.78, 7.55
-
-[and cleanup](javascript:call_link\('abenbdl_saving.htm'\))
-
-User-defined saving strategy for managed RAP BOs.
-
-7.83, 7.56
-
-[with full data](javascript:call_link\('abenbdl_saving.htm'\))
-
-User-defined saving strategy for managed RAP BOs.
-
-7.88, 7.57
-
-[etag master](javascript:call_link\('abenbdl_etag.htm'\)), [etag dependent](javascript:call_link\('abenbdl_etag.htm'\)), [total etag](javascript:call_link\('abenbdl_etag.htm'\))
-
-Defines an ETag field for optimistic concurrency control.
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77, 7.54
-Projection BDEF: 7.77, 7.54
-
-[use etag](javascript:call_link\('abenbdl_use_projection.htm'\))
-
-Reuse of ETag fields for optimistic concurrency control in a [CDS projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
-
-7.77, 7.54
-
-[lock master](javascript:call_link\('abenbdl_locking.htm'\))
-
-Defines pessimistic concurrency control in managed or unmanaged RAP BOs.
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77, 7.54
-
-[unmanaged (lock master)](javascript:call_link\('abenbdl_locking.htm'\))
-
-Implementation exit for pessimistic concurrency control in managed RAP BOs.
-
-7.80, 7.55
-
-[lock dependent](javascript:call_link\('abenbdl_locking.htm'\))
-
-Defines pessimistic concurrency control in managed or unmanaged RAP BOs.
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77, 7.54
-
-[lock:none](javascript:call_link\('abenbdl_locking.htm'\))
-
-RAP BO operation addition that prevents the locking mechanism for a certain RAP BO entity.
-
-7.82, 7.56
-
-[authorization master( global )](javascript:call_link\('abenbdl_authorization.htm'\))
-
-Defines global [RAP authorization control](javascript:call_link\('abenrap_auth_control_glosry.htm'\) "Glossary Entry") for managed and unmanaged RAP BOs.
-
-7.82, 7.56
-
-[authorization master ( instance )](javascript:call_link\('abenbdl_authorization.htm'\))
-
-Defines instance [RAP authorization control](javascript:call_link\('abenrap_auth_control_glosry.htm'\) "Glossary Entry") for managed and unmanaged RAP BOs.
-
-7.77, 7.54
-
-[authorization dependent](javascript:call_link\('abenbdl_authorization.htm'\))
-
-[RAP authorization control](javascript:call_link\('abenrap_auth_control_glosry.htm'\) "Glossary Entry") for managed and unmanaged RAP BOs.
-
-7.77, 7.54
-
-[authorization ( global )
-           *|* ( instance )
-           *|* ( global, instance )](javascript:call_link\('abenbdl_authorization_projection.htm'\))
-
-Defines [RAP authorization control](javascript:call_link\('abenrap_auth_control_glosry.htm'\) "Glossary Entry") for projection BDEFs.
-
-7.84, 7.56
-
-[authorization:update](javascript:call_link\('abenbdl_authorization.htm'\))
-
-[RAP BO operation addition](javascript:call_link\('abenbdl_operations_additions.htm'\)) to delegate [RAP authorization control](javascript:call_link\('abenrap_auth_control_glosry.htm'\) "Glossary Entry").
-
-7.85, 7.56
-
-[authorization:none](javascript:call_link\('abenbdl_authorization.htm'\))
-
-[RAP BO operation addition](javascript:call_link\('abenbdl_operations_additions.htm'\)) to exclude a RAP BO operation from [RAP authorization control](javascript:call_link\('abenrap_auth_control_glosry.htm'\) "Glossary Entry").
-
-7.77, 7.54
-
-[authorization:global](javascript:call_link\('abenbdl_actions_auth_global.htm'\))
-
-[RAP BO operation addition](javascript:call_link\('abenbdl_operations_additions.htm'\)) that replaces the [RAP authorization control](javascript:call_link\('abenrap_auth_control_glosry.htm'\) "Glossary Entry") that is specified in the [authorization master entity](javascript:call_link\('abenrap_auth_ma_ent_glosry.htm'\) "Glossary Entry") and applies global authorization checks instead.
-
-7.92, 7.58
-
-[authorization:instance](javascript:call_link\('abenbdl_actions_auth_instance.htm'\))
-
-[RAP BO operation addition](javascript:call_link\('abenbdl_operations_additions.htm'\)) that replaces the [RAP authorization control](javascript:call_link\('abenrap_auth_control_glosry.htm'\) "Glossary Entry") that is specified in the [authorization master entity](javascript:call_link\('abenrap_auth_ma_ent_glosry.htm'\) "Glossary Entry") and applies instance authorization checks instead.
-
-7.92, 7.58
-
-[early numbering](javascript:call_link\('abenbdl_early_numb.htm'\))
-
-Defines unmanaged [early numbering](javascript:call_link\('abenrap_early_numbering_glosry.htm'\) "Glossary Entry") for all primary key fields of a business object entity.
-
-7.83, 7.56
-
-[late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\))
-
-Enables gapless assignment for unique keys when creating new entity instances in managed and unmanaged RAP BOs.
-
-Unmanaged RAP BO without draft: 7.73, 7.53
-Unmanaged RAP BO with draft and Managed RAP BO: 7.86, 7.57
-
-Entity Behavior Body
-
-Language Element
-
-Meaning
-
-ABAP Release
-
-[field(readonly)](javascript:call_link\('abenbdl_field_char.htm'\))
-
-Defines a [RAP field characteristic](javascript:call_link\('abenrap_field_char_glosry.htm'\) "Glossary Entry").
-
-Unmanaged RAP BO: 7.76, 7.54
-Managed RAP BO: 7.77, 7.54
-
-[field(mandatory)](javascript:call_link\('abenbdl_field_char.htm'\))
-
-Defines a [RAP field characteristic](javascript:call_link\('abenrap_field_char_glosry.htm'\) "Glossary Entry").
-
-Unmanaged RAP BO: 7.76, 7.54
-Managed RAP BO: 7.77, 7.54
-
-[field (features:instance)](javascript:call_link\('abenbdl_field_char.htm'\))
-
-Defines a [RAP field characteristic](javascript:call_link\('abenrap_field_char_glosry.htm'\) "Glossary Entry").
-
-7.77, 7.54
-
-[field (mandatory:create)](javascript:call_link\('abenbdl_field_char.htm'\))
-
-Defines a [RAP field characteristic](javascript:call_link\('abenrap_field_char_glosry.htm'\) "Glossary Entry").
-
-7.81, 7.55
-
-[field (readonly:update)](javascript:call_link\('abenbdl_field_char.htm'\))
-
-Defines a [RAP field characteristic](javascript:call_link\('abenrap_field_char_glosry.htm'\) "Glossary Entry").
-
-7.81, 7.55
-
-[field (numbering:managed)](javascript:call_link\('abenbdl_field_char.htm'\))
-
-Defines managed internal numbering for a field in a managed RAP BO.
-
-7.79, 7.55
-
-[field (suppress)](javascript:call_link\('abenbdl_field_char.htm'\))
-
-Defines a [RAP field characteristic](javascript:call_link\('abenrap_field_char_glosry.htm'\) "Glossary Entry").
-
-Managed RAP BO: 7.88, 7.57
-Unmanaged RAP BO: 7.87, 7.57
-Projection BDEF: 7.84, 7.56
-
-[field (notrigger:warn)](javascript:call_link\('abenbdl_field_char.htm'\))
-
-Defines a [RAP field characteristic](javascript:call_link\('abenrap_field_char_glosry.htm'\) "Glossary Entry").
-
-7.90, 7.58
-
-[field (modify)](javascript:call_link\('abenbdl_augment_projection.htm'\))
-
-Augmentation of a [CDS virtual element](javascript:call_link\('abencds_virtual_element_glosry.htm'\) "Glossary Entry") in a [CDS projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
-
-7.82, 7.56
-
-[group](javascript:call_link\('abenbdl_grouping.htm'\))
-
-Splits the implementation-relevant parts of a business object's logic into multiple groups to allow simultaneous work.
-
-7.78, 7.55
-
-[create](javascript:call_link\('abenbdl_standard_operations.htm'\)), [update](javascript:call_link\('abenbdl_standard_operations.htm'\)), [delete](javascript:call_link\('abenbdl_standard_operations.htm'\))
-
-Enables [CRUD operations](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry") for a managed or unmanaged RAP business object.
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77, 7.54
-
-[use](javascript:call_link\('abenbdl_use_projection.htm'\))
-
-Reuse of [RAP BO operations](javascript:call_link\('abenrap_bo_operation_glosry.htm'\) "Glossary Entry") in a [CDS projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
-
-7.81, 7.55
-
-[association ... abbreviation ... *\[*without response*\]*](javascript:call_link\('abenbdl_association.htm'\))
-
-Enables read-by-association and create-by-association operations for associations.
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77, 7.54
-
-[action ... *\[*external*\]*](javascript:call_link\('abenbdl_action.htm'\))
-
-Defines a [RAP action](javascript:call_link\('abenrap_action_glosry.htm'\) "Glossary Entry").
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77, 7.54
-
-[static (action)](javascript:call_link\('abenbdl_action.htm'\))
-
-Defines a static [RAP action](javascript:call_link\('abenrap_action_glosry.htm'\) "Glossary Entry").
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77, 7.54
-
-[repeatable (action or function)](javascript:call_link\('abenbdl_action_repeatable.htm'\))
-
-Defines a [RAP repeatable operation](javascript:call_link\('abenrap_repeatable_action_glosry.htm'\) "Glossary Entry").
-
-7.89, 7.57
-
-[factory (action)](javascript:call_link\('abenbdl_action_factory.htm'\))
-
-Defines a [RAP factory action](javascript:call_link\('abenrap_factory_action_glosry.htm'\) "Glossary Entry").
-
-Unmanaged RAP BO: 7.76, 7.54
-Managed RAP BO: 7.86, 7.57
-
-[default](javascript:call_link\('abenbdl_action_default_factory.htm'\))
-
-Defines a default static factory action.
-
-7.90, 7.58
-
-[save(finalize
-   *|* adjustnumbers
-  *|* finalize, adjustnumbers)
-(action)](javascript:call_link\('abenbdl_action_onsave.htm'\))
-
-Defines a [RAP save action](javascript:call_link\('abenrap_save_action_glosry.htm'\) "Glossary Entry").
-
-7.89, 7.57
-
-[function ... *\[*external*\]*](javascript:call_link\('abenbdl_function.htm'\))
-
-Defines a [RAP function](javascript:call_link\('abenrap_function_glosry.htm'\) "Glossary Entry").
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77, 7.54
-
-[determine action](javascript:call_link\('abenbdl_determine_action.htm'\))
-
-Defines a [determine action](javascript:call_link\('abenrap_bo_det_action_glosry.htm'\) "Glossary Entry") that allows a [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") to execute [determinations](javascript:call_link\('abenrap_determination_glosry.htm'\) "Glossary Entry") and [validations](javascript:call_link\('abenrap_validation_glosry.htm'\) "Glossary Entry") on request.
-
-7.81, 7.55
-
-[always (determine action)](javascript:call_link\('abenbdl_determine_action.htm'\))
-
-Ignores the trigger condition of a [determine action](javascript:call_link\('abenrap_bo_det_action_glosry.htm'\) "Glossary Entry").
-
-7.82, 7.56
-
-   [draft action Edit](javascript:call_link\('abenbdl_draft_action.htm'\))
-*|*  [draft action Activate](javascript:call_link\('abenbdl_draft_action.htm'\))
-*|*  [draft action Discard](javascript:call_link\('abenbdl_draft_action.htm'\))
-*|*  [draft action Resume *\[*with additional implementation*\]*](javascript:call_link\('abenbdl_draft_action.htm'\))
-*|*  [draft determine action Prepare](javascript:call_link\('abenbdl_draft_action.htm'\))
-
-Defines a draft action in a draft-enabled scenario.
-
-7.81, 7.55
-
-[with additional implementation](javascript:call_link\('abenbdl_draft_action.htm'\))
-
-Implementation exit for draft actions that allows a user-defined implementation of the draft action in question.
-
-7.81, 7.55
-
-[optimized](javascript:call_link\('abenbdl_draft_action.htm'\))
-
-Recommended addition to the draft action Activate that speeds up the activation of draft instances.
-
-7.93, 7.58
-
-[parameter ... *\[*$self*\]*](javascript:call_link\('abenbdl_action_input_param.htm'\))
-
-Defines an input parameter for an action or function.
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77, 7.54
-
-[deep *\[*table*\]* (parameter)](javascript:call_link\('abenbdl_action_input_param.htm'\))
-
-Defines a deep input parameter or a deep table input parameter for an action or function.
-
-7.83, 7.56
-
-[result\[cardinality\] *{* $self *|* entity *}*](javascript:call_link\('abenbdl_action_output_para.htm'\))
-
-Defines an output parameter for an action or function.
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77, 7.54
-
-[selective (result)](javascript:call_link\('abenbdl_action_output_para.htm'\))
-
-Syntax addition for an output parameter for an action or function.
-
-7.79, 7.55
-
-[selective (deep result)](javascript:call_link\('abenbdl_action_output_para.htm'\))
-
-Syntax addition for a deep output parameter for an action or function.
-
-7.89, 7.57
-
-[mapping for ... *\[*control ... *\]* *\[*corresponding*\]* *\[*except*\]*](javascript:call_link\('abenbdl_type_mapping.htm'\))
-
-Maps field names from database tables to field names from the current data model.
-
-7.78, 7.55
-
-[validation ... on save { ... }](javascript:call_link\('abenbdl_validations.htm'\))
-
-Defines a validation which is called during the save sequence.
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77,7.54
-
-[determination ... on save { ... } *|* on modify { ... }](javascript:call_link\('abenbdl_determinations.htm'\))
-
-Defines a determination which is called during the save sequence or immediately after data has been changed.
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77,7.54
-
-[features: global](javascript:call_link\('abenbdl_actions_fc.htm'\))
-
-RAP BO operation addition that defines global feature control for a RAP BO operation.
-
-7.82, 7.56
-
-[features: instance](javascript:call_link\('abenbdl_actions_fc.htm'\))
-
-RAP BO operation addition that defines instance feature control for a RAP BO operation.
-
-7.77, 7.54
-
-[internal](javascript:call_link\('abenbdl_internal.htm'\))
-
-Defines a RAP BO operation as internal.
-
-Unmanaged RAP BO: 7.73, 7.53
-Managed RAP BO: 7.77,7.54
-
-[precheck](javascript:call_link\('abenbdl_precheck.htm'\))
-
-Prevents illegal changes from reaching the application buffer by prechecking modify operations.
-
-7.81, 7.55
-
-[augment](javascript:call_link\('abenbdl_augment_projection.htm'\))
-
-Augments modify requests on the projection layer in a [CDS projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
-
-7.82, 7.56
-
-[event ... *\[**\[*deep*\]* parameter*\]*](javascript:call_link\('abenbdl_event.htm'\))
-
-Defines a [RAP business event](javascript:call_link\('abenrap_entity_event_glosry.htm'\) "Glossary Entry") in a [managed](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry") or [unmanaged RAP BO](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry").
-
-7.89, 7.57
-
-[managed event ... on ... parameter](javascript:call_link\('abenbdl_managed_event.htm'\))
-
-Defines a [RAP derived event](javascript:call_link\('abenrap_derived_event_glosry.htm'\) "Glossary Entry") in a [managed](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry") or [unmanaged RAP BO](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry").
-
-7.93, 7.58
-
-[side effects { ... *\[*executed on ... *\]* affects ...; }](javascript:call_link\('abenbdl_side_effects.htm'\))
-
-Defines a [RAP side effect](javascript:call_link\('abenrap_side_effects_glosry.htm'\) "Glossary Entry") in a [managed](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), [unmanaged](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), or [projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
-
-7.91, 7.58
-
-Interface Behavior Definitions
-
-Language Element
-
-Meaning
-
-ABAP Release
-
-[interface](javascript:call_link\('abenbdl_impl_type.htm'\))
-
-Defines a [RAP BO interface](javascript:call_link\('abenrap_bo_interface_glosry.htm'\) "Glossary Entry").
-
-7.88, 7.57
-
-[extensible](javascript:call_link\('abenbdl_bo_interface_header.htm'\))
-
-Declares a RAP BO interface as extensible.
-
-7.89, 7.57
-
-[with managed instance filter](javascript:call_link\('abenbdl_mngd_instance_check_proj.htm'\))
-
-Optional addition for [projection BDEFs](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry") and [interface BDEFs](javascript:call_link\('abencds_interface_bdef_glosry.htm'\) "Glossary Entry"). If specified, the [WHERE](javascript:call_link\('abencds_proj_view_cond_expr.htm'\)) condition of the underlying [CDS transactional query](javascript:call_link\('abencds_transactional_pv_glosry.htm'\) "Glossary Entry") or [CDS transactional interface](javascript:call_link\('abencds_trans_interface_glosry.htm'\) "Glossary Entry") is evaluated when the BDEF is accessed with [ABAP EML](javascript:call_link\('abenabap_eml_glosry.htm'\) "Glossary Entry") or [OData](javascript:call_link\('abenodata_glosry.htm'\) "Glossary Entry") requests from Web clients.
-
-7.93, 7.58
-
-[define behavior for ... alias ... external](javascript:call_link\('abenbdl_define_beh_interface.htm'\)).
-
-Entity behavior definition of an interface BDEF.
-
-7.88, 7.57
-
-[use draft](javascript:call_link\('abenbdl_bo_interface_header.htm'\))
-
-Reuses the draft-handling from the base BO.
-
-7.88, 7.57
-
-[use side effects](javascript:call_link\('abenbdl_use_projection.htm'\))
-
-Reuse of [RAP side effects](javascript:call_link\('abenrap_side_effects_glosry.htm'\) "Glossary Entry") from the base BO.
-
-7.91, 7.58
-
-[use event](javascript:call_link\('abenbdl_use_projection.htm'\))
-
-Reuses a [RAP business event](javascript:call_link\('abenrap_entity_event_glosry.htm'\) "Glossary Entry") from the base BO.
-
-7.93, 7.58
-
-[use etag](javascript:call_link\('abenbdl_define_beh_interface.htm'\)).
-
-Reuses the ETag from the base BO.
-
-7.88, 7.57
-
-[with privileged mode](javascript:call_link\('abenbdl_bo_interface_header.htm'\)).
-
-[BDEF privileged mode](javascript:call_link\('abenrap_privileged_mode_glosry.htm'\) "Glossary Entry").
-
-7.88, 7.57
-
-[foreign entity](javascript:call_link\('abenbdl_bo_interface_header.htm'\)).
-
-Defines a [RAP foreign entity](javascript:call_link\('abenrap_foreign_entity_glosry.htm'\) "Glossary Entry") for message mapping.
-
-7.88, 7.57
-
-[field(readonly)](javascript:call_link\('abenbdl_field_interface.htm'\))
-
-[RAP field characteristic](javascript:call_link\('abenrap_field_char_glosry.htm'\) "Glossary Entry").
-
-7.90, 7.58
-
-[field(mandatory:create)](javascript:call_link\('abenbdl_field_interface.htm'\))
-
-[RAP field characteristic](javascript:call_link\('abenrap_field_char_glosry.htm'\) "Glossary Entry").
-
-7.90, 7.58
-
-[field(readonly:update)](javascript:call_link\('abenbdl_field_interface.htm'\))
-
-[RAP field characteristic](javascript:call_link\('abenrap_field_char_glosry.htm'\) "Glossary Entry").
-
-7.90, 7.58
-
-[field(suppress)](javascript:call_link\('abenbdl_field_interface.htm'\))
-
-[RAP field characteristic](javascript:call_link\('abenrap_field_char_glosry.htm'\) "Glossary Entry").
-
-7.90, 7.58
-
-Abstract Behavior Definitions
-
-Language Element
-
-Meaning
-
-ABAP Release
-
-[abstract](javascript:call_link\('abenbdl_impl_type.htm'\))
-
-Defines an abstract BDEF.
-
-7.83, 7.56
-
-[with hierarchy](javascript:call_link\('abenbdl_bdef_abstract_header.htm'\))
-
-Causes the construction of a new kind of BDEF derived type. Only available in abstract BDEFs.
-
-7.83, 7.56
-
-[with control](javascript:call_link\('abenbdl_define_beh_abstract.htm'\))
-
-Optional addition of the define behavior statement that is only available in abstract BDEFs. Adds the %control structure to the corresponding derived type structure.
-
-7.85, 7.56
-
-[scalar entity](javascript:call_link\('abenbdl_define_beh_abstract.htm'\))
-
-Alternative to an entity behavior definition that is only available in abstract BDEFs. Integrates a node of the CDS composition tree into the hierarchical derived type of the abstract BDEF as a scalar type.
-
-7.83, 7.56
-
-[association ... *\[*with hierarchy*\]*](javascript:call_link\('abenbdl_association_abstract.htm'\))
-
-In an abstract BDEF, an association can be defined with the optional addition with hierarchy. This addition is available for to-parent associations and cross-BO associations to include them multiple times in the type structure.
-
-7.83,7.56
-
-[deep mapping for ... *\[*corresponding*\]* *\[*sub*\]*](javascript:call_link\('abenbdl_type_mapping_abstract.htm'\))
-
-Defines a deep mapping in an abstract BDEF.
-
-7.83,7.56
-
-[mandatory:execute](javascript:call_link\('abenbdl_field_abstract.htm'\))
-
-Field attribute that declares a field of an abstract BDEF as mandatory.
-
-7.88, 7.57
-
-BDEF Extensions   
-
-Keywords and Additions
-
-This list displays special language elements for BDEF extensions. You can also use statements from [CDS behavior definitions](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry").
-
-Language Element
-
-Meaning
-
-ABAP Release
-
-[extension](javascript:call_link\('abenbdl_extensibility_managed_unm.htm'\))
-
-Defines a [BDEF extension](javascript:call_link\('abenrap_extension_glosry.htm'\) "Glossary Entry").
-
-7.89, 7.57
-
-[extend behavior for](javascript:call_link\('abenbdl_extend_beh.htm'\))
-
-Defines a [RAP entity behavior extension](javascript:call_link\('abenrap_behavior_extension_glosry.htm'\) "Glossary Entry").
-
-7.89, 7.57
-
-[extend own authorization context](javascript:call_link\('abenbdl_extend_own_auth_context.htm'\)).
-
-Extends an [own authorization context](javascript:call_link\('abencds_own_ac_glosry.htm'\) "Glossary Entry").
-
-7.89, 7.57
-
-[extend determine action](javascript:call_link\('abenbdl_determine_action_ext.htm'\))
-
-Extends an existing [RAP BO determine action](javascript:call_link\('abenrap_bo_det_action_glosry.htm'\) "Glossary Entry").
-
-7.89, 7.57
-
-[extend draft determine action Prepare](javascript:call_link\('abenbdl_draft_action_ext.htm'\))
-
-Extends an existing [draft determine action Prepare](javascript:call_link\('abenrap_bo_draft_action_glosry.htm'\) "Glossary Entry").
-
-7.89, 7.57
-
-[extend mapping for](javascript:call_link\('abenbdl_type_mapping_ext.htm'\))
-
-Extends an existing [RAP type mapping](javascript:call_link\('abenrap_type_mapping_glosry.htm'\) "Glossary Entry").
-
-7.89, 7.57
-
-[extension for projection](javascript:call_link\('abenbdl_extensibility_projection.htm'\))
-
-Extends a [RAP projection behavior definition](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
-
-7.89, 7.57
-
-[ancestor association](javascript:call_link\('abenbdl_ancestor_ext.htm'\))
-
-Defines a CDS association as ancestor association. The [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") must be an extension node.
-
-7.89, 7.57
-
-[extension for abstract](javascript:call_link\('abenbdl_extension_for_abstract.htm'\))
-
-Extends an [abstract behavior definition](javascript:call_link\('abencds_abstract_bdef_glosry.htm'\) "Glossary Entry").
-
-7.91, 7.58
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - RAP Business Objects / RAP - Behavior Definitions / RAP - BDL for Behavior Definitions / RAP - Managed and Unmanaged Behavior Definitions / RAP - Behavior Definition Header / RAP - BDEF Strict Mode
-
-**Files**: 3 | **Difficulty**: intermediate
-
-# ABAP - Keyword Documentation / ABAP - RAP Business Objects / RAP - Behavior Definitions / RAP - BDL for Behavior Definitions / RAP - BOPF-Based RAP Business Objects
-
-Included pages: 3
-
-
-### abenbdl_rap_bopf.htm
-
-  
-
-* * *
-
-AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20BOPF-Based%20RAP%20Business%20Objects%2C%20ABENBDL_RAP_BOPF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
+    -   [BDEF Extensions](#abenrap-feature-table-3---bdl-----rap-behavior-definitions-----rap-behavior-definition-header--the-following-tables-list-the-keywords-that-can-be-used-in-bdefs-of-type-managed--unmanaged--and-projection--if-the-release-dates-differ-per-implementation-type--the-release-dates-are-given-per-implementation-type---language-element--meaning--abap-release---managed--javascript-call-link---abenbdl-impl-type-htm------defines-a--managed-rap-bo--javascript-call-link---abenmanaged-rap-bo-glosry-htm-----glossary-entry-----7-77--7-54---unmanaged--javascript-call-link---abenbdl-impl-type-htm------defines-an--unmanaged-rap-bo--javascript-call-link---abenunmanaged-rap-bo-glosry-htm-----glossary-entry-----7-73--7-53---projection--javascript-call-link---abenbdl-impl-type-htm------defines-a-projection-rap-bo---7-77--7-54---implementation-in-class-----unique------javascript-call-link---abenbdl-in-class-unique-htm------class-for-manual-method-implementation---7-77--7-54---strict--javascript-call-link---abenbdl-strict-1-htm------enables--bdef-strict-mode--javascript-call-link---abenrap-strict-mode-glosry-htm-----glossary-entry-----7-84--7-56---strict-2---javascript-call-link---abenbdl-strict-2-htm------enables--bdef-strict-mode--version-2--javascript-call-link---abenrap-strict-mode-glosry-htm-----glossary-entry-----7-89--7-57---extensible--javascript-call-link---abenbdl-extensible-htm-------rap-extensibility-enablement--javascript-call-link---abenrap-ext-enablement-glosry-htm-----glossary-entry---for-managed-and-unmanaged-rap-bos-and-for-projection-bdefs---7-89--7-57---with-validations-on-save-with-determinations-on-save-with-determinations-on-modify-with-additional-save--extensible---javascript-call-link---abenbdl-extensible-htm-------rap-extensibility-enablement--javascript-call-link---abenrap-ext-enablement-glosry-htm-----glossary-entry----caution--currently-only-available-for-managed-rap-bos---7-89--7-57---with-managed-instance-filter--javascript-call-link---abenbdl-mngd-instance-check-proj-htm------optional-addition-for--projection-bdefs--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry---and--interface-bdefs--javascript-call-link---abencds-interface-bdef-glosry-htm-----glossary-entry----if-specified--the--where--javascript-call-link---abencds-proj-view-cond-expr-htm-----condition-of-the-underlying--cds-transactional-query--javascript-call-link---abencds-transactional-pv-glosry-htm-----glossary-entry---or--cds-transactional-interface--javascript-call-link---abencds-trans-interface-glosry-htm-----glossary-entry---is-evaluated-when-the-bdef-is-accessed-with--abap-eml--javascript-call-link---abenabap-eml-glosry-htm-----glossary-entry---or--odata--javascript-call-link---abenodata-glosry-htm-----glossary-entry---requests-from-web-clients---7-93--7-58---with-draft--javascript-call-link---abenbdl-with-draft-htm------enables--rap-draft-handling--javascript-call-link---abenrap-draft-handling-glosry-htm-----glossary-entry-----7-81--7-55---use-draft--javascript-call-link---abenbdl-use-projection-htm------reuse-of--rap-draft-handling--javascript-call-link---abenrap-draft-handling-glosry-htm-----glossary-entry---in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry-----7-77--7-54---use-side-effects--javascript-call-link---abenbdl-use-projection-htm------reuse-of--rap-side-effects--javascript-call-link---abenrap-side-effects-glosry-htm-----glossary-entry---in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry-----7-91--7-58---with-privileged-mode--javascript-call-link---abenbdl-privileged-mode-htm------enables--bdef-privileged-mode--javascript-call-link---abenrap-privileged-mode-glosry-htm-----glossary-entry-----7-83--7-56--obsolete-as-of-7-89--7-57----with-privileged-mode-disabling--javascript-call-link---abenbdl-privileged-mode-htm------enables--bdef-privileged-mode--javascript-call-link---abenrap-privileged-mode-glosry-htm-----glossary-entry---for-managed-and-unmanaged-rap-bos---7-89--7-56---with-privileged-mode-disabling-base-context-----and------javascript-call-link---abenbdl-privileged-mode-htm------enables--bdef-privileged-mode--javascript-call-link---abenrap-privileged-mode-glosry-htm-----glossary-entry---in-projection-bdefs---7-86--7-57---foreign-entity--javascript-call-link---abenbdl-foreign-htm------defines-an-entity-which-is-not-part-of-the-bo-structure-as-component-for-the-response-structures--thus-enabling-message-mapping-for-other-bos---unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77--7-54-projection-bdef--7-77--7-54--entity-behavior-definition--language-element--meaning--abap-release---define-behavior-for---alias--javascript-call-link---abenbdl-define-beh-htm------defines-an--entity-behavior-definition--javascript-call-link---abencds-entity-bdef-glosry-htm-----glossary-entry-----unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77--7-54-projection-bdef--7-77--7-54--authorization-context-definition--language-element--meaning--abap-release---define-authorization-context---------for-disable----modify---read---modify-read---------javascript-call-link---abenbdl-def-auth-context-htm------defines-an--authorization-context--javascript-call-link---abencds-auth-context-glosry-htm-----glossary-entry---that-lists--authorization-objects--javascript-call-link---abenauthorization-object-glosry-htm-----glossary-entry---that-can-be-skipped-when-the-respective-authorization-context-is-activated---7-85--7-56---define-own-authorization-context--javascript-call-link---abenbdl-def-own-auth-context-htm------defines-an--own-authorization-context--javascript-call-link---abencds-own-ac-glosry-htm-----glossary-entry---that-documents-authorization-objects-used-in-the-implementation-of-the-rap-bo-in-question---7-86--7-57---define-own-authorization-context-by-privileged-mode-----and-----------javascript-call-link---abenbdl-def-own-auth-context-htm------defines-an--own-authorization-context--javascript-call-link---abencds-own-ac-glosry-htm-----glossary-entry----7-89--7-56--entity-behavior-characteristics--language-element--meaning--abap-release---persistent-table--javascript-call-link---abenbdl-persistent-table-htm------defines-a-persistent-database-table-in-a-managed-rap-bo---7-77--7-54---draft-table--javascript-call-link---abenbdl-draft-table-htm------defines-the--draft-database-table--javascript-call-link---abendraft-table-glosry-htm-----glossary-entry---used-to-store-draft-data---7-81--7-55---query--javascript-call-link---abenbdl-draft-query-view-htm------defines-a--draft-query-view--javascript-call-link---abendraft-query-view-glosry-htm-----glossary-entry---for-a-draft-database-table---7-89--7-57---with-additional-save--javascript-call-link---abenbdl-saving-htm------user-defined-saving-strategy-for-managed-rap-bos---7-78--7-55---with-unmanaged-save--javascript-call-link---abenbdl-saving-htm------user-defined-saving-strategy-for-managed-rap-bos---7-78--7-55---and-cleanup--javascript-call-link---abenbdl-saving-htm------user-defined-saving-strategy-for-managed-rap-bos---7-83--7-56---with-full-data--javascript-call-link---abenbdl-saving-htm------user-defined-saving-strategy-for-managed-rap-bos---7-88--7-57---etag-master--javascript-call-link---abenbdl-etag-htm-------etag-dependent--javascript-call-link---abenbdl-etag-htm-------total-etag--javascript-call-link---abenbdl-etag-htm------defines-an-etag-field-for-optimistic-concurrency-control---unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77--7-54-projection-bdef--7-77--7-54---use-etag--javascript-call-link---abenbdl-use-projection-htm------reuse-of-etag-fields-for-optimistic-concurrency-control-in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry-----7-77--7-54---lock-master--javascript-call-link---abenbdl-locking-htm------defines-pessimistic-concurrency-control-in-managed-or-unmanaged-rap-bos---unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77--7-54---unmanaged--lock-master---javascript-call-link---abenbdl-locking-htm------implementation-exit-for-pessimistic-concurrency-control-in-managed-rap-bos---7-80--7-55---lock-dependent--javascript-call-link---abenbdl-locking-htm------defines-pessimistic-concurrency-control-in-managed-or-unmanaged-rap-bos---unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77--7-54---lock-none--javascript-call-link---abenbdl-locking-htm------rap-bo-operation-addition-that-prevents-the-locking-mechanism-for-a-certain-rap-bo-entity---7-82--7-56---authorization-master--global----javascript-call-link---abenbdl-authorization-htm------defines-global--rap-authorization-control--javascript-call-link---abenrap-auth-control-glosry-htm-----glossary-entry---for-managed-and-unmanaged-rap-bos---7-82--7-56---authorization-master---instance----javascript-call-link---abenbdl-authorization-htm------defines-instance--rap-authorization-control--javascript-call-link---abenrap-auth-control-glosry-htm-----glossary-entry---for-managed-and-unmanaged-rap-bos---7-77--7-54---authorization-dependent--javascript-call-link---abenbdl-authorization-htm-------rap-authorization-control--javascript-call-link---abenrap-auth-control-glosry-htm-----glossary-entry---for-managed-and-unmanaged-rap-bos---7-77--7-54---authorization---global--------------------instance--------------------global--instance----javascript-call-link---abenbdl-authorization-projection-htm------defines--rap-authorization-control--javascript-call-link---abenrap-auth-control-glosry-htm-----glossary-entry---for-projection-bdefs---7-84--7-56---authorization-update--javascript-call-link---abenbdl-authorization-htm-------rap-bo-operation-addition--javascript-call-link---abenbdl-operations-additions-htm-----to-delegate--rap-authorization-control--javascript-call-link---abenrap-auth-control-glosry-htm-----glossary-entry-----7-85--7-56---authorization-none--javascript-call-link---abenbdl-authorization-htm-------rap-bo-operation-addition--javascript-call-link---abenbdl-operations-additions-htm-----to-exclude-a-rap-bo-operation-from--rap-authorization-control--javascript-call-link---abenrap-auth-control-glosry-htm-----glossary-entry-----7-77--7-54---authorization-global--javascript-call-link---abenbdl-actions-auth-global-htm-------rap-bo-operation-addition--javascript-call-link---abenbdl-operations-additions-htm-----that-replaces-the--rap-authorization-control--javascript-call-link---abenrap-auth-control-glosry-htm-----glossary-entry---that-is-specified-in-the--authorization-master-entity--javascript-call-link---abenrap-auth-ma-ent-glosry-htm-----glossary-entry---and-applies-global-authorization-checks-instead---7-92--7-58---authorization-instance--javascript-call-link---abenbdl-actions-auth-instance-htm-------rap-bo-operation-addition--javascript-call-link---abenbdl-operations-additions-htm-----that-replaces-the--rap-authorization-control--javascript-call-link---abenrap-auth-control-glosry-htm-----glossary-entry---that-is-specified-in-the--authorization-master-entity--javascript-call-link---abenrap-auth-ma-ent-glosry-htm-----glossary-entry---and-applies-instance-authorization-checks-instead---7-92--7-58---early-numbering--javascript-call-link---abenbdl-early-numb-htm------defines-unmanaged--early-numbering--javascript-call-link---abenrap-early-numbering-glosry-htm-----glossary-entry---for-all-primary-key-fields-of-a-business-object-entity---7-83--7-56---late-numbering--javascript-call-link---abenbdl-late-numbering-htm------enables-gapless-assignment-for-unique-keys-when-creating-new-entity-instances-in-managed-and-unmanaged-rap-bos---unmanaged-rap-bo-without-draft--7-73--7-53-unmanaged-rap-bo-with-draft-and-managed-rap-bo--7-86--7-57--entity-behavior-body--language-element--meaning--abap-release---field-readonly---javascript-call-link---abenbdl-field-char-htm------defines-a--rap-field-characteristic--javascript-call-link---abenrap-field-char-glosry-htm-----glossary-entry-----unmanaged-rap-bo--7-76--7-54-managed-rap-bo--7-77--7-54---field-mandatory---javascript-call-link---abenbdl-field-char-htm------defines-a--rap-field-characteristic--javascript-call-link---abenrap-field-char-glosry-htm-----glossary-entry-----unmanaged-rap-bo--7-76--7-54-managed-rap-bo--7-77--7-54---field--features-instance---javascript-call-link---abenbdl-field-char-htm------defines-a--rap-field-characteristic--javascript-call-link---abenrap-field-char-glosry-htm-----glossary-entry-----7-77--7-54---field--mandatory-create---javascript-call-link---abenbdl-field-char-htm------defines-a--rap-field-characteristic--javascript-call-link---abenrap-field-char-glosry-htm-----glossary-entry-----7-81--7-55---field--readonly-update---javascript-call-link---abenbdl-field-char-htm------defines-a--rap-field-characteristic--javascript-call-link---abenrap-field-char-glosry-htm-----glossary-entry-----7-81--7-55---field--numbering-managed---javascript-call-link---abenbdl-field-char-htm------defines-managed-internal-numbering-for-a-field-in-a-managed-rap-bo---7-79--7-55---field--suppress---javascript-call-link---abenbdl-field-char-htm------defines-a--rap-field-characteristic--javascript-call-link---abenrap-field-char-glosry-htm-----glossary-entry-----managed-rap-bo--7-88--7-57-unmanaged-rap-bo--7-87--7-57-projection-bdef--7-84--7-56---field--notrigger-warn---javascript-call-link---abenbdl-field-char-htm------defines-a--rap-field-characteristic--javascript-call-link---abenrap-field-char-glosry-htm-----glossary-entry-----7-90--7-58---field--modify---javascript-call-link---abenbdl-augment-projection-htm------augmentation-of-a--cds-virtual-element--javascript-call-link---abencds-virtual-element-glosry-htm-----glossary-entry---in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry-----7-82--7-56---group--javascript-call-link---abenbdl-grouping-htm------splits-the-implementation-relevant-parts-of-a-business-object-s-logic-into-multiple-groups-to-allow-simultaneous-work---7-78--7-55---create--javascript-call-link---abenbdl-standard-operations-htm-------update--javascript-call-link---abenbdl-standard-operations-htm-------delete--javascript-call-link---abenbdl-standard-operations-htm------enables--crud-operations--javascript-call-link---abencrud-glosry-htm-----glossary-entry---for-a-managed-or-unmanaged-rap-business-object---unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77--7-54---use--javascript-call-link---abenbdl-use-projection-htm------reuse-of--rap-bo-operations--javascript-call-link---abenrap-bo-operation-glosry-htm-----glossary-entry---in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry-----7-81--7-55---association-----abbreviation---------without-response------javascript-call-link---abenbdl-association-htm------enables-read-by-association-and-create-by-association-operations-for-associations---unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77--7-54---action---------external------javascript-call-link---abenbdl-action-htm------defines-a--rap-action--javascript-call-link---abenrap-action-glosry-htm-----glossary-entry-----unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77--7-54---static--action---javascript-call-link---abenbdl-action-htm------defines-a-static--rap-action--javascript-call-link---abenrap-action-glosry-htm-----glossary-entry-----unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77--7-54---repeatable--action-or-function---javascript-call-link---abenbdl-action-repeatable-htm------defines-a--rap-repeatable-operation--javascript-call-link---abenrap-repeatable-action-glosry-htm-----glossary-entry-----7-89--7-57---factory--action---javascript-call-link---abenbdl-action-factory-htm------defines-a--rap-factory-action--javascript-call-link---abenrap-factory-action-glosry-htm-----glossary-entry-----unmanaged-rap-bo--7-76--7-54-managed-rap-bo--7-86--7-57---default--javascript-call-link---abenbdl-action-default-factory-htm------defines-a-default-static-factory-action---7-90--7-58---save-finalize--------adjustnumbers-------finalize--adjustnumbers---action---javascript-call-link---abenbdl-action-onsave-htm------defines-a--rap-save-action--javascript-call-link---abenrap-save-action-glosry-htm-----glossary-entry-----7-89--7-57---function---------external------javascript-call-link---abenbdl-function-htm------defines-a--rap-function--javascript-call-link---abenrap-function-glosry-htm-----glossary-entry-----unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77--7-54---determine-action--javascript-call-link---abenbdl-determine-action-htm------defines-a--determine-action--javascript-call-link---abenrap-bo-det-action-glosry-htm-----glossary-entry---that-allows-a--rap-bo-consumer--javascript-call-link---abenrap-bo-consumer-glosry-htm-----glossary-entry---to-execute--determinations--javascript-call-link---abenrap-determination-glosry-htm-----glossary-entry---and--validations--javascript-call-link---abenrap-validation-glosry-htm-----glossary-entry---on-request---7-81--7-55---always--determine-action---javascript-call-link---abenbdl-determine-action-htm------ignores-the-trigger-condition-of-a--determine-action--javascript-call-link---abenrap-bo-det-action-glosry-htm-----glossary-entry-----7-82--7-56------draft-action-edit--javascript-call-link---abenbdl-draft-action-htm-----------draft-action-activate--javascript-call-link---abenbdl-draft-action-htm-----------draft-action-discard--javascript-call-link---abenbdl-draft-action-htm-----------draft-action-resume-----with-additional-implementation------javascript-call-link---abenbdl-draft-action-htm-----------draft-determine-action-prepare--javascript-call-link---abenbdl-draft-action-htm------defines-a-draft-action-in-a-draft-enabled-scenario---7-81--7-55---with-additional-implementation--javascript-call-link---abenbdl-draft-action-htm------implementation-exit-for-draft-actions-that-allows-a-user-defined-implementation-of-the-draft-action-in-question---7-81--7-55---optimized--javascript-call-link---abenbdl-draft-action-htm------recommended-addition-to-the-draft-action-activate-that-speeds-up-the-activation-of-draft-instances---7-93--7-58---parameter----------self------javascript-call-link---abenbdl-action-input-param-htm------defines-an-input-parameter-for-an-action-or-function---unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77--7-54---deep-----table------parameter---javascript-call-link---abenbdl-action-input-param-htm------defines-a-deep-input-parameter-or-a-deep-table-input-parameter-for-an-action-or-function---7-83--7-56---result--cardinality--------self-----entity------javascript-call-link---abenbdl-action-output-para-htm------defines-an-output-parameter-for-an-action-or-function---unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77--7-54---selective--result---javascript-call-link---abenbdl-action-output-para-htm------syntax-addition-for-an-output-parameter-for-an-action-or-function---7-79--7-55---selective--deep-result---javascript-call-link---abenbdl-action-output-para-htm------syntax-addition-for-a-deep-output-parameter-for-an-action-or-function---7-89--7-57---mapping-for---------control--------------corresponding---------except------javascript-call-link---abenbdl-type-mapping-htm------maps-field-names-from-database-tables-to-field-names-from-the-current-data-model---7-78--7-55---validation-----on-save----------javascript-call-link---abenbdl-validations-htm------defines-a-validation-which-is-called-during-the-save-sequence---unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77-7-54---determination-----on-save-------------on-modify----------javascript-call-link---abenbdl-determinations-htm------defines-a-determination-which-is-called-during-the-save-sequence-or-immediately-after-data-has-been-changed---unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77-7-54---features--global--javascript-call-link---abenbdl-actions-fc-htm------rap-bo-operation-addition-that-defines-global-feature-control-for-a-rap-bo-operation---7-82--7-56---features--instance--javascript-call-link---abenbdl-actions-fc-htm------rap-bo-operation-addition-that-defines-instance-feature-control-for-a-rap-bo-operation---7-77--7-54---internal--javascript-call-link---abenbdl-internal-htm------defines-a-rap-bo-operation-as-internal---unmanaged-rap-bo--7-73--7-53-managed-rap-bo--7-77-7-54---precheck--javascript-call-link---abenbdl-precheck-htm------prevents-illegal-changes-from-reaching-the-application-buffer-by-prechecking-modify-operations---7-81--7-55---augment--javascript-call-link---abenbdl-augment-projection-htm------augments-modify-requests-on-the-projection-layer-in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry-----7-82--7-56---event-------------deep-----parameter------javascript-call-link---abenbdl-event-htm------defines-a--rap-business-event--javascript-call-link---abenrap-entity-event-glosry-htm-----glossary-entry---in-a--managed--javascript-call-link---abenmanaged-rap-bo-glosry-htm-----glossary-entry---or--unmanaged-rap-bo--javascript-call-link---abenunmanaged-rap-bo-glosry-htm-----glossary-entry-----7-89--7-57---managed-event-----on-----parameter--javascript-call-link---abenbdl-managed-event-htm------defines-a--rap-derived-event--javascript-call-link---abenrap-derived-event-glosry-htm-----glossary-entry---in-a--managed--javascript-call-link---abenmanaged-rap-bo-glosry-htm-----glossary-entry---or--unmanaged-rap-bo--javascript-call-link---abenunmanaged-rap-bo-glosry-htm-----glossary-entry-----7-93--7-58---side-effects-----------executed-on----------affects---------javascript-call-link---abenbdl-side-effects-htm------defines-a--rap-side-effect--javascript-call-link---abenrap-side-effects-glosry-htm-----glossary-entry---in-a--managed--javascript-call-link---abenmanaged-rap-bo-glosry-htm-----glossary-entry-----unmanaged--javascript-call-link---abenunmanaged-rap-bo-glosry-htm-----glossary-entry----or--projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry-----7-91--7-58--interface-behavior-definitions--language-element--meaning--abap-release---interface--javascript-call-link---abenbdl-impl-type-htm------defines-a--rap-bo-interface--javascript-call-link---abenrap-bo-interface-glosry-htm-----glossary-entry-----7-88--7-57---extensible--javascript-call-link---abenbdl-bo-interface-header-htm------declares-a-rap-bo-interface-as-extensible---7-89--7-57---with-managed-instance-filter--javascript-call-link---abenbdl-mngd-instance-check-proj-htm------optional-addition-for--projection-bdefs--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry---and--interface-bdefs--javascript-call-link---abencds-interface-bdef-glosry-htm-----glossary-entry----if-specified--the--where--javascript-call-link---abencds-proj-view-cond-expr-htm-----condition-of-the-underlying--cds-transactional-query--javascript-call-link---abencds-transactional-pv-glosry-htm-----glossary-entry---or--cds-transactional-interface--javascript-call-link---abencds-trans-interface-glosry-htm-----glossary-entry---is-evaluated-when-the-bdef-is-accessed-with--abap-eml--javascript-call-link---abenabap-eml-glosry-htm-----glossary-entry---or--odata--javascript-call-link---abenodata-glosry-htm-----glossary-entry---requests-from-web-clients---7-93--7-58---define-behavior-for-----alias-----external--javascript-call-link---abenbdl-define-beh-interface-htm-------entity-behavior-definition-of-an-interface-bdef---7-88--7-57---use-draft--javascript-call-link---abenbdl-bo-interface-header-htm------reuses-the-draft-handling-from-the-base-bo---7-88--7-57---use-side-effects--javascript-call-link---abenbdl-use-projection-htm------reuse-of--rap-side-effects--javascript-call-link---abenrap-side-effects-glosry-htm-----glossary-entry---from-the-base-bo---7-91--7-58---use-event--javascript-call-link---abenbdl-use-projection-htm------reuses-a--rap-business-event--javascript-call-link---abenrap-entity-event-glosry-htm-----glossary-entry---from-the-base-bo---7-93--7-58---use-etag--javascript-call-link---abenbdl-define-beh-interface-htm-------reuses-the-etag-from-the-base-bo---7-88--7-57---with-privileged-mode--javascript-call-link---abenbdl-bo-interface-header-htm--------bdef-privileged-mode--javascript-call-link---abenrap-privileged-mode-glosry-htm-----glossary-entry-----7-88--7-57---foreign-entity--javascript-call-link---abenbdl-bo-interface-header-htm-------defines-a--rap-foreign-entity--javascript-call-link---abenrap-foreign-entity-glosry-htm-----glossary-entry---for-message-mapping---7-88--7-57---field-readonly---javascript-call-link---abenbdl-field-interface-htm-------rap-field-characteristic--javascript-call-link---abenrap-field-char-glosry-htm-----glossary-entry-----7-90--7-58---field-mandatory-create---javascript-call-link---abenbdl-field-interface-htm-------rap-field-characteristic--javascript-call-link---abenrap-field-char-glosry-htm-----glossary-entry-----7-90--7-58---field-readonly-update---javascript-call-link---abenbdl-field-interface-htm-------rap-field-characteristic--javascript-call-link---abenrap-field-char-glosry-htm-----glossary-entry-----7-90--7-58---field-suppress---javascript-call-link---abenbdl-field-interface-htm-------rap-field-characteristic--javascript-call-link---abenrap-field-char-glosry-htm-----glossary-entry-----7-90--7-58--abstract-behavior-definitions--language-element--meaning--abap-release---abstract--javascript-call-link---abenbdl-impl-type-htm------defines-an-abstract-bdef---7-83--7-56---with-hierarchy--javascript-call-link---abenbdl-bdef-abstract-header-htm------causes-the-construction-of-a-new-kind-of-bdef-derived-type--only-available-in-abstract-bdefs---7-83--7-56---with-control--javascript-call-link---abenbdl-define-beh-abstract-htm------optional-addition-of-the-define-behavior-statement-that-is-only-available-in-abstract-bdefs--adds-the--control-structure-to-the-corresponding-derived-type-structure---7-85--7-56---scalar-entity--javascript-call-link---abenbdl-define-beh-abstract-htm------alternative-to-an-entity-behavior-definition-that-is-only-available-in-abstract-bdefs--integrates-a-node-of-the-cds-composition-tree-into-the-hierarchical-derived-type-of-the-abstract-bdef-as-a-scalar-type---7-83--7-56---association---------with-hierarchy------javascript-call-link---abenbdl-association-abstract-htm------in-an-abstract-bdef--an-association-can-be-defined-with-the-optional-addition-with-hierarchy--this-addition-is-available-for-to-parent-associations-and-cross-bo-associations-to-include-them-multiple-times-in-the-type-structure---7-83-7-56---deep-mapping-for---------corresponding---------sub------javascript-call-link---abenbdl-type-mapping-abstract-htm------defines-a-deep-mapping-in-an-abstract-bdef---7-83-7-56---mandatory-execute--javascript-call-link---abenbdl-field-abstract-htm------field-attribute-that-declares-a-field-of-an-abstract-bdef-as-mandatory---7-88--7-57--bdef-extensions-----keywords-and-additions--this-list-displays-special-language-elements-for-bdef-extensions--you-can-also-use-statements-from--cds-behavior-definitions--javascript-call-link---abencds-behavior-definition-glosry-htm-----glossary-entry-----language-element--meaning--abap-release---extension--javascript-call-link---abenbdl-extensibility-managed-unm-htm------defines-a--bdef-extension--javascript-call-link---abenrap-extension-glosry-htm-----glossary-entry-----7-89--7-57---extend-behavior-for--javascript-call-link---abenbdl-extend-beh-htm------defines-a--rap-entity-behavior-extension--javascript-call-link---abenrap-behavior-extension-glosry-htm-----glossary-entry-----7-89--7-57---extend-own-authorization-context--javascript-call-link---abenbdl-extend-own-auth-context-htm-------extends-an--own-authorization-context--javascript-call-link---abencds-own-ac-glosry-htm-----glossary-entry-----7-89--7-57---extend-determine-action--javascript-call-link---abenbdl-determine-action-ext-htm------extends-an-existing--rap-bo-determine-action--javascript-call-link---abenrap-bo-det-action-glosry-htm-----glossary-entry-----7-89--7-57---extend-draft-determine-action-prepare--javascript-call-link---abenbdl-draft-action-ext-htm------extends-an-existing--draft-determine-action-prepare--javascript-call-link---abenrap-bo-draft-action-glosry-htm-----glossary-entry-----7-89--7-57---extend-mapping-for--javascript-call-link---abenbdl-type-mapping-ext-htm------extends-an-existing--rap-type-mapping--javascript-call-link---abenrap-type-mapping-glosry-htm-----glossary-entry-----7-89--7-57---extension-for-projection--javascript-call-link---abenbdl-extensibility-projection-htm------extends-a--rap-projection-behavior-definition--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry-----7-89--7-57---ancestor-association--javascript-call-link---abenbdl-ancestor-ext-htm------defines-a-cds-association-as-ancestor-association--the--association-target--javascript-call-link---abenassociation-target-glosry-htm-----glossary-entry---must-be-an-extension-node---7-89--7-57---extension-for-abstract--javascript-call-link---abenbdl-extension-for-abstract-htm------extends-an--abstract-behavior-definition--javascript-call-link---abencds-abstract-bdef-glosry-htm-----glossary-entry-----7-91--7-58------------abap---keyword-documentation---abap---rap-business-objects---rap---behavior-definitions---rap---bdl-for-behavior-definitions---rap---managed-and-unmanaged-behavior-definitions---rap---behavior-definition-header---rap---bdef-strict-mode----files----3-----difficulty----intermediate----abap---keyword-documentation---abap---rap-business-objects---rap---behavior-definitions---rap---bdl-for-behavior-definitions---rap---bopf-based-rap-business-objects--included-pages--3---------source-----abenrap-feature-table-htm--https---help-sap-com-doc-abapdocu-latest-index-htm-latest-en-us-abenrap-feature-table-htm-------abenbdl-rap-bopf-htm-------------as-abap-release-758---copyright-2024-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---rap-business-objects--javascript-call-link---abenabap-rap-htm---------rap---behavior-definitions--javascript-call-link---abencds-bdef-htm---------rap---bdl-for-behavior-definitions--javascript-call-link---abenbdl-htm---------------mail-gif-object-mail-gif--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20BOPF-Based%20RAP%20Business%20Objects%2C%20ABENBDL_RAP_BOPF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 RAP - BOPF-Based RAP Business Objects
 
@@ -46235,7 +50028,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46286,7 +50086,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46348,7 +50155,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46380,7 +50194,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46431,7 +50252,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46493,7 +50321,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46525,7 +50360,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46576,7 +50418,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46638,7 +50487,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46670,7 +50526,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46721,7 +50584,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46783,7 +50653,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46815,7 +50692,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46866,7 +50750,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46928,7 +50819,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46960,7 +50858,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47011,7 +50916,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47073,7 +50985,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47105,7 +51024,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47156,7 +51082,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47218,7 +51151,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47250,7 +51190,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47301,7 +51248,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47363,7 +51317,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47395,7 +51356,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47446,7 +51414,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47508,7 +51483,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47540,7 +51522,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47591,7 +51580,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47653,7 +51649,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47685,7 +51688,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47736,7 +51746,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47798,7 +51815,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47830,7 +51854,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47881,7 +51912,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47943,7 +51981,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47975,7 +52020,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48026,7 +52078,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48088,7 +52147,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48120,7 +52186,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48171,7 +52244,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48233,7 +52313,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48265,7 +52352,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48316,7 +52410,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48378,7 +52479,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48410,7 +52518,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48461,7 +52576,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48523,7 +52645,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48555,7 +52684,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48606,7 +52742,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48668,7 +52811,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48700,7 +52850,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48751,7 +52908,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48813,7 +52977,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48845,7 +53016,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48896,7 +53074,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48958,7 +53143,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48990,7 +53182,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49041,7 +53240,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49103,7 +53309,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49135,7 +53348,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49186,7 +53406,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49248,7 +53475,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49280,7 +53514,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49331,7 +53572,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49393,7 +53641,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49425,7 +53680,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49476,7 +53738,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49538,7 +53807,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49570,7 +53846,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49621,7 +53904,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49683,7 +53973,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49715,7 +54012,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49766,7 +54070,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49828,7 +54139,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49860,7 +54178,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49911,7 +54236,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49973,7 +54305,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50005,7 +54344,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50056,7 +54402,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50118,7 +54471,14 @@ total etag lastChangedAt
 Included pages: 3
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50150,7 +54510,14 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50201,7 +54568,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50263,7 +54637,14 @@ total etag lastChangedAt
 Included pages: 11
 
 
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 ### abeneml_in_abp.htm
+
+> **📖 Official SAP Documentation**: [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_in_abp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50297,7 +54678,14 @@ Continue
 [SET ENTITIES](javascript:call_link\('abapset_entities.htm'\))
 
 
+
+**📖 Source**: [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_in_abp.htm)
+
 ### abapin_local_mode.htm
+
+> **📖 Official SAP Documentation**: [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapin_local_mode.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50343,7 +54731,14 @@ READ ENTITIES OF demo\_managed\_root\_3 IN LOCAL MODE
   FAILED DATA(failed).
 
 
+
+**📖 Source**: [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapin_local_mode.htm)
+
 ### abapmodify_aug_entity_entities.htm
+
+> **📖 Official SAP Documentation**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_aug_entity_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50436,7 +54831,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\))
 
 
+
+**📖 Source**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_aug_entity_entities.htm)
+
 ### abeneml_modify_augmenting_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_modify_augmenting_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50626,7 +55028,14 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 -   The output window shows the database entries of the root and child entities' tables.
 
 
+
+**📖 Source**: [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_modify_augmenting_abexa.htm)
+
 ### abapmodify_aug_entity_entities.htm
+
+> **📖 Official SAP Documentation**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_aug_entity_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50719,7 +55128,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\))
 
 
+
+**📖 Source**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_aug_entity_entities.htm)
+
 ### abapauthority-check_disable.htm
+
+> **📖 Official SAP Documentation**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapauthority-check_disable.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50768,7 +55184,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP EML - AUTHORITY-CHECK DISABLE](javascript:call_link\('abeneml_auth_check_disable_abexa.htm'\))
 
 
+
+**📖 Source**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapauthority-check_disable.htm)
+
 ### abeneml_auth_check_disable_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeneml_auth_check_disable_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_auth_check_disable_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50879,7 +55302,14 @@ Table entries:
 -   Note that putting the authorization context ac2 inside an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END statement is irrelevant because it is implicitly there due to the BDEF specification.
 
 
+
+**📖 Source**: [abeneml_auth_check_disable_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_auth_check_disable_abexa.htm)
+
 ### abapauthority-check_disable.htm
+
+> **📖 Official SAP Documentation**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapauthority-check_disable.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50928,7 +55358,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP EML - AUTHORITY-CHECK DISABLE](javascript:call_link\('abeneml_auth_check_disable_abexa.htm'\))
 
 
+
+**📖 Source**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapauthority-check_disable.htm)
+
 ### abapset_entities.htm
+
+> **📖 Official SAP Documentation**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51010,7 +55447,14 @@ Continue
 ![Example](exa.gif "Example") [SET ENTITIES](javascript:call_link\('abeneml_set_entities_abexa.htm'\))
 
 
+
+**📖 Source**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_entities.htm)
+
 ### abeneml_set_entities_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeneml_set_entities_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_set_entities_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51173,7 +55617,14 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 -   Depending on the selection, either the first or the second action is executed. Both actions include another modify operation to update instances. One action includes SET ENTITIES statements. If this action is executed, a short dump is produced. In the short dump message, you will also see value for the counter.
 
 
+
+**📖 Source**: [abeneml_set_entities_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_set_entities_abexa.htm)
+
 ### abapset_entities.htm
+
+> **📖 Official SAP Documentation**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51267,7 +55718,14 @@ Continue
 Included pages: 11
 
 
+
+**📖 Source**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_entities.htm)
+
 ### abeneml_in_abp.htm
+
+> **📖 Official SAP Documentation**: [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_in_abp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51301,7 +55759,14 @@ Continue
 [SET ENTITIES](javascript:call_link\('abapset_entities.htm'\))
 
 
+
+**📖 Source**: [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_in_abp.htm)
+
 ### abapin_local_mode.htm
+
+> **📖 Official SAP Documentation**: [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapin_local_mode.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51347,7 +55812,14 @@ READ ENTITIES OF demo\_managed\_root\_3 IN LOCAL MODE
   FAILED DATA(failed).
 
 
+
+**📖 Source**: [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapin_local_mode.htm)
+
 ### abapmodify_aug_entity_entities.htm
+
+> **📖 Official SAP Documentation**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_aug_entity_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51440,7 +55912,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\))
 
 
+
+**📖 Source**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_aug_entity_entities.htm)
+
 ### abeneml_modify_augmenting_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_modify_augmenting_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51630,7 +56109,14 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 -   The output window shows the database entries of the root and child entities' tables.
 
 
+
+**📖 Source**: [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_modify_augmenting_abexa.htm)
+
 ### abapmodify_aug_entity_entities.htm
+
+> **📖 Official SAP Documentation**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_aug_entity_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51723,7 +56209,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\))
 
 
+
+**📖 Source**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_aug_entity_entities.htm)
+
 ### abapauthority-check_disable.htm
+
+> **📖 Official SAP Documentation**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapauthority-check_disable.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51772,7 +56265,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP EML - AUTHORITY-CHECK DISABLE](javascript:call_link\('abeneml_auth_check_disable_abexa.htm'\))
 
 
+
+**📖 Source**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapauthority-check_disable.htm)
+
 ### abeneml_auth_check_disable_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeneml_auth_check_disable_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_auth_check_disable_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51883,7 +56383,14 @@ Table entries:
 -   Note that putting the authorization context ac2 inside an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END statement is irrelevant because it is implicitly there due to the BDEF specification.
 
 
+
+**📖 Source**: [abeneml_auth_check_disable_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_auth_check_disable_abexa.htm)
+
 ### abapauthority-check_disable.htm
+
+> **📖 Official SAP Documentation**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapauthority-check_disable.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51932,7 +56439,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP EML - AUTHORITY-CHECK DISABLE](javascript:call_link\('abeneml_auth_check_disable_abexa.htm'\))
 
 
+
+**📖 Source**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapauthority-check_disable.htm)
+
 ### abapset_entities.htm
+
+> **📖 Official SAP Documentation**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52014,7 +56528,14 @@ Continue
 ![Example](exa.gif "Example") [SET ENTITIES](javascript:call_link\('abeneml_set_entities_abexa.htm'\))
 
 
+
+**📖 Source**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_entities.htm)
+
 ### abeneml_set_entities_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeneml_set_entities_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_set_entities_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52177,7 +56698,14 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 -   Depending on the selection, either the first or the second action is executed. Both actions include another modify operation to update instances. One action includes SET ENTITIES statements. If this action is executed, a short dump is produced. In the short dump message, you will also see value for the counter.
 
 
+
+**📖 Source**: [abeneml_set_entities_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_set_entities_abexa.htm)
+
 ### abapset_entities.htm
+
+> **📖 Official SAP Documentation**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52271,7 +56799,14 @@ Continue
 Included pages: 2
 
 
+
+**📖 Source**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_entities.htm)
+
 ### abenrpm_testing.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52293,7 +56828,14 @@ Continue
 [CREATE OBJECT, FOR TESTING](javascript:call_link\('abapcreate_object_for_testing.htm'\))
 
 
+
+**📖 Source**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+
 ### abapcreate_object_for_testing.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52353,7 +56895,14 @@ Note: To show a failed unit test, you can set the value of data\_field4\_root pr
 Included pages: 2
 
 
+
+**📖 Source**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+
 ### abenrpm_testing.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52375,7 +56924,14 @@ Continue
 [CREATE OBJECT, FOR TESTING](javascript:call_link\('abapcreate_object_for_testing.htm'\))
 
 
+
+**📖 Source**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+
 ### abapcreate_object_for_testing.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52435,7 +56991,14 @@ Note: To show a failed unit test, you can set the value of data\_field4\_root pr
 Included pages: 2
 
 
+
+**📖 Source**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+
 ### abenrpm_testing.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52457,7 +57020,14 @@ Continue
 [CREATE OBJECT, FOR TESTING](javascript:call_link\('abapcreate_object_for_testing.htm'\))
 
 
+
+**📖 Source**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+
 ### abapcreate_object_for_testing.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52517,7 +57087,14 @@ Note: To show a failed unit test, you can set the value of data\_field4\_root pr
 Included pages: 2
 
 
+
+**📖 Source**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+
 ### abenrpm_testing.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52539,7 +57116,14 @@ Continue
 [CREATE OBJECT, FOR TESTING](javascript:call_link\('abapcreate_object_for_testing.htm'\))
 
 
+
+**📖 Source**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+
 ### abapcreate_object_for_testing.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52599,7 +57183,14 @@ Note: To show a failed unit test, you can set the value of data\_field4\_root pr
 Included pages: 2
 
 
+
+**📖 Source**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+
 ### abenrpm_testing.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52621,7 +57212,14 @@ Continue
 [CREATE OBJECT, FOR TESTING](javascript:call_link\('abapcreate_object_for_testing.htm'\))
 
 
+
+**📖 Source**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+
 ### abapcreate_object_for_testing.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52681,7 +57279,14 @@ Note: To show a failed unit test, you can set the value of data\_field4\_root pr
 Included pages: 2
 
 
+
+**📖 Source**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+
 ### abenrpm_testing.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52703,7 +57308,14 @@ Continue
 [CREATE OBJECT, FOR TESTING](javascript:call_link\('abapcreate_object_for_testing.htm'\))
 
 
+
+**📖 Source**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+
 ### abapcreate_object_for_testing.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52763,7 +57375,14 @@ Note: To show a failed unit test, you can set the value of data\_field4\_root pr
 Included pages: 2
 
 
+
+**📖 Source**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+
 ### abenrpm_testing.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52785,7 +57404,14 @@ Continue
 [CREATE OBJECT, FOR TESTING](javascript:call_link\('abapcreate_object_for_testing.htm'\))
 
 
+
+**📖 Source**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+
 ### abapcreate_object_for_testing.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52845,7 +57471,14 @@ Note: To show a failed unit test, you can set the value of data\_field4\_root pr
 Included pages: 2
 
 
+
+**📖 Source**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+
 ### abenrpm_testing.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52867,7 +57500,14 @@ Continue
 [CREATE OBJECT, FOR TESTING](javascript:call_link\('abapcreate_object_for_testing.htm'\))
 
 
+
+**📖 Source**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+
 ### abapcreate_object_for_testing.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52927,7 +57567,14 @@ Note: To show a failed unit test, you can set the value of data\_field4\_root pr
 Included pages: 2
 
 
+
+**📖 Source**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+
 ### abenrpm_testing.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52949,7 +57596,14 @@ Continue
 [CREATE OBJECT, FOR TESTING](javascript:call_link\('abapcreate_object_for_testing.htm'\))
 
 
+
+**📖 Source**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+
 ### abapcreate_object_for_testing.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53009,7 +57663,14 @@ Note: To show a failed unit test, you can set the value of data\_field4\_root pr
 Included pages: 2
 
 
+
+**📖 Source**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+
 ### abenrpm_testing.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53031,7 +57692,14 @@ Continue
 [CREATE OBJECT, FOR TESTING](javascript:call_link\('abapcreate_object_for_testing.htm'\))
 
 
+
+**📖 Source**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+
 ### abapcreate_object_for_testing.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53091,7 +57759,14 @@ Note: To show a failed unit test, you can set the value of data\_field4\_root pr
 Included pages: 2
 
 
+
+**📖 Source**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+
 ### abaptype_table_for.htm
+
+> **📖 Official SAP Documentation**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53518,7 +58193,14 @@ Continue
 ![Example](exa.gif "Example") [Using TYPE TABLE/TYPE STRUCTURE FOR HIERARCHY](javascript:call_link\('abenderived_type_hierarchy_abexa.htm'\))
 
 
+
+**📖 Source**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
+
 ### abenderived_type_hierarchy_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53852,7 +58534,14 @@ The following ABAP EML MODIFY requests executing actions are covered in the exam
 Included pages: 2
 
 
+
+**📖 Source**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
+
 ### abaptype_table_for.htm
+
+> **📖 Official SAP Documentation**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54279,7 +58968,14 @@ Continue
 ![Example](exa.gif "Example") [Using TYPE TABLE/TYPE STRUCTURE FOR HIERARCHY](javascript:call_link\('abenderived_type_hierarchy_abexa.htm'\))
 
 
+
+**📖 Source**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
+
 ### abenderived_type_hierarchy_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54613,7 +59309,14 @@ The following ABAP EML MODIFY requests executing actions are covered in the exam
 Included pages: 2
 
 
+
+**📖 Source**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
+
 ### abaptype_table_for.htm
+
+> **📖 Official SAP Documentation**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55040,7 +59743,14 @@ Continue
 ![Example](exa.gif "Example") [Using TYPE TABLE/TYPE STRUCTURE FOR HIERARCHY](javascript:call_link\('abenderived_type_hierarchy_abexa.htm'\))
 
 
+
+**📖 Source**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
+
 ### abenderived_type_hierarchy_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55374,7 +60084,14 @@ The following ABAP EML MODIFY requests executing actions are covered in the exam
 Included pages: 2
 
 
+
+**📖 Source**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
+
 ### abaptype_table_for.htm
+
+> **📖 Official SAP Documentation**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55801,7 +60518,14 @@ Continue
 ![Example](exa.gif "Example") [Using TYPE TABLE/TYPE STRUCTURE FOR HIERARCHY](javascript:call_link\('abenderived_type_hierarchy_abexa.htm'\))
 
 
+
+**📖 Source**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
+
 ### abenderived_type_hierarchy_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56135,7 +60859,14 @@ The following ABAP EML MODIFY requests executing actions are covered in the exam
 Included pages: 2
 
 
+
+**📖 Source**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
+
 ### abaptype_table_for.htm
+
+> **📖 Official SAP Documentation**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56562,7 +61293,14 @@ Continue
 ![Example](exa.gif "Example") [Using TYPE TABLE/TYPE STRUCTURE FOR HIERARCHY](javascript:call_link\('abenderived_type_hierarchy_abexa.htm'\))
 
 
+
+**📖 Source**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
+
 ### abenderived_type_hierarchy_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56896,7 +61634,14 @@ The following ABAP EML MODIFY requests executing actions are covered in the exam
 Included pages: 6
 
 
+
+**📖 Source**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
+
 ### abenrap_events.htm
+
+> **📖 Official SAP Documentation**: [abenrap_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_events.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56926,7 +61671,14 @@ Continue
 ![Example](exa.gif "Example") [Local Consumption of RAP Business Events](javascript:call_link\('abenrap_events_local_consume_abexa.htm'\))
 
 
+
+**📖 Source**: [abenrap_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_events.htm)
+
 ### abenclass_for_events.htm
+
+> **📖 Official SAP Documentation**: [abenclass_for_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_for_events.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56971,7 +61723,14 @@ Executable Example
 The example [Local Consumption of RAP Business Events](javascript:call_link\('abenrap_events_local_consume_abexa.htm'\)) demonstrates the use of a RAP event handler class.
 
 
+
+**📖 Source**: [abenclass_for_events.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_for_events.htm)
+
 ### abencl_abap_behavior_event_handler.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_behavior_event_handler.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_behavior_event_handler.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57009,7 +61768,14 @@ Executable Example
 The example [Local Consumption of RAP Business Events](javascript:call_link\('abenrap_events_local_consume_abexa.htm'\)) demonstrates the use of a RAP event handler class.
 
 
+
+**📖 Source**: [abencl_abap_behavior_event_handler.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_behavior_event_handler.htm)
+
 ### abenmethod_for_entity_event.htm
+
+> **📖 Official SAP Documentation**: [abenmethod_for_entity_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_for_entity_event.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57078,7 +61844,14 @@ Executable Example
 The example [Local Consumption of RAP Business Events](javascript:call_link\('abenrap_events_local_consume_abexa.htm'\)) demonstrates the use of RAP event handler methods.
 
 
+
+**📖 Source**: [abenmethod_for_entity_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_for_entity_event.htm)
+
 ### abapraise_entity_event.htm
+
+> **📖 Official SAP Documentation**: [abapraise_entity_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_entity_event.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57143,7 +61916,14 @@ Executable Example
 The example [Local Consumption of RAP Business Events](javascript:call_link\('abenrap_events_local_consume_abexa.htm'\)) demonstrates the use of RAISE ENTITY EVENT statements.
 
 
+
+**📖 Source**: [abapraise_entity_event.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_entity_event.htm)
+
 ### abenrap_events_local_consume_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_events_local_consume_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_events_local_consume_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57357,7 +62137,14 @@ In the output of the example, the content of an internal table is displayed that
 Included pages: 8
 
 
+
+**📖 Source**: [abenrap_events_local_consume_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_events_local_consume_abexa.htm)
+
 ### abaprap_system_classes.htm
+
+> **📖 Official SAP Documentation**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_system_classes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57382,7 +62169,14 @@ Continue
 [CL\_ABAP\_BEHVDESCR](javascript:call_link\('abapcl_abap_behvdescr.htm'\))
 
 
+
+**📖 Source**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_system_classes.htm)
+
 ### abaprap_cl_abap_behv_aux.htm
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57447,7 +62241,14 @@ Continue
 ![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
 
 
+
+**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+
 ### abenrap_cl_abap_behv_aux_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57686,7 +62487,14 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
     More instances are created on the root entity, however, with an ABAP EML MODIFY request via the RAP BO projection. Hence, the from\_projection parameter is filled after calling the get\_current\_context method.
 
 
+
+**📖 Source**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+
 ### abenrap_cl_abap_behv_aux_ph_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57889,7 +62697,14 @@ The example contains four RAP create operations using an ABAP EML MODIFY stateme
 -   The log table for the failed instances shows that the [RAP late save phase](javascript:call_link\('abenlate_rap_save_phase_glosry.htm'\) "Glossary Entry") is not reached, only the [RAP interaction phase](javascript:call_link\('abenrap_int_phase_glosry.htm'\) "Glossary Entry") and the [RAP early save phase](javascript:call_link\('abenearly_rap_save_phase_glosry.htm'\) "Glossary Entry"). The RAP transaction is concluded with the [RAP cleanup phase](javascript:call_link\('abenrap_cleanup_phase_glosry.htm'\) "Glossary Entry") demonstrated by the successful RAP create operations.
 
 
+
+**📖 Source**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+
 ### abaprap_cl_abap_behv_aux.htm
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57954,7 +62769,14 @@ Continue
 ![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
 
 
+
+**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+
 ### abapcl_abap_behvdescr.htm
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57992,7 +62814,14 @@ Continue
 ![Example](exa.gif "Example") [Getting BDEF Derived Type Information Using CL\_ABAP\_BEHVDESCR](javascript:call_link\('abenrap_type_info_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+
 ### abenrap_type_info_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_type_info_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58227,7 +63056,14 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 The class demonstrates various methods of the CL\_ABAP\_BEHVDESCR class, for example, for getting [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") information or creating types.
 
 
+
+**📖 Source**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_type_info_abexa.htm)
+
 ### abapcl_abap_behvdescr.htm
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58277,7 +63113,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+
 ### abaprap_system_classes.htm
+
+> **📖 Official SAP Documentation**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_system_classes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58302,7 +63145,14 @@ Continue
 [CL\_ABAP\_BEHVDESCR](javascript:call_link\('abapcl_abap_behvdescr.htm'\))
 
 
+
+**📖 Source**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_system_classes.htm)
+
 ### abaprap_cl_abap_behv_aux.htm
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58367,7 +63217,14 @@ Continue
 ![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
 
 
+
+**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+
 ### abenrap_cl_abap_behv_aux_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58606,7 +63463,14 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
     More instances are created on the root entity, however, with an ABAP EML MODIFY request via the RAP BO projection. Hence, the from\_projection parameter is filled after calling the get\_current\_context method.
 
 
+
+**📖 Source**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+
 ### abenrap_cl_abap_behv_aux_ph_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58809,7 +63673,14 @@ The example contains four RAP create operations using an ABAP EML MODIFY stateme
 -   The log table for the failed instances shows that the [RAP late save phase](javascript:call_link\('abenlate_rap_save_phase_glosry.htm'\) "Glossary Entry") is not reached, only the [RAP interaction phase](javascript:call_link\('abenrap_int_phase_glosry.htm'\) "Glossary Entry") and the [RAP early save phase](javascript:call_link\('abenearly_rap_save_phase_glosry.htm'\) "Glossary Entry"). The RAP transaction is concluded with the [RAP cleanup phase](javascript:call_link\('abenrap_cleanup_phase_glosry.htm'\) "Glossary Entry") demonstrated by the successful RAP create operations.
 
 
+
+**📖 Source**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+
 ### abaprap_cl_abap_behv_aux.htm
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58874,7 +63745,14 @@ Continue
 ![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
 
 
+
+**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+
 ### abapcl_abap_behvdescr.htm
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58912,7 +63790,14 @@ Continue
 ![Example](exa.gif "Example") [Getting BDEF Derived Type Information Using CL\_ABAP\_BEHVDESCR](javascript:call_link\('abenrap_type_info_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+
 ### abenrap_type_info_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_type_info_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59147,7 +64032,14 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 The class demonstrates various methods of the CL\_ABAP\_BEHVDESCR class, for example, for getting [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") information or creating types.
 
 
+
+**📖 Source**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_type_info_abexa.htm)
+
 ### abapcl_abap_behvdescr.htm
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59197,7 +64089,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+
 ### abaprap_system_classes.htm
+
+> **📖 Official SAP Documentation**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_system_classes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59222,7 +64121,14 @@ Continue
 [CL\_ABAP\_BEHVDESCR](javascript:call_link\('abapcl_abap_behvdescr.htm'\))
 
 
+
+**📖 Source**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_system_classes.htm)
+
 ### abaprap_cl_abap_behv_aux.htm
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59287,7 +64193,14 @@ Continue
 ![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
 
 
+
+**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+
 ### abenrap_cl_abap_behv_aux_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59526,7 +64439,14 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
     More instances are created on the root entity, however, with an ABAP EML MODIFY request via the RAP BO projection. Hence, the from\_projection parameter is filled after calling the get\_current\_context method.
 
 
+
+**📖 Source**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+
 ### abenrap_cl_abap_behv_aux_ph_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59729,7 +64649,14 @@ The example contains four RAP create operations using an ABAP EML MODIFY stateme
 -   The log table for the failed instances shows that the [RAP late save phase](javascript:call_link\('abenlate_rap_save_phase_glosry.htm'\) "Glossary Entry") is not reached, only the [RAP interaction phase](javascript:call_link\('abenrap_int_phase_glosry.htm'\) "Glossary Entry") and the [RAP early save phase](javascript:call_link\('abenearly_rap_save_phase_glosry.htm'\) "Glossary Entry"). The RAP transaction is concluded with the [RAP cleanup phase](javascript:call_link\('abenrap_cleanup_phase_glosry.htm'\) "Glossary Entry") demonstrated by the successful RAP create operations.
 
 
+
+**📖 Source**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+
 ### abaprap_cl_abap_behv_aux.htm
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59794,7 +64721,14 @@ Continue
 ![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
 
 
+
+**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+
 ### abapcl_abap_behvdescr.htm
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59832,7 +64766,14 @@ Continue
 ![Example](exa.gif "Example") [Getting BDEF Derived Type Information Using CL\_ABAP\_BEHVDESCR](javascript:call_link\('abenrap_type_info_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+
 ### abenrap_type_info_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_type_info_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60067,7 +65008,14 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 The class demonstrates various methods of the CL\_ABAP\_BEHVDESCR class, for example, for getting [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") information or creating types.
 
 
+
+**📖 Source**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_type_info_abexa.htm)
+
 ### abapcl_abap_behvdescr.htm
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60117,7 +65065,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+
 ### abaprap_system_classes.htm
+
+> **📖 Official SAP Documentation**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_system_classes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60142,7 +65097,14 @@ Continue
 [CL\_ABAP\_BEHVDESCR](javascript:call_link\('abapcl_abap_behvdescr.htm'\))
 
 
+
+**📖 Source**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_system_classes.htm)
+
 ### abaprap_cl_abap_behv_aux.htm
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60207,7 +65169,14 @@ Continue
 ![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
 
 
+
+**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+
 ### abenrap_cl_abap_behv_aux_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60446,7 +65415,14 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
     More instances are created on the root entity, however, with an ABAP EML MODIFY request via the RAP BO projection. Hence, the from\_projection parameter is filled after calling the get\_current\_context method.
 
 
+
+**📖 Source**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+
 ### abenrap_cl_abap_behv_aux_ph_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60649,7 +65625,14 @@ The example contains four RAP create operations using an ABAP EML MODIFY stateme
 -   The log table for the failed instances shows that the [RAP late save phase](javascript:call_link\('abenlate_rap_save_phase_glosry.htm'\) "Glossary Entry") is not reached, only the [RAP interaction phase](javascript:call_link\('abenrap_int_phase_glosry.htm'\) "Glossary Entry") and the [RAP early save phase](javascript:call_link\('abenearly_rap_save_phase_glosry.htm'\) "Glossary Entry"). The RAP transaction is concluded with the [RAP cleanup phase](javascript:call_link\('abenrap_cleanup_phase_glosry.htm'\) "Glossary Entry") demonstrated by the successful RAP create operations.
 
 
+
+**📖 Source**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+
 ### abaprap_cl_abap_behv_aux.htm
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60714,7 +65697,14 @@ Continue
 ![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
 
 
+
+**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm)
+
 ### abapcl_abap_behvdescr.htm
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60752,7 +65742,14 @@ Continue
 ![Example](exa.gif "Example") [Getting BDEF Derived Type Information Using CL\_ABAP\_BEHVDESCR](javascript:call_link\('abenrap_type_info_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+
 ### abenrap_type_info_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_type_info_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60987,7 +65984,14 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 The class demonstrates various methods of the CL\_ABAP\_BEHVDESCR class, for example, for getting [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") information or creating types.
 
 
+
+**📖 Source**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_type_info_abexa.htm)
+
 ### abapcl_abap_behvdescr.htm
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61037,7 +66041,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcl_abap_behvdescr.htm)
+
 ### abenobj_oriented_gdl.htm
+
+> **📖 Official SAP Documentation**: [abenobj_oriented_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobj_oriented_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61078,7 +66089,14 @@ Continue
 [Instance Constructor](javascript:call_link\('abeninstance_constructor_guidl.htm'\))
 
 
+
+**📖 Source**: [abenobj_oriented_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobj_oriented_gdl.htm)
+
 ### abenencapsulation_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenencapsulation_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenencapsulation_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61118,7 +66136,14 @@ This simple rule provides practical access to object-oriented programming that p
 Conversely, within an encapsulated unit, that is, within a class, you should avoid accessing more global data directly. Within methods, you should generally modify attributes of the class only. Performing writes to global data outside the class is not recommended. Accessing data in this way should only be done using specially marked methods, if at all. The use of methods of a class should not evoke any side effects outside the class itself.
 
 
+
+**📖 Source**: [abenencapsulation_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenencapsulation_guidl.htm)
+
 ### abenmodularization_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenmodularization_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmodularization_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61234,7 +66259,14 @@ There is a corresponding built-in function for almost every string processing st
 string = shift\_left( val = string places = ... ).
 
 
+
+**📖 Source**: [abenmodularization_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmodularization_guidl.htm)
+
 ### abenstatic_class_singleton_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenstatic_class_singleton_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_class_singleton_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61342,7 +66374,14 @@ In the above example, the get\_instance method is used to return the object refe
 In special cases, where object creation is performed without parameters and is always successful, you can omit the get\_instance method and publish the object reference using a READ-ONLY attribute. In this case, the object is created within the static constructor. Therefore, this approach is still afflicted with some of the problems of static classes described in other sections.
 
 
+
+**📖 Source**: [abenstatic_class_singleton_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_class_singleton_guidl.htm)
+
 ### abeninheritance_guidl.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61381,7 +66420,14 @@ Note
 If your main aim is to exploit the possibilities of polymorphism, interfaces are often a preferable solution to inheritance. If all you want to do is use interfaces, method interfaces should be used instead of abstract classes. These can be used to create composite interfaces. In ABAP, on the other hand, a composite interface is impossible due to the nature of simple inheritance using classes.
 
 
+
+**📖 Source**: [abeninheritance_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_guidl.htm)
+
 ### abenclass_ref_interf_ref_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenclass_ref_interf_ref_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_ref_interf_ref_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61441,7 +66487,14 @@ ENDCLASS.
      ...
 
 
+
+**📖 Source**: [abenclass_ref_interf_ref_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_ref_interf_ref_guidl.htm)
+
 ### abenlocal_type_glob_class_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenlocal_type_glob_class_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlocal_type_glob_class_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61502,7 +66555,14 @@ Hint
 [Test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") should only be created in [test includes](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenlocal_type_glob_class_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlocal_type_glob_class_guidl.htm)
+
 ### abeninstance_constructor_guidl.htm
+
+> **📖 Official SAP Documentation**: [abeninstance_constructor_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninstance_constructor_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61549,7 +66609,14 @@ The technical restrictions mentioned only apply to the processing of global clas
 Included pages: 5
 
 
+
+**📖 Source**: [abeninstance_constructor_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninstance_constructor_guidl.htm)
+
 ### abenuser_interfaces_gdl.htm
+
+> **📖 Official SAP Documentation**: [abenuser_interfaces_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuser_interfaces_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61577,7 +66644,14 @@ Continue
 [Accessibility](javascript:call_link\('abenaccessibility_guidl.htm'\))
 
 
+
+**📖 Source**: [abenuser_interfaces_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuser_interfaces_gdl.htm)
+
 ### abeninterface_tech_guidl.htm
+
+> **📖 Official SAP Documentation**: [abeninterface_tech_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_tech_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61659,7 +66733,14 @@ The transaction DEMO\_CR\_CAR\_RENTAL is called. Now two user interfaces can be 
 Since the example application strictly separates all concerns, you can use it with different UIs without having to make adjustments to the application and persistence logic. The SoC is therefore a critical prerequisite for potential changeovers from classic dynpros to Web Dynpro ABAP.
 
 
+
+**📖 Source**: [abeninterface_tech_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_tech_guidl.htm)
+
 ### abenencap_class_interf_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenencap_class_interf_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenencap_class_interf_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61791,7 +66872,14 @@ ENDMODULE.
 Dynpro 100 is called in a function module but can also be linked to a transaction code. In the classic PBO and PAI modules, methods of local classes are called. However the implementation of these methods is not shown here. There is a class for general screen handling and a class for each table control. The application layer is accessed using the specified interface for implementations of the class.
 
 
+
+**📖 Source**: [abenencap_class_interf_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenencap_class_interf_guidl.htm)
+
 ### abenlist_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenlist_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61852,7 +66940,14 @@ Good Example
 Executing the program DEMO\_ALV\_REPORTING produces ALV lists with the same content and the same functions as the classic lists in the previous example. ALV lists replace classic lists in those cases in which classic dynpros are still used.
 
 
+
+**📖 Source**: [abenlist_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_guidl.htm)
+
 ### abenaccessibility_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenaccessibility_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaccessibility_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61905,7 +67000,14 @@ As regards using the browser control in classic dynpros, we refer here to the cl
 Included pages: 5
 
 
+
+**📖 Source**: [abenaccessibility_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaccessibility_guidl.htm)
+
 ### abenc0_contract_rules_bdef.htm
+
+> **📖 Official SAP Documentation**: [abenc0_contract_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_contract_rules_bdef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61938,7 +67040,14 @@ Continue
 [Example: C0 Released Projection BDEF, Design and Consumption](javascript:call_link\('abenc0_demo_service_proj.htm'\))
 
 
+
+**📖 Source**: [abenc0_contract_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_contract_rules_bdef.htm)
+
 ### abenc0_provider_rules_bdef.htm
+
+> **📖 Official SAP Documentation**: [abenc0_provider_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_provider_rules_bdef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -62057,7 +67166,14 @@ Example Topics  
 [Example for a C0 released projection BDEF which is extended from ABAP for Cloud Development](javascript:call_link\('abenc0_demo_service_proj.htm'\)).
 
 
+
+**📖 Source**: [abenc0_provider_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_provider_rules_bdef.htm)
+
 ### abenc0_consumer_rules_bdef.htm
+
+> **📖 Official SAP Documentation**: [abenc0_consumer_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_consumer_rules_bdef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -62114,7 +67230,14 @@ Example Topics  
 [Example for a C0 released projection BDEF which is extended from the language version ABAP for Cloud Development](javascript:call_link\('abenc0_demo_service_proj.htm'\)).
 
 
+
+**📖 Source**: [abenc0_consumer_rules_bdef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_consumer_rules_bdef.htm)
+
 ### abenc0_demo_rap_bo.htm
+
+> **📖 Official SAP Documentation**: [abenc0_demo_rap_bo.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_rap_bo.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -62170,7 +67293,17 @@ extend behavior for RootInterface
 }
 
 
+
+**📖 Source**: [abenc0_demo_rap_bo.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_rap_bo.htm)
+
 ### abenc0_demo_service_proj.htm
+
+> **📖 Official SAP Documentation**: [abenc0_demo_service_proj.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_service_proj.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenc0_demo_service_proj.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_demo_service_proj.htm)
+
 
   
 

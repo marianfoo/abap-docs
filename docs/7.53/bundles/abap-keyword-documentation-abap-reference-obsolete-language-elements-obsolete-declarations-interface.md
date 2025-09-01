@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abeninterface_areas_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_areas_obsolete.htm)
+- [abapdata_common.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_common.htm)
+- [abaptables_asterisk.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptables_asterisk.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.193Z
+
+---
+
 ### abeninterface_areas_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abeninterface_areas_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_areas_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28,7 +48,14 @@ Continue
 [TABLES \*](javascript:call_link\('abaptables_asterisk.htm'\))
 
 
+
+**📖 Source**: [abeninterface_areas_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_areas_obsolete.htm)
+
 ### abapdata_common.htm
+
+> **📖 Official SAP Documentation**: [abapdata_common.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_common.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -103,7 +130,17 @@ FORM display.
 ENDFORM.
 
 
+
+**📖 Source**: [abapdata_common.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_common.htm)
+
 ### abaptables_asterisk.htm
+
+> **📖 Official SAP Documentation**: [abaptables_asterisk.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptables_asterisk.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abaptables_asterisk.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptables_asterisk.htm)
+
 
   
 

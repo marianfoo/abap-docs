@@ -3,7 +3,33 @@
 Included pages: 10
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenoperands_names.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperands_names.htm)
+- [abenstructure_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_component_selector.htm)
+- [abenobject_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_component_selector.htm)
+- [abenclass_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_component_selector.htm)
+- [abeninterface_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_component_selector.htm)
+- [abendereferencing_operator.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendereferencing_operator.htm)
+- [abencomponent_chaining_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomponent_chaining_selector.htm)
+- [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_length.htm)
+- [abendata_process_fields_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_process_fields_abexa.htm)
+
+**Bundle Contains**: 9 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.926Z
+
+---
+
 ### abenoperands_names.htm
+
+> **📖 Official SAP Documentation**: [abenoperands_names.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperands_names.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54,7 +80,14 @@ Continue
 [Offset/Length Specifications for Substring Access](javascript:call_link\('abenoffset_length.htm'\))
 
 
+
+**📖 Source**: [abenoperands_names.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperands_names.htm)
+
 ### abenstructure_component_selector.htm
+
+> **📖 Official SAP Documentation**: [abenstructure_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_component_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -89,7 +122,14 @@ DATA struc TYPE spfli.
 ... struc-carrid ...
 
 
+
+**📖 Source**: [abenstructure_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_component_selector.htm)
+
 ### abenobject_component_selector.htm
+
+> **📖 Official SAP Documentation**: [abenobject_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_component_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -208,7 +248,14 @@ ASSERT exc = 'X'.
 "target = dref->carrid.
 
 
+
+**📖 Source**: [abenobject_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_component_selector.htm)
+
 ### abenclass_component_selector.htm
+
+> **📖 Official SAP Documentation**: [abenclass_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_component_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -269,7 +316,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abenclass_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_component_selector.htm)
+
 ### abeninterface_component_selector.htm
+
+> **📖 Official SAP Documentation**: [abeninterface_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_component_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -334,7 +388,14 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abeninterface_component_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_component_selector.htm)
+
 ### abendereferencing_operator.htm
+
+> **📖 Official SAP Documentation**: [abendereferencing_operator.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendereferencing_operator.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -380,7 +441,14 @@ cl\_demo\_output=>write( |sy-subrc { sy-subrc }| ).
 cl\_demo\_output=>display( ).
 
 
+
+**📖 Source**: [abendereferencing_operator.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendereferencing_operator.htm)
+
 ### abencomponent_chaining_selector.htm
+
+> **📖 Official SAP Documentation**: [abencomponent_chaining_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomponent_chaining_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -447,7 +515,14 @@ ENDCLASS.
 ... c2=>oref->i1~struc3-dref->struc2-comp ...
 
 
+
+**📖 Source**: [abencomponent_chaining_selector.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomponent_chaining_selector.htm)
+
 ### abenoffset_length.htm
+
+> **📖 Official SAP Documentation**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_length.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -608,7 +683,14 @@ Continue
 ![Example](exa.gif "Example") [Offset/Length Specifications](javascript:call_link\('abendata_process_fields_abexa.htm'\))
 
 
+
+**📖 Source**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_length.htm)
+
 ### abendata_process_fields_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendata_process_fields_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_process_fields_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -693,7 +775,17 @@ In the third part, assignments are used. First, the content of f1 is assigned to
 In the fourth part, string templates are used. The first six places of the field number are written left-aligned, centered, and right-aligned to the last 12 places of the text field
 
 
+
+**📖 Source**: [abendata_process_fields_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_process_fields_abexa.htm)
+
 ### abenoffset_length.htm
+
+> **📖 Official SAP Documentation**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_length.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_length.htm)
+
 
   
 

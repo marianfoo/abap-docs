@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenassign_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassign_obsolete.htm)
+- [abapassign_local_copy.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_local_copy.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.252Z
+
+---
+
 ### abenassign_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenassign_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassign_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24,7 +43,17 @@ Continue
 [ASSIGN LOCAL COPY](javascript:call_link\('abapassign_local_copy.htm'\))
 
 
+
+**📖 Source**: [abenassign_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassign_obsolete.htm)
+
 ### abapassign_local_copy.htm
+
+> **📖 Official SAP Documentation**: [abapassign_local_copy.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_local_copy.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapassign_local_copy.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_local_copy.htm)
+
 
   
 

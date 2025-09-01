@@ -3,7 +3,39 @@
 Included pages: 15
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-40.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm)
+- [abennews-40-sysexc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-sysexc.htm)
+- [abennews-40-bitops.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-bitops.htm)
+- [abennews-40-dictionary-types.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-dictionary-types.htm)
+- [abennews-40-performance.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-performance.htm)
+- [abennews-40-assign.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-assign.htm)
+- [abennews-40-keytab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-keytab.htm)
+- [abennews-40-itab-more.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-itab-more.htm)
+- [abennews-40-se30.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-se30.htm)
+- [abennews-40-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-abap_sql.htm)
+- [abennews-40-rfc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-rfc.htm)
+- [abennews-40-selscreen.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-selscreen.htm)
+- [abennews-40-ldb.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-ldb.htm)
+- [abennews-40-timestamp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-timestamp.htm)
+- [abennews-40-other-40ab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-other-40ab.htm)
+
+**Bundle Contains**: 15 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.509Z
+
+---
+
 ### abennews-40.htm
+
+> **📖 Official SAP Documentation**: [abennews-40.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54,7 +86,14 @@ Continue
 [Further Changes in Release 4.0](javascript:call_link\('abennews-40-other-40ab.htm'\))
 
 
+
+**📖 Source**: [abennews-40.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm)
+
 ### abennews-40-sysexc.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-sysexc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-sysexc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -72,7 +111,14 @@ Previously, the occurrence of a runtime error always terminated the ABAP program
 [CATCH SYSTEM-EXCEPTIONS ... ENDCATCH](javascript:call_link\('abapcatch_sys.htm'\)) can now be used to wrap these critical program spots. After ENDCATCH, it is then possible to query whether the program block was ended correctly or whether a runtime error occurred that was caught.
 
 
+
+**📖 Source**: [abennews-40-sysexc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-sysexc.htm)
+
 ### abennews-40-bitops.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-bitops.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-bitops.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -101,7 +147,14 @@ In the case of the [comparison operators](javascript:call_link\('abenlogexp_bitm
 Before Release 3.0, comparisons took place in length 1 and the second field was considered to be a X field, regardless of its type and length.
 
 
+
+**📖 Source**: [abennews-40-bitops.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-bitops.htm)
+
 ### abennews-40-dictionary-types.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-dictionary-types.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-dictionary-types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -146,7 +199,14 @@ Outlook
 SAP plans to enable the central definition of constants in ABAP Dictionary. This is currently only possible in type pools. Also, a comprehensive bundling concept will make the encapsulation done in type pools available throughout the system.
 
 
+
+**📖 Source**: [abennews-40-dictionary-types.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-dictionary-types.htm)
+
 ### abennews-40-performance.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-performance.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-performance.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -195,7 +255,14 @@ The main memory cannot sort large datasets all at once. Until now large datasets
 Extracts stored in the file system are always resorted physically. Internal tables are sorted physically if they are longer than 2^19 lines or greater than 12 MB. Physical sorting reduces the costs of any follow-on sequential processing.
 
 
+
+**📖 Source**: [abennews-40-performance.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-performance.htm)
+
 ### abennews-40-assign.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-assign.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-assign.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -248,7 +315,14 @@ If the field symbol <fs> was not yet assigned (using [ASSIGN](javascript:call_li
 [AT END OF <fs>.](javascript:call_link\('abapat_extract.htm'\))
 
 
+
+**📖 Source**: [abennews-40-assign.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-assign.htm)
+
 ### abennews-40-keytab.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-keytab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-keytab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -322,7 +396,14 @@ The new table types can be used both in the new table operations listed above an
 -   [SORT](javascript:call_link\('abapsort_itab.htm'\))
 
 
+
+**📖 Source**: [abennews-40-keytab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-keytab.htm)
+
 ### abennews-40-itab-more.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-itab-more.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-itab-more.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -361,7 +442,14 @@ For tables without structured line types, tables of type I for example, a WHERE 
 The same applies to the WHERE variants of the statements [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)).
 
 
+
+**📖 Source**: [abennews-40-itab-more.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-itab-more.htm)
+
 ### abennews-40-se30.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-se30.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-se30.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -465,7 +553,14 @@ Interface Changes
 -   Utilities → Display Table
 
 
+
+**📖 Source**: [abennews-40-se30.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-se30.htm)
+
 ### abennews-40-abap_sql.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-abap_sql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -490,7 +585,14 @@ HAVING Clause
 The new [HAVING clause](javascript:call_link\('abaphaving_clause.htm'\)) makes it possible to define further conditions for a set of results of a SELECT statement created using [aggregation](javascript:call_link\('abapselect_aggregate.htm'\)) and [grouping](javascript:call_link\('abapgroupby_clause.htm'\)).
 
 
+
+**📖 Source**: [abennews-40-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-abap_sql.htm)
+
 ### abennews-40-rfc.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-rfc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-rfc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -549,7 +651,14 @@ Authorization check
 If RFC communication takes place within a single system and in the same user context (with the same client and user name), no RFC authorization check based on function pools (using the [authorization object](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") S\_RFC) is performed. More information about this topic can be found in [RFC Authorizations](javascript:call_link\('abenrfc_authority.htm'\)).
 
 
+
+**📖 Source**: [abennews-40-rfc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-rfc.htm)
+
 ### abennews-40-selscreen.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-selscreen.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-selscreen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -612,7 +721,14 @@ Function modules RS\_SELECTIONSCREEN\_READ and RS\_SELECTIONSCREEN\_UPDATE.
 In the same way as the function modules DYNP\_VALUES\_READ and DYNP\_VALUES\_UPDATE for regular [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), both function modules allow access to user entries on selection screens or values to be modified on selection screens with their own F4. These function modules were created with the multiple selection screen in mind, since the field names used there are unknown to the application program.
 
 
+
+**📖 Source**: [abennews-40-selscreen.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-selscreen.htm)
+
 ### abennews-40-ldb.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-ldb.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-ldb.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -645,7 +761,14 @@ The restriction that logical databases can only be used with [SUBMIT](javascript
 See documentation on the function module LDB\_PROCESS.
 
 
+
+**📖 Source**: [abennews-40-ldb.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-ldb.htm)
+
 ### abennews-40-timestamp.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-timestamp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-timestamp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -674,7 +797,17 @@ See also:
 [Time Stamps in Packed Numbers](javascript:call_link\('abentime_stamps_packed.htm'\))
 
 
+
+**📖 Source**: [abennews-40-timestamp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-timestamp.htm)
+
 ### abennews-40-other-40ab.htm
+
+> **📖 Official SAP Documentation**: [abennews-40-other-40ab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-other-40ab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-40-other-40ab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-other-40ab.htm)
+
 
   
 

@@ -3,7 +3,27 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_system_entities.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_entities.htm)
+- [abencds_system_table_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm)
+- [abencds_series_generators.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_series_generators.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.200Z
+
+---
+
 ### abencds_system_entities.htm
+
+> **📖 Official SAP Documentation**: [abencds_system_entities.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26,7 +46,14 @@ Continue
 [ABAP CDS - System Table Functions](javascript:call_link\('abencds_system_table_functions.htm'\))
 
 
+
+**📖 Source**: [abencds_system_entities.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_entities.htm)
+
 ### abencds_system_table_functions.htm
+
+> **📖 Official SAP Documentation**: [abencds_system_table_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49,7 +76,14 @@ Continue
 [SERIES\_GENERATE\_, Series Generators](javascript:call_link\('abencds_series_generators.htm'\))
 
 
+
+**📖 Source**: [abencds_system_table_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm)
+
 ### abencds_series_generators.htm
+
+> **📖 Official SAP Documentation**: [abencds_series_generators.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_series_generators.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -241,7 +275,17 @@ CX\_SY\_OPEN\_SQL\_DB
     Runtime error: DBSQL\_SQL\_ERROR
 
 
+
+**📖 Source**: [abencds_series_generators.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_series_generators.htm)
+
 ### abencds_system_table_functions.htm
+
+> **📖 Official SAP Documentation**: [abencds_system_table_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_system_table_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_system_table_functions.htm)
+
 
   
 

@@ -3,7 +3,31 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapimport_data_cluster.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_data_cluster.htm)
+- [abapimport_parameterlist.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_parameterlist.htm)
+- [abapimport_medium.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_medium.htm)
+- [abapimport_conversion.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_conversion.htm)
+- [abenimport_text_language.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenimport_text_language.htm)
+- [abapimport_internal.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_internal.htm)
+- [abenrabax_import_from_database.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrabax_import_from_database.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.487Z
+
+---
+
 ### abapimport_data_cluster.htm
+
+> **📖 Official SAP Documentation**: [abapimport_data_cluster.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_data_cluster.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -71,7 +95,14 @@ Continue
 [Exceptions in IMPORT](javascript:call_link\('abenrabax_import_from_database.htm'\))
 
 
+
+**📖 Source**: [abapimport_data_cluster.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_data_cluster.htm)
+
 ### abapimport_parameterlist.htm
+
+> **📖 Official SAP Documentation**: [abapimport_parameterlist.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_parameterlist.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -204,7 +235,14 @@ IMPORT (ptab)
 cl\_demo\_output=>display( |{ num1 }, { num2 }, { num3 }| ).
 
 
+
+**📖 Source**: [abapimport_parameterlist.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_parameterlist.htm)
+
 ### abapimport_medium.htm
+
+> **📖 Official SAP Documentation**: [abapimport_medium.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_medium.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -351,7 +389,14 @@ cl\_demo\_output=>new(
 )->display( itab ).
 
 
+
+**📖 Source**: [abapimport_medium.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_medium.htm)
+
 ### abapimport_conversion.htm
+
+> **📖 Official SAP Documentation**: [abapimport_conversion.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_conversion.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -711,7 +756,14 @@ IMPORT para = f2 FROM DATABASE demo\_indx\_blob(hk) ID 'HK'
                  ENDIAN INTO en.
 
 
+
+**📖 Source**: [abapimport_conversion.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_conversion.htm)
+
 ### abenimport_text_language.htm
+
+> **📖 Official SAP Documentation**: [abenimport_text_language.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenimport_text_language.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -751,7 +803,14 @@ Hint
 Structures and internal tables with a structured line type that is based on types defined in the ABAP program do not have a text language. The character set ID stored during export is always used for these.
 
 
+
+**📖 Source**: [abenimport_text_language.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenimport_text_language.htm)
+
 ### abapimport_internal.htm
+
+> **📖 Official SAP Documentation**: [abapimport_internal.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -819,7 +878,17 @@ FORM demo\_indx\_table\_import USING foo.
 ENDFORM.
 
 
+
+**📖 Source**: [abapimport_internal.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_internal.htm)
+
 ### abenrabax_import_from_database.htm
+
+> **📖 Official SAP Documentation**: [abenrabax_import_from_database.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrabax_import_from_database.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenrabax_import_from_database.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrabax_import_from_database.htm)
+
 
   
 

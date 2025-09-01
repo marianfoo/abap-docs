@@ -3,7 +3,33 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenstreaming.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstreaming.htm)
+- [abenstreaming_classes_interfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstreaming_classes_interfaces.htm)
+- [abendata_objects_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_streams.htm)
+- [abenstring_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_streams.htm)
+- [abenitab_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_streams.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.992Z
+
+---
+
 ### abenstreaming.htm
+
+> **📖 Official SAP Documentation**: [abenstreaming.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstreaming.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenstreaming.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstreaming.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47,7 +73,18 @@ Continue
 [Streaming for Data Objects](javascript:call_link\('abendata_objects_streams.htm'\))
 
 
+
+**📖 Source**: [abenstreaming.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstreaming.htm)
+
 ### abenstreaming_classes_interfaces.htm
+
+> **📖 Official SAP Documentation**: [abenstreaming_classes_interfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstreaming_classes_interfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenstreaming_classes_interfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstreaming_classes_interfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -119,7 +156,18 @@ Methods from the IF\_ABAP\_CLOSE\_RESOURCE interface:
 -   IS\_CLOSED returns X if the stream is closed.
 
 
+
+**📖 Source**: [abenstreaming_classes_interfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstreaming_classes_interfaces.htm)
+
 ### abendata_objects_streams.htm
+
+> **📖 Official SAP Documentation**: [abendata_objects_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_streams.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendata_objects_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_streams.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -154,7 +202,18 @@ Continue
 [Streaming for Internal Tables](javascript:call_link\('abenitab_streams.htm'\))
 
 
+
+**📖 Source**: [abendata_objects_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_streams.htm)
+
 ### abenstring_streams.htm
+
+> **📖 Official SAP Documentation**: [abenstring_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_streams.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenstring_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_streams.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -196,7 +255,18 @@ string\_reader->close( ).
 cl\_demo\_output=>display( ).
 
 
+
+**📖 Source**: [abenstring_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_streams.htm)
+
 ### abenitab_streams.htm
+
+> **📖 Official SAP Documentation**: [abenitab_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_streams.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenitab_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_streams.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -233,7 +303,21 @@ itab\_reader->close( ).
 cl\_demo\_output=>display( ).
 
 
+
+**📖 Source**: [abenitab_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_streams.htm)
+
 ### abendata_objects_streams.htm
+
+> **📖 Official SAP Documentation**: [abendata_objects_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_streams.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendata_objects_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_streams.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abendata_objects_streams.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_streams.htm)
+
 
   
 

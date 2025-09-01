@@ -10,9 +10,7 @@ CDS DDL - DDIC-based View, cds\_cond, Comparable Types
 
 The following tables show which [built-in data types](javascript:call_link\('abenddic_builtin_types.htm'\)) in ABAP Dictionary can be compared with each other in a [condition](javascript:call_link\('abencds_conditional_expression_v1.htm'\)) of a [CDS DDIC-based view](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry").
 
--   [Comparisons with Fields of Data Sources](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V1_1)
-
--   [Comparisons with Parameters](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V1_2)
+-   [Comparisons with Fields of Data Sources](#abencds-cond-expr-types-v1-1--------comparisons-with-parameters---@ITOC@@ABENCDS_COND_EXPR_TYPES_V1_2)
 
 -   [Comparisons with literals](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V1_3)
 

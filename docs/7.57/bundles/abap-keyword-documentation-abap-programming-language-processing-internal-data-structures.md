@@ -3,7 +3,30 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abendata_objects_structure.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_objects_structure.htm)
+- [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboxed_components.htm)
+- [abenstatic_boxes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_boxes.htm)
+- [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_abexas.htm)
+- [abenstructure_filling_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_filling_abexa.htm)
+- [abendictionary_structure_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendictionary_structure_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.267Z
+
+---
+
 ### abendata_objects_structure.htm
+
+> **📖 Official SAP Documentation**: [abendata_objects_structure.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_objects_structure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -149,7 +172,14 @@ Continue
 [Examples of Structures](javascript:call_link\('abenstructure_abexas.htm'\))
 
 
+
+**📖 Source**: [abendata_objects_structure.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_objects_structure.htm)
+
 ### abenboxed_components.htm
+
+> **📖 Official SAP Documentation**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboxed_components.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -185,7 +215,14 @@ Continue
 [Static Boxes](javascript:call_link\('abenstatic_boxes.htm'\))
 
 
+
+**📖 Source**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboxed_components.htm)
+
 ### abenstatic_boxes.htm
+
+> **📖 Official SAP Documentation**: [abenstatic_boxes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_boxes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -244,7 +281,14 @@ TYPES:
   END OF struct.
 
 
+
+**📖 Source**: [abenstatic_boxes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_boxes.htm)
+
 ### abenboxed_components.htm
+
+> **📖 Official SAP Documentation**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboxed_components.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -280,7 +324,14 @@ Continue
 [Static Boxes](javascript:call_link\('abenstatic_boxes.htm'\))
 
 
+
+**📖 Source**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboxed_components.htm)
+
 ### abenstructure_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -300,7 +351,14 @@ Continue
 ![Example](exa.gif "Example") [Structure from ABAP Dictionary](javascript:call_link\('abendictionary_structure_abexa.htm'\))
 
 
+
+**📖 Source**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_abexas.htm)
+
 ### abenstructure_filling_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenstructure_filling_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_filling_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -382,7 +440,14 @@ If a structure is declared with the statement DATA by reference to a structure t
 The content of both structures is the same. The value operator VALUE represents the modern way, where the need of expressing all the component names explicitly is replaced by the use of parentheses.
 
 
+
+**📖 Source**: [abenstructure_filling_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_filling_abexa.htm)
+
 ### abendictionary_structure_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendictionary_structure_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendictionary_structure_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -425,7 +490,17 @@ Description  
 Structure types of the ABAP Dictionary are typically used in ABAP programs to define structures or internal tables with a structured line type to process data that is imported from the database. The example shows how a structure carrier local to the program is declared by reference to a database table SCARR defined in the ABAP Dictionary, and used as the target area of a [SELECT](javascript:call_link\('abapselect.htm'\)) statement.
 
 
+
+**📖 Source**: [abendictionary_structure_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendictionary_structure_abexa.htm)
+
 ### abenstructure_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_abexas.htm)
+
 
   
 

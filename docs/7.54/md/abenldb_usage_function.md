@@ -8,13 +8,9 @@ AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
 Logical Databases - Call by Function Module
 
--   [How the Call Works](#@@ITOC@@ABENLDB_USAGE_FUNCTION_1)
+-   [How the Call Works](#abenldb-usage-function-1--------runtime-behavior---@ITOC@@ABENLDB_USAGE_FUNCTION_2)
 
--   [Runtime Behavior](#@@ITOC@@ABENLDB_USAGE_FUNCTION_2)
-
--   [Interface Parameter of LDB\_PROCESS](#@@ITOC@@ABENLDB_USAGE_FUNCTION_3)
-
--   [Read Depth and Callback Routines](#@@ITOC@@ABENLDB_USAGE_FUNCTION_4)
+-   [Interface Parameter of LDB\_PROCESS](#abenldb-usage-function-3--------read-depth-and-callback-routines---@ITOC@@ABENLDB_USAGE_FUNCTION_4)
 
 -   [Exceptions in LDB\_PROCESS](#@@ITOC@@ABENLDB_USAGE_FUNCTION_5)
 

@@ -8,9 +8,7 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 iXML Library
 
--   [API of iXML Library](#@@ITOC@@ABENABAP_IXML_LIB_1)
-
--   [Access to iXML Library](#@@ITOC@@ABENABAP_IXML_LIB_2)
+-   [API of iXML Library](#abenabap-ixml-lib-1--------access-to-ixml-library---@ITOC@@ABENABAP_IXML_LIB_2)
 
 -   [Services in iXML Library](#@@ITOC@@ABENABAP_IXML_LIB_3)
 

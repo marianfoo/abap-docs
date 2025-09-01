@@ -12,10 +12,8 @@ SELECT, LOB Handles
 
 In a standalone [SELECT](javascript:call_link\('abapselect.htm'\)) statement or a [WITH](javascript:call_link\('abapwith.htm'\)) statement, but not in a [FETCH](javascript:call_link\('abapfetch.htm'\)) statement, [LOB handles](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry") can be created as [reader streams](javascript:call_link\('abenreader_stream_glosry.htm'\) "Glossary Entry") and as [locators](javascript:call_link\('abenlocator_glosry.htm'\) "Glossary Entry") in the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause.
 
--   [Prerequisites](#@@ITOC@@ABENSELECT_INTO_LOB_HANDLES_1)
--   [Rules](#@@ITOC@@ABENSELECT_INTO_LOB_HANDLES_2)
--   [Restriction](#@@ITOC@@ABENSELECT_INTO_LOB_HANDLES_3)
--   [Examples](#@@ITOC@@ABENSELECT_INTO_LOB_HANDLES_4)
+-   [Prerequisites](#abenselect-into-lob-handles-1-------rules---@ITOC@@ABENSELECT_INTO_LOB_HANDLES_2)
+-   [Restriction](#abenselect-into-lob-handles-3-------examples---@ITOC@@ABENSELECT_INTO_LOB_HANDLES_4)
 
 Prerequisites   
 

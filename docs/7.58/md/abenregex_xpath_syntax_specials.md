@@ -13,16 +13,11 @@ XPath regex - Special Characters
 
 The following tables summarize the special characters in [XPath regular expressions](javascript:call_link\('abenxpath_regex_glosry.htm'\) "Glossary Entry").
 
--   [Pattern Syntax](#@@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_1)
-    -   [Single Character Escapes](#@@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_2)
-    -   [Multi Character Escapes](#@@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_3)
-    -   [Category Escapes](#@@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_4)
-    -   [Quantifiers](#@@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_5)
-    -   [Grouping and Capturing](#@@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_6)
-    -   [Anchors](#@@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_7)
-    -   [Backreferences](#@@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_8)
-    -   [Alternation](#@@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_9)
-    -   [Character Classes](#@@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_10)
+-   [Pattern Syntax](#abenregex-xpath-syntax-specials-1-----------single-character-escapes---@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_2)
+    -   [Multi Character Escapes](#abenregex-xpath-syntax-specials-3-----------category-escapes---@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_4)
+    -   [Quantifiers](#abenregex-xpath-syntax-specials-5-----------grouping-and-capturing---@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_6)
+    -   [Anchors](#abenregex-xpath-syntax-specials-7-----------backreferences---@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_8)
+    -   [Alternation](#abenregex-xpath-syntax-specials-9-----------character-classes---@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_10)
 -   [Replacement Syntax](#@@ITOC@@ABENREGEX_XPATH_SYNTAX_SPECIALS_11)
 
 Pattern Syntax   

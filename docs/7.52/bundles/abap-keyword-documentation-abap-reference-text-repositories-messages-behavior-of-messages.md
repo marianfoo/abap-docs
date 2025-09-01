@@ -3,7 +3,37 @@
 Included pages: 13
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_messages_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_messages_types.htm)
+- [abenabap_message_list_processing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_list_processing.htm)
+- [abenabap_message_dialog.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_dialog.htm)
+- [abenabap_message_control.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_control.htm)
+- [abenabap_message_batch_input.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_batch_input.htm)
+- [abenabap_message_batch_job.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_batch_job.htm)
+- [abenabap_message_update.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_update.htm)
+- [abenabap_message_exit.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_exit.htm)
+- [abenabap_message_procedure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_procedure.htm)
+- [abenabap_message_rfc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_rfc.htm)
+- [abenabap_message_http_server.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_http_server.htm)
+- [abenabap_message_apc_server.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_apc_server.htm)
+- [abenabap_message_daemon.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_daemon.htm)
+
+**Bundle Contains**: 13 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.519Z
+
+---
+
 ### abenabap_messages_types.htm
+
+> **📖 Official SAP Documentation**: [abenabap_messages_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_messages_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -66,7 +96,14 @@ Continue
 [Messages in ABAP Daemon Processing](javascript:call_link\('abenabap_message_daemon.htm'\))
 
 
+
+**📖 Source**: [abenabap_messages_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_messages_types.htm)
+
 ### abenabap_message_list_processing.htm
+
+> **📖 Official SAP Documentation**: [abenabap_message_list_processing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_list_processing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -93,7 +130,14 @@ Note
 [Background jobs](javascript:call_link\('abenabap_message_batch_job.htm'\)) are always started using [SUBMIT](javascript:call_link\('abapsubmit_via_job.htm'\)), which means that list processing is usually also active at the same time.
 
 
+
+**📖 Source**: [abenabap_message_list_processing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_list_processing.htm)
+
 ### abenabap_message_dialog.htm
+
+> **📖 Official SAP Documentation**: [abenabap_message_dialog.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_dialog.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -453,7 +497,14 @@ Example
 The program DEMO\_MESSAGES demonstrates the display of various message types from different processing blocks in dialog processing.
 
 
+
+**📖 Source**: [abenabap_message_dialog.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_dialog.htm)
+
 ### abenabap_message_control.htm
+
+> **📖 Official SAP Documentation**: [abenabap_message_control.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_control.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -468,7 +519,14 @@ Messages in control processing
 During processing of events from the [Control Framework](javascript:call_link\('abencontrol_framework_glosry.htm'\) "Glossary Entry"), messages of types "W" and "E" are converted to type "A". All other messages are processed as in [dialog processing](javascript:call_link\('abenabap_message_dialog.htm'\)).
 
 
+
+**📖 Source**: [abenabap_message_control.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_control.htm)
+
 ### abenabap_message_batch_input.htm
+
+> **📖 Official SAP Documentation**: [abenabap_message_batch_input.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_batch_input.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -493,7 +551,14 @@ A message is not displayed, but instead is written to the batch input log by the
 -   Messages of type "X" [runtime error](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry") with associated [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"). The status of the current [batch input session](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") is set to "processed with errors". Processing of the session is subsequently continued with the next program.
 
 
+
+**📖 Source**: [abenabap_message_batch_input.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_batch_input.htm)
+
 ### abenabap_message_batch_job.htm
+
+> **📖 Official SAP Documentation**: [abenabap_message_batch_job.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_batch_job.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -524,7 +589,14 @@ Notes
 -   For messages of type "A", remember that handling using [error\_message](javascript:call_link\('abapcall_function_parameter.htm'\)) causes the statement [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)) to be executed implicitly, hence producing a database rollback and other side-effects.
 
 
+
+**📖 Source**: [abenabap_message_batch_job.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_batch_job.htm)
+
 ### abenabap_message_update.htm
+
+> **📖 Official SAP Documentation**: [abenabap_message_update.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_update.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -551,7 +623,14 @@ Notes
 -   More information can be found under [Forbidden Statements in Updates](javascript:call_link\('abendb_commit_during_update.htm'\)).
 
 
+
+**📖 Source**: [abenabap_message_update.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_update.htm)
+
 ### abenabap_message_exit.htm
+
+> **📖 Official SAP Documentation**: [abenabap_message_exit.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_exit.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -570,7 +649,14 @@ In [conversion routines](javascript:call_link\('abenconversion_routine_glosry.ht
 -   In an ...\_OUTPUT function module, all messages apart from those of type "A" lead to an untreatable exception. Messages of type "A" behave in the same way as in [dialog processing](javascript:call_link\('abenabap_message_dialog.htm'\)).
 
 
+
+**📖 Source**: [abenabap_message_exit.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_exit.htm)
+
 ### abenabap_message_procedure.htm
+
+> **📖 Official SAP Documentation**: [abenabap_message_procedure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_procedure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -595,7 +681,14 @@ Note
 If a [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") is exited when a message is sent, the content of the formal parameters for which [pass by value](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry") is defined is not assigned to the associated actual parameters.
 
 
+
+**📖 Source**: [abenabap_message_procedure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_procedure.htm)
+
 ### abenabap_message_rfc.htm
+
+> **📖 Official SAP Documentation**: [abenabap_message_rfc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_rfc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -620,7 +713,14 @@ Note
 If a message of type "E" is sent in a remote-enabled function module, note that it depends on the type of call whether a database rollback will occur or not. If the call does not take place using the RFC interface, a database rollback usually does not occur.
 
 
+
+**📖 Source**: [abenabap_message_rfc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_rfc.htm)
+
 ### abenabap_message_http_server.htm
+
+> **📖 Official SAP Documentation**: [abenabap_message_http_server.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_http_server.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -639,7 +739,14 @@ Note
 [Dialog processing](javascript:call_link\('abenabap_message_dialog.htm'\)) or [list processing](javascript:call_link\('abenabap_message_list_processing.htm'\)) can only take place for an ICF server if the Service Data → GUI Link setting for the service is set to "Yes" in the transaction SICF. Messages of the types "I", "S", and "W" are always ignored by default and messages of the types "A", "E", and "X" always terminate processing followed by a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenabap_message_http_server.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_http_server.htm)
+
 ### abenabap_message_apc_server.htm
+
+> **📖 Official SAP Documentation**: [abenabap_message_apc_server.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_apc_server.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -660,7 +767,17 @@ Messages sent during [APC processing](javascript:call_link\('abenapc_processing_
 Programs or procedures called in the handler are executed in the handler context and their messages behave accordingly.
 
 
+
+**📖 Source**: [abenabap_message_apc_server.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_apc_server.htm)
+
 ### abenabap_message_daemon.htm
+
+> **📖 Official SAP Documentation**: [abenabap_message_daemon.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_daemon.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabap_message_daemon.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_message_daemon.htm)
+
 
   
 

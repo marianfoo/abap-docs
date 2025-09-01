@@ -3,7 +3,40 @@
 Included pages: 17
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-756.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756.htm)
+- [abennews-756-ddic.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-ddic.htm)
+- [abennews-756-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-abap_cds.htm)
+- [abennews-756-obj_comp_selector.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-obj_comp_selector.htm)
+- [abennews-756-dref.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-dref.htm)
+- [abennews-756-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-assignments.htm)
+- [abennews-756-strings.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-strings.htm)
+- [abennews-756-itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-itab.htm)
+- [abennews-756-abap_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-abap_sql.htm)
+- [abennews-756-cds_access_control.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-cds_access_control.htm)
+- [abennews-756-abap_docu.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-abap_docu.htm)
+- [abennews-756-restful.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-restful.htm)
+- [abennews-756-cds_bdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-cds_bdl.htm)
+- [abennews-756-eml.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-eml.htm)
+- [abennews-756-derived.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-derived.htm)
+- [abennews-756-abp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-abp.htm)
+
+**Bundle Contains**: 16 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.289Z
+
+---
+
 ### abennews-756.htm
+
+> **📖 Official SAP Documentation**: [abennews-756.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46,7 +79,14 @@ Continue
 [ABAP RESTful Application Programming Model in Release 7.56](javascript:call_link\('abennews-756-restful.htm'\))
 
 
+
+**📖 Source**: [abennews-756.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756.htm)
+
 ### abennews-756-ddic.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-ddic.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-ddic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -73,7 +113,14 @@ In ABAP Dictionary, the [load unit](javascript:call_link\('abenddic_database_tab
 -   Page Enforced
 
 
+
+**📖 Source**: [abennews-756-ddic.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-ddic.htm)
+
 ### abennews-756-abap_cds.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-abap_cds.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -255,7 +302,14 @@ The following new [CDS system table functions](javascript:call_link\('abencds_se
 -   ... SERIES\_GENERATE\_TIMESTAMP( step = ... from\_value = ... to\_value = ... ) ...
 
 
+
+**📖 Source**: [abennews-756-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-abap_cds.htm)
+
 ### abennews-756-obj_comp_selector.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-obj_comp_selector.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-obj_comp_selector.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -283,7 +337,14 @@ The following syntax can be used for the [object component selector \->](javascr
 Before, this was possible for [dynamic components](javascript:call_link\('abapassign_dynamic_components.htm'\)) and [dynamic access](javascript:call_link\('abapassign_mem_area_dynamic_access.htm'\)) in the statement ASSIGN only.
 
 
+
+**📖 Source**: [abennews-756-obj_comp_selector.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-obj_comp_selector.htm)
+
 ### abennews-756-dref.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-dref.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-dref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -305,7 +366,14 @@ Dereferencing Data References
 The [dereferencing operator\->\*](javascript:call_link\('abendereferencing_operator.htm'\)) can be used for generically typed data reference variables in almost all operand positions now. Before, that was possible in the ASSIGN statement only.
 
 
+
+**📖 Source**: [abennews-756-dref.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-dref.htm)
+
 ### abennews-756-assignments.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-assignments.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -338,7 +406,14 @@ It is now possible to specify statements with the component operator [CORRESPOND
 -   [APPENDING BASE](abencorresponding_constr_arg_type.htm#!ABAP_ADDITION_2@2@)
 
 
+
+**📖 Source**: [abennews-756-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-assignments.htm)
+
 ### abennews-756-strings.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-strings.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-strings.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -372,7 +447,14 @@ Callouts in PCRE Regular Expressions
 The class [CL\_ABAP\_MATCHER](javascript:call_link\('abenregex_system_classes.htm'\)) supports callouts in [PCRE syntax](javascript:call_link\('abenregex_pcre_syntax.htm'\)) now. The method SET\_CALLOUT can be used to register a handler class that implements the interface IF\_ABAP\_MATCHER\_CALLOUT. The [special characters](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) (?C...) of a PCRE regular expression then call the interface method CALLOUT when the method MATCH is executed.
 
 
+
+**📖 Source**: [abennews-756-strings.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-strings.htm)
+
 ### abennews-756-itab.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -420,7 +502,14 @@ Alias Names for Secondary Keys
 Alias names can now be declared for [secondary keys](javascript:call_link\('abensecondary_key_glosry.htm'\) "Glossary Entry") of internal tables by using the addition ALIAS of [TYPES](javascript:call_link\('abaptypes_secondary_key.htm'\)) and [DATA](javascript:call_link\('abapdata_secondary_key.htm'\)). This can be helpful when changing existing secondary keys without invalidating users.
 
 
+
+**📖 Source**: [abennews-756-itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-itab.htm)
+
 ### abennews-756-abap_sql.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-abap_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-abap_sql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -674,7 +763,14 @@ Strict Mode of the Syntax Check
 If one the new features listed above or one of the new CDS system table functions [SERIES\_GENERATE\_](javascript:call_link\('abencds_series_generators.htm'\)) is used in an ABAP SQL statement, the syntax check is performed in a [strict mode](javascript:call_link\('abenabap_sql_strictmode_756.htm'\)), which handles the statement more strictly than the regular syntax check.
 
 
+
+**📖 Source**: [abennews-756-abap_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-abap_sql.htm)
+
 ### abennews-756-cds_access_control.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-cds_access_control.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-cds_access_control.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -827,7 +923,14 @@ During processing of an update task, PFCG conditions are now considered as fully
 [More Information](javascript:call_link\('abenauthority_during_update.htm'\))
 
 
+
+**📖 Source**: [abennews-756-cds_access_control.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-cds_access_control.htm)
+
 ### abennews-756-abap_docu.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-abap_docu.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-abap_docu.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -919,7 +1022,14 @@ The passed parameters are used as default values for a dialog window and can be 
 If customizing table ABDOCCONFIG is initial in a customer system, the first call of the ABAP Keyword documentation supplies it with values recommended for an SAP S/4HANA System. In SAP's own systems, values for a SAP development system are supplied. If the table is partly filled, default values are used for the missing rows. These values are initial for all properties except VERSION. If the language version is not passed by the caller and cannot be found in ABDOCCONFIG, the value X is used and a warning is shown in the documentation display.
 
 
+
+**📖 Source**: [abennews-756-abap_docu.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-abap_docu.htm)
+
 ### abennews-756-restful.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-restful.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-restful.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -948,7 +1058,14 @@ Continue
 [ABAP Behavior Pools (ABP) in Release 7.56](javascript:call_link\('abennews-756-abp.htm'\))
 
 
+
+**📖 Source**: [abennews-756-restful.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-restful.htm)
+
 ### abennews-756-cds_bdl.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-cds_bdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-cds_bdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1077,7 +1194,14 @@ CDS Abstract Behavior Definitions
 A new implementation type is available: the [CDS abstract behavior definition](javascript:call_link\('abenbdl_abstract.htm'\)). Such abstract BDEFs mainly serve as typing mechanism for deep action or function parameters.
 
 
+
+**📖 Source**: [abennews-756-cds_bdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-cds_bdl.htm)
+
 ### abennews-756-eml.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-eml.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-eml.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1129,7 +1253,14 @@ ABAP EML keywords are now available as part of the ABAP Keyword Documentation. T
     -   [MODIFY AUGMENTING ENTITY](javascript:call_link\('abapmodify_aug_entity_entities.htm'\))
 
 
+
+**📖 Source**: [abennews-756-eml.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-eml.htm)
+
 ### abennews-756-derived.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-derived.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-derived.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1158,7 +1289,14 @@ BDEF Derived Types
 -   [Declaration of Variables with BDEF Derived Types](javascript:call_link\('abapderived_types_declaration.htm'\))
 
 
+
+**📖 Source**: [abennews-756-derived.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-derived.htm)
+
 ### abennews-756-abp.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-abp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-abp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1192,7 +1330,17 @@ ABAP Behavior Pools (ABP) are now available as part of the ABAP Keyword Document
     -   [save\_modified](javascript:call_link\('abaprap_saver_meth_save_modified.htm'\))
 
 
+
+**📖 Source**: [abennews-756-abp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-abp.htm)
+
 ### abennews-756-restful.htm
+
+> **📖 Official SAP Documentation**: [abennews-756-restful.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-restful.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-756-restful.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-756-restful.htm)
+
 
   
 

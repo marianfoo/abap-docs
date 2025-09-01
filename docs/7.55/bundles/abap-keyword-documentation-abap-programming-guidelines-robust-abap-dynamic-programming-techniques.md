@@ -3,7 +3,32 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abendynamic_prog_technique_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynamic_prog_technique_guidl.htm)
+- [abenuse_dynamic_progr_tech_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuse_dynamic_progr_tech_guidl.htm)
+- [abenruntime_error_dyn_proc_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenruntime_error_dyn_proc_guidl.htm)
+- [abenuse_dyn_data_object_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuse_dyn_data_object_guidl.htm)
+- [abenmem_cons_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmem_cons_dyn_mem_obj_guidl.htm)
+- [abenadmin_costs_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm)
+- [abendyn_access_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendyn_access_data_obj_guidl.htm)
+- [abengeneric_progr_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengeneric_progr_guidl.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.700Z
+
+---
+
 ### abendynamic_prog_technique_guidl.htm
+
+> **📖 Official SAP Documentation**: [abendynamic_prog_technique_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynamic_prog_technique_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46,7 +71,14 @@ Continue
 [Generic Programming](javascript:call_link\('abengeneric_progr_guidl.htm'\))
 
 
+
+**📖 Source**: [abendynamic_prog_technique_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynamic_prog_technique_guidl.htm)
+
 ### abenuse_dynamic_progr_tech_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenuse_dynamic_progr_tech_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuse_dynamic_progr_tech_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -101,7 +133,14 @@ Always consider the following aspects when deploying dynamic techniques:
 The significance of these aspects differs for the various dynamic programming techniques. For example, a program that uses strings is by no means more complex than a program that works only with text fields. In cases like this, a range of details must nevertheless be taken into account.
 
 
+
+**📖 Source**: [abenuse_dynamic_progr_tech_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuse_dynamic_progr_tech_guidl.htm)
+
 ### abenruntime_error_dyn_proc_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenruntime_error_dyn_proc_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenruntime_error_dyn_proc_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -179,7 +218,14 @@ IF <where\_clause> IS NOT INITIAL.
 ENDIF.
 
 
+
+**📖 Source**: [abenruntime_error_dyn_proc_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenruntime_error_dyn_proc_guidl.htm)
+
 ### abenuse_dyn_data_object_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenuse_dyn_data_object_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuse_dyn_data_object_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -230,7 +276,14 @@ Hint
 Strings and internal tables are contained directly in the ABAP language in the form of data types and the corresponding access statements. In other programming languages, however, they are often implemented as libraries (such as string classes and container classes). In ABAP, it is usually [neither necessary nor useful](javascript:call_link\('abenobj_oriented_guidl.htm'\) "Guideline") to define specific classes for storing strings or table-like data. However, in rare cases, it may be useful to wrap internal tables in classes, to release more [memory](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline") when data is deleted.
 
 
+
+**📖 Source**: [abenuse_dyn_data_object_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuse_dyn_data_object_guidl.htm)
+
 ### abenmem_cons_dyn_mem_obj_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenmem_cons_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmem_cons_dyn_mem_obj_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -314,7 +367,14 @@ SELECT \*
        ENDSELECT.
 
 
+
+**📖 Source**: [abenmem_cons_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmem_cons_dyn_mem_obj_guidl.htm)
+
 ### abenadmin_costs_dyn_mem_obj_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenadmin_costs_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -382,7 +442,14 @@ Example
 The executable example [DEMO\_MEMORY\_USAGE](javascript:call_link\('abenmemory_usage_abexa.htm'\)) demonstrates the administration costs of deep components with low data content.
 
 
+
+**📖 Source**: [abenadmin_costs_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm)
+
 ### abendyn_access_data_obj_guidl.htm
+
+> **📖 Official SAP Documentation**: [abendyn_access_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendyn_access_data_obj_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -474,7 +541,17 @@ METHOD some\_method.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abendyn_access_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendyn_access_data_obj_guidl.htm)
+
 ### abengeneric_progr_guidl.htm
+
+> **📖 Official SAP Documentation**: [abengeneric_progr_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengeneric_progr_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abengeneric_progr_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengeneric_progr_guidl.htm)
+
 
   
 

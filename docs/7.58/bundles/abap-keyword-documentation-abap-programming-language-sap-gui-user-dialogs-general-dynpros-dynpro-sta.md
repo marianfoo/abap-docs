@@ -3,7 +3,30 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [dynploop.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/dynploop.htm)
+- [dynpendloop.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/dynpendloop.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:29.004Z
+
+---
+
 ### dynploop.htm
+
+> **📖 Official SAP Documentation**: [dynploop.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/dynploop.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [dynploop.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/dynploop.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -98,7 +121,21 @@ Continue
 [dynpro - ENDLOOP](javascript:call_link\('dynpendloop.htm'\))
 
 
+
+**📖 Source**: [dynploop.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/dynploop.htm)
+
 ### dynpendloop.htm
+
+> **📖 Official SAP Documentation**: [dynpendloop.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/dynpendloop.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [dynpendloop.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/dynpendloop.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [dynpendloop.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/dynpendloop.htm)
+
 
   
 

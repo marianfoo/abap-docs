@@ -10,21 +10,13 @@ WRITE - Output Length
 
 When data is written using the statement WRITE, the output is saved to the [list buffer](javascript:call_link\('abenlist_buffer_glosry.htm'\) "Glossary Entry") and accessed from there for display when the list is called.
 
--   [Predefined Output Lengths](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_1)
+-   [Predefined Output Lengths](#abenwrite-output-length-1--------numeric-data-types---@ITOC@@ABENWRITE_OUTPUT_LENGTH_2)
 
--   [Numeric Data Types](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_2)
+-   [Character-Like Data Types](#abenwrite-output-length-3--------byte-like-data-types---@ITOC@@ABENWRITE_OUTPUT_LENGTH_4)
 
--   [Character-Like Data Types](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_3)
+-   [Enumerated Types](#abenwrite-output-length-5--------output-length-in-list-buffer---@ITOC@@ABENWRITE_OUTPUT_LENGTH_6)
 
--   [Byte-Like Data Types](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_4)
-
--   [Enumerated Types](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_5)
-
--   [Output Length in List Buffer](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_6)
-
--   [Output Length in the List](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_7)
-
--   [Class for Calculating Output Lengths](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_8)
+-   [Output Length in the List](#abenwrite-output-length-7--------class-for-calculating-output-lengths---@ITOC@@ABENWRITE_OUTPUT_LENGTH_8)
 
 Each time a data object is produced by a WRITE, an output length is defined, either implicitly (in accordance with the tables below), or [explicitly](javascript:call_link\('abapwrite-.htm'\)) (if len is specified after the addition AT). The output length defines the following:
 

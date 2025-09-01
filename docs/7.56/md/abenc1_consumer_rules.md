@@ -17,16 +17,11 @@ The [provider rules](javascript:call_link\('abenc1_provider_rules.htm'\)) for ob
 
 The following sections list allowed changes to released APIs that must be considered when accessing them.
 
--   [Changes to Elementary Data Types](#@@ITOC@@ABENC1_CONSUMER_RULES_1)
-    -   [Operations with Elementary Data Objects](#@@ITOC@@ABENC1_CONSUMER_RULES_2)
-    -   [Operations with Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_3)
--   [Adding or Changing Non-key Elements of Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_4)
-    -   [Includes](#@@ITOC@@ABENC1_CONSUMER_RULES_5)
-    -   [Assignments and Comparisons](#@@ITOC@@ABENC1_CONSUMER_RULES_6)
-    -   [Unstructured Access](#@@ITOC@@ABENC1_CONSUMER_RULES_7)
-    -   [Field Symbols](#@@ITOC@@ABENC1_CONSUMER_RULES_8)
-    -   [RFC](#@@ITOC@@ABENC1_CONSUMER_RULES_9)
--   [Example](#@@ITOC@@ABENC1_CONSUMER_RULES_10)
+-   [Changes to Elementary Data Types](#abenc1-consumer-rules-1-----------operations-with-elementary-data-objects---@ITOC@@ABENC1_CONSUMER_RULES_2)
+    -   [Operations with Structures](#abenc1-consumer-rules-3-------adding-or-changing-non-key-elements-of-structures---@ITOC@@ABENC1_CONSUMER_RULES_4)
+    -   [Includes](#abenc1-consumer-rules-5-----------assignments-and-comparisons---@ITOC@@ABENC1_CONSUMER_RULES_6)
+    -   [Unstructured Access](#abenc1-consumer-rules-7-----------field-symbols---@ITOC@@ABENC1_CONSUMER_RULES_8)
+    -   [RFC](#abenc1-consumer-rules-9-------example---@ITOC@@ABENC1_CONSUMER_RULES_10)
 
 Changes to Elementary Data Types
 

@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+- [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.957Z
+
+---
+
 ### abenrpm_testing.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25,7 +44,17 @@ Continue
 [CREATE OBJECT, FOR TESTING](javascript:call_link\('abapcreate_object_for_testing.htm'\))
 
 
+
+**📖 Source**: [abenrpm_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm)
+
 ### abapcreate_object_for_testing.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapcreate_object_for_testing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_for_testing.htm)
+
 
   
 

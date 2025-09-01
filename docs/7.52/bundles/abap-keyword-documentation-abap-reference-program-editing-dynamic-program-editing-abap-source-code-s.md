@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapsyntax-check_for_itab.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm)
+- [abapsyntax-check_error_handling.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_error_handling.htm)
+- [abapsyntax-check_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_internal.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.501Z
+
+---
+
 ### abapsyntax-check_for_itab.htm
+
+> **📖 Official SAP Documentation**: [abapsyntax-check_for_itab.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -150,7 +170,14 @@ Continue
 [SYNTAX-CHECK - Internal Additions](javascript:call_link\('abapsyntax-check_internal.htm'\))
 
 
+
+**📖 Source**: [abapsyntax-check_for_itab.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm)
+
 ### abapsyntax-check_error_handling.htm
+
+> **📖 Official SAP Documentation**: [abapsyntax-check_error_handling.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_error_handling.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -209,7 +236,17 @@ The key of the database table TRMSG is made up of the components SPRAS of length
 The data object mid must have the data type TRMSG\_KEY from ABAP Dictionary, constructed from the components SPRAS with length 1, KEYWORD with length 20, and MSGNUMBER with length 3.
 
 
+
+**📖 Source**: [abapsyntax-check_error_handling.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_error_handling.htm)
+
 ### abapsyntax-check_internal.htm
+
+> **📖 Official SAP Documentation**: [abapsyntax-check_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapsyntax-check_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_internal.htm)
+
 
   
 

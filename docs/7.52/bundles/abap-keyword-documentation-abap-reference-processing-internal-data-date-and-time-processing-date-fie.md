@@ -3,7 +3,30 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencharacter_date_time.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_date_time.htm)
+- [abenchar_date_time_fields_access.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_access.htm)
+- [abenchar_date_time_fields_charlike.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_charlike.htm)
+- [abenchar_date_time_fields_numlike.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_numlike.htm)
+- [abendate_time_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendate_time_abexa.htm)
+- [abenchar_date_time_fields_validity.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_validity.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.490Z
+
+---
+
 ### abencharacter_date_time.htm
+
+> **📖 Official SAP Documentation**: [abencharacter_date_time.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_date_time.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26,7 +49,14 @@ Continue
 [Validity of Date Fields and Time Fields](javascript:call_link\('abenchar_date_time_fields_validity.htm'\))
 
 
+
+**📖 Source**: [abencharacter_date_time.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_date_time.htm)
+
 ### abenchar_date_time_fields_access.htm
+
+> **📖 Official SAP Documentation**: [abenchar_date_time_fields_access.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_access.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -82,7 +112,14 @@ Continue
 ![Example](exa.gif "Example") [Evaluating Date Fields and Time Fields](javascript:call_link\('abendate_time_abexa.htm'\))
 
 
+
+**📖 Source**: [abenchar_date_time_fields_access.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_access.htm)
+
 ### abenchar_date_time_fields_charlike.htm
+
+> **📖 Official SAP Documentation**: [abenchar_date_time_fields_charlike.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_charlike.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -118,7 +155,14 @@ minute = substring( val = time off = 2 len = 2 ).
 second = substring( val = time off = 4 len = 2 ).
 
 
+
+**📖 Source**: [abenchar_date_time_fields_charlike.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_charlike.htm)
+
 ### abenchar_date_time_fields_numlike.htm
+
+> **📖 Official SAP Documentation**: [abenchar_date_time_fields_numlike.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_numlike.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -171,7 +215,14 @@ date+6(2) = '01'.
 date     = date - 1.
 
 
+
+**📖 Source**: [abenchar_date_time_fields_numlike.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_numlike.htm)
+
 ### abendate_time_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendate_time_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendate_time_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -224,7 +275,14 @@ In the first part of the main method, the last day of the previous month is assi
 In the second part, the number of hours between midnight and the current time are calculated. First, the difference between the time fields is calculated. The difference is then converted into the total number of seconds using the MOD operation. A positive difference remains unchanged. This step is only required for negative differences. Finally, the number of hours is calculated by dividing the number of seconds by 3600.
 
 
+
+**📖 Source**: [abendate_time_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendate_time_abexa.htm)
+
 ### abenchar_date_time_fields_access.htm
+
+> **📖 Official SAP Documentation**: [abenchar_date_time_fields_access.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_access.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -280,7 +338,17 @@ Continue
 ![Example](exa.gif "Example") [Evaluating Date Fields and Time Fields](javascript:call_link\('abendate_time_abexa.htm'\))
 
 
+
+**📖 Source**: [abenchar_date_time_fields_access.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_access.htm)
+
 ### abenchar_date_time_fields_validity.htm
+
+> **📖 Official SAP Documentation**: [abenchar_date_time_fields_validity.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_validity.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenchar_date_time_fields_validity.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchar_date_time_fields_validity.htm)
+
 
   
 

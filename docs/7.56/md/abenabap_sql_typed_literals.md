@@ -27,12 +27,9 @@ Hints
 
 Typed literals can be split into the following categories:
 
--   [Typed numeric literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_1)
--   [Typed character literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_2)
--   [Typed byte literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_3)
--   [Typed literals for character-like types with special semantics](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_4)
--   [Typed date and time literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_5)
--   [Typed currency and quantity literals](#@@ITOC@@ABENABAP_SQL_TYPED_LITERALS_6)
+-   [Typed numeric literals](#abenabap-sql-typed-literals-1-------typed-character-literals---@ITOC@@ABENABAP_SQL_TYPED_LITERALS_2)
+-   [Typed byte literals](#abenabap-sql-typed-literals-3-------typed-literals-for-character-like-types-with-special-semantics---@ITOC@@ABENABAP_SQL_TYPED_LITERALS_4)
+-   [Typed date and time literals](#abenabap-sql-typed-literals-5-------typed-currency-and-quantity-literals---@ITOC@@ABENABAP_SQL_TYPED_LITERALS_6)
 
 Typed numeric literals
 

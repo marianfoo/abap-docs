@@ -3,7 +3,30 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
+- [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
+- [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
+- [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
+- [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
+- [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.238Z
+
+---
+
 ### abapselect-options.htm
+
+> **📖 Official SAP Documentation**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -83,7 +106,14 @@ Continue
 [SELECT-OPTIONS - value\_options](javascript:call_link\('abapselect-options_value.htm'\))
 
 
+
+**📖 Source**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm)
+
 ### abapselect-options_for.htm
+
+> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -182,7 +212,14 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](javascript:call_link\('abensel_screen_sel_opt_abexa.htm'\))
 
 
+
+**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
+
 ### abensel_screen_sel_opt_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -239,7 +276,14 @@ For more complex selections, the user can use the pushbutton on the right side o
 The contents of the selection table are then shown in a list. The first column determines whether the subsequent values are to be included or not; the second contains the Boolean operator and the last two columns contain the limits low and high.
 
 
+
+**📖 Source**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_abexa.htm)
+
 ### abapselect-options_for.htm
+
+> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -338,7 +382,14 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](javascript:call_link\('abensel_screen_sel_opt_abexa.htm'\))
 
 
+
+**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_for.htm)
+
 ### abapselect-options_screen.htm
+
+> **📖 Official SAP Documentation**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -439,7 +490,14 @@ SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid NO-EXTENSION
                                             NO INTERVALS.
 
 
+
+**📖 Source**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_screen.htm)
+
 ### abapselect-options_value.htm
+
+> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -524,7 +582,14 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](javascript:call_link\('abensel_screen_sel_opt_def_abexa.htm'\))
 
 
+
+**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
+
 ### abensel_screen_sel_opt_def_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -553,7 +618,17 @@ Description
 The symbol in front of the first field indicates that the field airline-option contains the operator NB. The green color indicates that the field airline-sign contains the value "I". The arrow on the right pushbutton is not green since only one row of the selection table is filled.
 
 
+
+**📖 Source**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_sel_opt_def_abexa.htm)
+
 ### abapselect-options_value.htm
+
+> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options_value.htm)
+
 
   
 

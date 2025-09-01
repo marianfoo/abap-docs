@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_table_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_types.htm)
+- [abenddic_table_types_tech.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_types_tech.htm)
+- [abenddic_table_types_sema.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_types_sema.htm)
+- [abenddic_table_types_ranges.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_types_ranges.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.661Z
+
+---
+
 ### abenddic_table_types.htm
+
+> **📖 Official SAP Documentation**: [abenddic_table_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45,7 +66,14 @@ Continue
 [DDIC - Ranges Table Type](javascript:call_link\('abenddic_table_types_ranges.htm'\))
 
 
+
+**📖 Source**: [abenddic_table_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_types.htm)
+
 ### abenddic_table_types_tech.htm
+
+> **📖 Official SAP Documentation**: [abenddic_table_types_tech.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_types_tech.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -102,7 +130,14 @@ Hints
 -   A line type cannot be defined using a reference to a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"), but it can be defined using a reference to a [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") of a corresponding [CDS DDIC-based views](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenddic_table_types_tech.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_types_tech.htm)
+
 ### abenddic_table_types_sema.htm
+
+> **📖 Official SAP Documentation**: [abenddic_table_types_sema.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_types_sema.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -129,7 +164,17 @@ A table type can be given (optional) documentation.
 Each secondary key has a short description specified when it is created.
 
 
+
+**📖 Source**: [abenddic_table_types_sema.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_types_sema.htm)
+
 ### abenddic_table_types_ranges.htm
+
+> **📖 Official SAP Documentation**: [abenddic_table_types_ranges.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_types_ranges.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_table_types_ranges.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_table_types_ranges.htm)
+
 
   
 

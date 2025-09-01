@@ -13,16 +13,11 @@ CDS TDL - Using CDS Enumerated Types
 
 This section summarizes the use of [CDS elements](javascript:call_link\('abencds_element_glosry.htm'\) "Glossary Entry") with an enumerated type.
 
--   [Declaration](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_1)
--   [Operand Positions for CDS Elements with an Enumerated Type](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_2)
-    -   [CDS Enumerated Type](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_3)
-    -   [CDS Enumerated Constant](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_4)
-    -   [CDS Enumerated Element](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_5)
--   [Case Expressions](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_6)
--   [Cast Expressions](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_7)
--   [Comparisons](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_8)
--   [Parameter Passing](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_9)
--   [Type Descriptions](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_10)
+-   [Declaration](#abencds-use-enum-type-1-------operand-positions-for-cds-elements-with-an-enumerated-type---@ITOC@@ABENCDS_USE_ENUM_TYPE_2)
+    -   [CDS Enumerated Type](#abencds-use-enum-type-3-----------cds-enumerated-constant---@ITOC@@ABENCDS_USE_ENUM_TYPE_4)
+    -   [CDS Enumerated Element](#abencds-use-enum-type-5-------case-expressions---@ITOC@@ABENCDS_USE_ENUM_TYPE_6)
+-   [Cast Expressions](#abencds-use-enum-type-7-------comparisons---@ITOC@@ABENCDS_USE_ENUM_TYPE_8)
+-   [Parameter Passing](#abencds-use-enum-type-9-------type-descriptions---@ITOC@@ABENCDS_USE_ENUM_TYPE_10)
 
 Executable Example
 

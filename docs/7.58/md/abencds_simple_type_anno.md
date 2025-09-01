@@ -21,10 +21,8 @@ Specifies an [annotation](javascript:call_link\('abencds_annotation_glosry.htm'\
 
 The first column of the table below shows the name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry"). The fourth column shows the default value which is set implicitly if the annotation is not used explicitly. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") if the annotation is specified without a value.
 
--   [AbapCatalog Annotations](#@@ITOC@@ABENCDS_SIMPLE_TYPE_ANNO_1)
--   [EndUserText Annotations](#@@ITOC@@ABENCDS_SIMPLE_TYPE_ANNO_2)
--   [ObjectModel Annotations](#@@ITOC@@ABENCDS_SIMPLE_TYPE_ANNO_3)
--   [Inheritance of Annotations](#@@ITOC@@ABENCDS_SIMPLE_TYPE_ANNO_4)
+-   [AbapCatalog Annotations](#abencds-simple-type-anno-1-------endusertext-annotations---@ITOC@@ABENCDS_SIMPLE_TYPE_ANNO_2)
+-   [ObjectModel Annotations](#abencds-simple-type-anno-3-------inheritance-of-annotations---@ITOC@@ABENCDS_SIMPLE_TYPE_ANNO_4)
 
 The following tables show the possible [ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS object. Annotations with other identifiers are usually [framework-specific annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
 

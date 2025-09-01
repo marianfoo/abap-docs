@@ -12,12 +12,9 @@ The components of a class use their [visibility sections](javascript:call_link\(
 
 [OO interfaces](javascript:call_link\('abenoo_intf_glosry.htm'\) "Glossary Entry") are independent constructs that enable the class-specific [interfaces](javascript:call_link\('abenintf_gen_glosry.htm'\) "Glossary Entry") to be enhanced by implementing them in classes. Different classes that implement the same interface can all be addressed using identical interfaces. In addition to [inheritance](javascript:call_link\('abeninheritance.htm'\)), OO interfaces are a basis for the [polymorphism](javascript:call_link\('abenpolymorphism_glosry.htm'\) "Glossary Entry") of classes, since a method of an OO interface can behave differently in different classes. [Interface reference variables](javascript:call_link\('abeninterface_ref_variable_glosry.htm'\) "Glossary Entry") allow users to address different classes in the same way. OO interfaces can also be [nested](javascript:call_link\('abeninterface_composition.htm'\)).
 
--   [Defining Interfaces](#@@ITOC@@ABENINTERFAC_1)
--   [Interface Components](#@@ITOC@@ABENINTERFAC_2)
--   [Implementing Interfaces](#@@ITOC@@ABENINTERFAC_3)
--   [Interface Reference Variables](#@@ITOC@@ABENINTERFAC_4)
--   [Accessing Objects Using Interface References](#@@ITOC@@ABENINTERFAC_5)
--   [Accessing the Static Components of Interfaces](#@@ITOC@@ABENINTERFAC_6)
+-   [Defining Interfaces](#abeninterfac-1-------interface-components---@ITOC@@ABENINTERFAC_2)
+-   [Implementing Interfaces](#abeninterfac-3-------interface-reference-variables---@ITOC@@ABENINTERFAC_4)
+-   [Accessing Objects Using Interface References](#abeninterfac-5-------accessing-the-static-components-of-interfaces---@ITOC@@ABENINTERFAC_6)
 
 Defining Interfaces
 

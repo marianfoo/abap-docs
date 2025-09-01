@@ -19,8 +19,7 @@ The following tables show all possible data sources of all available [CDS entiti
 
 Content:
 
--   [Data Sources After FROM](#@@ITOC@@ABENCDS_DATA_SOURCE_MATRIX_1)
--   [Association Targets of CDS Associations](#@@ITOC@@ABENCDS_DATA_SOURCE_MATRIX_2)
+-   [Data Sources After FROM](#abencds-data-source-matrix-1-------association-targets-of-cds-associations---@ITOC@@ABENCDS_DATA_SOURCE_MATRIX_2)
 -   [Association Targets of CDS Compositions](#@@ITOC@@ABENCDS_DATA_SOURCE_MATRIX_3)
 
 Data Sources After FROM   

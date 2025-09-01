@@ -10,9 +10,7 @@ table\_exp - Chainings
 
 [Table expressions](javascript:call_link\('abentable_expressions.htm'\)) can be chained with the structure component selector \-, with other table expressions, and with the object component selector \->.
 
--   [Chainings with the Structure Component Selector](#@@ITOC@@ABENTABLE_EXP_CHAINING_1)
-
--   [Chainings with Table Expressions](#@@ITOC@@ABENTABLE_EXP_CHAINING_2)
+-   [Chainings with the Structure Component Selector](#abentable-exp-chaining-1--------chainings-with-table-expressions---@ITOC@@ABENTABLE_EXP_CHAINING_2)
 
 -   [Chainings with the Object Component Selector](#@@ITOC@@ABENTABLE_EXP_CHAINING_3)
 

@@ -7,6 +7,21 @@
 ---
 
 
+
+## 🔗 Complete Source Documentation
+
+**📖 Official Documentation**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+**🏷️ Category**: TYPES
+**🔍 Search Specific Topics**: Use `abap_search query:"types"` for focused results
+**📄 Individual Pages**: All source URLs included in each section below
+
+### 🎯 Quick Navigation
+- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
+- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
+- **Browse by difficulty**: Look for **Difficulty** markers in each section
+
+---
+
 ## ABAP - Keyword Documentation / ABAP - Dictionary / Predefined Data Types in ABAP Dictionary / Attributes of the Predefined Dictionary Types
 
 **Files**: 13 | **Difficulty**: intermediate
@@ -17,6 +32,10 @@ Included pages: 13
 
 
 ### abenddic_builtin_types_prop.htm
+
+> **📖 Official SAP Documentation**: [abenddic_builtin_types_prop.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_prop.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40,7 +59,14 @@ Continue
 [Obsolete Dictionary Types](javascript:call_link\('abenddic_obsolete_types.htm'\))
 
 
+
+**📖 Source**: [abenddic_builtin_types_prop.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_prop.htm)
+
 ### abenddic_builtin_types_general.htm
+
+> **📖 Official SAP Documentation**: [abenddic_builtin_types_general.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_general.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -64,7 +90,14 @@ Continue
 [Character-Like Types and Byte-Like Types](javascript:call_link\('abenddic_character_byte_types.htm'\))
 
 
+
+**📖 Source**: [abenddic_builtin_types_general.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_general.htm)
+
 ### abenddic_builtin_types_int_pack.htm
+
+> **📖 Official SAP Documentation**: [abenddic_builtin_types_int_pack.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_int_pack.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -107,7 +140,14 @@ The specified places are saved in the metadata of a self-defined type and are ev
 -   If a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") has one of the built-in numeric types, the output of a sign must be defined in a [domain](javascript:call_link\('abenddic_domains.htm'\)) so that negative values can be represented.
 
 
+
+**📖 Source**: [abenddic_builtin_types_int_pack.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_int_pack.htm)
+
 ### abenddic_decimal_floating_point.htm
+
+> **📖 Official SAP Documentation**: [abenddic_decimal_floating_point.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_decimal_floating_point.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -240,7 +280,14 @@ Handling in Dynpros
 When a field with character-like dictionary type is used from a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), lowercase letters are transformed to uppercase letters by default. This behavior can be overridden in Screen Painter. Furthermore, [lowercase letters](javascript:call_link\('abenddic_domains_sema.htm'\)) can be preserved for data elements in the semantic attributes of a domain.
 
 
+
+**📖 Source**: [abenddic_decimal_floating_point.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_decimal_floating_point.htm)
+
 ### abenddic_builtin_types_general.htm
+
+> **📖 Official SAP Documentation**: [abenddic_builtin_types_general.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_general.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -264,7 +311,14 @@ Continue
 [Character-Like Types and Byte-Like Types](javascript:call_link\('abenddic_character_byte_types.htm'\))
 
 
+
+**📖 Source**: [abenddic_builtin_types_general.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_general.htm)
+
 ### abenddic_builtin_types_special.htm
+
+> **📖 Official SAP Documentation**: [abenddic_builtin_types_special.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_special.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -291,7 +345,14 @@ Continue
 [Quantity Fields](javascript:call_link\('abenddic_quantity_field.htm'\))
 
 
+
+**📖 Source**: [abenddic_builtin_types_special.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_special.htm)
+
 ### abenddic_date_time_types.htm
+
+> **📖 Official SAP Documentation**: [abenddic_date_time_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_date_time_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -324,7 +385,14 @@ Notes
 -   When a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") is represented with reference to the type ACCP (but not in the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\))) and there is enough output length, a point is inserted between the year YYYY and the month MM.
 
 
+
+**📖 Source**: [abenddic_date_time_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_date_time_types.htm)
+
 ### abenddic_special_character_types.htm
+
+> **📖 Official SAP Documentation**: [abenddic_special_character_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_special_character_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -355,7 +423,14 @@ Note
 When the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) are used to represent a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") with the type LANG (and when a field that references this type is formatted), this field has an output length of 2 and is converted automatically from the single-character internal language ID to the matching two-character ISO ID using the [conversion routine](javascript:call_link\('abenconversion_routine_glosry.htm'\) "Glossary Entry") ISOLA (and back).
 
 
+
+**📖 Source**: [abenddic_special_character_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_special_character_types.htm)
+
 ### abenddic_currency_field.htm
+
+> **📖 Official SAP Documentation**: [abenddic_currency_field.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_currency_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -416,7 +491,14 @@ The ABAP type that corresponds to the data type QUAN is p. An ABAP data object d
 The unit defined for a quantity field only plays a part in ABAP programs if it is specified after the addition [UNIT](javascript:call_link\('abapwrite_to_options.htm'\)) of the statement [WRITE *\[*TO*\]*](javascript:call_link\('abapwrite_to.htm'\)).
 
 
+
+**📖 Source**: [abenddic_currency_field.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_currency_field.htm)
+
 ### abenddic_builtin_types_special.htm
+
+> **📖 Official SAP Documentation**: [abenddic_builtin_types_special.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_special.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -443,7 +525,14 @@ Continue
 [Quantity Fields](javascript:call_link\('abenddic_quantity_field.htm'\))
 
 
+
+**📖 Source**: [abenddic_builtin_types_special.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_special.htm)
+
 ### abenddic_obsolete_types.htm
+
+> **📖 Official SAP Documentation**: [abenddic_obsolete_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_obsolete_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -476,7 +565,14 @@ The following predefined data types in ABAP Dictionary are obsolete and should n
 Included pages: 2
 
 
+
+**📖 Source**: [abenddic_obsolete_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_obsolete_types.htm)
+
 ### abenlogic_functions.htm
+
+> **📖 Official SAP Documentation**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogic_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -502,7 +598,14 @@ Continue
 [boolc, boolx, xsdbool - Boolean Functions](javascript:call_link\('abenboole_functions.htm'\))
 
 
+
+**📖 Source**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogic_functions.htm)
+
 ### abenboole_functions.htm
+
+> **📖 Official SAP Documentation**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenboole_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -656,7 +759,14 @@ ENDIF.
 Included pages: 2
 
 
+
+**📖 Source**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenboole_functions.htm)
+
 ### abenobsolete_typing.htm
+
+> **📖 Official SAP Documentation**: [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -674,7 +784,17 @@ Continue
 [LIKE - obsolete](javascript:call_link\('abenlike_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_typing.htm)
+
 ### abenlike_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlike_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlike_obsolete.htm)
+
 
   
 

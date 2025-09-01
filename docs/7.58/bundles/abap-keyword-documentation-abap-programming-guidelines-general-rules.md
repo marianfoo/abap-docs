@@ -3,7 +3,32 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abengeneral_rules_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_rules_gdl.htm)
+- [abenseparation_concerns_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenseparation_concerns_guidl.htm)
+- [abenkiss_principle_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkiss_principle_guidl.htm)
+- [abencorrectness_quality_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorrectness_quality_guidl.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.927Z
+
+---
+
 ### abengeneral_rules_gdl.htm
+
+> **📖 Official SAP Documentation**: [abengeneral_rules_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_rules_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abengeneral_rules_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_rules_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +54,18 @@ Continue
 [Correctness and Quality](javascript:call_link\('abencorrectness_quality_guidl.htm'\))
 
 
+
+**📖 Source**: [abengeneral_rules_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_rules_gdl.htm)
+
 ### abenseparation_concerns_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenseparation_concerns_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenseparation_concerns_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenseparation_concerns_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenseparation_concerns_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -294,7 +330,18 @@ At first glance, the above source code appears to be very excessive compared to 
 In addition, the individual steps are now wrapped in classes, in other words, real program units (unlike in the second source code). In practice, wrapping is not performed in one single program, but in global classes that are assigned to different packages, depending on the layer. These packages are connected to each other using package interfaces. It is only by using these interfaces that you can achieve the other benefits of separating the concerns (in addition to the testing capability achieved in the second source code).
 
 
+
+**📖 Source**: [abenseparation_concerns_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenseparation_concerns_guidl.htm)
+
 ### abenkiss_principle_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenkiss_principle_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkiss_principle_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenkiss_principle_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkiss_principle_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -354,7 +401,21 @@ The figure below shows the structure of a method that does not follow the KISS p
 The result is illustrated on the right of the figure. By splitting the method M into three methods, each with less than 100 statements and a maximum nesting depth of 5 levels, manageable modularization units were created, which follow the rules for [complexity](javascript:call_link\('abencomplexity_gdl.htm'\)), and allow the required modification to be made. Ideally, however, the state shown on the left side of the figure should never occur.
 
 
+
+**📖 Source**: [abenkiss_principle_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkiss_principle_guidl.htm)
+
 ### abencorrectness_quality_guidl.htm
+
+> **📖 Official SAP Documentation**: [abencorrectness_quality_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorrectness_quality_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencorrectness_quality_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorrectness_quality_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencorrectness_quality_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorrectness_quality_guidl.htm)
+
 
   
 

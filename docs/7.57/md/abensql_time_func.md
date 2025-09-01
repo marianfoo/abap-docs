@@ -23,8 +23,7 @@ Functions for TIMS
 
 2\. ... TIMS\_IS\_VALID( time ) ...
 
--   [Generic Time Functions](#@@ITOC@@ABENSQL_TIME_FUNC_1)
--   [Functions for TIMS](#@@ITOC@@ABENSQL_TIME_FUNC_2)
+-   [Generic Time Functions](#abensql-time-func-1-------functions-for-tims---@ITOC@@ABENSQL_TIME_FUNC_2)
 
 Effect
 

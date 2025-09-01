@@ -8,9 +8,7 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Strict Mode in Release 7.52
 
--   [Conditions for the Strict Mode](#@@ITOC@@ABENOPENSQL_STRICT_MODE_752_1)
-
--   [Rules for the Strict Mode](#@@ITOC@@ABENOPENSQL_STRICT_MODE_752_2)
+-   [Conditions for the Strict Mode](#abenopensql-strict-mode-752-1--------rules-for-the-strict-mode---@ITOC@@ABENOPENSQL_STRICT_MODE_752_2)
 
 Conditions for the Strict Mode
 

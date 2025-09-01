@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_enhancements.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_enhancements.htm)
+- [abenddic_customizing_includes.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_customizing_includes.htm)
+- [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_append_structures.htm)
+- [abenddic_append_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_append_views.htm)
+- [abenddic_fixed_value_appends.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_fixed_value_appends.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.373Z
+
+---
+
 ### abenddic_enhancements.htm
+
+> **📖 Official SAP Documentation**: [abenddic_enhancements.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_enhancements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40,7 +62,14 @@ Continue
 [Fixed Value Appends](javascript:call_link\('abenddic_fixed_value_appends.htm'\))
 
 
+
+**📖 Source**: [abenddic_enhancements.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_enhancements.htm)
+
 ### abenddic_customizing_includes.htm
+
+> **📖 Official SAP Documentation**: [abenddic_customizing_includes.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_customizing_includes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59,7 +88,14 @@ A customizing include can be included in multiple database tables or structures.
 Enhancements of a delivered structure or database table using a customizing include are not modifications. If a customizing include is used to add fields to a database table or structure in the standard system, these fields are inserted automatically in the new structure or database table delivered by SAP in an upgrade.
 
 
+
+**📖 Source**: [abenddic_customizing_includes.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_customizing_includes.htm)
+
 ### abenddic_append_structures.htm
+
+> **📖 Official SAP Documentation**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_append_structures.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -100,7 +136,14 @@ Note
 The same structure can be appended to multiple database tables or structures by including it in the individual append structures as an include structure.
 
 
+
+**📖 Source**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_append_structures.htm)
+
 ### abenddic_append_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_append_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_append_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -131,7 +174,17 @@ Example
 The database view DEMO\_ORIGINAL is enhanced using the append view DEMO\_APPEND\_VIEW. The program DEMO\_APPEND\_VIEW uses [SELECT](javascript:call_link\('abapselect.htm'\)) to access the enhanced view and also displays the components of the structures in question.
 
 
+
+**📖 Source**: [abenddic_append_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_append_views.htm)
+
 ### abenddic_fixed_value_appends.htm
+
+> **📖 Official SAP Documentation**: [abenddic_fixed_value_appends.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_fixed_value_appends.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_fixed_value_appends.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_fixed_value_appends.htm)
+
 
   
 

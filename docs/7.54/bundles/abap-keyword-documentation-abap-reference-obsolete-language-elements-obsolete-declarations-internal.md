@@ -3,7 +3,30 @@
 Included pages: 9
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenitab_declare_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_declare_obsolete.htm)
+- [abaptypes_occurs.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_occurs.htm)
+- [abapdata_occurs.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_occurs.htm)
+- [abaptable_line.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptable_line.htm)
+- [abenitab_header_line.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_header_line.htm)
+- [abapranges.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapranges.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.951Z
+
+---
+
 ### abenitab_declare_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenitab_declare_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_declare_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30,7 +53,14 @@ Continue
 [Internal Tables with Header Line](javascript:call_link\('abenitab_header_line.htm'\))
 
 
+
+**📖 Source**: [abenitab_declare_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_declare_obsolete.htm)
+
 ### abaptypes_occurs.htm
+
+> **📖 Official SAP Documentation**: [abaptypes_occurs.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_occurs.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59,7 +89,14 @@ TYPES dtype *{* *{*TYPE STANDARD TABLE OF *\[*REF TO*\]* type*}*
             INITIAL SIZE n.
 
 
+
+**📖 Source**: [abaptypes_occurs.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_occurs.htm)
+
 ### abapdata_occurs.htm
+
+> **📖 Official SAP Documentation**: [abapdata_occurs.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_occurs.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -92,7 +129,14 @@ DATA itab *{* *{*TYPE STANDARD TABLE OF *\[*REF TO*\]* type*}*
 The use of the addition [WITH HEADER LINE](javascript:call_link\('abapdata_header_line.htm'\)) is obsolete
 
 
+
+**📖 Source**: [abapdata_occurs.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_occurs.htm)
+
 ### abaptable_line.htm
+
+> **📖 Official SAP Documentation**: [abaptable_line.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptable_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -127,7 +171,14 @@ Good Example
 TYPES itab TYPE SORTED TABLE OF i WITH UNIQUE KEY table\_line.
 
 
+
+**📖 Source**: [abaptable_line.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptable_line.htm)
+
 ### abenitab_header_line.htm
+
+> **📖 Official SAP Documentation**: [abenitab_header_line.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_header_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -175,7 +226,14 @@ Effect
 The VALID BETWEEN addition of the DATA END OF statement is only important if the internal table is to be processed using the obsolete form of the statement [PROVIDE](javascript:call_link\('abapprovide_obsolete.htm'\)). intlim1 and intlim2 expect columns from the internal table of the data type d, i, n, or t. These columns are used implicitly as interval limits in their obsolete form of the statement PROVIDE.
 
 
+
+**📖 Source**: [abenitab_header_line.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_header_line.htm)
+
 ### abapranges.htm
+
+> **📖 Official SAP Documentation**: [abapranges.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapranges.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -213,7 +271,17 @@ Notes
 -   The sign and option columns of a ranges table declared using RANGES are not related to data types in ABAP Dictionary. For a ranges table defined in ABAP Dictionary, these columns are based on the data elements DDSIGN and DDOPTION.
 
 
+
+**📖 Source**: [abapranges.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapranges.htm)
+
 ### abenitab_header_line.htm
+
+> **📖 Official SAP Documentation**: [abenitab_header_line.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_header_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenitab_header_line.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_header_line.htm)
+
 
   
 

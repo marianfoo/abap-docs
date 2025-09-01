@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapset_hold_data.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_hold_data.htm)
+- [abendynpro_hold_data_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_hold_data_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.951Z
+
+---
+
 ### abapset_hold_data.htm
+
+> **📖 Official SAP Documentation**: [abapset_hold_data.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_hold_data.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50,7 +69,17 @@ Continue
 ![Example](exa.gif "Example") [dynpro - Holding Data](javascript:call_link\('abendynpro_hold_data_abexa.htm'\))
 
 
+
+**📖 Source**: [abapset_hold_data.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_hold_data.htm)
+
 ### abendynpro_hold_data_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_hold_data_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_hold_data_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abendynpro_hold_data_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_hold_data_abexa.htm)
+
 
   
 

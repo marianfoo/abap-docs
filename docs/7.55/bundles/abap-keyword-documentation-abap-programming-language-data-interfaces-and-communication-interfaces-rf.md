@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_abexas.htm)
+- [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_parameters_abexa.htm)
+- [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_exceptions_abexa.htm)
+- [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenparallel_rfc_abexa.htm)
+- [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_dynamic_dest_abexa.htm)
+- [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_logon_data_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.736Z
+
+---
+
 ### abenrfc_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23,7 +46,14 @@ Continue
 ![Example](exa.gif "Example") [RFC - Implicit Logon Data](javascript:call_link\('abenrfc_logon_data_abexa.htm'\))
 
 
+
+**📖 Source**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_abexas.htm)
+
 ### abenrfc_parameters_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_parameters_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -131,7 +161,14 @@ The function module DEMO\_RFM\_PARAMETERS is called using [synchronous](javascri
 -   In asynchronous calls, parameters can only be passed in the statement CALL FUNCTION. Parameters are applied using the statement [RECEIVE](javascript:call_link\('abapreceive.htm'\)) in a callback routine. The statement [WAIT FOR ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_arfc.htm'\)) is used to wait for this routine.
 
 
+
+**📖 Source**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_parameters_abexa.htm)
+
 ### abenrfc_exceptions_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_exceptions_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -183,7 +220,14 @@ The DEMO\_RFM\_CLASSIC\_EXCEPTION function module raises the non-class-based exc
 When DEMO\_RFM\_CLASSIC\_EXCEPTION is called, EXCEPTIONS is specified and values for sy-subrc are assigned to the possible classic exceptions. If none of the predefined RFC interface exceptions are raised, sy-subrc is set to 3.
 
 
+
+**📖 Source**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_exceptions_abexa.htm)
+
 ### abenparallel_rfc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenparallel_rfc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -285,7 +329,14 @@ The addition GROUP DEFAULT is used to distribute the execution across all [AS in
 After all function modules have been started, the system waits until all callback routines have been executed. After that, the internal table task\_list filled there is produced. The output shows the order in which the individual tasks were completed and on which AS instance.
 
 
+
+**📖 Source**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenparallel_rfc_abexa.htm)
+
 ### abenrfc_dynamic_dest_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_dynamic_dest_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -365,7 +416,17 @@ Description
 The method CREATE\_RFC\_DESTINATION of class CL\_DYNAMIC\_DESTINATION is used to create a [dynamic destination](javascript:call_link\('abenrfc_destination.htm'\)). Input values, whose default values are determined from system fields for the current AS ABAP, are passed as parameters. A remote-enabled function module is called using the dynamic destination. The call is only successful if the destination is created correctly.
 
 
+
+**📖 Source**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_dynamic_dest_abexa.htm)
+
 ### abenrfc_logon_data_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_logon_data_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_logon_data_abexa.htm)
+
 
   
 

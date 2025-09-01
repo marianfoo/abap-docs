@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_calc_quan.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calc_quan.htm)
+- [abencds_amount_field.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_amount_field.htm)
+- [abencds_quantity_field.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_quantity_field.htm)
+- [abencds_calculated_quantity.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.191Z
+
+---
+
 ### abencds_calc_quan.htm
+
+> **📖 Official SAP Documentation**: [abencds_calc_quan.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calc_quan.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34,7 +55,14 @@ Continue
 [ABAP CDS - Calculated Quantity with Calculated Unit](javascript:call_link\('abencds_calculated_quantity.htm'\))
 
 
+
+**📖 Source**: [abencds_calc_quan.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calc_quan.htm)
+
 ### abencds_amount_field.htm
+
+> **📖 Official SAP Documentation**: [abencds_amount_field.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_amount_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -87,7 +115,14 @@ Hints
 -   Currencies are handled as specified by the data saved in the database tables TCUR... of the package SFIB. The exchange rates and other settings can be maintained in transaction OB08.
 
 
+
+**📖 Source**: [abencds_amount_field.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_amount_field.htm)
+
 ### abencds_quantity_field.htm
+
+> **📖 Official SAP Documentation**: [abencds_quantity_field.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_quantity_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -136,7 +171,17 @@ Hints
 -   Quantities and units are handled as specified by the data saved in the DDIC database tables T006... in the package SZME. This data can be maintained using the transaction CUNI.
 
 
+
+**📖 Source**: [abencds_quantity_field.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_quantity_field.htm)
+
 ### abencds_calculated_quantity.htm
+
+> **📖 Official SAP Documentation**: [abencds_calculated_quantity.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_calculated_quantity.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity.htm)
+
 
   
 

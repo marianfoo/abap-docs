@@ -13,10 +13,8 @@ C0 Contract Rules for Providers of CDS Entities
 
 Currently, [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"), [CDS projection views](javascript:call_link\('abencds_projection_view_glosry.htm'\) "Glossary Entry"), [CDS abstract entities](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry"), and [CDS custom entities](javascript:call_link\('abencds_custom_entity_glosry.htm'\) "Glossary Entry") can be released under the C0 contract for extensibility. The following sections show the most important C0 contract rules for these entities.
 
--   [Prerequisites for a C0 Release](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_1)
--   [Stability Rules After Release](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_2)
--   [Restrictions](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_3)
--   [Example Topics](#@@ITOC@@ABENC0_PROVIDER_RULES_CDS_4)
+-   [Prerequisites for a C0 Release](#abenc0-provider-rules-cds-1-------stability-rules-after-release---@ITOC@@ABENC0_PROVIDER_RULES_CDS_2)
+-   [Restrictions](#abenc0-provider-rules-cds-3-------example-topics---@ITOC@@ABENC0_PROVIDER_RULES_CDS_4)
 
 Prerequisites for a C0 Release   
 

@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapmessage.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage.htm)
+- [abapmessage_msg.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_msg.htm)
+- [abapmessage_text.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_text.htm)
+- [abapmessage_into.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_into.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.769Z
+
+---
+
 ### abapmessage.htm
+
+> **📖 Official SAP Documentation**: [abapmessage.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -164,7 +185,14 @@ Continue
 [MESSAGE, INTO](javascript:call_link\('abapmessage_into.htm'\))
 
 
+
+**📖 Source**: [abapmessage.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage.htm)
+
 ### abapmessage_msg.htm
+
+> **📖 Official SAP Documentation**: [abapmessage_msg.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_msg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -339,7 +367,14 @@ Executable Examples
 -   [System Interface IF\_T100\_MESSAGE in a Global Exception Class](javascript:call_link\('abenmessage_interface_global_abexa.htm'\))
 
 
+
+**📖 Source**: [abapmessage_msg.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_msg.htm)
+
 ### abapmessage_text.htm
+
+> **📖 Official SAP Documentation**: [abapmessage_text.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_text.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -383,7 +418,17 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abapmessage_text.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_text.htm)
+
 ### abapmessage_into.htm
+
+> **📖 Official SAP Documentation**: [abapmessage_into.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_into.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapmessage_into.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_into.htm)
+
 
   
 

@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninterfaces.htm)
+- [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces.htm)
+- [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces_class.htm)
+- [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces_ifac.htm)
+- [abapaliases.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapaliases.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.245Z
+
+---
+
 ### abeninterfaces.htm
+
+> **📖 Official SAP Documentation**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35,7 +57,14 @@ Continue
 [ALIASES](javascript:call_link\('abapaliases.htm'\))
 
 
+
+**📖 Source**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninterfaces.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -73,7 +102,14 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces.htm)
+
 ### abapinterfaces_class.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -283,7 +319,14 @@ START-OF-SELECTION.
   cl\_demo\_output=>display( |{ cls=>attr1 } { cls=>attr2 }| ).
 
 
+
+**📖 Source**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces_class.htm)
+
 ### abapinterfaces_ifac.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces_ifac.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -353,7 +396,14 @@ START-OF-SELECTION.
   iref1->m1( ).
 
 
+
+**📖 Source**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces_ifac.htm)
+
 ### abapinterfaces.htm
+
+> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -391,7 +441,17 @@ Continue
 [INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
 
 
+
+**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces.htm)
+
 ### abapaliases.htm
+
+> **📖 Official SAP Documentation**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapaliases.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapaliases.htm)
+
 
   
 

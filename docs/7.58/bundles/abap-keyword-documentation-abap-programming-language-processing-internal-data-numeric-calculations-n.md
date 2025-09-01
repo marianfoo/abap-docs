@@ -3,7 +3,39 @@
 Included pages: 12
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenmathematical_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmathematical_functions.htm)
+- [abennumerical_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_functions.htm)
+- [abenpower_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpower_function.htm)
+- [abennmax_nmin_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennmax_nmin_functions.htm)
+- [abenfloating_point_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfloating_point_functions.htm)
+- [abendec_floating_point_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendec_floating_point_functions.htm)
+- [abennumerical_functions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_functions_abexas.htm)
+- [abenmath_func_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmath_func_abexa.htm)
+- [abenipow_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenipow_function_abexa.htm)
+- [abennmax_nmin_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennmax_nmin_function_abexa.htm)
+- [abenround_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenround_function_abexa.htm)
+
+**Bundle Contains**: 11 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.990Z
+
+---
+
 ### abenmathematical_functions.htm
+
+> **📖 Official SAP Documentation**: [abenmathematical_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmathematical_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenmathematical_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmathematical_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46,7 +78,18 @@ Continue
 [num\_func - Examples](javascript:call_link\('abennumerical_functions_abexas.htm'\))
 
 
+
+**📖 Source**: [abenmathematical_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmathematical_functions.htm)
+
 ### abennumerical_functions.htm
+
+> **📖 Official SAP Documentation**: [abennumerical_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennumerical_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -132,7 +175,18 @@ Executable Example
 [Numeric Functions](javascript:call_link\('abenmath_func_abexa.htm'\))
 
 
+
+**📖 Source**: [abennumerical_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_functions.htm)
+
 ### abenpower_function.htm
+
+> **📖 Official SAP Documentation**: [abenpower_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpower_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenpower_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpower_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -179,7 +233,18 @@ Executable Example
 [Power Function ipow](javascript:call_link\('abenipow_function_abexa.htm'\))
 
 
+
+**📖 Source**: [abenpower_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpower_function.htm)
+
 ### abennmax_nmin_functions.htm
+
+> **📖 Official SAP Documentation**: [abennmax_nmin_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennmax_nmin_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennmax_nmin_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennmax_nmin_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -243,7 +308,18 @@ Executable Example
 [Extremum Functions nmax, nmin](javascript:call_link\('abennmax_nmin_function_abexa.htm'\))
 
 
+
+**📖 Source**: [abennmax_nmin_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennmax_nmin_functions.htm)
+
 ### abenfloating_point_functions.htm
+
+> **📖 Official SAP Documentation**: [abenfloating_point_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfloating_point_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfloating_point_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfloating_point_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -403,7 +479,18 @@ CX\_SY\_ARG\_OUT\_OF\_DOMAIN
     Runtime error: COMPUTE\_TAN\_DOMAIN
 
 
+
+**📖 Source**: [abenfloating_point_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfloating_point_functions.htm)
+
 ### abendec_floating_point_functions.htm
+
+> **📖 Official SAP Documentation**: [abendec_floating_point_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendec_floating_point_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendec_floating_point_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendec_floating_point_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -934,7 +1021,18 @@ Precision
 12
 
 
+
+**📖 Source**: [abendec_floating_point_functions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendec_floating_point_functions.htm)
+
 ### abennumerical_functions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abennumerical_functions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_functions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennumerical_functions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_functions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -960,7 +1058,18 @@ Continue
 ![Example](exa.gif "Example") [num\_func - Rounding Function round](javascript:call_link\('abenround_function_abexa.htm'\))
 
 
+
+**📖 Source**: [abennumerical_functions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_functions_abexas.htm)
+
 ### abenmath_func_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmath_func_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmath_func_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenmath_func_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmath_func_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1011,7 +1120,18 @@ Description  
 The output of the class shows how each of the general numeric functions affects the number -5.55.
 
 
+
+**📖 Source**: [abenmath_func_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmath_func_abexa.htm)
+
 ### abenipow_function_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenipow_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenipow_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenipow_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenipow_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1061,7 +1181,18 @@ Description  
 The class demonstrates that the integer power function ipow can be used to achieve more precise results than with the [arithmetic operator \*\*](javascript:call_link\('abenarith_operators.htm'\)). In the cases shown here, the operator \*\* produces the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") f. If ipow is used, the calculation type is determined by the arguments arg1 and arg2.
 
 
+
+**📖 Source**: [abenipow_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenipow_function_abexa.htm)
+
 ### abennmax_nmin_function_abexa.htm
+
+> **📖 Official SAP Documentation**: [abennmax_nmin_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennmax_nmin_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennmax_nmin_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennmax_nmin_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1135,7 +1266,18 @@ Description  
 This class determines the minimum or maximum value of a parabola opened up or down and whose parameters can be entered on the selection screen.
 
 
+
+**📖 Source**: [abennmax_nmin_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennmax_nmin_function_abexa.htm)
+
 ### abenround_function_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenround_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenround_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenround_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenround_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1243,7 +1385,21 @@ Description  
 For fraction numbers between 1 and -1, the class depicts the effect of all rounding types from the class CL\_ABAP\_MATH in the rounding function [round](javascript:call_link\('abendec_floating_point_functions.htm'\)). The class reads the possible rounding methods using RTTI and sorts them by name.
 
 
+
+**📖 Source**: [abenround_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenround_function_abexa.htm)
+
 ### abennumerical_functions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abennumerical_functions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_functions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennumerical_functions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_functions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennumerical_functions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_functions_abexas.htm)
+
 
   
 

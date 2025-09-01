@@ -3,7 +3,30 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_field_symbols.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_field_symbols.htm)
+- [abapfield-symbols.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfield-symbols.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.954Z
+
+---
+
 ### abenabap_field_symbols.htm
+
+> **📖 Official SAP Documentation**: [abenabap_field_symbols.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_field_symbols.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_field_symbols.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_field_symbols.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36,7 +59,21 @@ Continue
 [FIELD-SYMBOLS](javascript:call_link\('abapfield-symbols.htm'\))
 
 
+
+**📖 Source**: [abenabap_field_symbols.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_field_symbols.htm)
+
 ### abapfield-symbols.htm
+
+> **📖 Official SAP Documentation**: [abapfield-symbols.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfield-symbols.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapfield-symbols.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfield-symbols.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapfield-symbols.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfield-symbols.htm)
+
 
   
 

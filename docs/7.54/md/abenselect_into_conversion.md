@@ -10,9 +10,7 @@ SELECT - Assignment Rules
 
 The following assignment rules apply to assignments of the result fields of the results set of a standalone [SELECT](javascript:call_link\('abapselect.htm'\)), [WITH](javascript:call_link\('abapwith.htm'\)), or [FETCH](javascript:call_link\('abapfetch.htm'\)) statement to the target fields defined in the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause.
 
--   [Prerequisites](#@@ITOC@@ABENSELECT_INTO_CONVERSION_1)
-
--   [Rules](#@@ITOC@@ABENSELECT_INTO_CONVERSION_2)
+-   [Prerequisites](#abenselect-into-conversion-1--------rules---@ITOC@@ABENSELECT_INTO_CONVERSION_2)
 
 Prerequisites
 

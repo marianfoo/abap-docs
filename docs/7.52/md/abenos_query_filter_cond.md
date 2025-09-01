@@ -10,13 +10,9 @@ Query Conditions
 
 A query condition is a logical expression that compares the attributes of a persistent class with free parameters or values. The syntax of a query condition is based on the syntax of the Open SQL WHERE condition, where reference variables for object references are also supported. Like a WHERE condition, a query condition is made up of elementary comparisons that can be joined using the Boolean operators AND, OR, and NOT, where grouping using parentheses is supported.
 
--   [Relational Operators](#@@ITOC@@ABENOS_QUERY_FILTER_COND_1)
+-   [Relational Operators](#abenos-query-filter-cond-1--------like---@ITOC@@ABENOS_QUERY_FILTER_COND_2)
 
--   [LIKE](#@@ITOC@@ABENOS_QUERY_FILTER_COND_2)
-
--   [IS NULL](#@@ITOC@@ABENOS_QUERY_FILTER_COND_3)
-
--   [EQUALSREF](#@@ITOC@@ABENOS_QUERY_FILTER_COND_4)
+-   [IS NULL](#abenos-query-filter-cond-3--------equalsref---@ITOC@@ABENOS_QUERY_FILTER_COND_4)
 
 -   [AND, OR, NOT](#@@ITOC@@ABENOS_QUERY_FILTER_COND_5)
 

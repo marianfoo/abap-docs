@@ -3,7 +3,28 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_methods.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_methods.htm)
+- [abapmethod.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod.htm)
+- [abapmethod_kernel_module_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod_kernel_module_internal.htm)
+- [abapendmethod.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendmethod.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.509Z
+
+---
+
 ### abenabap_methods.htm
+
+> **📖 Official SAP Documentation**: [abenabap_methods.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_methods.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32,7 +53,14 @@ Continue
 [ENDMETHOD](javascript:call_link\('abapendmethod.htm'\))
 
 
+
+**📖 Source**: [abenabap_methods.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_methods.htm)
+
 ### abapmethod.htm
+
+> **📖 Official SAP Documentation**: [abapmethod.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -95,7 +123,14 @@ Continue
 [METHOD - Internal Additions](javascript:call_link\('abapmethod_kernel_module_internal.htm'\))
 
 
+
+**📖 Source**: [abapmethod.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod.htm)
+
 ### abapmethod_kernel_module_internal.htm
+
+> **📖 Official SAP Documentation**: [abapmethod_kernel_module_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod_kernel_module_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -125,7 +160,14 @@ Note
 In global classes, the addition must be entered directly in the source code editor in Class Builder and is not specified under the properties of the method there.
 
 
+
+**📖 Source**: [abapmethod_kernel_module_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod_kernel_module_internal.htm)
+
 ### abapmethod.htm
+
+> **📖 Official SAP Documentation**: [abapmethod.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -188,7 +230,17 @@ Continue
 [METHOD - Internal Additions](javascript:call_link\('abapmethod_kernel_module_internal.htm'\))
 
 
+
+**📖 Source**: [abapmethod.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod.htm)
+
 ### abapendmethod.htm
+
+> **📖 Official SAP Documentation**: [abapendmethod.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendmethod.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapendmethod.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendmethod.htm)
+
 
   
 

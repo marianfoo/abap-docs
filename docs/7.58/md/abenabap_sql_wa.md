@@ -17,8 +17,7 @@ If any of the ABAP SQL statements listed below specify work areas wa or internal
 
 If these prerequisites are ignored, a syntax error occurs or an exception is raised.
 
--   [Regular Work Areas](#@@ITOC@@ABENABAP_SQL_WA_1)
--   [LOB Handle Structures](#@@ITOC@@ABENABAP_SQL_WA_2)
+-   [Regular Work Areas](#abenabap-sql-wa-1-------lob-handle-structures---@ITOC@@ABENABAP_SQL_WA_2)
 
 Regular Work Areas   
 

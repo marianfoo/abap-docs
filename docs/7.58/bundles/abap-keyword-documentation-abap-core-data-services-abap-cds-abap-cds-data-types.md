@@ -3,7 +3,37 @@
 Included pages: 12
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_data_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_data_types.htm)
+- [abencds_builtin_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_builtin_types.htm)
+- [abencds_overview_builtin_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_overview_builtin_types.htm)
+- [aben_cds_special_data_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/aben_cds_special_data_types.htm)
+- [abencds_calc_quan.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calc_quan.htm)
+- [abencds_amount_field.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_amount_field.htm)
+- [abencds_quantity_field.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_quantity_field.htm)
+- [abencds_calculated_quantity.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calculated_quantity.htm)
+- [abencds_user_defined_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_user_defined_types.htm)
+
+**Bundle Contains**: 9 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.907Z
+
+---
+
 ### abencds_data_types.htm
+
+> **📖 Official SAP Documentation**: [abencds_data_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_data_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_data_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_data_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +59,18 @@ Continue
 [ABAP CDS - User-Defined Data Types](javascript:call_link\('abencds_user_defined_types.htm'\))
 
 
+
+**📖 Source**: [abencds_data_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_data_types.htm)
+
 ### abencds_builtin_types.htm
+
+> **📖 Official SAP Documentation**: [abencds_builtin_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_builtin_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_builtin_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_builtin_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52,7 +93,18 @@ Continue
 [ABAP CDS - Overview of Built-In DDIC Types That Can Be Used in ABAP CDS](javascript:call_link\('abencds_overview_builtin_types.htm'\))
 
 
+
+**📖 Source**: [abencds_builtin_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_builtin_types.htm)
+
 ### abencds_overview_builtin_types.htm
+
+> **📖 Official SAP Documentation**: [abencds_overview_builtin_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_overview_builtin_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_overview_builtin_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_overview_builtin_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -354,7 +406,18 @@ len and dec must be used to specify values for the length and decimal places of 
 In [CDS simple types](javascript:call_link\('abencds_simple_type_glosry.htm'\) "Glossary Entry"), all of the data types listed above can be used for [typing](javascript:call_link\('abencds_define_simple_type.htm'\)) except for abap.accp and abap.fltp. The data type abap.accp is deprecated. Instead of abap.fltp, a [decimal floating point number type](javascript:call_link\('abendecfloat_type_glosry.htm'\) "Glossary Entry") can be used.
 
 
+
+**📖 Source**: [abencds_overview_builtin_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_overview_builtin_types.htm)
+
 ### abencds_builtin_types.htm
+
+> **📖 Official SAP Documentation**: [abencds_builtin_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_builtin_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_builtin_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_builtin_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -377,7 +440,18 @@ Continue
 [ABAP CDS - Overview of Built-In DDIC Types That Can Be Used in ABAP CDS](javascript:call_link\('abencds_overview_builtin_types.htm'\))
 
 
+
+**📖 Source**: [abencds_builtin_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_builtin_types.htm)
+
 ### aben_cds_special_data_types.htm
+
+> **📖 Official SAP Documentation**: [aben_cds_special_data_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/aben_cds_special_data_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [aben_cds_special_data_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/aben_cds_special_data_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -397,7 +471,18 @@ Continue
 [ABAP CDS - Amounts and Quantities](javascript:call_link\('abencds_calc_quan.htm'\))
 
 
+
+**📖 Source**: [aben_cds_special_data_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/aben_cds_special_data_types.htm)
+
 ### abencds_calc_quan.htm
+
+> **📖 Official SAP Documentation**: [abencds_calc_quan.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calc_quan.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_calc_quan.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calc_quan.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -427,7 +512,18 @@ Continue
 [ABAP CDS - Calculated Quantity with Calculated Unit](javascript:call_link\('abencds_calculated_quantity.htm'\))
 
 
+
+**📖 Source**: [abencds_calc_quan.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calc_quan.htm)
+
 ### abencds_amount_field.htm
+
+> **📖 Official SAP Documentation**: [abencds_amount_field.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_amount_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_amount_field.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_amount_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -479,7 +575,18 @@ Hints
 -   Currencies are handled as specified by the data saved in the database tables TCUR... of the package SFIB. The exchange rates and other settings can be maintained in transaction OB08.
 
 
+
+**📖 Source**: [abencds_amount_field.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_amount_field.htm)
+
 ### abencds_quantity_field.htm
+
+> **📖 Official SAP Documentation**: [abencds_quantity_field.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_quantity_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_quantity_field.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_quantity_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -527,7 +634,18 @@ Hints
 -   Quantities and units are handled as specified by the data saved in the DDIC database tables T006... in the package SZME. This data can be maintained using the transaction CUNI.
 
 
+
+**📖 Source**: [abencds_quantity_field.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_quantity_field.htm)
+
 ### abencds_calculated_quantity.htm
+
+> **📖 Official SAP Documentation**: [abencds_calculated_quantity.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calculated_quantity.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_calculated_quantity.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calculated_quantity.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -593,7 +711,18 @@ define view entity DEMO\_CDS\_CALCULATED\_QUANTITY
 The class CL\_DEMO\_CDS\_CALCULATED\_QUNTTY accesses the view, inserts values into the underlying database table, and displays the result.
 
 
+
+**📖 Source**: [abencds_calculated_quantity.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calculated_quantity.htm)
+
 ### abencds_calc_quan.htm
+
+> **📖 Official SAP Documentation**: [abencds_calc_quan.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calc_quan.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_calc_quan.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calc_quan.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -623,7 +752,18 @@ Continue
 [ABAP CDS - Calculated Quantity with Calculated Unit](javascript:call_link\('abencds_calculated_quantity.htm'\))
 
 
+
+**📖 Source**: [abencds_calc_quan.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calc_quan.htm)
+
 ### aben_cds_special_data_types.htm
+
+> **📖 Official SAP Documentation**: [aben_cds_special_data_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/aben_cds_special_data_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [aben_cds_special_data_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/aben_cds_special_data_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -643,7 +783,21 @@ Continue
 [ABAP CDS - Amounts and Quantities](javascript:call_link\('abencds_calc_quan.htm'\))
 
 
+
+**📖 Source**: [aben_cds_special_data_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/aben_cds_special_data_types.htm)
+
 ### abencds_user_defined_types.htm
+
+> **📖 Official SAP Documentation**: [abencds_user_defined_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_user_defined_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_user_defined_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_user_defined_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_user_defined_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_user_defined_types.htm)
+
 
   
 

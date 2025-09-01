@@ -3,7 +3,42 @@
 Included pages: 22
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_behavior_definitions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm)
+- [abencds_f1_bdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm)
+- [abenabap_bdl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm)
+- [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm)
+- [abenbdl_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_general_syntax_rules.htm)
+- [abenbdl_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_structure.htm)
+- [abenbdl_language_elements.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_language_elements.htm)
+- [abenbdl_implementation.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm)
+- [abenbdl_define_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm)
+- [abenbdl_alias.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm)
+- [abenbdl_in_class_unique.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_in_class_unique.htm)
+- [abenbdl_late_numbering.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm)
+- [abenbdl_etag.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_etag.htm)
+- [abenbdl_lock.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm)
+- [abenbdl_field.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_field.htm)
+- [abenbdl_standard_operations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm)
+- [abenbdl_action.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm)
+- [abenbdl_association.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_association.htm)
+
+**Bundle Contains**: 18 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.655Z
+
+---
+
 ### abencds_behavior_definitions.htm
+
+> **📖 Official SAP Documentation**: [abencds_behavior_definitions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39,7 +74,14 @@ Continue
 [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\))
 
 
+
+**📖 Source**: [abencds_behavior_definitions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm)
+
 ### abencds_f1_bdl_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_bdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57,7 +99,14 @@ Continue
 [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_bdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm)
+
 ### abenabap_bdl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_bdl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -87,7 +136,14 @@ Continue
 [CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\))
 
 
+
+**📖 Source**: [abenabap_bdl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm)
+
 ### abenbdl_syntax.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -109,7 +165,14 @@ Continue
 [CDS BDL - Language Elements](javascript:call_link\('abenbdl_language_elements.htm'\))
 
 
+
+**📖 Source**: [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm)
+
 ### abenbdl_general_syntax_rules.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_general_syntax_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -153,7 +216,14 @@ Tip
 It is a good idea to use the same spelling of names as in ABAP CDS.
 
 
+
+**📖 Source**: [abenbdl_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_general_syntax_rules.htm)
+
 ### abenbdl_structure.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_structure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -217,7 +287,14 @@ Rules
 -   If an entity does not occur in the behavior definition, the entity does not have a transactional character (it is read-only).
 
 
+
+**📖 Source**: [abenbdl_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_structure.htm)
+
 ### abenbdl_language_elements.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_language_elements.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_language_elements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -281,7 +358,14 @@ Associations
 [internal](javascript:call_link\('abenbdl_association.htm'\)) Association can be implemented but not consumed.
 
 
+
+**📖 Source**: [abenbdl_language_elements.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_language_elements.htm)
+
 ### abenbdl_syntax.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -303,7 +387,14 @@ Continue
 [CDS BDL - Language Elements](javascript:call_link\('abenbdl_language_elements.htm'\))
 
 
+
+**📖 Source**: [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm)
+
 ### abenbdl_implementation.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_implementation.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -359,7 +450,14 @@ define behavior for /DMO/I\_Travel alias Travel
 }
 
 
+
+**📖 Source**: [abenbdl_implementation.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm)
+
 ### abenbdl_define_behavior.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_define_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -430,7 +528,14 @@ Continue
 [CDS BDL - DEFINE BEHAVIOR, association](javascript:call_link\('abenbdl_association.htm'\))
 
 
+
+**📖 Source**: [abenbdl_define_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm)
+
 ### abenbdl_alias.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_alias.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -473,7 +578,14 @@ define behavior for /DMO/I\_Travel alias Travel
 }
 
 
+
+**📖 Source**: [abenbdl_alias.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm)
+
 ### abenbdl_in_class_unique.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_in_class_unique.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_in_class_unique.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -518,7 +630,14 @@ Effect of specifying in class ClassName unique:
 -   An operation (a [standard operation](javascript:call_link\('abenbdl_standard_operations.htm'\)) or an [action](javascript:call_link\('abenbdl_action.htm'\))) must not be implemented multiple times in different [handler classes](javascript:call_link\('abenabp_handler_class.htm'\)). Each operation on an entity can be implemented no more than once
 
 
+
+**📖 Source**: [abenbdl_in_class_unique.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_in_class_unique.htm)
+
 ### abenbdl_late_numbering.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_late_numbering.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -567,7 +686,14 @@ late numbering
 }
 
 
+
+**📖 Source**: [abenbdl_late_numbering.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm)
+
 ### abenbdl_etag.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_etag.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_etag.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -622,7 +748,14 @@ etag LastChangedAt
 }
 
 
+
+**📖 Source**: [abenbdl_etag.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_etag.htm)
+
 ### abenbdl_lock.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_lock.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -672,7 +805,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_lock.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm)
+
 ### abenbdl_field.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_field.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -727,7 +867,14 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_field.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_field.htm)
+
 ### abenbdl_standard_operations.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_standard_operations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -779,7 +926,14 @@ lock master
 The transactional behavior of the business object is defined by the standard operations create, update, and delete. These operations are [implemented](javascript:call_link\('abenabap_behavior_pools.htm'\)) in the association [behavior pools](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenbdl_standard_operations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm)
+
 ### abenbdl_action.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_action.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -841,7 +995,14 @@ define behavior for /DMO/I\_Travel alias Travel
 The transactional [behavior](javascript:call_link\('abenrap_bo_behavior_glosry.htm'\) "Glossary Entry") of the [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") travel is defined by the [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\)) create, update, and delete plus one action. The end user can use the action set\_status\_booked to set the status of a trip to booked. The action set\_status\_booked is bound to an instance of the type travel, which in this case is also returned by the action. This means the cardinality equals \[1\] and $self is set as the type of the output parameter.
 
 
+
+**📖 Source**: [abenbdl_action.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm)
+
 ### abenbdl_association.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_association.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_association.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -892,7 +1053,14 @@ define behavior for /DMO/I\_Travel alias Travel
 The association \_Booking specifies that new instances of the child entity Booking can be created for a specific instance of the entity Travel only. The keyword { create; } indicates that this assignment is activated for the standard operation create. Therefore, booking instances can only be created using a travel instance Travel.
 
 
+
+**📖 Source**: [abenbdl_association.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_association.htm)
+
 ### abenbdl_define_behavior.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_define_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -963,7 +1131,14 @@ Continue
 [CDS BDL - DEFINE BEHAVIOR, association](javascript:call_link\('abenbdl_association.htm'\))
 
 
+
+**📖 Source**: [abenbdl_define_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm)
+
 ### abenabap_bdl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_bdl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -993,7 +1168,17 @@ Continue
 [CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\))
 
 
+
+**📖 Source**: [abenabap_bdl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm)
+
 ### abencds_f1_bdl_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_bdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_bdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm)
+
 
   
 

@@ -3,7 +3,30 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenconstructor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor.htm)
+- [abenconstructor_visibility.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_visibility.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.933Z
+
+---
+
 ### abenconstructor.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenconstructor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51,7 +74,21 @@ Continue
 [ABAP Objects - Visibility of Instance Constructors](javascript:call_link\('abenconstructor_visibility.htm'\))
 
 
+
+**📖 Source**: [abenconstructor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor.htm)
+
 ### abenconstructor_visibility.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_visibility.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_visibility.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenconstructor_visibility.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_visibility.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenconstructor_visibility.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_visibility.htm)
+
 
   
 

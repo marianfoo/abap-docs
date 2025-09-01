@@ -3,7 +3,36 @@
 Included pages: 11
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_language_includes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_includes.htm)
+- [abenabap_language_include.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_include.htm)
+- [abapinclude_prog.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinclude_prog.htm)
+- [abenabap_macros.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_macros.htm)
+- [abapdefine.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdefine.htm)
+- [abapend-of-definition.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapend-of-definition.htm)
+- [abenmacro_include.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmacro_include.htm)
+- [abenmacro_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmacro_abexa.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.998Z
+
+---
+
 ### abenabap_language_includes.htm
+
+> **📖 Official SAP Documentation**: [abenabap_language_includes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_includes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_language_includes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_includes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26,7 +55,18 @@ Continue
 [Macros](javascript:call_link\('abenabap_macros.htm'\))
 
 
+
+**📖 Source**: [abenabap_language_includes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_includes.htm)
+
 ### abenabap_language_include.htm
+
+> **📖 Official SAP Documentation**: [abenabap_language_include.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_include.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_language_include.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_include.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57,7 +97,18 @@ Continue
 [INCLUDE](javascript:call_link\('abapinclude_prog.htm'\))
 
 
+
+**📖 Source**: [abenabap_language_include.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_include.htm)
+
 ### abapinclude_prog.htm
+
+> **📖 Official SAP Documentation**: [abapinclude_prog.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinclude_prog.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapinclude_prog.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinclude_prog.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -130,7 +181,18 @@ These lines show the [master program](javascript:call_link\('abenmaster_program_
   INCLUDE labap\_docut99.               " Unit tests
 
 
+
+**📖 Source**: [abapinclude_prog.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinclude_prog.htm)
+
 ### abenabap_language_include.htm
+
+> **📖 Official SAP Documentation**: [abenabap_language_include.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_include.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_language_include.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_include.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -161,7 +223,18 @@ Continue
 [INCLUDE](javascript:call_link\('abapinclude_prog.htm'\))
 
 
+
+**📖 Source**: [abenabap_language_include.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_include.htm)
+
 ### abenabap_macros.htm
+
+> **📖 Official SAP Documentation**: [abenabap_macros.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_macros.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_macros.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_macros.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -190,7 +263,18 @@ Continue
 ![Example](exa.gif "Example") [Macros](javascript:call_link\('abenmacro_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_macros.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_macros.htm)
+
 ### abapdefine.htm
+
+> **📖 Official SAP Documentation**: [abapdefine.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdefine.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapdefine.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdefine.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -244,7 +328,18 @@ Continue
 [END-OF-DEFINITION](javascript:call_link\('abapend-of-definition.htm'\))
 
 
+
+**📖 Source**: [abapdefine.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdefine.htm)
+
 ### abapend-of-definition.htm
+
+> **📖 Official SAP Documentation**: [abapend-of-definition.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapend-of-definition.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapend-of-definition.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapend-of-definition.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -269,7 +364,18 @@ Effect
 The statement END-OF-DEFINITION closes a macro definition that was initiated by [DEFINE](javascript:call_link\('abapdefine.htm'\)).
 
 
+
+**📖 Source**: [abapend-of-definition.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapend-of-definition.htm)
+
 ### abapdefine.htm
+
+> **📖 Official SAP Documentation**: [abapdefine.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdefine.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapdefine.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdefine.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -323,7 +429,18 @@ Continue
 [END-OF-DEFINITION](javascript:call_link\('abapend-of-definition.htm'\))
 
 
+
+**📖 Source**: [abapdefine.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdefine.htm)
+
 ### abenmacro_include.htm
+
+> **📖 Official SAP Documentation**: [abenmacro_include.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmacro_include.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenmacro_include.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmacro_include.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -388,7 +505,18 @@ Executable Example
 [Macros](javascript:call_link\('abenmacro_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmacro_include.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmacro_include.htm)
+
 ### abenmacro_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmacro_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmacro_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenmacro_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmacro_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -426,7 +554,21 @@ Description  
 In this example, a macro write\_frame, which draws a box around the placeholder &1 on a list, is first defined and then used.
 
 
+
+**📖 Source**: [abenmacro_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmacro_abexa.htm)
+
 ### abenabap_macros.htm
+
+> **📖 Official SAP Documentation**: [abenabap_macros.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_macros.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_macros.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_macros.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabap_macros.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_macros.htm)
+
 
   
 

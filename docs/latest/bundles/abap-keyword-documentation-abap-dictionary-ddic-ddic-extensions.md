@@ -3,7 +3,31 @@
 Included pages: 9
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_enhancements.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_enhancements.htm)
+- [abenddic_customizing_includes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_customizing_includes.htm)
+- [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_append_structures.htm)
+- [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_extend_type.htm)
+- [abenddicddl_extend_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_extend_type.htm)
+- [abenddic_append_views.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_append_views.htm)
+- [abenddic_fixed_value_appends.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_fixed_value_appends.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.882Z
+
+---
+
 ### abenddic_enhancements.htm
+
+> **📖 Official SAP Documentation**: [abenddic_enhancements.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_enhancements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41,7 +65,14 @@ Continue
 [DDIC - Fixed Value Appends](javascript:call_link\('abenddic_fixed_value_appends.htm'\))
 
 
+
+**📖 Source**: [abenddic_enhancements.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_enhancements.htm)
+
 ### abenddic_customizing_includes.htm
+
+> **📖 Official SAP Documentation**: [abenddic_customizing_includes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_customizing_includes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -62,7 +93,14 @@ A customizing include can be included in multiple DDIC database tables or DDIC s
 Extending an SAP-delivered DDIC structure or DDIC database table using a customizing include does not modify the original object. If a customizing include is used to add fields to a standard DDIC database table or DDIC structure, these fields are inserted automatically into DDIC structures or DDIC database tables delivered by SAP in an upgrade.
 
 
+
+**📖 Source**: [abenddic_customizing_includes.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_customizing_includes.htm)
+
 ### abenddic_append_structures.htm
+
+> **📖 Official SAP Documentation**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_append_structures.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -115,7 +153,14 @@ Continue
 [DDIC - Dictionary DDL for Structure Extensions](javascript:call_link\('abenddic_extend_type.htm'\))
 
 
+
+**📖 Source**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_append_structures.htm)
+
 ### abenddic_extend_type.htm
+
+> **📖 Official SAP Documentation**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_extend_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -142,7 +187,14 @@ Continue
 [DDIC DDL - EXTEND TYPE](javascript:call_link\('abenddicddl_extend_type.htm'\))
 
 
+
+**📖 Source**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_extend_type.htm)
+
 ### abenddicddl_extend_type.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_extend_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_extend_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -197,7 +249,14 @@ extend type demo\_structure with demo\_append\_structure {
 The source code used to define the structure DEMO\_STRUCTURE is not modified by this extension. In the ADT, however, an icon indicates that the structure is extended using DEMO\_APPEND\_STRUCTURE.
 
 
+
+**📖 Source**: [abenddicddl_extend_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddicddl_extend_type.htm)
+
 ### abenddic_extend_type.htm
+
+> **📖 Official SAP Documentation**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_extend_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -224,7 +283,14 @@ Continue
 [DDIC DDL - EXTEND TYPE](javascript:call_link\('abenddicddl_extend_type.htm'\))
 
 
+
+**📖 Source**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_extend_type.htm)
+
 ### abenddic_append_structures.htm
+
+> **📖 Official SAP Documentation**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_append_structures.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -277,7 +343,14 @@ Continue
 [DDIC - Dictionary DDL for Structure Extensions](javascript:call_link\('abenddic_extend_type.htm'\))
 
 
+
+**📖 Source**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_append_structures.htm)
+
 ### abenddic_append_views.htm
+
+> **📖 Official SAP Documentation**: [abenddic_append_views.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_append_views.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -309,7 +382,17 @@ Example
 The DDIC append view DEMO\_APPEND\_VIEW is added to the DDIC database view DEMO\_ORIGINAL. The program DEMO\_APPEND\_VIEW uses [SELECT](javascript:call_link\('abapselect.htm'\)) to access the extended view. It displays the components of the original view and of the append view and the result set.
 
 
+
+**📖 Source**: [abenddic_append_views.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_append_views.htm)
+
 ### abenddic_fixed_value_appends.htm
+
+> **📖 Official SAP Documentation**: [abenddic_fixed_value_appends.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_fixed_value_appends.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_fixed_value_appends.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_fixed_value_appends.htm)
+
 
   
 

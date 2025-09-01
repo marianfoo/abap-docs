@@ -10,13 +10,9 @@ Operand Type
 
 An operand position is typed using an operand type, which is complete or generic and can also be dependent on other operand positions, for example in statements. When a statement is executed, an operand with a suitable data type is expected. If a data object specified at an operand position has a different data type than the operand type, an attempt is usually made to convert the content of the data object to the operand type on the basis of the [conversion rules](javascript:call_link\('abenconversion_rules.htm'\)) in [writing positions](javascript:call_link\('abenwriting_position_glosry.htm'\) "Glossary Entry"), and, in the other direction, in [reading positions](javascript:call_link\('abenreading_position_glosry.htm'\) "Glossary Entry"). Note that every conversion incurs runtime costs. If no appropriate conversion rules have been defined, or the content cannot be converted, a syntax error occurs or an exception is raised. Deviations from this rule, for example that the data object must exactly match the operand type, or the data object is to be interpreted as an operand type, regardless of its actual type ([casting](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry")), are described in the individual statements.
 
--   [Operand Positions for Elementary Data Objects](#@@ITOC@@ABENDATA_OBJECTS_USAGE_1)
+-   [Operand Positions for Elementary Data Objects](#abendata-objects-usage-1--------operand-positions-for-structures---@ITOC@@ABENDATA_OBJECTS_USAGE_2)
 
--   [Operand Positions for Structures](#@@ITOC@@ABENDATA_OBJECTS_USAGE_2)
-
--   [Operand Positions for Internal Tables](#@@ITOC@@ABENDATA_OBJECTS_USAGE_3)
-
--   [Operand Positions for Reference Variables](#@@ITOC@@ABENDATA_OBJECTS_USAGE_4)
+-   [Operand Positions for Internal Tables](#abendata-objects-usage-3--------operand-positions-for-reference-variables---@ITOC@@ABENDATA_OBJECTS_USAGE_4)
 
 Operand Positions for Elementary Data Objects
 

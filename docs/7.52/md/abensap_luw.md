@@ -14,9 +14,7 @@ To ensure the data consistency of application programs that are executed across 
 
 ![Figure](abdoc_sap_luw.gif)
 
--   [Bundling Methods](#@@ITOC@@ABENSAP_LUW_1)
-
--   [Statements for SAP LUWs](#@@ITOC@@ABENSAP_LUW_2)
+-   [Bundling Methods](#abensap-luw-1--------statements-for-sap-luws---@ITOC@@ABENSAP_LUW_2)
 
 Bundling Methods
 

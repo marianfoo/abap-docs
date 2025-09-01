@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_annotations_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm)
+- [abencds_annotations_syntax_value.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_value.htm)
+- [abencds_annotations_syntax_subanno.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_subanno.htm)
+- [abencds_annotations_syntax_array.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_array.htm)
+- [abencds_annotations_syntax_name.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_name.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.198Z
+
+---
+
 ### abencds_annotations_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -146,7 +168,14 @@ Continue
 [CDS DDL - Annotation Syntax, .subAnno](javascript:call_link\('abencds_annotations_syntax_name.htm'\))
 
 
+
+**📖 Source**: [abencds_annotations_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm)
+
 ### abencds_annotations_syntax_value.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_syntax_value.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_value.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -224,7 +253,14 @@ The annotation can then, for example, be specified with the following annotation
                   subAnno6: "DEMO\_CDS\_SPFLI"}
 
 
+
+**📖 Source**: [abencds_annotations_syntax_value.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_value.htm)
+
 ### abencds_annotations_syntax_subanno.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_syntax_subanno.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_subanno.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -289,7 +325,14 @@ The annotation can then, for example, be specified as follows:
 This example has the same semantics as the example using [structured names](javascript:call_link\('abencds_annotations_syntax_name.htm'\)).
 
 
+
+**📖 Source**: [abencds_annotations_syntax_subanno.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_subanno.htm)
+
 ### abencds_annotations_syntax_array.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_syntax_array.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_array.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -380,7 +423,17 @@ Executable Example
 [ABAP CDS, Annotation Array](javascript:call_link\('abencds_annotation_array_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_annotations_syntax_array.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_array.htm)
+
 ### abencds_annotations_syntax_name.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_syntax_name.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_name.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_annotations_syntax_name.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_name.htm)
+
 
   
 

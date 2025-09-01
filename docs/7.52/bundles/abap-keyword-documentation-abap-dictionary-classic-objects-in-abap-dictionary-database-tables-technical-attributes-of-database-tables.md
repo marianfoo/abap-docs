@@ -3,7 +3,34 @@
 Included pages: 11
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_database_tables_tech.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_tech.htm)
+- [abenddic_database_tables_techstruc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_techstruc.htm)
+- [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_techspec.htm)
+- [abenddic_database_tables_tab_type.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_tab_type.htm)
+- [abenddic_database_tables_dat_type.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_dat_type.htm)
+- [abenddic_database_tables_siz_cat.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_siz_cat.htm)
+- [abenddic_database_tables_buffer.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_buffer.htm)
+- [abenddic_database_tables_protocol.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_protocol.htm)
+- [abenddic_database_tables_storage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_storage.htm)
+- [abenddic_database_tables_act_type.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_act_type.htm)
+
+**Bundle Contains**: 10 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.373Z
+
+---
+
 ### abenddic_database_tables_tech.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_tech.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_tech.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26,7 +53,14 @@ Continue
 [Table-Specific Technical Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_techspec.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_tech.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_tech.htm)
+
 ### abenddic_database_tables_techstruc.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_techstruc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_techstruc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -81,7 +115,14 @@ Notes
 -   The length of the structure is restricted in such a way that the requirements of all supported database platforms are met. At SAP, tables can be flagged to allow this restriction to be exceeded if enhancements are used. When tables flagged in this way are accessed using Open SQL, a syntax check warning occurs. The warning indicates that a cross-platform replacement implementation must be made. The class [CL\_ABAP\_DBFEATURES](javascript:call_link\('abencl_abap_dbfeatures.htm'\)) can be used to identify which restriction is supported by the current database system.
 
 
+
+**📖 Source**: [abenddic_database_tables_techstruc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_techstruc.htm)
+
 ### abenddic_database_tables_techspec.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_techspec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -119,7 +160,14 @@ Continue
 [Activation Type of Database Tables](javascript:call_link\('abenddic_database_tables_act_type.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_techspec.htm)
+
 ### abenddic_database_tables_tab_type.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_tab_type.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_tab_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -144,7 +192,14 @@ A global temporary table (GTT) is a special transparent table used exclusively a
 Pooled tables and cluster tables are the content of a table pool or table cluster and do not exist as variants of tables on the database.
 
 
+
+**📖 Source**: [abenddic_database_tables_tab_type.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_tab_type.htm)
+
 ### abenddic_database_tables_dat_type.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_dat_type.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_dat_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -178,7 +233,14 @@ Database tables for customer developments in a separate tablespace.
 There are also other data classes for system tables used internally by the runtime environment, such as SDIC for ABAP Dictionary tables.
 
 
+
+**📖 Source**: [abenddic_database_tables_dat_type.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_dat_type.htm)
+
 ### abenddic_database_tables_siz_cat.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_siz_cat.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_siz_cat.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -243,7 +305,14 @@ Note
 A size category must be chosen that does not create too many small memory areas and no memory areas that are too big.
 
 
+
+**📖 Source**: [abenddic_database_tables_siz_cat.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_siz_cat.htm)
+
 ### abenddic_database_tables_buffer.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_buffer.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_buffer.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -257,9 +326,7 @@ Table Buffering of Database Tables
 
 It is possible to specify whether [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry") in the [table buffer](javascript:call_link\('abentable_buffer_glosry.htm'\) "Glossary Entry") is allowed for a database table and also how it is performed.
 
--   [Buffering Permission](#@@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_1)
-
--   [Buffering Type](#@@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_2)
+-   [Buffering Permission](#abenddic-database-tables-buffer-1--------buffering-type---@ITOC@@ABENDDIC_DATABASE_TABLES_BUFFER_2)
 
 The table buffer is managed by the [database interface](javascript:call_link\('abendatabase_interface_glosry.htm'\) "Glossary Entry"). When [Open SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") reads are made on tables with activated buffering or if these tables are accessed from classic [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), the table buffer is used implicitly.
 
@@ -294,7 +361,14 @@ The buffering type determines which data is loaded from the table to the table b
 -   [Full buffering](javascript:call_link\('abenbuffer_complete_buffering.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_buffer.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_buffer.htm)
+
 ### abenddic_database_tables_protocol.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_protocol.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_protocol.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -333,7 +407,14 @@ Notes
 -   The documented method IS\_LOGGING\_ON of the system class CL\_DBI\_UTILITIES can be used to verify whether logging is currently switched on for a database table.
 
 
+
+**📖 Source**: [abenddic_database_tables_protocol.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_protocol.htm)
+
 ### abenddic_database_tables_storage.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_storage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_storage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -374,7 +455,14 @@ Note
 For more information about the differences between row store and column store on the SAP HANA database, see the [SAP HANA Platform](https://help.sap.com/viewer/de2486ee947e43e684d39702027f8a94/2.0.00/en-us) documentation.
 
 
+
+**📖 Source**: [abenddic_database_tables_storage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_storage.htm)
+
 ### abenddic_database_tables_act_type.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_act_type.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_act_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -404,7 +492,17 @@ The default setting in which a database table can be activated interactively in 
     The database table is required before other objects are modified as part of a transport.
 
 
+
+**📖 Source**: [abenddic_database_tables_act_type.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_act_type.htm)
+
 ### abenddic_database_tables_techspec.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_techspec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_techspec.htm)
+
 
   
 

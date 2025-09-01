@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenobsolete_leave.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobsolete_leave.htm)
+- [abapleave-.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave-.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.477Z
+
+---
+
 ### abenobsolete_leave.htm
+
+> **📖 Official SAP Documentation**: [abenobsolete_leave.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobsolete_leave.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21,7 +40,17 @@ Continue
 [LEAVE](javascript:call_link\('abapleave-.htm'\))
 
 
+
+**📖 Source**: [abenobsolete_leave.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobsolete_leave.htm)
+
 ### abapleave-.htm
+
+> **📖 Official SAP Documentation**: [abapleave-.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave-.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapleave-.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave-.htm)
+
 
   
 

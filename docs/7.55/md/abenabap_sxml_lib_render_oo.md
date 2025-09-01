@@ -10,9 +10,7 @@ sXML - Object-Oriented Rendering
 
 Just as in [token-based rendering](javascript:call_link\('abenabap_sxml_lib_render_token.htm'\)), object-oriented rendering creates an XML writer. The nodes are not written, however, using a separate method for each node type, but using a single method, WRITE\_NODE. This method is associated with a node object with the required [node type](javascript:call_link\('abenabap_sxml_lib_entities.htm'\)) using its input parameters and a corresponding node is appended to the current writing position.
 
--   [Basic Approach](#@@ITOC@@ABENABAP_SXML_LIB_RENDER_OO_1)
-
--   [Methods for Object-Oriented Rendering](#@@ITOC@@ABENABAP_SXML_LIB_RENDER_OO_2)
+-   [Basic Approach](#abenabap-sxml-lib-render-oo-1--------methods-for-object-oriented-rendering---@ITOC@@ABENABAP_SXML_LIB_RENDER_OO_2)
 
 Basic Approach
 

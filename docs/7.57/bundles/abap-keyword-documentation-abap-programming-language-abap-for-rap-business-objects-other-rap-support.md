@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapset_names.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_names.htm)
+- [abeneml_set_names_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_set_names_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.236Z
+
+---
+
 ### abapset_names.htm
+
+> **📖 Official SAP Documentation**: [abapset_names.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_names.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -94,7 +113,17 @@ Continue
 ![Example](exa.gif "Example") [ABAP EML - Variants of SET NAMES](javascript:call_link\('abeneml_set_names_abexa.htm'\))
 
 
+
+**📖 Source**: [abapset_names.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_names.htm)
+
 ### abeneml_set_names_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeneml_set_names_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_set_names_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abeneml_set_names_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_set_names_abexa.htm)
+
 
   
 

@@ -3,7 +3,30 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_replacement_objects.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm)
+- [abenddic_replacement_object_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_object_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.920Z
+
+---
+
 ### abenddic_replacement_objects.htm
+
+> **📖 Official SAP Documentation**: [abenddic_replacement_objects.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_replacement_objects.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -92,7 +115,21 @@ Continue
 ![Example](exa.gif "Example") [DDIC - Replacement Object for Database Table](javascript:call_link\('abenddic_replacement_object_abexa.htm'\))
 
 
+
+**📖 Source**: [abenddic_replacement_objects.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm)
+
 ### abenddic_replacement_object_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenddic_replacement_object_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_object_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_replacement_object_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_object_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_replacement_object_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_object_abexa.htm)
+
 
   
 

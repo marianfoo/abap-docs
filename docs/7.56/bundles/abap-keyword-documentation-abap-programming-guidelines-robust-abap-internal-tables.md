@@ -3,7 +3,32 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenitab_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_gdl.htm)
+- [abenselect_table_type_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_table_type_guidl.htm)
+- [abensecondary_key_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_key_guidl.htm)
+- [abeninitial_memory_requ_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninitial_memory_requ_guidl.htm)
+- [abensort_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensort_guidl.htm)
+- [abencollect_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencollect_guidl.htm)
+- [abentable_output_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_output_guidl.htm)
+- [abenloop_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_guidl.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.457Z
+
+---
+
 ### abenitab_gdl.htm
+
+> **📖 Official SAP Documentation**: [abenitab_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -64,7 +89,14 @@ Continue
 [Loop Processing](javascript:call_link\('abenloop_guidl.htm'\))
 
 
+
+**📖 Source**: [abenitab_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_gdl.htm)
+
 ### abenselect_table_type_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenselect_table_type_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_table_type_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -123,7 +155,14 @@ Depending on the length of the key and the number of lines in an internal table,
 If you use [secondary keys](javascript:call_link\('abensecondary_key_guidl.htm'\) "Guideline"), the rules mentioned here may be qualified to a certain degree, as the overall costs need to be considered in this case.
 
 
+
+**📖 Source**: [abenselect_table_type_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_table_type_guidl.htm)
+
 ### abensecondary_key_guidl.htm
+
+> **📖 Official SAP Documentation**: [abensecondary_key_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_key_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -206,7 +245,14 @@ LOOP AT itab USING KEY second\_key.
 ENDLOOP.
 
 
+
+**📖 Source**: [abensecondary_key_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_key_guidl.htm)
+
 ### abeninitial_memory_requ_guidl.htm
+
+> **📖 Official SAP Documentation**: [abeninitial_memory_requ_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninitial_memory_requ_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -269,7 +315,14 @@ TYPES: BEGIN OF line\_structure,
                  WITH UNIQUE KEY ...
 
 
+
+**📖 Source**: [abeninitial_memory_requ_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninitial_memory_requ_guidl.htm)
+
 ### abensort_guidl.htm
+
+> **📖 Official SAP Documentation**: [abensort_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensort_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -332,7 +385,14 @@ ENDLOOP.
 ...
 
 
+
+**📖 Source**: [abensort_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensort_guidl.htm)
+
 ### abencollect_guidl.htm
+
+> **📖 Official SAP Documentation**: [abencollect_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencollect_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -362,7 +422,14 @@ The statement COLLECT is based on unique entries with respect to the primary key
 -   COLLECT can be used for sorted tables and hashed tables without any problems since these, unlike standard tables, always have a separate, stable key administration that can be utilized by COLLECT. COLLECT can work properly for sorted tables only if the primary key is unique. If a sorted table has a non-unique key, only COLLECT can be used to fill the table, which is difficult to guarantee. In hashed tables, the key values are always unique.
 
 
+
+**📖 Source**: [abencollect_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencollect_guidl.htm)
+
 ### abentable_output_guidl.htm
+
+> **📖 Official SAP Documentation**: [abentable_output_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_output_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -431,7 +498,17 @@ LOOP AT itab ASSIGNING <fs>.
 ENDLOOP.
 
 
+
+**📖 Source**: [abentable_output_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_output_guidl.htm)
+
 ### abenloop_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenloop_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenloop_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_guidl.htm)
+
 
   
 

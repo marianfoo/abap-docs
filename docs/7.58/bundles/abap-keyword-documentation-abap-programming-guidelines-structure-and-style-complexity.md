@@ -3,7 +3,34 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencomplexity_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomplexity_gdl.htm)
+- [abenexpression_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_guidl.htm)
+- [abennesting_depth_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennesting_depth_guidl.htm)
+- [abenproc_volume_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenproc_volume_guidl.htm)
+- [abenclass_size_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_size_guidl.htm)
+- [abendead_code_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendead_code_guidl.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.931Z
+
+---
+
 ### abencomplexity_gdl.htm
+
+> **📖 Official SAP Documentation**: [abencomplexity_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomplexity_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencomplexity_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomplexity_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37,7 +64,18 @@ Continue
 [Dead Code](javascript:call_link\('abendead_code_guidl.htm'\))
 
 
+
+**📖 Source**: [abencomplexity_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomplexity_gdl.htm)
+
 ### abenexpression_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenexpression_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexpression_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -94,7 +132,18 @@ LOOP AT itab ASSIGNING <wa>.
 ENDLOOP.
 
 
+
+**📖 Source**: [abenexpression_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_guidl.htm)
+
 ### abennesting_depth_guidl.htm
+
+> **📖 Official SAP Documentation**: [abennesting_depth_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennesting_depth_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennesting_depth_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennesting_depth_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -135,7 +184,18 @@ Example
 The transition from the bad to the good example in the rule for [modern ABAP](javascript:call_link\('abenmodern_abap_guidl.htm'\) "Guideline") shows how you can reduce the nesting depth by using modern language elements.
 
 
+
+**📖 Source**: [abennesting_depth_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennesting_depth_guidl.htm)
+
 ### abenproc_volume_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenproc_volume_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenproc_volume_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenproc_volume_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenproc_volume_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -178,7 +238,18 @@ Example
 See the [KISS Principle](javascript:call_link\('abenkiss_principle_guidl.htm'\) "Guideline") figure.
 
 
+
+**📖 Source**: [abenproc_volume_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenproc_volume_guidl.htm)
+
 ### abenclass_size_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenclass_size_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_size_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenclass_size_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_size_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -221,7 +292,21 @@ Functionality that is only required in a global class, function pool or any othe
 This type of procedure is also useful for global classes. By moving highly specialized functions to smaller, local classes, you reduce the number of methods of the global class, which results in a clearer overview and makes the class easier to maintain. When you use local classes within global classes, make sure you position them appropriately to [avoid](javascript:call_link\('abenlocal_type_glob_class_guidl.htm'\) "Guideline") unnecessary dependencies.
 
 
+
+**📖 Source**: [abenclass_size_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_size_guidl.htm)
+
 ### abendead_code_guidl.htm
+
+> **📖 Official SAP Documentation**: [abendead_code_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendead_code_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendead_code_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendead_code_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abendead_code_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendead_code_guidl.htm)
+
 
   
 

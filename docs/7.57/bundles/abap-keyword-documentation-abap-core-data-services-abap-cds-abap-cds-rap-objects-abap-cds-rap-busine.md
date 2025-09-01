@@ -3,7 +3,31 @@
 Included pages: 9
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenbdl_extensibility_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm)
+- [abenbdl_extension_for_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm)
+- [abenbdl_extend_beh_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)
+- [abenbdl_proj_ext_body.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_body.htm)
+- [abenbdl_proj_ext_entity.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm)
+- [abenbdl_entity_proj_ext_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_abexa.htm)
+- [abenbdl_entity_proj_ext_1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_1_abexa.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.200Z
+
+---
+
 ### abenbdl_extensibility_projection.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_extensibility_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35,7 +59,14 @@ Continue
 [CDS BDL - extension for projection](javascript:call_link\('abenbdl_extension_for_projection.htm'\))
 
 
+
+**📖 Source**: [abenbdl_extensibility_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm)
+
 ### abenbdl_extension_for_projection.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_extension_for_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -116,7 +147,14 @@ Continue
 ![Example](exa.gif "Example") [CDS BDL - BDEF Projection Extension, Field Extension](javascript:call_link\('abenbdl_entity_proj_ext_1_abexa.htm'\))
 
 
+
+**📖 Source**: [abenbdl_extension_for_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm)
+
 ### abenbdl_extend_beh_proj.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_extend_beh_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -174,7 +212,14 @@ Continue
 [CDS BDL - extension\_body, Projection Extension](javascript:call_link\('abenbdl_proj_ext_body.htm'\))
 
 
+
+**📖 Source**: [abenbdl_extend_beh_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)
+
 ### abenbdl_proj_ext_body.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_proj_ext_body.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_body.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -236,7 +281,14 @@ Executable Examples
 -   [BDEF Projection Extension, Field Extension](javascript:call_link\('abenbdl_entity_proj_ext_1_abexa.htm'\))
 
 
+
+**📖 Source**: [abenbdl_proj_ext_body.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_body.htm)
+
 ### abenbdl_extend_beh_proj.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_extend_beh_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -294,7 +346,14 @@ Continue
 [CDS BDL - extension\_body, Projection Extension](javascript:call_link\('abenbdl_proj_ext_body.htm'\))
 
 
+
+**📖 Source**: [abenbdl_extend_beh_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)
+
 ### abenbdl_proj_ext_entity.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_proj_ext_entity.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -351,7 +410,14 @@ Executable Example
 The executable example [BDEF Projection Extension, Node Extension](javascript:call_link\('abenbdl_entity_proj_ext_abexa.htm'\)) explains the example above in detail.
 
 
+
+**📖 Source**: [abenbdl_proj_ext_entity.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm)
+
 ### abenbdl_entity_proj_ext_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_entity_proj_ext_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -677,7 +743,14 @@ The above source code uses [ABAP EML](javascript:call_link\('abeneml_glosry.htm'
 The screen output includes a table that lists the execution order of handler methods of the ABAP behavior pool. This shows which methods in which order are executed when accessing the RAP BO.
 
 
+
+**📖 Source**: [abenbdl_entity_proj_ext_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_abexa.htm)
+
 ### abenbdl_entity_proj_ext_1_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_entity_proj_ext_1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_1_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -942,7 +1015,17 @@ The source code above uses [ABAP EML](javascript:call_link\('abeneml_glosry.htm'
 Field attributes from the original BO, from the projection BO, and from the extensions are respected. Fields declared as read-only on any layer must not be updated. CharFieldExt is not available in the derived types, since it has been suppressed.
 
 
+
+**📖 Source**: [abenbdl_entity_proj_ext_1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_1_abexa.htm)
+
 ### abenbdl_extension_for_projection.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_extension_for_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenbdl_extension_for_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm)
+
 
   
 

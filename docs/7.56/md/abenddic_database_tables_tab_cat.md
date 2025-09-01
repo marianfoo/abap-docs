@@ -8,8 +8,7 @@ AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
 DDIC - Table Category of Database Tables
 
--   [Transparent tables](#@@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_CAT_1)
--   [Global temporary tables](#@@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_CAT_2)
+-   [Transparent tables](#abenddic-database-tables-tab-cat-1-------global-temporary-tables---@ITOC@@ABENDDIC_DATABASE_TABLES_TAB_CAT_2)
 
 Transparent tables
 

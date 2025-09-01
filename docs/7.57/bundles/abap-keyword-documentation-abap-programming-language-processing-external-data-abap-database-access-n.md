@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexec_sql_abexas.htm)
+- [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennative_sql_abexa.htm)
+- [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexec_sql_db_function_abexa.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.258Z
+
+---
+
 ### abenexec_sql_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexec_sql_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23,7 +43,14 @@ Continue
 ![Example](exa.gif "Example") [EXEC SQL - Access to Database Functions](javascript:call_link\('abenexec_sql_db_function_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexec_sql_abexas.htm)
+
 ### abennative_sql_abexa.htm
+
+> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennative_sql_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -139,7 +166,17 @@ Description  
 The program is the static equivalent of the executable [ADBC](javascript:call_link\('abenadbc_dml_ddl_abexa.htm'\)) example. The name of the database abap\_docu\_demo\_mytab cannot be modified. Instead of passing the SQL statements dynamically to methods of the class CL\_SQL\_STATEMENT, they are specified statically between EXEC and ENDEXEC. Attempts to insert existing rows can only be detected using sy-subrc and the corresponding SQL exception must be raised explicitly.
 
 
+
+**📖 Source**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennative_sql_abexa.htm)
+
 ### abenexec_sql_db_function_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexec_sql_db_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexec_sql_db_function_abexa.htm)
+
 
   
 

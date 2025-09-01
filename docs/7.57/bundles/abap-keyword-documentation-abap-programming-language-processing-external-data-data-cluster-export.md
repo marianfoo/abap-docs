@@ -3,7 +3,31 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapexport_data_cluster.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_data_cluster.htm)
+- [abapexport_data_cluster_param.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_data_cluster_param.htm)
+- [abapexport_data_cluster_medium.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_data_cluster_medium.htm)
+- [abenexport_data_cluster_indx.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexport_data_cluster_indx.htm)
+- [abenindx_type_table_and_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenindx_type_table_and_sql.htm)
+- [abapexport_internal.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_internal.htm)
+- [abenrabax_export_to_database.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrabax_export_to_database.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.259Z
+
+---
+
 ### abapexport_data_cluster.htm
+
+> **📖 Official SAP Documentation**: [abapexport_data_cluster.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_data_cluster.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -105,7 +129,14 @@ Continue
 [Exceptions in EXPORT](javascript:call_link\('abenrabax_export_to_database.htm'\))
 
 
+
+**📖 Source**: [abapexport_data_cluster.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_data_cluster.htm)
+
 ### abapexport_data_cluster_param.htm
+
+> **📖 Official SAP Documentation**: [abapexport_data_cluster_param.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_data_cluster_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -228,7 +259,14 @@ IMPORT (ptab)
 cl\_demo\_output=>display( wa ).
 
 
+
+**📖 Source**: [abapexport_data_cluster_param.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_data_cluster_param.htm)
+
 ### abapexport_data_cluster_medium.htm
+
+> **📖 Official SAP Documentation**: [abapexport_data_cluster_medium.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_data_cluster_medium.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -455,7 +493,14 @@ EXPORT scarr\_tab = itab
   ID 'SCARR'.
 
 
+
+**📖 Source**: [abapexport_data_cluster_medium.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_data_cluster_medium.htm)
+
 ### abenexport_data_cluster_indx.htm
+
+> **📖 Official SAP Documentation**: [abenexport_data_cluster_indx.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexport_data_cluster_indx.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -527,7 +572,14 @@ Continue
 [SQL Access to Export/Import Tables](javascript:call_link\('abenindx_type_table_and_sql.htm'\))
 
 
+
+**📖 Source**: [abenexport_data_cluster_indx.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexport_data_cluster_indx.htm)
+
 ### abenindx_type_table_and_sql.htm
+
+> **📖 Official SAP Documentation**: [abenindx_type_table_and_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenindx_type_table_and_sql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -579,7 +631,14 @@ UPDATE demo\_indx\_table
              id    = @old\_id.
 
 
+
+**📖 Source**: [abenindx_type_table_and_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenindx_type_table_and_sql.htm)
+
 ### abenexport_data_cluster_indx.htm
+
+> **📖 Official SAP Documentation**: [abenexport_data_cluster_indx.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexport_data_cluster_indx.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -651,7 +710,14 @@ Continue
 [SQL Access to Export/Import Tables](javascript:call_link\('abenindx_type_table_and_sql.htm'\))
 
 
+
+**📖 Source**: [abenexport_data_cluster_indx.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexport_data_cluster_indx.htm)
+
 ### abapexport_internal.htm
+
+> **📖 Official SAP Documentation**: [abapexport_internal.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -703,7 +769,17 @@ Example
 See [IMPORT - Internal Additions](javascript:call_link\('abapimport_internal.htm'\))
 
 
+
+**📖 Source**: [abapexport_internal.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapexport_internal.htm)
+
 ### abenrabax_export_to_database.htm
+
+> **📖 Official SAP Documentation**: [abenrabax_export_to_database.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrabax_export_to_database.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenrabax_export_to_database.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrabax_export_to_database.htm)
+
 
   
 

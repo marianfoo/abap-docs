@@ -17,10 +17,8 @@ The lifetime of an ABAP daemon that is not stopped explicitly using ADF methods 
 
 The [processing of an ABAP daemon](javascript:call_link\('abenabap_daemon_processing_glosry.htm'\) "Glossary Entry") takes place in the background and controlled using events. A user of a daemon or the ABAP runtime framework can raise [ABAP daemon events](javascript:call_link\('abenabap_daemon_event_glosry.htm'\) "Glossary Entry") to which the daemon reacts using predefined interface methods. A daemon must always be ready to react to inbound events and this is ensured by running ABAP daemon processing in a [non-blocking mode](javascript:call_link\('abenadf_non_blocking_model.htm'\)).
 
--   [ABAP Daemon Classes](#@@ITOC@@ABENABAP_DAEMON_1)
--   [Creating and Using ABAP Daemons](#@@ITOC@@ABENABAP_DAEMON_2)
--   [Managing ABAP Daemons](#@@ITOC@@ABENABAP_DAEMON_3)
--   [ABAP Daemon Examples](#@@ITOC@@ABENABAP_DAEMON_4)
+-   [ABAP Daemon Classes](#abenabap-daemon-1-------creating-and-using-abap-daemons---@ITOC@@ABENABAP_DAEMON_2)
+-   [Managing ABAP Daemons](#abenabap-daemon-3-------abap-daemon-examples---@ITOC@@ABENABAP_DAEMON_4)
 
 Hints
 

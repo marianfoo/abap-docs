@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenprogram_editing_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_editing_obsolete.htm)
+- [abapset_extended_check.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_extended_check.htm)
+- [abapinsert_report_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_report_obsolete.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.955Z
+
+---
+
 ### abenprogram_editing_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenprogram_editing_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_editing_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24,7 +44,14 @@ Continue
 [INSERT REPORT - UNICODE ENABLING](javascript:call_link\('abapinsert_report_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenprogram_editing_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_editing_obsolete.htm)
+
 ### abapset_extended_check.htm
+
+> **📖 Official SAP Documentation**: [abapset_extended_check.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_extended_check.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -72,7 +99,17 @@ DATA: a TYPE string ##needed,
 a = b.
 
 
+
+**📖 Source**: [abapset_extended_check.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_extended_check.htm)
+
 ### abapinsert_report_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abapinsert_report_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_report_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapinsert_report_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_report_obsolete.htm)
+
 
   
 

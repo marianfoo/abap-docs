@@ -3,7 +3,36 @@
 Included pages: 15
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_branches.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_branches.htm)
+- [abapif.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapif.htm)
+- [abapelseif.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapelseif.htm)
+- [abapelse.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapelse.htm)
+- [abapendif.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapendif.htm)
+- [abapcase.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcase.htm)
+- [abapwhen.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwhen.htm)
+- [abapendcase.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapendcase.htm)
+- [abapcase_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcase_type.htm)
+- [abapwhen_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwhen_type.htm)
+- [abencase_type_of_exception_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencase_type_of_exception_abexa.htm)
+- [abencase_type_of_rtti_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencase_type_of_rtti_abexa.htm)
+
+**Bundle Contains**: 12 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.495Z
+
+---
+
 ### abenabap_branches.htm
+
+> **📖 Official SAP Documentation**: [abenabap_branches.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_branches.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33,7 +62,14 @@ Continue
 [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\))
 
 
+
+**📖 Source**: [abenabap_branches.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_branches.htm)
+
 ### abapif.htm
+
+> **📖 Official SAP Documentation**: [abapif.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapif.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -98,7 +134,14 @@ Continue
 [ENDIF](javascript:call_link\('abapendif.htm'\))
 
 
+
+**📖 Source**: [abapif.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapif.htm)
+
 ### abapelseif.htm
+
+> **📖 Official SAP Documentation**: [abapelseif.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapelseif.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -121,7 +164,14 @@ Effect
 See [IF](javascript:call_link\('abapif.htm'\)).
 
 
+
+**📖 Source**: [abapelseif.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapelseif.htm)
+
 ### abapelse.htm
+
+> **📖 Official SAP Documentation**: [abapelse.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapelse.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -144,7 +194,14 @@ Effect
 See [IF](javascript:call_link\('abapif.htm'\)).
 
 
+
+**📖 Source**: [abapelse.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapelse.htm)
+
 ### abapendif.htm
+
+> **📖 Official SAP Documentation**: [abapendif.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapendif.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -167,7 +224,14 @@ Effect
 See [IF](javascript:call_link\('abapif.htm'\)).
 
 
+
+**📖 Source**: [abapendif.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapendif.htm)
+
 ### abapif.htm
+
+> **📖 Official SAP Documentation**: [abapif.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapif.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -232,7 +296,14 @@ Continue
 [ENDIF](javascript:call_link\('abapendif.htm'\))
 
 
+
+**📖 Source**: [abapif.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapif.htm)
+
 ### abapcase.htm
+
+> **📖 Official SAP Documentation**: [abapcase.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcase.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -326,7 +397,14 @@ Continue
 [ENDCASE](javascript:call_link\('abapendcase.htm'\))
 
 
+
+**📖 Source**: [abapcase.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcase.htm)
+
 ### abapwhen.htm
+
+> **📖 Official SAP Documentation**: [abapwhen.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwhen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -350,7 +428,14 @@ Effect
 See [CASE](javascript:call_link\('abapcase.htm'\)).
 
 
+
+**📖 Source**: [abapwhen.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwhen.htm)
+
 ### abapendcase.htm
+
+> **📖 Official SAP Documentation**: [abapendcase.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapendcase.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -373,7 +458,14 @@ Effect
 The statement ENDCASE closes a [case distinction](javascript:call_link\('abencase_distinction_glosry.htm'\) "Glossary Entry") introduced using [CASE](javascript:call_link\('abapcase.htm'\)) or [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)).
 
 
+
+**📖 Source**: [abapendcase.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapendcase.htm)
+
 ### abapcase.htm
+
+> **📖 Official SAP Documentation**: [abapcase.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcase.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -467,7 +559,14 @@ Continue
 [ENDCASE](javascript:call_link\('abapendcase.htm'\))
 
 
+
+**📖 Source**: [abapcase.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcase.htm)
+
 ### abapcase_type.htm
+
+> **📖 Official SAP Documentation**: [abapcase_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcase_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -619,7 +718,14 @@ Continue
 ![Example](exa.gif "Example") [Case Distinction CASE TYPE OF for RTTI](javascript:call_link\('abencase_type_of_rtti_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcase_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcase_type.htm)
+
 ### abapwhen_type.htm
+
+> **📖 Official SAP Documentation**: [abapwhen_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwhen_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -642,7 +748,14 @@ Effect
 See [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)).
 
 
+
+**📖 Source**: [abapwhen_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwhen_type.htm)
+
 ### abencase_type_of_exception_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencase_type_of_exception_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencase_type_of_exception_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -697,7 +810,14 @@ Description
 Non-specific exceptions of the superclass CX\_DYNAMIC\_CHECK can be propagated from a method my\_sqrt. The actual exception class is determined in the calling method using the case distinction [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)).
 
 
+
+**📖 Source**: [abencase_type_of_exception_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencase_type_of_exception_abexa.htm)
+
 ### abencase_type_of_rtti_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencase_type_of_rtti_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencase_type_of_rtti_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -751,7 +871,17 @@ Description
 Actual parameters of different types are passed to the generically typed parameter param of the method main, and an [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry") [type description object](javascript:call_link\('abentype_object_glosry.htm'\) "Glossary Entry") is created, to which the general object reference variable typedescr points. The case distinction [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) is used to determine a more specific suitable RTTI type description class. An inline declaration after the addition INTO of the statement WHEN TYPE is used to create an object reference variable of this static type and assign the reference to the type description object. Special attributes of the type description objects are accessed in the associated statement blocks.
 
 
+
+**📖 Source**: [abencase_type_of_rtti_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencase_type_of_rtti_abexa.htm)
+
 ### abapcase_type.htm
+
+> **📖 Official SAP Documentation**: [abapcase_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcase_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapcase_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcase_type.htm)
+
 
   
 

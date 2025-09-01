@@ -3,7 +3,32 @@
 Included pages: 9
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencl_abap_math.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_math.htm)
+- [abenfloating_point_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_class.htm)
+- [abencl_abap_decfloat_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_decfloat_doc.htm)
+- [abencl_abap_bigint_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_bigint_doc.htm)
+- [abenbigint_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbigint_abexa.htm)
+- [abenbigint1_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbigint1_abexa.htm)
+- [abencl_abap_rational_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_rational_doc.htm)
+- [abenrandom_number_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrandom_number_class.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.941Z
+
+---
+
 ### abencl_abap_math.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_math.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_math.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +56,14 @@ Continue
 [Random Numbers](javascript:call_link\('abenrandom_number_class.htm'\))
 
 
+
+**📖 Source**: [abencl_abap_math.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_math.htm)
+
 ### abenfloating_point_class.htm
+
+> **📖 Official SAP Documentation**: [abenfloating_point_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -115,7 +147,14 @@ cl\_demo\_output=>display(
 }\\nprecision = { cl\_abap\_math=>get\_number\_of\_digits( decf ) }| ).
 
 
+
+**📖 Source**: [abenfloating_point_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_class.htm)
+
 ### abencl_abap_decfloat_doc.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_decfloat_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_decfloat_doc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -139,7 +178,14 @@ Hint
 The formatting option [CURRENCY](javascript:call_link\('abapwrite_to_options.htm'\)) of the [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) and [WRITE](javascript:call_link\('abapwrite-.htm'\)) statements works like the method CONVERT\_DECFLOAT\_TO\_CURR.
 
 
+
+**📖 Source**: [abencl_abap_decfloat_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_decfloat_doc.htm)
+
 ### abencl_abap_bigint_doc.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_bigint_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_bigint_doc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -165,7 +211,14 @@ Continue
 ![Example](exa.gif "Example") [CL\_ABAP\_BIGINT, Square Root Calculation](javascript:call_link\('abenbigint1_abexa.htm'\))
 
 
+
+**📖 Source**: [abencl_abap_bigint_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_bigint_doc.htm)
+
 ### abenbigint_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenbigint_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbigint_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -385,7 +438,14 @@ Description  
 Public and private RSA key pairs are generated using methods of the system class CL\_ABAP\_BIGINT. These key pairs are used to encrypt a text. The key pairs, as well as the encrypted and decrypted text, are generated as screen output.
 
 
+
+**📖 Source**: [abenbigint_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbigint_abexa.htm)
+
 ### abenbigint1_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenbigint1_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbigint1_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -455,7 +515,14 @@ The user can enter two integers:
 Methods of the system class CL\_ABAP\_BIGINT are used to return the square root of p\_int with the required number of decimal places.
 
 
+
+**📖 Source**: [abenbigint1_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbigint1_abexa.htm)
+
 ### abencl_abap_bigint_doc.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_bigint_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_bigint_doc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -481,7 +548,14 @@ Continue
 ![Example](exa.gif "Example") [CL\_ABAP\_BIGINT, Square Root Calculation](javascript:call_link\('abenbigint1_abexa.htm'\))
 
 
+
+**📖 Source**: [abencl_abap_bigint_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_bigint_doc.htm)
+
 ### abencl_abap_rational_doc.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_rational_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_rational_doc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -524,7 +598,17 @@ lo\_rational->sub( cl\_abap\_rational=>factory\_from\_string(
 \`461293641239461293641237946192785619264124\` ) ).
 
 
+
+**📖 Source**: [abencl_abap_rational_doc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_rational_doc.htm)
+
 ### abenrandom_number_class.htm
+
+> **📖 Official SAP Documentation**: [abenrandom_number_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrandom_number_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenrandom_number_class.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrandom_number_class.htm)
+
 
   
 

@@ -10,14 +10,10 @@ XSD regex - Special Characters
 
 The following tables summarize the special characters in [XSD regular expressions](javascript:call_link\('abenxsd_regex_glosry.htm'\) "Glossary Entry").
 
--   [Pattern Syntax](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_1)
-    -   [Single Character Escapes](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_2)
-    -   [Character Escapes](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_3)
-    -   [Category Escapes](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_4)
-    -   [Quantifiers](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_5)
-    -   [Grouping and Capturing](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_6)
-    -   [Alternation](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_7)
-    -   [Character Classes](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_8)
+-   [Pattern Syntax](#abenregex-xsd-syntax-specials-1-----------single-character-escapes---@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_2)
+    -   [Character Escapes](#abenregex-xsd-syntax-specials-3-----------category-escapes---@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_4)
+    -   [Quantifiers](#abenregex-xsd-syntax-specials-5-----------grouping-and-capturing---@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_6)
+    -   [Alternation](#abenregex-xsd-syntax-specials-7-----------character-classes---@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_8)
 -   [Replacement Syntax](#@@ITOC@@ABENREGEX_XSD_SYNTAX_SPECIALS_9)
 
 Pattern Syntax

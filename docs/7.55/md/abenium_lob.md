@@ -10,17 +10,11 @@ INSERT, UPDATE, MODIFY dbtab, LOB Handles
 
 In the [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)), [UPDATE](javascript:call_link\('abapupdate.htm'\)), or [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)) statements, [LOB handles](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry") can be created as [writer streams](javascript:call_link\('abenwriter_stream_glosry.htm'\) "Glossary Entry") and specified as [locators](javascript:call_link\('abenlocator_glosry.htm'\) "Glossary Entry").
 
--   [Prerequisites](#@@ITOC@@ABENIUM_LOB_1)
+-   [Prerequisites](#abenium-lob-1--------rules---@ITOC@@ABENIUM_LOB_2)
 
--   [Rules](#@@ITOC@@ABENIUM_LOB_2)
+-   [Writes Using Writer Streams](#abenium-lob-3--------changing-accesses-using-locators---@ITOC@@ABENIUM_LOB_4)
 
--   [Writes Using Writer Streams](#@@ITOC@@ABENIUM_LOB_3)
-
--   [Changing Accesses Using Locators](#@@ITOC@@ABENIUM_LOB_4)
-
--   [Restrictions](#@@ITOC@@ABENIUM_LOB_5)
-
--   [Examples](#@@ITOC@@ABENIUM_LOB_6)
+-   [Restrictions](#abenium-lob-5--------examples---@ITOC@@ABENIUM_LOB_6)
 
 Prerequisites
 

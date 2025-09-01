@@ -3,7 +3,35 @@
 Included pages: 12
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_dynpros_screen.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_screen.htm)
+- [abenscreen_elements_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_elements_abexas.htm)
+- [abendynpro_status_icons_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_status_icons_abexa.htm)
+- [abendynpro_context_menu_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_context_menu_abexa.htm)
+- [abendynpro_cfw_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_cfw_abexa.htm)
+- [abendynpro_custom_control_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_custom_control_abexa.htm)
+- [abenhtml_browser_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhtml_browser_abexa.htm)
+- [abenhtml_input_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhtml_input_abexa.htm)
+- [abenmime_pictures_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmime_pictures_abexa.htm)
+- [abenmime_html_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmime_html_abexa.htm)
+- [abentext_output_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_output_abexa.htm)
+
+**Bundle Contains**: 11 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.505Z
+
+---
+
 ### abenabap_dynpros_screen.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_screen.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_screen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23,7 +51,14 @@ Continue
 [dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_screen.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_screen.htm)
+
 ### abenscreen_elements_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenscreen_elements_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_elements_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47,7 +82,14 @@ Continue
 ![Example](exa.gif "Example") [dynpro - Text Output](javascript:call_link\('abentext_output_abexa.htm'\))
 
 
+
+**📖 Source**: [abenscreen_elements_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_elements_abexas.htm)
+
 ### abendynpro_status_icons_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_status_icons_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_status_icons_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -130,7 +172,14 @@ PROCESS AFTER INPUT.
 Depending on the local value field in the program, the dialog module set\_icon passes different values to the function module ICON\_CREATE. The status field status\_icon is filled with the content of the export parameter result of the function module. This displays the corresponding icon including the text and tooltip on the screen. When the user chooses Continue, the content of the field value are changed in the PAI, and consequently a new icon is defined in the PBO event.
 
 
+
+**📖 Source**: [abendynpro_status_icons_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_status_icons_abexa.htm)
+
 ### abendynpro_context_menu_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_context_menu_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_context_menu_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -276,7 +325,14 @@ When the program is executed and the right mouse button or SHIFT+F10 is pressed,
 When a new dynamic function is selected, calculations are performed with the number in the input field FIELD1 and then passed to FIELD2. When the function Hide Result (HIDE) is selected, the screen is modified dynamically. This makes the fourth line visible and the context menu REVEAL can be used.
 
 
+
+**📖 Source**: [abendynpro_context_menu_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_context_menu_abexa.htm)
+
 ### abendynpro_cfw_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_cfw_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_cfw_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -572,7 +628,14 @@ Hint
 The class CL\_SALV\_TABLE and other classes with the prefix CL\_SALV\_ offer more convenient ways of displaying ALV controls.
 
 
+
+**📖 Source**: [abendynpro_cfw_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_cfw_abexa.htm)
+
 ### abendynpro_custom_control_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_custom_control_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_custom_control_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -707,7 +770,14 @@ If F4 is selected on the textedit control, PAI is raised. The method DISPATCH is
 In either case, regardless of whether the user chooses F1 or F4, the content of the textedit control is not passed to the internal table text\_tab. Consequently, the textedit control is overwritten with the previous content of text\_tab after PBO.
 
 
+
+**📖 Source**: [abendynpro_custom_control_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_custom_control_abexa.htm)
+
 ### abenhtml_browser_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhtml_browser_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhtml_browser_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -862,7 +932,14 @@ The class CL\_ABAP\_BROWSER encapsulates the use of the class CL\_GUI\_HTML\_VIE
 When the program starts, the file can be display in a modal window, a modeless window, or without a dialog box. If a modeless dialog box is chosen, container dynpros and information messages must be used to keep the dialog box alive. If no messages were sent, the modeless dialog box would not be visible.
 
 
+
+**📖 Source**: [abenhtml_browser_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhtml_browser_abexa.htm)
+
 ### abenhtml_input_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhtml_input_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhtml_input_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -956,7 +1033,14 @@ This example creates a HTML file containing multiple input fields, a pushbutton,
 See also the corresponding executable example for [ICF](javascript:call_link\('abenicf_post_service_abexa.htm'\)).
 
 
+
+**📖 Source**: [abenhtml_input_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhtml_input_abexa.htm)
+
 ### abenmime_pictures_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmime_pictures_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmime_pictures_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1070,7 +1154,14 @@ Images loaded here from the MIME repository using an API are displayed in two br
 See also the [executable example](javascript:call_link\('abenicf_mime_pictures_abexa.htm'\)) for direct access to objects from the MIME repository using ICF.
 
 
+
+**📖 Source**: [abenmime_pictures_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmime_pictures_abexa.htm)
+
 ### abenmime_html_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmime_html_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmime_html_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1154,7 +1245,14 @@ An API is used to load a HTML file and an image from the MIME repository and sto
 See also the [executable example](javascript:call_link\('abenicf_mime_pictures_abexa.htm'\)) for direct access to objects from the MIME repository using ICF.
 
 
+
+**📖 Source**: [abenmime_html_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmime_html_abexa.htm)
+
 ### abentext_output_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentext_output_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_output_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1209,7 +1307,17 @@ The program uses the methods of the class CL\_DEMO\_TEXT, which was designed for
 Wrappers like this can replace the use of the statement [WRITE](javascript:call_link\('abapwrite-.htm'\)) for simple text output.
 
 
+
+**📖 Source**: [abentext_output_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_output_abexa.htm)
+
 ### abenscreen_elements_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenscreen_elements_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_elements_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenscreen_elements_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_elements_abexas.htm)
+
 
   
 

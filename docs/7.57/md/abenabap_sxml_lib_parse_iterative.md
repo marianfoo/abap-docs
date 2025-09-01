@@ -13,10 +13,8 @@ sXML - Token-Based Parsing
 
 In token-based parsing, the parser iterates across all nodes (tokens) in the tree structure of the XML data, one after the other. By default, the iterator passes across all subnode branches until the final node. The parser pauses after every iteration step on a node whose properties are available in the attributes of the XML reader. If the parser pauses on the node for an element opening, the list of the XML attributes there can be accessed.
 
--   [Basic Approach](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_1)
--   [Methods and Attributes for Token-Based Parsing](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_2)
-    -   [Methods for Token-Based Parsing](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_3)
-    -   [Attributes for Token-Based Parsing](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_4)
+-   [Basic Approach](#abenabap-sxml-lib-parse-iterative-1-------methods-and-attributes-for-token-based-parsing---@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_2)
+    -   [Methods for Token-Based Parsing](#abenabap-sxml-lib-parse-iterative-3-----------attributes-for-token-based-parsing---@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_4)
 
 Basic Approach   
 

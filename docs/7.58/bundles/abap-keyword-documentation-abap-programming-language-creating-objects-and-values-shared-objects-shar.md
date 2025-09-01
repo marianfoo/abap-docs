@@ -3,7 +3,31 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshm_examples_abexas.htm)
+- [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshared_objects_abexa.htm)
+- [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshared_objects2_abexa.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.945Z
+
+---
+
 ### abenshm_examples_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshm_examples_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshm_examples_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25,7 +49,18 @@ Continue
 ![Example](exa.gif "Example") [Shared Objects - Writing to and Reading from an Area](javascript:call_link\('abenshared_objects2_abexa.htm'\))
 
 
+
+**📖 Source**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshm_examples_abexas.htm)
+
 ### abenshared_objects_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshared_objects_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshared_objects_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -156,7 +191,21 @@ The class shm\_demo demonstrates a user. The method main creates an object of th
 After executing the class, the area instance version can be examined in transaction SHMM.
 
 
+
+**📖 Source**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshared_objects_abexa.htm)
+
 ### abenshared_objects2_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshared_objects2_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshared_objects2_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshared_objects2_abexa.htm)
+
 
   
 

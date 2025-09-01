@@ -12,10 +12,8 @@ Time Stamps in Packed Numbers
 
 In this format, [time stamps](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") are represented using packed numbers of the type [p](javascript:call_link\('abenbuiltin_types_numeric.htm'\)).
 
--   [Representation of Time Stamps in Packed Numbers](#@@ITOC@@ABENTIME_STAMPS_PACKED_1)
--   [Accessing Time Stamps in Packed Numbers](#@@ITOC@@ABENTIME_STAMPS_PACKED_2)
--   [Notes on Handling Time Stamps in Packed Numbers](#@@ITOC@@ABENTIME_STAMPS_PACKED_3)
--   [Examples for Time Stamps in Packed Numbers](#@@ITOC@@ABENTIME_STAMPS_PACKED_4)
+-   [Representation of Time Stamps in Packed Numbers](#abentime-stamps-packed-1-------accessing-time-stamps-in-packed-numbers---@ITOC@@ABENTIME_STAMPS_PACKED_2)
+-   [Notes on Handling Time Stamps in Packed Numbers](#abentime-stamps-packed-3-------examples-for-time-stamps-in-packed-numbers---@ITOC@@ABENTIME_STAMPS_PACKED_4)
 
 Representation of Time Stamps in Packed Numbers   
 

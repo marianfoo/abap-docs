@@ -13,10 +13,8 @@ dynpro - Input Helps in the ABAP Dictionary
 
 The primary input helps used in the ABAP Dictionary are [search helps](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry"). A search help is a standalone [repository object](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") that is used specifically to provide input helps on screen fields. Search helps can be linked with table fields and data elements. The content of [check tables](javascript:call_link\('abencheck_table_glosry.htm'\) "Glossary Entry"), [fixed values](javascript:call_link\('abenfixed_value_glosry.htm'\) "Glossary Entry"), or calendar helps and clock helps can be used instead of search helps.
 
--   [Overview of ABAP Dictionary Input Helps](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_1)
--   [Hierarchy of the Input Helps](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_2)
--   [Data Transport of Search Helps](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_3)
--   [Search Help Exits](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_4)
+-   [Overview of ABAP Dictionary Input Helps](#abenabap-dynpros-value-help-auto-1-------hierarchy-of-the-input-helps---@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_2)
+-   [Data Transport of Search Helps](#abenabap-dynpros-value-help-auto-3-------search-help-exits---@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_4)
 
 Overview of ABAP Dictionary Input Helps   
 

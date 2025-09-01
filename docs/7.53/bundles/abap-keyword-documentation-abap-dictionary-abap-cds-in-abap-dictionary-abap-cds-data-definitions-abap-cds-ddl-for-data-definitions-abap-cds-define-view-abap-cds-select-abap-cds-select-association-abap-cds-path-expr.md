@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_f1_path_expression.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_path_expression.htm)
+- [abencds_path_expression_attr.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_path_expression_attr.htm)
+- [abencds_assoc_join_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_assoc_join_abexa.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.133Z
+
+---
+
 ### abencds_f1_path_expression.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_path_expression.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_path_expression.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -149,7 +169,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP CDS - Joins of Associations](javascript:call_link\('abencds_assoc_join_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_path_expression.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_path_expression.htm)
+
 ### abencds_path_expression_attr.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_attr.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_path_expression_attr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -400,7 +427,17 @@ FROM (
 )
 
 
+
+**📖 Source**: [abencds_path_expression_attr.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_path_expression_attr.htm)
+
 ### abencds_assoc_join_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_assoc_join_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_assoc_join_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_assoc_join_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_assoc_join_abexa.htm)
+
 
   
 

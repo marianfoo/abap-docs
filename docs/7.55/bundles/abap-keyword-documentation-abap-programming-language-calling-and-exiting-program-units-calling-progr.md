@@ -3,7 +3,34 @@
 Included pages: 13
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction.htm)
+- [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_standard.htm)
+- [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_authority.htm)
+- [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_using.htm)
+- [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbatch_input_table.htm)
+- [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransactions_abexas.htm)
+- [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_transaction_abexa.htm)
+- [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_transaction_bdc_abexa.htm)
+- [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_transaction_repo_abexa.htm)
+- [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_transaction_dialog_abexa.htm)
+
+**Bundle Contains**: 10 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.726Z
+
+---
+
 ### abapcall_transaction.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -112,7 +139,14 @@ Continue
 [Transaction Call, Examples](javascript:call_link\('abentransactions_abexas.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction.htm)
+
 ### abapcall_transaction_standard.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_standard.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -176,7 +210,14 @@ Continue
 [CALL TRANSACTION, AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_standard.htm)
+
 ### abapcall_transaction_authority.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_authority.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -240,7 +281,14 @@ Hints
 -   If the addition WITHOUT AUTHORITY-CHECK is specified, the content of the DDIC database table [TCDCOUPLES](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)) is ignored.
 
 
+
+**📖 Source**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_authority.htm)
+
 ### abapcall_transaction_standard.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_standard.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -304,7 +352,14 @@ Continue
 [CALL TRANSACTION, AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_standard.htm)
+
 ### abapcall_transaction_using.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -529,7 +584,14 @@ Continue
 [CALL TRANSACTION, Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_using.htm)
+
 ### abenbatch_input_table.htm
+
+> **📖 Official SAP Documentation**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbatch_input_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -586,7 +648,14 @@ Executable Example
 [Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
 
 
+
+**📖 Source**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbatch_input_table.htm)
+
 ### abapcall_transaction_using.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -811,7 +880,14 @@ Continue
 [CALL TRANSACTION, Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_using.htm)
+
 ### abentransactions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransactions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -830,7 +906,14 @@ Continue
 ![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](javascript:call_link\('abencall_transaction_dialog_abexa.htm'\))
 
 
+
+**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransactions_abexas.htm)
+
 ### abencall_transaction_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_transaction_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -871,7 +954,14 @@ Description
 The transaction DEMO\_TRANSACTION displays the details for a flight uniquely identified by the airline and the flight number. It is called from main using the statement CALL TRANSACTION and filled with [SPA/GPA parameters](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry") as initial values using the statement SET PARAMETER.
 
 
+
+**📖 Source**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_transaction_abexa.htm)
+
 ### abencall_transaction_bdc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_transaction_bdc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -917,7 +1007,14 @@ Description
 Call of the Class Builder (transaction SE24) and display of the class CL\_ABAP\_BROWSER. The required authorization is checked by using the addition WITH AUTHORITY-CHECK. The internal table bdcdata\_tab contains the entry for the processing of the first dynpro (1000) of the transaction. The structure opt is used to configure processing to skip the first screen and display the subsequent screen in standard size.
 
 
+
+**📖 Source**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_transaction_bdc_abexa.htm)
+
 ### abencall_transaction_repo_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_transaction_repo_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -971,7 +1068,14 @@ Description
 When the associated transaction DEMO\_REPORT\_TRANSACT is called, the executable program starts with the selection screen 500 in the same GUI window. Further processing is described in the executable example [Selection Screens, Calling Standalone Selection Screens](javascript:call_link\('abensel_screen_call_sel_scr_abexa.htm'\)).
 
 
+
+**📖 Source**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_transaction_repo_abexa.htm)
+
 ### abencall_transaction_dialog_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_transaction_dialog_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1011,7 +1115,17 @@ Description
 When the associated transaction DEMO\_SELSCREEN\_DYNP is called, the program starts by displaying selection screen 500. The user input on the selection screen can be processed, for example, at the event AT SELECTION-SCREEN or later in the application logic. After the event AT SELECTION-SCREEN is processed (PAI of the selection screen), the program branches to a next dynpro, 100.
 
 
+
+**📖 Source**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_transaction_dialog_abexa.htm)
+
 ### abentransactions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransactions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransactions_abexas.htm)
+
 
   
 

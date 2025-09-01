@@ -3,7 +3,31 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_generic_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_generic_dynpro.htm)
+- [abengeneric_dynpro_internal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneric_dynpro_internal.htm)
+- [abapexport_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_dynpro.htm)
+- [abapimport_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_dynpro.htm)
+- [abapdelete_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_dynpro.htm)
+- [abapsyntax-check_for_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsyntax-check_for_dynpro.htm)
+- [abapgenerate_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapgenerate_dynpro.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.946Z
+
+---
+
 ### abenabap_generic_dynpro.htm
+
+> **📖 Official SAP Documentation**: [abenabap_generic_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_generic_dynpro.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23,7 +47,14 @@ Continue
 [Internal Statements for Editing Dynpros](javascript:call_link\('abengeneric_dynpro_internal.htm'\))
 
 
+
+**📖 Source**: [abenabap_generic_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_generic_dynpro.htm)
+
 ### abengeneric_dynpro_internal.htm
+
+> **📖 Official SAP Documentation**: [abengeneric_dynpro_internal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneric_dynpro_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55,7 +86,14 @@ Continue
 [GENERATE DYNPRO](javascript:call_link\('abapgenerate_dynpro.htm'\))
 
 
+
+**📖 Source**: [abengeneric_dynpro_internal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneric_dynpro_internal.htm)
+
 ### abapexport_dynpro.htm
+
+> **📖 Official SAP Documentation**: [abapexport_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_dynpro.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -81,7 +119,14 @@ Effect
 Exports the [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") with the name in the id. The dynpro information is taken from the structure h (dynpro header, dictionary structure D020S) and the internal tables f (field list, structure D021S), e (flow logic, structure D022S), and m (matchcode information, structure D023S). Standard tables without secondary keys can be specified for f, e, and m.
 
 
+
+**📖 Source**: [abapexport_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_dynpro.htm)
+
 ### abapimport_dynpro.htm
+
+> **📖 Official SAP Documentation**: [abapimport_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_dynpro.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -144,7 +189,14 @@ DATA: BEGIN OF id,
 IMPORT DYNPRO h f e m ID id.
 
 
+
+**📖 Source**: [abapimport_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_dynpro.htm)
+
 ### abapdelete_dynpro.htm
+
+> **📖 Official SAP Documentation**: [abapdelete_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_dynpro.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -192,7 +244,14 @@ DYNPRONAME+40 = '0100'.
 DELETE DYNPRO DYNPRONAME.
 
 
+
+**📖 Source**: [abapdelete_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_dynpro.htm)
+
 ### abapsyntax-check_for_dynpro.htm
+
+> **📖 Official SAP Documentation**: [abapsyntax-check_for_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsyntax-check_for_dynpro.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -276,7 +335,14 @@ Effect
 If a syntax error occurs, the key of the corresponding error message is returned in field f5. This key has the same structure as the key of table TRMSG.
 
 
+
+**📖 Source**: [abapsyntax-check_for_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsyntax-check_for_dynpro.htm)
+
 ### abapgenerate_dynpro.htm
+
+> **📖 Official SAP Documentation**: [abapgenerate_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapgenerate_dynpro.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -347,7 +413,17 @@ Effect
 Trace output is stored in this file. This addition automatically activates trace mode.
 
 
+
+**📖 Source**: [abapgenerate_dynpro.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapgenerate_dynpro.htm)
+
 ### abengeneric_dynpro_internal.htm
+
+> **📖 Official SAP Documentation**: [abengeneric_dynpro_internal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneric_dynpro_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abengeneric_dynpro_internal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneric_dynpro_internal.htm)
+
 
   
 

@@ -16,9 +16,7 @@ Pragmas are [program directives](javascript:call_link\('abenprogram_directive_gl
 
 More information can be found in the following:
 
--   [Syntax of Pragmas](#@@ITOC@@ABENPRAGMA_1)
-
--   [Positioning of Pragmas in ABAP Source Code](#@@ITOC@@ABENPRAGMA_2)
+-   [Syntax of Pragmas](#abenpragma-1--------positioning-of-pragmas-in-abap-source-code---@ITOC@@ABENPRAGMA_2)
 
 Syntax of Pragmas
 

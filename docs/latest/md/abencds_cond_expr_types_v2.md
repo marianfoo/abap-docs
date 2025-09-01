@@ -13,10 +13,8 @@ CDS DDL - CDS View Entity, cds\_cond, Comparable Types
 
 The following tables show which [built-in data types](javascript:call_link\('abenddic_builtin_types.htm'\)) in ABAP Dictionary can be compared with each other in a [condition](javascript:call_link\('abencds_conditional_expression_v2.htm'\)) of a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry").
 
--   [Comparisons with Fields of Data Sources](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_1)
--   [Comparisons with Parameters](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_2)
--   [Comparisons with Literals](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_3)
--   [Comparisons with CDS Amount Fields and CDS Quantity Fields](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_4)
+-   [Comparisons with Fields of Data Sources](#abencds-cond-expr-types-v2-1-------comparisons-with-parameters---@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_2)
+-   [Comparisons with Literals](#abencds-cond-expr-types-v2-3-------comparisons-with-cds-amount-fields-and-cds-quantity-fields---@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_4)
 
 Comparisons with Fields of Data Sources   
 

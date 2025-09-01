@@ -3,7 +3,32 @@
 Included pages: 9
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenprogram_call_obsolete.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_call_obsolete.htm)
+- [abapcall_transaction_auth_obs.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_auth_obs.htm)
+- [abapcall_method_static.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_static.htm)
+- [abapcall_dialog.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_dialog.htm)
+- [abencall_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_dialog_abexa.htm)
+- [abapcall_customer-function.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_customer-function.htm)
+- [abapcall_function_exc_short_form.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_exc_short_form.htm)
+- [abapperform_obsolete.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapperform_obsolete.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.741Z
+
+---
+
 ### abenprogram_call_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenprogram_call_obsolete.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_call_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34,7 +59,14 @@ Continue
 [PERFORM subr(prog)](javascript:call_link\('abapperform_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenprogram_call_obsolete.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_call_obsolete.htm)
+
 ### abapcall_transaction_auth_obs.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_auth_obs.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_auth_obs.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -116,7 +148,14 @@ Hints
 -   In releases where the additions [WITH AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) or [WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) did not yet exist, the recommendation was that the authorization check be performed before the transaction was called using the function module AUTHORITY\_CHECK\_TCODE or the statement [AUTHORITY-CHECK](javascript:call_link\('abapauthority-check.htm'\)). Here, the function module AUTHORITY\_CHECK\_TCODE also has a dependency on the DDIC database table TCDCOUPLES (the statement AUTHORITY-CHECK does not). The security tests in the [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry") continue to accept preceding checks of this nature but in new programs the additions should be used.
 
 
+
+**📖 Source**: [abapcall_transaction_auth_obs.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_auth_obs.htm)
+
 ### abapcall_method_static.htm
+
+> **📖 Official SAP Documentation**: [abapcall_method_static.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_static.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -212,7 +251,14 @@ START-OF-SELECTION.
       r  = DATA(c3) ).
 
 
+
+**📖 Source**: [abapcall_method_static.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_static.htm)
+
 ### abapcall_dialog.htm
+
+> **📖 Official SAP Documentation**: [abapcall_dialog.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_dialog.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -334,7 +380,14 @@ Continue
 ![Example](exa.gif "Example") [Calling a Dialog Module](javascript:call_link\('abencall_dialog_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcall_dialog.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_dialog.htm)
+
 ### abencall_dialog_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_dialog_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -382,7 +435,14 @@ Description
 Calls the [dialog module](javascript:call_link\('abendialog_module_object_glosry.htm'\) "Glossary Entry") DEMO\_DIALOG\_MODULE associated with the program SAPMDEMO\_TRANSACTION.
 
 
+
+**📖 Source**: [abencall_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_dialog_abexa.htm)
+
 ### abapcall_dialog.htm
+
+> **📖 Official SAP Documentation**: [abapcall_dialog.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_dialog.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -504,7 +564,14 @@ Continue
 ![Example](exa.gif "Example") [Calling a Dialog Module](javascript:call_link\('abencall_dialog_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcall_dialog.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_dialog.htm)
+
 ### abapcall_customer-function.htm
+
+> **📖 Official SAP Documentation**: [abapcall_customer-function.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_customer-function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -549,7 +616,14 @@ Hints
 -   Since it is not known in a calling program whether a function module exit is active, sy-subrc must be set to 0 explicitly so that a successful call can be simulated.
 
 
+
+**📖 Source**: [abapcall_customer-function.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_customer-function.htm)
+
 ### abapcall_function_exc_short_form.htm
+
+> **📖 Official SAP Documentation**: [abapcall_function_exc_short_form.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_exc_short_form.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -601,7 +675,17 @@ CALL FUNCTION func EXCEPTIONS = = 1
 Since exceptions called "=" are not possible, and exceptions called "4" are unlikely, this call will almost certainly not catch any exceptions, even though it is designed to catch every exception.
 
 
+
+**📖 Source**: [abapcall_function_exc_short_form.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_exc_short_form.htm)
+
 ### abapperform_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abapperform_obsolete.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapperform_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapperform_obsolete.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapperform_obsolete.htm)
+
 
   
 

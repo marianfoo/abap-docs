@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapopen_dataset_mode.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm)
+- [abapopen_dataset_encoding.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_encoding.htm)
+- [abapopen_dataset_linefeed.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_linefeed.htm)
+- [abapopen_dataset_endian.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_endian.htm)
+- [abapopen_dataset_code_page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_code_page.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.259Z
+
+---
+
 ### abapopen_dataset_mode.htm
+
+> **📖 Official SAP Documentation**: [abapopen_dataset_mode.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -144,7 +166,14 @@ Continue
 [OPEN DATASET, CODE PAGE](javascript:call_link\('abapopen_dataset_code_page.htm'\))
 
 
+
+**📖 Source**: [abapopen_dataset_mode.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm)
+
 ### abapopen_dataset_encoding.htm
+
+> **📖 Official SAP Documentation**: [abapopen_dataset_encoding.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_encoding.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -302,7 +331,14 @@ cl\_demo\_output=>display( text ).
 DELETE DATASET dset.
 
 
+
+**📖 Source**: [abapopen_dataset_encoding.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_encoding.htm)
+
 ### abapopen_dataset_linefeed.htm
+
+> **📖 Official SAP Documentation**: [abapopen_dataset_linefeed.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_linefeed.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -485,7 +521,14 @@ DELETE DATASET dset.
 ASSERT xstr = cl\_abap\_conv\_codepage=>create\_out( )->convert( |\\r\\n| ).
 
 
+
+**📖 Source**: [abapopen_dataset_linefeed.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_linefeed.htm)
+
 ### abapopen_dataset_endian.htm
+
+> **📖 Official SAP Documentation**: [abapopen_dataset_endian.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_endian.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -539,7 +582,17 @@ cl\_demo\_output=>display( ).
 DELETE DATASET dset.
 
 
+
+**📖 Source**: [abapopen_dataset_endian.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_endian.htm)
+
 ### abapopen_dataset_code_page.htm
+
+> **📖 Official SAP Documentation**: [abapopen_dataset_code_page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_code_page.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapopen_dataset_code_page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_code_page.htm)
+
 
   
 

@@ -3,7 +3,39 @@
 Included pages: 15
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-753.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753.htm)
+- [abennews-753-ddic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-ddic.htm)
+- [abennews-753-assignments.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-assignments.htm)
+- [abennews-753-itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-itab.htm)
+- [abennews-753-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-abap_sql.htm)
+- [abennews-753-abap_cds.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-abap_cds.htm)
+- [abennews-753-amdp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-amdp.htm)
+- [abennews-753-native_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-native_sql.htm)
+- [abennews-753-shared_objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-shared_objects.htm)
+- [abennews-753-exceptions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-exceptions.htm)
+- [abennews-753-transformations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-transformations.htm)
+- [abennews-753-dynpros.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-dynpros.htm)
+- [abennews-753-type_checks.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-type_checks.htm)
+- [abennews-753-others.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-others.htm)
+- [abennews-753-restful.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-restful.htm)
+
+**Bundle Contains**: 15 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.514Z
+
+---
+
 ### abennews-753.htm
+
+> **📖 Official SAP Documentation**: [abennews-753.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49,7 +81,14 @@ Continue
 [ABAP RESTful Programming Model in Release 7.53](javascript:call_link\('abennews-753-restful.htm'\))
 
 
+
+**📖 Source**: [abennews-753.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753.htm)
+
 ### abennews-753-ddic.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-ddic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-ddic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -91,7 +130,14 @@ The following limits now apply to the number of fields and the length of the str
     -   A view that is part of the software component SAP\_BASIS can contain a maximum of 749 fields (as before) and the total of the field lengths in ABAP Dictionary is still restricted to 4096.
 
 
+
+**📖 Source**: [abennews-753-ddic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-ddic.htm)
+
 ### abennews-753-assignments.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-assignments.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-assignments.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -146,7 +192,14 @@ Hint
 When downporting programs from higher to lower releases, syntax errors might occur in the lower releases because of the stricter rules there.
 
 
+
+**📖 Source**: [abennews-753-assignments.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-assignments.htm)
+
 ### abennews-753-itab.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -181,7 +234,14 @@ Changes to Write-Protected Components
 Before Release 7.53 it was possible to overwrite those write-protected components addressed using a data reference variable in a standard table, if the profile parameter abap/runt/write\_check\_fix was set to off. This profile parameter was removed in Release 7.53 and it is no longer possible to modify write-protected components.
 
 
+
+**📖 Source**: [abennews-753-itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-itab.htm)
+
 ### abennews-753-abap_sql.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-abap_sql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -390,7 +450,14 @@ A violation of the following rules now always produces a syntax error. In the [s
 -   In the statement [UPDATE](javascript:call_link\('abapupdate.htm'\)), a column can occur only on the left side of a single [update expression](javascript:call_link\('abapupdate_set_expression.htm'\)).
 
 
+
+**📖 Source**: [abennews-753-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-abap_sql.htm)
+
 ### abennews-753-abap_cds.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-abap_cds.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-abap_cds.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -466,7 +533,14 @@ The following enhancements have been implemented in [CDS access control](javascr
 -   In a [PFCG condition](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)), a [PFCG mapping](javascript:call_link\('abencds_pfcg_mapping_glosry.htm'\) "Glossary Entry") can be [mapped](javascript:call_link\('abencds_f1_cond_pfcg_mapping.htm'\)) to an element list. This mapping assigns the CDS elements to the authorization fields of an authorization object. A PFCG mapping is defined in a [CDS access policy](javascript:call_link\('abencds_access_policy_glosry.htm'\) "Glossary Entry") using [DEFINE PFCG\_MAPPING](javascript:call_link\('abencds_f1_define_pfcg_mapping.htm'\)).
 
 
+
+**📖 Source**: [abennews-753-abap_cds.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-abap_cds.htm)
+
 ### abennews-753-amdp.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-amdp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-amdp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -528,7 +602,14 @@ Option CDS SESSION CLIENT Mandatory
 The option [CDS SESSION CLIENT](javascript:call_link\('abapmethods_amdp_options.htm'\)) is now mandatory when an AMDP method accesses the [CDS managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") whose [client handling](javascript:call_link\('abencds_view_client_handling_v1.htm'\)) is determined by the annotation [@ClientHandling.algorithm: #SESSION\_VARIABLE](javascript:call_link\('abencds_view_client_handling_v1.htm'\)). If this option is not specified in this case, a syntax error occurs. The option sets the [session variable](javascript:call_link\('abensession_variable_glosry.htm'\) "Glossary Entry") of the database that can be addressed under the name [$session.client](javascript:call_link\('abencds_session_variable_v1.htm'\)) in the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") of the [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry") to a particular value when the method is called from ABAP. An exception of the class CX\_AMDP\_CDS\_CLIENT\_MISMATCH can now no longer be raised.
 
 
+
+**📖 Source**: [abennews-753-amdp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-amdp.htm)
+
 ### abennews-753-native_sql.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-native_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-native_sql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -547,7 +628,14 @@ New Method GET\_ABAP\_CONNECTION in CL\_SQL\_CONNECTION
 The new method [GET\_ABAP\_CONNECTION](javascript:call_link\('abencl_sql_connection.htm'\)) of the class CL\_SQL\_CONNECTION works in the same way as the existing method [GET\_CONNECTION](javascript:call_link\('abencl_sql_connection.htm'\)) if the latter is passed the value abap\_true SHARABLE for a connection shared in ABAP SQL, Native SQL, and AMDP. GET\_ABAP\_CONNECTION can generally be used instead of GET\_CONNECTION, unless it needs to be called with the value abap\_false (default) for the parameter SHARABLE to create an exclusive connection.
 
 
+
+**📖 Source**: [abennews-753-native_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-native_sql.htm)
+
 ### abennews-753-shared_objects.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-shared_objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-shared_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -566,7 +654,14 @@ Cross-Server Invalidations and Releases
 Until now, cross-server invalidations and releases of [area instance versions](javascript:call_link\('abenarea_instance_version_glosry.htm'\) "Glossary Entry") were only possible for [transactional areas](javascript:call_link\('abenshm_area_basic_properties.htm'\)). From Release 7.53, cross-server invalidations and releases can be performed for all areas with the Application Server [area binding](javascript:call_link\('abenshm_area_fixed_properties.htm'\)) by using the associated parameter AFFECT\_SERVER of the methods INVALIDATE\_... and FREE\_... of the [area class](javascript:call_link\('abenarea_class_glosry.htm'\) "Glossary Entry") in question. The parameter AFFECT\_SERVER is added to the methods of existing area classes when a new generation is performed in transaction SHMA.
 
 
+
+**📖 Source**: [abennews-753-shared_objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-shared_objects.htm)
+
 ### abennews-753-exceptions.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-exceptions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-exceptions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -603,7 +698,14 @@ The attribute IS\_RESUMABLE of an [exception object](javascript:call_link\('aben
 After an exception is raised using the statement [RAISE RESUMABLE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) and caught using the statement [CATCH BEFORE UNWIND](javascript:call_link\('abapcatch_try.htm'\)), the attribute IS\_RESUMABLE is set for all previous exception objects referenced in the attribute PREVIOUS and not just for the current exception object. Up until the first resumable exception in the chain IS\_RESUMABLE is set to the value of ABAP\_TRUE and is set to the value of ABAP\_FALSE otherwise.
 
 
+
+**📖 Source**: [abennews-753-exceptions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-exceptions.htm)
+
 ### abennews-753-transformations.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-transformations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-transformations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -622,7 +724,14 @@ Resumable Exceptions in Deserializations with ST
 The new transformation option [OPTIONS exceptions = 'resumable'](javascript:call_link\('abapcall_transformation_options.htm'\)) can be used to make exceptions of the class CX\_ST\_DESERIALIZATION\_ERROR into resumable exceptions. In handling with [CATCH BEFORE UNWIND](javascript:call_link\('abapcatch_try.htm'\)), the new attribute RESULT\_REF\_FOR\_RESUME of the exception object of the class CX\_ST\_DESERIALIZATION\_ERROR points to the target field where the exception was raised. The canceled transformation can be resumed using [RESUME](javascript:call_link\('abapresume.htm'\)).
 
 
+
+**📖 Source**: [abennews-753-transformations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-transformations.htm)
+
 ### abennews-753-dynpros.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-dynpros.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-dynpros.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -641,7 +750,14 @@ Reference Value for Conversion Routines
 An optional input parameter with the predefined name REFVAL can be created for the function modules for [conversion routines](javascript:call_link\('abenconversion_exits.htm'\)). When a dynpro field of the type [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)) or [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)) is converted, this parameter is given the value of a an associated reference field of the type [CUKY](javascript:call_link\('abenddic_builtin_types.htm'\)) or [UNIT](javascript:call_link\('abenddic_builtin_types.htm'\)) automatically If [WRITE USING EDIT MASK](javascript:call_link\('abapwrite_to_options.htm'\)) is used, the input parameter REFVAL is not filled.
 
 
+
+**📖 Source**: [abennews-753-dynpros.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-dynpros.htm)
+
 ### abennews-753-type_checks.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-type_checks.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-type_checks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -679,7 +795,14 @@ Checks on Literals as Actual Parameters
 The value of a literal passed to a procedure must not be modified in the procedure. In certain cases this was, however, possible, namely when [literals as actual parameters](javascript:call_link\('abentyping_literals.htm'\)) were passed to differently typed CHANGING parameters of subroutines. This is now prevented by stricter checks and always produces a runtime error.
 
 
+
+**📖 Source**: [abennews-753-type_checks.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-type_checks.htm)
+
 ### abennews-753-others.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-others.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-others.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -726,7 +849,17 @@ Error Message After SUBMIT VIA JOB
 The method GET\_ERROR\_MESSAGE of the class CL\_ABAP\_SUBMIT\_HANDLING can now be used to read the last error message in cases where it was not possible to schedule a background task using [SUBMIT VIA JOB](javascript:call_link\('abapsubmit_via_job.htm'\)).
 
 
+
+**📖 Source**: [abennews-753-others.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-others.htm)
+
 ### abennews-753-restful.htm
+
+> **📖 Official SAP Documentation**: [abennews-753-restful.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-restful.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-753-restful.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-753-restful.htm)
+
 
   
 

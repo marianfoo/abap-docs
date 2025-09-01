@@ -3,7 +3,31 @@
 Included pages: 10
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abentextpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentextpool.htm)
+- [abapread_textpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_textpool.htm)
+- [abapread_textpool_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_textpool_internal.htm)
+- [abapinsert_textpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_textpool.htm)
+- [abapinsert_textpool_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_textpool_internal.htm)
+- [abengeneric_text_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_text_internal.htm)
+- [abapdelete_textpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_textpool.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.502Z
+
+---
+
 ### abentextpool.htm
+
+> **📖 Official SAP Documentation**: [abentextpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentextpool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +53,14 @@ Continue
 [Internal Statement for Editing Text Elements](javascript:call_link\('abengeneric_text_internal.htm'\))
 
 
+
+**📖 Source**: [abentextpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentextpool.htm)
+
 ### abapread_textpool.htm
+
+> **📖 Official SAP Documentation**: [abapread_textpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_textpool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -126,7 +157,14 @@ Continue
 [READ TEXTPOOL - Internal Addition](javascript:call_link\('abapread_textpool_internal.htm'\))
 
 
+
+**📖 Source**: [abapread_textpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_textpool.htm)
+
 ### abapread_textpool_internal.htm
+
+> **📖 Official SAP Documentation**: [abapread_textpool_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_textpool_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -174,7 +212,14 @@ Non-Handleable Exceptions
     Runtime error: INSERT\_REPORT\_ILLEGAL\_STATE
 
 
+
+**📖 Source**: [abapread_textpool_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_textpool_internal.htm)
+
 ### abapread_textpool.htm
+
+> **📖 Official SAP Documentation**: [abapread_textpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_textpool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -271,7 +316,14 @@ Continue
 [READ TEXTPOOL - Internal Addition](javascript:call_link\('abapread_textpool_internal.htm'\))
 
 
+
+**📖 Source**: [abapread_textpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_textpool.htm)
+
 ### abapinsert_textpool.htm
+
+> **📖 Official SAP Documentation**: [abapinsert_textpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_textpool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -364,7 +416,14 @@ Continue
 [INSERT TEXTPOOL - Internal Addition](javascript:call_link\('abapinsert_textpool_internal.htm'\))
 
 
+
+**📖 Source**: [abapinsert_textpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_textpool.htm)
+
 ### abapinsert_textpool_internal.htm
+
+> **📖 Official SAP Documentation**: [abapinsert_textpool_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_textpool_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -412,7 +471,14 @@ Non-Handleable Exceptions
     Runtime error: INSERT\_REPORT\_ILLEGAL\_STATE
 
 
+
+**📖 Source**: [abapinsert_textpool_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_textpool_internal.htm)
+
 ### abapinsert_textpool.htm
+
+> **📖 Official SAP Documentation**: [abapinsert_textpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_textpool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -505,7 +571,14 @@ Continue
 [INSERT TEXTPOOL - Internal Addition](javascript:call_link\('abapinsert_textpool_internal.htm'\))
 
 
+
+**📖 Source**: [abapinsert_textpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_textpool.htm)
+
 ### abengeneric_text_internal.htm
+
+> **📖 Official SAP Documentation**: [abengeneric_text_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_text_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -526,7 +599,14 @@ Continue
 [DELETE TEXTPOOL](javascript:call_link\('abapdelete_textpool.htm'\))
 
 
+
+**📖 Source**: [abengeneric_text_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_text_internal.htm)
+
 ### abapdelete_textpool.htm
+
+> **📖 Official SAP Documentation**: [abapdelete_textpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_textpool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -594,7 +674,17 @@ Non-Handleable Exceptions
     Runtime error: INSERT\_REPORT\_ILLEGAL\_STATE
 
 
+
+**📖 Source**: [abapdelete_textpool.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_textpool.htm)
+
 ### abengeneric_text_internal.htm
+
+> **📖 Official SAP Documentation**: [abengeneric_text_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_text_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abengeneric_text_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_text_internal.htm)
+
 
   
 

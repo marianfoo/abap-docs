@@ -15,24 +15,15 @@ The following [DDLA source code](javascript:call_link\('abenddla_source_code_glo
 
 The meaning of the [DDLA source code](javascript:call_link\('abenddla_source_code_glosry.htm'\) "Glossary Entry") shown here can be found in the documentation for [DEFINE ANNOTATION](javascript:call_link\('abencds_f1_define_annotation.htm'\)). The documentation for an annotation can be found in the respective KTD in ADT.
 
--   [AccessControl-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_1)
--   [Aggregation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_2)
--   [Analytics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_3)
--   [AnalyticsDetails-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_4)
--   [Consumption-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_5)
--   [DefaultAggregation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_6)
--   [EnterpriseSearch-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_7)
--   [Event-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_8)
--   [Feature-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_9)
--   [GenericPersistency-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_10)
--   [Hierarchy-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_11)
--   [ObjectModel-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_12)
--   [OData-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_13)
--   [Search-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_14)
--   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_15)
--   [UI-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_16)
--   [VDM-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_17)
--   [Workflow-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_18)
+-   [AccessControl-Annotations](#abencds-annotations-frmwrk-ddla-1-------aggregation-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_2)
+-   [Analytics-Annotations](#abencds-annotations-frmwrk-ddla-3-------analyticsdetails-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_4)
+-   [Consumption-Annotations](#abencds-annotations-frmwrk-ddla-5-------defaultaggregation-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_6)
+-   [EnterpriseSearch-Annotations](#abencds-annotations-frmwrk-ddla-7-------event-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_8)
+-   [Feature-Annotations](#abencds-annotations-frmwrk-ddla-9-------genericpersistency-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_10)
+-   [Hierarchy-Annotations](#abencds-annotations-frmwrk-ddla-11-------objectmodel-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_12)
+-   [OData-Annotations](#abencds-annotations-frmwrk-ddla-13-------search-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_14)
+-   [Semantics-Annotations](#abencds-annotations-frmwrk-ddla-15-------ui-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_16)
+-   [VDM-Annotations](#abencds-annotations-frmwrk-ddla-17-------workflow-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_18)
 
 Hint
 

@@ -10,9 +10,7 @@ Specifying Individual Operands
 
 There are three ways to specify the [names of operands](javascript:call_link\('abenoperands_names.htm'\)):
 
--   [Specifying Names Statically](#@@ITOC@@ABENOPERANDS_SPECIFYING_1)
-
--   [Specifying Names Dynamically in Parentheses](#@@ITOC@@ABENOPERANDS_SPECIFYING_2)
+-   [Specifying Names Statically](#abenoperands-specifying-1--------specifying-names-dynamically-in-parentheses---@ITOC@@ABENOPERANDS_SPECIFYING_2)
 
 -   [Specifying Names Dynamically](#@@ITOC@@ABENOPERANDS_SPECIFYING_3)
 

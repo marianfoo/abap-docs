@@ -18,8 +18,7 @@ ABAP supports two main programming paradigms:
 
 While in classic ABAP there is unrestricted access to an [ABAP Platform](javascript:call_link\('abenabap_platform_glosry.htm'\) "Glossary Entry"), in ABAP Cloud there are restrictions regarding ABAP language versions and access to APIs explained in the following topics.
 
--   [ABAP Language Versions](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_1)
--   [Release Contracts](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_2)
+-   [ABAP Language Versions](#abenabap-versions-and-apis-1-------release-contracts---@ITOC@@ABENABAP_VERSIONS_AND_APIS_2)
 -   [Released APIs](#@@ITOC@@ABENABAP_VERSIONS_AND_APIS_3)
 
 ABAP Language Versions   

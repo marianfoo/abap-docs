@@ -3,7 +3,33 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_loops.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_loops.htm)
+- [abapdo.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdo.htm)
+- [abapenddo.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapenddo.htm)
+- [abapwhile.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile.htm)
+- [abapendwhile.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendwhile.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.994Z
+
+---
+
 ### abenabap_loops.htm
+
+> **📖 Official SAP Documentation**: [abenabap_loops.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_loops.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_loops.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_loops.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33,7 +59,18 @@ Continue
 [WHILE](javascript:call_link\('abapwhile.htm'\))
 
 
+
+**📖 Source**: [abenabap_loops.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_loops.htm)
+
 ### abapdo.htm
+
+> **📖 Official SAP Documentation**: [abapdo.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdo.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapdo.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdo.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -116,7 +153,18 @@ Continue
 [ENDDO](javascript:call_link\('abapenddo.htm'\))
 
 
+
+**📖 Source**: [abapdo.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdo.htm)
+
 ### abapenddo.htm
+
+> **📖 Official SAP Documentation**: [abapenddo.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapenddo.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapenddo.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapenddo.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -141,7 +189,18 @@ Effect
 The statement ENDDO completes a loop started using [DO](javascript:call_link\('abapdo.htm'\)).
 
 
+
+**📖 Source**: [abapenddo.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapenddo.htm)
+
 ### abapdo.htm
+
+> **📖 Official SAP Documentation**: [abapdo.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdo.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapdo.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdo.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -224,7 +283,18 @@ Continue
 [ENDDO](javascript:call_link\('abapenddo.htm'\))
 
 
+
+**📖 Source**: [abapdo.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdo.htm)
+
 ### abapwhile.htm
+
+> **📖 Official SAP Documentation**: [abapwhile.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapwhile.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -271,7 +341,18 @@ Continue
 [ENDWHILE](javascript:call_link\('abapendwhile.htm'\))
 
 
+
+**📖 Source**: [abapwhile.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile.htm)
+
 ### abapendwhile.htm
+
+> **📖 Official SAP Documentation**: [abapendwhile.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendwhile.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapendwhile.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendwhile.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -296,7 +377,21 @@ Effect
 The statement ENDWHILE completes a loop introduced using [WHILE](javascript:call_link\('abapwhile.htm'\)).
 
 
+
+**📖 Source**: [abapendwhile.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendwhile.htm)
+
 ### abapwhile.htm
+
+> **📖 Official SAP Documentation**: [abapwhile.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapwhile.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapwhile.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile.htm)
+
 
   
 

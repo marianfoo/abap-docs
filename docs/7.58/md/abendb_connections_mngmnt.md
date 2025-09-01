@@ -12,10 +12,8 @@ Management of Database Connections
 
 Database connections are managed by the ABAP runtime framework. This is done at the [work process](javascript:call_link\('abenwork_process_glosry.htm'\) "Glossary Entry") level and the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") level. Each time an AS ABAP is started, a [standard connection](javascript:call_link\('abenstandard_db_connection_glosry.htm'\) "Glossary Entry") is opened for every [work process](javascript:call_link\('abenwork_process_glosry.htm'\) "Glossary Entry") and this connection cannot be closed. In addition to the standard connection, 15 further [secondary connections](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") or [service connections](javascript:call_link\('abenservice_connection_glosry.htm'\) "Glossary Entry") can be opened for each work process. A maximum of 16 database connections can be open for each work process. On certain databases, it may not be possible to reach this number. If more than 16 database connections are opened, the runtime error DBSQL\_NO\_MORE\_CONNECTION occurs.
 
--   [Opening and Closing Secondary Connections and Service Connections](#@@ITOC@@ABENDB_CONNECTIONS_MNGMNT_1)
--   [Active and Inactive Secondary Connections and Service Connections](#@@ITOC@@ABENDB_CONNECTIONS_MNGMNT_2)
--   [Secondary Connections and Service Connections in the Internal Session](#@@ITOC@@ABENDB_CONNECTIONS_MNGMNT_3)
--   [Displaying Secondary Connections and Service Connections](#@@ITOC@@ABENDB_CONNECTIONS_MNGMNT_4)
+-   [Opening and Closing Secondary Connections and Service Connections](#abendb-connections-mngmnt-1-------active-and-inactive-secondary-connections-and-service-connections---@ITOC@@ABENDB_CONNECTIONS_MNGMNT_2)
+-   [Secondary Connections and Service Connections in the Internal Session](#abendb-connections-mngmnt-3-------displaying-secondary-connections-and-service-connections---@ITOC@@ABENDB_CONNECTIONS_MNGMNT_4)
 
 Opening and Closing Secondary Connections and Service Connections   
 

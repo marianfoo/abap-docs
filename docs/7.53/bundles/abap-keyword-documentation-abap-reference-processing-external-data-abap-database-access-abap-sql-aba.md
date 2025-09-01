@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencl_osql.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_osql.htm)
+- [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_osql_extended_result.htm)
+- [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_osql_replace.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.203Z
+
+---
+
 ### abencl_osql.htm
+
+> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_osql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26,7 +46,14 @@ Continue
 [CL\_OSQL\_REPLACE - Replacement Service](javascript:call_link\('abencl_osql_replace.htm'\))
 
 
+
+**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_osql.htm)
+
 ### abencl_osql_extended_result.htm
+
+> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_osql_extended_result.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47,7 +74,17 @@ Example
 See [SAP HANA, Cached Views](javascript:call_link\('abenhana_cached_views_abexa.htm'\))
 
 
+
+**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_osql_extended_result.htm)
+
 ### abencl_osql_replace.htm
+
+> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_osql_replace.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_osql_replace.htm)
+
 
   
 

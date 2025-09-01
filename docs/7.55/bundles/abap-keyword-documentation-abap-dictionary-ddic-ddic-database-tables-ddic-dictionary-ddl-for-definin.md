@@ -3,7 +3,32 @@
 Included pages: 10
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_define_table.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_table.htm)
+- [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table.htm)
+- [abenddicddl_define_table_props.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_props.htm)
+- [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_comps.htm)
+- [abenddicddl_define_table_fkprps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_fkprps.htm)
+- [abenddicddl_define_table_forkey.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_forkey.htm)
+- [abenddicddl_define_table_srprps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_srprps.htm)
+- [abenddicddl_define_table_incl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_incl.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.662Z
+
+---
+
 ### abenddic_define_table.htm
+
+> **📖 Official SAP Documentation**: [abenddic_define_table.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +56,14 @@ Continue
 [DDIC DDL - DEFINE TABLE](javascript:call_link\('abenddicddl_define_table.htm'\))
 
 
+
+**📖 Source**: [abenddic_define_table.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_define_table.htm)
+
 ### abenddicddl_define_table.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -98,7 +130,14 @@ Continue
 [DDIC DDL - DEFINE TABLE, include](javascript:call_link\('abenddicddl_define_table_incl.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table.htm)
+
 ### abenddicddl_define_table_props.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_props.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_props.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -186,7 +225,14 @@ define table demo\_sumdist {
   sum\_distance : s\_distance; }
 
 
+
+**📖 Source**: [abenddicddl_define_table_props.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_props.htm)
+
 ### abenddicddl_define_table_comps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -276,7 +322,14 @@ Continue
 [DDIC DDL - DEFINE TABLE, geo\_annos](javascript:call_link\('abenddicddl_define_table_srprps.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_comps.htm)
+
 ### abenddicddl_define_table_fkprps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_fkprps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_fkprps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -319,7 +372,14 @@ Example
 See [foreign\_key](javascript:call_link\('abenddicddl_define_table_forkey.htm'\)).
 
 
+
+**📖 Source**: [abenddicddl_define_table_fkprps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_fkprps.htm)
+
 ### abenddicddl_define_table_forkey.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_forkey.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_forkey.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -373,7 +433,14 @@ define table spfli {
 }
 
 
+
+**📖 Source**: [abenddicddl_define_table_forkey.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_forkey.htm)
+
 ### abenddicddl_define_table_srprps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_srprps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_srprps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -414,7 +481,14 @@ define table ... {
 }
 
 
+
+**📖 Source**: [abenddicddl_define_table_srprps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_srprps.htm)
+
 ### abenddicddl_define_table_comps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -504,7 +578,14 @@ Continue
 [DDIC DDL - DEFINE TABLE, geo\_annos](javascript:call_link\('abenddicddl_define_table_srprps.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_comps.htm)
+
 ### abenddicddl_define_table_incl.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_incl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_incl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -534,7 +615,17 @@ Additionally, the additions KEY and NOT NULL can be used:
 -   By using NOT NULL the [flag for initial values](javascript:call_link\('abenddic_database_tables_init.htm'\)) is set for the included structure. In this case, those fields in the include structure for which this attribute is set also keep their attribute, but it is not switched on for fields where the attribute is not set. If the flag for initial values is not set for the included include structure, this attribute is removed for all of its fields.
 
 
+
+**📖 Source**: [abenddicddl_define_table_incl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table_incl.htm)
+
 ### abenddicddl_define_table.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddicddl_define_table.htm)
+
 
   
 

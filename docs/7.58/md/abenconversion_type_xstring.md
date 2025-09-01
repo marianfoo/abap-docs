@@ -10,10 +10,8 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 Source Field Type xstring
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_XSTRING_1)
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_XSTRING_2)
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_XSTRING_3)
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_XSTRING_4)
+-   [Numeric Target Fields](#abenconversion-type-xstring-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_XSTRING_2)
+-   [Byte-Like Target Fields](#abenconversion-type-xstring-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_XSTRING_4)
 
 Numeric Target Fields   
 

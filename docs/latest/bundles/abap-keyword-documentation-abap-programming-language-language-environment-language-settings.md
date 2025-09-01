@@ -3,7 +3,30 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenlanguage_settings.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlanguage_settings.htm)
+- [abenlogon_language.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogon_language.htm)
+- [abentext_environment.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_environment.htm)
+- [abapset_locale.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_locale.htm)
+- [abapget_locale.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_locale.htm)
+- [abenset_locale_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenset_locale_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.915Z
+
+---
+
 ### abenlanguage_settings.htm
+
+> **📖 Official SAP Documentation**: [abenlanguage_settings.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlanguage_settings.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38,7 +61,14 @@ Continue
 [Text Environment Language and Text Environment](javascript:call_link\('abentext_environment.htm'\))
 
 
+
+**📖 Source**: [abenlanguage_settings.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlanguage_settings.htm)
+
 ### abenlogon_language.htm
+
+> **📖 Official SAP Documentation**: [abenlogon_language.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogon_language.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -71,7 +101,14 @@ Reading of the current logon language.
 FINAL(logon\_langu) = cl\_abap\_syst=>get\_logon\_language( ).
 
 
+
+**📖 Source**: [abenlogon_language.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogon_language.htm)
+
 ### abentext_environment.htm
+
+> **📖 Official SAP Documentation**: [abentext_environment.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_environment.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -161,7 +198,14 @@ Continue
 ![Example](exa.gif "Example") [Setting the Text Environment](javascript:call_link\('abenset_locale_abexa.htm'\))
 
 
+
+**📖 Source**: [abentext_environment.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_environment.htm)
+
 ### abapset_locale.htm
+
+> **📖 Official SAP Documentation**: [abapset_locale.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_locale.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -251,7 +295,14 @@ Uncatchable Exceptions
     Runtime error: TEXTENV\_KEY\_TOO\_LONG
 
 
+
+**📖 Source**: [abapset_locale.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_locale.htm)
+
 ### abapget_locale.htm
+
+> **📖 Official SAP Documentation**: [abapget_locale.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_locale.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -291,7 +342,14 @@ SET LOCALE LANGUAGE ...
 SET LOCALE LANGUAGE lang.
 
 
+
+**📖 Source**: [abapget_locale.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_locale.htm)
+
 ### abenset_locale_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenset_locale_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenset_locale_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -340,7 +398,17 @@ Description  
 This example shows the effect of the locale of the text environment on sorts. In Hungarian text environments, Cs and Cu are sorted differently than in English environments.
 
 
+
+**📖 Source**: [abenset_locale_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenset_locale_abexa.htm)
+
 ### abentext_environment.htm
+
+> **📖 Official SAP Documentation**: [abentext_environment.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_environment.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abentext_environment.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_environment.htm)
+
 
   
 

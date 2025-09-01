@@ -10,12 +10,9 @@ AMDP - SQLScript for the SAP HANA Database
 
 [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry") is a script language, documented in the [SAP HANA SQLScript Reference](https://help.sap.com/viewer/de2486ee947e43e684d39702027f8a94/2.0.04/en-US/9211209e54ab48959c83a7ac3b4ef877.html), and used to program [SQLScript procedures](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry") and [SQLScript functions](javascript:call_link\('abensql_script_function_glosry.htm'\) "Glossary Entry") in the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry"). It is the implementation language of an [AMDP method](javascript:call_link\('abenamdp_methods.htm'\)) that specifies the addition [FOR HDB LANGUAGE SQLSCRIPT](javascript:call_link\('abapmethod_by_db_proc.htm'\)) in the statement METHOD.
 
--   [AMDP procedures and functions in SAP HANA](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_1)
--   [Parameter Interface](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_2)
-    -   [SQLScript Procedures](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_3)
-    -   [SQLScript Functions](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_4)
--   [Use](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_5)
--   [Access to ABAP Types](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_6)
+-   [AMDP procedures and functions in SAP HANA](#abenamdp-hdb-sqlscript-1-------parameter-interface---@ITOC@@ABENAMDP_HDB_SQLSCRIPT_2)
+    -   [SQLScript Procedures](#abenamdp-hdb-sqlscript-3-----------sqlscript-functions---@ITOC@@ABENAMDP_HDB_SQLSCRIPT_4)
+-   [Use](#abenamdp-hdb-sqlscript-5-------access-to-abap-types---@ITOC@@ABENAMDP_HDB_SQLSCRIPT_6)
 -   [Access to Database Schemas](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_7)
 
 Hints

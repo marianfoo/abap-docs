@@ -13,16 +13,11 @@ WRITE, Predefined Formats
 
 The predefined output format of the statements [WRITE ... TO](javascript:call_link\('abapwrite_to.htm'\)) and [WRITE](javascript:call_link\('abapwrite-.htm'\)) depends on the data type and user-specific default settings. It is partly dependent on the length available. In the case of WRITE ... TO, this is the length of the target variable; in the case of WRITE, this is the [output length](javascript:call_link\('abenwrite_output_length.htm'\)). If the length is not sufficient, the variables are truncated as specified in the predefined [truncation behavior](javascript:call_link\('abenwrite_truncations.htm'\)).
 
--   [Alignment](#@@ITOC@@ABENWRITE_FORMATS_1)
--   [General Format](#@@ITOC@@ABENWRITE_FORMATS_2)
-    -   [Numeric Data Types](#@@ITOC@@ABENWRITE_FORMATS_3)
-    -   [Character-Like Data Types](#@@ITOC@@ABENWRITE_FORMATS_4)
-    -   [Byte-Like Data Types](#@@ITOC@@ABENWRITE_FORMATS_5)
-    -   [Date Types and Time Types](#@@ITOC@@ABENWRITE_FORMATS_6)
--   [Number, Date, and Time Formats](#@@ITOC@@ABENWRITE_FORMATS_7)
-    -   [Number Output](#@@ITOC@@ABENWRITE_FORMATS_8)
-    -   [Date Output](#@@ITOC@@ABENWRITE_FORMATS_9)
-    -   [Time Output](#@@ITOC@@ABENWRITE_FORMATS_10)
+-   [Alignment](#abenwrite-formats-1-------general-format---@ITOC@@ABENWRITE_FORMATS_2)
+    -   [Numeric Data Types](#abenwrite-formats-3-----------character-like-data-types---@ITOC@@ABENWRITE_FORMATS_4)
+    -   [Byte-Like Data Types](#abenwrite-formats-5-----------date-types-and-time-types---@ITOC@@ABENWRITE_FORMATS_6)
+-   [Number, Date, and Time Formats](#abenwrite-formats-7-----------number-output---@ITOC@@ABENWRITE_FORMATS_8)
+    -   [Date Output](#abenwrite-formats-9-----------time-output---@ITOC@@ABENWRITE_FORMATS_10)
     -   [Time Stamp Output](#@@ITOC@@ABENWRITE_FORMATS_11)
 
 Alignment   

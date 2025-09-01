@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abeninline_declarations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninline_declarations.htm)
+- [abendata_inline.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm)
+- [abenfield-symbol_inline.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfield-symbol_inline.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.188Z
+
+---
+
 ### abeninline_declarations.htm
+
+> **📖 Official SAP Documentation**: [abeninline_declarations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninline_declarations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38,7 +58,14 @@ Continue
 [FIELD-SYMBOL - Inline Declaration](javascript:call_link\('abenfield-symbol_inline.htm'\))
 
 
+
+**📖 Source**: [abeninline_declarations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninline_declarations.htm)
+
 ### abendata_inline.htm
+
+> **📖 Official SAP Documentation**: [abendata_inline.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -106,7 +133,17 @@ SELECT \*
 DATA(html) = cl\_demo\_output=>get( itab ).
 
 
+
+**📖 Source**: [abendata_inline.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm)
+
 ### abenfield-symbol_inline.htm
+
+> **📖 Official SAP Documentation**: [abenfield-symbol_inline.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfield-symbol_inline.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenfield-symbol_inline.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfield-symbol_inline.htm)
+
 
   
 

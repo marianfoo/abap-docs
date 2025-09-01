@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_f1_sql_functions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions.htm)
+- [abencds_f1_sql_functions_numeric.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions_numeric.htm)
+- [abencds_f1_sql_functions_character.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions_character.htm)
+- [abencds_f1_coalesce_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_coalesce_expression.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.360Z
+
+---
+
 ### abencds_f1_sql_functions.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_sql_functions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37,7 +58,14 @@ Continue
 [ABAP CDS - coalesce](javascript:call_link\('abencds_f1_coalesce_expression.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_sql_functions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions.htm)
+
 ### abencds_f1_sql_functions_numeric.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_sql_functions_numeric.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions_numeric.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -143,7 +171,14 @@ define view demo\_cds\_sql\_functions\_num
     }
 
 
+
+**📖 Source**: [abencds_f1_sql_functions_numeric.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions_numeric.htm)
+
 ### abencds_f1_sql_functions_character.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_sql_functions_character.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions_character.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -313,7 +348,17 @@ define view demo\_cds\_sql\_functions\_string
     }
 
 
+
+**📖 Source**: [abencds_f1_sql_functions_character.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions_character.htm)
+
 ### abencds_f1_coalesce_expression.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_coalesce_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_coalesce_expression.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_coalesce_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_coalesce_expression.htm)
+
 
   
 

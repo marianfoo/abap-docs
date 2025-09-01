@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands.htm)
+- [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_appl.htm)
+- [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_appl_sxpg.htm)
+- [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_appl_depr.htm)
+- [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_pres.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.470Z
+
+---
+
 ### abenabap_system_commands.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +51,14 @@ Continue
 [Operating System Statements of the Presentation Server](javascript:call_link\('abenabap_system_commands_pres.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51,7 +80,14 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_appl_sxpg.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_appl_sxpg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -107,7 +143,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_sxpg.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_appl_sxpg.htm)
+
 ### abenabap_system_commands_appl_depr.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_appl_depr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -176,7 +219,14 @@ CALL 'SYSTEM' ID 'COMMAND' FIELD command
 cl\_demo\_output=>display( result ).
 
 
+
+**📖 Source**: [abenabap_system_commands_appl_depr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_appl_depr.htm)
+
 ### abenabap_system_commands_appl.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_appl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -198,7 +248,17 @@ Continue
 [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\))
 
 
+
+**📖 Source**: [abenabap_system_commands_appl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_appl.htm)
+
 ### abenabap_system_commands_pres.htm
+
+> **📖 Official SAP Documentation**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_pres.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabap_system_commands_pres.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_pres.htm)
+
 
   
 

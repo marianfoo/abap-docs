@@ -11,8 +11,7 @@ D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 iXML - Streams and Documents
 
--   [Input Streams and Output Streams](#@@ITOC@@ABENABAP_IXML_LIB_INPUT_OUTPUT_1)
--   [XML Documents](#@@ITOC@@ABENABAP_IXML_LIB_INPUT_OUTPUT_2)
+-   [Input Streams and Output Streams](#abenabap-ixml-lib-input-output-1-------xml-documents---@ITOC@@ABENABAP_IXML_LIB_INPUT_OUTPUT_2)
 
 Input Streams and Output Streams   
 

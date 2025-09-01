@@ -3,7 +3,32 @@
 Included pages: 10
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenbuilt_in_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types.htm)
+- [abenbuilt_in_types_complete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_complete.htm)
+- [abenbuiltin_types_numeric.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm)
+- [abentype_p_value_range_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_p_value_range_abexa.htm)
+- [abenbuiltin_types_character.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_character.htm)
+- [abenbuiltin_types_byte.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_byte.htm)
+- [abenbuiltin_types_date_time.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_date_time.htm)
+- [abenbuilt_in_types_generic.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.934Z
+
+---
+
 ### abenbuilt_in_types.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28,7 +53,14 @@ Continue
 [Generic ABAP Types](javascript:call_link\('abenbuilt_in_types_generic.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types.htm)
+
 ### abenbuilt_in_types_complete.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_types_complete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_complete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -68,7 +100,14 @@ Continue
 [Built-In Date Types, Time Types, and Time Stamp Types](javascript:call_link\('abenbuiltin_types_date_time.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_types_complete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_complete.htm)
+
 ### abenbuiltin_types_numeric.htm
+
+> **📖 Official SAP Documentation**: [abenbuiltin_types_numeric.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -264,7 +303,14 @@ Continue
 ![Example](exa.gif "Example") [Value Ranges of Packed Numbers](javascript:call_link\('abentype_p_value_range_abexa.htm'\))
 
 
+
+**📖 Source**: [abenbuiltin_types_numeric.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm)
+
 ### abentype_p_value_range_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentype_p_value_range_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_p_value_range_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -341,7 +387,14 @@ to
 The program creates a packed number with a length and decimal places that can be entered from outside. The minimum and maximum values of the number are determined using methods from the system class CL\_ABAP\_EXCEPTIONAL\_VALUES and compared with self-calculated values.
 
 
+
+**📖 Source**: [abentype_p_value_range_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_p_value_range_abexa.htm)
+
 ### abenbuiltin_types_numeric.htm
+
+> **📖 Official SAP Documentation**: [abenbuiltin_types_numeric.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -537,7 +590,14 @@ Continue
 ![Example](exa.gif "Example") [Value Ranges of Packed Numbers](javascript:call_link\('abentype_p_value_range_abexa.htm'\))
 
 
+
+**📖 Source**: [abenbuiltin_types_numeric.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm)
+
 ### abenbuiltin_types_character.htm
+
+> **📖 Official SAP Documentation**: [abenbuiltin_types_character.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_character.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -639,7 +699,14 @@ DATA: flag TYPE c LENGTH 1,
       html TYPE string.
 
 
+
+**📖 Source**: [abenbuiltin_types_character.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_character.htm)
+
 ### abenbuiltin_types_byte.htm
+
+> **📖 Official SAP Documentation**: [abenbuiltin_types_byte.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_byte.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -717,7 +784,14 @@ DATA hex TYPE xstring.
 hex =  cl\_abap\_conv\_codepage=>create\_out(  )->convert( \`...\` ).
 
 
+
+**📖 Source**: [abenbuiltin_types_byte.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_byte.htm)
+
 ### abenbuiltin_types_date_time.htm
+
+> **📖 Official SAP Documentation**: [abenbuiltin_types_date_time.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_date_time.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -846,7 +920,14 @@ cl\_demo\_output=>display(
   |{ tim }|  ).
 
 
+
+**📖 Source**: [abenbuiltin_types_date_time.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_date_time.htm)
+
 ### abenbuilt_in_types_complete.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_types_complete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_complete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -886,7 +967,17 @@ Continue
 [Built-In Date Types, Time Types, and Time Stamp Types](javascript:call_link\('abenbuiltin_types_date_time.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_types_complete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_complete.htm)
+
 ### abenbuilt_in_types_generic.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_types_generic.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenbuilt_in_types_generic.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm)
+
 
   
 

@@ -3,7 +3,28 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenitab_perfo.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_perfo.htm)
+
+**Bundle Contains**: 1 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.215Z
+
+---
+
 ### abenitab_perfo.htm
+
+> **📖 Official SAP Documentation**: [abenitab_perfo.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_perfo.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenitab_perfo.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_perfo.htm)
+
 
   
 

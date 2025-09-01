@@ -10,9 +10,7 @@ Assignments Between Object Reference Variables
 
 Object reference variables are either class references or interface reference variables.
 
--   [Up Cast in Object References](#@@ITOC@@ABENCONVERSION_REFERENCES_OBJECTS_1)
-
--   [Down Cast in Object References](#@@ITOC@@ABENCONVERSION_REFERENCES_OBJECTS_2)
+-   [Up Cast in Object References](#abenconversion-references-objects-1--------down-cast-in-object-references---@ITOC@@ABENCONVERSION_REFERENCES_OBJECTS_2)
 
 Up Cast in Object References
 

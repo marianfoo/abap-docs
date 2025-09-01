@@ -3,7 +3,34 @@
 Included pages: 11
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
+- [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
+- [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
+- [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
+- [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
+- [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
+- [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
+- [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
+- [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
+- [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
+
+**Bundle Contains**: 10 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.237Z
+
+---
+
 ### abendynp_subscreens.htm
+
+> **📖 Official SAP Documentation**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +58,14 @@ Continue
 [Subscreens, Tabstrips, and Splitter Controls - Examples](javascript:call_link\('abentab_strip_control_abexas.htm'\))
 
 
+
+**📖 Source**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
+
 ### abendynp_subscreen.htm
+
+> **📖 Official SAP Documentation**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56,7 +90,14 @@ Executable Example
 [Dynpros, Subscreens](javascript:call_link\('abendynpro_subscreen_abexa.htm'\))
 
 
+
+**📖 Source**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
+
 ### abendynp_tabstrip.htm
+
+> **📖 Official SAP Documentation**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -87,7 +128,14 @@ Executable Examples
 -   [Dynpros, Tabstrips with Scrolling in AS Instance](javascript:call_link\('abentab_strip_control2_abexa.htm'\))
 
 
+
+**📖 Source**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
+
 ### abendynp_splitter_control_spcl.htm
+
+> **📖 Official SAP Documentation**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -127,7 +175,14 @@ Executable Example
 [Dynpros, Splitter Controls](javascript:call_link\('abendynpro_splitter_control_abexa.htm'\))
 
 
+
+**📖 Source**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
+
 ### dynpcall.htm
+
+> **📖 Official SAP Documentation**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -208,7 +263,14 @@ PROCESS AFTER INPUT.
   MODULE handle\_user\_command.
 
 
+
+**📖 Source**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
+
 ### abentab_strip_control_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -227,7 +289,14 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Splitter Control](javascript:call_link\('abendynpro_splitter_control_abexa.htm'\))
 
 
+
+**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
+
 ### abendynpro_subscreen_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -336,7 +405,14 @@ Since all subscreen dynpros use the same field name field, the ABAP field with t
 The function code of the pushbuttons of the subscreen dynpros is different and regular handling in an ABAP field is enough. If the function codes had the same names, it would be necessary to use multiple helper fields here as well.
 
 
+
+**📖 Source**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
+
 ### abentab_strip_control1_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -382,7 +458,14 @@ When the program is executed, the user sees a screen, the second tab page of whi
 When the user chooses Continue, the PAI event is triggered, and an information message displays the function code of the tab title of the page that is currently active.
 
 
+
+**📖 Source**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
+
 ### abentab_strip_control2_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -440,7 +523,14 @@ The screen flow logic of dynpro 100 makes a dynamic binding to PBO, a subscreen 
 This example works in exactly the same way as the [example with local scrolling](javascript:call_link\('abentab_strip_control1_abexa.htm'\)) except that scrolling between the tabstrip pages is programmed in the ABAP program. Each time the user chooses a tab title, the function code from the OK field is assigned to the activetab component of structure mytabstrip. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
 
 
+
+**📖 Source**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
+
 ### abendynpro_splitter_control_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -481,7 +571,17 @@ Description
 A subscreen is assigned to both parts of the splitter control. The subscreens are called in the dynpro flow logic.
 
 
+
+**📖 Source**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
+
 ### abentab_strip_control_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
+
 
   
 

@@ -3,7 +3,28 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenexceptions_pre_610.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_pre_610.htm)
+- [abenexceptions_non_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_non_class.htm)
+- [abapraise_exception.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception.htm)
+- [abapmessage_raising.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmessage_raising.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.506Z
+
+---
+
 ### abenexceptions_pre_610.htm
+
+> **📖 Official SAP Documentation**: [abenexceptions_pre_610.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_pre_610.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37,7 +58,14 @@ Continue
 [Non-Class-Based Exceptions](javascript:call_link\('abenexceptions_non_class.htm'\))
 
 
+
+**📖 Source**: [abenexceptions_pre_610.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_pre_610.htm)
+
 ### abenexceptions_non_class.htm
+
+> **📖 Official SAP Documentation**: [abenexceptions_non_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_non_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -90,7 +118,14 @@ Continue
 [MESSAGE - RAISING](javascript:call_link\('abapmessage_raising.htm'\))
 
 
+
+**📖 Source**: [abenexceptions_non_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_non_class.htm)
+
 ### abapraise_exception.htm
+
+> **📖 Official SAP Documentation**: [abapraise_exception.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -171,7 +206,14 @@ Non-Handleable Exceptions
     Runtime error: RAISE\_EXCEPTION
 
 
+
+**📖 Source**: [abapraise_exception.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception.htm)
+
 ### abapmessage_raising.htm
+
+> **📖 Official SAP Documentation**: [abapmessage_raising.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmessage_raising.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -237,7 +279,17 @@ CLASS c1 DEFINITION.
      ENDIF.
 
 
+
+**📖 Source**: [abapmessage_raising.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmessage_raising.htm)
+
 ### abenexceptions_non_class.htm
+
+> **📖 Official SAP Documentation**: [abenexceptions_non_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_non_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenexceptions_non_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_non_class.htm)
+
 
   
 

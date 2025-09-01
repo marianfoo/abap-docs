@@ -3,7 +3,27 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_dynamic_caches.htm)
+- [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_define_dynamic_cache.htm)
+- [abenddicddl_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_dynamic_cache.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.450Z
+
+---
+
 ### abenddic_dynamic_caches.htm
+
+> **📖 Official SAP Documentation**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_dynamic_caches.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23,7 +43,14 @@ Continue
 [DDIC - Dictionary DDL for Defining Dynamic Caches](javascript:call_link\('abenddic_define_dynamic_cache.htm'\))
 
 
+
+**📖 Source**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_dynamic_caches.htm)
+
 ### abenddic_define_dynamic_cache.htm
+
+> **📖 Official SAP Documentation**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_define_dynamic_cache.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43,7 +70,14 @@ Continue
 [DDIC DDL - DEFINE DYNAMIC CACHE](javascript:call_link\('abenddicddl_define_dynamic_cache.htm'\))
 
 
+
+**📖 Source**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_define_dynamic_cache.htm)
+
 ### abenddicddl_define_dynamic_cache.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_dynamic_cache.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -64,7 +98,17 @@ Effect
 Interface between [cached views](javascript:call_link\('abenhana_cached_views.htm'\)) in SAP HANA and DDIC views.
 
 
+
+**📖 Source**: [abenddicddl_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_dynamic_cache.htm)
+
 ### abenddic_define_dynamic_cache.htm
+
+> **📖 Official SAP Documentation**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_define_dynamic_cache.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_define_dynamic_cache.htm)
+
 
   
 

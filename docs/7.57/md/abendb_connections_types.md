@@ -13,24 +13,8 @@ Possible Database Connections
 
 When ABAP SQL, Native SQL, or AMDP is used in an ABAP program, the [database interface](javascript:call_link\('abendatabase_interface_glosry.htm'\) "Glossary Entry") uses a [database connection](javascript:call_link\('abendatabase_connection_glosry.htm'\) "Glossary Entry") of the current [work process](javascript:call_link\('abenwork_process_glosry.htm'\) "Glossary Entry") to access a database. Every work process always has a standard connection to the standard database. In addition, secondary connections to other databases or database schemas can be defined. Service connections can also still be opened to the standard database.
 
--   [Standard Connection](#@@ITOC@@ABENDB_CONNECTIONS_TYPES_1)
--   [Secondary Connections](#@@ITOC@@ABENDB_CONNECTIONS_TYPES_2)
--   [Service Connections to the Standard Database](#@@ITOC@@ABENDB_CONNECTIONS_TYPES_3)
-
-Standard Connection   
-
-Each AS ABAP work process always has a standard connection to the [standard database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") and this connection cannot be closed. It is shared by all [internal sessions](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"). If the standard connection is used, the work process acts as a [database user](javascript:call_link\('abendatabase_user_glosry.htm'\) "Glossary Entry") to which the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry") is assigned.
-
--   By default, [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry"), [Native SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry"), and [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry") all use the standard connection to access the ABAP database schema of the standard AS ABAP database.
--   In all places where a database connection can be specified explicitly in ABAP, the standard connection can also be specified using the predefined name DEFAULT.
-
-Example
-
-Specifies the standard connection explicitly in ABAP SQL. It would not be necessary to specify the connection in the statements DELETE and INSERT. The statement [COMMIT CONNECTION](javascript:call_link\('abapcommit_rollback_connection.htm'\)), however, makes an explicit [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") possible on the standard connection.
-
-DELETE FROM demo\_update CONNECTION default.
-INSERT demo\_update CONNECTION default
-  FROM @( VALUE #( id = 'X'  col1 = 1 col2 = 2 col3 = 3 col4 = 4 ) ).
+-   [Standard Connection](#abendb-connections-types-1-------secondary-connections---@ITOC@@ABENDB_CONNECTIONS_TYPES_2)
+-   [Service Connections to the Standard Database](#abendb-connections-types-3---standard-connection-----each-as-abap-work-process-always-has-a-standard-connection-to-the--standard-database--javascript-call-link---abenstandard-db-glosry-htm-----glossary-entry---and-this-connection-cannot-be-closed--it-is-shared-by-all--internal-sessions--javascript-call-link---abeninternal-session-glosry-htm-----glossary-entry----if-the-standard-connection-is-used--the-work-process-acts-as-a--database-user--javascript-call-link---abendatabase-user-glosry-htm-----glossary-entry---to-which-the--abap-database-schema--javascript-call-link---abenabap-db-schema-glosry-htm-----glossary-entry---is-assigned-------by-default---abap-sql--javascript-call-link---abenabap-sql-glosry-htm-----glossary-entry-----native-sql--javascript-call-link---abenabap-sql-glosry-htm-----glossary-entry----and--amdp--javascript-call-link---abenamdp-glosry-htm-----glossary-entry---all-use-the-standard-connection-to-access-the-abap-database-schema-of-the-standard-as-abap-database------in-all-places-where-a-database-connection-can-be-specified-explicitly-in-abap--the-standard-connection-can-also-be-specified-using-the-predefined-name-default---example--specifies-the-standard-connection-explicitly-in-abap-sql--it-would-not-be-necessary-to-specify-the-connection-in-the-statements-delete-and-insert--the-statement--commit-connection--javascript-call-link---abapcommit-rollback-connection-htm------however--makes-an-explicit--database-commit--javascript-call-link---abendatabase-commit-glosry-htm-----glossary-entry---possible-on-the-standard-connection---delete-from-demo--update-connection-default--insert-demo--update-connection-default---from-( VALUE #( id = 'X'  col1 = 1 col2 = 2 col3 = 3 col4 = 4 ) ).
 COMMIT CONNECTION default.
 
 Secondary Connections   

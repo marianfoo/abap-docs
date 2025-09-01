@@ -14,13 +14,9 @@ The following figure shows the general organization of sessions for ABAP program
 
 ![Figure](abdoc_memory1.gif)
 
--   [AS instance](#@@ITOC@@ABENMEMORY_ORGANIZATION_1)
+-   [AS instance](#abenmemory-organization-1--------user-session---@ITOC@@ABENMEMORY_ORGANIZATION_2)
 
--   [User Session](#@@ITOC@@ABENMEMORY_ORGANIZATION_2)
-
--   [ABAP Session](#@@ITOC@@ABENMEMORY_ORGANIZATION_3)
-
--   [Internal Session](#@@ITOC@@ABENMEMORY_ORGANIZATION_4)
+-   [ABAP Session](#abenmemory-organization-3--------internal-session---@ITOC@@ABENMEMORY_ORGANIZATION_4)
 
 AS instance
 

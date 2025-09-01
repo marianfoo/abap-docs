@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapcontrols.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols.htm)
+- [abapcontrols_tableview.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_tableview.htm)
+- [abapcontrols_tabstrip.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_tabstrip.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.514Z
+
+---
+
 ### abapcontrols.htm
+
+> **📖 Official SAP Documentation**: [abapcontrols.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42,7 +62,14 @@ Continue
 [CONTROLS - TYPE TABSTRIP](javascript:call_link\('abapcontrols_tabstrip.htm'\))
 
 
+
+**📖 Source**: [abapcontrols.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols.htm)
+
 ### abapcontrols_tableview.htm
+
+> **📖 Official SAP Documentation**: [abapcontrols_tableview.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_tableview.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -177,7 +204,17 @@ MODULE modify\_tab INPUT.
 ENDMODULE.
 
 
+
+**📖 Source**: [abapcontrols_tableview.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_tableview.htm)
+
 ### abapcontrols_tabstrip.htm
+
+> **📖 Official SAP Documentation**: [abapcontrols_tabstrip.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_tabstrip.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapcontrols_tabstrip.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_tabstrip.htm)
+
 
   
 

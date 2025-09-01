@@ -8,8 +8,7 @@ AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
 iXML - Rendering
 
--   [Rendering a Full XML Document](#@@ITOC@@ABENABAP_IXML_LIB_RENDER_1)
--   [Rendering Individual Nodes](#@@ITOC@@ABENABAP_IXML_LIB_RENDER_2)
+-   [Rendering a Full XML Document](#abenabap-ixml-lib-render-1-------rendering-individual-nodes---@ITOC@@ABENABAP_IXML_LIB_RENDER_2)
 -   [Token Renderers](#@@ITOC@@ABENABAP_IXML_LIB_RENDER_3)
 
 Hint

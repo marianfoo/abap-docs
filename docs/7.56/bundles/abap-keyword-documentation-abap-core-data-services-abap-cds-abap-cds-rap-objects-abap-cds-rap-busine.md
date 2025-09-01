@@ -3,7 +3,31 @@
 Included pages: 9
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenbdl_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_abstract.htm)
+- [abenbdl_bdef_abstract_header.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_bdef_abstract_header.htm)
+- [abenbdl_define_beh_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh_abstract.htm)
+- [abenbdl_body_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body_abstract.htm)
+- [abenbdl_field_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_field_abstract.htm)
+- [abenbdl_association_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_association_abstract.htm)
+- [abenbdl_type_mapping_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_type_mapping_abstract.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.442Z
+
+---
+
 ### abenbdl_abstract.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_abstract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48,7 +72,14 @@ Continue
 [CDS BDL - entity behavior definition, abstract BDEF](javascript:call_link\('abenbdl_define_beh_abstract.htm'\))
 
 
+
+**📖 Source**: [abenbdl_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_abstract.htm)
+
 ### abenbdl_bdef_abstract_header.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_bdef_abstract_header.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_bdef_abstract_header.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -84,7 +115,14 @@ The addition with hierarchy is a precondition for the following components of an
 -   [association \_Assoc with hierarchy](javascript:call_link\('abenbdl_association_abstract.htm'\))
 
 
+
+**📖 Source**: [abenbdl_bdef_abstract_header.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_bdef_abstract_header.htm)
+
 ### abenbdl_define_beh_abstract.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_define_beh_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh_abstract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -168,7 +206,14 @@ Continue
 [CDS BDL - entity behavior body, abstract BDEF](javascript:call_link\('abenbdl_body_abstract.htm'\))
 
 
+
+**📖 Source**: [abenbdl_define_beh_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh_abstract.htm)
+
 ### abenbdl_body_abstract.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_body_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body_abstract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -201,7 +246,14 @@ Continue
 [CDS BDL - mapping, abstract BDEF](javascript:call_link\('abenbdl_type_mapping_abstract.htm'\))
 
 
+
+**📖 Source**: [abenbdl_body_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body_abstract.htm)
+
 ### abenbdl_field_abstract.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_field_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_field_abstract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -234,7 +286,14 @@ The following abstract BDEF suppresses one field from its derived type.
 CDS source code was not found
 
 
+
+**📖 Source**: [abenbdl_field_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_field_abstract.htm)
+
 ### abenbdl_association_abstract.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_association_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_association_abstract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -267,7 +326,14 @@ The following abstract BDEF defines behavior for four nodes, including intra- an
 CDS source code was not found
 
 
+
+**📖 Source**: [abenbdl_association_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_association_abstract.htm)
+
 ### abenbdl_type_mapping_abstract.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_type_mapping_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_type_mapping_abstract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -338,7 +404,14 @@ The following abstract BDEF defines the behavior for three nodes of a CDS compos
 CDS source code was not found
 
 
+
+**📖 Source**: [abenbdl_type_mapping_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_type_mapping_abstract.htm)
+
 ### abenbdl_body_abstract.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_body_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body_abstract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -371,7 +444,17 @@ Continue
 [CDS BDL - mapping, abstract BDEF](javascript:call_link\('abenbdl_type_mapping_abstract.htm'\))
 
 
+
+**📖 Source**: [abenbdl_body_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body_abstract.htm)
+
 ### abenbdl_define_beh_abstract.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_define_beh_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh_abstract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenbdl_define_beh_abstract.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh_abstract.htm)
+
 
   
 

@@ -3,7 +3,34 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenmemory_consumption.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm)
+- [abenmemory_consumption_1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_1.htm)
+- [abenmemory_consumption_2.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_2.htm)
+- [abenmemory_consumption_3.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_3.htm)
+- [abenmemory_consumption_4.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_4.htm)
+- [abenmemory_usage_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_usage_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.951Z
+
+---
+
 ### abenmemory_consumption.htm
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42,7 +69,18 @@ Continue
 ![Example](exa.gif "Example") [Deep Data Objects, Memory Consumption](javascript:call_link\('abenmemory_usage_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmemory_consumption.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm)
+
 ### abenmemory_consumption_1.htm
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption_1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption_1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -92,7 +130,18 @@ Executable Example
 [Deep Data Objects, Memory Consumption](javascript:call_link\('abenmemory_usage_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmemory_consumption_1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_1.htm)
+
 ### abenmemory_consumption_2.htm
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption_2.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_2.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption_2.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_2.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -144,7 +193,18 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abenmemory_consumption_2.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_2.htm)
+
 ### abenmemory_consumption_3.htm
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption_3.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_3.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption_3.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_3.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -181,7 +241,18 @@ Hints
 -   Sharing is also supported when accessing [shared objects](javascript:call_link\('abenshared_objects_glosry.htm'\) "Glossary Entry"), for as long as an [area instance version](javascript:call_link\('abenarea_instance_version_glosry.htm'\) "Glossary Entry") is bound to the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") using an [area handle](javascript:call_link\('abenarea_handle_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenmemory_consumption_3.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_3.htm)
+
 ### abenmemory_consumption_4.htm
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption_4.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_4.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenmemory_consumption_4.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_4.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -226,7 +297,21 @@ Executable Example
 See [Deep Data Objects, Memory Usage](javascript:call_link\('abenmemory_usage_abexa.htm'\)).
 
 
+
+**📖 Source**: [abenmemory_consumption_4.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_4.htm)
+
 ### abenmemory_usage_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmemory_usage_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_usage_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenmemory_usage_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_usage_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenmemory_usage_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_usage_abexa.htm)
+
 
   
 

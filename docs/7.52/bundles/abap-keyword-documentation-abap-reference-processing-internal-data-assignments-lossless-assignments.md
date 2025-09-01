@@ -3,7 +3,34 @@
 Included pages: 13
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenlossless_move.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_move.htm)
+- [abenconstructor_expression_exact.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm)
+- [abenexact_constructor_enum.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexact_constructor_enum.htm)
+- [abapmove_exact.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm)
+- [abenmove_exact_elementary.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary.htm)
+- [abenmove_exact_elementary_valid.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary_valid.htm)
+- [abenmove_exact_elementary_fit.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary_fit.htm)
+- [abenmove_exact_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_abexa.htm)
+- [abenmove_exact_structure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_structure.htm)
+- [abenmove_exact_itab.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_itab.htm)
+
+**Bundle Contains**: 10 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.488Z
+
+---
+
 ### abenlossless_move.htm
+
+> **📖 Official SAP Documentation**: [abenlossless_move.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_move.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44,7 +71,14 @@ Continue
 [Lossless Assignments - Rules](javascript:call_link\('abapmove_exact.htm'\))
 
 
+
+**📖 Source**: [abenlossless_move.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_move.htm)
+
 ### abenconstructor_expression_exact.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_exact.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -150,7 +184,14 @@ Continue
 [EXACT - Lossless Conversion of Enumerated Types](javascript:call_link\('abenexact_constructor_enum.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_exact.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm)
+
 ### abenexact_constructor_enum.htm
+
+> **📖 Official SAP Documentation**: [abenexact_constructor_enum.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexact_constructor_enum.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -210,7 +251,14 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abenexact_constructor_enum.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexact_constructor_enum.htm)
+
 ### abenconstructor_expression_exact.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_exact.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -316,7 +364,14 @@ Continue
 [EXACT - Lossless Conversion of Enumerated Types](javascript:call_link\('abenexact_constructor_enum.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_exact.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm)
+
 ### abapmove_exact.htm
+
+> **📖 Official SAP Documentation**: [abapmove_exact.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -376,7 +431,14 @@ Continue
 [Checking Internal Tables](javascript:call_link\('abenmove_exact_itab.htm'\))
 
 
+
+**📖 Source**: [abapmove_exact.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm)
+
 ### abenmove_exact_elementary.htm
+
+> **📖 Official SAP Documentation**: [abenmove_exact_elementary.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -424,7 +486,14 @@ Continue
 ![Example](exa.gif "Example") [Lossless Assignment](javascript:call_link\('abenmove_exact_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmove_exact_elementary.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary.htm)
+
 ### abenmove_exact_elementary_valid.htm
+
+> **📖 Official SAP Documentation**: [abenmove_exact_elementary_valid.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary_valid.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -554,7 +623,14 @@ date = '201607\_\_'.
 DATA(result2) = EXACT i( date ).
 
 
+
+**📖 Source**: [abenmove_exact_elementary_valid.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary_valid.htm)
+
 ### abenmove_exact_elementary_fit.htm
+
+> **📖 Official SAP Documentation**: [abenmove_exact_elementary_fit.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary_fit.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -856,7 +932,14 @@ DATA(result1) = EXACT t( 10000 ).
 DATA(result2) = EXACT t( 100000 ).
 
 
+
+**📖 Source**: [abenmove_exact_elementary_fit.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary_fit.htm)
+
 ### abenmove_exact_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmove_exact_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -905,7 +988,14 @@ Without the operator EXACT, text is assigned to num\_text without the validity o
 Using the operator EXACT, the value that is passed is checked and an exception is raised in the case in question.
 
 
+
+**📖 Source**: [abenmove_exact_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_abexa.htm)
+
 ### abenmove_exact_elementary.htm
+
+> **📖 Official SAP Documentation**: [abenmove_exact_elementary.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -953,7 +1043,14 @@ Continue
 ![Example](exa.gif "Example") [Lossless Assignment](javascript:call_link\('abenmove_exact_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmove_exact_elementary.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_elementary.htm)
+
 ### abenmove_exact_structure.htm
+
+> **📖 Official SAP Documentation**: [abenmove_exact_structure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_structure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -990,7 +1087,14 @@ DATA(result1) = CONV string( struc ).  "Possible
 DATA(result2) = EXACT string( struc ). "Not possible
 
 
+
+**📖 Source**: [abenmove_exact_structure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_structure.htm)
+
 ### abenmove_exact_itab.htm
+
+> **📖 Official SAP Documentation**: [abenmove_exact_itab.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1047,7 +1151,17 @@ ENDTRY.
 cl\_demo\_output=>display( jtab ).
 
 
+
+**📖 Source**: [abenmove_exact_itab.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_exact_itab.htm)
+
 ### abapmove_exact.htm
+
+> **📖 Official SAP Documentation**: [abapmove_exact.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapmove_exact.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm)
+
 
   
 

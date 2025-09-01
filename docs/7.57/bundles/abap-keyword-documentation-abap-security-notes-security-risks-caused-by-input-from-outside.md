@@ -3,7 +3,36 @@
 Included pages: 13
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abendynamic_programming_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynamic_programming_scrty.htm)
+- [abensql_injections_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_injections_scrty.htm)
+- [abensql_inj_dyn_tokens_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_dyn_tokens_scrty.htm)
+- [abensql_inj_adbc_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_adbc_scrty.htm)
+- [abensql_inj_amdp_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_amdp_scrty.htm)
+- [abensql_inj_os_query_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_os_query_scrty.htm)
+- [abensql_inj_gen_prog_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_gen_prog_scrty.htm)
+- [abendyn_call_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendyn_call_scrty.htm)
+- [abendyn_file_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendyn_file_scrty.htm)
+- [abensys_comm_injections_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensys_comm_injections_scrty.htm)
+- [abenxss_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxss_scrty.htm)
+- [abengeneric_prog_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneric_prog_scrty.htm)
+
+**Bundle Contains**: 12 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.291Z
+
+---
+
 ### abendynamic_programming_scrty.htm
+
+> **📖 Official SAP Documentation**: [abendynamic_programming_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynamic_programming_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -63,7 +92,14 @@ Continue
 [ABAP Command Injections](javascript:call_link\('abengeneric_prog_scrty.htm'\))
 
 
+
+**📖 Source**: [abendynamic_programming_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynamic_programming_scrty.htm)
+
 ### abensql_injections_scrty.htm
+
+> **📖 Official SAP Documentation**: [abensql_injections_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_injections_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -95,7 +131,14 @@ Continue
 [SQL Injections Using Generic Programming](javascript:call_link\('abensql_inj_gen_prog_scrty.htm'\))
 
 
+
+**📖 Source**: [abensql_injections_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_injections_scrty.htm)
+
 ### abensql_inj_dyn_tokens_scrty.htm
+
+> **📖 Official SAP Documentation**: [abensql_inj_dyn_tokens_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_dyn_tokens_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -253,7 +296,14 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abensql_inj_dyn_tokens_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_dyn_tokens_scrty.htm)
+
 ### abensql_inj_adbc_scrty.htm
+
+> **📖 Official SAP Documentation**: [abensql_inj_adbc_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_adbc_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -316,7 +366,14 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abensql_inj_adbc_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_adbc_scrty.htm)
+
 ### abensql_inj_amdp_scrty.htm
+
+> **📖 Official SAP Documentation**: [abensql_inj_amdp_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_amdp_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -396,7 +453,14 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abensql_inj_amdp_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_amdp_scrty.htm)
+
 ### abensql_inj_os_query_scrty.htm
+
+> **📖 Official SAP Documentation**: [abensql_inj_os_query_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_os_query_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -436,7 +500,14 @@ If airpfrom and airpto contain the values FRA' OR AIRPFROM <> ' and SIN' OR AIRP
                   cl\_abap\_dyn\_prg=>quote( airpto ) ).
 
 
+
+**📖 Source**: [abensql_inj_os_query_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_os_query_scrty.htm)
+
 ### abensql_inj_gen_prog_scrty.htm
+
+> **📖 Official SAP Documentation**: [abensql_inj_gen_prog_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_gen_prog_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -482,7 +553,14 @@ ENDIF.
 cl\_demo\_output=>display( name ).
 
 
+
+**📖 Source**: [abensql_inj_gen_prog_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_inj_gen_prog_scrty.htm)
+
 ### abensql_injections_scrty.htm
+
+> **📖 Official SAP Documentation**: [abensql_injections_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_injections_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -514,7 +592,14 @@ Continue
 [SQL Injections Using Generic Programming](javascript:call_link\('abensql_inj_gen_prog_scrty.htm'\))
 
 
+
+**📖 Source**: [abensql_injections_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_injections_scrty.htm)
+
 ### abendyn_call_scrty.htm
+
+> **📖 Official SAP Documentation**: [abendyn_call_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendyn_call_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -573,7 +658,14 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abendyn_call_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendyn_call_scrty.htm)
+
 ### abendyn_file_scrty.htm
+
+> **📖 Official SAP Documentation**: [abendyn_file_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendyn_file_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -605,7 +697,14 @@ Example
 See the examples under [Validating File Names](javascript:call_link\('abendataset_auth_self.htm'\)).
 
 
+
+**📖 Source**: [abendyn_file_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendyn_file_scrty.htm)
+
 ### abensys_comm_injections_scrty.htm
+
+> **📖 Official SAP Documentation**: [abensys_comm_injections_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensys_comm_injections_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -703,7 +802,14 @@ ENDIF.
 The example above can itself be improved by using a self-defined logical command name instead of the predefined logical command name PING. For each operating system used, this command name gives the ping statement a specific path, such as /bin/ping for Linux or c:\\Windows\\System32\\ping.exe for MS Windows. This calls the specified statement precisely and any attacker is unable to smuggle a statement with the same name (but with the wrong function) into a directory in front of the required target directory in the environment variable for the path.
 
 
+
+**📖 Source**: [abensys_comm_injections_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensys_comm_injections_scrty.htm)
+
 ### abenxss_scrty.htm
+
+> **📖 Official SAP Documentation**: [abenxss_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxss_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -732,7 +838,17 @@ Executable Examples
 -   In the [ICF Services](javascript:call_link\('abenicf_service_abexa.htm'\)) example, the class CL\_HTTP\_EXT\_SERVICE\_DEMO uses the built-in function [escape](javascript:call_link\('abenescape_functions.htm'\)) to prevent cross site scripting.
 
 
+
+**📖 Source**: [abenxss_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxss_scrty.htm)
+
 ### abengeneric_prog_scrty.htm
+
+> **📖 Official SAP Documentation**: [abengeneric_prog_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneric_prog_scrty.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abengeneric_prog_scrty.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneric_prog_scrty.htm)
+
 
   
 

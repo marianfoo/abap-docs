@@ -11,8 +11,7 @@ D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Table Buffering - Buffer Management
 
--   [Storage in the Memory](#@@ITOC@@ABENBUFFER_MEMORY_1)
--   [Buffer Monitor](#@@ITOC@@ABENBUFFER_MEMORY_2)
+-   [Storage in the Memory](#abenbuffer-memory-1-------buffer-monitor---@ITOC@@ABENBUFFER_MEMORY_2)
 
 Storage in the Memory   
 

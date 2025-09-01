@@ -13,8 +13,7 @@ C0 Contract Rules for Providers of DDIC Objects
 
 The following sections show the most important C0 contract rules for DDIC objects.
 
--   [Prerequisites for C0 Release](#@@ITOC@@ABENC0_PROVIDER_RULES_DDIC_1)
--   [Stability Rules After Release](#@@ITOC@@ABENC0_PROVIDER_RULES_DDIC_2)
+-   [Prerequisites for C0 Release](#abenc0-provider-rules-ddic-1-------stability-rules-after-release---@ITOC@@ABENC0_PROVIDER_RULES_DDIC_2)
 
 Prerequisites for C0 Release   
 

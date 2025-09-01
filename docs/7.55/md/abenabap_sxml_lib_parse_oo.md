@@ -10,9 +10,7 @@ sXML - Object-Oriented Parsing
 
 Just as in [token-based parsing](javascript:call_link\('abenabap_sxml_lib_parse_iterative.htm'\)), object-oriented parsing creates an XML reader and uses its methods to iterate across the XML data. Some of the methods are different, however. The methods used for object-oriented parsing wrap methods for token-based parsing and provide object-oriented access to the current node. Instead of read the attributes of the reader directly after a parser step, the methods used for object-oriented parsing return references to objects that represent the current node. The methods and attributes of the [classes and interfaces](javascript:call_link\('abenabap_sxml_lib_entities.htm'\)) of these objects can be used to access the properties of the node. Unlike in token-based parsing, only the relevant values are available.
 
--   [Basic Approach](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_OO_1)
-
--   [Methods for Object-Oriented Parsing](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_OO_2)
+-   [Basic Approach](#abenabap-sxml-lib-parse-oo-1--------methods-for-object-oriented-parsing---@ITOC@@ABENABAP_SXML_LIB_PARSE_OO_2)
 
 Basic Approach
 

@@ -3,7 +3,37 @@
 Included pages: 13
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-750.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750.htm)
+- [abennews-750-unicode.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-unicode.htm)
+- [abennews-750-types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-types.htm)
+- [abennews-750-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-assignments.htm)
+- [abennews-750-expressions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-expressions.htm)
+- [abennews-750-exceptions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-exceptions.htm)
+- [abennews-750-abap_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-abap_sql.htm)
+- [abennews-750-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-abap_cds.htm)
+- [abennews-750-amdp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-amdp.htm)
+- [abennews-750-abap_unit.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-abap_unit.htm)
+- [abennews-750-rfc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-rfc.htm)
+- [abennews-750-abap_versions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-abap_versions.htm)
+- [abennews-750-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-others.htm)
+
+**Bundle Contains**: 13 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.287Z
+
+---
+
 ### abennews-750.htm
+
+> **📖 Official SAP Documentation**: [abennews-750.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48,7 +78,14 @@ Continue
 [Further Changes in Release 7.50](javascript:call_link\('abennews-750-others.htm'\))
 
 
+
+**📖 Source**: [abennews-750.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750.htm)
+
 ### abennews-750-unicode.htm
+
+> **📖 Official SAP Documentation**: [abennews-750-unicode.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-unicode.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -66,7 +103,14 @@ Only Unicode Systems in Release 7.50
 From Release 7.50, AS ABAP can only run as a [Unicode system](javascript:call_link\('abenunicode_system_glosry.htm'\) "Glossary Entry"). Systems with non-Unicode code pages are no longer supported. Therefore, all runnable ABAP programs have the [ABAP language version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") [Standard ABAP (Unicode)](javascript:call_link\('abenstandard_abap_glosry.htm'\) "Glossary Entry") or higher. Programs with the language version [Obsolete ABAP (Non-Unicode)](javascript:call_link\('abennon_uc_prog_glosry.htm'\) "Glossary Entry") can no longer be executed. The syntax check can now only run using the rules from the [Unicode check](javascript:call_link\('abenunicode_check_glosry.htm'\) "Glossary Entry"). The [ABAP language version](javascript:call_link\('abenabap_versions.htm'\)) [Obsolete ABAP (Non-Unicode)](javascript:call_link\('abennon_uc_prog_glosry.htm'\) "Glossary Entry") can no longer be used.
 
 
+
+**📖 Source**: [abennews-750-unicode.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-unicode.htm)
+
 ### abennews-750-types.htm
+
+> **📖 Official SAP Documentation**: [abennews-750-types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -118,7 +162,14 @@ Value Ranges of Domains
 When the [value range of a domain](javascript:call_link\('abenddic_domains_sema.htm'\)) is defined, the data types INT1, INT2, and INT4 are now checked (like INT8) to determine whether the fixed values and interval boundaries are valid values, that is, that they lie within the [value range](javascript:call_link\('abenddic_builtin_types.htm'\)) defined by the technical properties. Existing domains with invalid value ranges must be corrected.
 
 
+
+**📖 Source**: [abennews-750-types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-types.htm)
+
 ### abennews-750-assignments.htm
+
+> **📖 Official SAP Documentation**: [abennews-750-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-assignments.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -140,7 +191,14 @@ System Class for Dynamic Mapping
 The new system class [CL\_ABAP\_CORRESPONDING](javascript:call_link\('abencl_abap_corresponding.htm'\)) makes it possible to specify dynamic mapping rules for the component-by-component assignment of structures and internal tables.
 
 
+
+**📖 Source**: [abennews-750-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-assignments.htm)
+
 ### abennews-750-expressions.htm
+
+> **📖 Official SAP Documentation**: [abennews-750-expressions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-expressions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -197,7 +255,14 @@ Object Component Selector After Table Expressions
 From Release 7.50, the [object component selector \->](javascript:call_link\('abentable_exp_chaining.htm'\)) can be specified directly after [table expressions](javascript:call_link\('abentable_expressions.htm'\)) that return a reference variable. This makes it possible to access components of the referenced object. An exception are table expressions whose [result](javascript:call_link\('abentable_exp_result.htm'\)) is determined with the value operator VALUE.
 
 
+
+**📖 Source**: [abennews-750-expressions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-expressions.htm)
+
 ### abennews-750-exceptions.htm
+
+> **📖 Official SAP Documentation**: [abennews-750-exceptions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-exceptions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -228,7 +293,14 @@ MESSAGE Addition for RAISE EXCEPTION and THROW
 The new addition [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)) of the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) and of the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)) associates any [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") with an exception object. The exception class in question must include the new system interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)). It is also possible to use the addition with exception classes that include only the system interface [IF\_T100\_MESSAGE](javascript:call_link\('abenif_t100_message.htm'\)), but with restrictions.
 
 
+
+**📖 Source**: [abennews-750-exceptions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-exceptions.htm)
+
 ### abennews-750-abap_sql.htm
+
+> **📖 Official SAP Documentation**: [abennews-750-abap_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-abap_sql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -391,7 +463,14 @@ If a replacement object is defined for a database table or database view specifi
 This change was implemented using an internal tool a kernel patch after Release 7.40, SP10.
 
 
+
+**📖 Source**: [abennews-750-abap_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-abap_sql.htm)
+
 ### abennews-750-abap_cds.htm
+
+> **📖 Official SAP Documentation**: [abennews-750-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-abap_cds.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -494,7 +573,14 @@ The statement [EXTEND VIEW](javascript:call_link\('abencds_extend_view.htm'\)) f
     -   [Special functions](javascript:call_link\('abencds_special_functions_v1.htm'\))
 
 
+
+**📖 Source**: [abennews-750-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-abap_cds.htm)
+
 ### abennews-750-amdp.htm
+
+> **📖 Official SAP Documentation**: [abennews-750-amdp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-amdp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -532,7 +618,14 @@ AMDP Table Functions for CDS Table Functions
 An [AMDP function implementation](javascript:call_link\('abenamdp_function_method_glosry.htm'\) "Glossary Entry") in whose declaration the addition [FOR TABLE FUNCTION](javascript:call_link\('abapclass-methods_for_tabfunc.htm'\)) is specified implements a [CDS table function](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry") from [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry"). The parameter interface of an AMDP function implementation of this type is specified by the definition of the CDS table function. The associated [AMDP function](javascript:call_link\('abenamdp_function_glosry.htm'\) "Glossary Entry") is executed as a data source of an ABAP SQL read statement when accessing the CDS table function directly or indirectly.
 
 
+
+**📖 Source**: [abennews-750-amdp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-amdp.htm)
+
 ### abennews-750-abap_unit.htm
+
+> **📖 Official SAP Documentation**: [abennews-750-abap_unit.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-abap_unit.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -556,7 +649,14 @@ Test Seams and Injections
 Test classes with injections must be created in [test includes](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry"). With the exception of test includes for class pools and function groups, no test includes can currently be created.
 
 
+
+**📖 Source**: [abennews-750-abap_unit.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-abap_unit.htm)
+
 ### abennews-750-rfc.htm
+
+> **📖 Official SAP Documentation**: [abennews-750-rfc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-rfc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -611,7 +711,14 @@ Forbidden Accesses for APC
 Up to now, any repeated attempts to bind a push channel to a bound messaging channel or any attempts to remove a nonexistent binding were ignored. From Release 7.50, both situations raise an exception.
 
 
+
+**📖 Source**: [abennews-750-rfc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-rfc.htm)
+
 ### abennews-750-abap_versions.htm
+
+> **📖 Official SAP Documentation**: [abennews-750-abap_versions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-abap_versions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -646,7 +753,17 @@ Restricted ABAP for Key Users
 In Release 7.50, a new [ABAP version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") for [ABAP for Key Users](javascript:call_link\('abenabap_for_key_users_glosry.htm'\) "Glossary Entry") was introduced. This version is designed for enhancements in delivered [enhancement points](javascript:call_link\('abenenhancement_point_glosry.htm'\) "Glossary Entry") made by Key Users. The internal version ID in the column UCCHECK of the system table TRDIR is 2.
 
 
+
+**📖 Source**: [abennews-750-abap_versions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-abap_versions.htm)
+
 ### abennews-750-others.htm
+
+> **📖 Official SAP Documentation**: [abennews-750-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-others.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-750-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-750-others.htm)
+
 
   
 

@@ -3,7 +3,37 @@
 Included pages: 12
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenitab_key.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key.htm)
+- [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_primary.htm)
+- [abenitab_standard_key.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_standard_key.htm)
+- [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary.htm)
+- [abenitab_key_secondary_update.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_update.htm)
+- [abenitab_key_secondary_usage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_usage.htm)
+- [abenitab_key_secondary_restrict.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_restrict.htm)
+- [abenitab_key_duplicates.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_duplicates.htm)
+- [abenitab_key_secondary_duplicates.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_duplicates.htm)
+
+**Bundle Contains**: 9 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.950Z
+
+---
+
 ### abenitab_key.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenitab_key.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +61,18 @@ Continue
 [itab - Duplicate Non-Unique Keys](javascript:call_link\('abenitab_key_secondary_duplicates.htm'\))
 
 
+
+**📖 Source**: [abenitab_key.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key.htm)
+
 ### abenitab_key_primary.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_primary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_primary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -85,7 +126,18 @@ Continue
 [itab - Empty Table Key](javascript:call_link\('abenitab_empty_key.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_primary.htm)
+
 ### abenitab_standard_key.htm
+
+> **📖 Official SAP Documentation**: [abenitab_standard_key.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_standard_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenitab_standard_key.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_standard_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -165,7 +217,18 @@ READ REPORT 'DEMO\_TAB\_EXP\_LINE' INTO source.
 cl\_demo\_output=>display( source ).
 
 
+
+**📖 Source**: [abenitab_standard_key.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_standard_key.htm)
+
 ### abenitab_key_primary.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_primary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_primary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -219,7 +282,18 @@ Continue
 [itab - Empty Table Key](javascript:call_link\('abenitab_empty_key.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_primary.htm)
+
 ### abenitab_key_secondary.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -316,7 +390,18 @@ Continue
 [itab - Restrictions for Secondary Keys](javascript:call_link\('abenitab_key_secondary_restrict.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary.htm)
+
 ### abenitab_key_secondary_update.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_update.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_update.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_update.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_update.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -352,7 +437,18 @@ Executable Example
 The example for [Deletion Using Table Keys](javascript:call_link\('abendelete_itab_using_key_abexa.htm'\)) demonstrates the runtimes that are required to create the secondary key and when they occur.
 
 
+
+**📖 Source**: [abenitab_key_secondary_update.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_update.htm)
+
 ### abenitab_key_secondary_usage.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_usage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_usage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_usage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_usage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -383,7 +479,18 @@ Example
 The program DEMO\_SECONDARY\_KEYS demonstrates how a secondary table key is specified and the resulting performance gain.
 
 
+
+**📖 Source**: [abenitab_key_secondary_usage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_usage.htm)
+
 ### abenitab_key_secondary_restrict.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_restrict.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_restrict.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_restrict.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_restrict.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -421,7 +528,18 @@ The use of tables with secondary keys causes syntax or runtime errors for the fo
     -   itab in [WRITE TO itab](javascript:call_link\('abapwrite_to_itab.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_secondary_restrict.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_restrict.htm)
+
 ### abenitab_key_secondary.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -518,7 +636,18 @@ Continue
 [itab - Restrictions for Secondary Keys](javascript:call_link\('abenitab_key_secondary_restrict.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary.htm)
+
 ### abenitab_key_duplicates.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_duplicates.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_duplicates.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenitab_key_duplicates.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_duplicates.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -565,7 +694,21 @@ INSERT 2 INTO TABLE itab.
 INSERT 2 INTO itab INDEX 2.
 
 
+
+**📖 Source**: [abenitab_key_duplicates.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_duplicates.htm)
+
 ### abenitab_key_secondary_duplicates.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_duplicates.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_duplicates.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_duplicates.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_duplicates.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenitab_key_secondary_duplicates.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_duplicates.htm)
+
 
   
 

@@ -10,21 +10,13 @@ iXML Library - Direct Reads
 
 Direct reads can be used to create references to the node objects in DOM. These references can then be used to access methods and to get the properties of the nodes. Here, any node can be used as the starting point for access to its subnodes.
 
--   [Access by Root Element](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_1)
+-   [Access by Root Element](#abenabap-ixml-lib-dom-direct-read-1--------access-to-subnodes---@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_2)
 
--   [Access to Subnodes](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_2)
+-   [Access to adjacent subnodes](#abenabap-ixml-lib-dom-direct-read-3--------access-using-node-lists---@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_4)
 
--   [Access to adjacent subnodes](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_3)
+-   [Access Using Element Names](#abenabap-ixml-lib-dom-direct-read-5--------access-to-attributes---@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_6)
 
--   [Access using node lists](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_4)
-
--   [Access Using Element Names](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_5)
-
--   [Access to Attributes](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_6)
-
--   [Attribute access using lists](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_7)
-
--   [Short forms for attribute access](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_8)
+-   [Attribute access using lists](#abenabap-ixml-lib-dom-direct-read-7--------short-forms-for-attribute-access---@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_8)
 
 Access by Root Element
 

@@ -3,7 +3,30 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenfrontend_services.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrontend_services.htm)
+- [abenexcel_to_itab_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexcel_to_itab_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.947Z
+
+---
+
 ### abenfrontend_services.htm
+
+> **📖 Official SAP Documentation**: [abenfrontend_services.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrontend_services.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrontend_services.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrontend_services.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -113,7 +136,21 @@ Continue
 ![Example](exa.gif "Example") [Uploading an Excel File](javascript:call_link\('abenexcel_to_itab_abexa.htm'\))
 
 
+
+**📖 Source**: [abenfrontend_services.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrontend_services.htm)
+
 ### abenexcel_to_itab_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenexcel_to_itab_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexcel_to_itab_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexcel_to_itab_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexcel_to_itab_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenexcel_to_itab_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexcel_to_itab_abexa.htm)
+
 
   
 

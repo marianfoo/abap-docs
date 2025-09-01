@@ -3,7 +3,34 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_accesspolicy.htm)
+- [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_ap_annotations.htm)
+- [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_pfcg_mapping.htm)
+- [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_pm_annotations.htm)
+- [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_generic_aspect.htm)
+- [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_as_annotations.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.901Z
+
+---
+
 ### abencds_f1_define_accesspolicy.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_accesspolicy.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_accesspolicy.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46,7 +73,18 @@ Continue
 [CDS DCL - DEFINE ASPECT](javascript:call_link\('abencds_f1_define_generic_aspect.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_accesspolicy.htm)
+
 ### abencds_f1_dcl_ap_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_ap_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_ap_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -104,7 +142,18 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
+
+**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_ap_annotations.htm)
+
 ### abencds_f1_define_pfcg_mapping.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_pfcg_mapping.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_pfcg_mapping.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -201,7 +250,18 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](javascript:call_link\('abencds_f1_dcl_pm_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_pfcg_mapping.htm)
+
 ### abencds_f1_dcl_pm_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_pm_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_pm_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -313,7 +373,18 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](javascript:call_link\('abencds_f1_dcl_pm_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_pm_annotations.htm)
+
 ### abencds_f1_define_generic_aspect.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_generic_aspect.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_generic_aspect.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -387,7 +458,21 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](javascript:call_link\('abencds_f1_dcl_as_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_generic_aspect.htm)
+
 ### abencds_f1_dcl_as_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_as_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_as_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_as_annotations.htm)
+
 
   
 

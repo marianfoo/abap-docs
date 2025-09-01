@@ -3,7 +3,37 @@
 Included pages: 15
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_f1_conditional_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conditional_expression.htm)
+- [abencds_cond_expr_comp.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_comp.htm)
+- [abencds_cond_expr_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_types.htm)
+- [abencds_cond_expr_between.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_between.htm)
+- [abencds_cond_expr_like.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_like.htm)
+- [abencds_cond_expr_null.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_null.htm)
+- [abencds_cond_expr_operands.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_operands.htm)
+- [abencds_cond_expr_where.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_where.htm)
+- [abencds_cond_expr_having.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_having.htm)
+- [abencds_cond_expr_on_join.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_on_join.htm)
+- [abencds_cond_expr_on_assoc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_on_assoc.htm)
+- [abencds_cond_expr_filter.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_filter.htm)
+- [abencds_cond_expr_case.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_case.htm)
+
+**Bundle Contains**: 13 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.364Z
+
+---
+
 ### abencds_f1_conditional_expression.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_conditional_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conditional_expression.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52,7 +82,14 @@ Continue
 [ABAP CDS - cond\_expr, Operands](javascript:call_link\('abencds_cond_expr_operands.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_conditional_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conditional_expression.htm)
+
 ### abencds_cond_expr_comp.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_comp.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_comp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -108,7 +145,14 @@ Continue
 [ABAP CDS - cond\_expr, Comparable Types](javascript:call_link\('abencds_cond_expr_types.htm'\))
 
 
+
+**📖 Source**: [abencds_cond_expr_comp.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_comp.htm)
+
 ### abencds_cond_expr_types.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2035,7 +2079,14 @@ RAW
 This translation does not reflect the current version of the documentation.
 
 
+
+**📖 Source**: [abencds_cond_expr_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_types.htm)
+
 ### abencds_cond_expr_comp.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_comp.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_comp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2091,7 +2142,14 @@ Continue
 [ABAP CDS - cond\_expr, Comparable Types](javascript:call_link\('abencds_cond_expr_types.htm'\))
 
 
+
+**📖 Source**: [abencds_cond_expr_comp.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_comp.htm)
+
 ### abencds_cond_expr_between.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_between.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_between.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2116,7 +2174,14 @@ Compares an interval in a [condition](javascript:call_link\('abencds_f1_conditio
 The corresponding context-dependent [rules](javascript:call_link\('abencds_cond_expr_operands.htm'\)) apply to the operands lhs, rhs1, and rhs2. The same [conditions](javascript:call_link\('abencds_cond_expr_types.htm'\)) for the data types also apply.
 
 
+
+**📖 Source**: [abencds_cond_expr_between.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_between.htm)
+
 ### abencds_cond_expr_like.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_like.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_like.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2147,7 +2212,14 @@ Notes
 -   Unlike the [LIKE condition](javascript:call_link\('abenwhere_logexp_like.htm'\)) in Open SQL, lhs LIKE '%' is not true if lhs contains the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abencds_cond_expr_like.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_like.htm)
+
 ### abencds_cond_expr_null.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_null.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_null.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2168,7 +2240,14 @@ Effect
 Identifies the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") in a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). The relational expression is true if the value of lhs is (not) the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"). The same context-dependent [rules](javascript:call_link\('abencds_cond_expr_operands.htm'\)) apply to the operand lhs as to [comparisons](javascript:call_link\('abencds_cond_expr_comp.htm'\)).
 
 
+
+**📖 Source**: [abencds_cond_expr_null.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_null.htm)
+
 ### abencds_cond_expr_operands.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_operands.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_operands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2213,7 +2292,14 @@ Continue
 [ABAP CDS - cond\_expr, CASE](javascript:call_link\('abencds_cond_expr_case.htm'\))
 
 
+
+**📖 Source**: [abencds_cond_expr_operands.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_operands.htm)
+
 ### abencds_cond_expr_where.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_where.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_where.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2242,7 +2328,14 @@ Rules for conditions [cond\_exp](javascript:call_link\('abencds_f1_conditional_e
 -   Other expressions and function calls are not allowed.
 
 
+
+**📖 Source**: [abencds_cond_expr_where.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_where.htm)
+
 ### abencds_cond_expr_having.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_having.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_having.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2273,7 +2366,14 @@ Rules for conditions [cond\_exp](javascript:call_link\('abencds_f1_conditional_e
 -   Other expressions and function calls are not allowed.
 
 
+
+**📖 Source**: [abencds_cond_expr_having.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_having.htm)
+
 ### abencds_cond_expr_on_join.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_on_join.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_on_join.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2298,7 +2398,14 @@ Rules for conditions [cond\_exp](javascript:call_link\('abencds_f1_conditional_e
 -   No path expressions or other expressions or function calls can be specified.
 
 
+
+**📖 Source**: [abencds_cond_expr_on_join.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_on_join.htm)
+
 ### abencds_cond_expr_on_assoc.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_on_assoc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_on_assoc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2325,7 +2432,14 @@ Rules for conditions [cond\_exp](javascript:call_link\('abencds_f1_conditional_e
 -   No path expressions or other expressions or function calls can be specified.
 
 
+
+**📖 Source**: [abencds_cond_expr_on_assoc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_on_assoc.htm)
+
 ### abencds_cond_expr_filter.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_filter.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_filter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2348,7 +2462,14 @@ Rules for conditions [cond\_exp](javascript:call_link\('abencds_f1_conditional_e
 -   No path expressions or other expressions or function calls can be specified.
 
 
+
+**📖 Source**: [abencds_cond_expr_filter.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_filter.htm)
+
 ### abencds_cond_expr_case.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_case.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_case.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2377,7 +2498,17 @@ Rules for conditions [cond\_exp](javascript:call_link\('abencds_f1_conditional_e
 -   Other expressions and function calls are not allowed.
 
 
+
+**📖 Source**: [abencds_cond_expr_case.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_case.htm)
+
 ### abencds_cond_expr_operands.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_operands.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_operands.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_cond_expr_operands.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_operands.htm)
+
 
   
 

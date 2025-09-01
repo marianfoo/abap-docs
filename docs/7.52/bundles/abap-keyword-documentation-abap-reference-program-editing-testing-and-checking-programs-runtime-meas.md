@@ -3,7 +3,30 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_runtime_measurements.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_runtime_measurements.htm)
+- [abapget_run_time.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_run_time.htm)
+- [abenget_run_time_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenget_run_time_abexa.htm)
+- [abapset_run_time_clock_resolution.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_run_time_clock_resolution.htm)
+- [abapset_run_time_analyzer.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_run_time_analyzer.htm)
+- [abencl_abap_runtime.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_runtime.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.504Z
+
+---
+
 ### abenabap_runtime_measurements.htm
+
+> **📖 Official SAP Documentation**: [abenabap_runtime_measurements.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_runtime_measurements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32,7 +55,14 @@ Continue
 [System Class for Runtime Measurements](javascript:call_link\('abencl_abap_runtime.htm'\))
 
 
+
+**📖 Source**: [abenabap_runtime_measurements.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_runtime_measurements.htm)
+
 ### abapget_run_time.htm
+
+> **📖 Official SAP Documentation**: [abapget_run_time.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_run_time.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -101,7 +131,14 @@ Continue
 ![Example](exa.gif "Example") [Runtime Measurement of Database Reads](javascript:call_link\('abenget_run_time_abexa.htm'\))
 
 
+
+**📖 Source**: [abapget_run_time.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_run_time.htm)
+
 ### abenget_run_time_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenget_run_time_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenget_run_time_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -190,7 +227,14 @@ In this example, the runtime of three program segments is examined:
 The result shows that the offset of the runtime measurement can be neglected in this case and that reading specific columns of a table is faster than reading entire rows.
 
 
+
+**📖 Source**: [abenget_run_time_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenget_run_time_abexa.htm)
+
 ### abapget_run_time.htm
+
+> **📖 Official SAP Documentation**: [abapget_run_time.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_run_time.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -259,7 +303,14 @@ Continue
 ![Example](exa.gif "Example") [Runtime Measurement of Database Reads](javascript:call_link\('abenget_run_time_abexa.htm'\))
 
 
+
+**📖 Source**: [abapget_run_time.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_run_time.htm)
+
 ### abapset_run_time_clock_resolution.htm
+
+> **📖 Official SAP Documentation**: [abapset_run_time_clock_resolution.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_run_time_clock_resolution.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -325,7 +376,14 @@ Non-Handleable Exceptions
     Runtime error: SET\_RUN\_TIME\_CLOCK\_ERROR
 
 
+
+**📖 Source**: [abapset_run_time_clock_resolution.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_run_time_clock_resolution.htm)
+
 ### abapset_run_time_analyzer.htm
+
+> **📖 Official SAP Documentation**: [abapset_run_time_analyzer.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_run_time_analyzer.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -373,7 +431,17 @@ METHOD m0.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abapset_run_time_analyzer.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_run_time_analyzer.htm)
+
 ### abencl_abap_runtime.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_runtime.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_runtime.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencl_abap_runtime.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_runtime.htm)
+
 
   
 

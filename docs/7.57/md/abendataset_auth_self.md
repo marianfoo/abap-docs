@@ -18,10 +18,8 @@ In addition to the [automatic authorization checks](javascript:call_link\('abenf
 
 However, if logical file names are consistently used, there is no need for validation.
 
--   [Using Logical File Names](#@@ITOC@@ABENDATASET_AUTH_SELF_1)
--   [Using Physical File Names](#@@ITOC@@ABENDATASET_AUTH_SELF_2)
-    -   [Self-Programmed Validation](#@@ITOC@@ABENDATASET_AUTH_SELF_3)
-    -   [Validation with Logical File Names](#@@ITOC@@ABENDATASET_AUTH_SELF_4)
+-   [Using Logical File Names](#abendataset-auth-self-1-------using-physical-file-names---@ITOC@@ABENDATASET_AUTH_SELF_2)
+    -   [Self-Programmed Validation](#abendataset-auth-self-3-----------validation-with-logical-file-names---@ITOC@@ABENDATASET_AUTH_SELF_4)
 
 Using Logical File Names   
 

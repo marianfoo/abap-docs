@@ -10,13 +10,8 @@ ABAP CDS - Client Handling in CDS DDIC-Based Views
 
 For a [CDS DDIC-based view](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry") in ABAP CDS, the [CDS annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry") [@ClientHandling](javascript:call_link\('abencds_view_anno_v1.htm'\)) can be used to specify client handling.
 
--   [Determining Client Dependency](#@@ITOC@@ABENCDS_VIEW_CLIENT_HANDLING_V1_1)
--   [Determining Client Handling](#@@ITOC@@ABENCDS_VIEW_CLIENT_HANDLING_V1_2)
--   [Properties of Client-dependent CDS DDIC-based views.](#@@ITOC@@ABENCDS_VIEW_CLIENT_HANDLING_V1_3)
-
-Determining Client Dependency
-
-The annotation @ClientHandling.type determines the client dependency of the view. The following values can be specified for the annotation:
+-   [Determining Client Dependency](#abencds-view-client-handling-v1-1-------determining-client-handling---@ITOC@@ABENCDS_VIEW_CLIENT_HANDLING_V1_2)
+-   [Properties of Client-dependent CDS DDIC-based views.](#abencds-view-client-handling-v1-3---determining-client-dependency--the-annotation-ClientHandling.type determines the client dependency of the view. The following values can be specified for the annotation:
 
 #INHERITED
 

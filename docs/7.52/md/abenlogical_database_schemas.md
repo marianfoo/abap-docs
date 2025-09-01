@@ -10,13 +10,9 @@ Logical Schemas for SAP HANA
 
 A logical schema is a symbolic name for a [database schema](javascript:call_link\('abendatabase_schema_glosry.htm'\) "Glossary Entry") in the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") that can be used in an [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry").
 
--   [Definition](#@@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_1)
+-   [Definition](#abenlogical-database-schemas-1--------mapping-physical-database-schemas---@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_2)
 
--   [Mapping Physical Database Schemas](#@@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_2)
-
--   [Mapping to a Logical Database Schema](#@@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_3)
-
--   [Mapping to a Logical HDI Schema](#@@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_4)
+-   [Mapping to a Logical Database Schema](#abenlogical-database-schemas-3--------mapping-to-a-logical-hdi-schema---@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_4)
 
 -   [Use](#@@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_5)
 

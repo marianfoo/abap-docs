@@ -3,7 +3,39 @@
 Included pages: 15
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-752.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752.htm)
+- [abennews-752-abap_objects.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_objects.htm)
+- [abennews-752-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-assignments.htm)
+- [abennews-752-expressions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-expressions.htm)
+- [abennews-752-itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-itab.htm)
+- [abennews-752-abap_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_sql.htm)
+- [abennews-752-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_cds.htm)
+- [abennews-752-amdp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-amdp.htm)
+- [abennews-752-data_cluster.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-data_cluster.htm)
+- [abennews-752-dataset.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-dataset.htm)
+- [abennews-752-messages.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-messages.htm)
+- [abennews-752-abap_unit.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_unit.htm)
+- [abennews-752-daemons.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-daemons.htm)
+- [abennews-752-abap_doc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_doc.htm)
+- [abennews-752-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-others.htm)
+
+**Bundle Contains**: 15 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.287Z
+
+---
+
 ### abennews-752.htm
+
+> **📖 Official SAP Documentation**: [abennews-752.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52,7 +84,14 @@ Continue
 [Further Changes in Release 7.52](javascript:call_link\('abennews-752-others.htm'\))
 
 
+
+**📖 Source**: [abennews-752.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752.htm)
+
 ### abennews-752-abap_objects.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-abap_objects.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -77,7 +116,14 @@ When implementing interfaces in classes with the statement [INTERFACES](javascri
 -   Attributes that are declared in component interfaces can now be specified after the addition DATA VALUES by using [alias names](javascript:call_link\('abenalias_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abennews-752-abap_objects.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_objects.htm)
+
 ### abennews-752-assignments.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-assignments.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -99,7 +145,14 @@ System Class for Dynamic Mapping
 The system class [CL\_ABAP\_CORRESPONDING](javascript:call_link\('abencl_abap_corresponding.htm'\)) now has a new method [CREATE\_WITH\_VALUE](javascript:call_link\('abencl_abap_corresponding_3.htm'\)), which allows the values of any suitable data objects to be assigned to the components of the target structure or target table.
 
 
+
+**📖 Source**: [abennews-752-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-assignments.htm)
+
 ### abennews-752-expressions.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-expressions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-expressions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -144,7 +197,14 @@ Pseudo Component table\_line in Mapping Rules
 It is now possible to specify the [pseudo component](javascript:call_link\('abenpseudo_component_glosry.htm'\) "Glossary Entry") table\_line as a source component of a source table in [mapping rules](javascript:call_link\('abencorresponding_constr_mapping.htm'\)) of the component operator [CORRESPONDING](javascript:call_link\('abenconstructor_expr_corresponding.htm'\)), if the table has an elementary row type. In all other cases, the behavior is undefined when the pseudo component is specified.
 
 
+
+**📖 Source**: [abennews-752-expressions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-expressions.htm)
+
 ### abennews-752-itab.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -166,7 +226,14 @@ Virtual Sorting of Internal Tables
 The new method VIRTUAL\_SORT of class CL\_ABAP\_ITAB\_UTILITIES enables virtual sorting of a set of internal tables with the same number of rows. The internal tables are handled internally like a single combined table containing all the columns of the involved internal tables. The result is an array of row numbers of the virtually sorted combined table. See the related [executable examples](javascript:call_link\('abenvirtual_sort_abexas.htm'\)).
 
 
+
+**📖 Source**: [abennews-752-itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-itab.htm)
+
 ### abennews-752-abap_sql.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-abap_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_sql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -280,7 +347,14 @@ Replacement Service for ABAP SQL
 The class [CL\_OSQL\_REPLACE](javascript:call_link\('abencl_osql_replace.htm'\)) can be used in [unit tests](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry") with [ABAP Unit](javascript:call_link\('abenabap_unit_glosry.htm'\) "Glossary Entry") to redirect database accesses in ABAP SQL to other databases.
 
 
+
+**📖 Source**: [abennews-752-abap_sql.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_sql.htm)
+
 ### abennews-752-abap_cds.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_cds.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -341,7 +415,14 @@ Extensions
 [CDS view extensions](javascript:call_link\('abencds_view_extend_glosry.htm'\) "Glossary Entry") are now connected to [Switch Framework](javascript:call_link\('abenswitch_framework_glosry.htm'\) "Glossary Entry") whenever they are defined in a [package](javascript:call_link\('abenpackage_glosry.htm'\) "Glossary Entry") that is assigned a [switch](javascript:call_link\('abenswitch_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abennews-752-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_cds.htm)
+
 ### abennews-752-amdp.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-amdp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-amdp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -386,7 +467,14 @@ Logical HDI Containers
 Alongside the existing [logical database schemas](javascript:call_link\('abenlogical_database_schema_glosry.htm'\) "Glossary Entry"), [logical HDI containers](javascript:call_link\('abenlogical_hdi_container_glosry.htm'\) "Glossary Entry") can now be used as further [logical schemas](javascript:call_link\('abenlogical_schema_glosry.htm'\) "Glossary Entry") in the [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry") [$ABAP.schema](javascript:call_link\('abenamdp_logical_db_schemas.htm'\)). The mapping of a physical database schema to a logical HDI container is made in the definition of an [ABAP-managed HDI container](javascript:call_link\('abenamhc_glosry.htm'\) "Glossary Entry"), which itself links [HDI objects](javascript:call_link\('abenhdi_object_glosry.htm'\) "Glossary Entry") to the [Change and Transport System (CTS)](javascript:call_link\('abencts_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abennews-752-amdp.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-amdp.htm)
+
 ### abennews-752-data_cluster.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-data_cluster.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-data_cluster.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -423,7 +511,14 @@ The following [exceptions in IMPORT](javascript:call_link\('abenrabax_import_fro
 -   IMPORT\_OBJECT\_DESTROYED
 
 
+
+**📖 Source**: [abennews-752-data_cluster.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-data_cluster.htm)
+
 ### abennews-752-dataset.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-dataset.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-dataset.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -456,7 +551,14 @@ If the addition [FILTER](javascript:call_link\('abapopen_dataset_os_addition.htm
 For compatibility reasons, the undocumented empty value for the activity is still accepted.
 
 
+
+**📖 Source**: [abennews-752-dataset.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-dataset.htm)
+
 ### abennews-752-messages.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-messages.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-messages.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -478,7 +580,14 @@ Implicit Message Specification in RAISE EXCEPTION MESSAGE
 A new short form [USING MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)) of statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) with the addition [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)) makes it possible to pass the content of system fields sy-msg... implicitly to the exceptions of exception classes that include the system interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)).
 
 
+
+**📖 Source**: [abennews-752-messages.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-messages.htm)
+
 ### abennews-752-abap_unit.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-abap_unit.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_unit.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -500,7 +609,14 @@ Test Relations
 The special [ABAP Doc comment](javascript:call_link\('abenabap_doc_comment_glosry.htm'\) "Glossary Entry") ["! @testing ...](javascript:call_link\('abentest_relations.htm'\)) can be used to define [test relations](javascript:call_link\('abentest_relation_glosry.htm'\) "Glossary Entry") between test classes or test methods and repository objects. This allows the display and execution of tests for these repository objects in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abennews-752-abap_unit.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_unit.htm)
+
 ### abennews-752-daemons.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-daemons.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-daemons.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -533,7 +649,14 @@ Timers for the Non-Blocking Mode
 The new object types replace the previous types CL\_APC\_TIMER\_MANAGER, IF\_APC\_TIMER\_MANAGER, and IF\_APC\_TIMER\_HANDLER.
 
 
+
+**📖 Source**: [abennews-752-daemons.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-daemons.htm)
+
 ### abennews-752-abap_doc.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-abap_doc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_doc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -574,7 +697,17 @@ The following changes have also been made to [ABAP Doc comments](javascript:call
 -   The attributes specified in tags are now checked by the syntax check.
 
 
+
+**📖 Source**: [abennews-752-abap_doc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-abap_doc.htm)
+
 ### abennews-752-others.htm
+
+> **📖 Official SAP Documentation**: [abennews-752-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-others.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-752-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752-others.htm)
+
 
   
 

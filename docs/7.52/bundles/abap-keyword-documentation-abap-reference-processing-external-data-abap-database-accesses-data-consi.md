@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abensap_lock.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_lock.htm)
+- [abenenqueue_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenqueue_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.482Z
+
+---
+
 ### abensap_lock.htm
+
+> **📖 Official SAP Documentation**: [abensap_lock.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_lock.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -75,7 +94,17 @@ Continue
 ![Example](exa.gif "Example") [SAP Locks, Set and Release](javascript:call_link\('abenenqueue_abexa.htm'\))
 
 
+
+**📖 Source**: [abensap_lock.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_lock.htm)
+
 ### abenenqueue_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenqueue_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenqueue_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenenqueue_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenqueue_abexa.htm)
+
 
   
 

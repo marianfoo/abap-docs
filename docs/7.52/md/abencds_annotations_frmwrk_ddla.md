@@ -16,39 +16,19 @@ The following [DDLA source code](javascript:call_link\('abenddla_source_code_glo
 
 The documentation CDS Annotations summarizes the descriptions of the framework-specific annotations.
 
--   [AccessControl-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_1)
+-   [AccessControl-Annotations](#abencds-annotations-frmwrk-ddla-1--------aggregation-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_2)
 
--   [Aggregation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_2)
+-   [Analytics-Annotations](#abencds-annotations-frmwrk-ddla-3--------analyticsdetails-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_4)
 
--   [Analytics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_3)
+-   [Consumption-Annotations](#abencds-annotations-frmwrk-ddla-5--------defaultaggregation-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_6)
 
--   [AnalyticsDetails-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_4)
+-   [EnterpriseSearch-Annotations](#abencds-annotations-frmwrk-ddla-7--------hierarchy-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_8)
 
--   [Consumption-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_5)
+-   [OData-Annotations](#abencds-annotations-frmwrk-ddla-9--------objectmodel-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_10)
 
--   [DefaultAggregation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_6)
+-   [Search-Annotations](#abencds-annotations-frmwrk-ddla-11--------semantics-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_12)
 
--   [EnterpriseSearch-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_7)
-
--   [Hierarchy-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_8)
-
--   [OData-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_9)
-
--   [ObjectModel-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_10)
-
--   [Search-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_11)
-
--   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_12)
-
--   [UI-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_13)
-
-Note
-
-See also [Framework-Specific Annotation Syntax](javascript:call_link\('abencds_annotations_frmwrk_tables.htm'\)).
-
-AccessControl-Annotations
-
-@Scope:\[#VIEW, #TABLE\_FUNCTION\]  
+-   [UI-Annotations](#abencds-annotations-frmwrk-ddla-13---note--see-also--framework-specific-annotation-syntax--javascript-call-link---abencds-annotations-frmwrk-tables-htm-------accesscontrol-annotations--Scope:\[#VIEW, #TABLE\_FUNCTION\]  
 annotation AccessControl
 {
    authorizationCheck : String(20) enum { NOT\_REQUIRED; NOT\_ALLOWED; CHECK; PRIVILEGED\_ONLY; } default #CHECK;

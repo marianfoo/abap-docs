@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencall_event_handler.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_event_handler.htm)
+- [abapraise_event.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_event.htm)
+- [abapset_handler.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler.htm)
+- [abapset_handler_instance.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler_instance.htm)
+- [abapset_handler_static.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler_static.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.239Z
+
+---
+
 ### abencall_event_handler.htm
+
+> **📖 Official SAP Documentation**: [abencall_event_handler.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_event_handler.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28,7 +50,14 @@ Continue
 [SET HANDLER](javascript:call_link\('abapset_handler.htm'\))
 
 
+
+**📖 Source**: [abencall_event_handler.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_event_handler.htm)
+
 ### abapraise_event.htm
+
+> **📖 Official SAP Documentation**: [abapraise_event.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_event.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -102,7 +131,14 @@ Uncatchable Exceptions
     Runtime error: RAISE\_EVENT\_NESTING\_LIMIT
 
 
+
+**📖 Source**: [abapraise_event.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_event.htm)
+
 ### abapset_handler.htm
+
+> **📖 Official SAP Documentation**: [abapset_handler.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -201,7 +237,14 @@ Continue
 [SET HANDLER, static\_event](javascript:call_link\('abapset_handler_static.htm'\))
 
 
+
+**📖 Source**: [abapset_handler.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler.htm)
+
 ### abapset_handler_instance.htm
+
+> **📖 Official SAP Documentation**: [abapset_handler_instance.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler_instance.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -346,7 +389,14 @@ START-OF-SELECTION.
   cl\_demo\_output=>display( ).
 
 
+
+**📖 Source**: [abapset_handler_instance.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler_instance.htm)
+
 ### abapset_handler_static.htm
+
+> **📖 Official SAP Documentation**: [abapset_handler_static.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler_static.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -421,7 +471,17 @@ START-OF-SELECTION.
   cls=>meth( ).
 
 
+
+**📖 Source**: [abapset_handler_static.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler_static.htm)
+
 ### abapset_handler.htm
+
+> **📖 Official SAP Documentation**: [abapset_handler.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapset_handler.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler.htm)
+
 
   
 

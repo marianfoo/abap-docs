@@ -3,7 +3,35 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_shortref.htm)
+- [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile_shortref.htm)
+- [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwindow_shortref.htm)
+- [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwith_shortref.htm)
+- [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_shortref.htm)
+- [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_shortref.htm)
+- [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_itab_shortref.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.937Z
+
+---
+
 ### abapwait_shortref.htm
+
+> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42,7 +70,18 @@ Additions  
     Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](javascript:call_link\('abenabap_push_channels_glosry.htm'\) "Glossary Entry") is true.
 
 
+
+**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_shortref.htm)
+
 ### abapwhile_shortref.htm
+
+> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -76,7 +115,18 @@ Addition 
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
+
+**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile_shortref.htm)
+
 ### abapwindow_shortref.htm
+
+> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwindow_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwindow_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -109,7 +159,18 @@ Additions  
     Specifies the right lower corner.
 
 
+
+**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwindow_shortref.htm)
+
 ### abapwith_shortref.htm
+
+> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwith_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwith_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -140,7 +201,18 @@ Effect
 [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry") +cte1, +cte2 for use in a closing [main query](javascript:call_link\('abenmainquery_glosry.htm'\) "Glossary Entry") [SELECT ...](javascript:call_link\('abapselect_shortref.htm'\)). The result set of a common table expression is determined by a subquery [subquery](javascript:call_link\('abensubquery_shortref.htm'\)).
 
 
+
+**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwith_shortref.htm)
+
 ### abapwrite_shortref.htm
+
+> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -226,7 +298,18 @@ Additions  
 -   Information about other additions can be found in [WRITE TO](javascript:call_link\('abapwrite_to_shortref.htm'\)).
 
 
+
+**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_shortref.htm)
+
 ### abapwrite_to_shortref.htm
+
+> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -297,7 +380,21 @@ Additions  
     Functions as an edit mask for the output of data objects of the data type d.
 
 
+
+**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_shortref.htm)
+
 ### abapwrite_to_itab_shortref.htm
+
+> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_itab_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_itab_shortref.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_itab_shortref.htm)
+
 
   
 

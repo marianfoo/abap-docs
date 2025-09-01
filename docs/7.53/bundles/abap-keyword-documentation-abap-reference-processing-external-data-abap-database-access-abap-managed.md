@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_managed_db_objects_access.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_access.htm)
+- [abenabap_managed_db_objects_osql.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_osql.htm)
+- [abenabap_managed_db_objects_amdp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_amdp.htm)
+- [abenabap_managed_db_objects_nsql.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_nsql.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.202Z
+
+---
+
 ### abenabap_managed_db_objects_access.htm
+
+> **📖 Official SAP Documentation**: [abenabap_managed_db_objects_access.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_access.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -112,7 +133,14 @@ Continue
 [Native SQL Access to ABAP-Managed Database Objects](javascript:call_link\('abenabap_managed_db_objects_nsql.htm'\))
 
 
+
+**📖 Source**: [abenabap_managed_db_objects_access.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_access.htm)
+
 ### abenabap_managed_db_objects_osql.htm
+
+> **📖 Official SAP Documentation**: [abenabap_managed_db_objects_osql.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_osql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -191,7 +219,14 @@ Note
 Some of the semantic attributes defined in ABAP Dictionary or ABAP CDS, such as foreign key relationships or reference fields, are ignored in ABAP SQL and are respected only by classic [Dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), [Web Dynpros](javascript:call_link\('abenweb_dynpro_glosry.htm'\) "Glossary Entry"), and some other frameworks. This applies in particular to the evaluation of [framework-specific annotations](javascript:call_link\('abencomponent_annotation_glosry.htm'\) "Glossary Entry") in ABAP CDS as well.
 
 
+
+**📖 Source**: [abenabap_managed_db_objects_osql.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_osql.htm)
+
 ### abenabap_managed_db_objects_amdp.htm
+
+> **📖 Official SAP Documentation**: [abenabap_managed_db_objects_amdp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_amdp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -280,7 +315,17 @@ Note
 Implementations of AMDP methods can be debugged in the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenabap_managed_db_objects_amdp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_amdp.htm)
+
 ### abenabap_managed_db_objects_nsql.htm
+
+> **📖 Official SAP Documentation**: [abenabap_managed_db_objects_nsql.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_nsql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabap_managed_db_objects_nsql.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_nsql.htm)
+
 
   
 

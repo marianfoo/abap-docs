@@ -8,9 +8,7 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Logical Databases - Associated with Executable Programs
 
--   [How the Association Works](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_1)
-
--   [Selection Screen](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_2)
+-   [How the Association Works](#abenldb-usage-executable-1--------selection-screen---@ITOC@@ABENLDB_USAGE_EXECUTABLE_2)
 
 -   [Runtime Behavior](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_3)
 

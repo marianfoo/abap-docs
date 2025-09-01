@@ -3,7 +3,37 @@
 Included pages: 13
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenamdp_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm)
+- [abenamdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexa.htm)
+- [abenamdp_call_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_amdp_abexa.htm)
+- [abenamdp_call_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_abexa.htm)
+- [abenamdp_polymorphism_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_polymorphism_abexa.htm)
+- [abenamdp_changing_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_changing_abexa.htm)
+- [abenamdp_connection_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_connection_abexa.htm)
+- [abenmesh_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_amdp_abexa.htm)
+- [abenamdp_vs_open_sql_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_vs_open_sql_abexa.htm)
+- [abenamdp_functions_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_functions_abexa.htm)
+- [abenamdp_abap_types_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abap_types_abexa.htm)
+- [abenamdp_db_schema_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_db_schema_abexa.htm)
+- [abenamdp_l_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_l_abexa.htm)
+
+**Bundle Contains**: 13 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.481Z
+
+---
+
 ### abenamdp_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30,7 +60,14 @@ Continue
 ![Example](exa.gif "Example") [AMDP, Implementation of an L Procedure](javascript:call_link\('abenamdp_l_abexa.htm'\))
 
 
+
+**📖 Source**: [abenamdp_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm)
+
 ### abenamdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -173,7 +210,14 @@ Note
 This is a syntax example. The same function can be provided with the same efficiency in Open SQL. AMDP is not needed in simple cases like this.
 
 
+
+**📖 Source**: [abenamdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexa.htm)
+
 ### abenamdp_call_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_call_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -244,7 +288,14 @@ Method was not found
 The called database procedure must be specified after the addition [USING](javascript:call_link\('abapmethod_by_db_proc.htm'\)) of the statement METHOD. Compare the [executable example](javascript:call_link\('abenamdp_call_abexa.htm'\)) for calling a further database procedure not managed using AMDP.
 
 
+
+**📖 Source**: [abenamdp_call_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_amdp_abexa.htm)
+
 ### abenamdp_call_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_call_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -316,7 +367,14 @@ ENDMETHOD.
 The called database procedure is created dynamically in the static constructor of the AMDP class CL\_DEMO\_AMDP\_CALL using [ADBC](javascript:call_link\('abenadbc.htm'\)). It is in the same database schema, but due to the namespace /1BCAMDP/ it cannot and must not be used after the addition [USING](javascript:call_link\('abapmethod_by_db_proc.htm'\)) of the METHOD statement. Compare this [executable example](javascript:call_link\('abenamdp_call_amdp_abexa.htm'\)) when calling a further AMDP procedure.
 
 
+
+**📖 Source**: [abenamdp_call_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_abexa.htm)
+
 ### abenamdp_polymorphism_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_polymorphism_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_polymorphism_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -376,7 +434,14 @@ The interface method is implemented once as an AMDP method and once as a regular
 This program demonstrates how objects are created using either the AMDP method or the regular method and called polymorphically, as specified by the current database.
 
 
+
+**📖 Source**: [abenamdp_polymorphism_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_polymorphism_abexa.htm)
+
 ### abenamdp_changing_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_changing_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_changing_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -475,7 +540,14 @@ Note
 This is a syntax example. The same function can be provided with the same efficiency in Open SQL. AMDP is not needed in simple cases like this.
 
 
+
+**📖 Source**: [abenamdp_changing_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_changing_abexa.htm)
+
 ### abenamdp_connection_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_connection_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_connection_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -539,7 +611,14 @@ ENDMETHOD.
 The method also has an optional input parameter with the predefined name connection. This is used to specify whether the [standard connection](javascript:call_link\('abenstandard_db_connection_glosry.htm'\) "Glossary Entry") or a [service connection](javascript:call_link\('abenservice_connection_glosry.htm'\) "Glossary Entry") is used. If a permitted name such as "DEFAULT" or "R/3\*my\_conn" is passed, the method is executed using either the standard connection or a service connection. Invalid names raise an exception and an exception is text is displayed.
 
 
+
+**📖 Source**: [abenamdp_connection_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_connection_abexa.htm)
+
 ### abenmesh_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -669,7 +748,14 @@ Note
 This is a syntax example. The same function can be provided with the same efficiency in Open SQL. AMDP is not needed in simple cases like this.
 
 
+
+**📖 Source**: [abenmesh_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_amdp_abexa.htm)
+
 ### abenamdp_vs_open_sql_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_vs_open_sql_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_vs_open_sql_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1025,7 +1111,14 @@ INTO TABLE @et\_invoice\_header.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenamdp_vs_open_sql_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_vs_open_sql_abexa.htm)
+
 ### abenamdp_functions_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_functions_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_functions_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1172,7 +1265,14 @@ define table function DEMO\_CDS\_GET\_SCARR\_SPFLI
     CL\_DEMO\_AMDP\_FUNCTIONS=>GET\_SCARR\_SPFLI\_FOR\_CDS;
 
 
+
+**📖 Source**: [abenamdp_functions_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_functions_abexa.htm)
+
 ### abenamdp_abap_types_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_abap_types_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abap_types_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1228,7 +1328,14 @@ In [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Ent
 The table variable is filled using assignments to columns with one row, whereby the specification of the AMDP macro $ABAP.type is displayed in a CAST expression. Finally, the content of the table variable is imported into the tabular output parameter itab, whose row type is made up of components of the same ABAP types, which are used to define the table variable.
 
 
+
+**📖 Source**: [abenamdp_abap_types_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abap_types_abexa.htm)
+
 ### abenamdp_db_schema_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_db_schema_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_db_schema_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1302,7 +1409,17 @@ METHOD get\_schemas\_logical BY DATABASE PROCEDURE
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenamdp_db_schema_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_db_schema_abexa.htm)
+
 ### abenamdp_l_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_l_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_l_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenamdp_l_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_l_abexa.htm)
+
 
   
 

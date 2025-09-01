@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenenumerated_types_usage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_types_usage.htm)
+- [abenenum_usage_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_usage_abexa.htm)
+- [abenenum_description_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_description_abexa.htm)
+- [abenenum_deserialization_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_deserialization_abexa.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.492Z
+
+---
+
 ### abenenumerated_types_usage.htm
+
+> **📖 Official SAP Documentation**: [abenenumerated_types_usage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_types_usage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -342,7 +363,14 @@ Continue
 ![Example](exa.gif "Example") [Enumerated Objects, Deserialization](javascript:call_link\('abenenum_deserialization_abexa.htm'\))
 
 
+
+**📖 Source**: [abenenumerated_types_usage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_types_usage.htm)
+
 ### abenenum_usage_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenum_usage_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_usage_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -424,7 +452,14 @@ The input parameters size and format format of the method have the same enumerat
 Enumerated values can be specified for the size and format when the program is executed. The values are passed internally to the program by deserializing the character-like values into the local enumerated variables size and format. The exception for invalid values is caught internally; here the enumerated variables are initialized, which corresponds to the values of the enumeration constants sz-s and fmt-l.
 
 
+
+**📖 Source**: [abenenum_usage_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_usage_abexa.htm)
+
 ### abenenum_description_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenum_description_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_description_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -477,7 +512,17 @@ Description
 The statement [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)) and the type description class CL\_ABAP\_ENUMDESCR are applied to an enumerated variable size of the enumerated type with the same name.
 
 
+
+**📖 Source**: [abenenum_description_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_description_abexa.htm)
+
 ### abenenum_deserialization_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenum_deserialization_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_deserialization_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenenum_deserialization_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_deserialization_abexa.htm)
+
 
   
 

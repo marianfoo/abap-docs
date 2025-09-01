@@ -3,7 +3,32 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenobj_oriented_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobj_oriented_gdl.htm)
+- [abenencapsulation_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenencapsulation_guidl.htm)
+- [abenmodularization_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmodularization_guidl.htm)
+- [abenstatic_class_singleton_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_class_singleton_guidl.htm)
+- [abeninheritance_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninheritance_guidl.htm)
+- [abenclass_ref_interf_ref_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_ref_interf_ref_guidl.htm)
+- [abenlocal_type_glob_class_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlocal_type_glob_class_guidl.htm)
+- [abeninstance_constructor_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninstance_constructor_guidl.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.454Z
+
+---
+
 ### abenobj_oriented_gdl.htm
+
+> **📖 Official SAP Documentation**: [abenobj_oriented_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobj_oriented_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42,7 +67,14 @@ Continue
 [Instance Constructor](javascript:call_link\('abeninstance_constructor_guidl.htm'\))
 
 
+
+**📖 Source**: [abenobj_oriented_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobj_oriented_gdl.htm)
+
 ### abenencapsulation_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenencapsulation_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenencapsulation_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -80,7 +112,14 @@ This simple rule provides practical access to object-oriented programming that p
 Conversely, within an encapsulated unit, that is, within a class, you should avoid accessing more global data directly. Within methods, you should generally modify attributes of the class only. Performing writes to global data outside the class is not recommended. Accessing data in this way should only be done using specially marked methods, if at all. The use of methods of a class should not evoke any side effects outside the class itself.
 
 
+
+**📖 Source**: [abenencapsulation_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenencapsulation_guidl.htm)
+
 ### abenmodularization_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenmodularization_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmodularization_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -194,7 +233,14 @@ There is a corresponding built-in function for almost every string processing st
 string = shift\_left( val = string places = ... ).
 
 
+
+**📖 Source**: [abenmodularization_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmodularization_guidl.htm)
+
 ### abenstatic_class_singleton_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenstatic_class_singleton_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_class_singleton_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -300,7 +346,14 @@ In the above example, the get\_instance method is used to return the object refe
 In special cases, where object creation is performed without parameters and is always successful, you can omit the get\_instance method and publish the object reference using a READ-ONLY attribute. In this case, the object is created within the static constructor. Therefore, this approach is still afflicted with some of the problems of static classes described in other sections.
 
 
+
+**📖 Source**: [abenstatic_class_singleton_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_class_singleton_guidl.htm)
+
 ### abeninheritance_guidl.htm
+
+> **📖 Official SAP Documentation**: [abeninheritance_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninheritance_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -337,7 +390,14 @@ Note
 If your main aim is to exploit the possibilities of polymorphism, interfaces are often a preferable solution to inheritance. If all you want to do is use interfaces, method interfaces should be used instead of abstract classes. These can be used to create composite interfaces. In ABAP, on the other hand, a composite interface is impossible due to the nature of simple inheritance using classes.
 
 
+
+**📖 Source**: [abeninheritance_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninheritance_guidl.htm)
+
 ### abenclass_ref_interf_ref_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenclass_ref_interf_ref_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_ref_interf_ref_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -394,7 +454,14 @@ ENDCLASS.
      ...
 
 
+
+**📖 Source**: [abenclass_ref_interf_ref_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_ref_interf_ref_guidl.htm)
+
 ### abenlocal_type_glob_class_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenlocal_type_glob_class_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlocal_type_glob_class_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -452,7 +519,17 @@ Hint
 [Test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") should only be created in [test includes](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenlocal_type_glob_class_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlocal_type_glob_class_guidl.htm)
+
 ### abeninstance_constructor_guidl.htm
+
+> **📖 Official SAP Documentation**: [abeninstance_constructor_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninstance_constructor_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abeninstance_constructor_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninstance_constructor_guidl.htm)
+
 
   
 

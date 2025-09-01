@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenmesh_modify.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_modify.htm)
+- [abenmesh_modify_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_modify_table_abexa.htm)
+- [abenmesh_modify_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_modify_abexa.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.218Z
+
+---
+
 ### abenmesh_modify.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_modify.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_modify.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -102,7 +122,14 @@ Continue
 ![Example](exa.gif "Example") [Changing Multiple Rows in Mesh Paths](javascript:call_link\('abenmesh_modify_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmesh_modify.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_modify.htm)
+
 ### abenmesh_modify_table_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_modify_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_modify_table_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -203,7 +230,17 @@ MODIFY TABLE mesh-node1\\\_node2\_2\[ mesh-node1\[ 2 \] \]
 The ON condition of the association \_node2\_2 does not cover the table key mkey and the missing information is taken from column col2 of the work area after FROM.
 
 
+
+**📖 Source**: [abenmesh_modify_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_modify_table_abexa.htm)
+
 ### abenmesh_modify_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_modify_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_modify_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenmesh_modify_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_modify_abexa.htm)
+
 
   
 

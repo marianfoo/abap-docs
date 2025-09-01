@@ -20,10 +20,8 @@ The [provider rules](javascript:call_link\('abenc0_provider_rules_ddic.htm'\)) f
 
 The following sections list rules for extensions to released APIs that must be considered when creating an extension.
 
--   [Naming Rules](#@@ITOC@@ABENC0_CONSUMER_RULES_DDIC_1)
--   [Rules for Extensions](#@@ITOC@@ABENC0_CONSUMER_RULES_DDIC_2)
--   [Rules for Using Released DDIC Objects](#@@ITOC@@ABENC0_CONSUMER_RULES_DDIC_3)
--   [Restrictions](#@@ITOC@@ABENC0_CONSUMER_RULES_DDIC_4)
+-   [Naming Rules](#abenc0-consumer-rules-ddic-1-------rules-for-extensions---@ITOC@@ABENC0_CONSUMER_RULES_DDIC_2)
+-   [Rules for Using Released DDIC Objects](#abenc0-consumer-rules-ddic-3-------restrictions---@ITOC@@ABENC0_CONSUMER_RULES_DDIC_4)
 
 Naming Rules   
 

@@ -12,8 +12,7 @@ Internal Tables with a Header Line
 
 Outside classes, and if it is not a component of a structure or line of another internal table, it is still possible to create an internal table with a header line.
 
--   [Declaration of Header Lines](#@@ITOC@@ABENITAB_HEADER_LINE_1)
--   [Properties of Header Lines](#@@ITOC@@ABENITAB_HEADER_LINE_2)
+-   [Declaration of Header Lines](#abenitab-header-line-1-------properties-of-header-lines---@ITOC@@ABENITAB_HEADER_LINE_2)
 -   [Use](#@@ITOC@@ABENITAB_HEADER_LINE_3)
 
 Declaration of Header Lines   

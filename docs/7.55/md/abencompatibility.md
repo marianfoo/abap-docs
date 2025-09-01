@@ -14,9 +14,7 @@ In addition, the compatibility of [value assignments](javascript:call_link\('abe
 
 In the case of reference types with data objects (reference variables) that have a [dynamic type](javascript:call_link\('abendynamic_type_glosry.htm'\) "Glossary Entry") apart from the [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry"), the term compatibility that is based entirely on technical type attributes is not sufficient.
 
--   [Non-Generic Data Types Except Reference Types](#@@ITOC@@ABENCOMPATIBILITY_1)
-
--   [Generic Data Types](#@@ITOC@@ABENCOMPATIBILITY_2)
+-   [Non-Generic Data Types Except Reference Types](#abencompatibility-1--------generic-data-types---@ITOC@@ABENCOMPATIBILITY_2)
 
 -   [Reference Types](#@@ITOC@@ABENCOMPATIBILITY_3)
 

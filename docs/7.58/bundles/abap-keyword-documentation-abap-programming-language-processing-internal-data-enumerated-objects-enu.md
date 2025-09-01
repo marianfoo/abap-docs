@@ -3,7 +3,34 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenenumerated_types_usage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_types_usage.htm)
+- [abenenum_declaration_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_declaration_abexa.htm)
+- [abenenum_formal_para_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_formal_para_abexa.htm)
+- [abenenum_description_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_description_abexa.htm)
+- [abenenum_deserialization_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_deserialization_abexa.htm)
+- [abenenum_usage_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_usage_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.987Z
+
+---
+
 ### abenenumerated_types_usage.htm
+
+> **📖 Official SAP Documentation**: [abenenumerated_types_usage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_types_usage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenenumerated_types_usage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_types_usage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -427,7 +454,18 @@ Continue
 ![Example](exa.gif "Example") [enum, General Use](javascript:call_link\('abenenum_usage_abexa.htm'\))
 
 
+
+**📖 Source**: [abenenumerated_types_usage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_types_usage.htm)
+
 ### abenenum_declaration_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenum_declaration_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_declaration_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenenum_declaration_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_declaration_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -551,7 +589,18 @@ This example shows enumerated objects defined with reference to an [ABAP enumera
 Note that only enumerated constants or variables with the same enumerated type are assigned to enumerated variables.
 
 
+
+**📖 Source**: [abenenum_declaration_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_declaration_abexa.htm)
+
 ### abenenum_formal_para_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenum_formal_para_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_formal_para_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenenum_formal_para_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_formal_para_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -610,7 +659,18 @@ Description  
 The method meth has a parameter psimple of generic type simple and a parameter penum of CDS enumerated type DEMO\_CDS\_ENUM\_WEEKDAY. To both, enumerated objects of that enumerated type can be passed. psimple cannot be used in a comparison, where the other operand is an enumerated object. But it is possible to use psimple at a write position and to assign it to a field symbol that is typed with the enumerated type and use that in the comparison. Note that the assignment to the field symbol works since the operand position after ASSIGN is not handled as a read position.
 
 
+
+**📖 Source**: [abenenum_formal_para_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_formal_para_abexa.htm)
+
 ### abenenum_description_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenum_description_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_description_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenenum_description_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_description_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -668,7 +728,18 @@ The statement [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\))
 See also [CDS Enumerated Type, Type Description](javascript:call_link\('abencds_enum_description_abexa.htm'\))
 
 
+
+**📖 Source**: [abenenum_description_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_description_abexa.htm)
+
 ### abenenum_deserialization_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenum_deserialization_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_deserialization_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenenum_deserialization_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_deserialization_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -740,7 +811,21 @@ A byte string is composed in such a way that it represents an XML file in asXML 
 The dynamic assignment of the name to a field symbol shown in the following also produces the required result, but requires that the enumeration type size is known in the current context. The XML file, on the other hand, can be deserialized into an enumeration object without static knowledge of the enumeration type.
 
 
+
+**📖 Source**: [abenenum_deserialization_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_deserialization_abexa.htm)
+
 ### abenenum_usage_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenenum_usage_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_usage_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenenum_usage_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_usage_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenenum_usage_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_usage_abexa.htm)
+
 
   
 

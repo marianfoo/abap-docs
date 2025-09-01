@@ -10,13 +10,9 @@ Source Field Type i, int8, (b, s)
 
 Types [b](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) and [s](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) are internal and cannot be specified directly in ABAP statements. Self-defined data types and data objects in ABAP programs are of the data type b and s if they are defined with reference to data elements to ABAP Dictionary which are of the [external data types](javascript:call_link\('abenexternal_data_type_glosry.htm'\) "Glossary Entry") INT1 or INT2.
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_IBS_1)
+-   [Numeric Target Fields](#abenconversion-type-ibs-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_IBS_2)
 
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_IBS_2)
-
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_IBS_3)
-
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_IBS_4)
+-   [Byte-Like Target Fields](#abenconversion-type-ibs-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_IBS_4)
 
 Numeric Target Fields
 

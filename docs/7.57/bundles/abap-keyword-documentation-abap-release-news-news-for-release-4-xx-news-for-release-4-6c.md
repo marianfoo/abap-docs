@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-46c.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c.htm)
+- [abennews-46c-objects.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c-objects.htm)
+- [abennews-46c-runtime.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c-runtime.htm)
+- [abennews-46c-se30.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c-se30.htm)
+- [abennews-46c-sonstiges.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c-sonstiges.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.284Z
+
+---
+
 ### abennews-46c.htm
+
+> **📖 Official SAP Documentation**: [abennews-46c.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39,7 +61,14 @@ Continue
 [Further Changes in Release 4.6C](javascript:call_link\('abennews-46c-sonstiges.htm'\))
 
 
+
+**📖 Source**: [abennews-46c.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c.htm)
+
 ### abennews-46c-objects.htm
+
+> **📖 Official SAP Documentation**: [abennews-46c-objects.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c-objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -85,7 +114,14 @@ Specifying the %\_FRIEND Addition
 Specifying the addition %\_FRIEND of the statement DATA ... TYPE REF TO class makes it possible to access all methods and data elements of the system class class.
 
 
+
+**📖 Source**: [abennews-46c-objects.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c-objects.htm)
+
 ### abennews-46c-runtime.htm
+
+> **📖 Official SAP Documentation**: [abennews-46c-runtime.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c-runtime.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -144,7 +180,14 @@ If data objects from the [Automation Controller](javascript:call_link\('abenole2
 If a program calls a second program at runtime, the system switches to this second program much more quickly than before. It also switches more quickly to a method called by another method. This performance gain is important, if both translation units are in the [PXA](javascript:call_link\('abenpxa_glosry.htm'\) "Glossary Entry") (Program Executable Area), less so when the program is being read from the database.
 
 
+
+**📖 Source**: [abennews-46c-runtime.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c-runtime.htm)
+
 ### abennews-46c-se30.htm
+
+> **📖 Official SAP Documentation**: [abennews-46c-se30.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c-se30.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -188,7 +231,17 @@ Sets of Statistics
 Sets of statistics are no longer produced when performance data is aggregated.
 
 
+
+**📖 Source**: [abennews-46c-se30.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c-se30.htm)
+
 ### abennews-46c-sonstiges.htm
+
+> **📖 Official SAP Documentation**: [abennews-46c-sonstiges.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c-sonstiges.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-46c-sonstiges.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c-sonstiges.htm)
+
 
   
 

@@ -8,9 +8,7 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Obsolete System Fields
 
--   [Former System Fields](#@@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_1)
-
--   [Spool Parameters](#@@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2)
+-   [Former System Fields](#abensystem-fields-obsolete-1--------spool-parameters---@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2)
 
 Former System Fields
 

@@ -11,8 +11,7 @@ AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
 itab - Changing Internal Tables in a Loop
 
--   [Inserting and Deleting Lines](#@@ITOC@@ABENITAB_LOOP_CHANGE_1)
--   [Replacing or Clearing the Entire Table Body](#@@ITOC@@ABENITAB_LOOP_CHANGE_2)
+-   [Inserting and Deleting Lines](#abenitab-loop-change-1-------replacing-or-clearing-the-entire-table-body---@ITOC@@ABENITAB_LOOP_CHANGE_2)
 
 Inserting and Deleting Lines   
 

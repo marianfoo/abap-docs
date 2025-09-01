@@ -3,7 +3,32 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abaptypes_lob_handle.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_lob_handle.htm)
+- [abaptypes_lob_handle_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_lob_handle_type.htm)
+- [abaptypes_lob_handle_columns.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_lob_handle_columns.htm)
+- [abentypes_lob_handle_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_lob_handle_abexa.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.954Z
+
+---
+
 ### abaptypes_lob_handle.htm
+
+> **📖 Official SAP Documentation**: [abaptypes_lob_handle.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_lob_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abaptypes_lob_handle.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_lob_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -81,7 +106,18 @@ Continue
 ![Example](exa.gif "Example") [Deriving LOB Handle Structures](javascript:call_link\('abentypes_lob_handle_abexa.htm'\))
 
 
+
+**📖 Source**: [abaptypes_lob_handle.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_lob_handle.htm)
+
 ### abaptypes_lob_handle_type.htm
+
+> **📖 Official SAP Documentation**: [abaptypes_lob_handle_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_lob_handle_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abaptypes_lob_handle_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_lob_handle_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -135,7 +171,18 @@ Executable Example
 [Deriving LOB Handle Structures](javascript:call_link\('abentypes_lob_handle_abexa.htm'\))
 
 
+
+**📖 Source**: [abaptypes_lob_handle_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_lob_handle_type.htm)
+
 ### abaptypes_lob_handle_columns.htm
+
+> **📖 Official SAP Documentation**: [abaptypes_lob_handle_columns.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_lob_handle_columns.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abaptypes_lob_handle_columns.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_lob_handle_columns.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -201,7 +248,21 @@ Executable Example
 [Deriving LOB Handle Structures](javascript:call_link\('abentypes_lob_handle_abexa.htm'\))
 
 
+
+**📖 Source**: [abaptypes_lob_handle_columns.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_lob_handle_columns.htm)
+
 ### abentypes_lob_handle_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentypes_lob_handle_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_lob_handle_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentypes_lob_handle_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_lob_handle_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abentypes_lob_handle_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_lob_handle_abexa.htm)
+
 
   
 

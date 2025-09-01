@@ -10,13 +10,9 @@ Source Field Type n
 
 The conversion rules are designed in such a way that when data objects of type [n](javascript:call_link\('abenbuiltin_types_character.htm'\)) are assigned to character-like data objects they behave as character-like data objects. Valid data for data objects of type n is in the form of digit-only strings. When assigning valid data to number data objects, the numeric value of the string of digits is assigned to the target object. The conversion rules, however, also allow assignment of numeric text fields that contain invalid data. The latter is not recommended.
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_N_1)
+-   [Numeric Target Fields](#abenconversion-type-n-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_N_2)
 
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_N_2)
-
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_N_3)
-
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_N_4)
+-   [Byte-Like Target Fields](#abenconversion-type-n-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_N_4)
 
 Numeric Target Fields
 

@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abensystem-exceptions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem-exceptions.htm)
+- [abenueb-abfb-sysexc.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenueb-abfb-sysexc.htm)
+- [abensysexc-errkl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensysexc-errkl.htm)
+- [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcatch_sys.htm)
+- [abapendcatch.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapendcatch.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.955Z
+
+---
+
 ### abensystem-exceptions.htm
+
+> **📖 Official SAP Documentation**: [abensystem-exceptions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem-exceptions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35,7 +57,14 @@ Continue
 [CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\))
 
 
+
+**📖 Source**: [abensystem-exceptions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem-exceptions.htm)
+
 ### abenueb-abfb-sysexc.htm
+
+> **📖 Official SAP Documentation**: [abenueb-abfb-sysexc.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenueb-abfb-sysexc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -802,7 +831,14 @@ Invalid key when accessing text environment table.
 Exception class: CX\_SY\_LOCALIZATION\_ERROR
 
 
+
+**📖 Source**: [abenueb-abfb-sysexc.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenueb-abfb-sysexc.htm)
+
 ### abensysexc-errkl.htm
+
+> **📖 Official SAP Documentation**: [abensysexc-errkl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensysexc-errkl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1495,7 +1531,14 @@ REPLACE\_INFINITE\_LOOP
 CX\_SY\_REPLACE\_INFINITE\_LOOP
 
 
+
+**📖 Source**: [abensysexc-errkl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensysexc-errkl.htm)
+
 ### abapcatch_sys.htm
+
+> **📖 Official SAP Documentation**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcatch_sys.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1560,7 +1603,14 @@ Continue
 [ENDCATCH](javascript:call_link\('abapendcatch.htm'\))
 
 
+
+**📖 Source**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcatch_sys.htm)
+
 ### abapendcatch.htm
+
+> **📖 Official SAP Documentation**: [abapendcatch.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapendcatch.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1583,7 +1633,17 @@ Effect
 The statement ENDCATCH closes a control structure introduced by [CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\)).
 
 
+
+**📖 Source**: [abapendcatch.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapendcatch.htm)
+
 ### abapcatch_sys.htm
+
+> **📖 Official SAP Documentation**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcatch_sys.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcatch_sys.htm)
+
 
   
 

@@ -12,14 +12,10 @@ sql\_exp - sql\_cast, Conversion Rules
 
 The following sections describe the conversion rules for [cast expressions](javascript:call_link\('abensql_cast.htm'\)) in ABAP SQL.
 
--   [Numeric Source Type](#@@ITOC@@ABENSQL_CAST_RULES_1)
-    -   [Source Type INT1, INT2, INT4, INT8, DEC](#@@ITOC@@ABENSQL_CAST_RULES_2)
-    -   [Source Type DF16\_DEC, DF34\_DEC](#@@ITOC@@ABENSQL_CAST_RULES_3)
--   [Character-Like Source Type](#@@ITOC@@ABENSQL_CAST_RULES_4)
-    -   [Source Types CHAR, SSTRING](#@@ITOC@@ABENSQL_CAST_RULES_5)
-    -   [Source Type NUMC](#@@ITOC@@ABENSQL_CAST_RULES_6)
-    -   [Source Types DATN, TIMN](#@@ITOC@@ABENSQL_CAST_RULES_7)
-    -   [Source Types DATS, TIMS, CLNT](#@@ITOC@@ABENSQL_CAST_RULES_8)
+-   [Numeric Source Type](#abensql-cast-rules-1-----------source-type-int1--int2--int4--int8--dec---@ITOC@@ABENSQL_CAST_RULES_2)
+    -   [Source Type DF16\_DEC, DF34\_DEC](#abensql-cast-rules-3-------character-like-source-type---@ITOC@@ABENSQL_CAST_RULES_4)
+    -   [Source Types CHAR, SSTRING](#abensql-cast-rules-5-----------source-type-numc---@ITOC@@ABENSQL_CAST_RULES_6)
+    -   [Source Types DATN, TIMN](#abensql-cast-rules-7-----------source-types-dats--tims--clnt---@ITOC@@ABENSQL_CAST_RULES_8)
     -   [Source Types LANG, UNIT, CUKY](#@@ITOC@@ABENSQL_CAST_RULES_9)
 
 Data types that cannot be converted to each other are not listed. In these cases, casts are either not possible or only casts between type-compliant operands. If the source type and the target type are technically identical, the content is transferred without being converted.

@@ -3,7 +3,27 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_tuning_objects.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_tuning_objects.htm)
+- [abencds_entity_buffers.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_buffers.htm)
+- [abencds_define_view_entity_buffer.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_entity_buffer.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.201Z
+
+---
+
 ### abencds_tuning_objects.htm
+
+> **📖 Official SAP Documentation**: [abencds_tuning_objects.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_tuning_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28,7 +48,14 @@ Continue
 [ABAP CDS - Entity Buffers](javascript:call_link\('abencds_entity_buffers.htm'\))
 
 
+
+**📖 Source**: [abencds_tuning_objects.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_tuning_objects.htm)
+
 ### abencds_entity_buffers.htm
+
+> **📖 Official SAP Documentation**: [abencds_entity_buffers.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_buffers.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55,7 +82,14 @@ Continue
 [CDS DDL - DEFINE VIEW ENTITY BUFFER](javascript:call_link\('abencds_define_view_entity_buffer.htm'\))
 
 
+
+**📖 Source**: [abencds_entity_buffers.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_buffers.htm)
+
 ### abencds_define_view_entity_buffer.htm
+
+> **📖 Official SAP Documentation**: [abencds_define_view_entity_buffer.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_entity_buffer.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -137,7 +171,17 @@ define view entity buffer on DEMO\_CDS\_SINGLE\_BUFFERED\_VIEW
 The three CDS entities DEMO\_CDS\_FULL\_BUFFERED\_VIEW, DEMO\_CDS\_GEN\_BUFFERED\_VIEW, and DEMO\_CDS\_SINGLE\_BUFFERED\_VIEW all contain the annotation @AbapCatalog.entityBuffer.definitionAllowed: true.
 
 
+
+**📖 Source**: [abencds_define_view_entity_buffer.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_entity_buffer.htm)
+
 ### abencds_entity_buffers.htm
+
+> **📖 Official SAP Documentation**: [abencds_entity_buffers.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_buffers.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_entity_buffers.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_buffers.htm)
+
 
   
 

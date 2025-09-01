@@ -11,8 +11,7 @@ DS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Operands in Character String and Byte String Processing
 
--   [Operands in Character String Processing](#@@ITOC@@ABENSTRING_PROCESSING_OPERANDS_1)
--   [Operands in Byte String Processing](#@@ITOC@@ABENSTRING_PROCESSING_OPERANDS_2)
+-   [Operands in Character String Processing](#abenstring-processing-operands-1-------operands-in-byte-string-processing---@ITOC@@ABENSTRING_PROCESSING_OPERANDS_2)
 
 Operands in Character String Processing   
 

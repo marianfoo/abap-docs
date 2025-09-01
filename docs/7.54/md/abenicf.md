@@ -12,13 +12,9 @@ Internet Communication Framework (ICF) is a programming interface (API), based o
 
 To communicate with the Internet using REST principles (Representational State Transfer), the interfaces and classes in the ABAP REST Library in the package SREST should be used, since they adapt ICF accordingly.
 
--   [ICF Overview](#@@ITOC@@ABENICF_1)
+-   [ICF Overview](#abenicf-1--------as-abap-as-an-icf-server---@ITOC@@ABENICF_2)
 
--   [AS ABAP as an ICF Server](#@@ITOC@@ABENICF_2)
-
--   [AS ABAP as an ICF Client](#@@ITOC@@ABENICF_3)
-
--   [ICF Security](#@@ITOC@@ABENICF_4)
+-   [AS ABAP as an ICF Client](#abenicf-3--------icf-security---@ITOC@@ABENICF_4)
 
 -   [More Information](#@@ITOC@@ABENICF_5)
 

@@ -16,8 +16,7 @@ SAP locks are based on lock objects. These are [defined in the ABAP Dictionary](
 
 When a lock object is created, two lock function modules are generated whose names consist of the prefixes ENQUEUE\_ and DEQUEUE\_ and the name of the lock object.
 
--   [Setting SAP Locks](#@@ITOC@@ABENSAP_LOCK_1)
--   [Releasing SAP Locks](#@@ITOC@@ABENSAP_LOCK_2)
+-   [Setting SAP Locks](#abensap-lock-1-------releasing-sap-locks---@ITOC@@ABENSAP_LOCK_2)
 
 For more details, see [SAP Lock Concept](https://help.sap.com/docs/ABAP_PLATFORM_NEW/6568469cf5a1460a8d85c58b83d21ec2/47df116e6abf296fe10000000a42189b) in the SAP Help Portal.
 

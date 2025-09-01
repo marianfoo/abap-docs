@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenmesh_for.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_for.htm)
+- [abenmesh_for_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_for_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.971Z
+
+---
+
 ### abenmesh_for.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_for.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_for.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37,7 +56,17 @@ Continue
 ![Example](exa.gif "Example") [FOR Expressions for Mesh Paths](javascript:call_link\('abenmesh_for_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmesh_for.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_for.htm)
+
 ### abenmesh_for_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_for_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_for_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenmesh_for_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_for_abexa.htm)
+
 
   
 

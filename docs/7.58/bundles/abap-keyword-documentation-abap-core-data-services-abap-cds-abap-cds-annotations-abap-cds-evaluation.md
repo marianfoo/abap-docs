@@ -3,7 +3,30 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_annotations_analysis.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotations_analysis.htm)
+- [abencds_semantics_annotation_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_semantics_annotation_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.903Z
+
+---
+
 ### abencds_annotations_analysis.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_analysis.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotations_analysis.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_annotations_analysis.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotations_analysis.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -350,7 +373,21 @@ Continue
 ![Example](exa.gif "Example") [ABAP CDS, Evaluation of Annotations](javascript:call_link\('abencds_semantics_annotation_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_annotations_analysis.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_annotations_analysis.htm)
+
 ### abencds_semantics_annotation_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_semantics_annotation_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_semantics_annotation_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_semantics_annotation_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_semantics_annotation_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_semantics_annotation_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_semantics_annotation_abexa.htm)
+
 
   
 

@@ -10,9 +10,7 @@ Parameter Interface of Procedures
 
 The parameter interface of a procedure consists of [formal parameters](javascript:call_link\('abenformal_parameter_glosry.htm'\) "Glossary Entry") and specifies the possible [exceptions](javascript:call_link\('abenexception_glosry.htm'\) "Glossary Entry") in the procedure.
 
--   [Formal Parameters](#@@ITOC@@ABENFORMAL_PARAMETERS_OVIEW_1)
-
--   [Pass by Reference or Pass by Value](#@@ITOC@@ABENFORMAL_PARAMETERS_OVIEW_2)
+-   [Formal Parameters](#abenformal-parameters-oview-1--------pass-by-reference-or-pass-by-value---@ITOC@@ABENFORMAL_PARAMETERS_OVIEW_2)
 
 -   [Exceptions](#@@ITOC@@ABENFORMAL_PARAMETERS_OVIEW_3)
 

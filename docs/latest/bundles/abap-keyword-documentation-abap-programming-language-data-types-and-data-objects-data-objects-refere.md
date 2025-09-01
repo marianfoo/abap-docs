@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abendata_references.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_references.htm)
+- [abendata_reference_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_reference_type.htm)
+- [abenobject_reference_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_reference_type.htm)
+- [abenheap_stack_reference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenheap_stack_reference.htm)
+- [abencl_abap_weak_reference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_weak_reference.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.909Z
+
+---
+
 ### abendata_references.htm
+
+> **📖 Official SAP Documentation**: [abendata_references.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_references.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46,7 +68,14 @@ Continue
 [Weak References](javascript:call_link\('abencl_abap_weak_reference.htm'\))
 
 
+
+**📖 Source**: [abendata_references.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_references.htm)
+
 ### abendata_reference_type.htm
+
+> **📖 Official SAP Documentation**: [abendata_reference_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_reference_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -82,7 +111,14 @@ SELECT SINGLE \*
 cl\_demo\_output=>display\_data( dref->carrid ).
 
 
+
+**📖 Source**: [abendata_reference_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_reference_type.htm)
+
 ### abenobject_reference_type.htm
+
+> **📖 Official SAP Documentation**: [abenobject_reference_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_reference_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -117,7 +153,14 @@ FINAL(out) = cl\_demo\_output=>new( ).
 out->display( \`Hello\` ).
 
 
+
+**📖 Source**: [abenobject_reference_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_reference_type.htm)
+
 ### abenheap_stack_reference.htm
+
+> **📖 Official SAP Documentation**: [abenheap_stack_reference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenheap_stack_reference.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -167,7 +210,17 @@ FINAL(heap\_ref)  = NEW i( 111 ).
 FINAL(stack\_ref) = REF #( heap\_ref ).
 
 
+
+**📖 Source**: [abenheap_stack_reference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenheap_stack_reference.htm)
+
 ### abencl_abap_weak_reference.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_weak_reference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_weak_reference.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencl_abap_weak_reference.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_weak_reference.htm)
+
 
   
 

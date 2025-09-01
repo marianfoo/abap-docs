@@ -1,5 +1,10 @@
 # ABAP Statements Quick Reference
 
+**📖 Source Documentation**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+**🔍 Search All Topics**: Use `abap_search` with any keyword below
+**📚 Get Complete Bundles**: Use `abap_get` with specific bundle IDs
+
+
 **Version**: latest
 **Generated**: 2025-09-01T11:14:57.143Z
 

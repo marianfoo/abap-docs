@@ -3,7 +3,32 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenprogram_properties_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_properties_obsolete.htm)
+- [abennon_unicode_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennon_unicode_obsolete.htm)
+- [abennon_fixed_point_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennon_fixed_point_obsolete.htm)
+- [abenabap_versions_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_versions_obsolete.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.969Z
+
+---
+
 ### abenprogram_properties_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenprogram_properties_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_properties_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenprogram_properties_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_properties_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +56,18 @@ Continue
 [Obsolete ABAP Language Versions](javascript:call_link\('abenabap_versions_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenprogram_properties_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_properties_obsolete.htm)
+
 ### abennon_unicode_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abennon_unicode_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennon_unicode_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennon_unicode_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennon_unicode_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58,7 +94,18 @@ Programming Guideline
 [Program Properties](javascript:call_link\('abenprogram_property_guidl.htm'\) "Guideline")
 
 
+
+**📖 Source**: [abennon_unicode_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennon_unicode_obsolete.htm)
+
 ### abennon_fixed_point_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abennon_fixed_point_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennon_fixed_point_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennon_fixed_point_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennon_fixed_point_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -82,7 +129,21 @@ Programming Guideline
 [Program Properties](javascript:call_link\('abenprogram_property_guidl.htm'\) "Guideline")
 
 
+
+**📖 Source**: [abennon_fixed_point_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennon_fixed_point_obsolete.htm)
+
 ### abenabap_versions_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenabap_versions_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_versions_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_versions_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_versions_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabap_versions_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_versions_obsolete.htm)
+
 
   
 

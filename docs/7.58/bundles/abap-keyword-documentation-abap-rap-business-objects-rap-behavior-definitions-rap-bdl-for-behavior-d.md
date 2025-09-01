@@ -3,7 +3,31 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_bopf.htm)
+- [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_managed_by_bopf.htm)
+- [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_with_bopf_draft.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:29.015Z
+
+---
+
 ### abenbdl_rap_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35,7 +59,18 @@ Continue
 [RAP - with BOPF draft](javascript:call_link\('abenbdl_rap_with_bopf_draft.htm'\))
 
 
+
+**📖 Source**: [abenbdl_rap_bopf.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_bopf.htm)
+
 ### abenbdl_rap_managed_by_bopf.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_managed_by_bopf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -86,7 +121,21 @@ lock master
 }
 
 
+
+**📖 Source**: [abenbdl_rap_managed_by_bopf.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_managed_by_bopf.htm)
+
 ### abenbdl_rap_with_bopf_draft.htm
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_with_bopf_draft.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenbdl_rap_with_bopf_draft.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_with_bopf_draft.htm)
+
 
   
 

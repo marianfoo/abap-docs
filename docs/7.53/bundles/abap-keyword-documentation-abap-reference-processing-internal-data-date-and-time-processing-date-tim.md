@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abendate_time_oview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_oview.htm)
+- [abentime_zone_rules.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_rules.htm)
+- [abensystem_user_time_zones.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_user_time_zones.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.212Z
+
+---
+
 ### abendate_time_oview.htm
+
+> **📖 Official SAP Documentation**: [abendate_time_oview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_oview.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34,7 +54,14 @@ Continue
 [System Time Zone and User Time Zone](javascript:call_link\('abensystem_user_time_zones.htm'\))
 
 
+
+**📖 Source**: [abendate_time_oview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_oview.htm)
+
 ### abentime_zone_rules.htm
+
+> **📖 Official SAP Documentation**: [abentime_zone_rules.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -75,7 +102,17 @@ If a time zone specifies a summer time rule with a summer time difference not eq
 -   When summer time ends, a time interval of the length of the summer time difference is created, which is passed twice as a local time (the double hour). If a date and time is formulated for this interval, the statement [CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)) handles it as a time from summer time, by default.
 
 
+
+**📖 Source**: [abentime_zone_rules.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_rules.htm)
+
 ### abensystem_user_time_zones.htm
+
+> **📖 Official SAP Documentation**: [abensystem_user_time_zones.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_user_time_zones.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abensystem_user_time_zones.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_user_time_zones.htm)
+
 
   
 

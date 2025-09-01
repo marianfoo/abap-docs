@@ -3,7 +3,31 @@
 Included pages: 9
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_anno_definition.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition.htm)
+- [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddla_syntax.htm)
+- [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm)
+- [abencds_f1_define_anno_annos.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)
+- [abencds_f1_define_annotation_type.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_type.htm)
+- [abencds_f1_define_annotation_sub.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_sub.htm)
+- [abencds_f1_define_annotation_arr.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_arr.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.193Z
+
+---
+
 ### abencds_anno_definition.htm
+
+> **📖 Official SAP Documentation**: [abencds_anno_definition.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38,7 +62,14 @@ Continue
 [ABAP CDS - DDL for Annotation Definitions](javascript:call_link\('abencds_f1_ddla_syntax.htm'\))
 
 
+
+**📖 Source**: [abencds_anno_definition.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition.htm)
+
 ### abencds_f1_ddla_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddla_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -66,7 +97,14 @@ Continue
 [CDS DDL - DEFINE ANNOTATION](javascript:call_link\('abencds_f1_define_annotation.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddla_syntax.htm)
+
 ### abencds_f1_define_annotation.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -154,7 +192,14 @@ Continue
 [CDS DDL - DEFINE ANNOTATION, arrelem](javascript:call_link\('abencds_f1_define_annotation_arr.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm)
+
 ### abencds_f1_define_anno_annos.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_anno_annos.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -462,7 +507,14 @@ Hint
 While the annotation value #ENTITY defines that an annotation can be specified in the definition of any CDS entity, this is not the case for the annotation value #VIEW. The annotation value #VIEW defines that an annotation can be specified in the definition of one of the possible kinds of CDS views (view entity, projection view, DDIC-based view) but it does not define exactly where. There is a special a set of [ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") that can be used in [DDIC-based views](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry") only. The ABAP annotations that can be specified for a kind of view are documented for the respective DEFINE statement. For an overview see [ABAP Annotation Syntax](javascript:call_link\('abencds_annotations_abap_tables.htm'\)).
 
 
+
+**📖 Source**: [abencds_f1_define_anno_annos.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)
+
 ### abencds_f1_define_annotation_type.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_annotation_type.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -607,7 +659,14 @@ The following annotation definition has incorrect syntax. The specified length 1
 annotation DemoAnno : String(1) default 'XXX';
 
 
+
+**📖 Source**: [abencds_f1_define_annotation_type.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_type.htm)
+
 ### abencds_f1_define_annotation_sub.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_annotation_sub.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_sub.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -680,7 +739,14 @@ The exact same result can be achieved as follows:
 @DemoAnnoMain.subAnno3.subsubAnno2:200
 
 
+
+**📖 Source**: [abencds_f1_define_annotation_sub.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_sub.htm)
+
 ### abencds_f1_define_annotation_arr.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_annotation_arr.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_arr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -742,7 +808,14 @@ The annotation can be used as follows in CDS source code, for example, to specif
                       {subAnno1:true, subAnno2:'Other Text'} \]
 
 
+
+**📖 Source**: [abencds_f1_define_annotation_arr.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_arr.htm)
+
 ### abencds_f1_define_annotation.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -830,7 +903,17 @@ Continue
 [CDS DDL - DEFINE ANNOTATION, arrelem](javascript:call_link\('abencds_f1_define_annotation_arr.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm)
+
 ### abencds_f1_ddla_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddla_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddla_syntax.htm)
+
 
   
 

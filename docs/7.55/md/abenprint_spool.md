@@ -10,9 +10,7 @@ Lists - Spool List Levels and Spool Requests
 
 Every output to a spool list is assigned to exactly one spool request. For every spool request, [spool parameters](javascript:call_link\('abenprint_parameters.htm'\)) have been specified that can no longer be changed. Spool lists can be stacked in spool list levels. A spool list level always has exactly one spool request assigned to it.
 
--   [Spool List Levels](#@@ITOC@@ABENPRINT_SPOOL_1)
-
--   [Open Spool Requests](#@@ITOC@@ABENPRINT_SPOOL_2)
+-   [Spool List Levels](#abenprint-spool-1--------open-spool-requests---@ITOC@@ABENPRINT_SPOOL_2)
 
 -   [Close Spool Requests](#@@ITOC@@ABENPRINT_SPOOL_3)
 

@@ -15,10 +15,8 @@ BDEFs with the [implementation type](javascript:call_link\('abencds_bdef_impl_ty
 
 The following sections show the most important C0 contract rules for BDEFs.
 
--   [Prerequisites for the C0 Release](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_1)
--   [Naming Rules](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_2)
--   [Stability Rules After Release](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_3)
--   [Example Topics](#@@ITOC@@ABENC0_PROVIDER_RULES_BDEF_4)
+-   [Prerequisites for the C0 Release](#abenc0-provider-rules-bdef-1-------naming-rules---@ITOC@@ABENC0_PROVIDER_RULES_BDEF_2)
+-   [Stability Rules After Release](#abenc0-provider-rules-bdef-3-------example-topics---@ITOC@@ABENC0_PROVIDER_RULES_BDEF_4)
 
 Prerequisites for the C0 Release   
 

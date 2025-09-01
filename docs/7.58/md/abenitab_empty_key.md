@@ -12,10 +12,8 @@ itab - Empty Table Key
 
 The [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") of a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") can be empty. An empty table key does not contain any key fields.
 
--   [Declaration](#@@ITOC@@ABENITAB_EMPTY_KEY_1)
--   [Notes on Use](#@@ITOC@@ABENITAB_EMPTY_KEY_2)
-    -   [Uncritical Use](#@@ITOC@@ABENITAB_EMPTY_KEY_3)
-    -   [Critical Use](#@@ITOC@@ABENITAB_EMPTY_KEY_4)
+-   [Declaration](#abenitab-empty-key-1-------notes-on-use---@ITOC@@ABENITAB_EMPTY_KEY_2)
+    -   [Uncritical Use](#abenitab-empty-key-3-----------critical-use---@ITOC@@ABENITAB_EMPTY_KEY_4)
 
 Hint
 

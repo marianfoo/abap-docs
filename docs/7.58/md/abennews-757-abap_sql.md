@@ -33,7 +33,7 @@ Modification 3  
 
 Table Buffering for Decimal Floating Point Calculations
 
-Calculations for built-in types [DECFLOAT16](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_2) and [DF16\_DEC](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_2) do not bypass the table buffering any more. The calculation in the table buffer is done with the respective decimal floating point arithmetic. The following differences to ABAP and to the database must be considered:
+Calculations for built-in types [DECFLOAT16](abenddic_builtin_types.htm#abenddic-builtin-types-2--and--df16--dec--abenddic-builtin-types-htm-@ITOC@@ABENDDIC_BUILTIN_TYPES_2) do not bypass the table buffering any more. The calculation in the table buffer is done with the respective decimal floating point arithmetic. The following differences to ABAP and to the database must be considered:
 
 -   In ABAP, the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") for decfloat16 is decfloat34.
 -   On the database, built-in type DF16\_DEC is handled as a packed number.

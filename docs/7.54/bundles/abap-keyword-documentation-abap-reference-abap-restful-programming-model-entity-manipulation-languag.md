@@ -3,7 +3,40 @@
 Included pages: 21
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abeneml.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml.htm)
+- [abeneml_modify_entities.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_modify_entities.htm)
+- [abeneml_modify_entity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_modify_entity.htm)
+- [abeneml_modify_entities_op.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_modify_entities_op.htm)
+- [abenread_behavior.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenread_behavior.htm)
+- [abeneml_read_entity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_read_entity.htm)
+- [abeneml_read_entities_op.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_read_entities_op.htm)
+- [abeneml_commit_entities.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_commit_entities.htm)
+- [abeneml_commit_dynamic.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_commit_dynamic.htm)
+- [abeneml_commit_block.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_commit_block.htm)
+- [abenconvert_key.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconvert_key.htm)
+- [abeneml_rollback_entities.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_rollback_entities.htm)
+- [abeneml_set_locks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_set_locks.htm)
+- [abeneml_set_locks_dyn.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_set_locks_dyn.htm)
+- [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_get_features.htm)
+- [abeneml_get_features_dyn.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_get_features_dyn.htm)
+
+**Bundle Contains**: 16 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.930Z
+
+---
+
 ### abeneml.htm
+
+> **📖 Official SAP Documentation**: [abeneml.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45,7 +78,14 @@ Continue
 [ABAP EML - GET FEATURES](javascript:call_link\('abeneml_get_features.htm'\))
 
 
+
+**📖 Source**: [abeneml.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml.htm)
+
 ### abeneml_modify_entities.htm
+
+> **📖 Official SAP Documentation**: [abeneml_modify_entities.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_modify_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -111,7 +151,14 @@ Continue
 [ABAP EML - MODIFY ENTITIES OPERATIONS](javascript:call_link\('abeneml_modify_entities_op.htm'\))
 
 
+
+**📖 Source**: [abeneml_modify_entities.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_modify_entities.htm)
+
 ### abeneml_modify_entity.htm
+
+> **📖 Official SAP Documentation**: [abeneml_modify_entity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_modify_entity.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -155,7 +202,14 @@ The following points apply for the syntax of the statement MODIFY ENTITY:
 For more information on syntax elements, see [MODIFY ENTITIES](javascript:call_link\('abeneml_modify_entities.htm'\)).
 
 
+
+**📖 Source**: [abeneml_modify_entity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_modify_entity.htm)
+
 ### abeneml_modify_entities_op.htm
+
+> **📖 Official SAP Documentation**: [abeneml_modify_entities_op.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_modify_entities_op.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -206,7 +260,14 @@ The response structures FAILED, MAPPED and REPORTED must either have the matchin
     REF TO DATA contains the same derived types during runtime as in static cases.
 
 
+
+**📖 Source**: [abeneml_modify_entities_op.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_modify_entities_op.htm)
+
 ### abeneml_modify_entities.htm
+
+> **📖 Official SAP Documentation**: [abeneml_modify_entities.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_modify_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -272,7 +333,14 @@ Continue
 [ABAP EML - MODIFY ENTITIES OPERATIONS](javascript:call_link\('abeneml_modify_entities_op.htm'\))
 
 
+
+**📖 Source**: [abeneml_modify_entities.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_modify_entities.htm)
+
 ### abenread_behavior.htm
+
+> **📖 Official SAP Documentation**: [abenread_behavior.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenread_behavior.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -348,7 +416,14 @@ Continue
 [ABAP EML - READ ENTITIES OPERATIONS](javascript:call_link\('abeneml_read_entities_op.htm'\))
 
 
+
+**📖 Source**: [abenread_behavior.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenread_behavior.htm)
+
 ### abeneml_read_entity.htm
+
+> **📖 Official SAP Documentation**: [abeneml_read_entity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_read_entity.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -393,7 +468,14 @@ The following points apply for the syntax of the statement READ ENTITY:
 For more information on syntax elements, see [READ ENTITIES](javascript:call_link\('abenread_behavior.htm'\)).
 
 
+
+**📖 Source**: [abeneml_read_entity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_read_entity.htm)
+
 ### abeneml_read_entities_op.htm
+
+> **📖 Official SAP Documentation**: [abeneml_read_entities_op.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_read_entities_op.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -450,7 +532,14 @@ The row type of the response structures FAILED and REPORTED has the type ABP\_BE
 During runtime, REF TO DATA contain the same derived types as in static cases.
 
 
+
+**📖 Source**: [abeneml_read_entities_op.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_read_entities_op.htm)
+
 ### abenread_behavior.htm
+
+> **📖 Official SAP Documentation**: [abenread_behavior.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenread_behavior.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -526,7 +615,14 @@ Continue
 [ABAP EML - READ ENTITIES OPERATIONS](javascript:call_link\('abeneml_read_entities_op.htm'\))
 
 
+
+**📖 Source**: [abenread_behavior.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenread_behavior.htm)
+
 ### abeneml_commit_entities.htm
+
+> **📖 Official SAP Documentation**: [abeneml_commit_entities.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_commit_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -578,7 +674,14 @@ Continue
 [ABAP EML - COMMIT ENTITIES BLOCK](javascript:call_link\('abeneml_commit_block.htm'\))
 
 
+
+**📖 Source**: [abeneml_commit_entities.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_commit_entities.htm)
+
 ### abeneml_commit_dynamic.htm
+
+> **📖 Official SAP Documentation**: [abeneml_commit_dynamic.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_commit_dynamic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -604,7 +707,14 @@ The statement COMMIT ENTITIES RESPONSES is a dynamic form of the COMMIT statemen
 More information about COMMIT ENTITIES can be found under [COMMIT ENTITIES](javascript:call_link\('abeneml_commit_entities.htm'\)).
 
 
+
+**📖 Source**: [abeneml_commit_dynamic.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_commit_dynamic.htm)
+
 ### abeneml_commit_block.htm
+
+> **📖 Official SAP Documentation**: [abeneml_commit_block.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_commit_block.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -630,7 +740,14 @@ Effect
 In the context of the statement [COMMIT ENTITIES](javascript:call_link\('abeneml_commit_entities.htm'\)), the runtime of the [ABAP RESTful programming model](javascript:call_link\('abenrestful_abap_programming.htm'\)) holds its key registry to respond to queries from the statement [CONVERT KEY](javascript:call_link\('abenconvert_key.htm'\)). In the statement COMMIT ENTITIES END, this information is then deleted.
 
 
+
+**📖 Source**: [abeneml_commit_block.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_commit_block.htm)
+
 ### abeneml_commit_entities.htm
+
+> **📖 Official SAP Documentation**: [abeneml_commit_entities.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_commit_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -682,7 +799,14 @@ Continue
 [ABAP EML - COMMIT ENTITIES BLOCK](javascript:call_link\('abeneml_commit_block.htm'\))
 
 
+
+**📖 Source**: [abeneml_commit_entities.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_commit_entities.htm)
+
 ### abenconvert_key.htm
+
+> **📖 Official SAP Documentation**: [abenconvert_key.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconvert_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -718,7 +842,14 @@ Remarks
 -   Within a [behavior implementation](javascript:call_link\('abenabap_behavior_implementations.htm'\)), the statement CONVERT KEY is permitted only in the [SAVE](javascript:call_link\('abensaver_method_save.htm'\)) method. If this rule is violated, the runtime error BEHAVIOR\_ILLEGAL\_STATEMENT occurs.
 
 
+
+**📖 Source**: [abenconvert_key.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconvert_key.htm)
+
 ### abeneml_rollback_entities.htm
+
+> **📖 Official SAP Documentation**: [abeneml_rollback_entities.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_rollback_entities.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -741,7 +872,14 @@ The statement ROLLBACK ENTITIES rolls back all changes since the last COMMIT and
 Using the statement ROLLBACK ENTITIES is prohibited in the [behavior implementation methods](javascript:call_link\('abenabap_behavior_implementations.htm'\)). If violated, a runtime error occurs.
 
 
+
+**📖 Source**: [abeneml_rollback_entities.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_rollback_entities.htm)
+
 ### abeneml_set_locks.htm
+
+> **📖 Official SAP Documentation**: [abeneml_set_locks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_set_locks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -781,7 +919,14 @@ Continue
 [ABEN EML - SET LOCKS DYN](javascript:call_link\('abeneml_set_locks_dyn.htm'\))
 
 
+
+**📖 Source**: [abeneml_set_locks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_set_locks.htm)
+
 ### abeneml_set_locks_dyn.htm
+
+> **📖 Official SAP Documentation**: [abeneml_set_locks_dyn.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_set_locks_dyn.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -794,7 +939,14 @@ AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 ABEN EML - SET LOCKS DYN
 
 
+
+**📖 Source**: [abeneml_set_locks_dyn.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_set_locks_dyn.htm)
+
 ### abeneml_set_locks.htm
+
+> **📖 Official SAP Documentation**: [abeneml_set_locks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_set_locks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -834,7 +986,14 @@ Continue
 [ABEN EML - SET LOCKS DYN](javascript:call_link\('abeneml_set_locks_dyn.htm'\))
 
 
+
+**📖 Source**: [abeneml_set_locks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_set_locks.htm)
+
 ### abeneml_get_features.htm
+
+> **📖 Official SAP Documentation**: [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_get_features.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -850,7 +1009,14 @@ Continue
 [ABAP EML - GET FEATURES DYN](javascript:call_link\('abeneml_get_features_dyn.htm'\))
 
 
+
+**📖 Source**: [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_get_features.htm)
+
 ### abeneml_get_features_dyn.htm
+
+> **📖 Official SAP Documentation**: [abeneml_get_features_dyn.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_get_features_dyn.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -863,7 +1029,17 @@ AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 ABAP EML - GET FEATURES DYN
 
 
+
+**📖 Source**: [abeneml_get_features_dyn.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_get_features_dyn.htm)
+
 ### abeneml_get_features.htm
+
+> **📖 Official SAP Documentation**: [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_get_features.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_get_features.htm)
+
 
   
 

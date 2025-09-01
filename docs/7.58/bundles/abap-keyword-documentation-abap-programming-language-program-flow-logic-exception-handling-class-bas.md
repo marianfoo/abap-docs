@@ -3,7 +3,32 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_abexas.htm)
+- [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenraise_abexa.htm)
+- [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentry_abexa.htm)
+- [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatch_exception_abexa.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.994Z
+
+---
+
 ### abenexception_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27,7 +52,18 @@ Continue
 ![Example](exa.gif "Example") [Exceptions, CATCH](javascript:call_link\('abencatch_exception_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_abexas.htm)
+
 ### abenraise_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenraise_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenraise_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -87,7 +123,18 @@ This example shows the two variants of the statement RAISE EXCEPTION. The first 
 The output of the line number in which the exception was raised indicates that, when the existing exception object was reused, its information was changed.
 
 
+
+**📖 Source**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenraise_abexa.htm)
+
 ### abentry_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentry_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentry_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -169,7 +216,21 @@ Description  
 -   Any other exceptions are handled in the final CATCH block of the TRY control structure of the compilation unit, which catches all possible exceptions by specifying the most generic exception class CX\_ROOT. If, for example, CX\_SY\_ARG\_OUT\_OF\_DOMAIN or one of its superclasses was not declared in the method interface, the exception CX\_SY\_NO\_HANDLER would be raised and would be handled in the final CATCH block.
 
 
+
+**📖 Source**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentry_abexa.htm)
+
 ### abencatch_exception_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatch_exception_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatch_exception_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatch_exception_abexa.htm)
+
 
   
 

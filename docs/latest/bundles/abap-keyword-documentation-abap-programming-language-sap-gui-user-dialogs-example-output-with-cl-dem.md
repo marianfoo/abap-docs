@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencl_demo_output.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_demo_output.htm)
+- [abencl_demo_output_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_demo_output_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.951Z
+
+---
+
 ### abencl_demo_output.htm
+
+> **📖 Official SAP Documentation**: [abencl_demo_output.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_demo_output.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50,7 +69,17 @@ Continue
 ![Example](exa.gif "Example") [Usage of CL\_DEMO\_OUTPUT](javascript:call_link\('abencl_demo_output_abexa.htm'\))
 
 
+
+**📖 Source**: [abencl_demo_output.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_demo_output.htm)
+
 ### abencl_demo_output_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencl_demo_output_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_demo_output_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencl_demo_output_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_demo_output_abexa.htm)
+
 
   
 

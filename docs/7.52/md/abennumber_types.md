@@ -12,13 +12,9 @@ ABAP supports the numeric data types [i](javascript:call_link\('abenbuiltin_type
 
 The numeric data objects are used to handle numeric values and are intended for calculations. Calculations involving fields of the types i, int8, and type f correspond more or less directly to the operating system's machine commands for the current application server. In contrast, calculations involving packed numbers of type p are programmed in the kernel of the ABAP runtime environment and are therefore somewhat slower. Until they are supported by the hardware of the application server, operations using the decimal floating point numbers decfloat16 and decfloat34 run using a library integrated into the ABAP kernel.
 
--   [Integer Numbers](#@@ITOC@@ABENNUMBER_TYPES_1)
+-   [Integer Numbers](#abennumber-types-1--------packed-numbers---@ITOC@@ABENNUMBER_TYPES_2)
 
--   [Packed Numbers](#@@ITOC@@ABENNUMBER_TYPES_2)
-
--   [Floating Point Numbers](#@@ITOC@@ABENNUMBER_TYPES_3)
-
--   [Decimal Floating Point Numbers](#@@ITOC@@ABENNUMBER_TYPES_4)
+-   [Floating Point Numbers](#abennumber-types-3--------decimal-floating-point-numbers---@ITOC@@ABENNUMBER_TYPES_4)
 
 -   [Binary Floating Point Numbers](#@@ITOC@@ABENNUMBER_TYPES_5)
 

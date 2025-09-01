@@ -8,9 +8,7 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 iXML Library
 
--   [API of the iXML Library](#@@ITOC@@ABENABAP_IXML_LIB_1)
-
--   [Access to iXML Library.](#@@ITOC@@ABENABAP_IXML_LIB_2)
+-   [API of the iXML Library](#abenabap-ixml-lib-1--------access-to-ixml-library----@ITOC@@ABENABAP_IXML_LIB_2)
 
 -   [Services in the iXML Library](#@@ITOC@@ABENABAP_IXML_LIB_3)
 

@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abentexteditor.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentexteditor.htm)
+- [abapeditor-call_for_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeditor-call_for_itab.htm)
+- [abapeditor-call_for_report.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeditor-call_for_report.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.925Z
+
+---
+
 ### abentexteditor.htm
+
+> **📖 Official SAP Documentation**: [abentexteditor.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentexteditor.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27,7 +47,14 @@ Continue
 [EDITOR-CALL FOR REPORT](javascript:call_link\('abapeditor-call_for_report.htm'\))
 
 
+
+**📖 Source**: [abentexteditor.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentexteditor.htm)
+
 ### abapeditor-call_for_itab.htm
+
+> **📖 Official SAP Documentation**: [abapeditor-call_for_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeditor-call_for_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -126,7 +153,17 @@ IF sy-subrc = 0 AND
 ENDIF.
 
 
+
+**📖 Source**: [abapeditor-call_for_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeditor-call_for_itab.htm)
+
 ### abapeditor-call_for_report.htm
+
+> **📖 Official SAP Documentation**: [abapeditor-call_for_report.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeditor-call_for_report.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapeditor-call_for_report.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeditor-call_for_report.htm)
+
 
   
 

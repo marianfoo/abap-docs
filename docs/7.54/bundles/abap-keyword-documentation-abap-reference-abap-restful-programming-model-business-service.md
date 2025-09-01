@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenrpm_business_service.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_business_service.htm)
+- [abenrpm_service_definition.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_service_definition.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.929Z
+
+---
+
 ### abenrpm_business_service.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_business_service.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_business_service.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +48,17 @@ Continue
 [Business Service Definition](javascript:call_link\('abenrpm_service_definition.htm'\))
 
 
+
+**📖 Source**: [abenrpm_business_service.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_business_service.htm)
+
 ### abenrpm_service_definition.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_service_definition.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_service_definition.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenrpm_service_definition.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_service_definition.htm)
+
 
   
 

@@ -3,7 +3,36 @@
 Included pages: 14
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_database_tables_sema.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_sema.htm)
+- [abenddic_database_tables_semastruc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_semastruc.htm)
+- [abenddic_database_tables_semasspec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_semasspec.htm)
+- [abenddic_database_tables_key.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_key.htm)
+- [abenddic_database_tables_client.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_client.htm)
+- [abenddic_database_tables_init.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_init.htm)
+- [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkeyrel.htm)
+- [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_checktab.htm)
+- [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkey.htm)
+- [abenddic_database_tables_delivery.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_delivery.htm)
+- [abenddic_database_tables_index.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_index.htm)
+- [abenddic_database_tables_maint.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_maint.htm)
+
+**Bundle Contains**: 12 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.371Z
+
+---
+
 ### abenddic_database_tables_sema.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_sema.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_sema.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26,7 +55,14 @@ Continue
 [Table-Specific Semantic Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_sema.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_sema.htm)
+
 ### abenddic_database_tables_semastruc.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_semastruc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_semastruc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59,7 +95,14 @@ Notes
 -   Like regular structure components, [search helps](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry") can be assigned to table fields or the whole table. If the [separation of concerns](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline") dictates that table fields are not to be used directly for input fields on dynpros or Web Dynpros, it is not recommended that search helps are assigned.
 
 
+
+**📖 Source**: [abenddic_database_tables_semastruc.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_semastruc.htm)
+
 ### abenddic_database_tables_semasspec.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_semasspec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_semasspec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -97,7 +140,14 @@ Continue
 [Displaying and Editing Database Tables](javascript:call_link\('abenddic_database_tables_maint.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_semasspec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_semasspec.htm)
+
 ### abenddic_database_tables_key.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_key.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -126,7 +176,14 @@ Notes
 -   In the case of key fields, the [flag for initial values](javascript:call_link\('abenddic_database_tables_init.htm'\)) is always set automatically.
 
 
+
+**📖 Source**: [abenddic_database_tables_key.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_key.htm)
+
 ### abenddic_database_tables_client.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_client.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_client.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -145,7 +202,14 @@ Note
 Generally, tables in the [delivery class](javascript:call_link\('abenddic_database_tables_delivery.htm'\)) A are client-specific, whereas system tables in the delivery classes E, S, and W are cross-client.
 
 
+
+**📖 Source**: [abenddic_database_tables_client.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_client.htm)
+
 ### abenddic_database_tables_init.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_init.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_init.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -180,7 +244,14 @@ Notes
 -   In tables with many rows, it can take a long time to set the type-dependent initial value and the initial value flag should only be used if absolutely necessary or if the table has a small number of entries.
 
 
+
+**📖 Source**: [abenddic_database_tables_init.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_init.htm)
+
 ### abenddic_database_tables_forkeyrel.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkeyrel.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -207,7 +278,14 @@ Continue
 [Foreign Key](javascript:call_link\('abenddic_database_tables_forkey.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkeyrel.htm)
+
 ### abenddic_database_tables_checktab.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_checktab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -232,7 +310,14 @@ Notes
 -   A client field cannot be inserted later in an existing check table.
 
 
+
+**📖 Source**: [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_checktab.htm)
+
 ### abenddic_database_tables_forkey.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkey.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -307,7 +392,14 @@ The type of the foreign key fields can be defined to describe the meaning of the
     If this type of foreign key field is defined, the foreign key table is handled as a text table of the check table. The primary key of the foreign key table must match the check table, plus a language key field with the type LANG. There can be only one text table for each check table (otherwise an activation warning occurs). The texts in a text table are used, for example, to explain input helps on dynpros and Web Dynpros.
 
 
+
+**📖 Source**: [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkey.htm)
+
 ### abenddic_database_tables_forkeyrel.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkeyrel.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -334,7 +426,14 @@ Continue
 [Foreign Key](javascript:call_link\('abenddic_database_tables_forkey.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkeyrel.htm)
+
 ### abenddic_database_tables_delivery.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_delivery.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_delivery.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -447,7 +546,14 @@ Note
 We do not recommend transporting table content for which a [replacement object](javascript:call_link\('abenddic_replacement_objects.htm'\)) is defined. This content is no longer transported automatically in the upcoming release.
 
 
+
+**📖 Source**: [abenddic_database_tables_delivery.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_delivery.htm)
+
 ### abenddic_database_tables_index.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_index.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_index.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -575,7 +681,14 @@ Note
 For more information about the full text index, see the [SAP HANA Developer Guide](https://help.sap.com/viewer/4505d0bdaf4948449b7f7379d24d0f0d/2.0.00/en-us).
 
 
+
+**📖 Source**: [abenddic_database_tables_index.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_index.htm)
+
 ### abenddic_database_tables_maint.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_maint.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_maint.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -618,7 +731,17 @@ Note
 Users must always have the correct authorizations before they can use the tools in question.
 
 
+
+**📖 Source**: [abenddic_database_tables_maint.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_maint.htm)
+
 ### abenddic_database_tables_semasspec.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_semasspec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_semasspec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_database_tables_semasspec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_semasspec.htm)
+
 
   
 

@@ -3,7 +3,36 @@
 Included pages: 13
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-755.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755.htm)
+- [abennews-755-ddic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-ddic.htm)
+- [abennews-755-abap_cds.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-abap_cds.htm)
+- [abennews-755-abap_sessions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-abap_sessions.htm)
+- [abennews-755-types.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-types.htm)
+- [abennews-755-expressions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-expressions.htm)
+- [abennews-755-strings.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-strings.htm)
+- [abennews-755-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-abap_sql.htm)
+- [abennews-755-cds_access_control.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-cds_access_control.htm)
+- [abennews-755-exceptions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-exceptions.htm)
+- [abennews-755-restful.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-restful.htm)
+- [abennews-755-cds_bdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-cds_bdl.htm)
+
+**Bundle Contains**: 12 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.515Z
+
+---
+
 ### abennews-755.htm
+
+> **📖 Official SAP Documentation**: [abennews-755.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41,7 +70,14 @@ Continue
 [ABAP RESTful Application Programming Model in Release 7.55](javascript:call_link\('abennews-755-restful.htm'\))
 
 
+
+**📖 Source**: [abennews-755.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755.htm)
+
 ### abennews-755-ddic.htm
+
+> **📖 Official SAP Documentation**: [abennews-755-ddic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-ddic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -75,7 +111,14 @@ Load Unit
 In ABAP Dictionary, a new technical setting for database tables is available: the [load unit](javascript:call_link\('abenddic_database_tables_load_unit.htm'\)). It specifies how the data of the table is loaded into the main memory of the SAP HANA database. It can be used to reduce the memory consumption in the HANA database server.
 
 
+
+**📖 Source**: [abennews-755-ddic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-ddic.htm)
+
 ### abennews-755-abap_cds.htm
+
+> **📖 Official SAP Documentation**: [abennews-755-abap_cds.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-abap_cds.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -136,7 +179,14 @@ The following documented ABAP program is now available for evaluating whether a 
 RUTDDLS\_MIGRATION\_CANDIDATES.
 
 
+
+**📖 Source**: [abennews-755-abap_cds.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-abap_cds.htm)
+
 ### abennews-755-abap_sessions.htm
+
+> **📖 Official SAP Documentation**: [abennews-755-abap_sessions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-abap_sessions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -155,7 +205,14 @@ Number of ABAP sessions
 The default value of profile parameter rdisp/max\_alt\_modes, that determines the possible number of [ABAP sessions](javascript:call_link\('abenabap_session_glosry.htm'\) "Glossary Entry") per [user session](javascript:call_link\('abenuser_session_glosry.htm'\) "Glossary Entry"), was enhanced from 6 to 16 and is now the same as the maximum number of ABAP sessions per user session.
 
 
+
+**📖 Source**: [abennews-755-abap_sessions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-abap_sessions.htm)
+
 ### abennews-755-types.htm
+
+> **📖 Official SAP Documentation**: [abennews-755-types.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -174,7 +231,14 @@ Indicator structures
 The new addition [INDICATORS](javascript:call_link\('abaptypes_indicators.htm'\)) to the statement [TYPES](javascript:call_link\('abaptypes.htm'\)) allows to define an [indicator structure](javascript:call_link\('abenindicator_structure_glosry.htm'\) "Glossary Entry") as a [substructure](javascript:call_link\('abensubstructure_glosry.htm'\) "Glossary Entry") of a given [structured type](javascript:call_link\('abenstructured_type_glosry.htm'\) "Glossary Entry"). An indicator structure can be used as a [ABAP SQL indicator](javascript:call_link\('abenabap_sql_indicator_glosry.htm'\) "Glossary Entry") in ABAP SQL read and write statements.
 
 
+
+**📖 Source**: [abennews-755-types.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-types.htm)
+
 ### abennews-755-expressions.htm
+
+> **📖 Official SAP Documentation**: [abennews-755-expressions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-expressions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -193,7 +257,14 @@ Calculation assignments in constructor operator REDUCE
 In the assignments behind the addition NEXT of the constructor operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) the [calculation assignment operators](javascript:call_link\('abencalc_assignment_op_glosry.htm'\) "Glossary Entry") +=, +=, \*=, /= or &&=, can be used now and the respective rules apply.
 
 
+
+**📖 Source**: [abennews-755-expressions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-expressions.htm)
+
 ### abennews-755-strings.htm
+
+> **📖 Official SAP Documentation**: [abennews-755-strings.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-strings.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -253,7 +324,14 @@ The
 can now also be applied to [decimal floating point numbers](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abennews-755-strings.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-strings.htm)
+
 ### abennews-755-abap_sql.htm
+
+> **📖 Official SAP Documentation**: [abennews-755-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-abap_sql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -440,7 +518,14 @@ Strict Mode of the Syntax Check
 If one the new features listed above is used in an ABAP SQL statement, the syntax check is performed in a [strict mode](javascript:call_link\('abenabap_sql_strictmode_755.htm'\)), which handles the statement more strictly than the regular syntax check.
 
 
+
+**📖 Source**: [abennews-755-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-abap_sql.htm)
+
 ### abennews-755-cds_access_control.htm
+
+> **📖 Official SAP Documentation**: [abennews-755-cds_access_control.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-cds_access_control.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -492,7 +577,14 @@ Aspect Bypass Conditions
 IS *\[*NOT*\]* INITIAL and IS INITIAL OR NULL are now possible as [aspect bypass conditions](javascript:call_link\('abencds_f1_define_generic_aspect.htm'\)).
 
 
+
+**📖 Source**: [abennews-755-cds_access_control.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-cds_access_control.htm)
+
 ### abennews-755-exceptions.htm
+
+> **📖 Official SAP Documentation**: [abennews-755-exceptions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-exceptions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -513,7 +605,14 @@ Exceptions of category CX\_NO\_CHECK are always declared implicitly in interface
 Now it is also possible to declare exceptions of category CX\_NO\_CHECK with RAISING in procedure interfaces, for example for [methods](javascript:call_link\('abapmethods_general.htm'\)). This allows it to document the possible occurrence of such exceptions and to change the category of existing exceptions into CX\_NO\_CHECK without leading to syntax errors in procedure interfaces.
 
 
+
+**📖 Source**: [abennews-755-exceptions.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-exceptions.htm)
+
 ### abennews-755-restful.htm
+
+> **📖 Official SAP Documentation**: [abennews-755-restful.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-restful.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -533,7 +632,14 @@ Continue
 [CDS BDL in Release 7.55](javascript:call_link\('abennews-755-cds_bdl.htm'\))
 
 
+
+**📖 Source**: [abennews-755-restful.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-restful.htm)
+
 ### abennews-755-cds_bdl.htm
+
+> **📖 Official SAP Documentation**: [abennews-755-cds_bdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-cds_bdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -629,7 +735,17 @@ CDS BDL now supports the following new [field characteristics](javascript:call_l
 -   [readonly:update](javascript:call_link\('abenbdl_field_char.htm'\))
 
 
+
+**📖 Source**: [abennews-755-cds_bdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-cds_bdl.htm)
+
 ### abennews-755-restful.htm
+
+> **📖 Official SAP Documentation**: [abennews-755-restful.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-restful.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-755-restful.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-755-restful.htm)
+
 
   
 

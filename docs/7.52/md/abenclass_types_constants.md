@@ -8,13 +8,9 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Data Types and Constants of Classes
 
--   [Data Types](#@@ITOC@@ABENCLASS_TYPES_CONSTANTS_1)
+-   [Data Types](#abenclass-types-constants-1--------standalone-types---@ITOC@@ABENCLASS_TYPES_CONSTANTS_2)
 
--   [Standalone Types](#@@ITOC@@ABENCLASS_TYPES_CONSTANTS_2)
-
--   [Bound Data Types](#@@ITOC@@ABENCLASS_TYPES_CONSTANTS_3)
-
--   [Constants](#@@ITOC@@ABENCLASS_TYPES_CONSTANTS_4)
+-   [Bound Data Types](#abenclass-types-constants-3--------constants---@ITOC@@ABENCLASS_TYPES_CONSTANTS_4)
 
 Data Types
 

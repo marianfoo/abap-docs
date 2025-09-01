@@ -8,8 +8,7 @@ AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
 LDB - Linkage with Executable Programs
 
--   [How Linking Works](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_1)
--   [Selection Screen](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_2)
+-   [How Linking Works](#abenldb-usage-executable-1-------selection-screen---@ITOC@@ABENLDB_USAGE_EXECUTABLE_2)
 -   [Runtime Behavior](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_3)
 
 How Linking Works

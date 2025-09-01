@@ -13,11 +13,7 @@ DDIC - Special Character-Like Types
 
 The following character-like data types in ABAP Dictionary have a special semantic meaning:
 
--   [NUMC](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_7) for [numeric texts](javascript:call_link\('abennumeric_text_glosry.htm'\) "Glossary Entry")
-    
-    From a technical perspective, the built-in data type NUMC describes objects of the type CHAR with a maximum length of 255 characters. It is intended for numeric texts. This is not checked however when writing to or reading from database fields of this type. Automatic checks are only made for dynpro fields typed with reference to NUMC. In ABAP, NUMC is assigned to the special type [n](javascript:call_link\('abenbuiltin_types_character.htm'\)) and the associated rules apply.
-    
--   [CLNT](abenddic_builtin_types.htm#@@ITOC@@ABENDDIC_BUILTIN_TYPES_7) for [client columns](javascript:call_link\('abenclient_column_glosry.htm'\) "Glossary Entry")
+-   [NUMC](abenddic_builtin_types.htm#abenddic-builtin-types-7--for--numeric-texts--javascript-call-link---abennumeric-text-glosry-htm-----glossary-entry------------from-a-technical-perspective--the-built-in-data-type-numc-describes-objects-of-the-type-char-with-a-maximum-length-of-255-characters--it-is-intended-for-numeric-texts--this-is-not-checked-however-when-writing-to-or-reading-from-database-fields-of-this-type--automatic-checks-are-only-made-for-dynpro-fields-typed-with-reference-to-numc--in-abap--numc-is-assigned-to-the-special-type--n--javascript-call-link---abenbuiltin-types-character-htm-----and-the-associated-rules-apply------------clnt--abenddic-builtin-types-htm-@ITOC@@ABENDDIC_BUILTIN_TYPES_7) for [client columns](javascript:call_link\('abenclient_column_glosry.htm'\) "Glossary Entry")
     
     From a technical perspective, the data type CLNT describes objects of the type CHAR with length 3. If the data type CLNT is used for the first key field of a DDIC database table, this makes the DDIC database table [client-dependent](javascript:call_link\('abenddic_database_tables_client.htm'\)).
     

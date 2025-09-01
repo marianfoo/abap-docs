@@ -8,9 +8,7 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Physical and Logical File Names
 
--   [Physical File Names](#@@ITOC@@ABENFILE_INTERFACE_NAMING_1)
-
--   [Logical File Names and Logical Paths](#@@ITOC@@ABENFILE_INTERFACE_NAMING_2)
+-   [Physical File Names](#abenfile-interface-naming-1--------logical-file-names-and-logical-paths---@ITOC@@ABENFILE_INTERFACE_NAMING_2)
 
 Physical File Names
 

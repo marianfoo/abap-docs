@@ -3,7 +3,34 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm)
+- [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+- [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+- [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+- [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
+- [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:29.014Z
+
+---
+
 ### abaprap_system_classes.htm
+
+> **📖 Official SAP Documentation**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28,7 +55,18 @@ Continue
 [CL\_ABAP\_BEHVDESCR](javascript:call_link\('abapcl_abap_behvdescr.htm'\))
 
 
+
+**📖 Source**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm)
+
 ### abaprap_cl_abap_behv_aux.htm
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -93,7 +131,18 @@ Continue
 ![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
 
 
+
+**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+
 ### abenrap_cl_abap_behv_aux_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -332,7 +381,18 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
     More instances are created on the root entity, however, with an ABAP EML MODIFY request via the RAP BO projection. Hence, the from\_projection parameter is filled after calling the get\_current\_context method.
 
 
+
+**📖 Source**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+
 ### abenrap_cl_abap_behv_aux_ph_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -535,7 +595,18 @@ The example contains four RAP create operations using an ABAP EML MODIFY stateme
 -   The log table for the failed instances shows that the [RAP late save phase](javascript:call_link\('abenlate_rap_save_phase_glosry.htm'\) "Glossary Entry") is not reached, only the [RAP interaction phase](javascript:call_link\('abenrap_int_phase_glosry.htm'\) "Glossary Entry") and the [RAP early save phase](javascript:call_link\('abenearly_rap_save_phase_glosry.htm'\) "Glossary Entry"). The RAP transaction is concluded with the [RAP cleanup phase](javascript:call_link\('abenrap_cleanup_phase_glosry.htm'\) "Glossary Entry") demonstrated by the successful RAP create operations.
 
 
+
+**📖 Source**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+
 ### abaprap_cl_abap_behv_aux.htm
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -600,7 +671,18 @@ Continue
 ![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
 
 
+
+**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+
 ### abapcl_abap_behvdescr.htm
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -638,7 +720,18 @@ Continue
 ![Example](exa.gif "Example") [Getting BDEF Derived Type Information Using CL\_ABAP\_BEHVDESCR](javascript:call_link\('abenrap_type_info_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
+
 ### abenrap_type_info_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -873,7 +966,21 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 The class demonstrates various methods of the CL\_ABAP\_BEHVDESCR class, for example, for getting [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") information or creating types.
 
 
+
+**📖 Source**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
+
 ### abapcl_abap_behvdescr.htm
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
+
 
   
 

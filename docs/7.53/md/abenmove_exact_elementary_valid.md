@@ -10,13 +10,9 @@ Valid Values for Lossless Assignments
 
 When a lossless conversion of an elementary argument of the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) to an incompatible data type is performed, the argument must represent a value that is valid in the tables below (and according to its data type):
 
--   [Numeric Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_1)
+-   [Numeric Arguments](#abenmove-exact-elementary-valid-1--------character-like-arguments---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_2)
 
--   [Character-Like Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_2)
-
--   [Byte-Like Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_3)
-
--   [Date/Time Fields as Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_4)
+-   [Byte-Like Arguments](#abenmove-exact-elementary-valid-3--------date-time-fields-as-arguments---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_4)
 
 Numeric Arguments
 

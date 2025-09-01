@@ -13,10 +13,8 @@ DDIC - Predefined Types
 
 The following predefined DDIC data types are delivered with an AS ABAP for common usage in ABAP Dictionary, ABAP CDS and ABAP programs.
 
--   [Data Elements for Built-in Dictionary Types](#@@ITOC@@ABENDDIC_PREDEF_TYPES_1)
--   [Data Type for Truth Values](#@@ITOC@@ABENDDIC_PREDEF_TYPES_2)
--   [Data Types for Operand Positions and Parameter Passing](#@@ITOC@@ABENDDIC_PREDEF_TYPES_3)
-    -   [Types for Operand Positions](#@@ITOC@@ABENDDIC_PREDEF_TYPES_4)
+-   [Data Elements for Built-in Dictionary Types](#abenddic-predef-types-1-------data-type-for-truth-values---@ITOC@@ABENDDIC_PREDEF_TYPES_2)
+-   [Data Types for Operand Positions and Parameter Passing](#abenddic-predef-types-3-----------types-for-operand-positions---@ITOC@@ABENDDIC_PREDEF_TYPES_4)
     -   [Types for Parameter Passing](#@@ITOC@@ABENDDIC_PREDEF_TYPES_5)
 
 Data Elements for Built-in Dictionary Types   

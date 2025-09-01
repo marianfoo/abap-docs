@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenconditional_expressions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expressions.htm)
+- [abenconditional_expression_cond.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_cond.htm)
+- [abenconditional_expression_switch.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_switch.htm)
+- [abenconditional_expression_result.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_result.htm)
+- [abencond_constructor_inference.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencond_constructor_inference.htm)
+- [abencond_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencond_type_inference_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.758Z
+
+---
+
 ### abenconditional_expressions.htm
+
+> **📖 Official SAP Documentation**: [abenconditional_expressions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expressions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +52,14 @@ Continue
 ![Example](exa.gif "Example") [Conditional Operator, Type Inference](javascript:call_link\('abencond_type_inference_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconditional_expressions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expressions.htm)
+
 ### abenconditional_expression_cond.htm
+
+> **📖 Official SAP Documentation**: [abenconditional_expression_cond.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_cond.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -95,7 +125,14 @@ cl\_demo\_output=>display(
             THROW cx\_cant\_be( ) ) ).
 
 
+
+**📖 Source**: [abenconditional_expression_cond.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_cond.htm)
+
 ### abenconditional_expression_switch.htm
+
+> **📖 Official SAP Documentation**: [abenconditional_expression_switch.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_switch.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -177,7 +214,14 @@ DO.
 ENDDO.
 
 
+
+**📖 Source**: [abenconditional_expression_switch.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_switch.htm)
+
 ### abenconditional_expression_result.htm
+
+> **📖 Official SAP Documentation**: [abenconditional_expression_result.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_result.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -285,7 +329,14 @@ DATA(time) = COND t( WHEN sy-timlo BETWEEN '090000' AND '170000'
                                   WITH \`I\` \`don't\` \`work\` \`now!\` ) ).
 
 
+
+**📖 Source**: [abenconditional_expression_result.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_result.htm)
+
 ### abencond_constructor_inference.htm
+
+> **📖 Official SAP Documentation**: [abencond_constructor_inference.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencond_constructor_inference.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -351,7 +402,17 @@ Executable Example
 [Conditional Operator, Type Inference](javascript:call_link\('abencond_type_inference_abexa.htm'\))
 
 
+
+**📖 Source**: [abencond_constructor_inference.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencond_constructor_inference.htm)
+
 ### abencond_type_inference_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencond_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencond_type_inference_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencond_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencond_type_inference_abexa.htm)
+
 
   
 

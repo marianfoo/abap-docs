@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_f1_case_expression.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_case_expression.htm)
+- [abencds_f1_simple_case_expression.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_simple_case_expression.htm)
+- [abencds_f1_searched_case_expr.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_searched_case_expr.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.899Z
+
+---
+
 ### abencds_f1_case_expression.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_case_expression.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_case_expression.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43,7 +63,14 @@ Continue
 [ABAP CDS - searched\_case\_expr](javascript:call_link\('abencds_f1_searched_case_expr.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_case_expression.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_case_expression.htm)
+
 ### abencds_f1_simple_case_expression.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_simple_case_expression.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_simple_case_expression.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -132,7 +159,17 @@ case partner.bp\_role
 end as partner\_role
 
 
+
+**📖 Source**: [abencds_f1_simple_case_expression.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_simple_case_expression.htm)
+
 ### abencds_f1_searched_case_expr.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_searched_case_expr.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_searched_case_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_searched_case_expr.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_searched_case_expr.htm)
+
 
   
 

@@ -11,14 +11,10 @@ AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
 itab - Performance Notes
 
--   [Table Sharing](#@@ITOC@@ABENITAB_PERFO_1)
--   [Initial Memory Requirement](#@@ITOC@@ABENITAB_PERFO_2)
--   [Index Administration](#@@ITOC@@ABENITAB_PERFO_3)
--   [Block Processing of Table Lines](#@@ITOC@@ABENITAB_PERFO_4)
--   [Selective Data Transport](#@@ITOC@@ABENITAB_PERFO_5)
--   [Using Secondary Keys](#@@ITOC@@ABENITAB_PERFO_6)
--   [Deleting Table Lines](#@@ITOC@@ABENITAB_PERFO_7)
--   [Free Key Specified for Sorted Tables and Hashed Tables](#@@ITOC@@ABENITAB_PERFO_8)
+-   [Table Sharing](#abenitab-perfo-1-------initial-memory-requirement---@ITOC@@ABENITAB_PERFO_2)
+-   [Index Administration](#abenitab-perfo-3-------block-processing-of-table-lines---@ITOC@@ABENITAB_PERFO_4)
+-   [Selective Data Transport](#abenitab-perfo-5-------using-secondary-keys---@ITOC@@ABENITAB_PERFO_6)
+-   [Deleting Table Lines](#abenitab-perfo-7-------free-key-specified-for-sorted-tables-and-hashed-tables---@ITOC@@ABENITAB_PERFO_8)
 -   [Sorting](#@@ITOC@@ABENITAB_PERFO_9)
 
 Table Sharing   

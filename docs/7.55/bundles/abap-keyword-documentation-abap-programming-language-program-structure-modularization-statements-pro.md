@@ -3,7 +3,29 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_functions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_functions.htm)
+- [abapfunction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfunction.htm)
+- [abenfunction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction.htm)
+- [abenfunction_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction_parameters.htm)
+- [abapendfunction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapendfunction.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.762Z
+
+---
+
 ### abenabap_functions.htm
+
+> **📖 Official SAP Documentation**: [abenabap_functions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32,7 +54,14 @@ Continue
 [ENDFUNCTION](javascript:call_link\('abapendfunction.htm'\))
 
 
+
+**📖 Source**: [abenabap_functions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_functions.htm)
+
 ### abapfunction.htm
+
+> **📖 Official SAP Documentation**: [abapfunction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfunction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -88,7 +117,14 @@ Continue
 [Function Module Interface](javascript:call_link\('abenfunction.htm'\))
 
 
+
+**📖 Source**: [abapfunction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfunction.htm)
+
 ### abenfunction.htm
+
+> **📖 Official SAP Documentation**: [abenfunction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -172,7 +208,14 @@ Continue
 [Properties of Interface Parameters](javascript:call_link\('abenfunction_parameters.htm'\))
 
 
+
+**📖 Source**: [abenfunction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction.htm)
+
 ### abenfunction_parameters.htm
+
+> **📖 Official SAP Documentation**: [abenfunction_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction_parameters.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -239,7 +282,14 @@ Hint
 Within a function module, the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [IS SUPPLIED](javascript:call_link\('abenlogexp_supplied.htm'\)) can be used to check whether an optional formal parameter was assigned an actual parameter when it was called.
 
 
+
+**📖 Source**: [abenfunction_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction_parameters.htm)
+
 ### abenfunction.htm
+
+> **📖 Official SAP Documentation**: [abenfunction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -323,7 +373,14 @@ Continue
 [Properties of Interface Parameters](javascript:call_link\('abenfunction_parameters.htm'\))
 
 
+
+**📖 Source**: [abenfunction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction.htm)
+
 ### abapfunction.htm
+
+> **📖 Official SAP Documentation**: [abapfunction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfunction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -379,7 +436,17 @@ Continue
 [Function Module Interface](javascript:call_link\('abenfunction.htm'\))
 
 
+
+**📖 Source**: [abapfunction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfunction.htm)
+
 ### abapendfunction.htm
+
+> **📖 Official SAP Documentation**: [abapendfunction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapendfunction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapendfunction.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapendfunction.htm)
+
 
   
 

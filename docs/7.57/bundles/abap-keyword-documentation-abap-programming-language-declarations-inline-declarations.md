@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abeninline_declarations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninline_declarations.htm)
+- [abendata_inline.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_inline.htm)
+- [abenfinal_inline.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfinal_inline.htm)
+- [abenfield-symbol_inline.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfield-symbol_inline.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.246Z
+
+---
+
 ### abeninline_declarations.htm
+
+> **📖 Official SAP Documentation**: [abeninline_declarations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninline_declarations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41,7 +62,14 @@ Continue
 [FIELD-SYMBOL, Inline Declaration for Field Symbols](javascript:call_link\('abenfield-symbol_inline.htm'\))
 
 
+
+**📖 Source**: [abeninline_declarations.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninline_declarations.htm)
+
 ### abendata_inline.htm
+
+> **📖 Official SAP Documentation**: [abendata_inline.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_inline.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -114,7 +142,14 @@ DATA(data) = '1'.
 DATA(data) = '2'.
 
 
+
+**📖 Source**: [abendata_inline.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_inline.htm)
+
 ### abenfinal_inline.htm
+
+> **📖 Official SAP Documentation**: [abenfinal_inline.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfinal_inline.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -177,7 +212,17 @@ SELECT \*
 FINAL(html) = cl\_demo\_output=>get( itab ).
 
 
+
+**📖 Source**: [abenfinal_inline.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfinal_inline.htm)
+
 ### abenfield-symbol_inline.htm
+
+> **📖 Official SAP Documentation**: [abenfield-symbol_inline.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfield-symbol_inline.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenfield-symbol_inline.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfield-symbol_inline.htm)
+
 
   
 

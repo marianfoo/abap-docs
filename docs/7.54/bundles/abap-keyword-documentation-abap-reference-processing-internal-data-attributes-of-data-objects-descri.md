@@ -3,7 +3,32 @@
 Included pages: 11
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapdescribe.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe.htm)
+- [abapdescribe_field.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_field.htm)
+- [abendescribe_field_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescribe_field_abexa.htm)
+- [abapdescribe_table.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_table.htm)
+- [abapdescribe_distance.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_distance.htm)
+- [abendescribe_distance_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescribe_distance_abexa.htm)
+- [abendescribe_internal.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescribe_internal.htm)
+- [abapdescribe_field_into.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_field_into.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.966Z
+
+---
+
 ### abapdescribe.htm
+
+> **📖 Official SAP Documentation**: [abapdescribe.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42,7 +67,14 @@ Continue
 [DESCRIBE - internal variant](javascript:call_link\('abendescribe_internal.htm'\))
 
 
+
+**📖 Source**: [abapdescribe.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe.htm)
+
 ### abapdescribe_field.htm
+
+> **📖 Official SAP Documentation**: [abapdescribe_field.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -414,7 +446,14 @@ Continue
 ![Example](exa.gif "Example") [Determining Elementary Data Types](javascript:call_link\('abendescribe_field_abexa.htm'\))
 
 
+
+**📖 Source**: [abapdescribe_field.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_field.htm)
+
 ### abendescribe_field_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendescribe_field_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescribe_field_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -490,7 +529,14 @@ The example does not work if complex data types such as SCARR and SPFLI are ente
 The [RTTS](javascript:call_link\('abenrtti.htm'\)) methods can be used to check complex data types and object types at runtime.
 
 
+
+**📖 Source**: [abendescribe_field_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescribe_field_abexa.htm)
+
 ### abapdescribe_field.htm
+
+> **📖 Official SAP Documentation**: [abapdescribe_field.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -862,7 +908,14 @@ Continue
 ![Example](exa.gif "Example") [Determining Elementary Data Types](javascript:call_link\('abendescribe_field_abexa.htm'\))
 
 
+
+**📖 Source**: [abapdescribe_field.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_field.htm)
+
 ### abapdescribe_table.htm
+
+> **📖 Official SAP Documentation**: [abapdescribe_table.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -978,7 +1031,14 @@ ASSERT occ = CAST cl\_abap\_tabledescr(
   cl\_abap\_typedescr=>describe\_by\_data( itab ) )->initial\_size.
 
 
+
+**📖 Source**: [abapdescribe_table.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_table.htm)
+
 ### abapdescribe_distance.htm
+
+> **📖 Official SAP Documentation**: [abapdescribe_distance.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_distance.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1049,7 +1109,14 @@ Continue
 ![Example](exa.gif "Example") [Determining Data Object Distances](javascript:call_link\('abendescribe_distance_abexa.htm'\))
 
 
+
+**📖 Source**: [abapdescribe_distance.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_distance.htm)
+
 ### abendescribe_distance_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendescribe_distance_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescribe_distance_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1099,7 +1166,14 @@ Description
 Determines the offset and length, in bytes, of a character-like fragment within the struc structure, accesses the fragment using an offset/length access, and assigns it a field symbol of type c. Since the structure is not just character-like, the offset/length access takes place using a field symbol. If not, a syntax error occurs. The field symbol is of the type x, since offsets and lengths are determined in bytes. The field symbol <result> points to the fragment "Hey you!".
 
 
+
+**📖 Source**: [abendescribe_distance_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescribe_distance_abexa.htm)
+
 ### abapdescribe_distance.htm
+
+> **📖 Official SAP Documentation**: [abapdescribe_distance.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_distance.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1170,7 +1244,14 @@ Continue
 ![Example](exa.gif "Example") [Determining Data Object Distances](javascript:call_link\('abendescribe_distance_abexa.htm'\))
 
 
+
+**📖 Source**: [abapdescribe_distance.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_distance.htm)
+
 ### abendescribe_internal.htm
+
+> **📖 Official SAP Documentation**: [abendescribe_internal.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescribe_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1191,7 +1272,14 @@ Continue
 [DESCRIBE FIELD INTO](javascript:call_link\('abapdescribe_field_into.htm'\))
 
 
+
+**📖 Source**: [abendescribe_internal.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescribe_internal.htm)
+
 ### abapdescribe_field_into.htm
+
+> **📖 Official SAP Documentation**: [abapdescribe_field_into.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_field_into.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1351,7 +1439,17 @@ The name table TD-NAMES contains the following entries. Note that the names SALA
 11 |        |ABSENT              22 |        |TO
 
 
+
+**📖 Source**: [abapdescribe_field_into.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_field_into.htm)
+
 ### abendescribe_internal.htm
+
+> **📖 Official SAP Documentation**: [abendescribe_internal.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescribe_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abendescribe_internal.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescribe_internal.htm)
+
 
   
 

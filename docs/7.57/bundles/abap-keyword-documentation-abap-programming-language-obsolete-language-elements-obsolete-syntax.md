@@ -3,7 +3,31 @@
 Included pages: 9
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abensyntax_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensyntax_obsolete.htm)
+- [abentokenization_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentokenization_obsolete.htm)
+- [abenoperand_positions_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperand_positions_obsolete.htm)
+- [abenextended_functional_positions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextended_functional_positions.htm)
+- [abenpseudo_comments_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comments_obsolete.htm)
+- [abenpseudo_comment_slin.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comment_slin.htm)
+- [abenpseudo_comment_test_class.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comment_test_class.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.254Z
+
+---
+
 ### abensyntax_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abensyntax_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensyntax_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28,7 +52,14 @@ Continue
 [Obsolete Pseudo Comments](javascript:call_link\('abenpseudo_comments_obsolete.htm'\))
 
 
+
+**📖 Source**: [abensyntax_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensyntax_obsolete.htm)
+
 ### abentokenization_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abentokenization_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentokenization_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49,7 +80,14 @@ The following syntax forms are obsolete. They are forbidden within ABAP Objects 
 -   Outside of classes, the operators for offset and length can be omitted in [offset/length specifications](javascript:call_link\('abenoffset_length.htm'\)). A single plus sign directly after a field name, a plus sign that is followed directly by a parenthetical expression, or an empty parenthetical expression after a plus sign, an offset value, or a field name, are interpreted as non-existent.
 
 
+
+**📖 Source**: [abentokenization_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentokenization_obsolete.htm)
+
 ### abenoperand_positions_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenoperand_positions_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperand_positions_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -72,7 +110,14 @@ Continue
 [Extended Functional Operand Positions](javascript:call_link\('abenextended_functional_positions.htm'\))
 
 
+
+**📖 Source**: [abenoperand_positions_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperand_positions_obsolete.htm)
+
 ### abenextended_functional_positions.htm
+
+> **📖 Official SAP Documentation**: [abenextended_functional_positions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextended_functional_positions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -144,7 +189,14 @@ DATA itab TYPE TABLE OF i WITH EMPTY KEY.
 FINAL(lines) = lines( itab ).
 
 
+
+**📖 Source**: [abenextended_functional_positions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextended_functional_positions.htm)
+
 ### abenoperand_positions_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenoperand_positions_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperand_positions_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -167,7 +219,14 @@ Continue
 [Extended Functional Operand Positions](javascript:call_link\('abenextended_functional_positions.htm'\))
 
 
+
+**📖 Source**: [abenoperand_positions_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperand_positions_obsolete.htm)
+
 ### abenpseudo_comments_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenpseudo_comments_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comments_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -190,7 +249,14 @@ Continue
 [Pseudo Comments for Test Classes](javascript:call_link\('abenpseudo_comment_test_class.htm'\))
 
 
+
+**📖 Source**: [abenpseudo_comments_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comments_obsolete.htm)
+
 ### abenpseudo_comment_slin.htm
+
+> **📖 Official SAP Documentation**: [abenpseudo_comment_slin.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comment_slin.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -237,7 +303,14 @@ DATA: a TYPE string ##needed,
 a = b.
 
 
+
+**📖 Source**: [abenpseudo_comment_slin.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comment_slin.htm)
+
 ### abenpseudo_comment_test_class.htm
+
+> **📖 Official SAP Documentation**: [abenpseudo_comment_test_class.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comment_test_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -270,7 +343,17 @@ Hints
 -   To specify both test properties for a test class, the CLASS statement must be spread across at least two lines.
 
 
+
+**📖 Source**: [abenpseudo_comment_test_class.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comment_test_class.htm)
+
 ### abenpseudo_comments_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenpseudo_comments_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comments_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenpseudo_comments_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_comments_obsolete.htm)
+
 
   
 

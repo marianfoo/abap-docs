@@ -3,7 +3,31 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenbuilt_in_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_obsolete.htm)
+- [abensystem_fields_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_fields_obsolete.htm)
+- [abenscreen_structure_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_structure_obsolete.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.961Z
+
+---
+
 ### abenbuilt_in_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenbuilt_in_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25,7 +49,18 @@ Continue
 [The Built-In Structure screen](javascript:call_link\('abenscreen_structure_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenbuilt_in_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_obsolete.htm)
+
 ### abensystem_fields_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abensystem_fields_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_fields_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensystem_fields_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_fields_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -514,7 +549,21 @@ c
 [Title of the spooler program](javascript:call_link\('abenprint_parameters_overview.htm'\))
 
 
+
+**📖 Source**: [abensystem_fields_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_fields_obsolete.htm)
+
 ### abenscreen_structure_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenscreen_structure_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_structure_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenscreen_structure_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_structure_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenscreen_structure_obsolete.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_structure_obsolete.htm)
+
 
   
 

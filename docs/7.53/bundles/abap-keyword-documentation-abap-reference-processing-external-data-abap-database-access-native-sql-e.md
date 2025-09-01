@@ -3,7 +3,36 @@
 Included pages: 14
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennativesql.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennativesql.htm)
+- [abapexec.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec.htm)
+- [abapexec_literal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_literal.htm)
+- [abapexec_host.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_host.htm)
+- [abapexec_into.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_into.htm)
+- [abapexec_cursor.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_cursor.htm)
+- [abapexec_procedure.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_procedure.htm)
+- [abapexec_connection.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_connection.htm)
+- [abapendexec.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendexec.htm)
+- [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexec_sql_abexas.htm)
+- [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennative_sql_abexa.htm)
+- [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexec_sql_db_function_abexa.htm)
+
+**Bundle Contains**: 12 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.205Z
+
+---
+
 ### abennativesql.htm
+
+> **📖 Official SAP Documentation**: [abennativesql.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennativesql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36,7 +65,14 @@ Continue
 [EXEC SQL - Examples](javascript:call_link\('abenexec_sql_abexas.htm'\))
 
 
+
+**📖 Source**: [abennativesql.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennativesql.htm)
+
 ### abapexec.htm
+
+> **📖 Official SAP Documentation**: [abapexec.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -206,7 +242,14 @@ Continue
 [ENDEXEC](javascript:call_link\('abapendexec.htm'\))
 
 
+
+**📖 Source**: [abapexec.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec.htm)
+
 ### abapexec_literal.htm
+
+> **📖 Official SAP Documentation**: [abapexec_literal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_literal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -239,7 +282,14 @@ EXEC SQL.
 ENDEXEC.
 
 
+
+**📖 Source**: [abapexec_literal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_literal.htm)
+
 ### abapexec_host.htm
+
+> **📖 Official SAP Documentation**: [abapexec_host.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_host.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -289,7 +339,14 @@ ENDEXEC.
 cl\_demo\_output=>display( wa ).
 
 
+
+**📖 Source**: [abapexec_host.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_host.htm)
+
 ### abapexec_into.htm
+
+> **📖 Official SAP Documentation**: [abapexec_into.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_into.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -343,7 +400,14 @@ ENDEXEC.
 cl\_demo\_output=>display( wa ).
 
 
+
+**📖 Source**: [abapexec_into.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_into.htm)
+
 ### abapexec_cursor.htm
+
+> **📖 Official SAP Documentation**: [abapexec_cursor.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_cursor.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -430,7 +494,14 @@ EXEC SQL.
 ENDEXEC.
 
 
+
+**📖 Source**: [abapexec_cursor.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_cursor.htm)
+
 ### abapexec_procedure.htm
+
+> **📖 Official SAP Documentation**: [abapexec_procedure.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_procedure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -495,7 +566,14 @@ ENDTRY.
 cl\_demo\_output=>display( ).
 
 
+
+**📖 Source**: [abapexec_procedure.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_procedure.htm)
+
 ### abapexec_connection.htm
+
+> **📖 Official SAP Documentation**: [abapexec_connection.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_connection.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -559,7 +637,14 @@ ENDTRY.
 cl\_demo\_output=>display( ).
 
 
+
+**📖 Source**: [abapexec_connection.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec_connection.htm)
+
 ### abapendexec.htm
+
+> **📖 Official SAP Documentation**: [abapendexec.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendexec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -582,7 +667,14 @@ Effect
 The statement ENDEXEC closes an embedded [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statement introduced using [EXEC SQL](javascript:call_link\('abapexec.htm'\)).
 
 
+
+**📖 Source**: [abapendexec.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendexec.htm)
+
 ### abapexec.htm
+
+> **📖 Official SAP Documentation**: [abapexec.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -752,7 +844,14 @@ Continue
 [ENDEXEC](javascript:call_link\('abapendexec.htm'\))
 
 
+
+**📖 Source**: [abapexec.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec.htm)
+
 ### abenexec_sql_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexec_sql_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -769,7 +868,14 @@ Continue
 ![Example](exa.gif "Example") [EXEC SQL, Accessing a Database Function](javascript:call_link\('abenexec_sql_db_function_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexec_sql_abexas.htm)
+
 ### abennative_sql_abexa.htm
+
+> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennative_sql_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -880,7 +986,14 @@ Description
 The program is the static equivalent of the executable [ADBC](javascript:call_link\('abenadbc_dml_ddl_abexa.htm'\)) example. The name of the database abap\_docu\_demo\_mytab cannot be modified. Instead of passing the SQL statements dynamically to methods of the class CL\_SQL\_STATEMENT, they are specified statically between EXEC and ENDEXEC. Attempts to insert rows that already exist are caught using sy-subrc and the corresponding SQL exception must be raised explicitly.
 
 
+
+**📖 Source**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennative_sql_abexa.htm)
+
 ### abenexec_sql_db_function_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexec_sql_db_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -952,7 +1065,17 @@ Description
 After [EXEC SQL](javascript:call_link\('abapexec.htm'\)), this example creates a scalar [database function](javascript:call_link\('abendatabase_function_glosry.htm'\) "Glossary Entry") with two input parameters and uses this function in the WHERE condition of a SELECT statement.
 
 
+
+**📖 Source**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexec_sql_db_function_abexa.htm)
+
 ### abenexec_sql_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexec_sql_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexec_sql_abexas.htm)
+
 
   
 

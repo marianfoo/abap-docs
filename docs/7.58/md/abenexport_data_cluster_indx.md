@@ -12,8 +12,7 @@ Export/Import Tables
 
 When storing [data clusters](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") in database tables and application buffers of the [shared memory](javascript:call_link\('abenshared_memory_glosry.htm'\) "Glossary Entry"), database tables with one of the following structures must be specified: These database tables are referred to as [export/import tables](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry").
 
--   [Structure for Data Clusters in One Row](#@@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_1)
--   [Structure for Data Clusters in Multiple Rows](#@@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_2)
+-   [Structure for Data Clusters in One Row](#abenexport-data-cluster-indx-1-------structure-for-data-clusters-in-multiple-rows---@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_2)
 
 Hints
 

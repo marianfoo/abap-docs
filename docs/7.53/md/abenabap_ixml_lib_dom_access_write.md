@@ -10,9 +10,7 @@ iXML Library - DOM Writes
 
 Writes enable an XML document to be constructed from scratch in the memory or an existing document to be modified. The most important methods used to construct a DOM create elements and add attributes to elements. These methods are declared in the interface IF\_IXML\_DOCUMENT are summarized here. Other methods are used to remove elements from a DOM, which is described in the interface documentation (see also the executable [rendering example](javascript:call_link\('abenixml_render_abexa.htm'\))).
 
--   [Adding Nodes](#@@ITOC@@ABENABAP_IXML_LIB_DOM_ACCESS_WRITE_1)
-
--   [Adding Elements](#@@ITOC@@ABENABAP_IXML_LIB_DOM_ACCESS_WRITE_2)
+-   [Adding Nodes](#abenabap-ixml-lib-dom-access-write-1--------adding-elements---@ITOC@@ABENABAP_IXML_LIB_DOM_ACCESS_WRITE_2)
 
 -   [Adding Attributes](#@@ITOC@@ABENABAP_IXML_LIB_DOM_ACCESS_WRITE_3)
 

@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abendataset_auth.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendataset_auth.htm)
+- [abenfile_interface_authority.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfile_interface_authority.htm)
+- [abendataset_auth_self.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendataset_auth_self.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.205Z
+
+---
+
 ### abendataset_auth.htm
+
+> **📖 Official SAP Documentation**: [abendataset_auth.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendataset_auth.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24,7 +44,14 @@ Continue
 [Validation of File Names](javascript:call_link\('abendataset_auth_self.htm'\))
 
 
+
+**📖 Source**: [abendataset_auth.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendataset_auth.htm)
+
 ### abenfile_interface_authority.htm
+
+> **📖 Official SAP Documentation**: [abenfile_interface_authority.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfile_interface_authority.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -311,7 +338,17 @@ This configuration forbids the use of any relative paths when files are accessed
 -   Access to the path specified as "\* should also be subject to an authorization group permitting access using any relative paths for authorized users.
 
 
+
+**📖 Source**: [abenfile_interface_authority.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfile_interface_authority.htm)
+
 ### abendataset_auth_self.htm
+
+> **📖 Official SAP Documentation**: [abendataset_auth_self.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendataset_auth_self.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abendataset_auth_self.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendataset_auth_self.htm)
+
 
   
 

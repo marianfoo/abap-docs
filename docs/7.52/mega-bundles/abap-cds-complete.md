@@ -7,6 +7,21 @@
 ---
 
 
+
+## 🔗 Complete Source Documentation
+
+**📖 Official Documentation**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+**🏷️ Category**: CDS
+**🔍 Search Specific Topics**: Use `abap_search query:"cds"` for focused results
+**📄 Individual Pages**: All source URLs included in each section below
+
+### 🎯 Quick Navigation
+- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
+- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
+- **Browse by difficulty**: Look for **Difficulty** markers in each section
+
+---
+
 ## ABAP - Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Syntax
 
 **Files**: 3 | **Difficulty**: advanced
@@ -17,6 +32,10 @@ Included pages: 3
 
 
 ### abencds_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_syntax.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39,7 +58,14 @@ Continue
 [ABAP CDS - Language Elements](javascript:call_link\('abencds_language_elements.htm'\))
 
 
+
+**📖 Source**: [abencds_syntax.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_syntax.htm)
+
 ### abencds_general_syntax_rules.htm
+
+> **📖 Official SAP Documentation**: [abencds_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_general_syntax_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -106,7 +132,14 @@ Examples
 -   0.5 is a valid numeric literal, but .5 is not.
 
 
+
+**📖 Source**: [abencds_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_general_syntax_rules.htm)
+
 ### abencds_language_elements.htm
+
+> **📖 Official SAP Documentation**: [abencds_language_elements.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_language_elements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -384,7 +417,14 @@ Operators for literal conditions
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_language_elements.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_language_elements.htm)
+
 ### abencds_annotations_frmwrk_tables.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_frmwrk_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk_tables.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -459,7 +499,14 @@ In the case of elements of the annotation array, square brackets are specified i
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_annotations_frmwrk_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk_tables.htm)
+
 ### abencds_annotations_frmwrk_tables.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_frmwrk_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk_tables.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -534,7 +581,14 @@ In the case of elements of the annotation array, square brackets are specified i
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_annotations_frmwrk_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk_tables.htm)
+
 ### abencds_annotations_frmwrk_tables.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_frmwrk_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk_tables.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -609,7 +663,14 @@ In the case of elements of the annotation array, square brackets are specified i
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_annotations_frmwrk_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk_tables.htm)
+
 ### abencds_annotations_frmwrk_tables.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_frmwrk_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk_tables.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -684,7 +745,14 @@ In the case of elements of the annotation array, square brackets are specified i
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_annotations_frmwrk_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk_tables.htm)
+
 ### abencds_annotations_frmwrk_tables.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_frmwrk_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk_tables.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -759,7 +827,14 @@ In the case of elements of the annotation array, square brackets are specified i
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_annotations_frmwrk_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk_tables.htm)
+
 ### abencds_annotations_frmwrk_tables.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_frmwrk_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk_tables.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -834,7 +909,14 @@ In the case of elements of the annotation array, square brackets are specified i
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_annotations_frmwrk_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk_tables.htm)
+
 ### abencds_f1_param.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -894,7 +976,14 @@ Continue
 [ABAP CDS - parameter\_annot](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+
 ### abencds_f1_parameter_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1051,7 +1140,14 @@ id = '1';
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+
 ### abencds_f1_param.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1111,7 +1207,14 @@ Continue
 [ABAP CDS - parameter\_annot](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+
 ### abencds_f1_parameter_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1268,7 +1371,14 @@ id = '1';
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+
 ### abencds_f1_param.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1328,7 +1438,14 @@ Continue
 [ABAP CDS - parameter\_annot](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+
 ### abencds_f1_parameter_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1485,7 +1602,14 @@ id = '1';
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+
 ### abencds_f1_param.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1545,7 +1669,14 @@ Continue
 [ABAP CDS - parameter\_annot](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+
 ### abencds_f1_parameter_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1702,7 +1833,14 @@ id = '1';
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+
 ### abencds_f1_param.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1762,7 +1900,14 @@ Continue
 [ABAP CDS - parameter\_annot](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+
 ### abencds_f1_parameter_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1919,7 +2064,14 @@ id = '1';
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+
 ### abencds_f1_param.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1979,7 +2131,14 @@ Continue
 [ABAP CDS - parameter\_annot](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+
 ### abencds_f1_parameter_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2136,7 +2295,14 @@ id = '1';
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+
 ### abencds_f1_param.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2196,7 +2362,14 @@ Continue
 [ABAP CDS - parameter\_annot](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+
 ### abencds_f1_parameter_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2353,7 +2526,14 @@ id = '1';
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+
 ### abencds_f1_param.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2413,7 +2593,14 @@ Continue
 [ABAP CDS - parameter\_annot](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+
 ### abencds_f1_parameter_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2570,7 +2757,14 @@ id = '1';
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+
 ### abencds_f1_param.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2630,7 +2824,14 @@ Continue
 [ABAP CDS - parameter\_annot](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+
 ### abencds_f1_parameter_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2787,7 +2988,14 @@ id = '1';
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+
 ### abencds_f1_param.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2847,7 +3055,14 @@ Continue
 [ABAP CDS - parameter\_annot](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+
 ### abencds_f1_parameter_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3004,7 +3219,14 @@ id = '1';
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+
 ### abencds_f1_param.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3064,7 +3286,14 @@ Continue
 [ABAP CDS - parameter\_annot](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm)
+
 ### abencds_f1_parameter_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3221,7 +3450,14 @@ id = '1';
 Included pages: 9
 
 
+
+**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm)
+
 ### abencds_dcl_role_conditions.htm
+
+> **📖 Official SAP Documentation**: [abencds_dcl_role_conditions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_role_conditions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3268,7 +3504,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, Data Types](javascript:call_link\('abencds_f1_dcl_cond_data_types.htm'\))
 
 
+
+**📖 Source**: [abencds_dcl_role_conditions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_role_conditions.htm)
+
 ### abencds_f1_cond_literal.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_literal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3342,7 +3585,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, operator](javascript:call_link\('abencds_f1_dcl_cond_expression.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_cond_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_literal.htm)
+
 ### abencds_f1_dcl_cond_expression.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_cond_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_expression.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3395,7 +3645,14 @@ The value of the left side is greater than or equal to the value of the right si
 Like the operator \=. The condition is also met, however, if the value of the left side is the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") or a type-dependent initial value.
 
 
+
+**📖 Source**: [abencds_f1_dcl_cond_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_expression.htm)
+
 ### abencds_f1_cond_literal.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_literal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3469,7 +3726,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, operator](javascript:call_link\('abencds_f1_dcl_cond_expression.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_cond_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_literal.htm)
+
 ### abencds_f1_cond_pfcg.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_pfcg.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3644,7 +3908,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, Mapping of Field Values](javascript:call_link\('abencds_f1_dcl_pfcg_mapping.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_cond_pfcg.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm)
+
 ### abencds_f1_dcl_pfcg_mapping.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_pfcg_mapping.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3689,7 +3960,14 @@ Example
 The field value "10%\*" produces the condition LIKE '10#%%' ESCAPE '#'.
 
 
+
+**📖 Source**: [abencds_f1_dcl_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_pfcg_mapping.htm)
+
 ### abencds_f1_cond_pfcg.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_pfcg.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3864,7 +4142,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, Mapping of Field Values](javascript:call_link\('abencds_f1_dcl_pfcg_mapping.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_cond_pfcg.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm)
+
 ### abencds_f1_cond_user.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_user.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_user.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3918,7 +4203,14 @@ define role demo\_cds\_role\_user {  
 The role grants a user AS ABAP access to his or her own entries in the database table ABDOCMODE, as well as to entries in which the UNAME column is initial or contains a [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abencds_f1_cond_user.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_user.htm)
+
 ### abencds_f1_dcl_cond_data_types.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_cond_data_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_data_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3971,7 +4263,14 @@ In PFCG conditions, field values of [authorizations](javascript:call_link\('aben
 Included pages: 9
 
 
+
+**📖 Source**: [abencds_f1_dcl_cond_data_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_data_types.htm)
+
 ### abencds_dcl_role_conditions.htm
+
+> **📖 Official SAP Documentation**: [abencds_dcl_role_conditions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_role_conditions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4018,7 +4317,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, Data Types](javascript:call_link\('abencds_f1_dcl_cond_data_types.htm'\))
 
 
+
+**📖 Source**: [abencds_dcl_role_conditions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_role_conditions.htm)
+
 ### abencds_f1_cond_literal.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_literal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4092,7 +4398,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, operator](javascript:call_link\('abencds_f1_dcl_cond_expression.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_cond_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_literal.htm)
+
 ### abencds_f1_dcl_cond_expression.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_cond_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_expression.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4145,7 +4458,14 @@ The value of the left side is greater than or equal to the value of the right si
 Like the operator \=. The condition is also met, however, if the value of the left side is the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") or a type-dependent initial value.
 
 
+
+**📖 Source**: [abencds_f1_dcl_cond_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_expression.htm)
+
 ### abencds_f1_cond_literal.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_literal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4219,7 +4539,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, operator](javascript:call_link\('abencds_f1_dcl_cond_expression.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_cond_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_literal.htm)
+
 ### abencds_f1_cond_pfcg.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_pfcg.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4394,7 +4721,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, Mapping of Field Values](javascript:call_link\('abencds_f1_dcl_pfcg_mapping.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_cond_pfcg.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm)
+
 ### abencds_f1_dcl_pfcg_mapping.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_pfcg_mapping.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4439,7 +4773,14 @@ Example
 The field value "10%\*" produces the condition LIKE '10#%%' ESCAPE '#'.
 
 
+
+**📖 Source**: [abencds_f1_dcl_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_pfcg_mapping.htm)
+
 ### abencds_f1_cond_pfcg.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_pfcg.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4614,7 +4955,14 @@ Continue
 [ABAP CDS - DEFINE ROLE, Mapping of Field Values](javascript:call_link\('abencds_f1_dcl_pfcg_mapping.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_cond_pfcg.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_pfcg.htm)
+
 ### abencds_f1_cond_user.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cond_user.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_user.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4668,7 +5016,17 @@ define role demo\_cds\_role\_user {  
 The role grants a user AS ABAP access to his or her own entries in the database table ABDOCMODE, as well as to entries in which the UNAME column is initial or contains a [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abencds_f1_cond_user.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cond_user.htm)
+
 ### abencds_f1_dcl_cond_data_types.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_cond_data_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_data_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_dcl_cond_data_types.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_dcl_cond_data_types.htm)
+
 
   
 

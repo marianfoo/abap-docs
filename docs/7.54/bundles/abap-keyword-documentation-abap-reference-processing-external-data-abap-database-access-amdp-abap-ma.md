@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenamdp_macros.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macros.htm)
+- [abenamdp_abap_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abap_types.htm)
+- [abenamdp_logical_db_schemas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_logical_db_schemas.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.958Z
+
+---
+
 ### abenamdp_macros.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_macros.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macros.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42,7 +62,14 @@ Continue
 [AMDP - Macro for Logical Schemas](javascript:call_link\('abenamdp_logical_db_schemas.htm'\))
 
 
+
+**📖 Source**: [abenamdp_macros.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_macros.htm)
+
 ### abenamdp_abap_types.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_abap_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abap_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -105,7 +132,17 @@ Executable Example
 [Access to ABAP Types](javascript:call_link\('abenamdp_abap_types_abexa.htm'\))
 
 
+
+**📖 Source**: [abenamdp_abap_types.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abap_types.htm)
+
 ### abenamdp_logical_db_schemas.htm
+
+> **📖 Official SAP Documentation**: [abenamdp_logical_db_schemas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_logical_db_schemas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenamdp_logical_db_schemas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_logical_db_schemas.htm)
+
 
   
 

@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_database_tables_gtt.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_gtt.htm)
+- [abenddic_gtt_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_gtt_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.370Z
+
+---
+
 ### abenddic_database_tables_gtt.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_gtt.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_gtt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -79,7 +98,17 @@ Continue
 ![Example](exa.gif "Example") [Global Temporary Tables, Access](javascript:call_link\('abenddic_gtt_abexa.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_gtt.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_gtt.htm)
+
 ### abenddic_gtt_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenddic_gtt_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_gtt_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_gtt_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_gtt_abexa.htm)
+
 
   
 

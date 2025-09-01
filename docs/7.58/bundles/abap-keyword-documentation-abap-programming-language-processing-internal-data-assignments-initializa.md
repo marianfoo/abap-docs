@@ -3,7 +3,31 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abeninitializations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitializations.htm)
+- [abapclear.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclear.htm)
+- [abapfree_dataobject.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfree_dataobject.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.984Z
+
+---
+
 ### abeninitializations.htm
+
+> **📖 Official SAP Documentation**: [abeninitializations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitializations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abeninitializations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitializations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33,7 +57,18 @@ Continue
 [FREE](javascript:call_link\('abapfree_dataobject.htm'\))
 
 
+
+**📖 Source**: [abeninitializations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitializations.htm)
+
 ### abapclear.htm
+
+> **📖 Official SAP Documentation**: [abapclear.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclear.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapclear.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclear.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -121,7 +156,21 @@ Uncatchable Exceptions
     Runtime error: CLEAR\_VALUE\_WRONG\_LENGTH
 
 
+
+**📖 Source**: [abapclear.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclear.htm)
+
 ### abapfree_dataobject.htm
+
+> **📖 Official SAP Documentation**: [abapfree_dataobject.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfree_dataobject.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapfree_dataobject.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfree_dataobject.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapfree_dataobject.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfree_dataobject.htm)
+
 
   
 

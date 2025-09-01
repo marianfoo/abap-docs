@@ -3,7 +3,30 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abendeclarations_spcl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations_spcl.htm)
+- [abapinfotypes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinfotypes.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.955Z
+
+---
+
 ### abendeclarations_spcl.htm
+
+> **📖 Official SAP Documentation**: [abendeclarations_spcl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendeclarations_spcl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25,7 +48,21 @@ Continue
 [INFOTYPES](javascript:call_link\('abapinfotypes.htm'\))
 
 
+
+**📖 Source**: [abendeclarations_spcl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations_spcl.htm)
+
 ### abapinfotypes.htm
+
+> **📖 Official SAP Documentation**: [abapinfotypes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinfotypes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapinfotypes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinfotypes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapinfotypes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinfotypes.htm)
+
 
   
 

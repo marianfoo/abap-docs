@@ -12,17 +12,11 @@ The components of a class have [visibility sections](javascript:call_link\('aben
 
 Interfaces are independent structures that enable the class-specific public points of contact to be enhanced by implementing them in classes. Different classes that implement the same interface can all be addressed in the same way. Alongside [inheritance](javascript:call_link\('abeninheritance.htm'\)), interfaces are one of the pillars of [polymorphism](javascript:call_link\('abenpolymorphism_glosry.htm'\) "Glossary Entry"), since they allow a single method within an interface to behave differently in different classes. [Interface reference variables](javascript:call_link\('abeninterface_ref_variable_glosry.htm'\) "Glossary Entry") allow consumers to address different classes in the same manner. Interfaces can also be [nested](javascript:call_link\('abeninterface_composition.htm'\)).
 
--   [Defining Interfaces](#@@ITOC@@ABENINTERFAC_1)
+-   [Defining Interfaces](#abeninterfac-1--------interface-components---@ITOC@@ABENINTERFAC_2)
 
--   [Interface Components](#@@ITOC@@ABENINTERFAC_2)
+-   [Implementing Interfaces](#abeninterfac-3--------interface-reference-variables---@ITOC@@ABENINTERFAC_4)
 
--   [Implementing Interfaces](#@@ITOC@@ABENINTERFAC_3)
-
--   [Interface Reference Variables](#@@ITOC@@ABENINTERFAC_4)
-
--   [Accessing Objects Using Interface References](#@@ITOC@@ABENINTERFAC_5)
-
--   [Accessing the Static Components of Interfaces](#@@ITOC@@ABENINTERFAC_6)
+-   [Accessing Objects Using Interface References](#abeninterfac-5--------accessing-the-static-components-of-interfaces---@ITOC@@ABENINTERFAC_6)
 
 Defining Interfaces
 

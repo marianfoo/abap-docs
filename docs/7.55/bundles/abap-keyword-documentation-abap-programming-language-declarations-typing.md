@@ -3,7 +3,34 @@
 Included pages: 12
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abentyping.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping.htm)
+- [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_syntax.htm)
+- [abentyping_generic.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_generic.htm)
+- [abentyping_complete.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_complete.htm)
+- [abentyping_check.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_check.htm)
+- [abentyping_check_general.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_check_general.htm)
+- [abentyping_return_values.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_return_values.htm)
+- [abentyping_literals.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_literals.htm)
+- [abentyping_arith_expr.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_arith_expr.htm)
+- [abentyping_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_abexa.htm)
+
+**Bundle Contains**: 10 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.738Z
+
+---
+
 ### abentyping.htm
+
+> **📖 Official SAP Documentation**: [abentyping.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59,7 +86,14 @@ Continue
 ![Example](exa.gif "Example") [Generic Typing and Complete Typing](javascript:call_link\('abentyping_abexa.htm'\))
 
 
+
+**📖 Source**: [abentyping.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping.htm)
+
 ### abentyping_syntax.htm
+
+> **📖 Official SAP Documentation**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -104,7 +138,14 @@ Continue
 [typing Addition, complete\_type](javascript:call_link\('abentyping_complete.htm'\))
 
 
+
+**📖 Source**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_syntax.htm)
+
 ### abentyping_generic.htm
+
+> **📖 Official SAP Documentation**: [abentyping_generic.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_generic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -181,7 +222,14 @@ LOOP AT <any\_table> INTO <any\_object>.
 ENDLOOP.
 
 
+
+**📖 Source**: [abentyping_generic.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_generic.htm)
+
 ### abentyping_complete.htm
+
+> **📖 Official SAP Documentation**: [abentyping_complete.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_complete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -241,7 +289,14 @@ FIELD-SYMBOLS <spfli> TYPE spfli.
 <spfli>-carrid = ...
 
 
+
+**📖 Source**: [abentyping_complete.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_complete.htm)
+
 ### abentyping_syntax.htm
+
+> **📖 Official SAP Documentation**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -286,7 +341,14 @@ Continue
 [typing Addition, complete\_type](javascript:call_link\('abentyping_complete.htm'\))
 
 
+
+**📖 Source**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_syntax.htm)
+
 ### abentyping_check.htm
+
+> **📖 Official SAP Documentation**: [abentyping_check.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_check.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -321,7 +383,14 @@ Continue
 [Functions and Expressions as Actual Parameters](javascript:call_link\('abentyping_arith_expr.htm'\))
 
 
+
+**📖 Source**: [abentyping_check.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_check.htm)
+
 ### abentyping_check_general.htm
+
+> **📖 Official SAP Documentation**: [abentyping_check_general.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_check_general.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -370,7 +439,14 @@ Hints
 -   The constructor operators [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) and [CAST](javascript:call_link\('abenconstructor_expression_cast.htm'\)) are well suited to convert or cast invalid actual parameters to the type of a formal parameter.
 
 
+
+**📖 Source**: [abentyping_check_general.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_check_general.htm)
+
 ### abentyping_return_values.htm
+
+> **📖 Official SAP Documentation**: [abentyping_return_values.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_return_values.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -403,7 +479,14 @@ Hints
 -   The special rule that a generic formal parameter of type p gets the length of 16 when a functional method is passed does not apply to the other generic types any, data, simple, or numeric.
 
 
+
+**📖 Source**: [abentyping_return_values.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_return_values.htm)
+
 ### abentyping_literals.htm
+
+> **📖 Official SAP Documentation**: [abentyping_literals.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_literals.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -530,7 +613,14 @@ Hint
 The requirements in the table above do not completely exclude numeric literals from being passed to actual parameters that do not match their value range. An exception is raised in this case.
 
 
+
+**📖 Source**: [abentyping_literals.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_literals.htm)
+
 ### abentyping_arith_expr.htm
+
+> **📖 Official SAP Documentation**: [abentyping_arith_expr.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_arith_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -659,7 +749,14 @@ START-OF-SELECTION.
   result = c1=>m1( sqrt( 4 ) +  c1=>m1( num2 / 2 )  ).
 
 
+
+**📖 Source**: [abentyping_arith_expr.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_arith_expr.htm)
+
 ### abentyping_check.htm
+
+> **📖 Official SAP Documentation**: [abentyping_check.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_check.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -694,7 +791,17 @@ Continue
 [Functions and Expressions as Actual Parameters](javascript:call_link\('abentyping_arith_expr.htm'\))
 
 
+
+**📖 Source**: [abentyping_check.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_check.htm)
+
 ### abentyping_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentyping_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abentyping_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_abexa.htm)
+
 
   
 

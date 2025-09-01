@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abaploop_at_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm)
+- [abenscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm)
+- [abapmodify_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm)
+- [abendynpro_mod_simple_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_mod_simple_abexa.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.236Z
+
+---
+
 ### abaploop_at_screen.htm
+
+> **📖 Official SAP Documentation**: [abaploop_at_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57,7 +78,14 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Dynamic Screen Modifications](javascript:call_link\('abendynpro_mod_simple_abexa.htm'\))
 
 
+
+**📖 Source**: [abaploop_at_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm)
+
 ### abenscreen.htm
+
+> **📖 Official SAP Documentation**: [abenscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -304,7 +332,14 @@ Except for active and request, all components of the structure SCREEN correspond
 If the component request has the value 1 for a dynpro field at PAI time, those dialog modules are executed that are called for this field using the additions ON REQUEST and ON CHAIN-REQUEST after the dynpro statement [FIELD](javascript:call_link\('dynpfield_module.htm'\)).
 
 
+
+**📖 Source**: [abenscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm)
+
 ### abapmodify_screen.htm
+
+> **📖 Official SAP Documentation**: [abapmodify_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -379,7 +414,17 @@ Executable Example
 The program DEMO\_DYNPRO\_MODIFY\_SCREEN demonstrates all possible dynamic screen modifications.
 
 
+
+**📖 Source**: [abapmodify_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm)
+
 ### abendynpro_mod_simple_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_mod_simple_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_mod_simple_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abendynpro_mod_simple_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_mod_simple_abexa.htm)
+
 
   
 

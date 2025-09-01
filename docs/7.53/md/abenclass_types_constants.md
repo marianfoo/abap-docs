@@ -8,13 +8,9 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 Data Types and Constants of Classes
 
--   [Data Types](#@@ITOC@@ABENCLASS_TYPES_CONSTANTS_1)
+-   [Data Types](#abenclass-types-constants-1--------standalone-types---@ITOC@@ABENCLASS_TYPES_CONSTANTS_2)
 
--   [Standalone types](#@@ITOC@@ABENCLASS_TYPES_CONSTANTS_2)
-
--   [Bound data types](#@@ITOC@@ABENCLASS_TYPES_CONSTANTS_3)
-
--   [Constants](#@@ITOC@@ABENCLASS_TYPES_CONSTANTS_4)
+-   [Bound data types](#abenclass-types-constants-3--------constants---@ITOC@@ABENCLASS_TYPES_CONSTANTS_4)
 
 Data Types
 

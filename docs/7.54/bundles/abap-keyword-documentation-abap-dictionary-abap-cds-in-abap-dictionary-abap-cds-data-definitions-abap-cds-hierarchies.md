@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_cds_hierarchies.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_hierarchies.htm)
+- [abencds_hiera_client_handling.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hiera_client_handling.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.903Z
+
+---
+
 ### abenddic_cds_hierarchies.htm
+
+> **📖 Official SAP Documentation**: [abenddic_cds_hierarchies.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_hierarchies.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -63,7 +82,17 @@ Continue
 [ABAP CDS - Client Handling in CDS Hierarchies](javascript:call_link\('abencds_hiera_client_handling.htm'\))
 
 
+
+**📖 Source**: [abenddic_cds_hierarchies.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_hierarchies.htm)
+
 ### abencds_hiera_client_handling.htm
+
+> **📖 Official SAP Documentation**: [abencds_hiera_client_handling.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hiera_client_handling.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_hiera_client_handling.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hiera_client_handling.htm)
+
 
   
 

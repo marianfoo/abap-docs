@@ -14,9 +14,7 @@ If the formal parameter has a generic type, the non-specified type attributes ar
 
 If a literal meets the type requirements of the parameter, its contents are assigned to the formal parameter according to the relevant [conversion rules for elementary data types](javascript:call_link\('abenconversion_elementary.htm'\)). However, in contrast to the normal application of these rules, a non-catchable exception is raised if the [value range](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") of the target is exceeded.
 
--   [Checking Character Literals](#@@ITOC@@ABENTYPING_LITERALS_1)
-
--   [Checking Numeric Literals](#@@ITOC@@ABENTYPING_LITERALS_2)
+-   [Checking Character Literals](#abentyping-literals-1--------checking-numeric-literals---@ITOC@@ABENTYPING_LITERALS_2)
 
 Checking Character Literals
 

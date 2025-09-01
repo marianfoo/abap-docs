@@ -12,10 +12,8 @@ DDIC - Tools for Dictionary Objects
 
 [Dictionary objects](javascript:call_link\('abendictionary_object_glosry.htm'\) "Glossary Entry") are maintained using the ABAP Dictionary tool in ABAP Workbench and the [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"). The ABAP Dictionary tool in ABAP Workbench and the ADT tools each cover parts of the set of dictionary objects, but most objects can be maintained using both methods.
 
--   [The ABAP Dictionary Tool in ABAP Workbench](#@@ITOC@@ABENDDIC_TOOLS_1)
--   [Tools in ADT](#@@ITOC@@ABENDDIC_TOOLS_2)
-    -   [Form-Based Tools](#@@ITOC@@ABENDDIC_TOOLS_3)
-    -   [Source-Code-Based Tools](#@@ITOC@@ABENDDIC_TOOLS_4)
+-   [The ABAP Dictionary Tool in ABAP Workbench](#abenddic-tools-1-------tools-in-adt---@ITOC@@ABENDDIC_TOOLS_2)
+    -   [Form-Based Tools](#abenddic-tools-3-----------source-code-based-tools---@ITOC@@ABENDDIC_TOOLS_4)
 
 The ABAP Dictionary Tool in ABAP Workbench   
 

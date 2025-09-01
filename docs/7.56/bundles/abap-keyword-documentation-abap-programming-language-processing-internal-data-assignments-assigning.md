@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapassign_casting.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_casting.htm)
+- [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_abexas.htm)
+- [abencasting_imp_exp_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_imp_exp_abexa.htm)
+- [abencasting_obsolete_type_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_type_abexa.htm)
+- [abencasting_obsolete_dec_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_dec_abexa.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.487Z
+
+---
+
 ### abapassign_casting.htm
+
+> **📖 Official SAP Documentation**: [abapassign_casting.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_casting.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -274,7 +296,14 @@ Continue
 [Casting Examples](javascript:call_link\('abencasting_obsolete_abexas.htm'\))
 
 
+
+**📖 Source**: [abapassign_casting.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_casting.htm)
+
 ### abencasting_obsolete_abexas.htm
+
+> **📖 Official SAP Documentation**: [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -292,7 +321,14 @@ Continue
 ![Example](exa.gif "Example") [Field Symbols, Casting Decimal Places](javascript:call_link\('abencasting_obsolete_dec_abexa.htm'\))
 
 
+
+**📖 Source**: [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_abexas.htm)
+
 ### abencasting_imp_exp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencasting_imp_exp_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_imp_exp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -353,7 +389,14 @@ An implicit casting is performed in the first part of the method main. The field
 An explicit casting is performed in the second part of the method main. The field symbol <fs2> is completely generic. A cast is performed to the local program type t\_date for the field sy-datum using the addition CASTING of the statement ASSIGN. The field symbol <fs2> can now be handled like a structure but does not recognize components. For this reason, it must be assigned to another field symbol <fs3>, component by component.
 
 
+
+**📖 Source**: [abencasting_imp_exp_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_imp_exp_abexa.htm)
+
 ### abencasting_obsolete_type_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencasting_obsolete_type_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_type_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -403,7 +446,14 @@ This example demonstrates how casting works on built-in data types. First the ch
 The section of the method that has been commented out also shows the syntax for the relevant [obsolete casting](javascript:call_link\('abapassign_casting_obsolete.htm'\)).
 
 
+
+**📖 Source**: [abencasting_obsolete_type_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_type_abexa.htm)
+
 ### abencasting_obsolete_dec_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencasting_obsolete_dec_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_dec_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -464,7 +514,17 @@ The three fields of type p all have two decimal places. The field symbols <f1> a
 The section of the method that has been commented out also shows the syntax for the relevant [obsolete casting](javascript:call_link\('abapassign_casting_obsolete.htm'\)).
 
 
+
+**📖 Source**: [abencasting_obsolete_dec_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_dec_abexa.htm)
+
 ### abencasting_obsolete_abexas.htm
+
+> **📖 Official SAP Documentation**: [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_obsolete_abexas.htm)
+
 
   
 

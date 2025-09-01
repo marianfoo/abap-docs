@@ -3,7 +3,27 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennoncat_exceptions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennoncat_exceptions.htm)
+- [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_shortdump.htm)
+- [abapraise_shortdump_message.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_shortdump_message.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.944Z
+
+---
+
 ### abennoncat_exceptions.htm
+
+> **📖 Official SAP Documentation**: [abennoncat_exceptions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennoncat_exceptions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43,7 +63,14 @@ Continue
 [RAISE SHORTDUMP](javascript:call_link\('abapraise_shortdump.htm'\))
 
 
+
+**📖 Source**: [abennoncat_exceptions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennoncat_exceptions.htm)
+
 ### abapraise_shortdump.htm
+
+> **📖 Official SAP Documentation**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_shortdump.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -142,7 +169,14 @@ Continue
 [RAISE SHORTDUMP, message](javascript:call_link\('abapraise_shortdump_message.htm'\))
 
 
+
+**📖 Source**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_shortdump.htm)
+
 ### abapraise_shortdump_message.htm
+
+> **📖 Official SAP Documentation**: [abapraise_shortdump_message.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_shortdump_message.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -207,7 +241,17 @@ RAISE SHORTDUMP TYPE cx\_demo\_dyn\_t100
                 USING MESSAGE.
 
 
+
+**📖 Source**: [abapraise_shortdump_message.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_shortdump_message.htm)
+
 ### abapraise_shortdump.htm
+
+> **📖 Official SAP Documentation**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_shortdump.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_shortdump.htm)
+
 
   
 

@@ -3,7 +3,30 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenselection_screen_events.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_events.htm)
+- [abapat_selection-screen.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen.htm)
+- [abapat_selection-screen_events.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen_events.htm)
+- [abensel_screen_at_sel_on_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_at_sel_on_abexa.htm)
+- [abensel_screen_f1_help_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_f1_help_abexa.htm)
+- [abensel_screen_f4_help_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_f4_help_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.519Z
+
+---
+
 ### abenselection_screen_events.htm
+
+> **📖 Official SAP Documentation**: [abenselection_screen_events.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_events.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47,7 +70,14 @@ Continue
 [AT SELECTION-SCREEN](javascript:call_link\('abapat_selection-screen.htm'\))
 
 
+
+**📖 Source**: [abenselection_screen_events.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_events.htm)
+
 ### abapat_selection-screen.htm
+
+> **📖 Official SAP Documentation**: [abapat_selection-screen.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -85,7 +115,14 @@ Continue
 [AT SELECTION-SCREEN - selscreen\_event](javascript:call_link\('abapat_selection-screen_events.htm'\))
 
 
+
+**📖 Source**: [abapat_selection-screen.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen.htm)
+
 ### abapat_selection-screen_events.htm
+
+> **📖 Official SAP Documentation**: [abapat_selection-screen_events.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen_events.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -285,7 +322,14 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Input Help](javascript:call_link\('abensel_screen_f4_help_abexa.htm'\))
 
 
+
+**📖 Source**: [abapat_selection-screen_events.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen_events.htm)
+
 ### abensel_screen_at_sel_on_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensel_screen_at_sel_on_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_at_sel_on_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -331,7 +375,14 @@ If the user does not specify in block part1 any ascending numbers, then the enti
 If the user does not change the radio buttons of group rad, a warning appears.
 
 
+
+**📖 Source**: [abensel_screen_at_sel_on_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_at_sel_on_abexa.htm)
+
 ### abensel_screen_f1_help_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensel_screen_f1_help_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_f1_help_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -359,7 +410,14 @@ Description
 In this program, a selection screen with two parameters that are based on the data element S\_CARR\_ID of the ABAP Dictionary are declared. Whereas the Dictionary documentation is used as online help for p\_carr\_1, the system calls a separate screen with the number 100 for p\_carr\_2. Using the Screen Painter, this screen is defined as a modal dialog box with next screen 0, which displays the required help text as text fields. You are not required to program the flow logic for this screen.
 
 
+
+**📖 Source**: [abensel_screen_f1_help_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_f1_help_abexa.htm)
+
 ### abensel_screen_f4_help_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensel_screen_f4_help_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_f4_help_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -420,7 +478,14 @@ PROCESS AFTER INPUT.
 The dialog module value\_list suppresses the display of the screen layout of screen 100 and switches to list display. The list shows values for the parameter p\_carr\_2 and stores them in the HIDE area. Selecting a line on the value list triggers the event AT LINE-SELECTION, automatically putting the selected value from the HIDE area in the field p\_carr\_2. If the selection is valid, the system quits the event block for AT LINE-SELECTION directly with the selection screen and fills the input field accordingly.
 
 
+
+**📖 Source**: [abensel_screen_f4_help_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensel_screen_f4_help_abexa.htm)
+
 ### abapat_selection-screen_events.htm
+
+> **📖 Official SAP Documentation**: [abapat_selection-screen_events.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen_events.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -620,7 +685,17 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Input Help](javascript:call_link\('abensel_screen_f4_help_abexa.htm'\))
 
 
+
+**📖 Source**: [abapat_selection-screen_events.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen_events.htm)
+
 ### abapat_selection-screen.htm
+
+> **📖 Official SAP Documentation**: [abapat_selection-screen.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapat_selection-screen.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen.htm)
+
 
   
 

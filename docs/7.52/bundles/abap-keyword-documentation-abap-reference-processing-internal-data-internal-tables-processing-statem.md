@@ -3,7 +3,27 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_table_interval_spcl.htm)
+- [abapprovide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide.htm)
+- [abapendprovide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendprovide.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.494Z
+
+---
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23,7 +43,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -205,7 +232,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -228,7 +262,17 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide.htm)
+
 
   
 

@@ -3,7 +3,31 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenoperators_expressions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperators_expressions.htm)
+- [abenoperators.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperators.htm)
+- [abenexpressions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpressions.htm)
+- [abenexpressions_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpressions_abexas.htm)
+- [abenjaw_breaker_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjaw_breaker_abexa.htm)
+- [abenmine_sweeper_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmine_sweeper_abexa.htm)
+- [abengame_2048_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengame_2048_abexa.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.432Z
+
+---
+
 ### abenoperators_expressions.htm
+
+> **📖 Official SAP Documentation**: [abenoperators_expressions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperators_expressions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27,7 +51,14 @@ Continue
 [Examples of Expression-Oriented Programming](javascript:call_link\('abenexpressions_abexas.htm'\))
 
 
+
+**📖 Source**: [abenoperators_expressions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperators_expressions.htm)
+
 ### abenoperators.htm
+
+> **📖 Official SAP Documentation**: [abenoperators.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperators.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -75,7 +106,14 @@ ABAP contains the following operators:
     The literal operator & joins two literals or two string templates with a literal or a string template.
 
 
+
+**📖 Source**: [abenoperators.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperators.htm)
+
 ### abenexpressions.htm
+
+> **📖 Official SAP Documentation**: [abenexpressions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpressions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -130,7 +168,14 @@ Notes
 The ABAP expressions above can be used as [host expressions](javascript:call_link\('abenhost_expression_glosry.htm'\) "Glossary Entry") in Open SQL.
 
 
+
+**📖 Source**: [abenexpressions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpressions.htm)
+
 ### abenexpressions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexpressions_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpressions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -148,7 +193,14 @@ Continue
 ![Example](exa.gif "Example") [2048 Game](javascript:call_link\('abengame_2048_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexpressions_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpressions_abexas.htm)
+
 ### abenjaw_breaker_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenjaw_breaker_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjaw_breaker_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -304,7 +356,14 @@ This example uses the implementation of a Jawbreaker game to demonstrate express
 To play the game, use the left mouse button to remove adjacent blocks with the same color.
 
 
+
+**📖 Source**: [abenjaw_breaker_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjaw_breaker_abexa.htm)
+
 ### abenmine_sweeper_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmine_sweeper_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmine_sweeper_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -510,7 +569,14 @@ This example uses the implementation of a Minesweeper game to demonstrate expres
 To play the game, use the left and right mouse buttons to enter or select fields.
 
 
+
+**📖 Source**: [abenmine_sweeper_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmine_sweeper_abexa.htm)
+
 ### abengame_2048_abexa.htm
+
+> **📖 Official SAP Documentation**: [abengame_2048_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengame_2048_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -769,7 +835,17 @@ This example uses the implementation of a 2048 game to demonstrate expression-or
 To play the game, use the arrow keys on the keyboard to move all tiles in one of the four directions.
 
 
+
+**📖 Source**: [abengame_2048_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengame_2048_abexa.htm)
+
 ### abenexpressions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexpressions_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpressions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenexpressions_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpressions_abexas.htm)
+
 
   
 

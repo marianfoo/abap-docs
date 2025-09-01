@@ -3,7 +3,31 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapcreate_object.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object.htm)
+- [abapcreate_object_implicit.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_implicit.htm)
+- [abapcreate_object_explicit.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_explicit.htm)
+- [abapcreate_object_area_handle.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_area_handle.htm)
+- [abencreate_shared_object_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencreate_shared_object_abexa.htm)
+- [abapcreate_object_parameters.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_parameters.htm)
+- [abapcreate_object_para_tables.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_para_tables.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.241Z
+
+---
+
 ### abapcreate_object.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -91,7 +115,14 @@ Continue
 [CREATE OBJECT, parameter\_tables](javascript:call_link\('abapcreate_object_para_tables.htm'\))
 
 
+
+**📖 Source**: [abapcreate_object.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object.htm)
+
 ### abapcreate_object_implicit.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_implicit.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_implicit.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -133,7 +164,14 @@ CREATE OBJECT oref.
 cl\_demo\_output=>display( oref->attr ).
 
 
+
+**📖 Source**: [abapcreate_object_implicit.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_implicit.htm)
+
 ### abapcreate_object_explicit.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_explicit.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_explicit.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -207,7 +245,14 @@ CREATE OBJECT oref TYPE cls.
 cl\_demo\_output=>display( CAST cls( oref ) ).
 
 
+
+**📖 Source**: [abapcreate_object_explicit.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_explicit.htm)
+
 ### abapcreate_object_area_handle.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_area_handle.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_area_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -294,7 +339,14 @@ Continue
 ![Example](exa.gif "Example") [Creating an Instance of a Class as a Shared Object](javascript:call_link\('abencreate_shared_object_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_object_area_handle.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_area_handle.htm)
+
 ### abencreate_shared_object_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencreate_shared_object_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencreate_shared_object_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -369,7 +421,14 @@ If the addition AREA HANDLE is used, an instance of the local class class is cre
 After write access has been completed using the method DETACH\_COMMIT, a read is performed to demonstrate how the objects in the shared memory are accessed. Such an access can also be made in another program, as long as the area instance version exists in the shared memory.
 
 
+
+**📖 Source**: [abencreate_shared_object_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencreate_shared_object_abexa.htm)
+
 ### abapcreate_object_area_handle.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_area_handle.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_area_handle.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -456,7 +515,14 @@ Continue
 ![Example](exa.gif "Example") [Creating an Instance of a Class as a Shared Object](javascript:call_link\('abencreate_shared_object_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_object_area_handle.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_area_handle.htm)
+
 ### abapcreate_object_parameters.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_parameters.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_parameters.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -498,7 +564,17 @@ CREATE OBJECT dialog\_box
                  height = 350.
 
 
+
+**📖 Source**: [abapcreate_object_parameters.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_parameters.htm)
+
 ### abapcreate_object_para_tables.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_object_para_tables.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_para_tables.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapcreate_object_para_tables.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_para_tables.htm)
+
 
   
 

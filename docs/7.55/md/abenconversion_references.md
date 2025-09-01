@@ -16,13 +16,9 @@ The content of a reference variable can only be assigned to another reference va
 
 No conversion takes place when variables are assigned. For an assignment to take place, the [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") of the target reference variable must be more general than or the same as the [dynamic type](javascript:call_link\('abendynamic_type_glosry.htm'\) "Glossary Entry") of the source reference variable. After a successful assignment, the target reference variable points to the same object as the source reference variable, that is, the target reference variable inherits the dynamic type of the source reference variable.
 
--   [Static Type and Dynamic Type](#@@ITOC@@ABENCONVERSION_REFERENCES_1)
+-   [Static Type and Dynamic Type](#abenconversion-references-1--------up-cast-and-down-cast---@ITOC@@ABENCONVERSION_REFERENCES_2)
 
--   [Up Cast and Down Cast](#@@ITOC@@ABENCONVERSION_REFERENCES_2)
-
--   [Up Cast](#@@ITOC@@ABENCONVERSION_REFERENCES_3)
-
--   [Down Cast](#@@ITOC@@ABENCONVERSION_REFERENCES_4)
+-   [Up Cast](#abenconversion-references-3--------down-cast---@ITOC@@ABENCONVERSION_REFERENCES_4)
 
 Hint
 

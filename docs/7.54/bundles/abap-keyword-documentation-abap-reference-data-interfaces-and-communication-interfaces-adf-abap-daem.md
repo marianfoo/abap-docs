@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_daemon.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_daemon.htm)
+- [abenadf_non_blocking_model.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadf_non_blocking_model.htm)
+- [abenabap_daemon_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_daemon_abexas.htm)
+- [abenabap_mini_daemon_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_mini_daemon_abexa.htm)
+- [abenabap_daemon_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_daemon_abexa.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.943Z
+
+---
+
 ### abenabap_daemon.htm
+
+> **📖 Official SAP Documentation**: [abenabap_daemon.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_daemon.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -204,7 +226,14 @@ Continue
 [Examples for ABAP Daemons](javascript:call_link\('abenabap_daemon_abexas.htm'\))
 
 
+
+**📖 Source**: [abenabap_daemon.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_daemon.htm)
+
 ### abenadf_non_blocking_model.htm
+
+> **📖 Official SAP Documentation**: [abenadf_non_blocking_model.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadf_non_blocking_model.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -261,7 +290,14 @@ Notes
 -   Unlike in [non-blocking mode](javascript:call_link\('abenapc_non_blocking_model.htm'\)) for [APC](javascript:call_link\('abenapc_glosry.htm'\) "Glossary Entry"), the statement [CALL FUNCTION DESTINATION](javascript:call_link\('abapcall_function_destination.htm'\)) for [sRFC](javascript:call_link\('abensrfc_glosry.htm'\) "Glossary Entry") is allowed in ABAP Daemon processing.
 
 
+
+**📖 Source**: [abenadf_non_blocking_model.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadf_non_blocking_model.htm)
+
 ### abenabap_daemon_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_daemon_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_daemon_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -278,7 +314,14 @@ Continue
 ![Example](exa.gif "Example") [ADF, Creating and Using an ABAP Daemon](javascript:call_link\('abenabap_daemon_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_daemon_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_daemon_abexas.htm)
+
 ### abenabap_mini_daemon_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenabap_mini_daemon_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_mini_daemon_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -380,7 +423,14 @@ The program DEMO\_ABAP\_MINI\_DAEMON uses [ABAP Daemon Manager](javascript:call_
 It then checks whether the daemon wrote the message to the shared memory.
 
 
+
+**📖 Source**: [abenabap_mini_daemon_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_mini_daemon_abexa.htm)
+
 ### abenabap_daemon_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenabap_daemon_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_daemon_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -961,7 +1011,17 @@ Note
 This simple example does not guarantee that an ABAP Daemon in the ABAP Daemon class CL\_ABAP\_DAEMON is a system-wide singleton. Any parallel reads that cause restarts can be the source of multiple unwanted daemons. This applies in particular when moving daemons to other AS Instances. A great deal more work is required to create a real singleton. See the class CL\_AD\_EXT\_SIMPLE\_DAEMON, which can be used by the program RS\_ABAP\_DAEMON\_TEST.
 
 
+
+**📖 Source**: [abenabap_daemon_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_daemon_abexa.htm)
+
 ### abenabap_daemon_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_daemon_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_daemon_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabap_daemon_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_daemon_abexas.htm)
+
 
   
 

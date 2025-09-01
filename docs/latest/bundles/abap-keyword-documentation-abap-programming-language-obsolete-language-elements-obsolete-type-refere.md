@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobsolete_typing.htm)
+- [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlike_obsolete.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.924Z
+
+---
+
 ### abenobsolete_typing.htm
+
+> **📖 Official SAP Documentation**: [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobsolete_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23,7 +42,17 @@ Continue
 [LIKE, Obsolete](javascript:call_link\('abenlike_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobsolete_typing.htm)
+
 ### abenlike_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlike_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlike_obsolete.htm)
+
 
   
 

@@ -3,7 +3,27 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_f1_select_list.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm)
+- [abencds_f1_select_list_entry.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm)
+- [abencds_f1_element_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.365Z
+
+---
+
 ### abencds_f1_select_list.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_select_list.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -64,7 +84,14 @@ Continue
 [ABAP CDS - SELECT, element](javascript:call_link\('abencds_f1_select_list_entry.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_select_list.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm)
+
 ### abencds_f1_select_list_entry.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_select_list_entry.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -264,7 +291,14 @@ Continue
 [ABAP CDS - SELECT, element\_annot](javascript:call_link\('abencds_f1_element_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_select_list_entry.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm)
+
 ### abencds_f1_element_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_element_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -358,7 +392,17 @@ define view Demo\_Cds\_Assoc\_Anno1\_Loc
 If the association \_some\_assoc were published from Demo\_Cds\_Assoc\_Anno2 instead of or in addition to \_some\_assoc by specifying the name Demo\_Cds\_Assoc\_Anno2.\_some\_assoc explicitly, the annotation would be inherited again. The program DEMO\_CDS\_ASSOC\_ANNO evaluates the annotations of both views. No local element annotations are defined for the locally defined association \_some\_assoc of the view Demo\_Cds\_Assoc\_Anno1\_Loc, which means that the result for this association is empty.
 
 
+
+**📖 Source**: [abencds_f1_element_annotations.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm)
+
 ### abencds_f1_select_list_entry.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_select_list_entry.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_select_list_entry.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm)
+
 
   
 

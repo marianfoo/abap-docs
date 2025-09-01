@@ -3,7 +3,37 @@
 Included pages: 13
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abendata_type_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_type_obj_guidl.htm)
+- [abenbound_independent_dtype_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbound_independent_dtype_guidl.htm)
+- [abendeclaration_dtypes_const_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclaration_dtypes_const_guidl.htm)
+- [abendeclaration_variables_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclaration_variables_guidl.htm)
+- [abendeclaration_inline_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclaration_inline_guidl.htm)
+- [abenincluding_structures_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenincluding_structures_guidl.htm)
+- [abenusing_types_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenusing_types_guidl.htm)
+- [abenref_types_objects_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenref_types_objects_guidl.htm)
+- [abentable_work_area_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_work_area_guidl.htm)
+- [abenliterals_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenliterals_guidl.htm)
+- [abenstrings_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstrings_guidl.htm)
+- [abenstart_values_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstart_values_guidl.htm)
+- [abendataobjects_true_value_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendataobjects_true_value_guidl.htm)
+
+**Bundle Contains**: 13 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.694Z
+
+---
+
 ### abendata_type_obj_guidl.htm
+
+> **📖 Official SAP Documentation**: [abendata_type_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_type_obj_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -68,7 +98,14 @@ Continue
 [Data Objects for Truth Values](javascript:call_link\('abendataobjects_true_value_guidl.htm'\))
 
 
+
+**📖 Source**: [abendata_type_obj_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_type_obj_guidl.htm)
+
 ### abenbound_independent_dtype_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenbound_independent_dtype_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbound_independent_dtype_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -130,7 +167,14 @@ DATA: number\_1 TYPE number\_type,
 ...
 
 
+
+**📖 Source**: [abenbound_independent_dtype_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbound_independent_dtype_guidl.htm)
+
 ### abendeclaration_dtypes_const_guidl.htm
+
+> **📖 Official SAP Documentation**: [abendeclaration_dtypes_const_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclaration_dtypes_const_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -226,7 +270,14 @@ CLASS cl\_...\_icons DEFINITION PUBLIC FINAL.
 ENDCLASS.
 
 
+
+**📖 Source**: [abendeclaration_dtypes_const_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclaration_dtypes_const_guidl.htm)
+
 ### abendeclaration_variables_guidl.htm
+
+> **📖 Official SAP Documentation**: [abendeclaration_variables_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclaration_variables_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -314,7 +365,14 @@ CLASS screen\_handler DEFINITION.
   ...
 
 
+
+**📖 Source**: [abendeclaration_variables_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclaration_variables_guidl.htm)
+
 ### abendeclaration_inline_guidl.htm
+
+> **📖 Official SAP Documentation**: [abendeclaration_inline_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclaration_inline_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -399,7 +457,14 @@ METHOD demo\_method.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abendeclaration_inline_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclaration_inline_guidl.htm)
+
 ### abenincluding_structures_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenincluding_structures_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenincluding_structures_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -469,7 +534,14 @@ TYPES:
 END OF structure\_2.
 
 
+
+**📖 Source**: [abenincluding_structures_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenincluding_structures_guidl.htm)
+
 ### abenusing_types_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenusing_types_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenusing_types_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -524,7 +596,14 @@ IF is\_empty EQ abap\_false.
 ENDIF.
 
 
+
+**📖 Source**: [abenusing_types_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenusing_types_guidl.htm)
+
 ### abenref_types_objects_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenref_types_objects_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenref_types_objects_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -588,7 +667,14 @@ The following source code shows the improved declaration of the helper variable 
 ...
 
 
+
+**📖 Source**: [abenref_types_objects_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenref_types_objects_guidl.htm)
+
 ### abentable_work_area_guidl.htm
+
+> **📖 Official SAP Documentation**: [abentable_work_area_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_work_area_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -645,7 +731,14 @@ Note
 The restriction on the statement TABLES to this last remaining technical requirement, that is, the communication with classic dynpros and selection screens, can also be derived from other rules of these guidelines. However, since the use of the statement TABLES instead of the statement DATA is still very popular among experienced ABAP developers, the rule above explicitly stresses that it is not allowed.
 
 
+
+**📖 Source**: [abentable_work_area_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_work_area_guidl.htm)
+
 ### abenliterals_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenliterals_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenliterals_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -741,7 +834,14 @@ circumference = 2 \* pi \* radius.
 area          = pi \* radius \*\* 2.
 
 
+
+**📖 Source**: [abenliterals_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenliterals_guidl.htm)
+
 ### abenstrings_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenstrings_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstrings_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -811,7 +911,14 @@ APPEND \`</BODY>\` TO html\_table.
 APPEND \`</HTML>\` TO html\_table.
 
 
+
+**📖 Source**: [abenstrings_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstrings_guidl.htm)
+
 ### abenstart_values_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenstart_values_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstart_values_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -856,7 +963,17 @@ The following source code corrects the above example by replacing the numeric li
 CONSTANTS high\_noon TYPE t VALUE '120000'.
 
 
+
+**📖 Source**: [abenstart_values_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstart_values_guidl.htm)
+
 ### abendataobjects_true_value_guidl.htm
+
+> **📖 Official SAP Documentation**: [abendataobjects_true_value_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendataobjects_true_value_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abendataobjects_true_value_guidl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendataobjects_true_value_guidl.htm)
+
 
   
 

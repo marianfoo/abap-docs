@@ -3,7 +3,33 @@
 Included pages: 12
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abensource_code_enhancement.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensource_code_enhancement.htm)
+- [abenimplicit_enh_points.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenimplicit_enh_points.htm)
+- [abenexplicit_enh_points.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexplicit_enh_points.htm)
+- [abapenhancement-point.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement-point.htm)
+- [abapenhancement-section.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement-section.htm)
+- [abapend-enhancement-section.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-enhancement-section.htm)
+- [abenenh_implementation.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenh_implementation.htm)
+- [abapenhancement.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement.htm)
+- [abapendenhancement.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendenhancement.htm)
+
+**Bundle Contains**: 9 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.190Z
+
+---
+
 ### abensource_code_enhancement.htm
+
+> **📖 Official SAP Documentation**: [abensource_code_enhancement.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensource_code_enhancement.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33,7 +59,14 @@ Continue
 [Enhancement Implementation](javascript:call_link\('abenenh_implementation.htm'\))
 
 
+
+**📖 Source**: [abensource_code_enhancement.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensource_code_enhancement.htm)
+
 ### abenimplicit_enh_points.htm
+
+> **📖 Official SAP Documentation**: [abenimplicit_enh_points.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenimplicit_enh_points.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -78,7 +111,14 @@ Notes
 -   [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") do not have any implicit enhancement points.
 
 
+
+**📖 Source**: [abenimplicit_enh_points.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenimplicit_enh_points.htm)
+
 ### abenexplicit_enh_points.htm
+
+> **📖 Official SAP Documentation**: [abenexplicit_enh_points.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexplicit_enh_points.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -104,7 +144,14 @@ Continue
 [ENHANCEMENT-SECTION](javascript:call_link\('abapenhancement-section.htm'\))
 
 
+
+**📖 Source**: [abenexplicit_enh_points.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexplicit_enh_points.htm)
+
 ### abapenhancement-point.htm
+
+> **📖 Official SAP Documentation**: [abapenhancement-point.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement-point.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -181,7 +228,14 @@ Notes
 -   In an include program that is incorporated in the same program more than once, only include-bound source code enhancements are allowed.
 
 
+
+**📖 Source**: [abapenhancement-point.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement-point.htm)
+
 ### abapenhancement-section.htm
+
+> **📖 Official SAP Documentation**: [abapenhancement-section.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement-section.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -257,7 +311,14 @@ Continue
 [END-ENHANCEMENT-SECTION](javascript:call_link\('abapend-enhancement-section.htm'\))
 
 
+
+**📖 Source**: [abapenhancement-section.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement-section.htm)
+
 ### abapend-enhancement-section.htm
+
+> **📖 Official SAP Documentation**: [abapend-enhancement-section.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-enhancement-section.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -280,7 +341,14 @@ Effect
 The statement END-ENHANCEMENT-SECTION ends an [enhancement point](javascript:call_link\('abenenhancement_point_glosry.htm'\) "Glossary Entry") opened using [ENHANCEMENT-SECTION](javascript:call_link\('abapenhancement-section.htm'\)).
 
 
+
+**📖 Source**: [abapend-enhancement-section.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-enhancement-section.htm)
+
 ### abapenhancement-section.htm
+
+> **📖 Official SAP Documentation**: [abapenhancement-section.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement-section.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -356,7 +424,14 @@ Continue
 [END-ENHANCEMENT-SECTION](javascript:call_link\('abapend-enhancement-section.htm'\))
 
 
+
+**📖 Source**: [abapenhancement-section.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement-section.htm)
+
 ### abenexplicit_enh_points.htm
+
+> **📖 Official SAP Documentation**: [abenexplicit_enh_points.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexplicit_enh_points.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -382,7 +457,14 @@ Continue
 [ENHANCEMENT-SECTION](javascript:call_link\('abapenhancement-section.htm'\))
 
 
+
+**📖 Source**: [abenexplicit_enh_points.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexplicit_enh_points.htm)
+
 ### abenenh_implementation.htm
+
+> **📖 Official SAP Documentation**: [abenenh_implementation.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenh_implementation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -405,7 +487,14 @@ Continue
 [ENDENHANCEMENT](javascript:call_link\('abapendenhancement.htm'\))
 
 
+
+**📖 Source**: [abenenh_implementation.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenh_implementation.htm)
+
 ### abapenhancement.htm
+
+> **📖 Official SAP Documentation**: [abapenhancement.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -440,7 +529,14 @@ Notes
 -   It is possible to enhance a source code plug-in using further source code plug-ins. This means that, from then onwards, the statements [ENHANCEMENT-POINT](javascript:call_link\('abapenhancement-point.htm'\)) and [ENHANCEMENT-SECTION](javascript:call_link\('abapenhancement-section.htm'\)) can be used between ENHANCEMENT and ENDENHANCEMENT.
 
 
+
+**📖 Source**: [abapenhancement.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapenhancement.htm)
+
 ### abapendenhancement.htm
+
+> **📖 Official SAP Documentation**: [abapendenhancement.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendenhancement.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -463,7 +559,17 @@ Effect
 The statement ENDENHANCEMENT closes a [source code plug-in](javascript:call_link\('abensource_code_plugin_glosry.htm'\) "Glossary Entry") introduced using [ENHANCEMENT](javascript:call_link\('abapenhancement.htm'\)).
 
 
+
+**📖 Source**: [abapendenhancement.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendenhancement.htm)
+
 ### abenenh_implementation.htm
+
+> **📖 Official SAP Documentation**: [abenenh_implementation.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenh_implementation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenenh_implementation.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenh_implementation.htm)
+
 
   
 

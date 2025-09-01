@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_builtin_types_general.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types_general.htm)
+- [abenddic_builtin_types_int_pack.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types_int_pack.htm)
+- [abenddic_decimal_floating_point.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_decimal_floating_point.htm)
+- [abenddic_character_byte_types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_character_byte_types.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.203Z
+
+---
+
 ### abenddic_builtin_types_general.htm
+
+> **📖 Official SAP Documentation**: [abenddic_builtin_types_general.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types_general.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28,7 +49,14 @@ Continue
 [DDIC - Character-Like Types and Byte-Like Types](javascript:call_link\('abenddic_character_byte_types.htm'\))
 
 
+
+**📖 Source**: [abenddic_builtin_types_general.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types_general.htm)
+
 ### abenddic_builtin_types_int_pack.htm
+
+> **📖 Official SAP Documentation**: [abenddic_builtin_types_int_pack.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types_int_pack.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -72,7 +100,14 @@ Hints
 -   If a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") has one of the built-in numeric types, the output of a sign must be defined in a [domain](javascript:call_link\('abenddic_domains.htm'\)) so that negative values can be represented.
 
 
+
+**📖 Source**: [abenddic_builtin_types_int_pack.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types_int_pack.htm)
+
 ### abenddic_decimal_floating_point.htm
+
+> **📖 Official SAP Documentation**: [abenddic_decimal_floating_point.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_decimal_floating_point.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -89,131 +124,16 @@ DDIC - Decimal Floating Point Numbers
 
 In [decimal floating point numbers](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry"), a maximum of 16 or 34 places exactly are returned in the mantissa depending on the data type.
 
--   [Handling in ABAP Dictionary](#@@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_1)
-    -   [Decimal Floating Point Types](#@@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_2)
-    -   [Replacement Types](#@@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_3)
--   [Handling in Dynpros - Output Length and Output Style](#@@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_4)
--   [Handling in ABAP Programs](#@@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_5)
-
-Handling in ABAP Dictionary   
-
-In ABAP Dictionary, the following data types are available for decimal floating numbers.
-
-Decimal Floating Point Types   
-
-The following built-in ABAP Dictionary data types represent real floating point types of a database:
-
--   [DECFLOAT16](javascript:call_link\('abenddic_builtin_types.htm'\)) for 16-digit numbers.
--   [DECFLOAT34](javascript:call_link\('abenddic_builtin_types.htm'\)) for 34-digit numbers.
-
-They can be used, without restrictions, as numeric data types in appropriate expressions and functions. They are currently only supported by [SAP HANA databases](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry").
-
-Replacement Types   
-
-The following built-in data types in ABAP Dictionary are used as replacements for real decimal floating point types:
-
--   [DF16\_DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) and [DF16\_RAW](javascript:call_link\('abenddic_builtin_types.htm'\)) for 16-digit numbers.
--   [DF34\_DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) and [DF34\_RAW](javascript:call_link\('abenddic_builtin_types.htm'\)) for 34-digit numbers.
-
-These types can be used as replacements on database systems that do not support decimal floating point types. They are mainly used to save decimal floating point numbers from ABAP programs and have only restricted use as numeric data types in appropriate expressions and functions:
-
--   DF16\_DEC and DF34\_DEC
-    
-    In database fields of this type, decimal floating point numbers are stored as a packed number (format [DEC](javascript:call_link\('abenddic_builtin_types_int_pack.htm'\))). The length and the number of decimal places must be specified when defining a data type in ABAP Dictionary. For this type, restricted operations can be performed on the database:
-    
-    -   No operands of these types can be used in [arithmetic SQL expressions](javascript:call_link\('abensql_arith.htm'\)) or [numeric SQL functions](javascript:call_link\('abensql_arith_func.htm'\)).
-    -   Columns, but no SQL expressions of these types, can be used as operands in the [aggregate functions](javascript:call_link\('abapselect_aggregate.htm'\)) except for STRING\_AGG.
-    -   In the statement [UPDATE](javascript:call_link\('abapupdate.htm'\)), operations with these types are possible with [SET + and \-](javascript:call_link\('abapupdate_set_expression.htm'\)).
-    -   Database fields with these types can be processed in [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") or [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry").
-    -   When there is a write to the database, the system implicitly rounds off to the number of decimal places and decimal overflows can occur.
--   DF16\_RAW and DF34\_RAW
-    
-    In database fields of this type, decimal floating point numbers are stored as binary (in RAW format). The length is set to 16 or 34 places. Values can be sorted, compared, and used in indexes. For this type, no calculations can be performed on the database. This is an SAP-specific format, which means that the corresponding fields also cannot be processed in [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") or [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry"). The scaling is lost when writing to the database.
-    
-
-Hints
-
--   If possible, the types DECFLOAT16 and DECFLOAT34 should be used.
--   If it is still necessary to work with the replacement types, its intended use case determines which type is to be used:
-    -   The types DF16\_DEC and DF34\_DEC can be used for calculations on the database, but their value ranges are smaller than those of real decimal floating point numbers.
-    -   The types DF16\_RAW and DF34\_RAW cover the whole value range, but are not recognized as numbers by the databases.
--   As in the [general packed numbers](javascript:call_link\('abenddic_builtin_types_int_pack.htm'\)), the number of places in the replacement types DF16\_DEC and DF34\_DEC should be odd.
--   In [ABAP CDS](javascript:call_link\('abencds.htm'\)) it is not usually possible to execute expressions or functions for the replacement types.
--   As well as the types above, there are also the [obsolete](javascript:call_link\('abenddic_obsolete_types.htm'\)) replacement types DF16\_SCL and DF34\_SCL for decimal floating point numbers with [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry").
-    -   In database fields of this type, decimal floating point numbers are stored in the same way as DF16\_RAW or DF34\_RAW (length 16 or 34 places, and the same restrictions apply). The scaling must be specified in a direct successor database field with type INT2. When a decimal floating point number is written, this field is filled automatically with the scaling and the scaling is taken from it in reads.
-    -   It is strongly advised not to use the types DF16\_SCL and DF34\_SCL. Their functions are rarely needed and the additional column for scaling makes them too complicated and error-prone to use correctly.
-
-Handling in Dynpros - Output Length and Output Style   
-
-The maximum output length that can be specified in a [domain](javascript:call_link\('abenddic_domains.htm'\)) for a 16-character decimal floating point number is 24. For a 34-character number, 46 is the maximum output length. These are also the default values.
-
-In a domain, or directly in a structure component created using one of the types for decimal floating numbers (but not in data elements with directly specified technical properties), one of the following output styles is always defined. The output style defines how a dynpro field defined with reference to this domain (or a corresponding ABAP field in the case of list output) is formatted:
-
--   Normal
-    
-    Mathematical or scientific notation (depending on space)
-    
--   Sign right
-    
-    Commercial notation (canceled if not enough space, instead of implicit transformation to scientific notation)
-    
--   Scale-preserving
-    
-    Format with preservation of scaling, including trailing zeros in the decimal places
-    
--   Scientific
-    
-    Scientific notation
-    
--   Scientific with leading zero
-    
-    Scientific notation with a 0 as an integer digit
-    
--   Scale-preserving scientific
-    
-    Scientific notation including trailing zeros in the mantissa.
-    
--   Engineering
-    
-    Scientific notation where the exponent is always an integer and a multiple of 3. The value range of the integer digits is between 1 and 999 (except if the source field has the value 0).
-    
-
-For dynpro fields whose data type is not defined in ABAP Dictionary, the output style can also be determined in [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry"). In the case of formatting with [string templates](javascript:call_link\('abapcompute_string_format_options.htm'\)) or with the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)), the addition [STYLE](javascript:call_link\('abapwrite_ext_options.htm'\)) is available.
-
-Hints
-
--   If scientific notation is used, a limited number of displayed positions of the mantissa can be useful. This can be achieved using the built-in function [rescale](javascript:call_link\('abendec_floating_point_functions.htm'\)).
--   The "scale-preserving" style ensures that the scaling is restored in conversions from dynpro fields to ABAP, and not just the original value.
--   If vertically aligned decimal separators and exponents are needed on UIs, the scale-preserving scientific notation can be used.
-
-Handling in ABAP Programs   
-
-The ABAP types that correspond to the 16 or 34 figure decimal floating numbers in ABAP Dictionary are decfloat16 and decfloat34, which are handled internally according to the IEEE-754-2008 standard, and are supported by all ABAP operations. There is restricted support for floating point numbers with replacement types in [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)). In [arithmetic SQL expressions](javascript:call_link\('abensql_arith.htm'\)), only those decimal floating point numbers are supported that are based on the decimal floating point types.
-
-The addition [STYLE](javascript:call_link\('abapwrite_to_options.htm'\)) after [WRITE *\[*TO*\]*](javascript:call_link\('abapwrite_to.htm'\)) and the formatting option [STYLE](javascript:call_link\('abapcompute_string_format_options.htm'\)) in [embedded expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)) are available for the formatting of decimal floating numbers in programs. These overwrite the output style defined in ABAP Dictionary. When the addition [CURRENCY](javascript:call_link\('abapwrite_to_options.htm'\)) is used after [WRITE *\[*TO*\]*](javascript:call_link\('abapwrite_to.htm'\)) for a decimal floating number defined in the ABAP Dictionary, it must be defined with the output style Sign right, otherwise an exception occurs.
-
-
-### abenddic_character_byte_types.htm
-
-  
-
-* * *
-
-AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Built-In Data Types](javascript:call_link\('abenddic_builtin_types_intro.htm'\)) →  [DDIC - Properties of the Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_types_prop.htm'\)) →  [DDIC - General Dictionary Types](javascript:call_link\('abenddic_builtin_types_general.htm'\)) → 
-
- [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DDIC - Character-Like Types and Byte-Like Types, ABENDDIC_CHARACTER_BYTE_TYPES, 757%0
+-   [Handling in ABAP Dictionary](#abenddic-decimal-floating-point-1-----------decimal-floating-point-types---@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_2)
+    -   [Replacement Types](#abenddic-decimal-floating-point-3-------handling-in-dynpros---output-length-and-output-style---@ITOC@@ABENDDIC_DECIMAL_FLOATING_POINT_4)
+-   [Handling in ABAP Programs](#abenddic-decimal-floating-point-5---handling-in-abap-dictionary-----in-abap-dictionary--the-following-data-types-are-available-for-decimal-floating-numbers---decimal-floating-point-types-----the-following-built-in-abap-dictionary-data-types-represent-real-floating-point-types-of-a-database--------decfloat16--javascript-call-link---abenddic-builtin-types-htm-----for-16-digit-numbers-------decfloat34--javascript-call-link---abenddic-builtin-types-htm-----for-34-digit-numbers---they-can-be-used--without-restrictions--as-numeric-data-types-in-appropriate-expressions-and-functions--they-are-currently-only-supported-by--sap-hana-databases--javascript-call-link---abenhana-database-glosry-htm-----glossary-entry-----replacement-types-----the-following-built-in-data-types-in-abap-dictionary-are-used-as-replacements-for-real-decimal-floating-point-types--------df16--dec--javascript-call-link---abenddic-builtin-types-htm-----and--df16--raw--javascript-call-link---abenddic-builtin-types-htm-----for-16-digit-numbers-------df34--dec--javascript-call-link---abenddic-builtin-types-htm-----and--df34--raw--javascript-call-link---abenddic-builtin-types-htm-----for-34-digit-numbers---these-types-can-be-used-as-replacements-on-database-systems-that-do-not-support-decimal-floating-point-types--they-are-mainly-used-to-save-decimal-floating-point-numbers-from-abap-programs-and-have-only-restricted-use-as-numeric-data-types-in-appropriate-expressions-and-functions-------df16--dec-and-df34--dec----------in-database-fields-of-this-type--decimal-floating-point-numbers-are-stored-as-a-packed-number--format--dec--javascript-call-link---abenddic-builtin-types-int-pack-htm-------the-length-and-the-number-of-decimal-places-must-be-specified-when-defining-a-data-type-in-abap-dictionary--for-this-type--restricted-operations-can-be-performed-on-the-database---------------no-operands-of-these-types-can-be-used-in--arithmetic-sql-expressions--javascript-call-link---abensql-arith-htm-----or--numeric-sql-functions--javascript-call-link---abensql-arith-func-htm--------------columns--but-no-sql-expressions-of-these-types--can-be-used-as-operands-in-the--aggregate-functions--javascript-call-link---abapselect-aggregate-htm-----except-for-string--agg----------in-the-statement--update--javascript-call-link---abapupdate-htm------operations-with-these-types-are-possible-with--set---and-----javascript-call-link---abapupdate-set-expression-htm--------------database-fields-with-these-types-can-be-processed-in--native-sql--javascript-call-link---abennative-sql-glosry-htm-----glossary-entry---or--amdp--javascript-call-link---abenamdp-glosry-htm-----glossary-entry------------when-there-is-a-write-to-the-database--the-system-implicitly-rounds-off-to-the-number-of-decimal-places-and-decimal-overflows-can-occur------df16--raw-and-df34--raw----------in-database-fields-of-this-type--decimal-floating-point-numbers-are-stored-as-binary--in-raw-format---the-length-is-set-to-16-or-34-places--values-can-be-sorted--compared--and-used-in-indexes--for-this-type--no-calculations-can-be-performed-on-the-database--this-is-an-sap-specific-format--which-means-that-the-corresponding-fields-also-cannot-be-processed-in--native-sql--javascript-call-link---abennative-sql-glosry-htm-----glossary-entry---or--amdp--javascript-call-link---abenamdp-glosry-htm-----glossary-entry----the-scaling-is-lost-when-writing-to-the-database--------hints------if-possible--the-types-decfloat16-and-decfloat34-should-be-used------if-it-is-still-necessary-to-work-with-the-replacement-types--its-intended-use-case-determines-which-type-is-to-be-used----------the-types-df16--dec-and-df34--dec-can-be-used-for-calculations-on-the-database--but-their-value-ranges-are-smaller-than-those-of-real-decimal-floating-point-numbers----------the-types-df16--raw-and-df34--raw-cover-the-whole-value-range--but-are-not-recognized-as-numbers-by-the-databases------as-in-the--general-packed-numbers--javascript-call-link---abenddic-builtin-types-int-pack-htm------the-number-of-places-in-the-replacement-types-df16--dec-and-df34--dec-should-be-odd------in--abap-cds--javascript-call-link---abencds-htm-----it-is-not-usually-possible-to-execute-expressions-or-functions-for-the-replacement-types------as-well-as-the-types-above--there-are-also-the--obsolete--javascript-call-link---abenddic-obsolete-types-htm-----replacement-types-df16--scl-and-df34--scl-for-decimal-floating-point-numbers-with--scaling--javascript-call-link---abenscale-glosry-htm-----glossary-entry------------in-database-fields-of-this-type--decimal-floating-point-numbers-are-stored-in-the-same-way-as-df16--raw-or-df34--raw--length-16-or-34-places--and-the-same-restrictions-apply---the-scaling-must-be-specified-in-a-direct-successor-database-field-with-type-int2--when-a-decimal-floating-point-number-is-written--this-field-is-filled-automatically-with-the-scaling-and-the-scaling-is-taken-from-it-in-reads----------it-is-strongly-advised-not-to-use-the-types-df16--scl-and-df34--scl--their-functions-are-rarely-needed-and-the-additional-column-for-scaling-makes-them-too-complicated-and-error-prone-to-use-correctly---handling-in-dynpros---output-length-and-output-style-----the-maximum-output-length-that-can-be-specified-in-a--domain--javascript-call-link---abenddic-domains-htm-----for-a-16-character-decimal-floating-point-number-is-24--for-a-34-character-number--46-is-the-maximum-output-length--these-are-also-the-default-values---in-a-domain--or-directly-in-a-structure-component-created-using-one-of-the-types-for-decimal-floating-numbers--but-not-in-data-elements-with-directly-specified-technical-properties---one-of-the-following-output-styles-is-always-defined--the-output-style-defines-how-a-dynpro-field-defined-with-reference-to-this-domain--or-a-corresponding-abap-field-in-the-case-of-list-output--is-formatted-------normal----------mathematical-or-scientific-notation--depending-on-space-----------sign-right----------commercial-notation--canceled-if-not-enough-space--instead-of-implicit-transformation-to-scientific-notation-----------scale-preserving----------format-with-preservation-of-scaling--including-trailing-zeros-in-the-decimal-places----------scientific----------scientific-notation----------scientific-with-leading-zero----------scientific-notation-with-a-0-as-an-integer-digit----------scale-preserving-scientific----------scientific-notation-including-trailing-zeros-in-the-mantissa-----------engineering----------scientific-notation-where-the-exponent-is-always-an-integer-and-a-multiple-of-3--the-value-range-of-the-integer-digits-is-between-1-and-999--except-if-the-source-field-has-the-value-0---------for-dynpro-fields-whose-data-type-is-not-defined-in-abap-dictionary--the-output-style-can-also-be-determined-in--screen-painter--javascript-call-link---abenscreen-painter-glosry-htm-----glossary-entry----in-the-case-of-formatting-with--string-templates--javascript-call-link---abapcompute-string-format-options-htm-----or-with-the-statements--write--javascript-call-link---abapwrite--htm-----or--write-to--javascript-call-link---abapwrite-to-htm------the-addition--style--javascript-call-link---abapwrite-ext-options-htm-----is-available---hints------if-scientific-notation-is-used--a-limited-number-of-displayed-positions-of-the-mantissa-can-be-useful--this-can-be-achieved-using-the-built-in-function--rescale--javascript-call-link---abendec-floating-point-functions-htm----------the--scale-preserving--style-ensures-that-the-scaling-is-restored-in-conversions-from-dynpro-fields-to-abap--and-not-just-the-original-value------if-vertically-aligned-decimal-separators-and-exponents-are-needed-on-uis--the-scale-preserving-scientific-notation-can-be-used---handling-in-abap-programs-----the-abap-types-that-correspond-to-the-16-or-34-figure-decimal-floating-numbers-in-abap-dictionary-are-decfloat16-and-decfloat34--which-are-handled-internally-according-to-the-ieee-754-2008-standard--and-are-supported-by-all-abap-operations--there-is-restricted-support-for-floating-point-numbers-with-replacement-types-in--sql-expressions--javascript-call-link---abapsql-expr-htm------in--arithmetic-sql-expressions--javascript-call-link---abensql-arith-htm------only-those-decimal-floating-point-numbers-are-supported-that-are-based-on-the-decimal-floating-point-types---the-addition--style--javascript-call-link---abapwrite-to-options-htm-----after--write-----to------javascript-call-link---abapwrite-to-htm-----and-the-formatting-option--style--javascript-call-link---abapcompute-string-format-options-htm-----in--embedded-expressions--javascript-call-link---abenstring-templates-expressions-htm-----are-available-for-the-formatting-of-decimal-floating-numbers-in-programs--these-overwrite-the-output-style-defined-in-abap-dictionary--when-the-addition--currency--javascript-call-link---abapwrite-to-options-htm-----is-used-after--write-----to------javascript-call-link---abapwrite-to-htm-----for-a-decimal-floating-number-defined-in-the-abap-dictionary--it-must-be-defined-with-the-output-style-sign-right--otherwise-an-exception-occurs----------source-----abenddic-decimal-floating-point-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-decimal-floating-point-htm-------abenddic-character-byte-types-htm-------source-----abenddic-character-byte-types-htm--https---help-sap-com-doc-abapdocu-757-index-htm-7-57-en-us-abenddic-character-byte-types-htm---------------as-abap-release-757---copyright-2023-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---dictionary--ddic---javascript-call-link---abenabap-dictionary-htm---------ddic---built-in-data-types--javascript-call-link---abenddic-builtin-types-intro-htm---------ddic---properties-of-the-built-in-dictionary-types--javascript-call-link---abenddic-builtin-types-prop-htm---------ddic---general-dictionary-types--javascript-call-link---abenddic-builtin-types-general-htm---------------mail-gif-object-mail-gif-sap-language-en--feedback-mail-for-displayed-topic---mail-feedback--mailto-f1-helpsap.com?subject=Feedback on ABAP Documentation&body=Document: DDIC - Character-Like Types and Byte-Like Types, ABENDDIC_CHARACTER_BYTE_TYPES, 757%0
 D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 DDIC - Character-Like Types and Byte-Like Types
 
--   [Character Strings](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_1)
--   [Byte Chains](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_2)
--   [Notes on Strings](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_3)
--   [Use in ABAP CDS](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_4)
--   [Use in ABAP SQL](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_5)
--   [Handling in Dynpros](#@@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_6)
+-   [Character Strings](#abenddic-character-byte-types-1-------byte-chains---@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_2)
+-   [Notes on Strings](#abenddic-character-byte-types-3-------use-in-abap-cds---@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_4)
+-   [Use in ABAP SQL](#abenddic-character-byte-types-5-------handling-in-dynpros---@ITOC@@ABENDDIC_CHARACTER_BYTE_TYPES_6)
 
 Character Strings   
 

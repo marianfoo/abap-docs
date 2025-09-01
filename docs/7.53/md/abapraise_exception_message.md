@@ -34,9 +34,7 @@ Effect
 
 The addition tn(id) or ID mid TYPE mtype NUMBER num is used to specify the [message type](javascript:call_link\('abenmessage_type_glosry.htm'\) "Glossary Entry"), the [message class](javascript:call_link\('abenmessage_class_glosry.htm'\) "Glossary Entry"), and the [message number](javascript:call_link\('abenmessage_number_glosry.htm'\) "Glossary Entry") of a message [msg](javascript:call_link\('abapmessage_msg.htm'\)) for the table T100, statically or dynamically. This is done in the same way as in the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)). Also like in [MESSAGE](javascript:call_link\('abapmessage.htm'\)), the optional addition WITH can be used to fill the placeholders of a message. The exception class of the raised exception must include one of the [system interfaces for messages](javascript:call_link\('abenmessage_interfaces.htm'\)):
 
--   [Using IF\_T100\_DYN\_MSG](#@@ITOC@@ABAPRAISE_EXCEPTION_MESSAGE_1)
-
--   [Using IF\_T100\_MESSAGE](#@@ITOC@@ABAPRAISE_EXCEPTION_MESSAGE_2)
+-   [Using IF\_T100\_DYN\_MSG](#abapraise-exception-message-1--------using-if--t100--message---@ITOC@@ABAPRAISE_EXCEPTION_MESSAGE_2)
 
 The addition MESSAGE fills the attributes of these interfaces with values. This assignment is made after the instance constructor is executed. This overwrites any values assigned to these attributes when the exception object was constructed.
 

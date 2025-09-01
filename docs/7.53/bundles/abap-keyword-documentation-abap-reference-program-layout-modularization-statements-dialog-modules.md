@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abendialog_module.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendialog_module.htm)
+- [abapmodule.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodule.htm)
+- [abapendmodule.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendmodule.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.229Z
+
+---
+
 ### abendialog_module.htm
+
+> **📖 Official SAP Documentation**: [abendialog_module.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendialog_module.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28,7 +48,14 @@ Continue
 [ENDMODULE](javascript:call_link\('abapendmodule.htm'\))
 
 
+
+**📖 Source**: [abendialog_module.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendialog_module.htm)
+
 ### abapmodule.htm
+
+> **📖 Official SAP Documentation**: [abapmodule.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodule.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -79,7 +106,17 @@ MODULE user\_command\_0100 INPUT.
 ENDMODULE.
 
 
+
+**📖 Source**: [abapmodule.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodule.htm)
+
 ### abapendmodule.htm
+
+> **📖 Official SAP Documentation**: [abapendmodule.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendmodule.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapendmodule.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendmodule.htm)
+
 
   
 

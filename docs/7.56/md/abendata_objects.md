@@ -10,10 +10,8 @@ Data Objects
 
 Data objects are instances of [data types](javascript:call_link\('abendata_types.htm'\)) and contain the concrete data that a program uses at runtime. This is done by specifying [data objects in operand positions](javascript:call_link\('abenoperands_data_objects.htm'\)).
 
--   [Creating and Addressing Data Objects](#@@ITOC@@ABENDATA_OBJECTS_1)
--   [Data Types of Data Objects](#@@ITOC@@ABENDATA_OBJECTS_2)
--   [Variable and Constant Data Objects](#@@ITOC@@ABENDATA_OBJECTS_3)
--   [Static and Dynamic Data Objects](#@@ITOC@@ABENDATA_OBJECTS_4)
+-   [Creating and Addressing Data Objects](#abendata-objects-1-------data-types-of-data-objects---@ITOC@@ABENDATA_OBJECTS_2)
+-   [Variable and Constant Data Objects](#abendata-objects-3-------static-and-dynamic-data-objects---@ITOC@@ABENDATA_OBJECTS_4)
 -   [Flat and Deep Data Objects](#@@ITOC@@ABENDATA_OBJECTS_5)
 
 Creating and Addressing Data Objects

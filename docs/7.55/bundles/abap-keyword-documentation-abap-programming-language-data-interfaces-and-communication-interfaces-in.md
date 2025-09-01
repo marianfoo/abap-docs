@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abendata_communication_internal.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_communication_internal.htm)
+- [abapcall-.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall-.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.735Z
+
+---
+
 ### abendata_communication_internal.htm
+
+> **📖 Official SAP Documentation**: [abendata_communication_internal.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_communication_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24,7 +43,17 @@ Continue
 [CALL, System Function Call](javascript:call_link\('abapcall-.htm'\))
 
 
+
+**📖 Source**: [abendata_communication_internal.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_communication_internal.htm)
+
 ### abapcall-.htm
+
+> **📖 Official SAP Documentation**: [abapcall-.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall-.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapcall-.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall-.htm)
+
 
   
 

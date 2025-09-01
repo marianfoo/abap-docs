@@ -3,7 +3,31 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenequals_operator.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_operator.htm)
+- [abapmove.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove.htm)
+- [abenequals_return_values.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_return_values.htm)
+- [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_calc_expr.htm)
+- [abenequals_arith_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_arith_expr.htm)
+- [abenequals_string_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_string_expr.htm)
+- [abenequals_bit_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_bit_expr.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.488Z
+
+---
+
 ### abenequals_operator.htm
+
+> **📖 Official SAP Documentation**: [abenequals_operator.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_operator.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -64,7 +88,14 @@ Continue
 [\=, Assign Calculation Expressions](javascript:call_link\('abenequals_calc_expr.htm'\))
 
 
+
+**📖 Source**: [abenequals_operator.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_operator.htm)
+
 ### abapmove.htm
+
+> **📖 Official SAP Documentation**: [abapmove.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -164,7 +195,14 @@ Uncatchable Exceptions
     Runtime error: MOVE\_TO\_LOOP\_REF
 
 
+
+**📖 Source**: [abapmove.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove.htm)
+
 ### abenequals_return_values.htm
+
+> **📖 Official SAP Documentation**: [abenequals_return_values.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_return_values.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -222,7 +260,14 @@ cl\_demo\_output=>new(
   )->display( ).
 
 
+
+**📖 Source**: [abenequals_return_values.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_return_values.htm)
+
 ### abenequals_calc_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_calc_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -246,7 +291,14 @@ Continue
 [\=, Bit Expression](javascript:call_link\('abenequals_bit_expr.htm'\))
 
 
+
+**📖 Source**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_calc_expr.htm)
+
 ### abenequals_arith_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_arith_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_arith_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -308,7 +360,14 @@ DATA(result5) = CONV pack8\_3( 1 \* number1 ). "p, length 8, decimals 3
 DATA(result6) = CONV pack16(  1 \* number2 ). "p, length 16
 
 
+
+**📖 Source**: [abenequals_arith_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_arith_expr.htm)
+
 ### abenequals_string_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_string_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_string_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -354,7 +413,14 @@ DATA number TYPE i.
 number = 1 && 2.
 
 
+
+**📖 Source**: [abenequals_string_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_string_expr.htm)
+
 ### abenequals_bit_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_bit_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_bit_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -392,7 +458,17 @@ cl\_demo\_output=>write(   result1 ).
 cl\_demo\_output=>display( result2 ).
 
 
+
+**📖 Source**: [abenequals_bit_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_bit_expr.htm)
+
 ### abenequals_calc_expr.htm
+
+> **📖 Official SAP Documentation**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_calc_expr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenequals_calc_expr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_calc_expr.htm)
+
 
   
 

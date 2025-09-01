@@ -3,7 +3,35 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenfor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor.htm)
+- [abenfor_conditional.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_conditional.htm)
+- [abeniteration_expressions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeniteration_expressions_abexas.htm)
+- [abencond_iteration_reduce_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_reduce_abexa.htm)
+- [abencond_iteration_value_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_value_abexa.htm)
+- [abencond_iteration_matrix_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_matrix_abexa.htm)
+- [abeninverse_itab_for_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninverse_itab_for_abexa.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.996Z
+
+---
+
 ### abenfor.htm
+
+> **📖 Official SAP Documentation**: [abenfor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42,7 +70,18 @@ Continue
 [Examples of Iteration Expressions](javascript:call_link\('abeniteration_expressions_abexas.htm'\))
 
 
+
+**📖 Source**: [abenfor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor.htm)
+
 ### abenfor_conditional.htm
+
+> **📖 Official SAP Documentation**: [abenfor_conditional.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_conditional.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfor_conditional.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_conditional.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -105,7 +144,18 @@ Executable Examples
 [Examples of Iteration Expressions](javascript:call_link\('abeniteration_expressions_abexas.htm'\))
 
 
+
+**📖 Source**: [abenfor_conditional.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_conditional.htm)
+
 ### abeniteration_expressions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abeniteration_expressions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeniteration_expressions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abeniteration_expressions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeniteration_expressions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -132,7 +182,18 @@ Continue
 ![Example](exa.gif "Example") [Inverse Reads on Internal Table without STEP](javascript:call_link\('abeninverse_itab_for_abexa.htm'\))
 
 
+
+**📖 Source**: [abeniteration_expressions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeniteration_expressions_abexas.htm)
+
 ### abencond_iteration_reduce_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencond_iteration_reduce_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_reduce_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencond_iteration_reduce_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_reduce_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -192,7 +253,18 @@ This example demonstrates the following simple iterations, which can be used to 
 -   Finally, the fourth expression shows that the iteration variable does not have to be numeric. In this case, THEN must be specified explicitly with a suitable expression. Here, a text string is made longer until it has reached a specific size.
 
 
+
+**📖 Source**: [abencond_iteration_reduce_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_reduce_abexa.htm)
+
 ### abencond_iteration_value_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencond_iteration_value_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_value_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencond_iteration_value_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_value_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -245,7 +317,18 @@ Description  
 This example demonstrates the construction of internal tables using condition iterations with a constructor expression and the corresponding variant of the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)). Two internal tables with different iterations are created and directly output.
 
 
+
+**📖 Source**: [abencond_iteration_value_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_value_abexa.htm)
+
 ### abencond_iteration_matrix_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencond_iteration_matrix_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_matrix_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencond_iteration_matrix_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_matrix_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -326,7 +409,18 @@ Description  
 The lines and columns of a matrix are simulated using an internal table whose line types are arrays. These tables are filled using nested [DO](javascript:call_link\('abapdo.htm'\)) loops and equivalent iteration expressions for [conditional iterations](javascript:call_link\('abenfor_conditional.htm'\)) in a constructor expression with the operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)). The [ASSERT](javascript:call_link\('abapassert.htm'\)) statement shows that both internal tables have the same content. It is possible to access each individual element.
 
 
+
+**📖 Source**: [abencond_iteration_matrix_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_iteration_matrix_abexa.htm)
+
 ### abeninverse_itab_for_abexa.htm
+
+> **📖 Official SAP Documentation**: [abeninverse_itab_for_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninverse_itab_for_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abeninverse_itab_for_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninverse_itab_for_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -376,7 +470,21 @@ Description  
 The example shows how an inverse [table iteration](javascript:call_link\('abenfor_itab.htm'\)) could be performed by an iteration expression accessing a table expression before the addition [STEP](javascript:call_link\('abenfor_cond.htm'\)) was introduced for direct table iterations.
 
 
+
+**📖 Source**: [abeninverse_itab_for_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninverse_itab_for_abexa.htm)
+
 ### abeniteration_expressions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abeniteration_expressions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeniteration_expressions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abeniteration_expressions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeniteration_expressions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abeniteration_expressions_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeniteration_expressions_abexas.htm)
+
 
   
 

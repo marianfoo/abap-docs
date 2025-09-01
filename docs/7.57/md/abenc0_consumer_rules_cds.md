@@ -20,10 +20,8 @@ The [provider rules](javascript:call_link\('abenc0_provider_rules_cds.htm'\)) fo
 
 The following sections list allowed extensions to released APIs that must be considered when creating an extension.
 
--   [Naming](#@@ITOC@@ABENC0_CONSUMER_RULES_CDS_1)
--   [General Rules](#@@ITOC@@ABENC0_CONSUMER_RULES_CDS_2)
--   [Restrictions](#@@ITOC@@ABENC0_CONSUMER_RULES_CDS_3)
--   [Example Topics](#@@ITOC@@ABENC0_CONSUMER_RULES_CDS_4)
+-   [Naming](#abenc0-consumer-rules-cds-1-------general-rules---@ITOC@@ABENC0_CONSUMER_RULES_CDS_2)
+-   [Restrictions](#abenc0-consumer-rules-cds-3-------example-topics---@ITOC@@ABENC0_CONSUMER_RULES_CDS_4)
 
 Naming   
 

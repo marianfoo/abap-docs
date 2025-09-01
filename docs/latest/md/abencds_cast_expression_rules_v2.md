@@ -13,12 +13,9 @@ CDS DDL - CDS View Entity, cast\_expr, Conversion Rules
 
 The following sections describe the conversion rules for [cast expressions](javascript:call_link\('abencds_cast_expression_v2.htm'\)) in [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry").
 
--   [Numeric Source Type](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_1)
-    -   [Source Types INT1, INT2, INT4, INT8, DEC](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_2)
--   [Character-Like Source Type](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_3)
-    -   [Source Types CHAR and SSTRING](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_4)
-    -   [Source Type NUMC](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_5)
-    -   [Source Types DATS and TIMS](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_6)
+-   [Numeric Source Type](#abencds-cast-expression-rules-v2-1-----------source-types-int1--int2--int4--int8--dec---@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_2)
+-   [Character-Like Source Type](#abencds-cast-expression-rules-v2-3-----------source-types-char-and-sstring---@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_4)
+    -   [Source Type NUMC](#abencds-cast-expression-rules-v2-5-----------source-types-dats-and-tims---@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_6)
     -   [Source Types CLNT, LANG, UNIT, and CUKY](#@@ITOC@@ABENCDS_CAST_EXPRESSION_RULES_V2_7)
 
 Data types that cannot be converted to each other are not mentioned here. In these cases, casts are either not possible or casting can only be done between operands of the same type. If the source type and the target type are technically identical, the content is transferred without being converted.

@@ -10,14 +10,10 @@ JSON-XML - XML Representation of JSON
 
 JSON XML is an SAP-specific representation of [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry") data in XML format. The [single values](javascript:call_link\('abenjson_oview.htm'\)), [arrays](javascript:call_link\('abenjson_oview.htm'\)), and [objects](javascript:call_link\('abenjson_oview.htm'\)) in JSON are represented as follows in XML.
 
--   [Single Values](#@@ITOC@@ABENABAP_JSON_XML_1)
-    -   [Character-like values](#@@ITOC@@ABENABAP_JSON_XML_2)
-    -   [Number values](#@@ITOC@@ABENABAP_JSON_XML_3)
-    -   [Boolean values](#@@ITOC@@ABENABAP_JSON_XML_4)
-    -   [Null values](#@@ITOC@@ABENABAP_JSON_XML_5)
--   [Data Structures](#@@ITOC@@ABENABAP_JSON_XML_6)
-    -   [Arrays](#@@ITOC@@ABENABAP_JSON_XML_7)
-    -   [Objects](#@@ITOC@@ABENABAP_JSON_XML_8)
+-   [Single Values](#abenabap-json-xml-1-----------character-like-values---@ITOC@@ABENABAP_JSON_XML_2)
+    -   [Number values](#abenabap-json-xml-3-----------boolean-values---@ITOC@@ABENABAP_JSON_XML_4)
+    -   [Null values](#abenabap-json-xml-5-------data-structures---@ITOC@@ABENABAP_JSON_XML_6)
+    -   [Arrays](#abenabap-json-xml-7-----------objects---@ITOC@@ABENABAP_JSON_XML_8)
 
 Single Values
 

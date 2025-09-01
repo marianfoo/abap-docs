@@ -8,29 +8,17 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 APC - ABAP Push Channels
 
--   [APC - Overview](#@@ITOC@@ABENAPC_1)
+-   [APC - Overview](#abenapc-1--------as-abap-as-an-apc-server---@ITOC@@ABENAPC_2)
 
--   [AS ABAP as an APC Server](#@@ITOC@@ABENAPC_2)
+-   [ABAP Push Channels as Repository Objects](#abenapc-3--------apc-handler-class---@ITOC@@ABENAPC_4)
 
--   [ABAP Push Channels as Repository Objects](#@@ITOC@@ABENAPC_3)
+-   [AS ABAP as an APC Client](#abenapc-5--------as-abap-as-a-detached-apc-client---@ITOC@@ABENAPC_6)
 
--   [APC Handler Class](#@@ITOC@@ABENAPC_4)
+-   [Associating APC with AMC](#abenapc-7--------apc---system-wide-access---@ITOC@@ABENAPC_8)
 
--   [AS ABAP as an APC Client](#@@ITOC@@ABENAPC_5)
+-   [APC Security](#abenapc-9--------apc---exceptions---@ITOC@@ABENAPC_10)
 
--   [AS ABAP as a Detached APC Client](#@@ITOC@@ABENAPC_6)
-
--   [Associating APC with AMC](#@@ITOC@@ABENAPC_7)
-
--   [APC - System-Wide Access](#@@ITOC@@ABENAPC_8)
-
--   [APC Security](#@@ITOC@@ABENAPC_9)
-
--   [APC - Exceptions](#@@ITOC@@ABENAPC_10)
-
--   [APC - Test and Analysis](#@@ITOC@@ABENAPC_11)
-
--   [More Information](#@@ITOC@@ABENAPC_12)
+-   [APC - Test and Analysis](#abenapc-11--------more-information---@ITOC@@ABENAPC_12)
 
 Note
 

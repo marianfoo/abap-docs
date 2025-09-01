@@ -16,33 +16,19 @@ The following [DDLA source code](javascript:call_link\('abenddla_source_code_glo
 
 The detailed meanings of these ABAP annotations are described under the relevant [scope](javascript:call_link\('abencds_annotations_scopes.htm'\)) defined after [@Scope](javascript:call_link\('abencds_f1_define_anno_annos.htm'\)) in the documentation.
 
--   [AbapAnnotation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_1)
+-   [AbapAnnotation-Annotations](#abencds-annotations-abap-ddla-1--------abapcatalog-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_2)
 
--   [AbapCatalog-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_2)
+-   [AccessControl-Annotations](#abencds-annotations-abap-ddla-3--------clientdependent-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_4)
 
--   [AccessControl-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_3)
+-   [ClientHandling-Annotations](#abencds-annotations-abap-ddla-5--------dataaging-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_6)
 
--   [ClientDependent-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_4)
+-   [EndUserText-Annotations](#abencds-annotations-abap-ddla-7--------environment-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_8)
 
--   [ClientHandling-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_5)
+-   [LanguageDependency-Annotations](#abencds-annotations-abap-ddla-9--------mappingrole-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_10)
 
--   [DataAging-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_6)
+-   [Metadata-Annotations](#abencds-annotations-abap-ddla-11--------metadataextension-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_12)
 
--   [EndUserText-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_7)
-
--   [Environment-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_8)
-
--   [LanguageDependency-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_9)
-
--   [MappingRole-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_10)
-
--   [Metadata-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_11)
-
--   [MetadataExtension-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_12)
-
--   [Scope\[ \]-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_13)
-
--   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_14)
+-   [Scope\[ \]-Annotations](#abencds-annotations-abap-ddla-13--------semantics-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_14)
 
 Note
 

@@ -10,13 +10,9 @@ Open SQL - Locators
 
 Open SQL supports [locators](javascript:call_link\('abenlocator_glosry.htm'\) "Glossary Entry") for [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") in data sources.
 
--   [System Classes for Locators](#@@ITOC@@ABENLOCATORS_1)
+-   [System Classes for Locators](#abenlocators-1--------important-methods---@ITOC@@ABENLOCATORS_2)
 
--   [Important Methods](#@@ITOC@@ABENLOCATORS_2)
-
--   [Creating Locators for LOBs](#@@ITOC@@ABENLOCATORS_3)
-
--   [Closing Locators](#@@ITOC@@ABENLOCATORS_4)
+-   [Creating Locators for LOBs](#abenlocators-3--------closing-locators---@ITOC@@ABENLOCATORS_4)
 
 -   [Examples](#@@ITOC@@ABENLOCATORS_5)
 

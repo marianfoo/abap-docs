@@ -10,22 +10,14 @@ Shared Objects - CL\_SHM\_AREA
 
 The class CL\_SHM\_AREA is a subclass of [CL\_ABAP\_MEMORY\_AREA](javascript:call_link\('abenshm_cl_abap_memory_area.htm'\)) and the superclass of all area classes that are generated when an area is created using transaction SHMA. This class contains general attributes and methods for the corresponding [area handles](javascript:call_link\('abenarea_handle_glosry.htm'\) "Glossary Entry").
 
--   [Instance Attributes](#@@ITOC@@ABENSHM_CL_SHM_AREA_1)
-    -   [PROPERTIES](#@@ITOC@@ABENSHM_CL_SHM_AREA_2)
-    -   [INST\_NAME](#@@ITOC@@ABENSHM_CL_SHM_AREA_3)
-    -   [CLIENT](#@@ITOC@@ABENSHM_CL_SHM_AREA_4)
--   [Static Methods](#@@ITOC@@ABENSHM_CL_SHM_AREA_5)
-    -   [MULTI\_ATTACH](#@@ITOC@@ABENSHM_CL_SHM_AREA_6)
-    -   [DETACH\_ALL\_AREAS](#@@ITOC@@ABENSHM_CL_SHM_AREA_7)
--   [Instance Methods](#@@ITOC@@ABENSHM_CL_SHM_AREA_8)
-    -   [DETACH](#@@ITOC@@ABENSHM_CL_SHM_AREA_9)
-    -   [DETACH\_COMMIT](#@@ITOC@@ABENSHM_CL_SHM_AREA_10)
-    -   [DETACH\_ROLLBACK](#@@ITOC@@ABENSHM_CL_SHM_AREA_11)
-    -   [GET\_LOCK\_KIND](#@@ITOC@@ABENSHM_CL_SHM_AREA_12)
-    -   [GET\_ROOT](#@@ITOC@@ABENSHM_CL_SHM_AREA_13)
--   [Instance Events](#@@ITOC@@ABENSHM_CL_SHM_AREA_14)
-    -   [SHM\_COMMIT\_EVENT](#@@ITOC@@ABENSHM_CL_SHM_AREA_15)
-    -   [SHM\_ROLLBACK\_EVENT](#@@ITOC@@ABENSHM_CL_SHM_AREA_16)
+-   [Instance Attributes](#abenshm-cl-shm-area-1-----------properties---@ITOC@@ABENSHM_CL_SHM_AREA_2)
+    -   [INST\_NAME](#abenshm-cl-shm-area-3-----------client---@ITOC@@ABENSHM_CL_SHM_AREA_4)
+-   [Static Methods](#abenshm-cl-shm-area-5-----------multi--attach---@ITOC@@ABENSHM_CL_SHM_AREA_6)
+    -   [DETACH\_ALL\_AREAS](#abenshm-cl-shm-area-7-------instance-methods---@ITOC@@ABENSHM_CL_SHM_AREA_8)
+    -   [DETACH](#abenshm-cl-shm-area-9-----------detach--commit---@ITOC@@ABENSHM_CL_SHM_AREA_10)
+    -   [DETACH\_ROLLBACK](#abenshm-cl-shm-area-11-----------get--lock--kind---@ITOC@@ABENSHM_CL_SHM_AREA_12)
+    -   [GET\_ROOT](#abenshm-cl-shm-area-13-------instance-events---@ITOC@@ABENSHM_CL_SHM_AREA_14)
+    -   [SHM\_COMMIT\_EVENT](#abenshm-cl-shm-area-15-----------shm--rollback--event---@ITOC@@ABENSHM_CL_SHM_AREA_16)
 
 Instance Attributes
 

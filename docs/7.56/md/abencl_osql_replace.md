@@ -10,12 +10,9 @@ CL\_OSQL\_REPLACE, Replacement Service
 
 The system class CL\_OSQL\_REPLACE implements a replacement service that can be used to redirect access to data sources in [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry") statements during the execution of [unit tests](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry") in [ABAP Unit](javascript:call_link\('abenabap_unit_glosry.htm'\) "Glossary Entry"). The system class CL\_OSQL\_REPLACE can only be used in [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") of [ABAP Unit](javascript:call_link\('abenabap_unit_glosry.htm'\) "Glossary Entry").
 
--   [Defining Replacement Rules](#@@ITOC@@ABENCL_OSQL_REPLACE_1)
--   [Additional Methods](#@@ITOC@@ABENCL_OSQL_REPLACE_2)
--   [Restrictions and Special Features](#@@ITOC@@ABENCL_OSQL_REPLACE_3)
-    -   [Data Sources of Reads](#@@ITOC@@ABENCL_OSQL_REPLACE_4)
-    -   [Targets of Writes](#@@ITOC@@ABENCL_OSQL_REPLACE_5)
--   [Example](#@@ITOC@@ABENCL_OSQL_REPLACE_6)
+-   [Defining Replacement Rules](#abencl-osql-replace-1-------additional-methods---@ITOC@@ABENCL_OSQL_REPLACE_2)
+-   [Restrictions and Special Features](#abencl-osql-replace-3-----------data-sources-of-reads---@ITOC@@ABENCL_OSQL_REPLACE_4)
+    -   [Targets of Writes](#abencl-osql-replace-5-------example---@ITOC@@ABENCL_OSQL_REPLACE_6)
 
 Defining Replacement Rules
 

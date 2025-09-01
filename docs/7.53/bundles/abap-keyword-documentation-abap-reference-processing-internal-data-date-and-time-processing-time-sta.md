@@ -3,7 +3,31 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abentime_stamps.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamps.htm)
+- [abentime_stamp_oview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_oview.htm)
+- [abapget_time-stamp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time-stamp.htm)
+- [abapconvert_time-stamp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_time-stamp.htm)
+- [abapconvert_date_time-stamp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_date_time-stamp.htm)
+- [abencl_abap_tstmp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_tstmp.htm)
+- [abenconvert_time_stamp_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconvert_time_stamp_abexa.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.213Z
+
+---
+
 ### abentime_stamps.htm
+
+> **📖 Official SAP Documentation**: [abentime_stamps.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36,7 +60,14 @@ Continue
 ![Example](exa.gif "Example") [Converting Time Stamps](javascript:call_link\('abenconvert_time_stamp_abexa.htm'\))
 
 
+
+**📖 Source**: [abentime_stamps.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamps.htm)
+
 ### abentime_stamp_oview.htm
+
+> **📖 Official SAP Documentation**: [abentime_stamp_oview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_oview.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -177,7 +208,14 @@ ts = ts + 86400 \* 2 + 3600 \* 3.
 cl\_demo\_output=>display( ts ).
 
 
+
+**📖 Source**: [abentime_stamp_oview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_oview.htm)
+
 ### abapget_time-stamp.htm
+
+> **📖 Official SAP Documentation**: [abapget_time-stamp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time-stamp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -235,7 +273,14 @@ Non-Handleable Exceptions
     Runtime error: GET\_TIMESTAMP\_FORMAT
 
 
+
+**📖 Source**: [abapget_time-stamp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time-stamp.htm)
+
 ### abapconvert_time-stamp.htm
+
+> **📖 Official SAP Documentation**: [abapconvert_time-stamp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_time-stamp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -368,7 +413,14 @@ Non-Handleable Exceptions
     Runtime error: CONVERT\_TSTMP\_INCONSISTENT\_TAB
 
 
+
+**📖 Source**: [abapconvert_time-stamp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_time-stamp.htm)
+
 ### abapconvert_date_time-stamp.htm
+
+> **📖 Official SAP Documentation**: [abapconvert_date_time-stamp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_date_time-stamp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -486,7 +538,14 @@ Non-Handleable Exceptions
     Runtime error: CONVERT\_TSTMP\_INCONSISTENT\_TAB
 
 
+
+**📖 Source**: [abapconvert_date_time-stamp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_date_time-stamp.htm)
+
 ### abencl_abap_tstmp.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_tstmp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_tstmp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -519,7 +578,17 @@ cl\_demo\_output=>display( |{ ts1 TIMESTAMP = ISO
                        }\\n{ ts2 TIMESTAMP = ISO }| ).
 
 
+
+**📖 Source**: [abencl_abap_tstmp.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_tstmp.htm)
+
 ### abenconvert_time_stamp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenconvert_time_stamp_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconvert_time_stamp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenconvert_time_stamp_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconvert_time_stamp_abexa.htm)
+
 
   
 

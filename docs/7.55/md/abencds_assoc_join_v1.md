@@ -14,17 +14,11 @@ When a CDS association is instantiated as join on the database, then the [associ
 
 There are the following basic use cases for CDS associations:
 
--   [Using a path expression in the FROM clause](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_1)
+-   [Using a path expression in the FROM clause](#abencds-assoc-join-v1-1--------exposing-a-cds-association---@ITOC@@ABENCDS_ASSOC_JOIN_V1_2)
 
--   [Exposing a CDS association](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_2)
+-   [Adding a field from the association target to the element list](#abencds-assoc-join-v1-3--------using-a-path-expression-in-the-where-clause---@ITOC@@ABENCDS_ASSOC_JOIN_V1_4)
 
--   [Adding a field from the association target to the element list](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_3)
-
--   [Using a path expression in the WHERE clause](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_4)
-
--   [Using an exposed association in an external view](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_5)
-
--   [Using an exposed association in ABAP SQL](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_6)
+-   [Using an exposed association in an external view](#abencds-assoc-join-v1-5--------using-an-exposed-association-in-abap-sql---@ITOC@@ABENCDS_ASSOC_JOIN_V1_6)
     
 
 Using a path expression in the FROM clause

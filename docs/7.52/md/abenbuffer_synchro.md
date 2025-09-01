@@ -8,9 +8,7 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Table Buffering - Buffer Synchronization
 
--   [Invalidating and Updating](#@@ITOC@@ABENBUFFER_SYNCHRO_1)
-
--   [Eviction](#@@ITOC@@ABENBUFFER_SYNCHRO_2)
+-   [Invalidating and Updating](#abenbuffer-synchro-1--------eviction---@ITOC@@ABENBUFFER_SYNCHRO_2)
 
 -   [Resetting the Buffer](#@@ITOC@@ABENBUFFER_SYNCHRO_3)
 

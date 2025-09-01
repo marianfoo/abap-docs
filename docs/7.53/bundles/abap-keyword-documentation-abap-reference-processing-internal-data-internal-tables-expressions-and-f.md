@@ -3,7 +3,31 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+- [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+- [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+- [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+- [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+- [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+- [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.214Z
+
+---
+
 ### abenconstructor_expression_filter.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -82,7 +106,14 @@ Continue
 [Examples of Table Filtering](javascript:call_link\('abentable_filtering_abexas.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+
 ### abenconstructor_expr_filter_basic.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -180,7 +211,14 @@ Executable Example
 [Table Filtering, Single Values](javascript:call_link\('abenfilter_value_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+
 ### abenconstructor_expr_filter_table.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -303,7 +341,14 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -321,7 +366,14 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenfilter_value_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -376,7 +428,14 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
+
+**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+
 ### abenfilter_table_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -439,7 +498,14 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
+
+**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+
 ### abenfilter_table_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -524,7 +590,17 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
+
+**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 
   
 

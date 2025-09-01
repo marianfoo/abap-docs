@@ -3,7 +3,36 @@
 Included pages: 15
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenlists_displayed.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlists_displayed.htm)
+- [abapleave_to_list-processing.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave_to_list-processing.htm)
+- [abenleave_to_list_proc_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenleave_to_list_proc_abexa.htm)
+- [abapleave_list-processing.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave_list-processing.htm)
+- [abapwindow.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwindow.htm)
+- [abenlist_window_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_window_abexa.htm)
+- [abapset_pf-status_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_pf-status_list.htm)
+- [abapset_titlebar_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_titlebar_list.htm)
+- [abapset_cursor_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_cursor_list.htm)
+- [abapget_cursor_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_cursor_list.htm)
+- [abapget_cursor_list_field.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_cursor_list_field.htm)
+- [abapget_cursor_list_line.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_cursor_list_line.htm)
+
+**Bundle Contains**: 12 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.501Z
+
+---
+
 ### abenlists_displayed.htm
+
+> **📖 Official SAP Documentation**: [abenlists_displayed.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlists_displayed.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49,7 +78,14 @@ Continue
 [GET CURSOR, List](javascript:call_link\('abapget_cursor_list.htm'\))
 
 
+
+**📖 Source**: [abenlists_displayed.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlists_displayed.htm)
+
 ### abapleave_to_list-processing.htm
+
+> **📖 Official SAP Documentation**: [abapleave_to_list-processing.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave_to_list-processing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -100,7 +136,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - Call from Dynpro Processing](javascript:call_link\('abenleave_to_list_proc_abexa.htm'\))
 
 
+
+**📖 Source**: [abapleave_to_list-processing.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave_to_list-processing.htm)
+
 ### abenleave_to_list_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenleave_to_list_proc_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenleave_to_list_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -185,7 +228,14 @@ If the user selects a line on the basic list, a details list appears. This is do
 Since there is only one list system in this program, there is no need for case distinctions within the list events.
 
 
+
+**📖 Source**: [abenleave_to_list_proc_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenleave_to_list_proc_abexa.htm)
+
 ### abapleave_to_list-processing.htm
+
+> **📖 Official SAP Documentation**: [abapleave_to_list-processing.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave_to_list-processing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -236,7 +286,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - Call from Dynpro Processing](javascript:call_link\('abenleave_to_list_proc_abexa.htm'\))
 
 
+
+**📖 Source**: [abapleave_to_list-processing.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave_to_list-processing.htm)
+
 ### abapleave_list-processing.htm
+
+> **📖 Official SAP Documentation**: [abapleave_list-processing.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave_list-processing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -287,7 +344,14 @@ AT LINE-SELECTION.
   ENDIF.
 
 
+
+**📖 Source**: [abapleave_list-processing.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave_list-processing.htm)
+
 ### abapwindow.htm
+
+> **📖 Official SAP Documentation**: [abapwindow.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwindow.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -353,7 +417,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - Dialog Box](javascript:call_link\('abenlist_window_abexa.htm'\))
 
 
+
+**📖 Source**: [abapwindow.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwindow.htm)
+
 ### abenlist_window_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlist_window_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_window_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -400,7 +471,14 @@ Titles WI1 and WI2 are defined for the dialog boxes. In the second dialog box, t
 The system displays horizontal scroll bars in the dialog boxes since the list width of the dialog boxes is not adjusted and therefore corresponds to the standard width of the basic list.
 
 
+
+**📖 Source**: [abenlist_window_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_window_abexa.htm)
+
 ### abapwindow.htm
+
+> **📖 Official SAP Documentation**: [abapwindow.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwindow.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -466,7 +544,14 @@ Continue
 ![Example](exa.gif "Example") [Lists - Dialog Box](javascript:call_link\('abenlist_window_abexa.htm'\))
 
 
+
+**📖 Source**: [abapwindow.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwindow.htm)
+
 ### abapset_pf-status_list.htm
+
+> **📖 Official SAP Documentation**: [abapset_pf-status_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_pf-status_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -540,7 +625,14 @@ AT LINE-SELECTION.
   WRITE / \`Don't pick me!\`.
 
 
+
+**📖 Source**: [abapset_pf-status_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_pf-status_list.htm)
+
 ### abapset_titlebar_list.htm
+
+> **📖 Official SAP Documentation**: [abapset_titlebar_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_titlebar_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -583,7 +675,14 @@ Effect
 As for [dynpros](javascript:call_link\('abapset_titlebar_dynpro.htm'\)).
 
 
+
+**📖 Source**: [abapset_titlebar_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_titlebar_list.htm)
+
 ### abapset_cursor_list.htm
+
+> **📖 Official SAP Documentation**: [abapset_cursor_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_cursor_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -677,7 +776,14 @@ Effect
 The cursor is positioned in the column specified in col and the line specified in lin in the list window. col and lin expect data objects of the type i. Column counting begins at 2.
 
 
+
+**📖 Source**: [abapset_cursor_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_cursor_list.htm)
+
 ### abapget_cursor_list.htm
+
+> **📖 Official SAP Documentation**: [abapget_cursor_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_cursor_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -754,7 +860,14 @@ Continue
 [GET CURSOR, line\_properties](javascript:call_link\('abapget_cursor_list_line.htm'\))
 
 
+
+**📖 Source**: [abapget_cursor_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_cursor_list.htm)
+
 ### abapget_cursor_list_field.htm
+
+> **📖 Official SAP Documentation**: [abapget_cursor_list_field.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_cursor_list_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -823,7 +936,14 @@ Effect
 The addition LINE assigns the number of the list line on which the cursor is positioned to the data object lin. lin expects a variable of the type i.
 
 
+
+**📖 Source**: [abapget_cursor_list_field.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_cursor_list_field.htm)
+
 ### abapget_cursor_list_line.htm
+
+> **📖 Official SAP Documentation**: [abapget_cursor_list_line.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_cursor_list_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -878,7 +998,17 @@ The addition OFFSET without an addition or with the addition DISPLAY assigns the
 The addition OFFSET with the addition MEMORY assigns the position of the character in the list buffer line on whose output the cursor is currently positioned to the data object off. If the cursor is on one of the characters < or > for characters cut off in the display, the position of the character in the list buffer that is overwritten by the character is assigned. off expects a variable of the type i.
 
 
+
+**📖 Source**: [abapget_cursor_list_line.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_cursor_list_line.htm)
+
 ### abapget_cursor_list.htm
+
+> **📖 Official SAP Documentation**: [abapget_cursor_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_cursor_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapget_cursor_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_cursor_list.htm)
+
 
   
 

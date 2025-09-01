@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_syntax.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_syntax.htm)
+- [abencds_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_general_syntax_rules.htm)
+- [abencds_language_elements.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_language_elements.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.442Z
+
+---
+
 ### abencds_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_syntax.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25,7 +45,14 @@ Continue
 [ABAP CDS - Language Elements](javascript:call_link\('abencds_language_elements.htm'\))
 
 
+
+**📖 Source**: [abencds_syntax.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_syntax.htm)
+
 ### abencds_general_syntax_rules.htm
+
+> **📖 Official SAP Documentation**: [abencds_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_general_syntax_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -88,7 +115,17 @@ Examples
 -   0.5 is a valid numeric literal, but .5 is not.
 
 
+
+**📖 Source**: [abencds_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_general_syntax_rules.htm)
+
 ### abencds_language_elements.htm
+
+> **📖 Official SAP Documentation**: [abencds_language_elements.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_language_elements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_language_elements.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_language_elements.htm)
+
 
   
 

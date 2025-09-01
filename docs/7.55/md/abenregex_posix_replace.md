@@ -12,13 +12,9 @@ In addition to [searching](javascript:call_link\('abenregex_posix_search.htm'\))
 
 In contrast to normal text replacements, when regular expressions are used, operators can be used in the replacement text that refer to the relevant occurrence.
 
--   [Operators for Replacement Texts](#@@ITOC@@ABENREGEX_POSIX_REPLACE_1)
+-   [Operators for Replacement Texts](#abenregex-posix-replace-1--------addressing-the-full-occurrence---@ITOC@@ABENREGEX_POSIX_REPLACE_2)
 
--   [Addressing the Full Occurrence](#@@ITOC@@ABENREGEX_POSIX_REPLACE_2)
-
--   [Addressing the Registers of Subgroups](#@@ITOC@@ABENREGEX_POSIX_REPLACE_3)
-
--   [Addressing the Text Before the Occurrence](#@@ITOC@@ABENREGEX_POSIX_REPLACE_4)
+-   [Addressing the Registers of Subgroups](#abenregex-posix-replace-3--------addressing-the-text-before-the-occurrence---@ITOC@@ABENREGEX_POSIX_REPLACE_4)
 
 -   [Addressing the Text After the Occurrence](#@@ITOC@@ABENREGEX_POSIX_REPLACE_5)
 

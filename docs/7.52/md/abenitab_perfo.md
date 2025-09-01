@@ -8,21 +8,13 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Internal Tables - Performance Notes
 
--   [Table sharing](#@@ITOC@@ABENITAB_PERFO_1)
+-   [Table sharing](#abenitab-perfo-1--------initial-allocated-memory-area---@ITOC@@ABENITAB_PERFO_2)
 
--   [Initial Allocated Memory Area](#@@ITOC@@ABENITAB_PERFO_2)
+-   [Index Administration](#abenitab-perfo-3--------block-processing-of-table-rows---@ITOC@@ABENITAB_PERFO_4)
 
--   [Index Administration](#@@ITOC@@ABENITAB_PERFO_3)
+-   [Selective Data Transport](#abenitab-perfo-5--------using-secondary-keys---@ITOC@@ABENITAB_PERFO_6)
 
--   [Block Processing of Table Rows](#@@ITOC@@ABENITAB_PERFO_4)
-
--   [Selective Data Transport](#@@ITOC@@ABENITAB_PERFO_5)
-
--   [Using Secondary Keys](#@@ITOC@@ABENITAB_PERFO_6)
-
--   [Deleting Table Rows](#@@ITOC@@ABENITAB_PERFO_7)
-
--   [Free Key Specification for Sorted Tables and Hashed Tables](#@@ITOC@@ABENITAB_PERFO_8)
+-   [Deleting Table Rows](#abenitab-perfo-7--------free-key-specification-for-sorted-tables-and-hashed-tables---@ITOC@@ABENITAB_PERFO_8)
 
 -   [Sorting](#@@ITOC@@ABENITAB_PERFO_9)
 

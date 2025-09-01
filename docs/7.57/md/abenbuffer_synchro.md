@@ -11,8 +11,7 @@ D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Table Buffering - Buffer Synchronization
 
--   [Invalidating and Updating](#@@ITOC@@ABENBUFFER_SYNCHRO_1)
--   [Displacement](#@@ITOC@@ABENBUFFER_SYNCHRO_2)
+-   [Invalidating and Updating](#abenbuffer-synchro-1-------displacement---@ITOC@@ABENBUFFER_SYNCHRO_2)
 -   [Resetting the Buffer](#@@ITOC@@ABENBUFFER_SYNCHRO_3)
 
 Invalidating and Updating   

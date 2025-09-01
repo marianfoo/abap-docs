@@ -35,10 +35,8 @@ An ABAP platform provides an [ABAP development environment (ABAP DE)](javascript
 
 There are mainly two types of ABAP Platforms that differ in their programming paradigms.
 
--   [ABAP Platform Classic](#@@ITOC@@ABENABAP_PLATFORM_1)
--   [ABAP Platform Strict](#@@ITOC@@ABENABAP_PLATFORM_2)
-    -   [SAP BTP ABAP Environment](#@@ITOC@@ABENABAP_PLATFORM_3)
-    -   [ABAP Platform Cloud](#@@ITOC@@ABENABAP_PLATFORM_4)
+-   [ABAP Platform Classic](#abenabap-platform-1-------abap-platform-strict---@ITOC@@ABENABAP_PLATFORM_2)
+    -   [SAP BTP ABAP Environment](#abenabap-platform-3-----------abap-platform-cloud---@ITOC@@ABENABAP_PLATFORM_4)
 
 ABAP Platform Classic
 

@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenmesh_set_association.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_set_association.htm)
+- [abenmesh_set_association_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_set_association_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.265Z
+
+---
+
 ### abenmesh_set_association.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_set_association.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_set_association.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -93,7 +112,17 @@ Continue
 ![Example](exa.gif "Example") [Meshes - Setting Mesh Associations for Mesh Paths](javascript:call_link\('abenmesh_set_association_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmesh_set_association.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_set_association.htm)
+
 ### abenmesh_set_association_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_set_association_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_set_association_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenmesh_set_association_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_set_association_abexa.htm)
+
 
   
 

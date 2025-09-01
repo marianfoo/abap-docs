@@ -10,9 +10,7 @@ dynpro - Field Help
 
 There are three ways of displaying field help for screen elements on dynpros:
 
--   [Displaying the Documentation of the Data Element](#@@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_1)
-
--   [Displaying the Supplement Documentation of the Data Element](#@@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_2)
+-   [Displaying the Documentation of the Data Element](#abenabap-dynpros-field-help-1--------displaying-the-supplement-documentation-of-the-data-element---@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_2)
 
 -   [Calling Help Texts in Dialog Modules](#@@ITOC@@ABENABAP_DYNPROS_FIELD_HELP_3)
 

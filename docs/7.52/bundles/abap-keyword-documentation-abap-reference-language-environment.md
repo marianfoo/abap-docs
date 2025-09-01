@@ -3,7 +3,37 @@
 Included pages: 17
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenlanguage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage.htm)
+- [abenlanguage_settings.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_settings.htm)
+- [abenlogon_language.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogon_language.htm)
+- [abentext_environment.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_environment.htm)
+- [abapset_locale.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_locale.htm)
+- [abapget_locale.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_locale.htm)
+- [abenset_locale_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenset_locale_abexa.htm)
+- [abencountry.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry.htm)
+- [abencountry_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry_formats.htm)
+- [abennumber_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumber_formats.htm)
+- [abendate_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendate_formats.htm)
+- [abentime_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_formats.htm)
+- [abapset_country.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_country.htm)
+
+**Bundle Contains**: 13 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.455Z
+
+---
+
 ### abenlanguage.htm
+
+> **📖 Official SAP Documentation**: [abenlanguage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30,7 +60,14 @@ Continue
 [Formatting Settings](javascript:call_link\('abencountry.htm'\))
 
 
+
+**📖 Source**: [abenlanguage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage.htm)
+
 ### abenlanguage_settings.htm
+
+> **📖 Official SAP Documentation**: [abenlanguage_settings.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_settings.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -63,7 +100,14 @@ Continue
 [Text Environment Language and Text Environment](javascript:call_link\('abentext_environment.htm'\))
 
 
+
+**📖 Source**: [abenlanguage_settings.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_settings.htm)
+
 ### abenlogon_language.htm
+
+> **📖 Official SAP Documentation**: [abenlogon_language.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogon_language.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -96,7 +140,14 @@ Reads the current logon language.
 DATA(logon\_langu) = cl\_abap\_syst=>get\_logon\_language( ).
 
 
+
+**📖 Source**: [abenlogon_language.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogon_language.htm)
+
 ### abentext_environment.htm
+
+> **📖 Official SAP Documentation**: [abentext_environment.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_environment.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -194,7 +245,14 @@ Continue
 ![Example](exa.gif "Example") [Setting the Text Environment](javascript:call_link\('abenset_locale_abexa.htm'\))
 
 
+
+**📖 Source**: [abentext_environment.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_environment.htm)
+
 ### abapset_locale.htm
+
+> **📖 Official SAP Documentation**: [abapset_locale.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_locale.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -292,7 +350,14 @@ Non-Handleable Exceptions
     Runtime error: TEXTENV\_KEY\_TOO\_LONG
 
 
+
+**📖 Source**: [abapset_locale.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_locale.htm)
+
 ### abapget_locale.htm
+
+> **📖 Official SAP Documentation**: [abapget_locale.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_locale.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -330,7 +395,14 @@ SET LOCALE LANGUAGE ...
 SET LOCALE LANGUAGE lang.
 
 
+
+**📖 Source**: [abapget_locale.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_locale.htm)
+
 ### abenset_locale_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenset_locale_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenset_locale_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -375,7 +447,14 @@ Description
 This example shows the effect of the locale of the text environment on sort functions. In Hungarian text environments, "Cs" and "Cu" are sorted differently than in English environments.
 
 
+
+**📖 Source**: [abenset_locale_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenset_locale_abexa.htm)
+
 ### abentext_environment.htm
+
+> **📖 Official SAP Documentation**: [abentext_environment.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_environment.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -473,7 +552,14 @@ Continue
 ![Example](exa.gif "Example") [Setting the Text Environment](javascript:call_link\('abenset_locale_abexa.htm'\))
 
 
+
+**📖 Source**: [abentext_environment.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_environment.htm)
+
 ### abenlanguage_settings.htm
+
+> **📖 Official SAP Documentation**: [abenlanguage_settings.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_settings.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -506,7 +592,14 @@ Continue
 [Text Environment Language and Text Environment](javascript:call_link\('abentext_environment.htm'\))
 
 
+
+**📖 Source**: [abenlanguage_settings.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_settings.htm)
+
 ### abencountry.htm
+
+> **📖 Official SAP Documentation**: [abencountry.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -563,7 +656,14 @@ Continue
 [SET COUNTRY](javascript:call_link\('abapset_country.htm'\))
 
 
+
+**📖 Source**: [abencountry.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry.htm)
+
 ### abencountry_formats.htm
+
+> **📖 Official SAP Documentation**: [abencountry_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry_formats.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -599,7 +699,14 @@ Continue
 [Time Formats](javascript:call_link\('abentime_formats.htm'\))
 
 
+
+**📖 Source**: [abencountry_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry_formats.htm)
+
 ### abennumber_formats.htm
+
+> **📖 Official SAP Documentation**: [abennumber_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumber_formats.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -650,7 +757,14 @@ Executable Example
 To see the display of a number in all possible formats, see the respective [example with character string templates](javascript:call_link\('abenstring_template_number_abexa.htm'\)).
 
 
+
+**📖 Source**: [abennumber_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumber_formats.htm)
+
 ### abendate_formats.htm
+
+> **📖 Official SAP Documentation**: [abendate_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendate_formats.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -734,7 +848,14 @@ Example
 To see the display of the current date in all possible formats, see the associated executable [example with character string templates](javascript:call_link\('abenstring_template_date_abexa.htm'\)).
 
 
+
+**📖 Source**: [abendate_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendate_formats.htm)
+
 ### abentime_formats.htm
+
+> **📖 Official SAP Documentation**: [abentime_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_formats.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -804,7 +925,14 @@ Executable Example
 [Character String Templates, Time Formats](javascript:call_link\('abenstring_template_time_abexa.htm'\))
 
 
+
+**📖 Source**: [abentime_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_formats.htm)
+
 ### abencountry_formats.htm
+
+> **📖 Official SAP Documentation**: [abencountry_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry_formats.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -840,7 +968,14 @@ Continue
 [Time Formats](javascript:call_link\('abentime_formats.htm'\))
 
 
+
+**📖 Source**: [abencountry_formats.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry_formats.htm)
+
 ### abapset_country.htm
+
+> **📖 Official SAP Documentation**: [abapset_country.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_country.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -921,7 +1056,17 @@ Executable Examples
 -   [WRITE, Cutoff Behavior](javascript:call_link\('abenwrite_cutoff_abexa.htm'\))
 
 
+
+**📖 Source**: [abapset_country.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_country.htm)
+
 ### abencountry.htm
+
+> **📖 Official SAP Documentation**: [abencountry.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencountry.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry.htm)
+
 
   
 

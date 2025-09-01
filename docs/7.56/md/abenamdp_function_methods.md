@@ -10,10 +10,8 @@ AMDP - Function Implementations
 
 An AMDP function implementation is an AMDP method for implementing an [AMDP function](javascript:call_link\('abenamdp_function_glosry.htm'\) "Glossary Entry") as a [database function](javascript:call_link\('abendatabase_function_glosry.htm'\) "Glossary Entry"). An AMDP function implementation is indicated as an AMDP method in the implementation part of the class using the addition [BY DATABASE FUNCTION](javascript:call_link\('abapmethod_by_db_proc.htm'\)) of the statement METHOD. [AMDP table functions](javascript:call_link\('abenamdp_table_function_glosry.htm'\) "Glossary Entry") and [AMDP scalar functions](javascript:call_link\('abenamdp_table_function_glosry.htm'\) "Glossary Entry") can be implemented.
 
--   [AMDP Table Functions](#@@ITOC@@ABENAMDP_FUNCTION_METHODS_1)
-    -   [AMDP table functions for AMDP methods](#@@ITOC@@ABENAMDP_FUNCTION_METHODS_2)
-    -   [AMDP Table Functions for CDS Table Functions](#@@ITOC@@ABENAMDP_FUNCTION_METHODS_3)
--   [AMDP Scalar Functions](#@@ITOC@@ABENAMDP_FUNCTION_METHODS_4)
+-   [AMDP Table Functions](#abenamdp-function-methods-1-----------amdp-table-functions-for-amdp-methods---@ITOC@@ABENAMDP_FUNCTION_METHODS_2)
+    -   [AMDP Table Functions for CDS Table Functions](#abenamdp-function-methods-3-------amdp-scalar-functions---@ITOC@@ABENAMDP_FUNCTION_METHODS_4)
 
 AMDP Table Functions
 

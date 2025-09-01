@@ -3,7 +3,30 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencountry.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencountry.htm)
+- [abencountry_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencountry_formats.htm)
+- [abennumber_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumber_formats.htm)
+- [abendate_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_formats.htm)
+- [abentime_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_formats.htm)
+- [abapset_country.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_country.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.914Z
+
+---
+
 ### abencountry.htm
+
+> **📖 Official SAP Documentation**: [abencountry.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencountry.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -63,7 +86,14 @@ Continue
 [SET COUNTRY](javascript:call_link\('abapset_country.htm'\))
 
 
+
+**📖 Source**: [abencountry.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencountry.htm)
+
 ### abencountry_formats.htm
+
+> **📖 Official SAP Documentation**: [abencountry_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencountry_formats.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -101,7 +131,14 @@ Continue
 [Time Formats](javascript:call_link\('abentime_formats.htm'\))
 
 
+
+**📖 Source**: [abencountry_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencountry_formats.htm)
+
 ### abennumber_formats.htm
+
+> **📖 Official SAP Documentation**: [abennumber_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumber_formats.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -164,7 +201,14 @@ Executable Example
 For the representation of a number in all possible number formats, see the associated [example with string templates](javascript:call_link\('abenstring_template_number_abexa.htm'\)).
 
 
+
+**📖 Source**: [abennumber_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumber_formats.htm)
+
 ### abendate_formats.htm
+
+> **📖 Official SAP Documentation**: [abendate_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_formats.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -259,7 +303,14 @@ Executable Examples
 -   [String Templates, Time Stamp Templates](javascript:call_link\('abenstring_template_utc_abexa.htm'\))
 
 
+
+**📖 Source**: [abendate_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_formats.htm)
+
 ### abentime_formats.htm
+
+> **📖 Official SAP Documentation**: [abentime_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_formats.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -333,7 +384,14 @@ Executable Examples
 -   [String Templates, Time Stamp Templates](javascript:call_link\('abenstring_template_utc_abexa.htm'\))
 
 
+
+**📖 Source**: [abentime_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_formats.htm)
+
 ### abencountry_formats.htm
+
+> **📖 Official SAP Documentation**: [abencountry_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencountry_formats.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -371,7 +429,17 @@ Continue
 [Time Formats](javascript:call_link\('abentime_formats.htm'\))
 
 
+
+**📖 Source**: [abencountry_formats.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencountry_formats.htm)
+
 ### abapset_country.htm
+
+> **📖 Official SAP Documentation**: [abapset_country.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_country.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapset_country.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_country.htm)
+
 
   
 

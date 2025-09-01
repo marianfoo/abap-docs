@@ -20,9 +20,7 @@ The section [Direct Read](javascript:call_link\('abenabap_ixml_lib_dom_direct_re
 
 An iterator can be created for each of these objects. This iterator makes it possible to iterate the DOM elements represented by the objects. The interface of every iterator provides the same options for accessing the objects iterated by the iterator.
 
--   [Iterator for Nodes](#@@ITOC@@ABENABAP_IXML_LIB_DOM_ITERAT_READ_1)
-
--   [Iterators for Lists](#@@ITOC@@ABENABAP_IXML_LIB_DOM_ITERAT_READ_2)
+-   [Iterator for Nodes](#abenabap-ixml-lib-dom-iterat-read-1--------iterators-for-lists---@ITOC@@ABENABAP_IXML_LIB_DOM_ITERAT_READ_2)
 
 Note
 

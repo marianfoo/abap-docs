@@ -17,7 +17,16 @@
     "generate:latest": "node scripts/generate-md-bundles.js --version latest --force",
     "enhance": "node scripts/enhance-abap-docs.js",
     "enhance:all": "node scripts/enhance-abap-docs.js --all",
-    "enhance:758": "node scripts/enhance-abap-docs.js --version 7.58 --force"
+    "enhance:758": "node scripts/enhance-abap-docs.js --version 7.58 --force",
+    "add-urls": "node scripts/add-source-urls.js",
+    "add-urls:all": "node scripts/add-source-urls.js --all",
+    "add-urls:758": "node scripts/add-source-urls.js --version 7.58 --force",
+    "fix-issues": "node scripts/fix-remaining-issues.js",
+    "fix-issues:all": "node scripts/fix-remaining-issues.js --all",
+    "fix-issues:758": "node scripts/fix-remaining-issues.js --version 7.58 --force",
+    "final-fix": "node scripts/final-js-link-fix.js",
+    "final-fix:all": "node scripts/final-js-link-fix.js --all",
+    "final-fix:758": "node scripts/final-js-link-fix.js --version 7.58 --force"
   },
   "keywords": [],
   "author": "",

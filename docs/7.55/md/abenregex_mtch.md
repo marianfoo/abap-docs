@@ -10,9 +10,7 @@ regex - Searching, Replacing, Matching
 
 Regular expressions can be used to find and replace substrings of character strings or to check if a complete character string matches its pattern. If a regular expression is applied to a character string as a search pattern, a search for matches of the regular expression with substrings of the character string is intended. In this case, special characters in the regular expression do not match characters, but match positions, thus affecting the type and number of occurrences. If a regular expression is applied to a character string as a search pattern, it is checked whether the character string matches a pattern.
 
--   [Searching](#@@ITOC@@ABENREGEX_MTCH_1)
-
--   [Replacing](#@@ITOC@@ABENREGEX_MTCH_2)
+-   [Searching](#abenregex-mtch-1--------replacing---@ITOC@@ABENREGEX_MTCH_2)
 
 -   [Matching](#@@ITOC@@ABENREGEX_MTCH_3)
 

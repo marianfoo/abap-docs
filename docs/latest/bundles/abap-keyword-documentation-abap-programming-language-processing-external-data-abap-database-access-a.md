@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_and_hana_abexas.htm)
+- [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_session_variables_abexa.htm)
+- [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_cached_views_abexa.htm)
+- [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+- [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_hana_db_proc_abexa.htm)
+- [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_script_curr_conv_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.928Z
+
+---
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +54,14 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -175,7 +205,14 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -274,7 +311,14 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -507,7 +551,14 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -691,7 +742,17 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_script_curr_conv_abexa.htm)
+
 
   
 

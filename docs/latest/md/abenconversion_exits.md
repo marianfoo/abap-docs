@@ -12,8 +12,7 @@ Conversion Exits
 
 A [conversion exit](javascript:call_link\('abenconversion_exit_glosry.htm'\) "Glossary Entry") overrides standard conversions that take place when values are passed from an ABAP data object to a dynpro field or from a dynpro field to an ABAP data object and in the formatting of data using the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) and [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)).
 
--   [Properties of Conversion Exits](#@@ITOC@@ABENCONVERSION_EXITS_1)
--   [Executing Conversion Exits](#@@ITOC@@ABENCONVERSION_EXITS_2)
+-   [Properties of Conversion Exits](#abenconversion-exits-1-------executing-conversion-exits---@ITOC@@ABENCONVERSION_EXITS_2)
 -   [Properties of Conversion Routines](#@@ITOC@@ABENCONVERSION_EXITS_3)
 
 Properties of Conversion Exits   

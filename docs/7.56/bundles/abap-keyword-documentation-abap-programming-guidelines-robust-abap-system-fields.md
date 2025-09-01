@@ -3,7 +3,32 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abensystem_fields_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_fields_gdl.htm)
+- [abensyst_field_access_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensyst_field_access_guidl.htm)
+- [abenobs_intern_system_field_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobs_intern_system_field_guidl.htm)
+- [abenevaluation_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenevaluation_guidl.htm)
+- [abenreturn_code_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreturn_code_guidl.htm)
+- [abenuse_actual_parameters_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_actual_parameters_guidl.htm)
+- [abenuse_ui_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_ui_guidl.htm)
+- [abenuse_operand_position_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_operand_position_guidl.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.458Z
+
+---
+
 ### abensystem_fields_gdl.htm
+
+> **📖 Official SAP Documentation**: [abensystem_fields_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_fields_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37,7 +62,14 @@ Continue
 [Using Elements in Operand Positions](javascript:call_link\('abenuse_operand_position_guidl.htm'\))
 
 
+
+**📖 Source**: [abensystem_fields_gdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_fields_gdl.htm)
+
 ### abensyst_field_access_guidl.htm
+
+> **📖 Official SAP Documentation**: [abensyst_field_access_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensyst_field_access_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -91,7 +123,14 @@ CASE sy-subrc.
    ...
 
 
+
+**📖 Source**: [abensyst_field_access_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensyst_field_access_guidl.htm)
+
 ### abenobs_intern_system_field_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenobs_intern_system_field_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobs_intern_system_field_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -137,7 +176,14 @@ DATA decimals TYPE i.
 DESCRIBE FIELD dobj TYPE type DECIMALS decimals.
 
 
+
+**📖 Source**: [abenobs_intern_system_field_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobs_intern_system_field_guidl.htm)
+
 ### abenevaluation_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenevaluation_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenevaluation_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -197,7 +243,14 @@ IF find\_subrc = 0.
 ENDIF.
 
 
+
+**📖 Source**: [abenevaluation_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenevaluation_guidl.htm)
+
 ### abenreturn_code_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenreturn_code_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreturn_code_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -255,7 +308,14 @@ ENDIF
 ... "work with wa
 
 
+
+**📖 Source**: [abenreturn_code_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreturn_code_guidl.htm)
+
 ### abenuse_actual_parameters_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenuse_actual_parameters_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_actual_parameters_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -324,7 +384,14 @@ ENDCLASS.
 ...
 
 
+
+**📖 Source**: [abenuse_actual_parameters_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_actual_parameters_guidl.htm)
+
 ### abenuse_ui_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenuse_ui_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_ui_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -359,7 +426,17 @@ Example
 When the program PGL\_SYSTEM\_FIELD\_ON\_UI is executed, input fields for document output language are displayed on a classic dynpro. The first input field is declared with reference to data type syst-langu of system field sy-langu. The second input field is declared with reference to a semantically suitable ABAP Dictionary data type. The displayed F1 help clearly indicates that syst-langu is not suited for language fields in a user dialog. This is because the help only describes the behavior of the sy-langu field in a program. It does not describe the meaning of the language field in the relevant application.
 
 
+
+**📖 Source**: [abenuse_ui_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_ui_guidl.htm)
+
 ### abenuse_operand_position_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenuse_operand_position_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_operand_position_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenuse_operand_position_guidl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_operand_position_guidl.htm)
+
 
   
 

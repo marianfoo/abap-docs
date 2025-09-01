@@ -3,7 +3,36 @@
 Included pages: 17
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenextern_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextern_obsolete.htm)
+- [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_obsolete.htm)
+- [abapcall_function_background_task.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_background_task.htm)
+- [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwait_obsolete.htm)
+- [abapwait_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_obsolete.htm)
+- [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_obsolete.htm)
+- [abapcall_transformation_objects.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transformation_objects.htm)
+- [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cpic.htm)
+- [abapcommunication.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication.htm)
+- [abapcommunication_comstep.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication_comstep.htm)
+- [abapcommunication_options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication_options.htm)
+- [abenabap_java_script.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_java_script.htm)
+
+**Bundle Contains**: 12 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.192Z
+
+---
+
 ### abenextern_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenextern_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextern_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +60,14 @@ Continue
 [ABAP and JavaScript](javascript:call_link\('abenabap_java_script.htm'\))
 
 
+
+**📖 Source**: [abenextern_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextern_obsolete.htm)
+
 ### abenrfc_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53,7 +89,14 @@ Continue
 [CALL FUNCTION - IN BACKGROUND TASK](javascript:call_link\('abapcall_function_background_task.htm'\))
 
 
+
+**📖 Source**: [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_obsolete.htm)
+
 ### abapcall_function_background_task.htm
+
+> **📖 Official SAP Documentation**: [abapcall_function_background_task.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_background_task.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -119,7 +162,14 @@ Notes
 -   When handling the registration entries in the database tables ARFCSSTATE and ARFCSDATA, note that they are subject to the regular administration rules for a [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry"). For example, the database LUW is ended by a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"), all registration entries of the current database LUW are deleted.
 
 
+
+**📖 Source**: [abapcall_function_background_task.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_background_task.htm)
+
 ### abenrfc_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -141,7 +191,14 @@ Continue
 [CALL FUNCTION - IN BACKGROUND TASK](javascript:call_link\('abapcall_function_background_task.htm'\))
 
 
+
+**📖 Source**: [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_obsolete.htm)
+
 ### abenwait_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwait_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -159,7 +216,14 @@ Continue
 [WAIT UNTIL - Short Form](javascript:call_link\('abapwait_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwait_obsolete.htm)
+
 ### abapwait_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abapwait_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -188,7 +252,14 @@ Note
 The complete form using FOR ASYNCHRONOUS TASKS should always be used. This addition indicates that an [asynchronous RFC](javascript:call_link\('abenasynchronous_rfc_glosry.htm'\) "Glossary Entry") is expected and distinguishes the statement from [WAIT FOR MESSAGING CHANNELS](javascript:call_link\('abapwait_amc.htm'\)) or [WAIT FOR PUSH CHANNELS](javascript:call_link\('abapwait_apc.htm'\)), which are waiting for messages from [ABAP Messaging Channels](javascript:call_link\('abenabap_messaging_channels_glosry.htm'\) "Glossary Entry") or [ABAP Push Channels](javascript:call_link\('abenabap_push_channels_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abapwait_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_obsolete.htm)
+
 ### abenwait_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwait_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -206,7 +277,14 @@ Continue
 [WAIT UNTIL - Short Form](javascript:call_link\('abapwait_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwait_obsolete.htm)
+
 ### abenabap_xml_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -224,7 +302,14 @@ Continue
 [CALL TRANSFORMATION - OBJECTS](javascript:call_link\('abapcall_transformation_objects.htm'\))
 
 
+
+**📖 Source**: [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_obsolete.htm)
+
 ### abapcall_transformation_objects.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transformation_objects.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transformation_objects.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -253,7 +338,14 @@ Note
 The addition OBJECTS is obsolete. External objects are handled like parameters and object references must be passed accordingly with the addition [PARAMETERS](javascript:call_link\('abapcall_transformation.htm'\)).
 
 
+
+**📖 Source**: [abapcall_transformation_objects.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transformation_objects.htm)
+
 ### abenabap_xml_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -271,7 +363,14 @@ Continue
 [CALL TRANSFORMATION - OBJECTS](javascript:call_link\('abapcall_transformation_objects.htm'\))
 
 
+
+**📖 Source**: [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_obsolete.htm)
+
 ### abenabap_cpic.htm
+
+> **📖 Official SAP Documentation**: [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cpic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -293,7 +392,14 @@ Continue
 [COMMUNICATION](javascript:call_link\('abapcommunication.htm'\))
 
 
+
+**📖 Source**: [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cpic.htm)
+
 ### abapcommunication.htm
+
+> **📖 Official SAP Documentation**: [abapcommunication.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -434,7 +540,14 @@ Continue
 [COMMUNICATION - cpic\_options](javascript:call_link\('abapcommunication_options.htm'\))
 
 
+
+**📖 Source**: [abapcommunication.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication.htm)
+
 ### abapcommunication_comstep.htm
+
+> **📖 Official SAP Documentation**: [abapcommunication_comstep.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication_comstep.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -534,7 +647,14 @@ Effect
 The connection is terminated and all memory areas are released.
 
 
+
+**📖 Source**: [abapcommunication_comstep.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication_comstep.htm)
+
 ### abapcommunication_options.htm
+
+> **📖 Official SAP Documentation**: [abapcommunication_options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication_options.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -681,7 +801,14 @@ Effect
 This addition can only be specified for the communication step RECEIVE. It prevents the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") being changed when receiving data to avoid the possible loss of the [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry"). In this case, the current work process waits until all data has been received.
 
 
+
+**📖 Source**: [abapcommunication_options.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication_options.htm)
+
 ### abapcommunication.htm
+
+> **📖 Official SAP Documentation**: [abapcommunication.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -822,7 +949,14 @@ Continue
 [COMMUNICATION - cpic\_options](javascript:call_link\('abapcommunication_options.htm'\))
 
 
+
+**📖 Source**: [abapcommunication.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication.htm)
+
 ### abenabap_cpic.htm
+
+> **📖 Official SAP Documentation**: [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cpic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -844,7 +978,17 @@ Continue
 [COMMUNICATION](javascript:call_link\('abapcommunication.htm'\))
 
 
+
+**📖 Source**: [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cpic.htm)
+
 ### abenabap_java_script.htm
+
+> **📖 Official SAP Documentation**: [abenabap_java_script.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_java_script.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabap_java_script.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_java_script.htm)
+
 
   
 

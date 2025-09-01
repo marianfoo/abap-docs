@@ -7,6 +7,21 @@
 ---
 
 
+
+## 🔗 Complete Source Documentation
+
+**📖 Official Documentation**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+**🏷️ Category**: DATABASE
+**🔍 Search Specific Topics**: Use `abap_search query:"database"` for focused results
+**📄 Individual Pages**: All source URLs included in each section below
+
+### 🎯 Quick Navigation
+- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
+- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
+- **Browse by difficulty**: Look for **Difficulty** markers in each section
+
+---
+
 ## ABAP - Keyword Documentation / ABAP - Dictionary (DDIC) / DDIC - Database Tables / DDIC - Technical Properties of Database Tables
 
 **Files**: 12 | **Difficulty**: intermediate
@@ -17,6 +32,14 @@ Included pages: 12
 
 
 ### abenddic_database_tables_tech.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_tech.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_tech.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_tech.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_tech.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41,7 +64,18 @@ Continue
 [DDIC - Table-Specific Technical Properties of Database Tables](javascript:call_link\('abenddic_database_tables_techspec.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_tech.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_tech.htm)
+
 ### abenddic_database_tables_techstruc.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_techstruc.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_techstruc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_techstruc.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_techstruc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -102,7 +136,18 @@ Hints
 -   The limit on the number of fields and the length of the structure for tables in the software component SAP\_BASIS is chosen deliberately so that the requirements of any supported database platform can be met. At SAP, tables can be flagged to allow this limit to be exceeded if extensions are used. When tables flagged in this way are accessed using ABAP SQL, a syntax warning from the [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry") occurs. The warning indicates that a platform-independent replacement implementation may be necessary. The class [CL\_ABAP\_DBFEATURES](javascript:call_link\('abencl_abap_dbfeatures.htm'\)) can be used to identify which limit is supported by a particular database system. The limits applied to tables in other software components for [SAP S/4HANA](javascript:call_link\('abensap_s4hana_glosry.htm'\) "Glossary Entry") is defined by the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenddic_database_tables_techstruc.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_techstruc.htm)
+
 ### abenddic_database_tables_techspec.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_techspec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_techspec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -143,7 +188,18 @@ Continue
 [DDIC - Activation Type of Database Tables](javascript:call_link\('abenddic_database_tables_act_type.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_techspec.htm)
+
 ### abenddic_database_tables_tab_cat.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_tab_cat.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_tab_cat.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_tab_cat.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_tab_cat.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -173,7 +229,18 @@ Hint
 The ABAP Dictionary [tool](javascript:call_link\('abenddic_tools.htm'\)) of the ABAP Workbench makes it possible to transform DDIC database tables from one category to another. To create a different table category as a transparent table, a transparent table must be created first and then transformed into a different table category. In [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry"), the table category is defined using the annotation [@AbapCatalog.tableCategory](javascript:call_link\('abenddicddl_define_table_props.htm'\)).
 
 
+
+**📖 Source**: [abenddic_database_tables_tab_cat.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_tab_cat.htm)
+
 ### abenddic_database_tables_dat_type.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_dat_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_dat_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_dat_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_dat_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -210,7 +277,18 @@ For the database platform Oracle, the data class determines the physical area (t
 There are further data classes for system tables used internally by runtime frameworks, such as SDIC for ABAP Dictionary tables.
 
 
+
+**📖 Source**: [abenddic_database_tables_dat_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_dat_type.htm)
+
 ### abenddic_database_tables_siz_cat.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_siz_cat.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_siz_cat.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_siz_cat.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_siz_cat.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -281,7 +359,18 @@ Expected Rows
 14,000,000 to 590,000,000
 
 
+
+**📖 Source**: [abenddic_database_tables_siz_cat.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_siz_cat.htm)
+
 ### abenddic_database_tables_buffer.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_buffer.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_buffer.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_buffer.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_buffer.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -332,7 +421,18 @@ The buffering type determines which data is loaded from the table to the table b
 -   [Full buffering](javascript:call_link\('abenbuffer_complete_buffering.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_buffer.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_buffer.htm)
+
 ### abenddic_database_tables_protocol.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_protocol.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_protocol.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_protocol.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_protocol.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -373,7 +473,18 @@ Hints
 -   The documented method IS\_LOGGING\_ON of the system class CL\_DBI\_UTILITIES can be used to check whether logging is currently switched on for a DDIC database table.
 
 
+
+**📖 Source**: [abenddic_database_tables_protocol.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_protocol.htm)
+
 ### abenddic_database_tables_storage.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_storage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_storage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_storage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_storage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -408,7 +519,18 @@ Hint
 For more information about the differences between row store and column store on the SAP HANA database, see the SAP HANA documentation.
 
 
+
+**📖 Source**: [abenddic_database_tables_storage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_storage.htm)
+
 ### abenddic_database_tables_load_unit.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_load_unit.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_load_unit.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_load_unit.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_load_unit.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -463,7 +585,18 @@ Hint
 For more information about the Native Storage Extension on the SAP HANA database, see the [SAP HANA documentation](https://help.sap.com/docs/SAP_HANA_PLATFORM/6b94445c94ae495c83a19646e7c3fd56/4efaa94f8057425c8c7021da6fc2ddf5).
 
 
+
+**📖 Source**: [abenddic_database_tables_load_unit.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_load_unit.htm)
+
 ### abenddic_database_tables_act_type.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_act_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_act_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_act_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_act_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -498,7 +631,18 @@ The activation type defines whether a DDIC database table can be activated in an
         The DDIC database table is required before other objects are modified as part of a transport.
 
 
+
+**📖 Source**: [abenddic_database_tables_act_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_act_type.htm)
+
 ### abenddic_database_tables_techspec.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_techspec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_techspec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -551,7 +695,18 @@ Continue
 Included pages: 6
 
 
+
+**📖 Source**: [abenddic_database_tables_techspec.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_techspec.htm)
+
 ### abenddic_database_tables_forkeyrel.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_forkeyrel.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_forkeyrel.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -583,7 +738,18 @@ Continue
 [DDIC - Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_forkeyrel.htm)
+
 ### abenddic_database_tables_checktab.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_checktab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_checktab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -608,7 +774,18 @@ Hints
 -   A special column can be used to [flag obsolete data](javascript:call_link\('abenddic_deprecation.htm'\)) in check tables.
 
 
+
+**📖 Source**: [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_checktab.htm)
+
 ### abenddic_database_tables_forkey.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_forkey.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_forkey.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -695,7 +872,18 @@ Foreign keys can have the following properties:
         If this type of foreign key field is defined, the foreign key table is handled as a text table of the check table. The primary key of the foreign key table must match the check table and it must have one additional language key field with the type LANG. There can be only one text table for each check table, otherwise an activation warning occurs. The texts in a text table are used, for example, to explain input helps on dynpros and Web Dynpros.
 
 
+
+**📖 Source**: [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_forkey.htm)
+
 ### abenddic_deprecation.htm
+
+> **📖 Official SAP Documentation**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_deprecation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_deprecation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -758,7 +946,18 @@ Continue
 ![Example](exa.gif "Example") [DDIC - Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation_abexa.htm'\))
 
 
+
+**📖 Source**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_deprecation.htm)
+
 ### abenddic_deprecation_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_deprecation_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_deprecation_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -820,7 +1019,18 @@ If checks on deprecated data are enabled, the following takes place:
 If the checkbox Check deprecated data is not selected, no warnings or error messages are produced and the input help displays all entries from the check table DEMO\_DEPR\_CHECK.
 
 
+
+**📖 Source**: [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_deprecation_abexa.htm)
+
 ### abenddic_deprecation.htm
+
+> **📖 Official SAP Documentation**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_deprecation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_deprecation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -895,7 +1105,18 @@ Continue
 Included pages: 2
 
 
+
+**📖 Source**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_deprecation.htm)
+
 ### abenddic_database_tables_gtt.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_gtt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_gtt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_gtt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_gtt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -954,7 +1175,18 @@ Continue
 ![Example](exa.gif "Example") [DDIC - Global Temporary Tables, Access](javascript:call_link\('abenddic_gtt_abexa.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_gtt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_gtt.htm)
+
 ### abenddic_gtt_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenddic_gtt_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_gtt_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_gtt_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_gtt_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1043,7 +1275,18 @@ This example uses Native SQL to fill the GTT for demonstration purposes only. On
 Included pages: 10
 
 
+
+**📖 Source**: [abenddic_gtt_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_gtt_abexa.htm)
+
 ### abenddic_define_table.htm
+
+> **📖 Official SAP Documentation**: [abenddic_define_table.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddic_define_table.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1074,7 +1317,18 @@ Continue
 [DDIC DDL - DEFINE TABLE](javascript:call_link\('abenddicddl_define_table.htm'\))
 
 
+
+**📖 Source**: [abenddic_define_table.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_table.htm)
+
 ### abenddicddl_define_table.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1139,7 +1393,18 @@ Continue
 [DDIC DDL - DEFINE TABLE, include](javascript:call_link\('abenddicddl_define_table_incl.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table.htm)
+
 ### abenddicddl_define_table_props.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_props.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_props.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_props.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_props.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1215,7 +1480,18 @@ define table demo\_sumdist {
   sum\_distance : s\_distance; }
 
 
+
+**📖 Source**: [abenddicddl_define_table_props.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_props.htm)
+
 ### abenddicddl_define_table_comps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1300,7 +1576,18 @@ Continue
 [DDIC DDL - DEFINE TABLE, geo\_annos](javascript:call_link\('abenddicddl_define_table_srprps.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_comps.htm)
+
 ### abenddicddl_define_table_fkprps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_fkprps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_fkprps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_fkprps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_fkprps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1340,7 +1627,18 @@ Example
 See [foreign\_key](javascript:call_link\('abenddicddl_define_table_forkey.htm'\)).
 
 
+
+**📖 Source**: [abenddicddl_define_table_fkprps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_fkprps.htm)
+
 ### abenddicddl_define_table_forkey.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_forkey.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_forkey.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_forkey.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_forkey.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1394,7 +1692,18 @@ define table spfli {
 }
 
 
+
+**📖 Source**: [abenddicddl_define_table_forkey.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_forkey.htm)
+
 ### abenddicddl_define_table_srprps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_srprps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_srprps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_srprps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_srprps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1437,7 +1746,18 @@ define table ... {
 }
 
 
+
+**📖 Source**: [abenddicddl_define_table_srprps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_srprps.htm)
+
 ### abenddicddl_define_table_comps.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1522,7 +1842,18 @@ Continue
 [DDIC DDL - DEFINE TABLE, geo\_annos](javascript:call_link\('abenddicddl_define_table_srprps.htm'\))
 
 
+
+**📖 Source**: [abenddicddl_define_table_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_comps.htm)
+
 ### abenddicddl_define_table_incl.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_incl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_incl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table_incl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_incl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1554,7 +1885,18 @@ Additionally, the additions KEY and NOT NULL can be used:
 -   By using NOT NULL the [flag for initial values](javascript:call_link\('abenddic_database_tables_init.htm'\)) is set for the included structure. When used, those fields in the include structure for which this attribute is set also keep their attribute, but it is not switched on for fields where the attribute is not set. If the flag for initial values is not set for the included include structure, this attribute is removed for all fields.
 
 
+
+**📖 Source**: [abenddicddl_define_table_incl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table_incl.htm)
+
 ### abenddicddl_define_table.htm
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1631,7 +1973,18 @@ Continue
 Included pages: 6
 
 
+
+**📖 Source**: [abenddicddl_define_table.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_table.htm)
+
 ### abencds_sql_scalar_function.htm
+
+> **📖 Official SAP Documentation**: [abencds_sql_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sql_scalar_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_sql_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sql_scalar_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1664,7 +2017,18 @@ Continue
 [CDS FDL - DEFINE SCALAR FUNCTION](javascript:call_link\('abencds_define_scalar_function.htm'\))
 
 
+
+**📖 Source**: [abencds_sql_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_sql_scalar_function.htm)
+
 ### abencds_define_scalar_function.htm
+
+> **📖 Official SAP Documentation**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1771,7 +2135,18 @@ Continue
 [CDS FDL - typing](javascript:call_link\('abencds_scalar_typing.htm'\))
 
 
+
+**📖 Source**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm)
+
 ### abencds_scalar_typing.htm
+
+> **📖 Official SAP Documentation**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1902,7 +2277,18 @@ Continue
 [CDS FDL - WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))
 
 
+
+**📖 Source**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm)
+
 ### abencds_with_reference_type.htm
+
+> **📖 Official SAP Documentation**: [abencds_with_reference_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_with_reference_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_with_reference_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_with_reference_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2066,7 +2452,18 @@ The reference type of the input parameter or return parameter can be defined dyn
 -   For input parameters, the ELSE branch is optional. For the return parameter, the ELSE branch is mandatory.
 
 
+
+**📖 Source**: [abencds_with_reference_type.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_with_reference_type.htm)
+
 ### abencds_scalar_typing.htm
+
+> **📖 Official SAP Documentation**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2197,7 +2594,18 @@ Continue
 [CDS FDL - WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))
 
 
+
+**📖 Source**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_scalar_typing.htm)
+
 ### abencds_define_scalar_function.htm
+
+> **📖 Official SAP Documentation**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2316,7 +2724,18 @@ Continue
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_scalar_function.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2564,7 +2983,18 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2633,7 +3063,18 @@ Hints
 Included pages: 9
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_path_expression_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2774,7 +3215,18 @@ Continue
 ![Example](exa.gif "Example") [CDS DDL - DDIC-Based View, Joins of Associations](javascript:call_link\('abencds_assoc_join_v1_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_path_expression_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_v1.htm)
+
 ### abencds_path_expr_attr_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2807,7 +3259,18 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](javascript:call_link\('abencds_path_expression_filter_v1.htm'\))
 
 
+
+**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v1.htm)
+
 ### abencds_path_expr_card_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_card_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_card_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2842,7 +3305,18 @@ Hint
 The addition 1: prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](javascript:call_link\('abencds_where_clause_v1.htm'\)) clause or [HAVING](javascript:call_link\('abencds_having_clause_v1.htm'\)) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
 
 
+
+**📖 Source**: [abencds_path_expr_card_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_card_v1.htm)
+
 ### abencds_path_expr_jointype_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_jointype_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_jointype_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2882,7 +3356,18 @@ Executable Example
 [Joins of CDS Associations](javascript:call_link\('abencds_assoc_join_v1_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_path_expr_jointype_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_jointype_v1.htm)
+
 ### abencds_path_expression_filter_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3072,7 +3557,18 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](javascript:call_link\('abencds_cond_expr_filter_v1.htm'\))
 
 
+
+**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v1.htm)
+
 ### abencds_cond_expr_filter_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cond_expr_filter_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cond_expr_filter_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3097,7 +3593,18 @@ Rules for conditions [cds\_cond](javascript:call_link\('abencds_conditional_expr
 -   No path expressions or other expressions or function calls can be specified.
 
 
+
+**📖 Source**: [abencds_cond_expr_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cond_expr_filter_v1.htm)
+
 ### abencds_path_expression_filter_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3287,7 +3794,18 @@ Continue
 [CDS DDL - DDIC-Based View, cds\_cond, Filter](javascript:call_link\('abencds_cond_expr_filter_v1.htm'\))
 
 
+
+**📖 Source**: [abencds_path_expression_filter_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v1.htm)
+
 ### abencds_path_expr_attr_v1.htm
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v1.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3320,7 +3838,18 @@ Continue
 [CDS DDL - DDIC-Based View, path\_expr, Filter](javascript:call_link\('abencds_path_expression_filter_v1.htm'\))
 
 
+
+**📖 Source**: [abencds_path_expr_attr_v1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v1.htm)
+
 ### abencds_assoc_join_v1_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_assoc_join_v1_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_assoc_join_v1_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3551,7 +4080,18 @@ This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1
 Included pages: 6
 
 
+
+**📖 Source**: [abencds_assoc_join_v1_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_assoc_join_v1_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3579,7 +4119,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3723,7 +4274,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3822,7 +4384,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4055,7 +4628,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4239,7 +4823,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4400,7 +4995,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4428,7 +5034,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4572,7 +5189,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4671,7 +5299,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4904,7 +5543,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5088,7 +5738,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5249,7 +5910,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5277,7 +5949,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5421,7 +6104,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5520,7 +6214,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5753,7 +6458,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5937,7 +6653,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6098,7 +6825,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6126,7 +6864,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6270,7 +7019,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6369,7 +7129,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6602,7 +7373,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6786,7 +7568,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6947,7 +7740,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6975,7 +7779,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7119,7 +7934,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7218,7 +8044,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7451,7 +8288,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7635,7 +8483,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7796,7 +8655,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7824,7 +8694,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7968,7 +8849,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8067,7 +8959,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8300,7 +9203,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8484,7 +9398,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8645,7 +9570,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8673,7 +9609,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8817,7 +9764,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8916,7 +9874,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9149,7 +10118,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9333,7 +10313,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9494,7 +10485,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9522,7 +10524,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9666,7 +10679,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9765,7 +10789,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9998,7 +11033,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10182,7 +11228,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10343,7 +11400,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10371,7 +11439,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10515,7 +11594,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10614,7 +11704,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10847,7 +11948,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11031,7 +12143,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11192,7 +12315,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11220,7 +12354,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11364,7 +12509,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11463,7 +12619,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11696,7 +12863,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11880,7 +13058,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12041,7 +13230,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12069,7 +13269,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12213,7 +13424,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12312,7 +13534,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12545,7 +13778,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12729,7 +13973,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12890,7 +14145,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12918,7 +14184,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13062,7 +14339,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13161,7 +14449,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13394,7 +14693,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13578,7 +14888,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13739,7 +15060,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13767,7 +15099,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13911,7 +15254,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14010,7 +15364,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14243,7 +15608,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14427,7 +15803,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14588,7 +15975,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14616,7 +16014,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14760,7 +16169,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14859,7 +16279,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15092,7 +16523,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15276,7 +16718,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15437,7 +16890,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15465,7 +16929,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15609,7 +17084,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15708,7 +17194,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15941,7 +17438,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16125,7 +17633,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16286,7 +17805,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16314,7 +17844,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16458,7 +17999,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16557,7 +18109,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16790,7 +18353,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16974,7 +18548,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17135,7 +18720,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17163,7 +18759,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17307,7 +18914,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17406,7 +19024,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17639,7 +19268,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17823,7 +19463,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17984,7 +19635,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18012,7 +19674,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18156,7 +19829,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18255,7 +19939,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18488,7 +20183,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18672,7 +20378,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18833,7 +20550,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -18861,7 +20589,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19005,7 +20744,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19104,7 +20854,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19337,7 +21098,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19521,7 +21293,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19682,7 +21465,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19710,7 +21504,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19854,7 +21659,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -19953,7 +21769,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20186,7 +22013,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20370,7 +22208,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20531,7 +22380,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20559,7 +22419,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20703,7 +22574,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -20802,7 +22684,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21035,7 +22928,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21219,7 +23123,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21380,7 +23295,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21408,7 +23334,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21552,7 +23489,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21651,7 +23599,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -21884,7 +23843,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22068,7 +24038,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22229,7 +24210,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22257,7 +24249,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22401,7 +24404,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22500,7 +24514,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22733,7 +24758,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -22917,7 +24953,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23078,7 +25125,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23106,7 +25164,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23250,7 +25319,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23349,7 +25429,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23582,7 +25673,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23766,7 +25868,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23927,7 +26040,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -23955,7 +26079,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24099,7 +26234,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24198,7 +26344,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24431,7 +26588,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24615,7 +26783,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24776,7 +26955,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24804,7 +26994,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24948,7 +27149,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25047,7 +27259,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25280,7 +27503,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25464,7 +27698,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25625,7 +27870,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25653,7 +27909,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25797,7 +28064,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -25896,7 +28174,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26129,7 +28418,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26313,7 +28613,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26474,7 +28785,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26502,7 +28824,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26646,7 +28979,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26745,7 +29089,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -26978,7 +29333,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27162,7 +29528,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27323,7 +29700,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27351,7 +29739,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27495,7 +29894,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27594,7 +30004,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27827,7 +30248,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28011,7 +30443,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28172,7 +30615,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28200,7 +30654,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28344,7 +30809,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28443,7 +30919,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28676,7 +31163,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28860,7 +31358,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29021,7 +31530,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29049,7 +31569,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29193,7 +31724,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29292,7 +31834,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29525,7 +32078,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29709,7 +32273,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29870,7 +32445,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29898,7 +32484,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30042,7 +32639,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30141,7 +32749,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30374,7 +32993,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30558,7 +33188,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30719,7 +33360,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30747,7 +33399,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30891,7 +33554,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30990,7 +33664,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31223,7 +33908,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31407,7 +34103,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31568,7 +34275,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31596,7 +34314,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31740,7 +34469,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31839,7 +34579,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32072,7 +34823,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32256,7 +35018,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32417,7 +35190,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32445,7 +35229,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32589,7 +35384,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32688,7 +35494,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32921,7 +35738,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33105,7 +35933,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33266,7 +36105,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33294,7 +36144,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33438,7 +36299,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33537,7 +36409,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33770,7 +36653,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33954,7 +36848,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34115,7 +37020,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34143,7 +37059,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34287,7 +37214,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34386,7 +37324,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34619,7 +37568,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34803,7 +37763,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34964,7 +37935,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34992,7 +37974,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35136,7 +38129,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35235,7 +38239,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35468,7 +38483,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35652,7 +38678,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35813,7 +38850,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35841,7 +38889,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -35985,7 +39044,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36084,7 +39154,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36317,7 +39398,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36501,7 +39593,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36662,7 +39765,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36690,7 +39804,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36834,7 +39959,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -36933,7 +40069,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37166,7 +40313,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37350,7 +40508,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37511,7 +40680,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37539,7 +40719,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37683,7 +40874,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37782,7 +40984,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38015,7 +41228,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38199,7 +41423,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38360,7 +41595,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38388,7 +41634,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38532,7 +41789,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38631,7 +41899,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38864,7 +42143,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39048,7 +42338,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39209,7 +42510,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39237,7 +42549,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39381,7 +42704,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39480,7 +42814,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39713,7 +43058,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -39897,7 +43253,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40058,7 +43425,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40086,7 +43464,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40230,7 +43619,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40329,7 +43729,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40562,7 +43973,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40746,7 +44168,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40907,7 +44340,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40935,7 +44379,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41079,7 +44534,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41178,7 +44644,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41411,7 +44888,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41595,7 +45083,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41756,7 +45255,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41784,7 +45294,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -41928,7 +45449,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42027,7 +45559,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42260,7 +45803,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42444,7 +45998,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42605,7 +46170,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42633,7 +46209,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42777,7 +46364,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -42876,7 +46474,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43109,7 +46718,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43293,7 +46913,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43454,7 +47085,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43482,7 +47124,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43626,7 +47279,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43725,7 +47389,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43958,7 +47633,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44142,7 +47828,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44303,7 +48000,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44331,7 +48039,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44475,7 +48194,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44574,7 +48304,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44807,7 +48548,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -44991,7 +48743,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45152,7 +48915,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45180,7 +48954,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45324,7 +49109,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45423,7 +49219,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45656,7 +49463,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45840,7 +49658,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46001,7 +49830,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46029,7 +49869,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46173,7 +50024,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46272,7 +50134,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46505,7 +50378,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46689,7 +50573,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46850,7 +50745,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -46878,7 +50784,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47022,7 +50939,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47121,7 +51049,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47354,7 +51293,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47538,7 +51488,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47699,7 +51660,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47727,7 +51699,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47871,7 +51854,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47970,7 +51964,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48203,7 +52208,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48387,7 +52403,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48548,7 +52575,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 3
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenexec_sql_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48570,7 +52608,18 @@ Continue
 ![Example](exa.gif "Example") [EXEC SQL - Access to Database Functions](javascript:call_link\('abenexec_sql_db_function_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+
 ### abennative_sql_abexa.htm
+
+> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48685,7 +52734,18 @@ Description  
 The program is the static equivalent of the executable [ADBC](javascript:call_link\('abenadbc_dml_ddl_abexa.htm'\)) example. The name of the database abap\_docu\_demo\_mytab cannot be modified. Instead of passing the SQL statements dynamically to methods of the class CL\_SQL\_STATEMENT, they are specified statically between EXEC and ENDEXEC. Attempts to insert existing rows can only be detected using sy-subrc and the corresponding SQL exception must be raised explicitly.
 
 
+
+**📖 Source**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+
 ### abenexec_sql_db_function_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48775,7 +52835,18 @@ After [EXEC SQL](javascript:call_link\('abapexec.htm'\)), this example creates a
 Included pages: 3
 
 
+
+**📖 Source**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+
 ### abenexec_sql_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48797,7 +52868,18 @@ Continue
 ![Example](exa.gif "Example") [EXEC SQL - Access to Database Functions](javascript:call_link\('abenexec_sql_db_function_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+
 ### abennative_sql_abexa.htm
+
+> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -48912,7 +52994,18 @@ Description  
 The program is the static equivalent of the executable [ADBC](javascript:call_link\('abenadbc_dml_ddl_abexa.htm'\)) example. The name of the database abap\_docu\_demo\_mytab cannot be modified. Instead of passing the SQL statements dynamically to methods of the class CL\_SQL\_STATEMENT, they are specified statically between EXEC and ENDEXEC. Attempts to insert existing rows can only be detected using sy-subrc and the corresponding SQL exception must be raised explicitly.
 
 
+
+**📖 Source**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+
 ### abenexec_sql_db_function_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49002,7 +53095,18 @@ After [EXEC SQL](javascript:call_link\('abapexec.htm'\)), this example creates a
 Included pages: 3
 
 
+
+**📖 Source**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+
 ### abenexec_sql_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49024,7 +53128,18 @@ Continue
 ![Example](exa.gif "Example") [EXEC SQL - Access to Database Functions](javascript:call_link\('abenexec_sql_db_function_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+
 ### abennative_sql_abexa.htm
+
+> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49139,7 +53254,18 @@ Description  
 The program is the static equivalent of the executable [ADBC](javascript:call_link\('abenadbc_dml_ddl_abexa.htm'\)) example. The name of the database abap\_docu\_demo\_mytab cannot be modified. Instead of passing the SQL statements dynamically to methods of the class CL\_SQL\_STATEMENT, they are specified statically between EXEC and ENDEXEC. Attempts to insert existing rows can only be detected using sy-subrc and the corresponding SQL exception must be raised explicitly.
 
 
+
+**📖 Source**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+
 ### abenexec_sql_db_function_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49229,7 +53355,18 @@ After [EXEC SQL](javascript:call_link\('abapexec.htm'\)), this example creates a
 Included pages: 3
 
 
+
+**📖 Source**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+
 ### abenexec_sql_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49251,7 +53388,18 @@ Continue
 ![Example](exa.gif "Example") [EXEC SQL - Access to Database Functions](javascript:call_link\('abenexec_sql_db_function_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+
 ### abennative_sql_abexa.htm
+
+> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49366,7 +53514,18 @@ Description  
 The program is the static equivalent of the executable [ADBC](javascript:call_link\('abenadbc_dml_ddl_abexa.htm'\)) example. The name of the database abap\_docu\_demo\_mytab cannot be modified. Instead of passing the SQL statements dynamically to methods of the class CL\_SQL\_STATEMENT, they are specified statically between EXEC and ENDEXEC. Attempts to insert existing rows can only be detected using sy-subrc and the corresponding SQL exception must be raised explicitly.
 
 
+
+**📖 Source**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+
 ### abenexec_sql_db_function_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49456,7 +53615,18 @@ After [EXEC SQL](javascript:call_link\('abapexec.htm'\)), this example creates a
 Included pages: 3
 
 
+
+**📖 Source**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+
 ### abenexec_sql_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49478,7 +53648,18 @@ Continue
 ![Example](exa.gif "Example") [EXEC SQL - Access to Database Functions](javascript:call_link\('abenexec_sql_db_function_abexa.htm'\))
 
 
+
+**📖 Source**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
+
 ### abennative_sql_abexa.htm
+
+> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49593,7 +53774,18 @@ Description  
 The program is the static equivalent of the executable [ADBC](javascript:call_link\('abenadbc_dml_ddl_abexa.htm'\)) example. The name of the database abap\_docu\_demo\_mytab cannot be modified. Instead of passing the SQL statements dynamically to methods of the class CL\_SQL\_STATEMENT, they are specified statically between EXEC and ENDEXEC. Attempts to insert existing rows can only be detected using sy-subrc and the corresponding SQL exception must be raised explicitly.
 
 
+
+**📖 Source**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+
 ### abenexec_sql_db_function_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49683,7 +53875,18 @@ After [EXEC SQL](javascript:call_link\('abapexec.htm'\)), this example creates a
 Included pages: 6
 
 
+
+**📖 Source**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49711,7 +53914,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49855,7 +54069,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -49954,7 +54179,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50187,7 +54423,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50371,7 +54618,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50532,7 +54790,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50560,7 +54829,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50704,7 +54984,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50803,7 +55094,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51036,7 +55338,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51220,7 +55533,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51381,7 +55705,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_and_hana_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51409,7 +55744,18 @@ Continue
 ![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
+
 ### abenhana_session_variables_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51553,7 +55899,18 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
     This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+
 ### abenhana_cached_views_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51652,7 +56009,18 @@ When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:c
 The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
 
 
+
+**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+
 ### abenfrom_adbc_to_amdp_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51885,7 +56253,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
+
+**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+
 ### abencall_hana_db_proc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52069,7 +56448,18 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+
 ### abensql_script_curr_conv_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52230,7 +56620,18 @@ A complete code relocation using a subquery in the ABAP SQL statement MODIFY is 
 Included pages: 6
 
 
+
+**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
+
 ### abenabap_object_services_query.htm
+
+> **📖 Official SAP Documentation**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_object_services_query.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_object_services_query.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52259,7 +56660,18 @@ Continue
 ![Example](exa.gif "Example") [OS - Query Service](javascript:call_link\('abenos_query_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_object_services_query.htm)
+
 ### abenos_query_terms.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_terms.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_terms.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52288,7 +56700,18 @@ Hint
 When the result set of a query is determined, the changes that are made to persistent objects in the current transaction are ignored. The query is executed directly in the database.
 
 
+
+**📖 Source**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_terms.htm)
+
 ### abenos_query_comps.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52440,7 +56863,18 @@ Methods of the Interface IF\_OS\_QUERY\_EXPR\_FACTORY  
     The attributes used for the sort are appended consecutively when the method APPEND\_ASCENDING or APPEND\_DESCENDING of the additional interface IF\_OS\_QUERY\_ORDERING\_EXPR is called. The parameter name is passed to the parameter I\_ATTR.
 
 
+
+**📖 Source**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_comps.htm)
+
 ### abenos_query_filter_cond.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_filter_cond.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_filter_cond.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52481,7 +56915,18 @@ Example
 price ASCENDING date DESCENDING
 
 
+
+**📖 Source**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_filter_cond.htm)
+
 ### abenos_query_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52561,7 +57006,18 @@ Since the predefined parameters PAR1, PAR2 from a parameter list are used here, 
 Included pages: 6
 
 
+
+**📖 Source**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_abexa.htm)
+
 ### abenabap_object_services_query.htm
+
+> **📖 Official SAP Documentation**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_object_services_query.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_object_services_query.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52590,7 +57046,18 @@ Continue
 ![Example](exa.gif "Example") [OS - Query Service](javascript:call_link\('abenos_query_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_object_services_query.htm)
+
 ### abenos_query_terms.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_terms.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_terms.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52619,7 +57086,18 @@ Hint
 When the result set of a query is determined, the changes that are made to persistent objects in the current transaction are ignored. The query is executed directly in the database.
 
 
+
+**📖 Source**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_terms.htm)
+
 ### abenos_query_comps.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52771,7 +57249,18 @@ Methods of the Interface IF\_OS\_QUERY\_EXPR\_FACTORY  
     The attributes used for the sort are appended consecutively when the method APPEND\_ASCENDING or APPEND\_DESCENDING of the additional interface IF\_OS\_QUERY\_ORDERING\_EXPR is called. The parameter name is passed to the parameter I\_ATTR.
 
 
+
+**📖 Source**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_comps.htm)
+
 ### abenos_query_filter_cond.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_filter_cond.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_filter_cond.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52812,7 +57301,18 @@ Example
 price ASCENDING date DESCENDING
 
 
+
+**📖 Source**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_filter_cond.htm)
+
 ### abenos_query_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52892,7 +57392,18 @@ Since the predefined parameters PAR1, PAR2 from a parameter list are used here, 
 Included pages: 6
 
 
+
+**📖 Source**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_abexa.htm)
+
 ### abenabap_object_services_query.htm
+
+> **📖 Official SAP Documentation**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_object_services_query.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_object_services_query.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52921,7 +57432,18 @@ Continue
 ![Example](exa.gif "Example") [OS - Query Service](javascript:call_link\('abenos_query_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_object_services_query.htm)
+
 ### abenos_query_terms.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_terms.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_terms.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -52950,7 +57472,18 @@ Hint
 When the result set of a query is determined, the changes that are made to persistent objects in the current transaction are ignored. The query is executed directly in the database.
 
 
+
+**📖 Source**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_terms.htm)
+
 ### abenos_query_comps.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53102,7 +57635,18 @@ Methods of the Interface IF\_OS\_QUERY\_EXPR\_FACTORY  
     The attributes used for the sort are appended consecutively when the method APPEND\_ASCENDING or APPEND\_DESCENDING of the additional interface IF\_OS\_QUERY\_ORDERING\_EXPR is called. The parameter name is passed to the parameter I\_ATTR.
 
 
+
+**📖 Source**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_comps.htm)
+
 ### abenos_query_filter_cond.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_filter_cond.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_filter_cond.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53143,7 +57687,18 @@ Example
 price ASCENDING date DESCENDING
 
 
+
+**📖 Source**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_filter_cond.htm)
+
 ### abenos_query_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53223,7 +57778,18 @@ Since the predefined parameters PAR1, PAR2 from a parameter list are used here, 
 Included pages: 5
 
 
+
+**📖 Source**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenos_query_abexa.htm)
+
 ### abendb_connections.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53251,7 +57817,18 @@ Continue
 [Database Connections and Transactions](javascript:call_link\('abendb_connections_trans.htm'\))
 
 
+
+**📖 Source**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+
 ### abendb_connections_types.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53333,7 +57910,18 @@ INSERT demo\_update CONNECTION R/3\*service\_conn
 COMMIT CONNECTION R/3\*service\_conn.
 
 
+
+**📖 Source**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+
 ### abendb_connections_mngmnt.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53479,7 +58067,18 @@ Example
 The program DBCONINFO can be used to explore the examples shown in this section while they are being executed step by step in the ABAP Debugger.
 
 
+
+**📖 Source**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+
 ### abendb_connections_using.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53522,7 +58121,18 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+
 ### abendb_connections_trans.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53590,7 +58200,18 @@ ENDEXEC.
 Included pages: 5
 
 
+
+**📖 Source**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+
 ### abendb_connections.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53618,7 +58239,18 @@ Continue
 [Database Connections and Transactions](javascript:call_link\('abendb_connections_trans.htm'\))
 
 
+
+**📖 Source**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+
 ### abendb_connections_types.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53700,7 +58332,18 @@ INSERT demo\_update CONNECTION R/3\*service\_conn
 COMMIT CONNECTION R/3\*service\_conn.
 
 
+
+**📖 Source**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+
 ### abendb_connections_mngmnt.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53846,7 +58489,18 @@ Example
 The program DBCONINFO can be used to explore the examples shown in this section while they are being executed step by step in the ABAP Debugger.
 
 
+
+**📖 Source**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+
 ### abendb_connections_using.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53889,7 +58543,18 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+
 ### abendb_connections_trans.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53957,7 +58622,18 @@ ENDEXEC.
 Included pages: 5
 
 
+
+**📖 Source**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+
 ### abendb_connections.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53985,7 +58661,18 @@ Continue
 [Database Connections and Transactions](javascript:call_link\('abendb_connections_trans.htm'\))
 
 
+
+**📖 Source**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+
 ### abendb_connections_types.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54067,7 +58754,18 @@ INSERT demo\_update CONNECTION R/3\*service\_conn
 COMMIT CONNECTION R/3\*service\_conn.
 
 
+
+**📖 Source**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+
 ### abendb_connections_mngmnt.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54213,7 +58911,18 @@ Example
 The program DBCONINFO can be used to explore the examples shown in this section while they are being executed step by step in the ABAP Debugger.
 
 
+
+**📖 Source**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+
 ### abendb_connections_using.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54256,7 +58965,18 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+
 ### abendb_connections_trans.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54324,7 +59044,18 @@ ENDEXEC.
 Included pages: 5
 
 
+
+**📖 Source**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+
 ### abendb_connections.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54352,7 +59083,18 @@ Continue
 [Database Connections and Transactions](javascript:call_link\('abendb_connections_trans.htm'\))
 
 
+
+**📖 Source**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+
 ### abendb_connections_types.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54434,7 +59176,18 @@ INSERT demo\_update CONNECTION R/3\*service\_conn
 COMMIT CONNECTION R/3\*service\_conn.
 
 
+
+**📖 Source**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+
 ### abendb_connections_mngmnt.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54580,7 +59333,18 @@ Example
 The program DBCONINFO can be used to explore the examples shown in this section while they are being executed step by step in the ABAP Debugger.
 
 
+
+**📖 Source**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+
 ### abendb_connections_using.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54623,7 +59387,18 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+
 ### abendb_connections_trans.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54691,7 +59466,18 @@ ENDEXEC.
 Included pages: 5
 
 
+
+**📖 Source**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+
 ### abendb_connections.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54719,7 +59505,18 @@ Continue
 [Database Connections and Transactions](javascript:call_link\('abendb_connections_trans.htm'\))
 
 
+
+**📖 Source**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections.htm)
+
 ### abendb_connections_types.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54801,7 +59598,18 @@ INSERT demo\_update CONNECTION R/3\*service\_conn
 COMMIT CONNECTION R/3\*service\_conn.
 
 
+
+**📖 Source**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_types.htm)
+
 ### abendb_connections_mngmnt.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54947,7 +59755,18 @@ Example
 The program DBCONINFO can be used to explore the examples shown in this section while they are being executed step by step in the ABAP Debugger.
 
 
+
+**📖 Source**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_mngmnt.htm)
+
 ### abendb_connections_using.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54990,7 +59809,18 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_using.htm)
+
 ### abendb_connections_trans.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55058,7 +59888,18 @@ ENDEXEC.
 Included pages: 6
 
 
+
+**📖 Source**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_connections_trans.htm)
+
 ### abenldb_examples.htm
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55086,7 +59927,18 @@ Continue
 ![Example](exa.gif "Example") [LDB - Calls Using a Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
 
 
+
+**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+
 ### abenldb_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55156,7 +60008,18 @@ The database tables are read in accordance with the selection criteria of the us
 This program is only intended to demonstrate the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronological order of the subroutine calls is determined by the structure of the logical database.
 
 
+
+**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+
 ### abenldb_selections_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55227,7 +60090,18 @@ This automatically created selection include can be completed, for example, as f
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and connected to the node BKPF. Dynamic selections are defined for the tablesLFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
+
+**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+
 ### abenldb_program_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55411,7 +60285,18 @@ If the selections specify [dynamic selections](javascript:call_link\('abenldb_fr
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.
 
 
+
+**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+
 ### abenreport_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55467,7 +60352,18 @@ Description  
 This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
 
 
+
+**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+
 ### abenlogical_database_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55579,7 +60475,18 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
+
+**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+
 ### abenldb_examples.htm
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55607,7 +60514,18 @@ Continue
 ![Example](exa.gif "Example") [LDB - Calls Using a Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
 
 
+
+**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+
 ### abenldb_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55677,7 +60595,18 @@ The database tables are read in accordance with the selection criteria of the us
 This program is only intended to demonstrate the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronological order of the subroutine calls is determined by the structure of the logical database.
 
 
+
+**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+
 ### abenldb_selections_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55748,7 +60677,18 @@ This automatically created selection include can be completed, for example, as f
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and connected to the node BKPF. Dynamic selections are defined for the tablesLFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
+
+**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+
 ### abenldb_program_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55932,7 +60872,18 @@ If the selections specify [dynamic selections](javascript:call_link\('abenldb_fr
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.
 
 
+
+**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+
 ### abenreport_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -55988,7 +60939,18 @@ Description  
 This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
 
 
+
+**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+
 ### abenlogical_database_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56100,7 +61062,18 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
+
+**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+
 ### abenldb_examples.htm
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56128,7 +61101,18 @@ Continue
 ![Example](exa.gif "Example") [LDB - Calls Using a Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
 
 
+
+**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+
 ### abenldb_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56198,7 +61182,18 @@ The database tables are read in accordance with the selection criteria of the us
 This program is only intended to demonstrate the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronological order of the subroutine calls is determined by the structure of the logical database.
 
 
+
+**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+
 ### abenldb_selections_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56269,7 +61264,18 @@ This automatically created selection include can be completed, for example, as f
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and connected to the node BKPF. Dynamic selections are defined for the tablesLFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
+
+**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+
 ### abenldb_program_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56453,7 +61459,18 @@ If the selections specify [dynamic selections](javascript:call_link\('abenldb_fr
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.
 
 
+
+**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+
 ### abenreport_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56509,7 +61526,18 @@ Description  
 This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
 
 
+
+**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+
 ### abenlogical_database_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56621,7 +61649,18 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
+
+**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+
 ### abenldb_examples.htm
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56649,7 +61688,18 @@ Continue
 ![Example](exa.gif "Example") [LDB - Calls Using a Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
 
 
+
+**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+
 ### abenldb_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56719,7 +61769,18 @@ The database tables are read in accordance with the selection criteria of the us
 This program is only intended to demonstrate the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronological order of the subroutine calls is determined by the structure of the logical database.
 
 
+
+**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+
 ### abenldb_selections_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56790,7 +61851,18 @@ This automatically created selection include can be completed, for example, as f
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and connected to the node BKPF. Dynamic selections are defined for the tablesLFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
+
+**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+
 ### abenldb_program_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -56974,7 +62046,18 @@ If the selections specify [dynamic selections](javascript:call_link\('abenldb_fr
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.
 
 
+
+**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+
 ### abenreport_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57030,7 +62113,18 @@ Description  
 This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
 
 
+
+**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+
 ### abenlogical_database_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57142,7 +62236,18 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
+
+**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+
 ### abenldb_examples.htm
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57170,7 +62275,18 @@ Continue
 ![Example](exa.gif "Example") [LDB - Calls Using a Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
 
 
+
+**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+
 ### abenldb_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57240,7 +62356,18 @@ The database tables are read in accordance with the selection criteria of the us
 This program is only intended to demonstrate the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronological order of the subroutine calls is determined by the structure of the logical database.
 
 
+
+**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+
 ### abenldb_selections_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57311,7 +62438,18 @@ This automatically created selection include can be completed, for example, as f
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and connected to the node BKPF. Dynamic selections are defined for the tablesLFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
+
+**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+
 ### abenldb_program_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57495,7 +62633,18 @@ If the selections specify [dynamic selections](javascript:call_link\('abenldb_fr
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.
 
 
+
+**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+
 ### abenreport_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57551,7 +62700,18 @@ Description  
 This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
 
 
+
+**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+
 ### abenlogical_database_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57663,7 +62823,18 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
+
+**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+
 ### abenldb_examples.htm
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57691,7 +62862,18 @@ Continue
 ![Example](exa.gif "Example") [LDB - Calls Using a Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
 
 
+
+**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+
 ### abenldb_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57761,7 +62943,18 @@ The database tables are read in accordance with the selection criteria of the us
 This program is only intended to demonstrate the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronological order of the subroutine calls is determined by the structure of the logical database.
 
 
+
+**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+
 ### abenldb_selections_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -57832,7 +63025,18 @@ This automatically created selection include can be completed, for example, as f
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and connected to the node BKPF. Dynamic selections are defined for the tablesLFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
+
+**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+
 ### abenldb_program_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58016,7 +63220,18 @@ If the selections specify [dynamic selections](javascript:call_link\('abenldb_fr
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.
 
 
+
+**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+
 ### abenreport_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58072,7 +63287,18 @@ Description  
 This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
 
 
+
+**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+
 ### abenlogical_database_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58184,7 +63410,18 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
+
+**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+
 ### abenldb_examples.htm
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58212,7 +63449,18 @@ Continue
 ![Example](exa.gif "Example") [LDB - Calls Using a Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
 
 
+
+**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+
 ### abenldb_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58282,7 +63530,18 @@ The database tables are read in accordance with the selection criteria of the us
 This program is only intended to demonstrate the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronological order of the subroutine calls is determined by the structure of the logical database.
 
 
+
+**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+
 ### abenldb_selections_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58353,7 +63612,18 @@ This automatically created selection include can be completed, for example, as f
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and connected to the node BKPF. Dynamic selections are defined for the tablesLFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
+
+**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+
 ### abenldb_program_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58537,7 +63807,18 @@ If the selections specify [dynamic selections](javascript:call_link\('abenldb_fr
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.
 
 
+
+**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+
 ### abenreport_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58593,7 +63874,18 @@ Description  
 This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
 
 
+
+**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+
 ### abenlogical_database_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58705,7 +63997,18 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
+
+**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+
 ### abenldb_examples.htm
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58733,7 +64036,18 @@ Continue
 ![Example](exa.gif "Example") [LDB - Calls Using a Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
 
 
+
+**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+
 ### abenldb_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58803,7 +64117,18 @@ The database tables are read in accordance with the selection criteria of the us
 This program is only intended to demonstrate the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronological order of the subroutine calls is determined by the structure of the logical database.
 
 
+
+**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+
 ### abenldb_selections_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -58874,7 +64199,18 @@ This automatically created selection include can be completed, for example, as f
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and connected to the node BKPF. Dynamic selections are defined for the tablesLFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
+
+**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+
 ### abenldb_program_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59058,7 +64394,18 @@ If the selections specify [dynamic selections](javascript:call_link\('abenldb_fr
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.
 
 
+
+**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+
 ### abenreport_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59114,7 +64461,18 @@ Description  
 This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
 
 
+
+**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+
 ### abenlogical_database_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59226,7 +64584,18 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
+
+**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+
 ### abenldb_examples.htm
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59254,7 +64623,18 @@ Continue
 ![Example](exa.gif "Example") [LDB - Calls Using a Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
 
 
+
+**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+
 ### abenldb_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59324,7 +64704,18 @@ The database tables are read in accordance with the selection criteria of the us
 This program is only intended to demonstrate the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronological order of the subroutine calls is determined by the structure of the logical database.
 
 
+
+**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+
 ### abenldb_selections_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59395,7 +64786,18 @@ This automatically created selection include can be completed, for example, as f
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and connected to the node BKPF. Dynamic selections are defined for the tablesLFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
+
+**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+
 ### abenldb_program_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59579,7 +64981,18 @@ If the selections specify [dynamic selections](javascript:call_link\('abenldb_fr
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.
 
 
+
+**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+
 ### abenreport_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59635,7 +65048,18 @@ Description  
 This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
 
 
+
+**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+
 ### abenlogical_database_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59747,7 +65171,18 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 6
 
 
+
+**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+
 ### abenldb_examples.htm
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59775,7 +65210,18 @@ Continue
 ![Example](exa.gif "Example") [LDB - Calls Using a Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
 
 
+
+**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_examples.htm)
+
 ### abenldb_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59845,7 +65291,18 @@ The database tables are read in accordance with the selection criteria of the us
 This program is only intended to demonstrate the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronological order of the subroutine calls is determined by the structure of the logical database.
 
 
+
+**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_example.htm)
+
 ### abenldb_selections_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59916,7 +65373,18 @@ This automatically created selection include can be completed, for example, as f
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and connected to the node BKPF. Dynamic selections are defined for the tablesLFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
+
+**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_selections_example.htm)
+
 ### abenldb_program_example.htm
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60100,7 +65568,18 @@ If the selections specify [dynamic selections](javascript:call_link\('abenldb_fr
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.
 
 
+
+**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm)
+
 ### abenreport_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60156,7 +65635,18 @@ Description  
 This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
 
 
+
+**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreport_abexa.htm)
+
 ### abenlogical_database_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60268,7 +65758,18 @@ The subroutines callback\_spfli and callback\_sflight are used as callback routi
 Included pages: 8
 
 
+
+**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_database_abexa.htm)
+
 ### abaprap_system_classes.htm
+
+> **📖 Official SAP Documentation**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60293,7 +65794,18 @@ Continue
 [CL\_ABAP\_BEHVDESCR](javascript:call_link\('abapcl_abap_behvdescr.htm'\))
 
 
+
+**📖 Source**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm)
+
 ### abaprap_cl_abap_behv_aux.htm
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60358,7 +65870,18 @@ Continue
 ![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
 
 
+
+**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+
 ### abenrap_cl_abap_behv_aux_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60597,7 +66120,18 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
     More instances are created on the root entity, however, with an ABAP EML MODIFY request via the RAP BO projection. Hence, the from\_projection parameter is filled after calling the get\_current\_context method.
 
 
+
+**📖 Source**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+
 ### abenrap_cl_abap_behv_aux_ph_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60800,7 +66334,18 @@ The example contains four RAP create operations using an ABAP EML MODIFY stateme
 -   The log table for the failed instances shows that the [RAP late save phase](javascript:call_link\('abenlate_rap_save_phase_glosry.htm'\) "Glossary Entry") is not reached, only the [RAP interaction phase](javascript:call_link\('abenrap_int_phase_glosry.htm'\) "Glossary Entry") and the [RAP early save phase](javascript:call_link\('abenearly_rap_save_phase_glosry.htm'\) "Glossary Entry"). The RAP transaction is concluded with the [RAP cleanup phase](javascript:call_link\('abenrap_cleanup_phase_glosry.htm'\) "Glossary Entry") demonstrated by the successful RAP create operations.
 
 
+
+**📖 Source**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
+
 ### abaprap_cl_abap_behv_aux.htm
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60865,7 +66410,18 @@ Continue
 ![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
 
 
+
+**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+
 ### abapcl_abap_behvdescr.htm
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60903,7 +66459,18 @@ Continue
 ![Example](exa.gif "Example") [Getting BDEF Derived Type Information Using CL\_ABAP\_BEHVDESCR](javascript:call_link\('abenrap_type_info_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
+
 ### abenrap_type_info_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -61138,7 +66705,21 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 The class demonstrates various methods of the CL\_ABAP\_BEHVDESCR class, for example, for getting [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") information or creating types.
 
 
+
+**📖 Source**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
+
 ### abapcl_abap_behvdescr.htm
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
+
 
   
 

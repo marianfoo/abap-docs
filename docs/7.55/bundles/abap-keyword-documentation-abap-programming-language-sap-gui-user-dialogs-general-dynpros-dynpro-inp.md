@@ -3,7 +3,30 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_dynpros_checks.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_checks.htm)
+- [abenabap_dynpros_checks_auto.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_checks_auto.htm)
+- [abenabap_dynpros_checks_mod.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_checks_mod.htm)
+- [abeninput_check_abexas.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninput_check_abexas.htm)
+- [abendynpro_auto_check_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_auto_check_abexa.htm)
+- [abendynpro_field_chain_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_field_chain_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.55
+**Generated**: 2025-09-01T11:25:45.767Z
+
+---
+
 ### abenabap_dynpros_checks.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_checks.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_checks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +54,14 @@ Continue
 [dynpro - Examples of Input Checks](javascript:call_link\('abeninput_check_abexas.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_checks.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_checks.htm)
+
 ### abenabap_dynpros_checks_auto.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_checks_auto.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_checks_auto.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -72,7 +102,14 @@ Executable Example
 [Automatic Input Checks](javascript:call_link\('abendynpro_auto_check_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_checks_auto.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_checks_auto.htm)
+
 ### abenabap_dynpros_checks_mod.htm
+
+> **📖 Official SAP Documentation**: [abenabap_dynpros_checks_mod.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_checks_mod.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -135,7 +172,14 @@ Executable Example
 [Input Checks in Dialog Modules](javascript:call_link\('abendynpro_field_chain_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_dynpros_checks_mod.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_checks_mod.htm)
+
 ### abeninput_check_abexas.htm
+
+> **📖 Official SAP Documentation**: [abeninput_check_abexas.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninput_check_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -152,7 +196,14 @@ Continue
 ![Example](exa.gif "Example") [dynpro - Input Checks in Dialog Modules](javascript:call_link\('abendynpro_field_chain_abexa.htm'\))
 
 
+
+**📖 Source**: [abeninput_check_abexas.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninput_check_abexas.htm)
+
 ### abendynpro_auto_check_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_auto_check_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_auto_check_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -210,7 +261,14 @@ The user must fill all of the input fields with valid values before the PAI modu
 The user can exit the dynpro using Cancel (F12) without correctly entering all values, since the module call was programmed accordingly using AT EXIT-COMMAND.
 
 
+
+**📖 Source**: [abendynpro_auto_check_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_auto_check_abexa.htm)
+
 ### abendynpro_field_chain_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_field_chain_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_field_chain_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -300,7 +358,17 @@ The fields input4 to input6 are checked together in the processing chain. If inp
 The execution module, from which an information message is displayed, is not executed until all six fields satisfy the appropriate conditions.
 
 
+
+**📖 Source**: [abendynpro_field_chain_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_field_chain_abexa.htm)
+
 ### abeninput_check_abexas.htm
+
+> **📖 Official SAP Documentation**: [abeninput_check_abexas.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninput_check_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abeninput_check_abexas.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninput_check_abexas.htm)
+
 
   
 

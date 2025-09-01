@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_client_handling.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm)
+- [abencds_view_client_handling_obs.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_client_handling_obs.htm)
+- [abencds_client_handling_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling_abexa.htm)
+- [abencds_client_handling_obs_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling_obs_abexa.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.904Z
+
+---
+
 ### abencds_client_handling.htm
+
+> **📖 Official SAP Documentation**: [abencds_client_handling.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17,15 +38,9 @@ ABAP CDS - Client Handling in CDS Views
 
 For a CDS view in ABAP CDS, the [CDS annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry") [@ClientHandling](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)) can be used to specify client handling.
 
--   [Determining Client Dependency](#@@ITOC@@ABENCDS_CLIENT_HANDLING_1)
+-   [Determining Client Dependency](#abencds-client-handling-1--------determining-client-handling---@ITOC@@ABENCDS_CLIENT_HANDLING_2)
 
--   [Determining Client Handling](#@@ITOC@@ABENCDS_CLIENT_HANDLING_2)
-
--   [Properties of Client-Specific CDS Views](#@@ITOC@@ABENCDS_CLIENT_HANDLING_3)
-
-Determining Client Dependency
-
-The annotation @ClientHandling.type determines the client dependency of the view. The following values can be specified for the annotation:
+-   [Properties of Client-Specific CDS Views](#abencds-client-handling-3---determining-client-dependency--the-annotation-ClientHandling.type determines the client dependency of the view. The following values can be specified for the annotation:
 
 #INHERITED
 
@@ -259,7 +274,14 @@ Continue
 ![Example](exa.gif "Example") [CDS Views, Obsolete Client Handling](javascript:call_link\('abencds_client_handling_obs_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_client_handling.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm)
+
 ### abencds_view_client_handling_obs.htm
+
+> **📖 Official SAP Documentation**: [abencds_view_client_handling_obs.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_client_handling_obs.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -273,15 +295,9 @@ ABAP CDS - Obsolete Client Handling in Views
 
 Before the annotation [@ClientHandling](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)) was introduced, the [client dependency](javascript:call_link\('abencds_func_client_handling.htm'\)) of a CDS view was specified using the annotation ClientDependent with the possible values true and false.
 
--   [Determining Client Dependency](#@@ITOC@@ABENCDS_VIEW_CLIENT_HANDLING_OBS_1)
+-   [Determining Client Dependency](#abencds-view-client-handling-obs-1--------determining-client-handling---@ITOC@@ABENCDS_VIEW_CLIENT_HANDLING_OBS_2)
 
--   [Determining Client Handling](#@@ITOC@@ABENCDS_VIEW_CLIENT_HANDLING_OBS_2)
-
--   [Properties of Cross-Client Views](#@@ITOC@@ABENCDS_VIEW_CLIENT_HANDLING_OBS_3)
-
-Determining Client Dependency
-
-The possible values true and false of the obsolete annotation @ClientDependent have the following effects on client dependency:
+-   [Properties of Cross-Client Views](#abencds-view-client-handling-obs-3---determining-client-dependency--the-possible-values-true-and-false-of-the-obsolete-annotation-ClientDependent have the following effects on client dependency:
 
 -   true
 
@@ -332,7 +348,14 @@ Executable Example
 [CDS Views, Obsolete Client Handling](javascript:call_link\('abencds_client_handling_obs_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_view_client_handling_obs.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_client_handling_obs.htm)
+
 ### abencds_client_handling_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_client_handling_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -484,7 +507,17 @@ Note
 The accesses to the database views of the CDS shown here are for demonstration purposes only. This way of accessing CDS views is obsolete and only the CDS entities should now be accessed.
 
 
+
+**📖 Source**: [abencds_client_handling_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling_abexa.htm)
+
 ### abencds_client_handling_obs_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_client_handling_obs_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling_obs_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_client_handling_obs_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling_obs_abexa.htm)
+
 
   
 

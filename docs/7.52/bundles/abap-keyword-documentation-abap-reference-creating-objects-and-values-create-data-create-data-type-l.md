@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapcreate_data_existing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_existing.htm)
+- [abencreate_structured_data_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_structured_data_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.438Z
+
+---
+
 ### abapcreate_data_existing.htm
+
+> **📖 Official SAP Documentation**: [abapcreate_data_existing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_existing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -68,7 +87,17 @@ Continue
 ![Example](exa.gif "Example") [Creating Structured Data Objects](javascript:call_link\('abencreate_structured_data_abexa.htm'\))
 
 
+
+**📖 Source**: [abapcreate_data_existing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_existing.htm)
+
 ### abencreate_structured_data_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencreate_structured_data_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_structured_data_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencreate_structured_data_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_structured_data_abexa.htm)
+
 
   
 

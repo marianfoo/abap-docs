@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_f1_cast_expression.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cast_expression.htm)
+- [abencds_f1_cast_expression_rules.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cast_expression_rules.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.900Z
+
+---
+
 ### abencds_f1_cast_expression.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cast_expression.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cast_expression.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1507,7 +1526,17 @@ Continue
 [ABAP CDS - cast\_expr, Conversion Rules](javascript:call_link\('abencds_f1_cast_expression_rules.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_cast_expression.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cast_expression.htm)
+
 ### abencds_f1_cast_expression_rules.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_cast_expression_rules.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cast_expression_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_cast_expression_rules.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cast_expression_rules.htm)
+
 
   
 
@@ -1521,17 +1550,11 @@ ABAP CDS - cast\_expr, Conversion Rules
 
 The following sections describe the conversion rules for [cast expressions](javascript:call_link\('abencds_f1_cast_expression.htm'\)) in [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry").
 
--   [Numeric Source Type](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_1)
+-   [Numeric Source Type](#abencds-f1-cast-expression-rules-1--------source-types-int1--int2--int4--int8--dec---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_2)
 
--   [Source Types INT1, INT2, INT4, INT8, DEC](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_2)
+-   [Character-Like Source Type](#abencds-f1-cast-expression-rules-3--------source-types-char-and-sstring---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_4)
 
--   [Character-Like Source Type](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_3)
-
--   [Source Types CHAR and SSTRING](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_4)
-
--   [Source Type NUMC](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_5)
-
--   [Source Types DATS and TIMS](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_6)
+-   [Source Type NUMC](#abencds-f1-cast-expression-rules-5--------source-types-dats-and-tims---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_6)
 
 -   [Source Types CLNT, LANG, UNIT, and CUKY](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_7)
 

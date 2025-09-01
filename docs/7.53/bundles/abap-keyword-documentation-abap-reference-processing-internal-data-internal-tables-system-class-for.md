@@ -3,7 +3,30 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencl_abap_itab.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_itab.htm)
+- [abenvirtual_sort_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_abexas.htm)
+- [abenvirtual_sort_simple_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_simple_abexa.htm)
+- [abenvirtual_sort_combined_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_combined_abexa.htm)
+- [abenvirtual_sort_filter_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_filter_abexa.htm)
+- [abenvirtual_sort_flights_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_flights_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.215Z
+
+---
+
 ### abencl_abap_itab.htm
+
+> **📖 Official SAP Documentation**: [abencl_abap_itab.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +54,14 @@ Continue
 [Examples of Virtual Sorting of Internal Tables](javascript:call_link\('abenvirtual_sort_abexas.htm'\))
 
 
+
+**📖 Source**: [abencl_abap_itab.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_itab.htm)
+
 ### abenvirtual_sort_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenvirtual_sort_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50,7 +80,14 @@ Continue
 ![Example](exa.gif "Example") [Virtual Sorting of Flight Data](javascript:call_link\('abenvirtual_sort_flights_abexa.htm'\))
 
 
+
+**📖 Source**: [abenvirtual_sort_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_abexas.htm)
+
 ### abenvirtual_sort_simple_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvirtual_sort_simple_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_simple_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -140,7 +177,14 @@ Description
 An internal table filled with random numbers and letters is sorted virtually using the method VIRTUAL\_SORT of system class CL\_ABAP\_ITAB\_UTILITIES, first in ascending order by the first two columns and then in descending alphabetical order by the last two columns. The returned array contains the row numbers in the respective sort order. This array is used to fill an internal table sorted\_tab according to the sorting. To compare, an internal table test\_tab with the same content is constructed and sorted with the statement [SORT](javascript:call_link\('abapsort_itab.htm'\)). The results are the same in both cases.
 
 
+
+**📖 Source**: [abenvirtual_sort_simple_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_simple_abexa.htm)
+
 ### abenvirtual_sort_combined_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvirtual_sort_combined_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_combined_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -244,7 +288,14 @@ Description
 An internal table itab1 containing random numbers and an internal table itab2 containing random letters are sorted together virtually using the method VIRTUAL\_SORT of system class CL\_ABAP\_ITAB\_UTILITIES, which sorts both columns of itab1 in ascending order and both columns of itab2 in descending alphabetical order. The returned array contains the row numbers in the sort order. This array is used to fill the internal table comb\_tab, which combines the columns of the involved tables, according to the sorting. To compare, another table test\_tab, which combines the content from itab1 and itab2, is constructed and sorted using the statement [SORT](javascript:call_link\('abapsort_itab.htm'\)). The results are the same. However, in a real example the combined tables are not usually of interest. See the executable example [Virtual Sorting of Flight Data](javascript:call_link\('abenvirtual_sort_flights_abexa.htm'\)).
 
 
+
+**📖 Source**: [abenvirtual_sort_combined_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_combined_abexa.htm)
+
 ### abenvirtual_sort_filter_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvirtual_sort_filter_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_filter_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -297,7 +348,14 @@ Description
 An internal table filled with random numbers is sorted in ascending order by its row content using the method VIRTUAL\_SORT of system class CL\_ABAP\_ITAB\_UTILITIES. This passes a table filter\_tab containing the row numbers to be sorted. The returned array contains exactly these row numbers in the sort order. A table sorted\_tab is constructed in this order from the respective rows of itab.
 
 
+
+**📖 Source**: [abenvirtual_sort_filter_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_filter_abexa.htm)
+
 ### abenvirtual_sort_flights_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenvirtual_sort_flights_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_flights_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -419,7 +477,17 @@ Virtual sorting with the method VIRTUAL\_SORT of class CL\_ABAP\_ITAB\_UTILITIES
 It is sorted once in ascending order and once in descending order. This does not change the order of the rows in the internal tables that are involved. These remain in their original unsorted state. Virtual sorting makes it possible to generate various sorted output data without affecting the original data.
 
 
+
+**📖 Source**: [abenvirtual_sort_flights_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_flights_abexa.htm)
+
 ### abenvirtual_sort_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenvirtual_sort_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenvirtual_sort_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_abexas.htm)
+
 
   
 

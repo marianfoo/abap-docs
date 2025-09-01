@@ -37,32 +37,8 @@ Functions for DATS
     *|* DATS\_ADD\_DAYS( date,days )
     *|* DATS\_ADD\_MONTHS( date,months ) ...
 
--   [Generic Time Functions](#@@ITOC@@ABENSQL_DATE_FUNC_1)
--   [Functions for DATN](#@@ITOC@@ABENSQL_DATE_FUNC_2)
--   [Functions for DATS](#@@ITOC@@ABENSQL_DATE_FUNC_3)
-
-Effect
-
-These SQL functions perform operations on dates with arguments of the built-in data types [DATN](javascript:call_link\('abenddic_builtin_types.htm'\)), [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)), [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)), [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)), and [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)). The first set covers generic functions, the second set covers a function depending on the data type [DATN](javascript:call_link\('abenddic_builtin_types.htm'\)), and the third set covers a function depending on the data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)). The arguments of the functions are specified as a comma-separated list in parentheses. A blank must be placed after the opening parenthesis and in front of the closing parenthesis. [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) of matching data types can be passed as actual parameters. If an actual parameter contains the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), every function except IS\_VALID and DATS\_IS\_VALID returns a null value.
-
-Generic Time Functions   
-
-Syntax
-
-... IS\_VALID( date*|*time*|*utclong )
-  *|* EXTRACT\_YEAR( date*|*utclong )
-  *|* EXTRACT\_MONTH( date*|*utclong )
-  *|* EXTRACT\_DAY( date*|*utclong )
-  *|* DAYNAME( date*|*utclong )
-  *|* MONTHNAME( date*|*utclong )
-  *|* WEEKDAY( date*|*utclong )
-  *|* DAYS\_BETWEEN( *{*date1*|*utclong1*}*,*{*date2*|*utclong2*}* )
-  *|* ADD\_DAYS( *{*date*|*utclong*}*,days )
-  *|* ADD\_MONTHS( *{*date*|*utclong*}*,months ) ...
-
-Variants:
-
-[1\. ... IS\_VALID( date*|*time*|*utclong )](#!ABAP_VARIANT_1@1@)
+-   [Generic Time Functions](#abensql-date-func-1-------functions-for-datn---@ITOC@@ABENSQL_DATE_FUNC_2)
+-   [Functions for DATS](#abensql-date-func-3---effect--these-sql-functions-perform-operations-on-dates-with-arguments-of-the-built-in-data-types--datn--javascript-call-link---abenddic-builtin-types-htm-------dats--javascript-call-link---abenddic-builtin-types-htm-------timn--javascript-call-link---abenddic-builtin-types-htm-------tims--javascript-call-link---abenddic-builtin-types-htm------and--utclong--javascript-call-link---abenddic-builtin-types-htm------the-first-set-covers-generic-functions--the-second-set-covers-a-function-depending-on-the-data-type--datn--javascript-call-link---abenddic-builtin-types-htm------and-the-third-set-covers-a-function-depending-on-the-data-type--dats--javascript-call-link---abenddic-builtin-types-htm------the-arguments-of-the-functions-are-specified-as-a-comma-separated-list-in-parentheses--a-blank-must-be-placed-after-the-opening-parenthesis-and-in-front-of-the-closing-parenthesis---sql-expressions--javascript-call-link---abapsql-expr-htm-----of-matching-data-types-can-be-passed-as-actual-parameters--if-an-actual-parameter-contains-the--null-value--javascript-call-link---abennull-value-glosry-htm-----glossary-entry----every-function-except-is--valid-and-dats--is--valid-returns-a-null-value---generic-time-functions-----syntax------is--valid--date---time---utclong---------extract--year--date---utclong---------extract--month--date---utclong---------extract--day--date---utclong---------dayname--date---utclong---------monthname--date---utclong---------weekday--date---utclong---------days--between-----date1---utclong1-------date2---utclong2------------add--days-----date---utclong----days---------add--months-----date---utclong----months--------variants----1-------is--valid--date---time---utclong------abap-variant-11@)
 [2\. ... EXTRACT\_YEAR( date*|*utclong )](#!ABAP_VARIANT_2@2@)
 [3\. ... EXTRACT\_MONTH( date*|*utclong )](#!ABAP_VARIANT_3@3@)
 [4\. ... EXTRACT\_DAY( date*|*utclong )](#!ABAP_VARIANT_4@4@)

@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services_query.htm)
+- [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_terms.htm)
+- [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_comps.htm)
+- [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_filter_cond.htm)
+- [abenos_query_sort_cond.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_sort_cond.htm)
+- [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_abexa.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.483Z
+
+---
+
 ### abenabap_object_services_query.htm
+
+> **📖 Official SAP Documentation**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services_query.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33,7 +56,14 @@ Continue
 ![Example](exa.gif "Example") [Query Service](javascript:call_link\('abenos_query_abexa.htm'\))
 
 
+
+**📖 Source**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services_query.htm)
+
 ### abenos_query_terms.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_terms.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60,7 +90,14 @@ Note
 When the result quantity of a query is determined, the changes that are made in the current transaction to persistent objects are not considered. The query is executed directly in the database.
 
 
+
+**📖 Source**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_terms.htm)
+
 ### abenos_query_comps.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_comps.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -207,7 +244,14 @@ Creates a sort condition. The sort condition is returned in the return value RES
 The attributes used for the sort are appended one after the other when the method APPEND\_ASCENDING or APPEND\_DESCENDING of the additional interface IF\_OS\_QUERY\_ORDERING\_EXPR is called. The parameter name is passed to the parameter I\_ATTR.
 
 
+
+**📖 Source**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_comps.htm)
+
 ### abenos_query_filter_cond.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_filter_cond.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -285,7 +329,14 @@ name LIKE PAR1 AND age > '45' AND age < '65'
 ( salary > '50000' AND currency = 'EUR' ) )
 
 
+
+**📖 Source**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_filter_cond.htm)
+
 ### abenos_query_sort_cond.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_sort_cond.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_sort_cond.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -316,7 +367,17 @@ Example
 price ASCENDING date DESCENDING
 
 
+
+**📖 Source**: [abenos_query_sort_cond.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_sort_cond.htm)
+
 ### abenos_query_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_abexa.htm)
+
 
   
 

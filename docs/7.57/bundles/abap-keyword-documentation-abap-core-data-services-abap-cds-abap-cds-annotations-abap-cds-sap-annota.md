@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_annotations_abap.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap.htm)
+- [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_ddla.htm)
+- [abencds_annotations_abap_tables.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_tables.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.195Z
+
+---
+
 ### abencds_annotations_abap.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_abap.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -34,7 +54,14 @@ Continue
 [ABAP CDS - ABAP Annotation Syntax](javascript:call_link\('abencds_annotations_abap_tables.htm'\))
 
 
+
+**📖 Source**: [abencds_annotations_abap.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap.htm)
+
 ### abencds_annotations_abap_ddla.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_ddla.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -886,7 +913,17 @@ define annotation Semantics
 };
 
 
+
+**📖 Source**: [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_ddla.htm)
+
 ### abencds_annotations_abap_tables.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_abap_tables.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_tables.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_annotations_abap_tables.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_abap_tables.htm)
+
 
   
 

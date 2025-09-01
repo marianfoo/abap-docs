@@ -12,10 +12,8 @@ Internet Communication Framework (ICF)
 
 Internet Communication Framework (ICF) is a programming interface (API), based on interfaces and classes, used by ABAP programs to communicate with the Internet. ICF supports the Internet protocols HTTP, HTTPS, and SMTP. All communication between ABAP and the Internet based on these protocols takes place using ICF. ICF is a simplified technical foundation that can be used by more advanced programming interfaces. This means that ABAP programs do not usually access ICF directly and wrappers are accessed instead, such as [Business Server Pages](javascript:call_link\('abenbusiness_server_pages_glosry.htm'\) "Glossary Entry"), [Web Dynpro ABAP](javascript:call_link\('abenweb_dynpro_glosry.htm'\) "Glossary Entry"), or the OData-based [SAP Gateway](javascript:call_link\('abensap_gateway_glosry.htm'\) "Glossary Entry") and [RAP runtime framework](javascript:call_link\('abenrap_runt_framework_glosry.htm'\) "Glossary Entry"). Wrappers like these make sure that the conventions required by external communication are met, such as the Model View Controller (MVC) approach in Web Dynpro or stateless AS ABAP in [ABAP RAP](javascript:call_link\('abenabap_rap_glosry.htm'\) "Glossary Entry").
 
--   [ICF Overview](#@@ITOC@@ABENICF_1)
--   [AS ABAP as an ICF Server](#@@ITOC@@ABENICF_2)
--   [AS ABAP as an ICF Client](#@@ITOC@@ABENICF_3)
--   [ICF Security](#@@ITOC@@ABENICF_4)
+-   [ICF Overview](#abenicf-1-------as-abap-as-an-icf-server---@ITOC@@ABENICF_2)
+-   [AS ABAP as an ICF Client](#abenicf-3-------icf-security---@ITOC@@ABENICF_4)
 -   [More Information](#@@ITOC@@ABENICF_5)
 
 Hint

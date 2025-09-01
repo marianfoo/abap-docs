@@ -26,13 +26,9 @@ The elements of the SELECT list or element list of a [CDS entity](javascript:cal
 
 The following tables show the possible [ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime environment for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)). These are not evaluated by the ABAP runtime environment but by other SAP frameworks instead.
 
--   [API Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_1)
+-   [API Annotations](#abencds-f1-element-annotation-1--------endusertext-annotations---@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_2)
 
--   [EndUserText Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_2)
-
--   [Environment Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_3)
-
--   [Semantics Annotations](#@@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_4)
+-   [Environment Annotations](#abencds-f1-element-annotation-3--------semantics-annotations---@ITOC@@ABENCDS_F1_ELEMENT_ANNOTATION_4)
 
 The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
 

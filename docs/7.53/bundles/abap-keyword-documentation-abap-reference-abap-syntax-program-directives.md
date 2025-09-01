@@ -3,7 +3,29 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenprogram_directives.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_directives.htm)
+- [abendoccomment.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendoccomment.htm)
+- [abenpragma.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpragma.htm)
+- [abenpseudo_comment.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpseudo_comment.htm)
+- [abenpseudo_comment_ci.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpseudo_comment_ci.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.174Z
+
+---
+
 ### abenprogram_directives.htm
+
+> **📖 Official SAP Documentation**: [abenprogram_directives.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_directives.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +51,14 @@ Continue
 [Pseudo Comments](javascript:call_link\('abenpseudo_comment.htm'\))
 
 
+
+**📖 Source**: [abenprogram_directives.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_directives.htm)
+
 ### abendoccomment.htm
+
+> **📖 Official SAP Documentation**: [abendoccomment.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendoccomment.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -354,7 +383,14 @@ The following guidelines for general comments also specifically apply to ABAP-DO
     This rule is checked by the syntax check.
 
 
+
+**📖 Source**: [abendoccomment.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendoccomment.htm)
+
 ### abenpragma.htm
+
+> **📖 Official SAP Documentation**: [abenpragma.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpragma.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -444,7 +480,14 @@ Pragmas must only occur at certain positions in the source code for reasons of r
 Unknown pragmas or pragmas with formal errors or pragmas in the wrong position or with incorrect parameters themselves produce syntax warnings. Pragmas in the wrong position for syntax check warnings are ignored.
 
 
+
+**📖 Source**: [abenpragma.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpragma.htm)
+
 ### abenpseudo_comment.htm
+
+> **📖 Official SAP Documentation**: [abenpseudo_comment.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpseudo_comment.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -476,7 +519,14 @@ Continue
 [Pseudo Comments for Code Inspector](javascript:call_link\('abenpseudo_comment_ci.htm'\))
 
 
+
+**📖 Source**: [abenpseudo_comment.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpseudo_comment.htm)
+
 ### abenpseudo_comment_ci.htm
+
+> **📖 Official SAP Documentation**: [abenpseudo_comment_ci.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpseudo_comment_ci.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -517,7 +567,17 @@ SELECT d~object, h~dokldate, h~dokltime   "#EC CI\_BUFFJOIN
   INTO CORRESPONDING FIELDS OF TABLE docu\_tab.
 
 
+
+**📖 Source**: [abenpseudo_comment_ci.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpseudo_comment_ci.htm)
+
 ### abenpseudo_comment.htm
+
+> **📖 Official SAP Documentation**: [abenpseudo_comment.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpseudo_comment.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenpseudo_comment.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpseudo_comment.htm)
+
 
   
 

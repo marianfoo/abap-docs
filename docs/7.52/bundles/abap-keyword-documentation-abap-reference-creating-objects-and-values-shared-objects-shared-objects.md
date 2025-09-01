@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenshm_if_shm_build_instance.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_if_shm_build_instance.htm)
+- [abenshm_area_constructor_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_constructor_class.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.440Z
+
+---
+
 ### abenshm_if_shm_build_instance.htm
+
+> **📖 Official SAP Documentation**: [abenshm_if_shm_build_instance.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_if_shm_build_instance.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47,7 +66,17 @@ Continue
 [Shared Objects - Area Constructor Class](javascript:call_link\('abenshm_area_constructor_class.htm'\))
 
 
+
+**📖 Source**: [abenshm_if_shm_build_instance.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_if_shm_build_instance.htm)
+
 ### abenshm_area_constructor_class.htm
+
+> **📖 Official SAP Documentation**: [abenshm_area_constructor_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_constructor_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenshm_area_constructor_class.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_constructor_class.htm)
+
 
   
 

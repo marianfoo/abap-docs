@@ -3,7 +3,37 @@
 Included pages: 15
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenddic_database_tables_semasspec.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_semasspec.htm)
+- [abenddic_database_tables_key.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_key.htm)
+- [abenddic_database_tables_client.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_client.htm)
+- [abenddic_database_tables_init.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_init.htm)
+- [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_forkeyrel.htm)
+- [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_checktab.htm)
+- [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_forkey.htm)
+- [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_deprecation.htm)
+- [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_deprecation_abexa.htm)
+- [abenddic_database_tables_sptlrf.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_sptlrf.htm)
+- [abenddic_database_tables_delivery.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_delivery.htm)
+- [abenddic_database_tables_index.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_index.htm)
+- [abenddic_database_tables_maint.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_maint.htm)
+
+**Bundle Contains**: 13 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.447Z
+
+---
+
 ### abenddic_database_tables_semasspec.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_semasspec.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_semasspec.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -37,7 +67,14 @@ Continue
 [DDIC - Display and Maintenance of Database Tables](javascript:call_link\('abenddic_database_tables_maint.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_semasspec.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_semasspec.htm)
+
 ### abenddic_database_tables_key.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_key.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -65,7 +102,14 @@ Hints
 -   No [null values](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") can be inserted in key fields. Any attempts to do this raise an exception on the database.
 
 
+
+**📖 Source**: [abenddic_database_tables_key.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_key.htm)
+
 ### abenddic_database_tables_client.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_client.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_client.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -85,7 +129,14 @@ Hints
 -   The system table T000, which contains the [client IDs](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry") of an [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry"), is an exception. The first column has the type CLNT, but the table is client-independent. If the table is accessed using ABAP SQL, the additions [USING](javascript:call_link\('abapselect_client.htm'\)) and the obsolete [CLIENT SPECIFIED](javascript:call_link\('abapselect_client.htm'\)) cannot be specified.
 
 
+
+**📖 Source**: [abenddic_database_tables_client.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_client.htm)
+
 ### abenddic_database_tables_init.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_init.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_init.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -124,7 +175,14 @@ Hints
 -   In tables with many rows, it can take a long time to set the type-dependent initial value and the initial value flag should only be used if absolutely necessary or if the table has a small number of entries.
 
 
+
+**📖 Source**: [abenddic_database_tables_init.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_init.htm)
+
 ### abenddic_database_tables_forkeyrel.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_forkeyrel.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -153,7 +211,14 @@ Continue
 [DDIC - Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_forkeyrel.htm)
+
 ### abenddic_database_tables_checktab.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_checktab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -176,7 +241,14 @@ Hints
 -   A special column can be used to [flag obsolete data](javascript:call_link\('abenddic_deprecation.htm'\)) in check tables.
 
 
+
+**📖 Source**: [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_checktab.htm)
+
 ### abenddic_database_tables_forkey.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_forkey.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -261,7 +333,14 @@ Foreign keys can have the following attributes:
         If this type of foreign key field is defined, the foreign key table is handled as a text table of the check table the primary key of the foreign key table must match the check table, plus a language key field with the type LANG. There can be only one text table for each check table, otherwise an activation warning occurs. The texts in a text table are used, for example, to explain input helps on dynpros and Web Dynpros.
 
 
+
+**📖 Source**: [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_forkey.htm)
+
 ### abenddic_deprecation.htm
+
+> **📖 Official SAP Documentation**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_deprecation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -321,7 +400,14 @@ Continue
 ![Example](exa.gif "Example") [DDIC - Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation_abexa.htm'\))
 
 
+
+**📖 Source**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_deprecation.htm)
+
 ### abenddic_deprecation_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_deprecation_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -380,7 +466,14 @@ If checks on deprecated data are enabled, the following takes place:
 If the checkbox Check deprecated data is not selected, no warnings or error messages are produced and the input help displays all entries from the check table DEMO\_DEPR\_CHECK.
 
 
+
+**📖 Source**: [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_deprecation_abexa.htm)
+
 ### abenddic_deprecation.htm
+
+> **📖 Official SAP Documentation**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_deprecation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -440,7 +533,14 @@ Continue
 ![Example](exa.gif "Example") [DDIC - Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation_abexa.htm'\))
 
 
+
+**📖 Source**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_deprecation.htm)
+
 ### abenddic_database_tables_forkeyrel.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_forkeyrel.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -469,7 +569,14 @@ Continue
 [DDIC - Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation.htm'\))
 
 
+
+**📖 Source**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_forkeyrel.htm)
+
 ### abenddic_database_tables_sptlrf.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_sptlrf.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_sptlrf.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -495,7 +602,14 @@ Hints
 -   The program ABAP\_DOCU\_SHOW\_SPATIAL\_REF\_SYS shows the spatial reference systems, that are available in the current system.
 
 
+
+**📖 Source**: [abenddic_database_tables_sptlrf.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_sptlrf.htm)
+
 ### abenddic_database_tables_delivery.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_delivery.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_delivery.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -584,7 +698,14 @@ Hints
 -   For more information about transports and client copies, see the documentation Change and Transport System in the SAP Help Portal.
 
 
+
+**📖 Source**: [abenddic_database_tables_delivery.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_delivery.htm)
+
 ### abenddic_database_tables_index.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_index.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_index.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -703,7 +824,17 @@ Hints
 -   A full text index is not possible in the [SAP HANA Cloud database](javascript:call_link\('abensap_hana_cloud_db_glosry.htm'\) "Glossary Entry").
 
 
+
+**📖 Source**: [abenddic_database_tables_index.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_index.htm)
+
 ### abenddic_database_tables_maint.htm
+
+> **📖 Official SAP Documentation**: [abenddic_database_tables_maint.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_maint.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenddic_database_tables_maint.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_maint.htm)
+
 
   
 

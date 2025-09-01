@@ -10,8 +10,7 @@ Database Rollback
 
 Database rollbacks are triggered implicitly or explicitly in [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry").
 
--   [Implicit Database Rollbacks](#@@ITOC@@ABENDB_ROLLBACK_1)
--   [Explicit Database Rollbacks](#@@ITOC@@ABENDB_ROLLBACK_2)
+-   [Implicit Database Rollbacks](#abendb-rollback-1-------explicit-database-rollbacks---@ITOC@@ABENDB_ROLLBACK_2)
 -   [Database Rollback on Database Connections](#@@ITOC@@ABENDB_ROLLBACK_3)
 
 Hint

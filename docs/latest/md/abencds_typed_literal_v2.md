@@ -28,12 +28,9 @@ Hints
 
 Typed literals can be divided into the following categories:
 
--   [Typed Numeric Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_1)
--   [Typed Character Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_2)
--   [Typed Byte Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_3)
--   [Typed Literals for Character-Like Types with Special Semantics](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_4)
--   [Typed Date and Time Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_5)
--   [Typed Currency and Quantity Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_6)
+-   [Typed Numeric Literals](#abencds-typed-literal-v2-1-------typed-character-literals---@ITOC@@ABENCDS_TYPED_LITERAL_V2_2)
+-   [Typed Byte Literals](#abencds-typed-literal-v2-3-------typed-literals-for-character-like-types-with-special-semantics---@ITOC@@ABENCDS_TYPED_LITERAL_V2_4)
+-   [Typed Date and Time Literals](#abencds-typed-literal-v2-5-------typed-currency-and-quantity-literals---@ITOC@@ABENCDS_TYPED_LITERAL_V2_6)
 
 Typed Numeric Literals   
 

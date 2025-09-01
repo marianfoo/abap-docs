@@ -3,7 +3,38 @@
 Included pages: 15
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-754.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754.htm)
+- [abennews-754-ddic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-ddic.htm)
+- [abennews-754-types.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-types.htm)
+- [abennews-754-assignments.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-assignments.htm)
+- [abennews-754-character_processing.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-character_processing.htm)
+- [abennews-754-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-abap_sql.htm)
+- [abennews-754-abap_cds.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-abap_cds.htm)
+- [abennews-754-amdp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-amdp.htm)
+- [abennews-754-update.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-update.htm)
+- [abennews-754-messages.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-messages.htm)
+- [abennews-754-abap_unit.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-abap_unit.htm)
+- [abennews-754-cds_access_control.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-cds_access_control.htm)
+- [abennews-754-restful.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-restful.htm)
+- [abennews-754-cds_bdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-cds_bdl.htm)
+
+**Bundle Contains**: 14 documentation pages
+**Version**: ABAP 7.56
+**Generated**: 2025-09-01T11:25:45.515Z
+
+---
+
 ### abennews-754.htm
+
+> **📖 Official SAP Documentation**: [abennews-754.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45,7 +76,14 @@ Continue
 [ABAP RESTful Application Programming Model in Release 7.54](javascript:call_link\('abennews-754-restful.htm'\))
 
 
+
+**📖 Source**: [abennews-754.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754.htm)
+
 ### abennews-754-ddic.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-ddic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-ddic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -87,7 +125,14 @@ A special column can be used to [flag obsolete data](javascript:call_link\('aben
 This flag was ported back to all releases including Release 7.40.
 
 
+
+**📖 Source**: [abennews-754-ddic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-ddic.htm)
+
 ### abennews-754-types.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-types.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -114,7 +159,14 @@ The new built-in [time stamp type](javascript:call_link\('abentimestamp_type_glo
 Time stamp fields must meet an [alignment requirement](javascript:call_link\('abenalignment.htm'\)). Their memory address must be divisible by eight.
 
 
+
+**📖 Source**: [abennews-754-types.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-types.htm)
+
 ### abennews-754-assignments.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-assignments.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-assignments.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -141,7 +193,14 @@ A [calculation assignment](javascript:call_link\('abencalculation_assignment_glo
 A calculation takes place when the assignment is made. These new operators make the statements [ADD](javascript:call_link\('abapadd.htm'\)), [SUBTRACT](javascript:call_link\('abapsubtract_multiply_divide.htm'\)), [MULTIPLY](javascript:call_link\('abapsubtract_multiply_divide.htm'\)), and [DIVIDE](javascript:call_link\('abapsubtract_multiply_divide.htm'\)) obsolete.
 
 
+
+**📖 Source**: [abennews-754-assignments.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-assignments.htm)
+
 ### abennews-754-character_processing.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-character_processing.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-character_processing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -160,7 +219,14 @@ Decimal Places in Time Stamps
 In [embedded expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)) of [string templates](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry") and for the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) *\[* [TO](javascript:call_link\('abapwrite_to.htm'\))*\]*, the formatting option DECIMALS can now be combined with TIMESTAMP and TIME ZONE to define the number of decimal places in time stamps in packed numbers.
 
 
+
+**📖 Source**: [abennews-754-character_processing.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-character_processing.htm)
+
 ### abennews-754-abap_sql.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-abap_sql.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -298,7 +364,14 @@ Strict Mode in the Syntax Check
 If one the new features listed above is used in an ABAP SQL statement, the syntax check is performed in a [strict mode](javascript:call_link\('abenabap_sql_strictmode_754.htm'\)), which handles the statement more strictly than the regular syntax check.
 
 
+
+**📖 Source**: [abennews-754-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-abap_sql.htm)
+
 ### abennews-754-abap_cds.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-abap_cds.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-abap_cds.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -391,7 +464,14 @@ CDS custom entities
 A new type of [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") is available: the [CDS custom entity](javascript:call_link\('abencds_custom_entities.htm'\)). CDS custom entities are used in the [RAP framework](javascript:call_link\('abenrap_framework_glosry.htm'\) "Glossary Entry") to implement ABAP queries in CDS.
 
 
+
+**📖 Source**: [abennews-754-abap_cds.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-abap_cds.htm)
+
 ### abennews-754-amdp.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-amdp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-amdp.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -419,7 +499,14 @@ Quotation Marks for Logical Schemas
 If the predefined [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry") [$ABAP.schema](javascript:call_link\('abenamdp_logical_db_schemas.htm'\)) is specified for a [logical schema](javascript:call_link\('abenlogical_schema_glosry.htm'\) "Glossary Entry"), the optional addition quote can now be used to define which quotation marks are used when the macro is replaced.
 
 
+
+**📖 Source**: [abennews-754-amdp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-amdp.htm)
+
 ### abennews-754-update.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-update.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-update.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -446,7 +533,14 @@ Authorization Checks in Updates
     -   [CDS access control](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry") cannot take place. If the ABAP SQL statement [SELECT](javascript:call_link\('abapselect.htm'\)) is used in an update to access a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") for which access control is not disabled using the value #NOT\_ALLOWED for the annotation [@AccessControl.authorizationCheck](javascript:call_link\('abencds_view_anno_v1.htm'\)) or using the addition [WITH PRIVILEGED ACCESS](javascript:call_link\('abapselect_data_source.htm'\)) in the [FROM](javascript:call_link\('abapfrom_clause.htm'\)) clause, the [runtime error](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry") SYSTEM\_UPDATE\_TASK\_ILL\_STMT occurs.
 
 
+
+**📖 Source**: [abennews-754-update.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-update.htm)
+
 ### abennews-754-messages.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-messages.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-messages.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -467,7 +561,14 @@ If the object reference variable oref in the variant [MESSAGE oref](javascript:c
 Until now, however, the statement MESSAGE oref could only have the further additions [RAISING](javascript:call_link\('abapmessage_raising.htm'\)) and [DISPLAY LIKE](javascript:call_link\('abapmessage.htm'\)) if TYPE was specified explicitly. These additions are now also possible if TYPE is not specified.
 
 
+
+**📖 Source**: [abennews-754-messages.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-messages.htm)
+
 ### abennews-754-abap_unit.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-abap_unit.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-abap_unit.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -486,7 +587,14 @@ Using Test Classes
 [Test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") and their components cannot be addressed in the production code of programs and must be addressed only in other test classes. A static check and a full check at runtime are now applied to verify this. Until now it was possible to address certain components of test class in production code. In production systems, this required the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") abap/test\_generation to be set accordingly.
 
 
+
+**📖 Source**: [abennews-754-abap_unit.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-abap_unit.htm)
+
 ### abennews-754-cds_access_control.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-cds_access_control.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-cds_access_control.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -570,7 +678,14 @@ DCL Restrictions for Transactional CDS Projection Views
 Transactional projection view entities apply the [access control](javascript:call_link\('abencds_f1_dcl_projection_views.htm'\)) of the underlying CDS entity with restrictions.
 
 
+
+**📖 Source**: [abennews-754-cds_access_control.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-cds_access_control.htm)
+
 ### abennews-754-restful.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-restful.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-restful.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -590,7 +705,14 @@ Continue
 [CDS BDL in Release 7.54](javascript:call_link\('abennews-754-cds_bdl.htm'\))
 
 
+
+**📖 Source**: [abennews-754-restful.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-restful.htm)
+
 ### abennews-754-cds_bdl.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-cds_bdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-cds_bdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -618,7 +740,17 @@ Business Object Projection
 The new statement [projection](javascript:call_link\('abenbdl_impl_type.htm'\)) can be used to create [projections](javascript:call_link\('abenrap_projection_bo_glosry.htm'\) "Glossary Entry") of a business object. This allows to project and to alias a subset of a business object for a specific business service within the framework of the ABAP RESTful Application Programming Model.
 
 
+
+**📖 Source**: [abennews-754-cds_bdl.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-cds_bdl.htm)
+
 ### abennews-754-restful.htm
+
+> **📖 Official SAP Documentation**: [abennews-754-restful.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-restful.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-754-restful.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754-restful.htm)
+
 
   
 

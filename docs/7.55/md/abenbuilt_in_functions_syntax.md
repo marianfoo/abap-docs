@@ -8,9 +8,7 @@ AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
 Built-In Functions, Syntax
 
--   [Functions with an Unnamed Argument](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_1)
-
--   [Functions with Named Arguments](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2)
+-   [Functions with an Unnamed Argument](#abenbuilt-in-functions-syntax-1--------functions-with-named-arguments---@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2)
 
 In functions with named arguments, there is usually a main argument val and with the option of further also optional arguments. The following sections show the general syntax for calling built-in functions.
 

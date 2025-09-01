@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abendb_connections.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections.htm)
+- [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_types.htm)
+- [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_mngmnt.htm)
+- [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_using.htm)
+- [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_trans.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.257Z
+
+---
+
 ### abendb_connections.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -32,7 +54,14 @@ Continue
 [Database Connections and Transactions](javascript:call_link\('abendb_connections_trans.htm'\))
 
 
+
+**📖 Source**: [abendb_connections.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections.htm)
+
 ### abendb_connections_types.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_types.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -115,7 +144,14 @@ INSERT demo\_update CONNECTION R/3\*service\_conn
 COMMIT CONNECTION R/3\*service\_conn.
 
 
+
+**📖 Source**: [abendb_connections_types.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_types.htm)
+
 ### abendb_connections_mngmnt.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_mngmnt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -255,7 +291,14 @@ Example
 The program DBCONINFO can be used to search the examples shown in this section while they are being executed step by step in the ABAP Debugger.
 
 
+
+**📖 Source**: [abendb_connections_mngmnt.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_mngmnt.htm)
+
 ### abendb_connections_using.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -281,7 +324,17 @@ Secondary connections and service connections are opened and used in different w
 ENDTRY.
 
 
+
+**📖 Source**: [abendb_connections_using.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_using.htm)
+
 ### abendb_connections_trans.htm
+
+> **📖 Official SAP Documentation**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_trans.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abendb_connections_trans.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections_trans.htm)
+
 
   
 

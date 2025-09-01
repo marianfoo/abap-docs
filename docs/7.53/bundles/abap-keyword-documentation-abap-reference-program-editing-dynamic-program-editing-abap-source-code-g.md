@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapgenerate_subroutine_pool.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subroutine_pool.htm)
+- [abapgenerate_subr_error_handling.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subr_error_handling.htm)
+- [abapgenerate_subr_pool_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subr_pool_internal.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.221Z
+
+---
+
 ### abapgenerate_subroutine_pool.htm
+
+> **📖 Official SAP Documentation**: [abapgenerate_subroutine_pool.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subroutine_pool.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -191,7 +211,14 @@ Continue
 [GENERATE SUBROUTINE POOL - Internal Addition](javascript:call_link\('abapgenerate_subr_pool_internal.htm'\))
 
 
+
+**📖 Source**: [abapgenerate_subroutine_pool.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subroutine_pool.htm)
+
 ### abapgenerate_subr_error_handling.htm
+
+> **📖 Official SAP Documentation**: [abapgenerate_subr_error_handling.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subr_error_handling.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -351,7 +378,17 @@ cl\_demo\_output=>display(
   |SHORTDUMP-ID: { sid }| ).
 
 
+
+**📖 Source**: [abapgenerate_subr_error_handling.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subr_error_handling.htm)
+
 ### abapgenerate_subr_pool_internal.htm
+
+> **📖 Official SAP Documentation**: [abapgenerate_subr_pool_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subr_pool_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapgenerate_subr_pool_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subr_pool_internal.htm)
+
 
   
 

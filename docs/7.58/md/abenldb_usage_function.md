@@ -11,10 +11,8 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 LDB - Calls Using a Function Module
 
--   [How the Call Works](#@@ITOC@@ABENLDB_USAGE_FUNCTION_1)
--   [Runtime Behavior](#@@ITOC@@ABENLDB_USAGE_FUNCTION_2)
--   [Interface Parameter of LDB\_PROCESS](#@@ITOC@@ABENLDB_USAGE_FUNCTION_3)
--   [Read Depth and Callback Routines](#@@ITOC@@ABENLDB_USAGE_FUNCTION_4)
+-   [How the Call Works](#abenldb-usage-function-1-------runtime-behavior---@ITOC@@ABENLDB_USAGE_FUNCTION_2)
+-   [Interface Parameter of LDB\_PROCESS](#abenldb-usage-function-3-------read-depth-and-callback-routines---@ITOC@@ABENLDB_USAGE_FUNCTION_4)
 -   [Exceptions in LDB\_PROCESS](#@@ITOC@@ABENLDB_USAGE_FUNCTION_5)
 
 How the Call Works   

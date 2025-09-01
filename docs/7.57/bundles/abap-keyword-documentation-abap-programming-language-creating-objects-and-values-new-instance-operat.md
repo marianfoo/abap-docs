@@ -3,7 +3,31 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenconstructor_expression_new.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_new.htm)
+- [abennew_constructor_params_initial.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_initial.htm)
+- [abennew_constructor_params_single.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_single.htm)
+- [abennew_constructor_params_struct.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_struct.htm)
+- [abennew_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_itab.htm)
+- [abennew_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_lspc.htm)
+- [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_class.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.242Z
+
+---
+
 ### abenconstructor_expression_new.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_new.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_new.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -92,7 +116,14 @@ Continue
 [NEW, Classes](javascript:call_link\('abennew_constructor_params_class.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_new.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_new.htm)
+
 ### abennew_constructor_params_initial.htm
+
+> **📖 Official SAP Documentation**: [abennew_constructor_params_initial.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_initial.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -134,7 +165,14 @@ dref = NEW #( ).
 dref = NEW t\_itab( ).
 
 
+
+**📖 Source**: [abennew_constructor_params_initial.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_initial.htm)
+
 ### abennew_constructor_params_single.htm
+
+> **📖 Official SAP Documentation**: [abennew_constructor_params_single.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_single.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -186,7 +224,14 @@ SELECT \*
 ENDSELECT.
 
 
+
+**📖 Source**: [abennew_constructor_params_single.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_single.htm)
+
 ### abennew_constructor_params_struct.htm
+
+> **📖 Official SAP Documentation**: [abennew_constructor_params_struct.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_struct.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -269,7 +314,14 @@ Example
 See also the examples for the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_struc.htm'\)).
 
 
+
+**📖 Source**: [abennew_constructor_params_struct.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_struct.htm)
+
 ### abennew_constructor_params_itab.htm
+
+> **📖 Official SAP Documentation**: [abennew_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -402,7 +454,14 @@ Continue
 [NEW, line\_spec](javascript:call_link\('abennew_constructor_params_lspc.htm'\))
 
 
+
+**📖 Source**: [abennew_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_itab.htm)
+
 ### abennew_constructor_params_lspc.htm
+
+> **📖 Official SAP Documentation**: [abennew_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_lspc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -534,7 +593,14 @@ FINAL(itab) = NEW t\_itab( ( LINES OF jtab FROM 3 STEP 2 )
                          ( LINES OF jtab FROM 2 STEP 3 ) ).
 
 
+
+**📖 Source**: [abennew_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_lspc.htm)
+
 ### abennew_constructor_params_itab.htm
+
+> **📖 Official SAP Documentation**: [abennew_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -667,7 +733,17 @@ Continue
 [NEW, line\_spec](javascript:call_link\('abennew_constructor_params_lspc.htm'\))
 
 
+
+**📖 Source**: [abennew_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_itab.htm)
+
 ### abennew_constructor_params_class.htm
+
+> **📖 Official SAP Documentation**: [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_class.htm)
+
 
   
 

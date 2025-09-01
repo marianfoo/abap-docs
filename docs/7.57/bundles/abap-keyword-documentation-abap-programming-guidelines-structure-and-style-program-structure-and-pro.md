@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenprogr_proc_structure_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogr_proc_structure_gdl.htm)
+- [abenglobal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenglobal_declar_guidl.htm)
+- [abenlocal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlocal_declar_guidl.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.234Z
+
+---
+
 ### abenprogr_proc_structure_gdl.htm
+
+> **📖 Official SAP Documentation**: [abenprogr_proc_structure_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogr_proc_structure_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28,7 +48,14 @@ Continue
 [Local Declarations](javascript:call_link\('abenlocal_declar_guidl.htm'\))
 
 
+
+**📖 Source**: [abenprogr_proc_structure_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogr_proc_structure_gdl.htm)
+
 ### abenglobal_declar_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenglobal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenglobal_declar_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -139,7 +166,17 @@ MODULE user\_command\_0100 INPUT.
 ENDMODULE.
 
 
+
+**📖 Source**: [abenglobal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenglobal_declar_guidl.htm)
+
 ### abenlocal_declar_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenlocal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlocal_declar_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenlocal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlocal_declar_guidl.htm)
+
 
   
 

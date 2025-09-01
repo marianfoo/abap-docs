@@ -3,7 +3,31 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_context.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_context.htm)
+- [abenabap_platform.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_platform.htm)
+- [abenabap_versions_and_apis.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_versions_and_apis.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.894Z
+
+---
+
 ### abenabap_context.htm
+
+> **📖 Official SAP Documentation**: [abenabap_context.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_context.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_context.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_context.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -27,7 +51,18 @@ Continue
 [ABAP Language Versions, Release Contracts and Released APIs](javascript:call_link\('abenabap_versions_and_apis.htm'\))
 
 
+
+**📖 Source**: [abenabap_context.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_context.htm)
+
 ### abenabap_platform.htm
+
+> **📖 Official SAP Documentation**: [abenabap_platform.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_platform.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_platform.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_platform.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -124,7 +159,21 @@ Hint
 The obsolete [Non-Unicode ABAP](javascript:call_link\('abennon_unicode_abap_glosry.htm'\) "Glossary Entry") is not considered as valid ABAP language version here.
 
 
+
+**📖 Source**: [abenabap_platform.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_platform.htm)
+
 ### abenabap_versions_and_apis.htm
+
+> **📖 Official SAP Documentation**: [abenabap_versions_and_apis.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_versions_and_apis.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_versions_and_apis.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_versions_and_apis.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabap_versions_and_apis.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_versions_and_apis.htm)
+
 
   
 

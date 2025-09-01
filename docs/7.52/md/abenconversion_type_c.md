@@ -8,13 +8,9 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Source Field Type c
 
--   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_C_1)
+-   [Numeric Target Fields](#abenconversion-type-c-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_C_2)
 
--   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_C_2)
-
--   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_C_3)
-
--   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_C_4)
+-   [Byte-Like Target Fields](#abenconversion-type-c-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_C_4)
 
 Numeric Target Fields
 

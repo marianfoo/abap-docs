@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenrpm_handler_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm)
+- [abenhandler_method_modify.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_modify.htm)
+- [abenhandler_method_read.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_read.htm)
+- [abenhandler_method_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_lock.htm)
+- [abenrpm_handling_messages.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handling_messages.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.928Z
+
+---
+
 ### abenrpm_handler_class.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_handler_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -151,7 +173,14 @@ Continue
 [Example - Handling of Messages](javascript:call_link\('abenrpm_handling_messages.htm'\))
 
 
+
+**📖 Source**: [abenrpm_handler_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm)
+
 ### abenhandler_method_modify.htm
+
+> **📖 Official SAP Documentation**: [abenhandler_method_modify.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_modify.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -462,7 +491,14 @@ CLASS lcl\_travel\_handler IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abenhandler_method_modify.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_modify.htm)
+
 ### abenhandler_method_read.htm
+
+> **📖 Official SAP Documentation**: [abenhandler_method_read.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_read.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -613,7 +649,14 @@ CLASS lcl\_travel\_handler IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abenhandler_method_read.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_read.htm)
+
 ### abenhandler_method_lock.htm
+
+> **📖 Official SAP Documentation**: [abenhandler_method_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_lock.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -715,7 +758,17 @@ CLASS lcl\_travel\_handler IMPLEMENTATION.
 ENDCLASS.
 
 
+
+**📖 Source**: [abenhandler_method_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_lock.htm)
+
 ### abenrpm_handling_messages.htm
+
+> **📖 Official SAP Documentation**: [abenrpm_handling_messages.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handling_messages.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenrpm_handling_messages.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handling_messages.htm)
+
 
   
 

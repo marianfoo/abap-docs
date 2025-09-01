@@ -3,7 +3,37 @@
 Included pages: 12
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_service_definitions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_definitions.htm)
+- [abencds_f1_sdl_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_sdl_syntax.htm)
+- [abensrvd_define_service.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_define_service.htm)
+- [abencds_define_service_annos.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_service_annos.htm)
+- [abensrvd_provider_contract.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_provider_contract.htm)
+- [abensrvd_extend_service.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_extend_service.htm)
+- [abenservice_bindings_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenservice_bindings_abexas.htm)
+- [abenconsume_bs_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_abexa.htm)
+- [abenconsume_bs_client_proxy_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_client_proxy_abexa.htm)
+
+**Bundle Contains**: 9 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.908Z
+
+---
+
 ### abencds_service_definitions.htm
+
+> **📖 Official SAP Documentation**: [abencds_service_definitions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_definitions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_service_definitions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_definitions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -31,7 +61,18 @@ Continue
 [ABAP CDS - Consuming Business Services](javascript:call_link\('abenservice_bindings_abexas.htm'\))
 
 
+
+**📖 Source**: [abencds_service_definitions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_definitions.htm)
+
 ### abencds_f1_sdl_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_sdl_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_sdl_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_f1_sdl_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_sdl_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -60,7 +101,18 @@ Continue
 [CDS SDL - EXTEND SERVICE](javascript:call_link\('abensrvd_extend_service.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_sdl_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_sdl_syntax.htm)
+
 ### abensrvd_define_service.htm
+
+> **📖 Official SAP Documentation**: [abensrvd_define_service.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_define_service.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensrvd_define_service.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_define_service.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -141,7 +193,18 @@ Continue
 [CDS SDL - PROVIDER CONTRACTS](javascript:call_link\('abensrvd_provider_contract.htm'\))
 
 
+
+**📖 Source**: [abensrvd_define_service.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_define_service.htm)
+
 ### abencds_define_service_annos.htm
+
+> **📖 Official SAP Documentation**: [abencds_define_service_annos.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_service_annos.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_define_service_annos.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_service_annos.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -229,7 +292,18 @@ Hint
 ABAP annotations introduced using EndUserText are used to define translatable semantic texts for a [CDS object](javascript:call_link\('abencds_object_glosry.htm'\) "Glossary Entry"). The value of such an annotation is saved in special tables that have a language key and are translatable. The value specified in the source code should consist of text in the original language of the CDS source code, and it is translated into the required languages. The methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE read these texts as specified by an input parameter for the language. If no language is passed to the input parameter, the [text environment language](javascript:call_link\('abentext_env_langu_glosry.htm'\) "Glossary Entry") is used as the default. If no text is found for the language, the [secondary language](javascript:call_link\('abensecondary_language_glosry.htm'\) "Glossary Entry") in AS ABAP is used.
 
 
+
+**📖 Source**: [abencds_define_service_annos.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_service_annos.htm)
+
 ### abensrvd_provider_contract.htm
+
+> **📖 Official SAP Documentation**: [abensrvd_provider_contract.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_provider_contract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensrvd_provider_contract.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_provider_contract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -298,7 +372,18 @@ define service DEMO\_CDS\_SD\_PROVIDER\_CONTRACT
 }
 
 
+
+**📖 Source**: [abensrvd_provider_contract.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_provider_contract.htm)
+
 ### abensrvd_define_service.htm
+
+> **📖 Official SAP Documentation**: [abensrvd_define_service.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_define_service.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensrvd_define_service.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_define_service.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -379,7 +464,18 @@ Continue
 [CDS SDL - PROVIDER CONTRACTS](javascript:call_link\('abensrvd_provider_contract.htm'\))
 
 
+
+**📖 Source**: [abensrvd_define_service.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_define_service.htm)
+
 ### abensrvd_extend_service.htm
+
+> **📖 Official SAP Documentation**: [abensrvd_extend_service.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_extend_service.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensrvd_extend_service.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_extend_service.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -442,7 +538,18 @@ define service DEMO\_CDS\_ORIGINAL\_SD {
 }
 
 
+
+**📖 Source**: [abensrvd_extend_service.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensrvd_extend_service.htm)
+
 ### abencds_f1_sdl_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_sdl_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_sdl_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencds_f1_sdl_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_sdl_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -471,7 +578,18 @@ Continue
 [CDS SDL - EXTEND SERVICE](javascript:call_link\('abensrvd_extend_service.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_sdl_syntax.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_sdl_syntax.htm)
+
 ### abenservice_bindings_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenservice_bindings_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenservice_bindings_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenservice_bindings_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenservice_bindings_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -494,7 +612,18 @@ Continue
 ![Example](exa.gif "Example") [ABAP CDS - Consuming Business Services with OData Client Proxy](javascript:call_link\('abenconsume_bs_client_proxy_abexa.htm'\))
 
 
+
+**📖 Source**: [abenservice_bindings_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenservice_bindings_abexas.htm)
+
 ### abenconsume_bs_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenconsume_bs_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenconsume_bs_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -577,7 +706,18 @@ Hint
 See also [Consuming Business Services with Client Proxy](javascript:call_link\('abenconsume_bs_client_proxy_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconsume_bs_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_abexa.htm)
+
 ### abenconsume_bs_client_proxy_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenconsume_bs_client_proxy_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_client_proxy_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenconsume_bs_client_proxy_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_client_proxy_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -658,7 +798,21 @@ define view demo\_cds\_scarr\_spfli(
 The data provided by that view are retrieved.
 
 
+
+**📖 Source**: [abenconsume_bs_client_proxy_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_client_proxy_abexa.htm)
+
 ### abenservice_bindings_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenservice_bindings_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenservice_bindings_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenservice_bindings_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenservice_bindings_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenservice_bindings_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenservice_bindings_abexas.htm)
+
 
   
 

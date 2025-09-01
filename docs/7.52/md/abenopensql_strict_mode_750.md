@@ -8,9 +8,7 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 Strict Mode in Release 7.50
 
--   [Conditions for the Strict Mode](#@@ITOC@@ABENOPENSQL_STRICT_MODE_750_1)
-
--   [Rules for the Strict Mode](#@@ITOC@@ABENOPENSQL_STRICT_MODE_750_2)
+-   [Conditions for the Strict Mode](#abenopensql-strict-mode-750-1--------rules-for-the-strict-mode---@ITOC@@ABENOPENSQL_STRICT_MODE_750_2)
 
 Conditions for the Strict Mode
 

@@ -3,7 +3,29 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abentypes_data_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentypes_data_obsolete.htm)
+- [abaptypes_implicit.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_implicit.htm)
+- [abendeclaration_wrong_length.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclaration_wrong_length.htm)
+- [abenanonymous_components.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenanonymous_components.htm)
+- [abaptypes_client_specified.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_client_specified.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.949Z
+
+---
+
 ### abentypes_data_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abentypes_data_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentypes_data_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -30,7 +52,14 @@ Continue
 [TYPES - CLIENT SPECIFIED](javascript:call_link\('abaptypes_client_specified.htm'\))
 
 
+
+**📖 Source**: [abentypes_data_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentypes_data_obsolete.htm)
+
 ### abaptypes_implicit.htm
+
+> **📖 Official SAP Documentation**: [abaptypes_implicit.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_implicit.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -78,7 +107,14 @@ TYPES: t1 TYPE c LENGTH 1,
        t2 TYPE p LENGTH 8 DECIMALS 0.
 
 
+
+**📖 Source**: [abaptypes_implicit.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_implicit.htm)
+
 ### abendeclaration_wrong_length.htm
+
+> **📖 Official SAP Documentation**: [abendeclaration_wrong_length.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclaration_wrong_length.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -113,7 +149,14 @@ DATA: f1 TYPE d,
       f2 TYPE i.
 
 
+
+**📖 Source**: [abendeclaration_wrong_length.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclaration_wrong_length.htm)
+
 ### abenanonymous_components.htm
+
+> **📖 Official SAP Documentation**: [abenanonymous_components.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenanonymous_components.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -146,7 +189,17 @@ Notes
 -   These anonymous components can be replaced easily by named components. Named components increase the function of anonymous components by allowing them to be accessed explicitly, without limiting their role as, for example, filler fields.
 
 
+
+**📖 Source**: [abenanonymous_components.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenanonymous_components.htm)
+
 ### abaptypes_client_specified.htm
+
+> **📖 Official SAP Documentation**: [abaptypes_client_specified.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_client_specified.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abaptypes_client_specified.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_client_specified.htm)
+
 
   
 

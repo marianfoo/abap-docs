@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenprogr_type_features_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogr_type_features_guidl.htm)
+- [abenprogram_type_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_type_guidl.htm)
+- [abenprogram_attribute_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attribute_guidl.htm)
+- [abenoriginal_langu_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoriginal_langu_guidl.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.376Z
+
+---
+
 ### abenprogr_type_features_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenprogr_type_features_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogr_type_features_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -29,7 +50,14 @@ Continue
 [Original Language](javascript:call_link\('abenoriginal_langu_guidl.htm'\))
 
 
+
+**📖 Source**: [abenprogr_type_features_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogr_type_features_guidl.htm)
+
 ### abenprogram_type_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenprogram_type_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_type_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -125,7 +153,14 @@ Note
 In cases where program types other than class and interface pools are still used, the check Obsolete Statements (OO Context) should be activated in the [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline"). This enables same stringent syntax check to be implemented for program components not implemented in local classes as for within classes.
 
 
+
+**📖 Source**: [abenprogram_type_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_type_guidl.htm)
+
 ### abenprogram_attribute_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenprogram_attribute_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attribute_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -202,7 +237,17 @@ This was only possible for programs with the ABAP language version [Obsolete ABA
 The above code produces a syntax error when used in an ABAP program defined as [Standard ABAP (Unicode)](javascript:call_link\('abenunicode_program_glosry.htm'\) "Glossary Entry") or higher in the program attributes (in accordance with the above rule). Unwanted substring accesses are prohibited, just like any other unwanted accesses to structures or other parts of the working memory. If these accesses are not known to the syntax check, a runtime error occurs with a descriptive short dump while the program is running.
 
 
+
+**📖 Source**: [abenprogram_attribute_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attribute_guidl.htm)
+
 ### abenoriginal_langu_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenoriginal_langu_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoriginal_langu_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenoriginal_langu_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoriginal_langu_guidl.htm)
+
 
   
 

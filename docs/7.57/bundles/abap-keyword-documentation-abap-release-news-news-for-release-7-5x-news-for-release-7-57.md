@@ -3,7 +3,35 @@
 Included pages: 12
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennews-757.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757.htm)
+- [abennews-757-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-assignments.htm)
+- [abennews-757-ddic.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-ddic.htm)
+- [abennews-757-expressions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-expressions.htm)
+- [abennews-757-itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-itab.htm)
+- [abennews-757-data_cluster.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-data_cluster.htm)
+- [abennews-757-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-abap_cds.htm)
+- [abennews-757-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-others.htm)
+- [abennews-757-restful.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-restful.htm)
+- [abennews-757-cds_bdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-cds_bdl.htm)
+- [abennews-757-eml.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-eml.htm)
+
+**Bundle Contains**: 11 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.289Z
+
+---
+
 ### abennews-757.htm
+
+> **📖 Official SAP Documentation**: [abennews-757.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -40,7 +68,14 @@ Continue
 [ABAP RESTful Application Programming Model in Release 7.57](javascript:call_link\('abennews-757-restful.htm'\))
 
 
+
+**📖 Source**: [abennews-757.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757.htm)
+
 ### abennews-757-assignments.htm
+
+> **📖 Official SAP Documentation**: [abennews-757-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-assignments.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -84,7 +119,14 @@ It can be also specified with the addition ASSIGNING of the following internal t
 All these statements have in common to set sy-subrc. If an assignment is not successful, sy-subrc is set to a value 4 or sometimes 8. If the addition ELSE UNASSIGN is specified, the state of the field symbol is set to unassigned in that case. The field symbol is assigned only, if the assignment is successful. If ELSE UNASSIGN is not specified, the field symbol keeps its previous state, which was the only behavior up to now. Using ELSE UNASSIGN introduces the same behavior as for the [static variant](javascript:call_link\('abapassign_mem_area_static_dobj.htm'\)) to the above variants. In another way around, one can say that the static variant uses ELSE UNASSIGN implicitly.
 
 
+
+**📖 Source**: [abennews-757-assignments.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-assignments.htm)
+
 ### abennews-757-ddic.htm
+
+> **📖 Official SAP Documentation**: [abennews-757-ddic.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-ddic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -106,7 +148,14 @@ Deprecation of DDIC External Views
 [SAP HANA XSA](javascript:call_link\('abenxsa_glosry.htm'\) "Glossary Entry") replaces [SAP HANA XSC](javascript:call_link\('abenxsc_glosry.htm'\) "Glossary Entry"). The [access methods](javascript:call_link\('abensap_hana_access_xsc.htm'\)) designed specifically for XSC objects are not suitable for XSA objects and have been declared obsolete. [DDIC external views](javascript:call_link\('abenddic_external_views.htm'\)) are one of those access methods. They have been declared obsolete. More information can be found in SAP Notes [2465027](https://launchpad.support.sap.com/#/notes/2465027) and [3116165](https://launchpad.support.sap.com/#/notes/3116165).
 
 
+
+**📖 Source**: [abennews-757-ddic.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-ddic.htm)
+
 ### abennews-757-expressions.htm
+
+> **📖 Official SAP Documentation**: [abennews-757-expressions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-expressions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -128,7 +177,14 @@ Inline Declarations
 The new [declaration operator](javascript:call_link\('abendeclaration_operator_glosry.htm'\) "Glossary Entry") [FINAL](javascript:call_link\('abenfinal_inline.htm'\)) declares an [immutable variable](javascript:call_link\('abenimmutable_variable_glosry.htm'\) "Glossary Entry") that cannot be assigned another value at other write positions of the same context.
 
 
+
+**📖 Source**: [abennews-757-expressions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-expressions.htm)
+
 ### abennews-757-itab.htm
+
+> **📖 Official SAP Documentation**: [abennews-757-itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -178,7 +234,14 @@ The loop was not processed at all. From release 7.57 on, the loop is processed a
 This change is slightly incompatible.
 
 
+
+**📖 Source**: [abennews-757-itab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-itab.htm)
+
 ### abennews-757-data_cluster.htm
+
+> **📖 Official SAP Documentation**: [abennews-757-data_cluster.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-data_cluster.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -200,7 +263,14 @@ Import of Type n into Type c
 The statement [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) now allows assignments of data of type [n to data objects of type c](javascript:call_link\('abapimport_parameterlist.htm'\)) if they have the same length. This change might lead to incompatible behavior if handling of the former exception leads to different results than the new behavior.
 
 
+
+**📖 Source**: [abennews-757-data_cluster.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-data_cluster.htm)
+
 ### abennews-757-abap_cds.htm
+
+> **📖 Official SAP Documentation**: [abennews-757-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-abap_cds.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -340,7 +410,14 @@ CDS DDIC-Based Views Are Obsolete
 [CDS DDIC-based views (obsolete)](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry"), defined using the statement [DEFINE VIEW](javascript:call_link\('abencds_define_view_v1.htm'\)), are [obsolete](javascript:call_link\('abencds_v1_views.htm'\)). When creating new data models, [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"), defined using [DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)), should be used instead.
 
 
+
+**📖 Source**: [abennews-757-abap_cds.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-abap_cds.htm)
+
 ### abennews-757-others.htm
+
+> **📖 Official SAP Documentation**: [abennews-757-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-others.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -376,7 +453,14 @@ Obsolete Access Methods for SAP HANA XS
 [SAP HANA XSA](javascript:call_link\('abenxsa_glosry.htm'\) "Glossary Entry") replaces [SAP HANA XSC](javascript:call_link\('abenxsc_glosry.htm'\) "Glossary Entry"). The [access methods](javascript:call_link\('abenhana_xsc_obsolete.htm'\)) designed specifically for XSC objects are not suitable for XSA objects and have been declared obsolete. This includes [DDIC external views](javascript:call_link\('abenddic_external_views.htm'\)) and [database procedure proxies](javascript:call_link\('abendatabase_proc_proxy_glosry.htm'\) "Glossary Entry"). More information can be found in SAP Notes [2465027](https://launchpad.support.sap.com/#/notes/2465027) and [3116165](https://launchpad.support.sap.com/#/notes/3116165).
 
 
+
+**📖 Source**: [abennews-757-others.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-others.htm)
+
 ### abennews-757-restful.htm
+
+> **📖 Official SAP Documentation**: [abennews-757-restful.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-restful.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -401,7 +485,14 @@ Continue
 [ABAP EML in Release 7.57](javascript:call_link\('abennews-757-eml.htm'\))
 
 
+
+**📖 Source**: [abennews-757-restful.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-restful.htm)
+
 ### abennews-757-cds_bdl.htm
+
+> **📖 Official SAP Documentation**: [abennews-757-cds_bdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-cds_bdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -498,7 +589,14 @@ New Version of BDEF Strict Mode
 A new version of [BDEF strict mode](javascript:call_link\('abenrap_strict_mode_glosry.htm'\) "Glossary Entry") is available: Strict mode version 2, specified using [strict(2)](javascript:call_link\('abenbdl_strict_2.htm'\)). It applies even more syntax checks than the first version.
 
 
+
+**📖 Source**: [abennews-757-cds_bdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-cds_bdl.htm)
+
 ### abennews-757-eml.htm
+
+> **📖 Official SAP Documentation**: [abennews-757-eml.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-eml.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -526,7 +624,17 @@ Entity Manipulation Language
     The FIELDS ( ... ) WITH addition for [READ](javascript:call_link\('abapread_entity_entities_fields.htm'\)) and [MODIFY](javascript:call_link\('abapmodify_entity_entities_fields.htm'\)) supports the setting of %control regarding components in [deep input parameters](javascript:call_link\('abenbdl_action_input_param.htm'\)) in the context of deep [action](javascript:call_link\('abenrap_action_glosry.htm'\) "Glossary Entry") and [function](javascript:call_link\('abenrap_function_glosry.htm'\) "Glossary Entry") parameters.
 
 
+
+**📖 Source**: [abennews-757-eml.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-eml.htm)
+
 ### abennews-757-restful.htm
+
+> **📖 Official SAP Documentation**: [abennews-757-restful.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-restful.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennews-757-restful.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-757-restful.htm)
+
 
   
 

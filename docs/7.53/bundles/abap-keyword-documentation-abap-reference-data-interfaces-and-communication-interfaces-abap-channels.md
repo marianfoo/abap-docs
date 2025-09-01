@@ -3,7 +3,31 @@
 Included pages: 7
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenapc_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexas.htm)
+- [abenapc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexa.htm)
+- [abenapc_ws_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_ws_client_abexa.htm)
+- [abenapc_tcp_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_tcp_client_abexa.htm)
+- [abenapc_detached_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_detached_client_abexa.htm)
+- [abenapc_attached_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_attached_client_abexa.htm)
+- [abenapc_connect_via_handle_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_connect_via_handle_abexa.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.53
+**Generated**: 2025-09-01T11:25:46.184Z
+
+---
+
 ### abenapc_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenapc_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -24,7 +48,14 @@ Continue
 ![Example](exa.gif "Example") [APC, System-Wide Access](javascript:call_link\('abenapc_connect_via_handle_abexa.htm'\))
 
 
+
+**📖 Source**: [abenapc_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexas.htm)
+
 ### abenapc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenapc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -122,7 +153,14 @@ Note
 Before this example can work, the protocols WEBSOCKET and WEBSOCKETS must be specified as active services in the Services function in the transaction SMICM.
 
 
+
+**📖 Source**: [abenapc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexa.htm)
+
 ### abenapc_ws_client_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenapc_ws_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_ws_client_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -275,7 +313,14 @@ It is possible to select how many messages are sent and how often the wait state
 -   If the server sends its messages using ABAP messaging channels, other AMC receivers in the same messaging channel can also see the messages of the server. For example, the Web browser from the executable example [AS ABAP as WebSocket Server](javascript:call_link\('abenapc_abexa.htm'\)) can receive these messages. In the reverse direction, the APC client can then also receive those messages sent by the APC server as a response to messages from the Web browser, if they occur in one of the programmed wait periods.
 
 
+
+**📖 Source**: [abenapc_ws_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_ws_client_abexa.htm)
+
 ### abenapc_tcp_client_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenapc_tcp_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_tcp_client_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -404,7 +449,14 @@ This program requires the Ncat.exe directory and the address of the current fron
 When the program is executed, Ncat.exe is started and waits for messages from the APC client. Once a message is sent, this client waits for a message entered in the Ncat window and confirmed using Enter.
 
 
+
+**📖 Source**: [abenapc_tcp_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_tcp_client_abexa.htm)
+
 ### abenapc_detached_client_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenapc_detached_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_detached_client_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -543,7 +595,14 @@ This example demonstrates how an ABAP program can create a [detached APC client]
 A breakpoint in the method ON\_MESSAGE of the APC handler class CL\_APC\_WSP\_EXT\_DEMO\_APC\_PCP can be used to monitor the arrival and processing of the message (it is not possible to respond to messages from the same class here). If the message is sent using [AMC](javascript:call_link\('abenamc.htm'\)), the response from the server is received by all associated AMC receivers. The attached client cannot itself wait for the response.
 
 
+
+**📖 Source**: [abenapc_detached_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_detached_client_abexa.htm)
+
 ### abenapc_attached_client_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenapc_attached_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_attached_client_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -616,7 +675,17 @@ Description
 The program expects a connection handle as input, as provided in the output of the executable [detached client](javascript:call_link\('abenapc_detached_client_abexa.htm'\)) example. The connection handle is used to create and employ an attached client object precisely as described in the detached client example. The connection handle can be reused indefinitely until the connection is closed using the method CLOSE. If the connection is not closed by mistake, this can be done later in the transaction SMWS.
 
 
+
+**📖 Source**: [abenapc_attached_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_attached_client_abexa.htm)
+
 ### abenapc_connect_via_handle_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenapc_connect_via_handle_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_connect_via_handle_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenapc_connect_via_handle_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_connect_via_handle_abexa.htm)
+
 
   
 

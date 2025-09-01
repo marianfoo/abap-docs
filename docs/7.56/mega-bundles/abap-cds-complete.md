@@ -7,6 +7,21 @@
 ---
 
 
+
+## 🔗 Complete Source Documentation
+
+**📖 Official Documentation**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
+**🏷️ Category**: CDS
+**🔍 Search Specific Topics**: Use `abap_search query:"cds"` for focused results
+**📄 Individual Pages**: All source URLs included in each section below
+
+### 🎯 Quick Navigation
+- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
+- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
+- **Browse by difficulty**: Look for **Difficulty** markers in each section
+
+---
+
 ## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Syntax
 
 **Files**: 3 | **Difficulty**: advanced
@@ -17,6 +32,10 @@ Included pages: 3
 
 
 ### abencds_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_syntax.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38,7 +57,14 @@ Continue
 [ABAP CDS - Language Elements](javascript:call_link\('abencds_language_elements.htm'\))
 
 
+
+**📖 Source**: [abencds_syntax.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_syntax.htm)
+
 ### abencds_general_syntax_rules.htm
+
+> **📖 Official SAP Documentation**: [abencds_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_general_syntax_rules.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -101,7 +127,14 @@ Examples
 -   0.5 is a valid numeric literal, but .5 is not.
 
 
+
+**📖 Source**: [abencds_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_general_syntax_rules.htm)
+
 ### abencds_language_elements.htm
+
+> **📖 Official SAP Documentation**: [abencds_language_elements.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_language_elements.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -122,841 +155,7 @@ The following sections summarize the language elements of the [CDS DDL](javascri
     -   [CDS Metadata Extensions](#abencds-language-elements-9-------bdl---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_10)
     -   [CDS Behavior Definitions](#abencds-language-elements-11-----------bdef-extensions---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_12)
 -   [DCL](#abencds-language-elements-13-----------cds-roles---@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_14)
-    -   [CDS access policy](#@@ITOC@@ABENCDS_LANGUAGE_ELEMENTS_15)
-
-In addition to the language elements shown here, CDS source code can also contain [annotations](javascript:call_link\('abencds_annotations.htm'\)) with metadata.
-
-DDL
-
-CDS Annotation Definitions
-
-Keywords and Additions
-
-Language Element
-
-Meaning
-
-[define annotation ...](javascript:call_link\('abencds_f1_define_annotation.htm'\))
-
-Defines a [CDS annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry")
-
-[enum](javascript:call_link\('abencds_f1_define_annotation_type.htm'\))
-
-Defines enumeration symbols of a [CDS annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry")
-
-[default](javascript:call_link\('abencds_f1_define_annotation_type.htm'\))
-
-Defines default values of a [CDS annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry")
-
-[array of](javascript:call_link\('abencds_f1_define_annotation_arr.htm'\))
-
-Defines an [annotation arras](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry").
-
-CDS Views
-
-Keywords and Additions
-
-Language Element
-
-Meaning
-
-[DEFINE VIEW...](javascript:call_link\('abencds_define_view_v1.htm'\))[AS](javascript:call_link\('abencds_define_view_v1.htm'\))
-
-Defines a [CDS DDIC-based view](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry")
-
-[DEFINE VIEW ENTITY...AS](javascript:call_link\('abencds_define_view_entity.htm'\))
-
-Defines a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry")
-
-[DEFINE VIEW ENTITY... AS PROJECTION ON](javascript:call_link\('abencds_define_view_as_projection.htm'\))
-
-Defines a [CDS projection view](javascript:call_link\('abencds_projection_view_glosry.htm'\) "Glossary Entry")
-
-[ROOT](javascript:call_link\('abencds_define_root_view_v2.htm'\))
-
-Defines a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") as a [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry")
-
-[PROVIDER CONTRACT TRANSACTIONAL\_QUERY
-                 ANALYTICAL\_QUERY
-                 { }](javascript:call_link\('abencds_pv_provider_contract.htm'\))
-
-Specifies the scenario in which a [CDS projection view](javascript:call_link\('abencds_projection_view_glosry.htm'\) "Glossary Entry") is used.
-
-[WITH PARAMETERS](javascript:call_link\('abencds_parameter_list_v2.htm'\))
-
-Defines input parameters of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry")
-
-[SELECT *\[*DISTINCT*\]* ... FROM](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-SELECT statement of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry")
-
-[INNER JOIN ... ON](javascript:call_link\('abencds_joined_data_source_v2.htm'\))
-
-Inner join in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[LEFT*|*RIGHT OUTER JOIN ... ON](javascript:call_link\('abencds_joined_data_source_v2.htm'\))
-
-Outer join in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[ASSOCIATION ... TO ... AS ... ON](javascript:call_link\('abencds_association_v2.htm'\))
-
-Defines a CDS association for a [path expression](javascript:call_link\('abencds_path_expression_v2.htm'\)) in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[REDEFINE ASSOCIATION](javascript:call_link\('abencds_proj_view_redefined_assoc.htm'\))
-
-Redefines a [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") in a [CDS projection view](javascript:call_link\('abencds_projection_view_glosry.htm'\) "Glossary Entry").
-
-[WITH DEFAULT FILTER](javascript:call_link\('abencds_association_v2.htm'\))
-
-Specifies a default filter condition of a CDS association
-
-[1:](javascript:call_link\('abencds_path_expr_card_v2.htm'\))
-
-Attribute of a [path expression](javascript:call_link\('abencds_path_expression_v2.htm'\))
-
-[INNER ... WHERE](javascript:call_link\('abencds_path_expr_jointype_v2.htm'\))
-
-Attribute of a [path expression](javascript:call_link\('abencds_path_expression_v2.htm'\))
-
-[LEFT OUTER ... WHERE](javascript:call_link\('abencds_path_expr_jointype_v2.htm'\))
-
-Attribute of a [path expression](javascript:call_link\('abencds_path_expression_v2.htm'\))
-
-[COMPOSITION ... OF](javascript:call_link\('abencds_composition_v2.htm'\))
-
-Defines a CDS composition
-
-[ASSOCIATION TO PARENT ... AS ... ON](javascript:call_link\('abencds_to_parent_assoc_v2.htm'\))
-
-Defines a CDS to-parent association
-
-[KEY](javascript:call_link\('abencds_select_list_entry_v2.htm'\))
-
-Defines an element of a [SELECT list](javascript:call_link\('abencds_select_list_v2.htm'\)) as key field
-
-[AS](javascript:call_link\('abencds_select_list_entry_v2.htm'\))
-
-Defines an alias name for an element of a [SELECT](javascript:call_link\('abencds_select_list_v2.htm'\)) list
-
-[$EXTENSION.\*](javascript:call_link\('abencds_select_list_entry_v1.htm'\))
-
-Elements of an extension in a [SELECT list](javascript:call_link\('abencds_select_list_v1.htm'\)) (only available in CDS DDIC-based views)
-
-[$PROJECTION.\*](javascript:call_link\('abencds_select_list_entry_v2.htm'\))
-
-Allows to reuse expressions defined in the [SELECT list](javascript:call_link\('abencds_select_list_v2.htm'\)) of a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry") in an operand position of the SELECT list of the same CDS view entity.
-
-[WHERE ...](javascript:call_link\('abencds_where_clause_v2.htm'\))
-
-WHERE clause of a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[GROUP BY ...](javascript:call_link\('abencds_group_by_v2.htm'\))
-
-GROUP-BY clause of a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[HAVING ...](javascript:call_link\('abencds_having_clause_v2.htm'\))
-
-HAVING clause of a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[EXCEPT ...](javascript:call_link\('abencds_except_v2.htm'\))
-
-EXCEPT clause of a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\)), currently only available for [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry").
-
-[INTERSECT ...](javascript:call_link\('abencds_intersect_v2.htm'\))
-
-INTERSECT clause of a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\)), currently only available for [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry").
-
-[UNION *\[*ALL*\]* ...](javascript:call_link\('abencds_union_v2.htm'\))
-
-UNION clause of a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[VIRTUAL](javascript:call_link\('abencds_proj_view_element.htm'\))
-
-Defines a new element of a CDS projection view
-
-[LOCALIZED](javascript:call_link\('abencds_proj_view_element.htm'\))
-
-Defines the [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") of a text association
-
-[REDIRECTED TO](javascript:call_link\('abencds_proj_view_element.htm'\))
-
-Redirects a [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") in a CDS projection view to a projection of the association target.
-
-[REDIRECTED TO COMPOSITION CHILD](javascript:call_link\('abencds_proj_view_expose_assoc.htm'\))
-
-Redirects a [CDS composition](javascript:call_link\('abencds_composition_glosry.htm'\) "Glossary Entry") in a CDS projection view to a projection of the composition target.
-
-[REDIRECTED TO PARENT](javascript:call_link\('abencds_proj_view_expose_assoc.htm'\))
-
-Redirects a [CDS to-parent association](javascript:call_link\('abento_parent_association_glosry.htm'\) "Glossary Entry") in a CDS projection view to a projection of the association target.
-
-Expressions
-
-Operators
-
-Meaning
-
-[MAX](javascript:call_link\('abencds_aggregate_functions_v2.htm'\)), [MIN](javascript:call_link\('abencds_aggregate_functions_v2.htm'\)), [AVG *\[*AS dtype*\]*](javascript:call_link\('abencds_aggregate_functions_v2.htm'\)), [SUM](javascript:call_link\('abencds_aggregate_functions_v2.htm'\)), [COUNT](javascript:call_link\('abencds_aggregate_functions_v2.htm'\))
-
-Aggregate expression in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[+](javascript:call_link\('abencds_arithmetic_expression_v2.htm'\)), [\-](javascript:call_link\('abencds_arithmetic_expression_v2.htm'\)), [\*](javascript:call_link\('abencds_arithmetic_expression_v2.htm'\)), [/](javascript:call_link\('abencds_arithmetic_expression_v2.htm'\))
-
-Arithmetic expression in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[CASE](javascript:call_link\('abencds_case_expression_v2.htm'\)), [WHEN](javascript:call_link\('abencds_case_expression_v2.htm'\)), [THEN](javascript:call_link\('abencds_case_expression_v2.htm'\)), [ELSE](javascript:call_link\('abencds_case_expression_v2.htm'\)), [END](javascript:call_link\('abencds_case_expression_v2.htm'\))
-
-Case distinction in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[CAST](javascript:call_link\('abencds_cast_expression_v2.htm'\))
-
-Cast expression in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[\=](javascript:call_link\('abencds_cond_expr_comp_v2.htm'\)), [<>](javascript:call_link\('abencds_cond_expr_comp_v2.htm'\)), [<](javascript:call_link\('abencds_cond_expr_comp_v2.htm'\)), [\>](javascript:call_link\('abencds_cond_expr_comp_v2.htm'\)), [<=](javascript:call_link\('abencds_cond_expr_comp_v2.htm'\)), [\>=](javascript:call_link\('abencds_cond_expr_comp_v2.htm'\)), [BETWEEN](javascript:call_link\('abencds_cond_expr_betw_v2.htm'\)), [LIKE](javascript:call_link\('abencds_cond_expr_like_v2.htm'\)), [IS NULL](javascript:call_link\('abencds_cond_expr_null_v2.htm'\)), [NOT](javascript:call_link\('abencds_conditional_expression_v2.htm'\)), [AND](javascript:call_link\('abencds_conditional_expression_v2.htm'\)), [OR](javascript:call_link\('abencds_conditional_expression_v2.htm'\))
-
-Relational expression in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-Built-In Functions
-
-Function
-
-Meaning
-
-[ABS](javascript:call_link\('abencds_sql_functions_numeric_v2.htm'\)), [CEIL](javascript:call_link\('abencds_sql_functions_numeric_v2.htm'\)), [DIV](javascript:call_link\('abencds_sql_functions_numeric_v2.htm'\)), [DIVISION](javascript:call_link\('abencds_sql_functions_numeric_v2.htm'\)), [FLOOR](javascript:call_link\('abencds_sql_functions_numeric_v2.htm'\)), [MOD](javascript:call_link\('abencds_sql_functions_numeric_v2.htm'\)), [ROUND](javascript:call_link\('abencds_sql_functions_numeric_v2.htm'\))
-
-Numeric function in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[CONCAT](javascript:call_link\('abencds_sql_functions_character_v2.htm'\)), [CONCAT\_WITH\_SPACE](javascript:call_link\('abencds_sql_functions_character_v2.htm'\)), [INSTR](javascript:call_link\('abencds_sql_functions_character_v2.htm'\)), [LEFT](javascript:call_link\('abencds_sql_functions_character_v2.htm'\)), [LENGTH](javascript:call_link\('abencds_sql_functions_character_v2.htm'\)), [LPAD](javascript:call_link\('abencds_sql_functions_character_v2.htm'\)), [LOWER](javascript:call_link\('abencds_sql_functions_character_v2.htm'\)), [LTRIM](javascript:call_link\('abencds_sql_functions_character_v2.htm'\)), [REPLACE](javascript:call_link\('abencds_sql_functions_character_v2.htm'\)), [RIGHT](javascript:call_link\('abencds_sql_functions_character_v2.htm'\)), [RPAD](javascript:call_link\('abencds_sql_functions_character_v2.htm'\)), [RTRIM](javascript:call_link\('abencds_sql_functions_character_v2.htm'\)), [SUBSTRING](javascript:call_link\('abencds_sql_functions_character_v2.htm'\)), [UPPER](javascript:call_link\('abencds_sql_functions_character_v2.htm'\))
-
-String function in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[BINTOHEX](javascript:call_link\('abencds_conv_func_types_v2.htm'\)), [HEXTOBIN](javascript:call_link\('abencds_conv_func_types_v2.htm'\))
-
-Byte string function in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[COALESCE](javascript:call_link\('abencds_coalesce_expression_v2.htm'\))
-
-Coalesce function in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[FLTP\_TO\_DEC](javascript:call_link\('abencds_conv_func_types_v2.htm'\)), [UNIT\_CONVERSION](javascript:call_link\('abencds_conv_func_unit_curr_v2.htm'\)), [CURRENCY\_CONVERSION](javascript:call_link\('abencds_conv_func_unit_curr_v2.htm'\)), [DECIMAL\_SHIFT](javascript:call_link\('abencds_conv_func_unit_curr_v1.htm'\)), [GET\_NUMERIC\_VALUE](javascript:call_link\('abencds_conv_func_unit_curr_v2.htm'\)), [CURR\_TO\_DECFLOAT\_AMOUNT](javascript:call_link\('abencds_conv_func_unit_curr_v2.htm'\))
-
-Conversion functions in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[DATS\_IS\_VALID](javascript:call_link\('abencds_date_functions_v2.htm'\)), [DATS\_DAYS\_BETWEEN](javascript:call_link\('abencds_date_functions_v2.htm'\)), [DATS\_ADD\_DAYS](javascript:call_link\('abencds_date_functions_v2.htm'\)), [DATS\_ADD\_MONTHS](javascript:call_link\('abencds_date_functions_v2.htm'\))
-
-Date function in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[TIMS\_IS\_VALID](javascript:call_link\('abencds_time_functions_v2.htm'\))
-
-Time function in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[TSTMP\_IS\_VALID](javascript:call_link\('abencds_timestamp_functions_v2.htm'\)), [TSTMP\_CURRENT\_UTCTIMESTAMP](javascript:call_link\('abencds_timestamp_functions_v2.htm'\)), [TSTMP\_SECONDS\_BETWEEN](javascript:call_link\('abencds_timestamp_functions_v2.htm'\)), [TSTMP\_ADD\_SECONDS](javascript:call_link\('abencds_timestamp_functions_v2.htm'\))
-
-Time stamp function in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[ABAP\_SYSTEM\_TIMEZONE](javascript:call_link\('abencds_timezone_functions_v2.htm'\)), [ABAP\_USER\_TIMEZONE](javascript:call_link\('abencds_timezone_functions_v2.htm'\))
-
-Time zone functions in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-[TSTMP\_TO\_DATS](javascript:call_link\('abencds_date_time_conversions_v2.htm'\)), [TSTMP\_TO\_TIMS](javascript:call_link\('abencds_date_time_conversions_v2.htm'\)), [TSTMP\_TO\_DST](javascript:call_link\('abencds_date_time_conversions_v2.htm'\)), [DATS\_TIMS\_TO\_TSTMP](javascript:call_link\('abencds_date_time_conversions_v2.htm'\))
-
-Date/time conversions functions in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\))
-
-CDS Entity Extensions
-
-Keywords and Additions
-
-Language Element
-
-Meaning
-
-[EXTEND VIEW ENTITY...WITH](javascript:call_link\('abencds_extend_view_entity.htm'\))
-
-Extends a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry") or a [CDS projection view](javascript:call_link\('abencds_projection_view_glosry.htm'\) "Glossary Entry") using a [CDS view entity extension](javascript:call_link\('abencds_view_entity_extend_glosry.htm'\) "Glossary Entry")
-
-EXTEND CUSTOM ENTITY...WITH
-
-Extends a [CDS custom entity](javascript:call_link\('abencds_custom_entity_glosry.htm'\) "Glossary Entry") using a [CDS custom entity extension](javascript:call_link\('abencds_cus_entity_extend_glosry.htm'\) "Glossary Entry")
-
-[EXTEND ABSTRACT ENTITY...WITH](javascript:call_link\('abencds_extend_abstract_entity.htm'\))
-
-Extends a [CDS abstract entity](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry") using a [CDS abstract entity extension](javascript:call_link\('abencds_abs_entity_extend_glosry.htm'\) "Glossary Entry")
-
-[EXTEND VIEW ...](javascript:call_link\('abencds_extend_view.htm'\))[WITH](javascript:call_link\('abencds_extend_view.htm'\))
-
-Extends a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") using a [CDS view extension](javascript:call_link\('abencds_view_extend_glosry.htm'\) "Glossary Entry")
-
-CDS Table Functions
-
-Keywords and Additions
-
-Language Element
-
-Meaning
-
-[DEFINE TABLE FUNCTION ... RETURNS ... IMPLEMENTED BY METHOD ...](javascript:call_link\('abencds_f1_define_table_function.htm'\))
-
-Defines a [CDS table function](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry")
-
-CDS Hierarchies
-
-Keywords and Additions
-
-Language Element
-
-Meaning
-
-[DEFINE HIERARCHY ...](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Defines a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")
-
-[WITH PARAMETERS](javascript:call_link\('abencds_f1_hiera_parameter_list.htm'\))
-
-Defines input parameters of a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")
-
-[AS PARENT CHILD HIERARCHY](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Defines a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry") using parent-child relationships
-
-[SOURCE ...](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Specifies the data source of a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")
-
-[CHILD TO PARENT ASSOCIATION](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Specifies the [hierarchy association](javascript:call_link\('abenhierarchy_association_glosry.htm'\) "Glossary Entry") of a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")
-
-[PERIOD FROM ... TO ... VALID FROM ... TO ...](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Defines a [temporal hierarchy](javascript:call_link\('abentemporal_hierarchy_glosry.htm'\) "Glossary Entry")
-
-[DIRECTORY ... FILTER BY ...](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Specifies a condition for the source of a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")
-
-[START WHERE ...](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Specifies the start condition of a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")
-
-[SIBLINGS ORDER BY ...](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Specifies the sort order of [sibling nodes](javascript:call_link\('abensibling_node_glosry.htm'\) "Glossary Entry") in a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")
-
-[DEPTH ...](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Delimits the [hierarchy levels](javascript:call_link\('abenhierarchy_level_glosry.htm'\) "Glossary Entry") of a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")
-
-[NODETYPE ...](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Defines an element as a node type for a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")
-
-[MULTIPLE PARENTS ...](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Defines the behavior that applies if multiple [parent nodes](javascript:call_link\('abenparent_node_glosry.htm'\) "Glossary Entry") are specified in a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")
-
-[ORPHANS ...](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Defines the behavior that applies if [orphan nodes](javascript:call_link\('abenorphan_node_glosry.htm'\) "Glossary Entry") are specified in a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")
-
-[CYCLES ...](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Defines the behavior that applies if [node cycles](javascript:call_link\('abennode_cycle_glosry.htm'\) "Glossary Entry") are specified in a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")
-
-[GENERATE SPANTREE](javascript:call_link\('abencds_f1_define_hierarchy.htm'\))
-
-Reduces a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry") to a tree
-
-CDS Custom Entities
-
-Keywords and Additions
-
-Language Element
-
-Meaning
-
-[DEFINE CUSTOM ENTITY ...](javascript:call_link\('abencds_f1_define_custom_entity.htm'\))
-
-Defines a CDS custom entity
-
-[ROOT](javascript:call_link\('abencds_f1_define_custom_entity.htm'\))
-
-Defines a CDS custom entity as a root entity
-
-[WITH PARAMETERS](javascript:call_link\('abencds_f1_custom_parameter_list.htm'\))
-
-Defines input parameters of a CDS custom entity
-
-[ASSOCIATION ... TO ...](javascript:call_link\('abencds_f1_custom_association.htm'\))[ON](javascript:call_link\('abencds_f1_absent_association.htm'\))
-
-Defines a CDS association in the [element list](javascript:call_link\('abencds_f1_custom_element.htm'\)) of a CDS custom entity.
-
-[WITH DEFAULT FILTER](javascript:call_link\('abencds_f1_custom_association.htm'\))
-
-Specifies a default filter condition of a CDS association
-
-[COMPOSITION ... OF](javascript:call_link\('abencds_f1_custom_composition.htm'\))
-
-Defines a CDS composition in the element list of a CDS custom entity
-
-[ASSOCIATION TO PARENT ... ON](javascript:call_link\('abencds_f1_custom_tp_association.htm'\))
-
-Defines a CDS to-parent association in the element list of a CDS custom entity
-
-CDS Abstract Entities
-
-Keywords and Additions
-
-Language Element
-
-Meaning
-
-[DEFINE ABSTRACT ENTITY ...](javascript:call_link\('abencds_f1_define_abstract_entity.htm'\))
-
-Defines an [CDS abstract entity](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry")
-
-[ROOT](javascript:call_link\('abencds_f1_define_abstract_entity.htm'\))
-
-Defines a CDS abstract entity as a root entity
-
-[WITH PARAMETERS](javascript:call_link\('abencds_f1_entity_parameter_list.htm'\))
-
-Defines input parameters of an [CDS abstract entity](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry").
-
-[ASSOCIATION ... TO ... ON](javascript:call_link\('abencds_f1_absent_association.htm'\))
-
-Defines a CDS association in the [element list](javascript:call_link\('abencds_f1_absent_element_list.htm'\)) of an [CDS abstract entity](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry")
-
-[WITH DEFAULT FILTER](javascript:call_link\('abencds_f1_absent_association.htm'\))
-
-Specifies a default filter condition of a CDS association
-
-[COMPOSITION ... OF](javascript:call_link\('abencds_absent_composition.htm'\))
-
-Defines a CDS composition in the element list of a CDS abstract entity
-
-[ASSOCIATION TO PARENT ... ON](javascript:call_link\('abencds_absent_to_parent_assoc.htm'\))
-
-Defines a CDS to-parent association in the element list of a CDS abstract entity
-
-CDS Metadata Extensions
-
-Keywords and Additions
-
-Language Element
-
-Meaning
-
-[ANNOTATE ENTITY*|*VIEW ... WITH](javascript:call_link\('abencds_f1_annotate_view.htm'\))
-
-Defines a [CDS metadata extension](javascript:call_link\('abencds_metadata_extension_glosry.htm'\) "Glossary Entry") for a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry")
-
-[VARIANT](javascript:call_link\('abencds_f1_annotate_view.htm'\))
-
-Joins a [CDS metadata extension](javascript:call_link\('abencds_metadata_extension_glosry.htm'\) "Glossary Entry") with a [CDS variant](javascript:call_link\('abencds_variant_glosry.htm'\) "Glossary Entry")
-
-[PARAMETERS](javascript:call_link\('abencds_f1_annotate_view_para_list.htm'\))
-
-Extends the annotations of the input parameters of a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry")
-
-BDL
-
-CDS Behavior Definitions
-
-CDS behavior definition header
-
-Language Element
-
-Meaning
-
-[managed](javascript:call_link\('abenbdl_impl_type.htm'\))
-
-Defines a [managed RAP BO](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry")
-
-[unmanaged](javascript:call_link\('abenbdl_impl_type.htm'\))
-
-Defines an [unmanaged RAP BO](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry")
-
-[abstract](javascript:call_link\('abenbdl_impl_type.htm'\))
-
-Defines an abstract BDEF
-
-[projection](javascript:call_link\('abenbdl_impl_type.htm'\))
-
-Defines a projection RAP BO
-
-[implementation in class *\[*unique*\]*](javascript:call_link\('abenbdl_in_class_unique.htm'\))
-
-Class for manual method implementation
-
-[strict](javascript:call_link\('abenbdl_strict.htm'\))
-
-Enables BDEF strict mode
-
-[extensible *{*
-*\[*with validations on save*\]*
-*\[*with determinations on save*\]*
-*\[*with determinations on modify*\]*
-*}*](javascript:call_link\('abenbdl_extensible.htm'\))
-
-Allows [BDEF extensions](javascript:call_link\('abenrap_extension_glosry.htm'\) "Glossary Entry") for the indicated entities
-
-[with draft](javascript:call_link\('abenbdl_with_draft.htm'\))
-
-Enables the draft concept for a [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry")
-
-[use draft](javascript:call_link\('abenbdl_use_projection.htm'\))
-
-Reuse of [RAP draft handling](javascript:call_link\('abenrap_draft_handling_glosry.htm'\) "Glossary Entry") in a [CDS projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
-
-[with privileged mode disabling *\[*base context *\[*and*\]**\]*](javascript:call_link\('abenbdl_privileged_mode.htm'\))
-
-Enables privileged access to a [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry")
-
-[foreign entity](javascript:call_link\('abenbdl_foreign.htm'\))
-
-Defines an entity which is not part of the BO structure as component for the response structures, thus enabling message mapping for other BOs.
-
-Entity behavior definition
-
-Language Element
-
-Meaning
-
-[define behavior for...alias](javascript:call_link\('abenbdl_define_beh.htm'\))
-
-Defines an [entity behavior definition](javascript:call_link\('abencds_entity_bdef_glosry.htm'\) "Glossary Entry")
-
-Authorization context definition
-
-Language Element
-
-Meaning
-
-[define authorization context ...
-*\[*for disable *{*modify*|*read*|*modify,read*}**\]*](javascript:call_link\('abenbdl_authorization_context.htm'\))
-
-Defines an [authorization context](javascript:call_link\('abencds_auth_context_glosry.htm'\) "Glossary Entry")
-
-Entity behavior characteristics
-
-Language Element
-
-Meaning
-
-[persistent table](javascript:call_link\('abenbdl_persistent_table.htm'\))
-
-Defines a persistent database table for storing the data changes that result from transactional behavior.
-
-[draft table](javascript:call_link\('abenbdl_draft_table.htm'\))
-
-Defines the [draft database table](javascript:call_link\('abendraft_table_glosry.htm'\) "Glossary Entry") used to store draft data.
-
-[with additional save](javascript:call_link\('abenbdl_saving.htm'\)), [with unmanaged save](javascript:call_link\('abenbdl_saving.htm'\)), [and cleanup](javascript:call_link\('abenbdl_saving.htm'\))
-
-User-defined saving strategy for managed RAP BOs
-
-[etag master](javascript:call_link\('abenbdl_etag.htm'\)), [etag dependent](javascript:call_link\('abenbdl_etag.htm'\)), [total etag](javascript:call_link\('abenbdl_etag.htm'\))
-
-Defines an ETag field for optimistic concurrency control
-
-[use etag](javascript:call_link\('abenbdl_use_projection.htm'\))
-
-Reuse of ETag fields for optimistic concurrency control in a [CDS projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
-
-[lock master *\[*unmanaged*\]*](javascript:call_link\('abenbdl_locking.htm'\)), [lock dependent,](javascript:call_link\('abenbdl_locking.htm'\)) [lock:none](javascript:call_link\('abenbdl_locking.htm'\))
-
-Defines an exclusive lock that enables pessimistic concurrency control
-
-[authorization master *{* ( global ) *|* ( instance ) *|* ( global, instance ) *}*](javascript:call_link\('abenbdl_authorization.htm'\)), [authorization dependent](javascript:call_link\('abenbdl_authorization.htm'\)), [authorization:none](javascript:call_link\('abenbdl_authorization.htm'\)), [authorization:update](javascript:call_link\('abenbdl_authorization.htm'\))
-
-Defines an authorization concept for a business object to protect it against unauthorized access to data.
-
-[early numbering](javascript:call_link\('abenbdl_early_numb.htm'\))
-
-Defines unmanaged [early numbering](javascript:call_link\('abenrap_early_numbering_glosry.htm'\) "Glossary Entry") for all primary key fields of a business object entity.
-
-[late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\))
-
-Enables gapless assignment for unique keys when creating new entity instances.
-
-Entity behavior body
-
-Language Element
-
-Meaning
-
-[field *{* *\[*(readonly)*\]*
-      *|**\[*(mandatory)*\]*
-       *|**\[*(features:instance)*\]*
-      *|**\[*(mandatory:create)*\]*
-      *|**\[*(readonly:update)*\]*
-      *|**\[*(numbering:managed)*\]*](javascript:call_link\('abenbdl_field_char.htm'\))
-*|* *\[*([suppress)*\]* *}*](javascript:call_link\('abenbdl_field_projection.htm'\))
-
-Defines field additions
-
-[field (modify)](javascript:call_link\('abenbdl_augment_projection.htm'\))
-
-Augmentation of a [CDS virtual element](javascript:call_link\('abencds_virtual_element_glosry.htm'\) "Glossary Entry") in a [CDS projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
-
-[group](javascript:call_link\('abenbdl_grouping.htm'\))
-
-Splits the implementation-relevant parts of a business object's logic into multiple groups to allow simultaneous work.
-
-[create](javascript:call_link\('abenbdl_standard_operations.htm'\)), [update](javascript:call_link\('abenbdl_standard_operations.htm'\)), [delete](javascript:call_link\('abenbdl_standard_operations.htm'\))
-
-Enables [CRUD operations](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry") for a RAP business object.
-
-[use](javascript:call_link\('abenbdl_use_projection.htm'\))
-
-Reuse of [RAP BO operations](javascript:call_link\('abenrap_bo_operation_glosry.htm'\) "Glossary Entry") in a [CDS projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
-
-[association ... abbreviation ...
-*\[*with draft*\]* *\[*without response*\]*](javascript:call_link\('abenbdl_association.htm'\))
-
-Enables read-by-association and create-by-association operations for associations.
-
-[*\[*static*\]**\[*factory*\]**\[*static factory*\]* action ... *\[*external*\]*](javascript:call_link\('abenbdl_action.htm'\))
-
-Defines an action
-
-[*\[*static*\]* function ... *\[*external*\]*](javascript:call_link\('abenbdl_function.htm'\))
-
-Defines a function
-
-[determine action ... *\[*always*\]*](javascript:call_link\('abenbdl_determine_action.htm'\))
-
-Defines a [determine action](javascript:call_link\('abenrap_bo_det_action_glosry.htm'\) "Glossary Entry") that allows a [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") to execute [determinations](javascript:call_link\('abenrap_determination_glosry.htm'\) "Glossary Entry") and [validations](javascript:call_link\('abenrap_validation_glosry.htm'\) "Glossary Entry") on request.
-
-   [draft action Edit](javascript:call_link\('abenbdl_draft_action.htm'\))
-*|*  [draft action Activate](javascript:call_link\('abenbdl_draft_action.htm'\))
-*|*  [draft action Discard](javascript:call_link\('abenbdl_draft_action.htm'\))
-*|*  [draft action Resume *\[*with additional implementation*\]*](javascript:call_link\('abenbdl_draft_action.htm'\))
-*|*  [draft determine action Prepare](javascript:call_link\('abenbdl_draft_action.htm'\))
-
-Defines a draft action in a draft-enabled scenario
-
-[parameter ... *\[*$self*\]*](javascript:call_link\('abenbdl_action_input_param.htm'\))
-
-Defines an input parameter for an action or function
-
-[result *\[*selective*\]* \[cardinality\] *{* $self *|* entity *}*](javascript:call_link\('abenbdl_action_output_para.htm'\))
-
-Defines an output parameter for an action or function
-
-[mapping for ... *\[*control ... *\]* *\[*corresponding*\]* *\[*except*\]*](javascript:call_link\('abenbdl_type_mapping.htm'\))
-
-Maps field names from database tables to field names from the current data model
-
-[validation ... on save { ... }](javascript:call_link\('abenbdl_validations.htm'\))
-
-Defines a validation which is called when during the save sequence.
-
-[determination ... on save { ... } *|* on modify { ... }](javascript:call_link\('abenbdl_determinations.htm'\))
-
-Defines a determination which is called during the save sequence or immediately after data has been changed.
-
-[features: global, features: instance](javascript:call_link\('abenbdl_actions_fc.htm'\))
-
-RAP BO operation addition. Can be used to define global or instance feature control for a RAP BO operation.
-
-[internal](javascript:call_link\('abenbdl_internal.htm'\))
-
-Defines a RAP BO operation as internal.
-
-[precheck](javascript:call_link\('abenbdl_precheck.htm'\))
-
-Prevents illegal changes from reaching the application buffer by prechecking modify operations.
-
-[augment](javascript:call_link\('abenbdl_augment_projection.htm'\))
-
-Augments modify requests on the projection layer in a [CDS projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
-
-Abstract behavior definitions
-
-Language Element
-
-Meaning
-
-[with hierarchy](javascript:call_link\('abenbdl_bdef_abstract_header.htm'\))
-
-Causes the construction of a new kind of BDEF derived type. Only available in abstract BDEFs.
-
-[with control](javascript:call_link\('abenbdl_define_beh_abstract.htm'\))
-
-Optional addition of the define behavior statement that is only available in abstract BDEFs. Adds the %control structure to the corresponding derived type structure.
-
-[scalar entity ... field](javascript:call_link\('abenbdl_define_beh_abstract.htm'\))
-
-Alternative to an entity behavior definition that is only available in abstract BDEFs. Integrates a node of the CDS composition tree into the hierarchical derived type of the abstract BDEF as a scalar type.
-
-[association ... *\[*with hierarchy*\]*](javascript:call_link\('abenbdl_association_abstract.htm'\))
-
-In an abstract BDEF, an association can be defined with the optional addition with hierarchy. This addition is available for to-parent associations and cross-BO associations to include them several times in the type structure.
-
-[deep mapping for ... *\[*corresponding*\]* *\[*sub*\]*](javascript:call_link\('abenbdl_type_mapping_abstract.htm'\))
-
-Defines a deep mapping in an abstract BDEF.
-
-BDEF Extensions
-
-Keywords and Additions
-
-Language Element
-
-Meaning
-
-...
-
-...
-
-DCL
-
-CDS Roles
-
-Keywords and Additions
-
-Language Element
-
-Meaning
-
-[DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\))
-
-Defines a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry")
-
-[GRANT SELECT ON](javascript:call_link\('abencds_dcl_role_rules.htm'\))
-
-Defines an access rule in a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry")
-
-[COMBINATION MODE OR*|*AND](javascript:call_link\('abencds_dcl_role_cond_rule.htm'\))
-
-Specifies multiple access rules for the same CDS entity
-
-[REDEFINITION](javascript:call_link\('abencds_dcl_role_cond_rule.htm'\))
-
-Specifies the only existing access rule for the CDS entity
-
-[WHERE](javascript:call_link\('abencds_dcl_role_cond_rule.htm'\))
-
-WHERE clause in a conditional access rule of a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry")
-
-[AND](javascript:call_link\('abencds_dcl_role_cond_expr.htm'\)), [OR](javascript:call_link\('abencds_dcl_role_cond_expr.htm'\)), [NOT](javascript:call_link\('abencds_dcl_role_cond_expr.htm'\))
-
-Boolean operator in a conditional access rule of a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry")
-
-[INHERIT](javascript:call_link\('abencds_dcl_role_inherited_rule.htm'\))
-
-Defines an inherited access rule of a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry") (obsolete)
-
-[ASPECT pfcg\_auth](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)),
-[ASPECT user](javascript:call_link\('abencds_f1_cond_user.htm'\))
-
-Conditions for [CDS roles](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry")
-
-[PFCG\_MAPPING](javascript:call_link\('abencds_f1_cond_pfcg_mapping.htm'\))
-
-Specifies a [PFCG mapping](javascript:call_link\('abencds_pfcg_mapping_glosry.htm'\) "Glossary Entry") in a [PFCG condition](javascript:call_link\('abenpfcg_condition_glosry.htm'\) "Glossary Entry") of a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry")
-
-[INHERIT ... FOR GRANT SELECT ON](javascript:call_link\('abencds_f1_cond_inherit.htm'\))
-
-Defines an [inheritance condition](javascript:call_link\('abeninherit_condition_glosry.htm'\) "Glossary Entry") of a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry")
-
-...[\=*|*<>*|*<*|*\>*|*<=*|*\>=*|*?=](javascript:call_link\('abencds_f1_dcl_cond_expression.htm'\))*|*[BETWEEN*|*LIKE*|*IS NULL](javascript:call_link\('abencds_f1_cond_literal.htm'\)) ...
-
-Operators for literal conditions
-
-[BYPASS WHEN](javascript:call_link\('abencds_f1_cond_pfcg.htm'\))
-
-Specifies the condition for authorization filtering
-
-[IN SCENARIO](javascript:call_link\('abencds_f1_cond_pfcg.htm'\))
-
-Specifies the switchable authorization check
-
-[INHERIT CONDITIONS FROM ENTITY](javascript:call_link\('abencds_f1_cond_inherit.htm'\))
-
-Defines an inheritance condition of a CDS role
-
-[INHERIT CONDITIONS FROM SUPER](javascript:call_link\('abencds_f1_cond_inherit.htm'\))
-
-Defines an inheritance condition of a CDS role
-
-CDS access policy
-
-Keywords and Additions
-
-Language Element
-
-Meaning
-
-[DEFINE ACCESSPOLICY](javascript:call_link\('abencds_f1_define_accesspolicy.htm'\))
-
-Defines a [CDS access policy](javascript:call_link\('abencds_access_policy_glosry.htm'\) "Glossary Entry")
-
-[DEFINE PFCG\_MAPPING ... BETWEEN ... AND ... USING ...](javascript:call_link\('abencds_f1_define_pfcg_mapping.htm'\))
-
-Defines a [PFCG mapping](javascript:call_link\('abencds_pfcg_mapping_glosry.htm'\) "Glossary Entry") in an access policy
-
-[DEFINE ASPECT ... AS SELECT FROM ... WITH USER ELEMENT](javascript:call_link\('abencds_f1_define_generic_aspect.htm'\))
-
-Defines a self-defined aspect as part of a CDS access policy
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Amounts and Quantities
-
-**Files**: 4 | **Difficulty**: advanced
-
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Amounts and Quantities
-
-Included pages: 4
-
-
-### abencds_calc_quan.htm
-
-  
-
-* * *
-
-AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) → 
-
-ABAP CDS - Amounts and Quantities
-
-In [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry"), a special handling for amounts and quantities is implemented. [ABAP CDS amount fields](javascript:call_link\('abencds_amount_field_glosry.htm'\) "Glossary Entry") and [ABAP CDS quantity fields](javascript:call_link\('abencds_quantity_glosry.htm'\) "Glossary Entry") are similar to [DDIC currency fields](javascript:call_link\('abenddic_currency_field_glosry.htm'\) "Glossary Entry") and [DDIC quantity fields](javascript:call_link\('abenddic_quantity_glosry.htm'\) "Glossary Entry"), but more data types are possible.
-
-In [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"), the [currency key](javascript:call_link\('abencurrency_key_glosry.htm'\) "Glossary Entry") / [unit key](javascript:call_link\('abenunit_glosry.htm'\) "Glossary Entry") reference is considered in [expressions](javascript:call_link\('abencds_expressions_v2.htm'\)), [UNION views](javascript:call_link\('abencds_union_v2.htm'\)), and [INTERSECT views](javascript:call_link\('abencds_intersect_v2.htm'\)). Moreover, a special data type is available: the [calculated quantity with calculated unit reference](javascript:call_link\('abencds_calculated_quantity.htm'\)).
-
-Read the following sections for details:
-
--   [ABAP CDS Amount Fields](javascript:call_link\('abencds_amount_field.htm'\))
--   [ABAP CDS Quantity Fields](javascript:call_link\('abencds_quantity_field.htm'\))
--   [ABAP CDS Calculated Quantity with Calculated Unit](javascript:call_link\('abencds_calculated_quantity.htm'\))
-
-Continue
-[ABAP CDS - Amount Fields](javascript:call_link\('abencds_amount_field.htm'\))
-[ABAP CDS - Quantity Fields](javascript:call_link\('abencds_quantity_field.htm'\))
-[ABAP CDS - Calculated Quantity with Calculated Unit](javascript:call_link\('abencds_calculated_quantity.htm'\))
-
-
-### abencds_amount_field.htm
-
-  
-
-* * *
-
-AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Amounts and Quantities](javascript:call_link\('abencds_calc_quan.htm'\)) → 
-
-ABAP CDS - Amount Fields
-
-An [ABAP CDS amount field](javascript:call_link\('abencds_amount_field_glosry.htm'\) "Glossary Entry") is a component of a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") in [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry") used to store an amount in a specific currency. An amount is an integer in the smallest unit of the currency. The integer is constructed from all figures in an amount field while ignoring the position of the decimal separator.
-
-Possible [built-in DDIC data types](javascript:call_link\('abenddic_builtin_types.htm'\)) are CURR, DECFLOAT34, DEC, and FLTP. In case of data type CURR, a field is automatically interpreted as amount field and a reference to a [currency key](javascript:call_link\('abencurrency_key_glosry.htm'\) "Glossary Entry") using the annotation [@Semantics.amount.currencyCode](javascript:call_link\('abencds_f1_element_annotation.htm'\)) is mandatory. In case of the other data types, this reference is not mandatory but if used, it turns the field into an amount field.
+    -   [CDS access policy](#abencds-language-elements-15---in-addition-to-the-language-elements-shown-here--cds-source-code-can-also-contain--annotations--javascript-call-link---abencds-annotations-htm-----with-metadata---ddl--cds-annotation-definitions--keywords-and-additions--language-element--meaning---define-annotation------javascript-call-link---abencds-f1-define-annotation-htm------defines-a--cds-annotation--javascript-call-link---abencds-annotation-glosry-htm-----glossary-entry-----enum--javascript-call-link---abencds-f1-define-annotation-type-htm------defines-enumeration-symbols-of-a--cds-annotation--javascript-call-link---abencds-annotation-glosry-htm-----glossary-entry-----default--javascript-call-link---abencds-f1-define-annotation-type-htm------defines-default-values-of-a--cds-annotation--javascript-call-link---abencds-annotation-glosry-htm-----glossary-entry-----array-of--javascript-call-link---abencds-f1-define-annotation-arr-htm------defines-an--annotation-arras--javascript-call-link---abenannotation-array-glosry-htm-----glossary-entry-----cds-views--keywords-and-additions--language-element--meaning---define-view-----javascript-call-link---abencds-define-view-v1-htm-----as--javascript-call-link---abencds-define-view-v1-htm------defines-a--cds-ddic-based-view--javascript-call-link---abencds-v1-view-glosry-htm-----glossary-entry-----define-view-entity---as--javascript-call-link---abencds-define-view-entity-htm------defines-a--cds-view-entity--javascript-call-link---abencds-v2-view-glosry-htm-----glossary-entry-----define-view-entity----as-projection-on--javascript-call-link---abencds-define-view-as-projection-htm------defines-a--cds-projection-view--javascript-call-link---abencds-projection-view-glosry-htm-----glossary-entry-----root--javascript-call-link---abencds-define-root-view-v2-htm------defines-a--cds-view--javascript-call-link---abencds-view-glosry-htm-----glossary-entry---as-a--root-entity--javascript-call-link---abenroot-entity-glosry-htm-----glossary-entry-----provider-contract-transactional--query------------------analytical--query-----------------------javascript-call-link---abencds-pv-provider-contract-htm------specifies-the-scenario-in-which-a--cds-projection-view--javascript-call-link---abencds-projection-view-glosry-htm-----glossary-entry---is-used----with-parameters--javascript-call-link---abencds-parameter-list-v2-htm------defines-input-parameters-of-a--cds-view--javascript-call-link---abencds-view-glosry-htm-----glossary-entry-----select-----distinct---------from--javascript-call-link---abencds-select-statement-v2-htm------select-statement-of-a--cds-view--javascript-call-link---abencds-view-glosry-htm-----glossary-entry-----inner-join-----on--javascript-call-link---abencds-joined-data-source-v2-htm------inner-join-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------left---right-outer-join-----on--javascript-call-link---abencds-joined-data-source-v2-htm------outer-join-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------association-----to-----as-----on--javascript-call-link---abencds-association-v2-htm------defines-a-cds-association-for-a--path-expression--javascript-call-link---abencds-path-expression-v2-htm-----in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------redefine-association--javascript-call-link---abencds-proj-view-redefined-assoc-htm------redefines-a--cds-association--javascript-call-link---abencds-association-glosry-htm-----glossary-entry---in-a--cds-projection-view--javascript-call-link---abencds-projection-view-glosry-htm-----glossary-entry------with-default-filter--javascript-call-link---abencds-association-v2-htm------specifies-a-default-filter-condition-of-a-cds-association---1---javascript-call-link---abencds-path-expr-card-v2-htm------attribute-of-a--path-expression--javascript-call-link---abencds-path-expression-v2-htm-------inner-----where--javascript-call-link---abencds-path-expr-jointype-v2-htm------attribute-of-a--path-expression--javascript-call-link---abencds-path-expression-v2-htm-------left-outer-----where--javascript-call-link---abencds-path-expr-jointype-v2-htm------attribute-of-a--path-expression--javascript-call-link---abencds-path-expression-v2-htm-------composition-----of--javascript-call-link---abencds-composition-v2-htm------defines-a-cds-composition---association-to-parent-----as-----on--javascript-call-link---abencds-to-parent-assoc-v2-htm------defines-a-cds-to-parent-association---key--javascript-call-link---abencds-select-list-entry-v2-htm------defines-an-element-of-a--select-list--javascript-call-link---abencds-select-list-v2-htm-----as-key-field---as--javascript-call-link---abencds-select-list-entry-v2-htm------defines-an-alias-name-for-an-element-of-a--select--javascript-call-link---abencds-select-list-v2-htm-----list----extension-----javascript-call-link---abencds-select-list-entry-v1-htm------elements-of-an-extension-in-a--select-list--javascript-call-link---abencds-select-list-v1-htm------only-available-in-cds-ddic-based-views-----projection-----javascript-call-link---abencds-select-list-entry-v2-htm------allows-to-reuse-expressions-defined-in-the--select-list--javascript-call-link---abencds-select-list-v2-htm-----of-a--cds-view-entity--javascript-call-link---abencds-v2-view-glosry-htm-----glossary-entry---in-an-operand-position-of-the-select-list-of-the-same-cds-view-entity----where------javascript-call-link---abencds-where-clause-v2-htm------where-clause-of-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------group-by------javascript-call-link---abencds-group-by-v2-htm------group-by-clause-of-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------having------javascript-call-link---abencds-having-clause-v2-htm------having-clause-of-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------except------javascript-call-link---abencds-except-v2-htm------except-clause-of-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm------currently-only-available-for--cds-view-entities--javascript-call-link---abencds-v2-view-glosry-htm-----glossary-entry------intersect------javascript-call-link---abencds-intersect-v2-htm------intersect-clause-of-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm------currently-only-available-for--cds-view-entities--javascript-call-link---abencds-v2-view-glosry-htm-----glossary-entry------union-----all----------javascript-call-link---abencds-union-v2-htm------union-clause-of-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------virtual--javascript-call-link---abencds-proj-view-element-htm------defines-a-new-element-of-a-cds-projection-view---localized--javascript-call-link---abencds-proj-view-element-htm------defines-the--cardinality--javascript-call-link---abencardinality-glosry-htm-----glossary-entry---of-a-text-association---redirected-to--javascript-call-link---abencds-proj-view-element-htm------redirects-a--cds-association--javascript-call-link---abencds-association-glosry-htm-----glossary-entry---in-a-cds-projection-view-to-a-projection-of-the-association-target----redirected-to-composition-child--javascript-call-link---abencds-proj-view-expose-assoc-htm------redirects-a--cds-composition--javascript-call-link---abencds-composition-glosry-htm-----glossary-entry---in-a-cds-projection-view-to-a-projection-of-the-composition-target----redirected-to-parent--javascript-call-link---abencds-proj-view-expose-assoc-htm------redirects-a--cds-to-parent-association--javascript-call-link---abento-parent-association-glosry-htm-----glossary-entry---in-a-cds-projection-view-to-a-projection-of-the-association-target---expressions--operators--meaning---max--javascript-call-link---abencds-aggregate-functions-v2-htm-------min--javascript-call-link---abencds-aggregate-functions-v2-htm-------avg-----as-dtype------javascript-call-link---abencds-aggregate-functions-v2-htm-------sum--javascript-call-link---abencds-aggregate-functions-v2-htm-------count--javascript-call-link---abencds-aggregate-functions-v2-htm------aggregate-expression-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm----------javascript-call-link---abencds-arithmetic-expression-v2-htm-----------javascript-call-link---abencds-arithmetic-expression-v2-htm-----------javascript-call-link---abencds-arithmetic-expression-v2-htm----------javascript-call-link---abencds-arithmetic-expression-v2-htm------arithmetic-expression-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------case--javascript-call-link---abencds-case-expression-v2-htm-------when--javascript-call-link---abencds-case-expression-v2-htm-------then--javascript-call-link---abencds-case-expression-v2-htm-------else--javascript-call-link---abencds-case-expression-v2-htm-------end--javascript-call-link---abencds-case-expression-v2-htm------case-distinction-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------cast--javascript-call-link---abencds-cast-expression-v2-htm------cast-expression-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-----------javascript-call-link---abencds-cond-expr-comp-v2-htm-----------javascript-call-link---abencds-cond-expr-comp-v2-htm----------javascript-call-link---abencds-cond-expr-comp-v2-htm-----------javascript-call-link---abencds-cond-expr-comp-v2-htm-----------javascript-call-link---abencds-cond-expr-comp-v2-htm------------javascript-call-link---abencds-cond-expr-comp-v2-htm-------between--javascript-call-link---abencds-cond-expr-betw-v2-htm-------like--javascript-call-link---abencds-cond-expr-like-v2-htm-------is-null--javascript-call-link---abencds-cond-expr-null-v2-htm-------not--javascript-call-link---abencds-conditional-expression-v2-htm-------and--javascript-call-link---abencds-conditional-expression-v2-htm-------or--javascript-call-link---abencds-conditional-expression-v2-htm------relational-expression-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm------built-in-functions--function--meaning---abs--javascript-call-link---abencds-sql-functions-numeric-v2-htm-------ceil--javascript-call-link---abencds-sql-functions-numeric-v2-htm-------div--javascript-call-link---abencds-sql-functions-numeric-v2-htm-------division--javascript-call-link---abencds-sql-functions-numeric-v2-htm-------floor--javascript-call-link---abencds-sql-functions-numeric-v2-htm-------mod--javascript-call-link---abencds-sql-functions-numeric-v2-htm-------round--javascript-call-link---abencds-sql-functions-numeric-v2-htm------numeric-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------concat--javascript-call-link---abencds-sql-functions-character-v2-htm-------concat--with--space--javascript-call-link---abencds-sql-functions-character-v2-htm-------instr--javascript-call-link---abencds-sql-functions-character-v2-htm-------left--javascript-call-link---abencds-sql-functions-character-v2-htm-------length--javascript-call-link---abencds-sql-functions-character-v2-htm-------lpad--javascript-call-link---abencds-sql-functions-character-v2-htm-------lower--javascript-call-link---abencds-sql-functions-character-v2-htm-------ltrim--javascript-call-link---abencds-sql-functions-character-v2-htm-------replace--javascript-call-link---abencds-sql-functions-character-v2-htm-------right--javascript-call-link---abencds-sql-functions-character-v2-htm-------rpad--javascript-call-link---abencds-sql-functions-character-v2-htm-------rtrim--javascript-call-link---abencds-sql-functions-character-v2-htm-------substring--javascript-call-link---abencds-sql-functions-character-v2-htm-------upper--javascript-call-link---abencds-sql-functions-character-v2-htm------string-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------bintohex--javascript-call-link---abencds-conv-func-types-v2-htm-------hextobin--javascript-call-link---abencds-conv-func-types-v2-htm------byte-string-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------coalesce--javascript-call-link---abencds-coalesce-expression-v2-htm------coalesce-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------fltp--to--dec--javascript-call-link---abencds-conv-func-types-v2-htm-------unit--conversion--javascript-call-link---abencds-conv-func-unit-curr-v2-htm-------currency--conversion--javascript-call-link---abencds-conv-func-unit-curr-v2-htm-------decimal--shift--javascript-call-link---abencds-conv-func-unit-curr-v1-htm-------get--numeric--value--javascript-call-link---abencds-conv-func-unit-curr-v2-htm-------curr--to--decfloat--amount--javascript-call-link---abencds-conv-func-unit-curr-v2-htm------conversion-functions-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------dats--is--valid--javascript-call-link---abencds-date-functions-v2-htm-------dats--days--between--javascript-call-link---abencds-date-functions-v2-htm-------dats--add--days--javascript-call-link---abencds-date-functions-v2-htm-------dats--add--months--javascript-call-link---abencds-date-functions-v2-htm------date-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------tims--is--valid--javascript-call-link---abencds-time-functions-v2-htm------time-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------tstmp--is--valid--javascript-call-link---abencds-timestamp-functions-v2-htm-------tstmp--current--utctimestamp--javascript-call-link---abencds-timestamp-functions-v2-htm-------tstmp--seconds--between--javascript-call-link---abencds-timestamp-functions-v2-htm-------tstmp--add--seconds--javascript-call-link---abencds-timestamp-functions-v2-htm------time-stamp-function-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------abap--system--timezone--javascript-call-link---abencds-timezone-functions-v2-htm-------abap--user--timezone--javascript-call-link---abencds-timezone-functions-v2-htm------time-zone-functions-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm-------tstmp--to--dats--javascript-call-link---abencds-date-time-conversions-v2-htm-------tstmp--to--tims--javascript-call-link---abencds-date-time-conversions-v2-htm-------tstmp--to--dst--javascript-call-link---abencds-date-time-conversions-v2-htm-------dats--tims--to--tstmp--javascript-call-link---abencds-date-time-conversions-v2-htm------date-time-conversions-functions-in-a--select-statement--javascript-call-link---abencds-select-statement-v2-htm------cds-entity-extensions--keywords-and-additions--language-element--meaning---extend-view-entity---with--javascript-call-link---abencds-extend-view-entity-htm------extends-a--cds-view-entity--javascript-call-link---abencds-v2-view-glosry-htm-----glossary-entry---or-a--cds-projection-view--javascript-call-link---abencds-projection-view-glosry-htm-----glossary-entry---using-a--cds-view-entity-extension--javascript-call-link---abencds-view-entity-extend-glosry-htm-----glossary-entry----extend-custom-entity---with--extends-a--cds-custom-entity--javascript-call-link---abencds-custom-entity-glosry-htm-----glossary-entry---using-a--cds-custom-entity-extension--javascript-call-link---abencds-cus-entity-extend-glosry-htm-----glossary-entry-----extend-abstract-entity---with--javascript-call-link---abencds-extend-abstract-entity-htm------extends-a--cds-abstract-entity--javascript-call-link---abencds-abstract-entity-glosry-htm-----glossary-entry---using-a--cds-abstract-entity-extension--javascript-call-link---abencds-abs-entity-extend-glosry-htm-----glossary-entry-----extend-view------javascript-call-link---abencds-extend-view-htm-----with--javascript-call-link---abencds-extend-view-htm------extends-a--cds-view--javascript-call-link---abencds-view-glosry-htm-----glossary-entry---using-a--cds-view-extension--javascript-call-link---abencds-view-extend-glosry-htm-----glossary-entry----cds-table-functions--keywords-and-additions--language-element--meaning---define-table-function-----returns-----implemented-by-method------javascript-call-link---abencds-f1-define-table-function-htm------defines-a--cds-table-function--javascript-call-link---abencds-table-function-glosry-htm-----glossary-entry----cds-hierarchies--keywords-and-additions--language-element--meaning---define-hierarchy------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----with-parameters--javascript-call-link---abencds-f1-hiera-parameter-list-htm------defines-input-parameters-of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----as-parent-child-hierarchy--javascript-call-link---abencds-f1-define-hierarchy-htm------defines-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry---using-parent-child-relationships---source------javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-the-data-source-of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----child-to-parent-association--javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-the--hierarchy-association--javascript-call-link---abenhierarchy-association-glosry-htm-----glossary-entry---of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----period-from-----to-----valid-from-----to------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-a--temporal-hierarchy--javascript-call-link---abentemporal-hierarchy-glosry-htm-----glossary-entry-----directory-----filter-by------javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-a-condition-for-the-source-of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----start-where------javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-the-start-condition-of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----siblings-order-by------javascript-call-link---abencds-f1-define-hierarchy-htm------specifies-the-sort-order-of--sibling-nodes--javascript-call-link---abensibling-node-glosry-htm-----glossary-entry---in-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----depth------javascript-call-link---abencds-f1-define-hierarchy-htm------delimits-the--hierarchy-levels--javascript-call-link---abenhierarchy-level-glosry-htm-----glossary-entry---of-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----nodetype------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-an-element-as-a-node-type-for-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----multiple-parents------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-the-behavior-that-applies-if-multiple--parent-nodes--javascript-call-link---abenparent-node-glosry-htm-----glossary-entry---are-specified-in-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----orphans------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-the-behavior-that-applies-if--orphan-nodes--javascript-call-link---abenorphan-node-glosry-htm-----glossary-entry---are-specified-in-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----cycles------javascript-call-link---abencds-f1-define-hierarchy-htm------defines-the-behavior-that-applies-if--node-cycles--javascript-call-link---abennode-cycle-glosry-htm-----glossary-entry---are-specified-in-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry-----generate-spantree--javascript-call-link---abencds-f1-define-hierarchy-htm------reduces-a--cds-hierarchy--javascript-call-link---abencds-hierarchy-glosry-htm-----glossary-entry---to-a-tree--cds-custom-entities--keywords-and-additions--language-element--meaning---define-custom-entity------javascript-call-link---abencds-f1-define-custom-entity-htm------defines-a-cds-custom-entity---root--javascript-call-link---abencds-f1-define-custom-entity-htm------defines-a-cds-custom-entity-as-a-root-entity---with-parameters--javascript-call-link---abencds-f1-custom-parameter-list-htm------defines-input-parameters-of-a-cds-custom-entity---association-----to------javascript-call-link---abencds-f1-custom-association-htm-----on--javascript-call-link---abencds-f1-absent-association-htm------defines-a-cds-association-in-the--element-list--javascript-call-link---abencds-f1-custom-element-htm-----of-a-cds-custom-entity----with-default-filter--javascript-call-link---abencds-f1-custom-association-htm------specifies-a-default-filter-condition-of-a-cds-association---composition-----of--javascript-call-link---abencds-f1-custom-composition-htm------defines-a-cds-composition-in-the-element-list-of-a-cds-custom-entity---association-to-parent-----on--javascript-call-link---abencds-f1-custom-tp-association-htm------defines-a-cds-to-parent-association-in-the-element-list-of-a-cds-custom-entity--cds-abstract-entities--keywords-and-additions--language-element--meaning---define-abstract-entity------javascript-call-link---abencds-f1-define-abstract-entity-htm------defines-an--cds-abstract-entity--javascript-call-link---abencds-abstract-entity-glosry-htm-----glossary-entry-----root--javascript-call-link---abencds-f1-define-abstract-entity-htm------defines-a-cds-abstract-entity-as-a-root-entity---with-parameters--javascript-call-link---abencds-f1-entity-parameter-list-htm------defines-input-parameters-of-an--cds-abstract-entity--javascript-call-link---abencds-abstract-entity-glosry-htm-----glossary-entry------association-----to-----on--javascript-call-link---abencds-f1-absent-association-htm------defines-a-cds-association-in-the--element-list--javascript-call-link---abencds-f1-absent-element-list-htm-----of-an--cds-abstract-entity--javascript-call-link---abencds-abstract-entity-glosry-htm-----glossary-entry-----with-default-filter--javascript-call-link---abencds-f1-absent-association-htm------specifies-a-default-filter-condition-of-a-cds-association---composition-----of--javascript-call-link---abencds-absent-composition-htm------defines-a-cds-composition-in-the-element-list-of-a-cds-abstract-entity---association-to-parent-----on--javascript-call-link---abencds-absent-to-parent-assoc-htm------defines-a-cds-to-parent-association-in-the-element-list-of-a-cds-abstract-entity--cds-metadata-extensions--keywords-and-additions--language-element--meaning---annotate-entity---view-----with--javascript-call-link---abencds-f1-annotate-view-htm------defines-a--cds-metadata-extension--javascript-call-link---abencds-metadata-extension-glosry-htm-----glossary-entry---for-a--cds-entity--javascript-call-link---abencds-entity-glosry-htm-----glossary-entry-----variant--javascript-call-link---abencds-f1-annotate-view-htm------joins-a--cds-metadata-extension--javascript-call-link---abencds-metadata-extension-glosry-htm-----glossary-entry---with-a--cds-variant--javascript-call-link---abencds-variant-glosry-htm-----glossary-entry-----parameters--javascript-call-link---abencds-f1-annotate-view-para-list-htm------extends-the-annotations-of-the-input-parameters-of-a--cds-entity--javascript-call-link---abencds-entity-glosry-htm-----glossary-entry----bdl--cds-behavior-definitions--cds-behavior-definition-header--language-element--meaning---managed--javascript-call-link---abenbdl-impl-type-htm------defines-a--managed-rap-bo--javascript-call-link---abenmanaged-rap-bo-glosry-htm-----glossary-entry-----unmanaged--javascript-call-link---abenbdl-impl-type-htm------defines-an--unmanaged-rap-bo--javascript-call-link---abenunmanaged-rap-bo-glosry-htm-----glossary-entry-----abstract--javascript-call-link---abenbdl-impl-type-htm------defines-an-abstract-bdef---projection--javascript-call-link---abenbdl-impl-type-htm------defines-a-projection-rap-bo---implementation-in-class-----unique------javascript-call-link---abenbdl-in-class-unique-htm------class-for-manual-method-implementation---strict--javascript-call-link---abenbdl-strict-htm------enables-bdef-strict-mode---extensible---------with-validations-on-save---------with-determinations-on-save---------with-determinations-on-modify----------javascript-call-link---abenbdl-extensible-htm------allows--bdef-extensions--javascript-call-link---abenrap-extension-glosry-htm-----glossary-entry---for-the-indicated-entities---with-draft--javascript-call-link---abenbdl-with-draft-htm------enables-the-draft-concept-for-a--rap-business-object--javascript-call-link---abenrap-bo-glosry-htm-----glossary-entry-----use-draft--javascript-call-link---abenbdl-use-projection-htm------reuse-of--rap-draft-handling--javascript-call-link---abenrap-draft-handling-glosry-htm-----glossary-entry---in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry------with-privileged-mode-disabling-----base-context-----and----------javascript-call-link---abenbdl-privileged-mode-htm------enables-privileged-access-to-a--rap-business-object--javascript-call-link---abenrap-bo-glosry-htm-----glossary-entry-----foreign-entity--javascript-call-link---abenbdl-foreign-htm------defines-an-entity-which-is-not-part-of-the-bo-structure-as-component-for-the-response-structures--thus-enabling-message-mapping-for-other-bos---entity-behavior-definition--language-element--meaning---define-behavior-for---alias--javascript-call-link---abenbdl-define-beh-htm------defines-an--entity-behavior-definition--javascript-call-link---abencds-entity-bdef-glosry-htm-----glossary-entry----authorization-context-definition--language-element--meaning---define-authorization-context---------for-disable----modify---read---modify-read---------javascript-call-link---abenbdl-authorization-context-htm------defines-an--authorization-context--javascript-call-link---abencds-auth-context-glosry-htm-----glossary-entry----entity-behavior-characteristics--language-element--meaning---persistent-table--javascript-call-link---abenbdl-persistent-table-htm------defines-a-persistent-database-table-for-storing-the-data-changes-that-result-from-transactional-behavior----draft-table--javascript-call-link---abenbdl-draft-table-htm------defines-the--draft-database-table--javascript-call-link---abendraft-table-glosry-htm-----glossary-entry---used-to-store-draft-data----with-additional-save--javascript-call-link---abenbdl-saving-htm-------with-unmanaged-save--javascript-call-link---abenbdl-saving-htm-------and-cleanup--javascript-call-link---abenbdl-saving-htm------user-defined-saving-strategy-for-managed-rap-bos---etag-master--javascript-call-link---abenbdl-etag-htm-------etag-dependent--javascript-call-link---abenbdl-etag-htm-------total-etag--javascript-call-link---abenbdl-etag-htm------defines-an-etag-field-for-optimistic-concurrency-control---use-etag--javascript-call-link---abenbdl-use-projection-htm------reuse-of-etag-fields-for-optimistic-concurrency-control-in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry------lock-master-----unmanaged------javascript-call-link---abenbdl-locking-htm-------lock-dependent---javascript-call-link---abenbdl-locking-htm------lock-none--javascript-call-link---abenbdl-locking-htm------defines-an-exclusive-lock-that-enables-pessimistic-concurrency-control---authorization-master-------global---------instance---------global--instance--------javascript-call-link---abenbdl-authorization-htm-------authorization-dependent--javascript-call-link---abenbdl-authorization-htm-------authorization-none--javascript-call-link---abenbdl-authorization-htm-------authorization-update--javascript-call-link---abenbdl-authorization-htm------defines-an-authorization-concept-for-a-business-object-to-protect-it-against-unauthorized-access-to-data----early-numbering--javascript-call-link---abenbdl-early-numb-htm------defines-unmanaged--early-numbering--javascript-call-link---abenrap-early-numbering-glosry-htm-----glossary-entry---for-all-primary-key-fields-of-a-business-object-entity----late-numbering--javascript-call-link---abenbdl-late-numbering-htm------enables-gapless-assignment-for-unique-keys-when-creating-new-entity-instances---entity-behavior-body--language-element--meaning---field----------readonly--------------------mandatory---------------------features-instance--------------------mandatory-create--------------------readonly-update--------------------numbering-managed-------javascript-call-link---abenbdl-field-char-htm---------------suppress-----------javascript-call-link---abenbdl-field-projection-htm------defines-field-additions---field--modify---javascript-call-link---abenbdl-augment-projection-htm------augmentation-of-a--cds-virtual-element--javascript-call-link---abencds-virtual-element-glosry-htm-----glossary-entry---in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry------group--javascript-call-link---abenbdl-grouping-htm------splits-the-implementation-relevant-parts-of-a-business-object-s-logic-into-multiple-groups-to-allow-simultaneous-work----create--javascript-call-link---abenbdl-standard-operations-htm-------update--javascript-call-link---abenbdl-standard-operations-htm-------delete--javascript-call-link---abenbdl-standard-operations-htm------enables--crud-operations--javascript-call-link---abencrud-glosry-htm-----glossary-entry---for-a-rap-business-object----use--javascript-call-link---abenbdl-use-projection-htm------reuse-of--rap-bo-operations--javascript-call-link---abenrap-bo-operation-glosry-htm-----glossary-entry---in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry------association-----abbreviation---------with-draft---------without-response------javascript-call-link---abenbdl-association-htm------enables-read-by-association-and-create-by-association-operations-for-associations--------static--------factory--------static-factory-----action---------external------javascript-call-link---abenbdl-action-htm------defines-an-action-------static-----function---------external------javascript-call-link---abenbdl-function-htm------defines-a-function---determine-action---------always------javascript-call-link---abenbdl-determine-action-htm------defines-a--determine-action--javascript-call-link---abenrap-bo-det-action-glosry-htm-----glossary-entry---that-allows-a--rap-bo-consumer--javascript-call-link---abenrap-bo-consumer-glosry-htm-----glossary-entry---to-execute--determinations--javascript-call-link---abenrap-determination-glosry-htm-----glossary-entry---and--validations--javascript-call-link---abenrap-validation-glosry-htm-----glossary-entry---on-request-------draft-action-edit--javascript-call-link---abenbdl-draft-action-htm-----------draft-action-activate--javascript-call-link---abenbdl-draft-action-htm-----------draft-action-discard--javascript-call-link---abenbdl-draft-action-htm-----------draft-action-resume-----with-additional-implementation------javascript-call-link---abenbdl-draft-action-htm-----------draft-determine-action-prepare--javascript-call-link---abenbdl-draft-action-htm------defines-a-draft-action-in-a-draft-enabled-scenario---parameter----------self------javascript-call-link---abenbdl-action-input-param-htm------defines-an-input-parameter-for-an-action-or-function---result-----selective-------cardinality--------self-----entity------javascript-call-link---abenbdl-action-output-para-htm------defines-an-output-parameter-for-an-action-or-function---mapping-for---------control--------------corresponding---------except------javascript-call-link---abenbdl-type-mapping-htm------maps-field-names-from-database-tables-to-field-names-from-the-current-data-model---validation-----on-save----------javascript-call-link---abenbdl-validations-htm------defines-a-validation-which-is-called-when-during-the-save-sequence----determination-----on-save-------------on-modify----------javascript-call-link---abenbdl-determinations-htm------defines-a-determination-which-is-called-during-the-save-sequence-or-immediately-after-data-has-been-changed----features--global--features--instance--javascript-call-link---abenbdl-actions-fc-htm------rap-bo-operation-addition--can-be-used-to-define-global-or-instance-feature-control-for-a-rap-bo-operation----internal--javascript-call-link---abenbdl-internal-htm------defines-a-rap-bo-operation-as-internal----precheck--javascript-call-link---abenbdl-precheck-htm------prevents-illegal-changes-from-reaching-the-application-buffer-by-prechecking-modify-operations----augment--javascript-call-link---abenbdl-augment-projection-htm------augments-modify-requests-on-the-projection-layer-in-a--cds-projection-bdef--javascript-call-link---abencds-proj-bdef-glosry-htm-----glossary-entry-----abstract-behavior-definitions--language-element--meaning---with-hierarchy--javascript-call-link---abenbdl-bdef-abstract-header-htm------causes-the-construction-of-a-new-kind-of-bdef-derived-type--only-available-in-abstract-bdefs----with-control--javascript-call-link---abenbdl-define-beh-abstract-htm------optional-addition-of-the-define-behavior-statement-that-is-only-available-in-abstract-bdefs--adds-the--control-structure-to-the-corresponding-derived-type-structure----scalar-entity-----field--javascript-call-link---abenbdl-define-beh-abstract-htm------alternative-to-an-entity-behavior-definition-that-is-only-available-in-abstract-bdefs--integrates-a-node-of-the-cds-composition-tree-into-the-hierarchical-derived-type-of-the-abstract-bdef-as-a-scalar-type----association---------with-hierarchy------javascript-call-link---abenbdl-association-abstract-htm------in-an-abstract-bdef--an-association-can-be-defined-with-the-optional-addition-with-hierarchy--this-addition-is-available-for-to-parent-associations-and-cross-bo-associations-to-include-them-several-times-in-the-type-structure----deep-mapping-for---------corresponding---------sub------javascript-call-link---abenbdl-type-mapping-abstract-htm------defines-a-deep-mapping-in-an-abstract-bdef---bdef-extensions--keywords-and-additions--language-element--meaning------------dcl--cds-roles--keywords-and-additions--language-element--meaning---define-role--javascript-call-link---abencds-f1-define-role-htm------defines-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----grant-select-on--javascript-call-link---abencds-dcl-role-rules-htm------defines-an-access-rule-in-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----combination-mode-or---and--javascript-call-link---abencds-dcl-role-cond-rule-htm------specifies-multiple-access-rules-for-the-same-cds-entity---redefinition--javascript-call-link---abencds-dcl-role-cond-rule-htm------specifies-the-only-existing-access-rule-for-the-cds-entity---where--javascript-call-link---abencds-dcl-role-cond-rule-htm------where-clause-in-a-conditional-access-rule-of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----and--javascript-call-link---abencds-dcl-role-cond-expr-htm-------or--javascript-call-link---abencds-dcl-role-cond-expr-htm-------not--javascript-call-link---abencds-dcl-role-cond-expr-htm------boolean-operator-in-a-conditional-access-rule-of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----inherit--javascript-call-link---abencds-dcl-role-inherited-rule-htm------defines-an-inherited-access-rule-of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry----obsolete----aspect-pfcg--auth--javascript-call-link---abencds-f1-cond-pfcg-htm-------aspect-user--javascript-call-link---abencds-f1-cond-user-htm------conditions-for--cds-roles--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----pfcg--mapping--javascript-call-link---abencds-f1-cond-pfcg-mapping-htm------specifies-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---in-a--pfcg-condition--javascript-call-link---abenpfcg-condition-glosry-htm-----glossary-entry---of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry-----inherit-----for-grant-select-on--javascript-call-link---abencds-f1-cond-inherit-htm------defines-an--inheritance-condition--javascript-call-link---abeninherit-condition-glosry-htm-----glossary-entry---of-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry------------------------------------------javascript-call-link---abencds-f1-dcl-cond-expression-htm--------between---like---is-null--javascript-call-link---abencds-f1-cond-literal-htm----------operators-for-literal-conditions---bypass-when--javascript-call-link---abencds-f1-cond-pfcg-htm------specifies-the-condition-for-authorization-filtering---in-scenario--javascript-call-link---abencds-f1-cond-pfcg-htm------specifies-the-switchable-authorization-check---inherit-conditions-from-entity--javascript-call-link---abencds-f1-cond-inherit-htm------defines-an-inheritance-condition-of-a-cds-role---inherit-conditions-from-super--javascript-call-link---abencds-f1-cond-inherit-htm------defines-an-inheritance-condition-of-a-cds-role--cds-access-policy--keywords-and-additions--language-element--meaning---define-accesspolicy--javascript-call-link---abencds-f1-define-accesspolicy-htm------defines-a--cds-access-policy--javascript-call-link---abencds-access-policy-glosry-htm-----glossary-entry-----define-pfcg--mapping-----between-----and-----using------javascript-call-link---abencds-f1-define-pfcg-mapping-htm------defines-a--pfcg-mapping--javascript-call-link---abencds-pfcg-mapping-glosry-htm-----glossary-entry---in-an-access-policy---define-aspect-----as-select-from-----with-user-element--javascript-call-link---abencds-f1-define-generic-aspect-htm------defines-a-self-defined-aspect-as-part-of-a-cds-access-policy------------abap---keyword-documentation---abap---core-data-services--abap-cds----abap-cds---amounts-and-quantities----files----4-----difficulty----advanced----abap---keyword-documentation---abap---core-data-services--abap-cds----abap-cds---amounts-and-quantities--included-pages--4---------source-----abencds-language-elements-htm--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-language-elements-htm-------abencds-calc-quan-htm-------------as-abap-release-756---copyright-2021-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---amounts-and-quantities--in--abap-cds--javascript-call-link---abenabap-cds-glosry-htm-----glossary-entry----a-special-handling-for-amounts-and-quantities-is-implemented---abap-cds-amount-fields--javascript-call-link---abencds-amount-field-glosry-htm-----glossary-entry---and--abap-cds-quantity-fields--javascript-call-link---abencds-quantity-glosry-htm-----glossary-entry---are-similar-to--ddic-currency-fields--javascript-call-link---abenddic-currency-field-glosry-htm-----glossary-entry---and--ddic-quantity-fields--javascript-call-link---abenddic-quantity-glosry-htm-----glossary-entry----but-more-data-types-are-possible---in--cds-view-entities--javascript-call-link---abencds-v2-view-glosry-htm-----glossary-entry----the--currency-key--javascript-call-link---abencurrency-key-glosry-htm-----glossary-entry------unit-key--javascript-call-link---abenunit-glosry-htm-----glossary-entry---reference-is-considered-in--expressions--javascript-call-link---abencds-expressions-v2-htm-------union-views--javascript-call-link---abencds-union-v2-htm------and--intersect-views--javascript-call-link---abencds-intersect-v2-htm------moreover--a-special-data-type-is-available--the--calculated-quantity-with-calculated-unit-reference--javascript-call-link---abencds-calculated-quantity-htm-------read-the-following-sections-for-details--------abap-cds-amount-fields--javascript-call-link---abencds-amount-field-htm----------abap-cds-quantity-fields--javascript-call-link---abencds-quantity-field-htm----------abap-cds-calculated-quantity-with-calculated-unit--javascript-call-link---abencds-calculated-quantity-htm------continue--abap-cds---amount-fields--javascript-call-link---abencds-amount-field-htm------abap-cds---quantity-fields--javascript-call-link---abencds-quantity-field-htm------abap-cds---calculated-quantity-with-calculated-unit--javascript-call-link---abencds-calculated-quantity-htm-------------source-----abencds-calc-quan-htm--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-calc-quan-htm-------abencds-amount-field-htm-------------as-abap-release-756---copyright-2021-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---amounts-and-quantities--javascript-call-link---abencds-calc-quan-htm---------abap-cds---amount-fields--an--abap-cds-amount-field--javascript-call-link---abencds-amount-field-glosry-htm-----glossary-entry---is-a-component-of-a--cds-entity--javascript-call-link---abencds-entity-glosry-htm-----glossary-entry---in--abap-cds--javascript-call-link---abenabap-cds-glosry-htm-----glossary-entry---used-to-store-an-amount-in-a-specific-currency--an-amount-is-an-integer-in-the-smallest-unit-of-the-currency--the-integer-is-constructed-from-all-figures-in-an-amount-field-while-ignoring-the-position-of-the-decimal-separator---possible--built-in-ddic-data-types--javascript-call-link---abenddic-builtin-types-htm-----are-curr--decfloat34--dec--and-fltp--in-case-of-data-type-curr--a-field-is-automatically-interpreted-as-amount-field-and-a-reference-to-a--currency-key--javascript-call-link---abencurrency-key-glosry-htm-----glossary-entry---using-the-annotation--Semantics.amount.currencyCode](javascript:call_link\('abencds_f1_element_annotation.htm'\)) is mandatory. In case of the other data types, this reference is not mandatory but if used, it turns the field into an amount field.
 
 A CDS amount field must be linked with a currency key that specifies the currency and the number of decimal places. A currency key is a component of a DDIC structure, DDIC database table, DDIC view, or of a CDS entity which has the type CUKY, and can contain a [currency ID](javascript:call_link\('abencurrency_id_glosry.htm'\) "Glossary Entry") from the DDIC database table TCURC.
 
@@ -991,7 +190,14 @@ Hints
 -   Currencies are handled as specified by the data saved in the database tables TCUR... of the package SFIB. The exchange rates and other settings can be maintained in transaction OB08.
 
 
+
+**📖 Source**: [abencds_amount_field.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_amount_field.htm)
+
 ### abencds_quantity_field.htm
+
+> **📖 Official SAP Documentation**: [abencds_quantity_field.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_quantity_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1036,7 +242,14 @@ Hints
 -   Quantities and units are handled as specified by the data saved in the DDIC database tables T006... in the package SZME. This data can be maintained using the transaction CUNI.
 
 
+
+**📖 Source**: [abencds_quantity_field.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_quantity_field.htm)
+
 ### abencds_calculated_quantity.htm
+
+> **📖 Official SAP Documentation**: [abencds_calculated_quantity.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_calculated_quantity.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1110,7 +323,14 @@ The program DEMO\_CDS\_CALCULATED\_QUANTITY accesses the view, inserts values in
 Included pages: 9
 
 
+
+**📖 Source**: [abencds_calculated_quantity.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_calculated_quantity.htm)
+
 ### abencds_anno_definition.htm
+
+> **📖 Official SAP Documentation**: [abencds_anno_definition.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_anno_definition.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1142,7 +362,14 @@ Continue
 [ABAP CDS - DDL for Annotation Definitions](javascript:call_link\('abencds_f1_ddla_syntax.htm'\))
 
 
+
+**📖 Source**: [abencds_anno_definition.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_anno_definition.htm)
+
 ### abencds_f1_ddla_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddla_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1167,7 +394,14 @@ Continue
 [CDS DDL - DEFINE ANNOTATION](javascript:call_link\('abencds_f1_define_annotation.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddla_syntax.htm)
+
 ### abencds_f1_define_annotation.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1252,7 +486,14 @@ Continue
 [CDS DDL - DEFINE ANNOTATION, arrelem](javascript:call_link\('abencds_f1_define_annotation_arr.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation.htm)
+
 ### abencds_f1_define_anno_annos.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_anno_annos.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_anno_annos.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1559,7 +800,14 @@ Hint
 While the annotation value #ENTITY defines that an annotation can be specified in the definition of any CDS entity, this is not the case for the annotation value #VIEW. The annotation value #VIEW defines that an annotation can be specified in the definition of one of the possible kinds of CDS views (view entity, projection view, DDIC-based view) but it does not define exactly where. There is a special a set of [ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") that can be used in [DDIC-based views](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry") only. The ABAP annotations that can be specified for a kind of view are documented for the respective DEFINE statement. For an overview see [ABAP Annotation Syntax](javascript:call_link\('abencds_annotations_abap_tables.htm'\)).
 
 
+
+**📖 Source**: [abencds_f1_define_anno_annos.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_anno_annos.htm)
+
 ### abencds_f1_define_annotation_type.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_annotation_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation_type.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1701,7 +949,14 @@ The following annotation definition has incorrect syntax. The specified length 1
 annotation DemoAnno : String(1) default 'XXX';
 
 
+
+**📖 Source**: [abencds_f1_define_annotation_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation_type.htm)
+
 ### abencds_f1_define_annotation_sub.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_annotation_sub.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation_sub.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1771,7 +1026,14 @@ The exact same result can be achieved as follows:
 @DemoAnnoMain.subAnno3.subsubAnno2:200
 
 
+
+**📖 Source**: [abencds_f1_define_annotation_sub.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation_sub.htm)
+
 ### abencds_f1_define_annotation_arr.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_annotation_arr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation_arr.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1830,7 +1092,14 @@ The annotation can be used as follows in CDS source code, for example, to specif
                       {subAnno1:true, subAnno2:'Other Text'} \]
 
 
+
+**📖 Source**: [abencds_f1_define_annotation_arr.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation_arr.htm)
+
 ### abencds_f1_define_annotation.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1915,7 +1184,14 @@ Continue
 [CDS DDL - DEFINE ANNOTATION, arrelem](javascript:call_link\('abencds_f1_define_annotation_arr.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_annotation.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation.htm)
+
 ### abencds_f1_ddla_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddla_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1952,7 +1228,14 @@ Continue
 Included pages: 6
 
 
+
+**📖 Source**: [abencds_f1_ddla_syntax.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddla_syntax.htm)
+
 ### abencds_f1_ddlx_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddlx_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1977,7 +1260,14 @@ Continue
 [CDS DDL - ANNOTATE ENTITY, VIEW](javascript:call_link\('abencds_f1_annotate_view.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddlx_syntax.htm)
+
 ### abencds_f1_annotate_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2129,7 +1419,14 @@ Continue
 [CDS DDL - ANNOTATE, element\_list](javascript:call_link\('abencds_f1_annotate_view_sele_list.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view.htm)
+
 ### abencds_f1_metadata_ext_annos.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_metadata_ext_annos.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2187,7 +1484,14 @@ ABAP platform
 \-
 
 
+
+**📖 Source**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_metadata_ext_annos.htm)
+
 ### abencds_f1_annotate_view_para_list.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view_para_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2234,7 +1538,14 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
+
+**📖 Source**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view_para_list.htm)
+
 ### abencds_f1_annotate_view_sele_list.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view_sele_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2282,7 +1593,14 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
+
+**📖 Source**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view_sele_list.htm)
+
 ### abencds_f1_annotate_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2446,7 +1764,14 @@ Continue
 Included pages: 6
 
 
+
+**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view.htm)
+
 ### abencds_f1_ddlx_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddlx_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2471,7 +1796,14 @@ Continue
 [CDS DDL - ANNOTATE ENTITY, VIEW](javascript:call_link\('abencds_f1_annotate_view.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddlx_syntax.htm)
+
 ### abencds_f1_annotate_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2623,7 +1955,14 @@ Continue
 [CDS DDL - ANNOTATE, element\_list](javascript:call_link\('abencds_f1_annotate_view_sele_list.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view.htm)
+
 ### abencds_f1_metadata_ext_annos.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_metadata_ext_annos.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2681,7 +2020,14 @@ ABAP platform
 \-
 
 
+
+**📖 Source**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_metadata_ext_annos.htm)
+
 ### abencds_f1_annotate_view_para_list.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view_para_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2728,7 +2074,14 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
+
+**📖 Source**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view_para_list.htm)
+
 ### abencds_f1_annotate_view_sele_list.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view_sele_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2776,7 +2129,14 @@ Hints
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 
+
+**📖 Source**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view_sele_list.htm)
+
 ### abencds_f1_annotate_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2940,7 +2300,14 @@ Continue
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view.htm)
+
 ### abencds_annotations_analysis.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_analysis.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_analysis.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3283,7 +2650,14 @@ Continue
 ![Example](exa.gif "Example") [ABAP CDS, Evaluation of Annotations](javascript:call_link\('abencds_semantics_annotation_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_annotations_analysis.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_analysis.htm)
+
 ### abencds_semantics_annotation_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_semantics_annotation_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_semantics_annotation_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3401,7 +2775,14 @@ This view wraps the DDIC database table SCUSTOM, which contains address data. Th
 Included pages: 3
 
 
+
+**📖 Source**: [abencds_semantics_annotation_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_semantics_annotation_abexa.htm)
+
 ### abencds_annotations_abap.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_abap.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_abap.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3429,7 +2810,14 @@ Continue
 [ABAP CDS - ABAP Annotation Syntax](javascript:call_link\('abencds_annotations_abap_tables.htm'\))
 
 
+
+**📖 Source**: [abencds_annotations_abap.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_abap.htm)
+
 ### abencds_annotations_abap_ddla.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_abap_ddla.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4108,7 +3496,14 @@ define annotation Semantics
 };
 
 
+
+**📖 Source**: [abencds_annotations_abap_ddla.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_abap_ddla.htm)
+
 ### abencds_annotations_abap_tables.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotations_abap_tables.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_abap_tables.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4130,1607 +3525,7 @@ The following tables summarize the [annotation syntax](javascript:call_link\('ab
 -   [LanguageDependency-Annotations](#abencds-annotations-abap-tables-11-------mappingrole-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_12)
 -   [Metadata-Annotations](#abencds-annotations-abap-tables-13-------metadataextension-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_14)
 -   [ObjectModel-Annotations](#abencds-annotations-abap-tables-15-------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_16)
--   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_17)
-
-Hint
-
-See also [ABAP Annotation Definitions](javascript:call_link\('abencds_annotations_abap_ddla.htm'\)).
-
-AbapAnnotation-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-AbapAnnotation.definitionHidden
-
-Annotation definition, test annotation or demonstration annotation that cannot be used in production CDS source code
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-\-
-
-AbapCatalog-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-AbapCatalog.buffering.numberOfKeyFields
-
-Table buffering, number of key fields when buffering generic areas
-
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-
-Integer
-
-\-
-
-000
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.buffering.status
-
-Table buffering, enables and disables buffering
-
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-
-String(20)
-
-#ACTIVE
-#NOT\_ALLOWED
-#SWITCHED\_OFF
-
-#SWITCHED\_OFF
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.buffering.type
-
-Table buffering, defines the buffering type
-
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-
-String(10)
-
-#FULL
-#GENERIC
-#NONE
-#SINGLE
-
-#NONE
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.compiler.compareFilter
-
-CDS view, specifies how filter conditions are evaluated in path expressions
-
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.dataMaintenance
-
-CDS entity, specifies how the data contents of the entity can be maintained
-
-[Hierarchy](javascript:call_link\('abencds_f1_hierarchy_annotations.htm'\))
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-[View Entity](javascript:call_link\('abencds_view_entity_anno.htm'\))
-[Projection View](javascript:call_link\('abencds_proj_view_annotations.htm'\))
-
-String(20)
-
-#ALLOWED
-#DISPLAY\_ONLY
-#NOT\_ALLOWED
-#RESTRICTED
-
-#RESTRICTED
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.dbHints\[ \].dbSystem
-
-Obsolete: Replaced by Consumption.dbHintsCalculatedBy
-
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-
-String(3)
-
-#ADA
-#ALL
-#ASE
-#DB2
-#DB4
-#DB6
-#HDB
-#INF
-#MSS
-#ORA
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.dbHints\[ \].hint
-
-Obsolete: Replaced by Consumption.dbHints\[ \]
-
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-
-String(1298)
-
-\-
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.extensibility.allowNewDatasources
-
-undocumented
-
-View
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.extensibility.dataSources\[ \]
-
-undocumented
-
-View
-
-LocalDefinitionRef
-
-\-
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.extensibility.elementSuffix
-
-undocumented
-
-[Entity](javascript:call_link\('abencds_f1_entity_annotations.htm'\))
-
-String(3)
-
-\-
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.extensibility.extensible
-
-undocumented
-
-[Entity](javascript:call_link\('abencds_f1_entity_annotations.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.extensibility.quota.maximumBytes
-
-undocumented
-
-[Entity](javascript:call_link\('abencds_f1_entity_annotations.htm'\))
-
-Integer
-
-\-
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.extensibility.quota.maximumFields
-
-undocumented
-
-[Entity](javascript:call_link\('abencds_f1_entity_annotations.htm'\))
-
-Integer
-
-\-
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.preserveKey
-
-CDS view, specifies the definition of the key fields in the associated database view
-
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.sqlViewAppendName
-
-CDS view extension, name of the append view
-
-[View Extension](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
-
-String(16)
-
-\-
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.sqlViewName
-
-CDS view, name of the database view
-
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-
-String(16)
-
-\-
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AbapCatalog.viewEnhancementCategory\[ \]
-
-CDS view, specifies how the view can be extended using CDS view extensions
-
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-[View Entity](javascript:call_link\('abencds_view_entity_anno.htm'\))
-[Projection View](javascript:call_link\('abencds_proj_view_annotations.htm'\))
-
-String(20)
-
-#GROUP\_BY
-#NONE
-#PROJECTION\_LIST
-#UNION
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-AccessControl-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-AccessControl.authorizationCheck
-
-CDS access control, specifies implicit access control
-
-[Hierarchy](javascript:call_link\('abencds_f1_hierarchy_annotations.htm'\))
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-[View Entity](javascript:call_link\('abencds_view_entity_anno.htm'\))
-[Projection View](javascript:call_link\('abencds_proj_view_annotations.htm'\))
-
-String(20)
-
-#CHECK
-#NOT\_ALLOWED
-#NOT\_REQUIRED
-#PRIVILEGED\_ONLY
-
-#CHECK
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-API-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-API.annotation.releaseState
-
-undocumented
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-String(30)
-
-#DEPRECATED
-
-\-
-
-\-
-
-\-
-
-\-
-
-API.annotation.successor
-
-undocumented
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-String(240)
-
-\-
-
-\-
-
-\-
-
-\-
-
-\-
-
-API.element.releaseState
-
-Element annotation, release element
-
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-
-String(30)
-
-#DEPRECATED
-
-\-
-
-\-
-
-\-
-
-\-
-
-API.element.successor
-
-Element annotation, successor of rejected element
-
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-
-ElementRef
-
-\-
-
-\-
-
-\-
-
-\-
-
-\-
-
-API.state\[ \]
-
-Annotation definition, release annotation
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-String(40)
-
-#NOT\_RELEASED
-#RELEASED\_FOR\_KEY\_USER\_APPS
-#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-\-
-
-\-
-
-\-
-
-\-
-
-ClientDependent-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-ClientDependent
-
-Obsolete: Specifies client dependency and how clients are handled
-
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-\-
-
-ClientHandling-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-ClientHandling.algorithm
-
-Specifies client handling
-
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-
-String(20)
-
-#AUTOMATED
-#NONE
-#SESSION\_VARIABLE
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-ClientHandling.type
-
-Specifies client dependency
-
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-
-String(20)
-
-#CLIENT\_DEPENDENT
-#CLIENT\_INDEPENDENT
-#INHERITED
-
-#INHERITED
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-CompatibilityContract-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-CompatibilityContract.c0.allowedChanges.annotation\[ \]
-
-Modifiability of annotation values in released CDS entities
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-String(20)
-
-#ADD
-#ANY
-#CUSTOM
-#NONE
-#REMOVE
-
-\-
-
-\-
-
-\-
-
-\-
-
-CompatibilityContract.c0.allowedChanges.value\[ \]
-
-Modifiability of annotation values in released CDS entities
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-String(20)
-
-#ADD
-#ANY
-#CUSTOM
-#FALSE\_TO\_TRUE
-#NONE
-#REMOVE
-#TRUE\_TO\_FALSE
-#UPDATE
-
-\-
-
-\-
-
-\-
-
-\-
-
-CompatibilityContract.c0.usageAllowed
-
-Usability of an annotation in released CDS entities
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-\-
-
-CompatibilityContract.c1.allowedChanges.annotation\[ \]
-
-Modifiability of an annotation in released CDS entities
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-String(20)
-
-#ADD
-#ANY
-#CUSTOM
-#NONE
-#REMOVE
-
-\-
-
-\-
-
-\-
-
-\-
-
-CompatibilityContract.c1.allowedChanges.value\[ \]
-
-Modifiability of annotation values in released CDS entities
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-String(20)
-
-#ADD
-#ANY
-#CUSTOM
-#FALSE\_TO\_TRUE
-#NONE
-#REMOVE
-#TRUE\_TO\_FALSE
-#UPDATE
-
-\-
-
-\-
-
-\-
-
-\-
-
-CompatibilityContract.c1.usageAllowed
-
-Usability of an annotation in released CDS entities
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-\-
-
-CompatibilityContract.c2.allowedChanges.annotation\[ \]
-
-Modifiability of an annotation in released CDS entities
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-String(20)
-
-#ADD
-#ANY
-#CUSTOM
-#NONE
-#REMOVE
-
-\-
-
-\-
-
-\-
-
-\-
-
-CompatibilityContract.c2.allowedChanges.value\[ \]
-
-Modifiability of annotation values in released CDS entities
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-String(20)
-
-#ADD
-#ANY
-#CUSTOM
-#FALSE\_TO\_TRUE
-#NONE
-#REMOVE
-#TRUE\_TO\_FALSE
-#UPDATE
-
-\-
-
-\-
-
-\-
-
-\-
-
-CompatibilityContract.c2.usageAllowed
-
-Usability of an annotation in released CDS entities
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-\-
-
-DataAging-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-DataAging.noAgingRestriction
-
-Data aging on SAP HANA, specifies how old data is handled
-
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-[View Entity](javascript:call_link\('abencds_view_entity_anno.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-
-EndUserText-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-EndUserText.heading
-
-Texts, implicit annotation for data element header
-
- 
-
-String(55)
-
-\-
-
-\-
-
-X
-
-\-
-
-NOT\_RELEASED
-
-EndUserText.label
-
-Texts, short text connected to translation
-
-[Access Policy](javascript:call_link\('abencds_f1_define_accesspolicy.htm'\))
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-[Entity](javascript:call_link\('abencds_f1_entity_annotations.htm'\))
-[View Extension](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
-[Parameter](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
-[PFCG Mapping](javascript:call_link\('abencds_f1_define_pfcg_mapping.htm'\))
-[Role](javascript:call_link\('abencds_f1_dcl_role_annotations.htm'\))
-[Service Definition](javascript:call_link\('abencds_define_service_annos.htm'\))
-
-String(60)
-
-\-
-
-\-
-
-X
-
-X
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-EndUserText.quickInfo
-
-Texts, tooltip connected to translation
-
-[Meta Data Extension](javascript:call_link\('abencds_f1_metadata_ext_annos.htm'\))
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-[Parameter](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
-
-String(100)
-
-\-
-
-\-
-
-X
-
-X
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-Environment-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-Environment.sql.passValue
-
-Defines pass-by-value of host variables in comparisons in ABAP SQL
-
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-Environment.systemField
-
-Environment, assigns an ABAP system field
-
-[Parameter](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
-
-String(20)
-
-#CLIENT
-#SYSTEM\_DATE
-#SYSTEM\_LANGUAGE
-#SYSTEM\_TIME
-#USER
-#USER\_DATE
-#USER\_TIMEZONE
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-LanguageDependency-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-LanguageDependency.maxLength
-
-Annotation definition, specifies the translatibility of texts
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-Integer
-
-\-
-
-\-
-
-\-
-
-\-
-
-\-
-
-MappingRole-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-MappingRole
-
-Access control, specifies the assignment of a CDS role to users
-
-[Role](javascript:call_link\('abencds_f1_dcl_role_annotations.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-Metadata-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-Metadata.allowExtensions
-
-Metadata, specifies extensibility using metadata extensions
-
-[Entity](javascript:call_link\('abencds_f1_entity_annotations.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-Metadata.ignorePropagatedAnnotations
-
-Metadata, specifies how propagated annotations are evaluated using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE
-
-[DDIC based View](javascript:call_link\('abencds_define_view_v1.htm'\))
-[View Entity](javascript:call_link\('abencds_view_entity_anno.htm'\))
-[Projection View](javascript:call_link\('abencds_proj_view_annotations.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-Metadata.layer
-
-Metadata, specfies layer in CDS metadata extension
-
-[Meta Data Extension](javascript:call_link\('abencds_f1_metadata_ext_annos.htm'\))
-
-Integer
-
-#CORE
-#CUSTOMER
-#INDUSTRY
-#LOCALIZATION
-#PARTNER
-
-\-
-
-\-
-
-X
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-MetadataExtension-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-MetadataExtension.usageAllowed
-
-Annotation definition, specifies the outsourcing of the annotation in CDS metadata extensions
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-\-
-
-ObjectModel-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-ObjectModel.query.implementedBy
-
-Specifies the ABAP class where a CDS custom entity is implemented
-
-[Custom Entity](javascript:call_link\('abencds_f1_entity_annotations.htm'\))
-[Entity](javascript:call_link\('abencds_f1_entity_annotations.htm'\))
-
-String(255)
-
-\-
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-ObjectModel.usageType.dataClass
-
-Specifies the data type of the CDS view
-
-[Entity](javascript:call_link\('abencds_f1_entity_annotations.htm'\))
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-
-String(30)
-
-#CUSTOMIZING
-#MASTER
-#META
-#MIXED
-#ORGANIZATIONAL
-#TRANSACTIONAL
-
-#MIXED
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-ObjectModel.usageType.serviceQuality
-
-The quality of the service with respect to the performance expected by the consumer of the CDS view.
-
-[Entity](javascript:call_link\('abencds_f1_entity_annotations.htm'\))
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-
-String(30)
-
-#A
-#B
-#C
-#D
-#P
-#X
-
-#X
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-ObjectModel.usageType.sizeCategory
-
-Specifies the size of the data record that needs to be searched to return the result.
-
-[Entity](javascript:call_link\('abencds_f1_entity_annotations.htm'\))
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-
-String(3)
-
-#L
-#M
-#S
-#XL
-#XXL
-
-#S
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-ObjectModel.virtualElementCalculatedBy
-
-Specifies where a virtual element is implemented
-
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-
-String(255)
-
-\-
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-Scope\[ \]-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-Scope\[ \]
-
-Annotation definition, defines the scope in which an annotation can be specified
-
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-
-String(20)
-
-#ACCESSPOLICY
-#ANNOTATE
-#ANNOTATION
-#ASPECT
-#CUSTOM\_ENTITY
-#ELEMENT
-#ENTITY
-#EXTEND\_VIEW
-#HIERARCHY
-#PARAMETER
-#PFCG\_MAPPING
-#ROLE
-#SERVICE
-#SIMPLE\_TYPE
-#TABLE\_FUNCTION
-#VIEW
-
-\-
-
-\-
-
-\-
-
-\-
-
-Semantics-Annotations
-
-Annotation
-
-Meaning
-
-Scope
-
-Type
-
-Enums
-
-Default
-
-Text
-
-MDE
-
-API
-
-Semantics.amount.currencyCode
-
-Currency field
-
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-
-ElementRef
-
-\-
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-Semantics.currencyCode
-
-Currency key
-
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-Semantics.quantity.unitOfMeasure
-
-Quantity field
-
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-
-ElementRef
-
-\-
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-Semantics.quantity.unitOfMeasureIsoCode
-
-undocumented
-
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-
-ElementRef
-
-\-
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-Semantics.quantity.unitOfMeasureSapCode
-
-undocumented
-
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-
-ElementRef
-
-\-
-
-\-
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-Semantics.unitOfMeasure
-
-Unit key
-
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-
-Boolean
-
-\-
-
-true
-
-\-
-
-\-
-
-RELEASED\_FOR\_KEY\_USER\_APPS
-RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM
-
-
----
-
-
-## ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS Entities / ABAP CDS - View Entities / CDS DDL - DEFINE VIEW ENTITY / CDS DDL - CDS View Entity, SELECT / CDS DDL - CDS View Entity, SELECT, data_source
-
-**Files**: 2 | **Difficulty**: advanced
-
-# ABAP - Keyword Documentation / ABAP - Core Data Services (ABAP CDS) / ABAP CDS - Data Definitions / ABAP CDS - DDL for Data Definitions / ABAP CDS - CDS entity extension / CDS DDL - EXTEND VIEW ddic_based
-
-Included pages: 2
-
-
-### abencds_extend_view.htm
-
-  
-
-* * *
-
-AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
-
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS entity extension](javascript:call_link\('abencds_view_extension.htm'\)) → 
-
-CDS DDL - EXTEND VIEW ddic\_based
-
-Syntax
-
-[@AbapCatalog.sqlViewAppendName: 'CDS\_APPEND\_VIEW'](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
+-   [Semantics-Annotations](#abencds-annotations-abap-tables-17---hint--see-also--abap-annotation-definitions--javascript-call-link---abencds-annotations-abap-ddla-htm-------abapannotation-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--abapannotation-definitionhidden--annotation-definition--test-annotation-or-demonstration-annotation-that-cannot-be-used-in-production-cds-source-code---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------abapcatalog-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--abapcatalog-buffering-numberofkeyfields--table-buffering--number-of-key-fields-when-buffering-generic-areas---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------integer------000----------released--for--sap--cloud--platform--abapcatalog-buffering-status--table-buffering--enables-and-disables-buffering---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-20----active--not--allowed--switched--off---switched--off----------released--for--sap--cloud--platform--abapcatalog-buffering-type--table-buffering--defines-the-buffering-type---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-10----full--generic--none--single---none----------released--for--sap--cloud--platform--abapcatalog-compiler-comparefilter--cds-view--specifies-how-filter-conditions-are-evaluated-in-path-expressions---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------boolean------true----------released--for--key--user--apps-released--for--sap--cloud--platform--abapcatalog-datamaintenance--cds-entity--specifies-how-the-data-contents-of-the-entity-can-be-maintained---hierarchy--javascript-call-link---abencds-f1-hierarchy-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------string-20----allowed--display--only--not--allowed--restricted---restricted----------released--for--key--user--apps-released--for--sap--cloud--platform--abapcatalog-dbhints------dbsystem--obsolete--replaced-by-consumption-dbhintscalculatedby---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-3----ada--all--ase--db2--db4--db6--hdb--inf--mss--ora--------------released--for--sap--cloud--platform--abapcatalog-dbhints------hint--obsolete--replaced-by-consumption-dbhints--------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-1298-------------------released--for--sap--cloud--platform--abapcatalog-extensibility-allownewdatasources--undocumented--view--boolean------true----------released--for--sap--cloud--platform--abapcatalog-extensibility-datasources-------undocumented--view--localdefinitionref------------------released--for--sap--cloud--platform--abapcatalog-extensibility-elementsuffix--undocumented---entity--javascript-call-link---abencds-f1-entity-annotations-htm------string-3-------------------released--for--sap--cloud--platform--abapcatalog-extensibility-extensible--undocumented---entity--javascript-call-link---abencds-f1-entity-annotations-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-extensibility-quota-maximumbytes--undocumented---entity--javascript-call-link---abencds-f1-entity-annotations-htm------integer------------------released--for--sap--cloud--platform--abapcatalog-extensibility-quota-maximumfields--undocumented---entity--javascript-call-link---abencds-f1-entity-annotations-htm------integer------------------released--for--sap--cloud--platform--abapcatalog-preservekey--cds-view--specifies-the-definition-of-the-key-fields-in-the-associated-database-view---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------boolean------true----------released--for--sap--cloud--platform--abapcatalog-sqlviewappendname--cds-view-extension--name-of-the-append-view---view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------string-16-------------------released--for--sap--cloud--platform--abapcatalog-sqlviewname--cds-view--name-of-the-database-view---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-16-------------------released--for--key--user--apps-released--for--sap--cloud--platform--abapcatalog-viewenhancementcategory-------cds-view--specifies-how-the-view-can-be-extended-using-cds-view-extensions---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------string-20----group--by--none--projection--list--union--------------released--for--sap--cloud--platform--accesscontrol-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--accesscontrol-authorizationcheck--cds-access-control--specifies-implicit-access-control---hierarchy--javascript-call-link---abencds-f1-hierarchy-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------string-20----check--not--allowed--not--required--privileged--only---check----------released--for--key--user--apps-released--for--sap--cloud--platform--api-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--api-annotation-releasestate--undocumented---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-30----deprecated------------------api-annotation-successor--undocumented---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-240-----------------------api-element-releasestate--element-annotation--release-element---element--javascript-call-link---abencds-f1-element-annotation-htm------string-30----deprecated------------------api-element-successor--element-annotation--successor-of-rejected-element---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref----------------------api-state-------annotation-definition--release-annotation---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-40----not--released--released--for--key--user--apps--released--for--sap--cloud--platform------------------clientdependent-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--clientdependent--obsolete--specifies-client-dependency-and-how-clients-are-handled---table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------boolean------true--------------clienthandling-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--clienthandling-algorithm--specifies-client-handling---table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-20----automated--none--session--variable--------------released--for--sap--cloud--platform--clienthandling-type--specifies-client-dependency---table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------string-20----client--dependent--client--independent--inherited---inherited----------released--for--sap--cloud--platform--compatibilitycontract-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--compatibilitycontract-c0-allowedchanges-annotation-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c0-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c0-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c1-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c1-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c1-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------compatibilitycontract-c2-allowedchanges-annotation-------modifiability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--none--remove------------------compatibilitycontract-c2-allowedchanges-value-------modifiability-of-annotation-values-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----add--any--custom--false--to--true--none--remove--true--to--false--update------------------compatibilitycontract-c2-usageallowed--usability-of-an-annotation-in-released-cds-entities---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------dataaging-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--dataaging-noagingrestriction--data-aging-on-sap-hana--specifies-how-old-data-is-handled---table-function--javascript-call-link---abencds-f1-function-annotations-htm------ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------boolean------true----------released--for--key--user--apps--endusertext-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--endusertext-heading--texts--implicit-annotation-for-data-element-header-----string-55-----------x------not--released--endusertext-label--texts--short-text-connected-to-translation---access-policy--javascript-call-link---abencds-f1-define-accesspolicy-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------entity--javascript-call-link---abencds-f1-entity-annotations-htm------view-extension--javascript-call-link---abencds-f1-extend-view-annotations-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------pfcg-mapping--javascript-call-link---abencds-f1-define-pfcg-mapping-htm------role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------service-definition--javascript-call-link---abencds-define-service-annos-htm------string-60-----------x--x--released--for--key--user--apps-released--for--sap--cloud--platform--endusertext-quickinfo--texts--tooltip-connected-to-translation---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------element--javascript-call-link---abencds-f1-element-annotation-htm------parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-100-----------x--x--released--for--sap--cloud--platform--environment-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--environment-sql-passvalue--defines-pass-by-value-of-host-variables-in-comparisons-in-abap-sql---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--sap--cloud--platform--environment-systemfield--environment--assigns-an-abap-system-field---parameter--javascript-call-link---abencds-f1-parameter-annotations-htm------string-20----client--system--date--system--language--system--time--user--user--date--user--timezone--------------released--for--key--user--apps-released--for--sap--cloud--platform--languagedependency-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--languagedependency-maxlength--annotation-definition--specifies-the-translatibility-of-texts---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------integer----------------------mappingrole-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--mappingrole--access-control--specifies-the-assignment-of-a-cds-role-to-users---role--javascript-call-link---abencds-f1-dcl-role-annotations-htm------boolean------true----------released--for--key--user--apps-released--for--sap--cloud--platform--metadata-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--metadata-allowextensions--metadata--specifies-extensibility-using-metadata-extensions---entity--javascript-call-link---abencds-f1-entity-annotations-htm------boolean------true----------released--for--key--user--apps-released--for--sap--cloud--platform--metadata-ignorepropagatedannotations--metadata--specifies-how-propagated-annotations-are-evaluated-using-the-class-cl--dd--ddl--annotation--service---ddic-based-view--javascript-call-link---abencds-define-view-v1-htm------view-entity--javascript-call-link---abencds-view-entity-anno-htm------projection-view--javascript-call-link---abencds-proj-view-annotations-htm------boolean------true----------released--for--key--user--apps-released--for--sap--cloud--platform--metadata-layer--metadata--specfies-layer-in-cds-metadata-extension---meta-data-extension--javascript-call-link---abencds-f1-metadata-ext-annos-htm------integer---core--customer--industry--localization--partner----------x--released--for--key--user--apps-released--for--sap--cloud--platform--metadataextension-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--metadataextension-usageallowed--annotation-definition--specifies-the-outsourcing-of-the-annotation-in-cds-metadata-extensions---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------boolean------true--------------objectmodel-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--objectmodel-query-implementedby--specifies-the-abap-class-where-a-cds-custom-entity-is-implemented---custom-entity--javascript-call-link---abencds-f1-entity-annotations-htm------entity--javascript-call-link---abencds-f1-entity-annotations-htm------string-255-------------------released--for--sap--cloud--platform--objectmodel-usagetype-dataclass--specifies-the-data-type-of-the-cds-view---entity--javascript-call-link---abencds-f1-entity-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------string-30----customizing--master--meta--mixed--organizational--transactional---mixed----------released--for--sap--cloud--platform--objectmodel-usagetype-servicequality--the-quality-of-the-service-with-respect-to-the-performance-expected-by-the-consumer-of-the-cds-view----entity--javascript-call-link---abencds-f1-entity-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------string-30----a--b--c--d--p--x---x----------released--for--sap--cloud--platform--objectmodel-usagetype-sizecategory--specifies-the-size-of-the-data-record-that-needs-to-be-searched-to-return-the-result----entity--javascript-call-link---abencds-f1-entity-annotations-htm------table-function--javascript-call-link---abencds-f1-function-annotations-htm------string-3----l--m--s--xl--xxl---s----------released--for--sap--cloud--platform--objectmodel-virtualelementcalculatedby--specifies-where-a-virtual-element-is-implemented---element--javascript-call-link---abencds-f1-element-annotation-htm------string-255-------------------released--for--sap--cloud--platform--scope------annotations--annotation--meaning--scope--type--enums--default--text--mde--api--scope-------annotation-definition--defines-the-scope-in-which-an-annotation-can-be-specified---annotation-definition--javascript-call-link---abencds-f1-define-anno-annos-htm------string-20----accesspolicy--annotate--annotation--aspect--custom--entity--element--entity--extend--view--hierarchy--parameter--pfcg--mapping--role--service--simple--type--table--function--view------------------semantics-annotations--annotation--meaning--scope--type--enums--default--text--mde--api--semantics-amount-currencycode--currency-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--key--user--apps-released--for--sap--cloud--platform--semantics-currencycode--currency-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--key--user--apps-released--for--sap--cloud--platform--semantics-quantity-unitofmeasure--quantity-field---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--key--user--apps-released--for--sap--cloud--platform--semantics-quantity-unitofmeasureisocode--undocumented---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--key--user--apps-released--for--sap--cloud--platform--semantics-quantity-unitofmeasuresapcode--undocumented---element--javascript-call-link---abencds-f1-element-annotation-htm------elementref------------------released--for--key--user--apps-released--for--sap--cloud--platform--semantics-unitofmeasure--unit-key---element--javascript-call-link---abencds-f1-element-annotation-htm------boolean------true----------released--for--key--user--apps-released--for--sap--cloud--platform------------abap---keyword-documentation---abap---core-data-services--abap-cds----abap-cds---data-definitions---abap-cds---ddl-for-data-definitions---abap-cds---cds-entities---abap-cds---view-entities---cds-ddl---define-view-entity---cds-ddl---cds-view-entity--select---cds-ddl---cds-view-entity--select--data-source----files----2-----difficulty----advanced----abap---keyword-documentation---abap---core-data-services--abap-cds----abap-cds---data-definitions---abap-cds---ddl-for-data-definitions---abap-cds---cds-entity-extension---cds-ddl---extend-view-ddic-based--included-pages--2---------source-----abencds-annotations-abap-tables-htm--https---help-sap-com-doc-abapdocu-756-index-htm-7-56-en-us-abencds-annotations-abap-tables-htm-------abencds-extend-view-htm-------------as-abap-release-756---copyright-2021-sap-se--all-rights-reserved----abap---keyword-documentation--javascript-call-link---abenabap-htm---------abap---core-data-services--abap-cds---javascript-call-link---abencds-htm---------abap-cds---data-definitions--javascript-call-link---abencds-entities-htm---------abap-cds---ddl-for-data-definitions--javascript-call-link---abencds-f1-ddl-syntax-htm---------abap-cds---cds-entity-extension--javascript-call-link---abencds-view-extension-htm---------cds-ddl---extend-view-ddic--based--syntax---AbapCatalog.sqlViewAppendName: 'CDS\_APPEND\_VIEW'](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 *\[*[@extension\_annot1](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))*\]*
 *\[*[@extension\_annot2](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))*\]*
 ...
@@ -5961,7 +3756,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6027,7 +3829,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6272,7 +4081,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6338,7 +4154,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6583,7 +4406,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6649,7 +4479,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6894,7 +4731,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6960,7 +4804,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7205,7 +5056,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7271,7 +5129,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7516,7 +5381,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7582,7 +5454,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7827,7 +5706,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7893,7 +5779,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8138,7 +6031,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8204,7 +6104,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8449,7 +6356,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8515,7 +6429,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8760,7 +6681,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8826,7 +6754,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9071,7 +7006,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9137,7 +7079,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9382,7 +7331,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9448,7 +7404,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9693,7 +7656,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9759,7 +7729,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10004,7 +7981,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10070,7 +8054,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10315,7 +8306,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10381,7 +8379,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10626,7 +8631,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10692,7 +8704,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10937,7 +8956,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11003,7 +9029,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11248,7 +9281,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11314,7 +9354,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11559,7 +9606,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11625,7 +9679,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11870,7 +9931,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11936,7 +10004,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12181,7 +10256,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12247,7 +10329,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12492,7 +10581,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12558,7 +10654,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12803,7 +10906,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12869,7 +10979,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13114,7 +11231,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13180,7 +11304,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13425,7 +11556,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13491,7 +11629,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13736,7 +11881,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13802,7 +11954,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14047,7 +12206,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14113,7 +12279,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14358,7 +12531,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14424,7 +12604,14 @@ Hints
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_extend_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14669,7 +12856,14 @@ Continue
 [CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_extend_view.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm)
+
 ### abencds_f1_extend_view_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14735,7 +12929,14 @@ Hints
 Included pages: 8
 
 
+
+**📖 Source**: [abencds_f1_extend_view_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+
 ### abencds_f1_define_accesspolicy.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_accesspolicy.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14776,7 +12977,14 @@ Continue
 [CDS DCL - DEFINE ASPECT](javascript:call_link\('abencds_f1_define_generic_aspect.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_accesspolicy.htm)
+
 ### abencds_f1_dcl_ap_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_ap_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14831,7 +13039,14 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
+
+**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_ap_annotations.htm)
+
 ### abencds_f1_define_pfcg_mapping.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_pfcg_mapping.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14927,7 +13142,14 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](javascript:call_link\('abencds_f1_dcl_pm_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_pfcg_mapping.htm)
+
 ### abencds_f1_dcl_pm_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_pm_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15023,7 +13245,14 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](javascript:call_link\('abencds_f1_dcl_pm_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_pm_annotations.htm)
+
 ### abencds_f1_define_generic_aspect.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_generic_aspect.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15095,7 +13324,14 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](javascript:call_link\('abencds_f1_dcl_as_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_generic_aspect.htm)
+
 ### abencds_f1_dcl_as_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_as_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15143,7 +13379,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_as_annotations.htm)
+
 ### abencds_f1_define_accesspolicy.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_accesspolicy.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15184,7 +13427,14 @@ Continue
 [CDS DCL - DEFINE ASPECT](javascript:call_link\('abencds_f1_define_generic_aspect.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_accesspolicy.htm)
+
 ### abencds_f1_dcl_ap_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_ap_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15239,7 +13489,14 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
+
+**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_ap_annotations.htm)
+
 ### abencds_f1_define_pfcg_mapping.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_pfcg_mapping.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15335,7 +13592,14 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](javascript:call_link\('abencds_f1_dcl_pm_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_pfcg_mapping.htm)
+
 ### abencds_f1_dcl_pm_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_pm_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15431,7 +13695,14 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](javascript:call_link\('abencds_f1_dcl_pm_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_pm_annotations.htm)
+
 ### abencds_f1_define_generic_aspect.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_generic_aspect.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15503,7 +13774,14 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](javascript:call_link\('abencds_f1_dcl_as_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_generic_aspect.htm)
+
 ### abencds_f1_dcl_as_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_as_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15551,7 +13829,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_as_annotations.htm)
+
 ### abencds_f1_define_accesspolicy.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_accesspolicy.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15592,7 +13877,14 @@ Continue
 [CDS DCL - DEFINE ASPECT](javascript:call_link\('abencds_f1_define_generic_aspect.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_accesspolicy.htm)
+
 ### abencds_f1_dcl_ap_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_ap_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15647,7 +13939,14 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
+
+**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_ap_annotations.htm)
+
 ### abencds_f1_define_pfcg_mapping.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_pfcg_mapping.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15743,7 +14042,14 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](javascript:call_link\('abencds_f1_dcl_pm_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_pfcg_mapping.htm)
+
 ### abencds_f1_dcl_pm_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_pm_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15839,7 +14145,14 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](javascript:call_link\('abencds_f1_dcl_pm_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_pm_annotations.htm)
+
 ### abencds_f1_define_generic_aspect.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_generic_aspect.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15911,7 +14224,14 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](javascript:call_link\('abencds_f1_dcl_as_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_generic_aspect.htm)
+
 ### abencds_f1_dcl_as_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_as_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15959,7 +14279,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_as_annotations.htm)
+
 ### abencds_f1_define_accesspolicy.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_accesspolicy.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16000,7 +14327,14 @@ Continue
 [CDS DCL - DEFINE ASPECT](javascript:call_link\('abencds_f1_define_generic_aspect.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_accesspolicy.htm)
+
 ### abencds_f1_dcl_ap_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_ap_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16055,7 +14389,14 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
+
+**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_ap_annotations.htm)
+
 ### abencds_f1_define_pfcg_mapping.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_pfcg_mapping.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16151,7 +14492,14 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](javascript:call_link\('abencds_f1_dcl_pm_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_pfcg_mapping.htm)
+
 ### abencds_f1_dcl_pm_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_pm_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16247,7 +14595,14 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](javascript:call_link\('abencds_f1_dcl_pm_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_pm_annotations.htm)
+
 ### abencds_f1_define_generic_aspect.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_generic_aspect.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16319,7 +14674,14 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](javascript:call_link\('abencds_f1_dcl_as_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_generic_aspect.htm)
+
 ### abencds_f1_dcl_as_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_as_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16367,7 +14729,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_as_annotations.htm)
+
 ### abencds_f1_define_accesspolicy.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_accesspolicy.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16408,7 +14777,14 @@ Continue
 [CDS DCL - DEFINE ASPECT](javascript:call_link\('abencds_f1_define_generic_aspect.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_accesspolicy.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_accesspolicy.htm)
+
 ### abencds_f1_dcl_ap_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_ap_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16463,7 +14839,14 @@ The EndUserText.label annotation is not recommended for CDS access policies, sin
 This means that the short text for these objects should be entered here directly and not in the CDS access policy.
 
 
+
+**📖 Source**: [abencds_f1_dcl_ap_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_ap_annotations.htm)
+
 ### abencds_f1_define_pfcg_mapping.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_pfcg_mapping.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16559,7 +14942,14 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](javascript:call_link\('abencds_f1_dcl_pm_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_pfcg_mapping.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_pfcg_mapping.htm)
+
 ### abencds_f1_dcl_pm_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_pm_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16655,7 +15045,14 @@ Continue
 [CDS DCL - DEFINE PFCG\_MAPPING, pfcg\_mapping\_annot](javascript:call_link\('abencds_f1_dcl_pm_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_dcl_pm_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_pm_annotations.htm)
+
 ### abencds_f1_define_generic_aspect.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_generic_aspect.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16727,7 +15124,17 @@ Continue
 [CDS DCL - DEFINE ASPECT, aspect\_annot](javascript:call_link\('abencds_f1_dcl_as_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_define_generic_aspect.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_generic_aspect.htm)
+
 ### abencds_f1_dcl_as_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_as_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_f1_dcl_as_annotations.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_as_annotations.htm)
+
 
   
 

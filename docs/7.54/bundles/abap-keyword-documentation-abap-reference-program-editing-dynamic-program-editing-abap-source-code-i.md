@@ -3,7 +3,30 @@
 Included pages: 6
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abengeneric_internal.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneric_internal.htm)
+- [abapsyntax-check_for_program.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsyntax-check_for_program.htm)
+- [abapgenerate_report.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgenerate_report.htm)
+- [abapload.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapload.htm)
+- [abapdelete_report.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_report.htm)
+- [abapscan.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapscan.htm)
+
+**Bundle Contains**: 6 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.977Z
+
+---
+
 ### abengeneric_internal.htm
+
+> **📖 Official SAP Documentation**: [abengeneric_internal.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneric_internal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -38,7 +61,14 @@ Continue
 [SCAN](javascript:call_link\('abapscan.htm'\))
 
 
+
+**📖 Source**: [abengeneric_internal.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneric_internal.htm)
+
 ### abapsyntax-check_for_program.htm
+
+> **📖 Official SAP Documentation**: [abapsyntax-check_for_program.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsyntax-check_for_program.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -106,7 +136,14 @@ Effect
 These additions work as described in [SYNTAX-CHECK - Internal Additions](javascript:call_link\('abapsyntax-check_internal.htm'\)).
 
 
+
+**📖 Source**: [abapsyntax-check_for_program.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsyntax-check_for_program.htm)
+
 ### abapgenerate_report.htm
+
+> **📖 Official SAP Documentation**: [abapgenerate_report.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgenerate_report.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -282,7 +319,14 @@ Addition 12
 With this addition, the [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") of the program are generated independently of the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") abap/test\_generation.
 
 
+
+**📖 Source**: [abapgenerate_report.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgenerate_report.htm)
+
 ### abapload.htm
+
+> **📖 Official SAP Documentation**: [abapload.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapload.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -644,7 +688,14 @@ Non-Handleable Exceptions
     Runtime error: LOAD\_REPORT\_TABLE\_TOO\_SHORT
 
 
+
+**📖 Source**: [abapload.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapload.htm)
+
 ### abapdelete_report.htm
+
+> **📖 Official SAP Documentation**: [abapdelete_report.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_report.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -722,7 +773,17 @@ Non-Handleable Exceptions
     Runtime error: INSERT\_REPORT\_ILLEGAL\_STATE
 
 
+
+**📖 Source**: [abapdelete_report.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_report.htm)
+
 ### abapscan.htm
+
+> **📖 Official SAP Documentation**: [abapscan.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapscan.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapscan.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapscan.htm)
+
 
   
 

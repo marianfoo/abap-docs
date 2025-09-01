@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapget_cursor_dynpro.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_dynpro.htm)
+- [abapget_cursor_field.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_field.htm)
+- [abendynpro_get_cursor_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_get_cursor_abexa.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.514Z
+
+---
+
 ### abapget_cursor_dynpro.htm
+
+> **📖 Official SAP Documentation**: [abapget_cursor_dynpro.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_dynpro.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -51,7 +71,14 @@ Continue
 ![Example](exa.gif "Example") [Screens, Determining the Cursor Position](javascript:call_link\('abendynpro_get_cursor_abexa.htm'\))
 
 
+
+**📖 Source**: [abapget_cursor_dynpro.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_dynpro.htm)
+
 ### abapget_cursor_field.htm
+
+> **📖 Official SAP Documentation**: [abapget_cursor_field.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_field.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -122,7 +149,17 @@ Effect
 If the screen element on which the cursor is positioned is within a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry"), the addition AREA assigns the name of the table control to the data object area. If not, area is initialized. area expects a character-like variable.
 
 
+
+**📖 Source**: [abapget_cursor_field.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_field.htm)
+
 ### abendynpro_get_cursor_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_get_cursor_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_get_cursor_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abendynpro_get_cursor_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_get_cursor_abexa.htm)
+
 
   
 

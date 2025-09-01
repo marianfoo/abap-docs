@@ -3,7 +3,32 @@
 Included pages: 10
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencds_meta_data_extensions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_meta_data_extensions.htm)
+- [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_ddlx_syntax.htm)
+- [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_annotate_view.htm)
+- [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_metadata_ext_annos.htm)
+- [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_annotate_view_para_list.htm)
+- [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_annotate_view_sele_list.htm)
+- [abencds_meta_data_extension_eval.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_meta_data_extension_eval.htm)
+- [abencds_annotate_view_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotate_view_abexa.htm)
+
+**Bundle Contains**: 8 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.870Z
+
+---
+
 ### abencds_meta_data_extensions.htm
+
+> **📖 Official SAP Documentation**: [abencds_meta_data_extensions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_meta_data_extensions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53,7 +78,14 @@ Continue
 ![Example](exa.gif "Example") [CDS Metadata Extensions with CDS Variants](javascript:call_link\('abencds_annotate_view_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_meta_data_extensions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_meta_data_extensions.htm)
+
 ### abencds_f1_ddlx_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_ddlx_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -82,7 +114,14 @@ Continue
 [CDS DDL - ANNOTATE ENTITY, VIEW](javascript:call_link\('abencds_f1_annotate_view.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_ddlx_syntax.htm)
+
 ### abencds_f1_annotate_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_annotate_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -208,7 +247,14 @@ Continue
 [CDS DDL - ANNOTATE, element\_list](javascript:call_link\('abencds_f1_annotate_view_sele_list.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_annotate_view.htm)
+
 ### abencds_f1_metadata_ext_annos.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_metadata_ext_annos.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -269,7 +315,14 @@ ABAP Platform
 \-
 
 
+
+**📖 Source**: [abencds_f1_metadata_ext_annos.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_metadata_ext_annos.htm)
+
 ### abencds_f1_annotate_view_para_list.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_annotate_view_para_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -319,7 +372,14 @@ Hints
 -   A parameter that is not in the parameter list of the entity is handled like a regular parameter in the [evaluation of annotations](javascript:call_link\('abencds_annotations_analysis.htm'\)) with the class CL\_DD\_DDL\_ANNOTATION\_SERVICE.
 
 
+
+**📖 Source**: [abencds_f1_annotate_view_para_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_annotate_view_para_list.htm)
+
 ### abencds_f1_annotate_view_sele_list.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_annotate_view_sele_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -370,7 +430,14 @@ Hints
 -   An element that is not in the element list of the entity is handled like a regular element in the [evaluation of annotations](javascript:call_link\('abencds_annotations_analysis.htm'\)) with the class CL\_DD\_DDL\_ANNOTATION\_SERVICE.
 
 
+
+**📖 Source**: [abencds_f1_annotate_view_sele_list.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_annotate_view_sele_list.htm)
+
 ### abencds_f1_annotate_view.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_annotate_view.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -496,7 +563,14 @@ Continue
 [CDS DDL - ANNOTATE, element\_list](javascript:call_link\('abencds_f1_annotate_view_sele_list.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_annotate_view.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_annotate_view.htm)
+
 ### abencds_f1_ddlx_syntax.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_ddlx_syntax.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -525,7 +599,14 @@ Continue
 [CDS DDL - ANNOTATE ENTITY, VIEW](javascript:call_link\('abencds_f1_annotate_view.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_ddlx_syntax.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_ddlx_syntax.htm)
+
 ### abencds_meta_data_extension_eval.htm
+
+> **📖 Official SAP Documentation**: [abencds_meta_data_extension_eval.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_meta_data_extension_eval.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -564,7 +645,17 @@ Executable Example
 [CDS Metadata Extensions with CDS Variants](javascript:call_link\('abencds_annotate_view_abexa.htm'\))
 
 
+
+**📖 Source**: [abencds_meta_data_extension_eval.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_meta_data_extension_eval.htm)
+
 ### abencds_annotate_view_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencds_annotate_view_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotate_view_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abencds_annotate_view_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotate_view_abexa.htm)
+
 
   
 

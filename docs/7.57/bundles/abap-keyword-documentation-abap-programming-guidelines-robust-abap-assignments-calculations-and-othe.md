@@ -3,7 +3,37 @@
 Included pages: 13
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenassignment_access_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassignment_access_gdl.htm)
+- [abenassignemnt_diff_types_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassignemnt_diff_types_guidl.htm)
+- [abenavoiding_invalid_values_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenavoiding_invalid_values_guidl.htm)
+- [abenuse_conversion_rules_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_conversion_rules_guidl.htm)
+- [abentrailing_blanks_literals_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentrailing_blanks_literals_guidl.htm)
+- [abennumbers_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumbers_guidl.htm)
+- [abenselect_numeric_type_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_numeric_type_guidl.htm)
+- [abenrounding_error_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrounding_error_guidl.htm)
+- [abendivision_zero_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendivision_zero_guidl.htm)
+- [abencasting_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencasting_guidl.htm)
+- [abenruntime_error_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenruntime_error_data_obj_guidl.htm)
+- [abenunknown_container_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunknown_container_guidl.htm)
+- [abenref_transf_global_data_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenref_transf_global_data_guidl.htm)
+
+**Bundle Contains**: 13 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.227Z
+
+---
+
 ### abenassignment_access_gdl.htm
+
+> **📖 Official SAP Documentation**: [abenassignment_access_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassignment_access_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50,7 +80,14 @@ Continue
 [Pass by Reference of Global Data](javascript:call_link\('abenref_transf_global_data_guidl.htm'\))
 
 
+
+**📖 Source**: [abenassignment_access_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassignment_access_gdl.htm)
+
 ### abenassignemnt_diff_types_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenassignemnt_diff_types_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassignemnt_diff_types_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -104,7 +141,14 @@ DO ... TIMES.
 ENDDO.
 
 
+
+**📖 Source**: [abenassignemnt_diff_types_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassignemnt_diff_types_guidl.htm)
+
 ### abenavoiding_invalid_values_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenavoiding_invalid_values_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenavoiding_invalid_values_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -174,7 +218,14 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abenavoiding_invalid_values_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenavoiding_invalid_values_guidl.htm)
+
 ### abenuse_conversion_rules_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenuse_conversion_rules_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_conversion_rules_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -242,7 +293,14 @@ TRY.
 ENDTRY.
 
 
+
+**📖 Source**: [abenuse_conversion_rules_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_conversion_rules_guidl.htm)
+
 ### abentrailing_blanks_literals_guidl.htm
+
+> **📖 Official SAP Documentation**: [abentrailing_blanks_literals_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentrailing_blanks_literals_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -302,7 +360,14 @@ Good Example
 Depending on whether the blank is needed as a separator, either ' ' or \`\` must be specified after SEPARATED BY to express this clearly.
 
 
+
+**📖 Source**: [abentrailing_blanks_literals_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentrailing_blanks_literals_guidl.htm)
+
 ### abennumbers_guidl.htm
+
+> **📖 Official SAP Documentation**: [abennumbers_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumbers_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -376,7 +441,14 @@ number = '-1000'.
 ENDMETHOD.
 
 
+
+**📖 Source**: [abennumbers_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumbers_guidl.htm)
+
 ### abenselect_numeric_type_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenselect_numeric_type_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_numeric_type_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -450,7 +522,14 @@ The following source code shows a declaration of a decimal floating point number
 DATA number TYPE decfloat34 VALUE '0.815'
 
 
+
+**📖 Source**: [abenselect_numeric_type_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_numeric_type_guidl.htm)
+
 ### abenrounding_error_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenrounding_error_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrounding_error_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -508,7 +587,14 @@ result = value \* result.
 WRITE result TO output DECIMALS 2 EXPONENT 0.
 
 
+
+**📖 Source**: [abenrounding_error_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrounding_error_guidl.htm)
+
 ### abendivision_zero_guidl.htm
+
+> **📖 Official SAP Documentation**: [abendivision_zero_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendivision_zero_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -548,7 +634,14 @@ ELSE.
 ENDIF.
 
 
+
+**📖 Source**: [abendivision_zero_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendivision_zero_guidl.htm)
+
 ### abencasting_guidl.htm
+
+> **📖 Official SAP Documentation**: [abencasting_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencasting_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -613,7 +706,14 @@ ASSIGN structure TO <text> CASTING.
 <text> = ...
 
 
+
+**📖 Source**: [abencasting_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencasting_guidl.htm)
+
 ### abenruntime_error_data_obj_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenruntime_error_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenruntime_error_data_obj_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -672,7 +772,14 @@ CATCH cx\_sy\_range\_out\_of\_bounds.
 ENDTRY.
 
 
+
+**📖 Source**: [abenruntime_error_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenruntime_error_data_obj_guidl.htm)
+
 ### abenunknown_container_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenunknown_container_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunknown_container_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -710,7 +817,17 @@ Hint
 If data needs to be saved in an unstructured container, the statement EXPORT ... TO DATA BUFFER can be used. This type of data storage is robust against different platform properties. However, you cannot use EXPORT and IMPORT to directly process reference variables or instances referenced by them. As a workaround, you can serialize these variables and instances for storage by using the statement CALL TRANSFORMATION. A class must include the IF\_SERIALIZABLE\_OBJECT tag interface, so that its objects can be serialized using CALL TRANSFORMATION.
 
 
+
+**📖 Source**: [abenunknown_container_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunknown_container_guidl.htm)
+
 ### abenref_transf_global_data_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenref_transf_global_data_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenref_transf_global_data_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenref_transf_global_data_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenref_transf_global_data_guidl.htm)
+
 
   
 

@@ -16,9 +16,7 @@ If in the Open SQL statements
 
 work areas wa or internal tables itab are specified as the target or source areas, the following prerequisites apply to the work area or row type of the internal table; if the prerequisites are ignored, a syntax error occurs or an exception is raised.
 
--   [Work Areas without Reference Variables for LOB Handles](#@@ITOC@@ABENOPEN_SQL_WA_1)
-
--   [LOB Handle Structures](#@@ITOC@@ABENOPEN_SQL_WA_2)
+-   [Work Areas without Reference Variables for LOB Handles](#abenopen-sql-wa-1--------lob-handle-structures---@ITOC@@ABENOPEN_SQL_WA_2)
 
 Work Areas without Reference Variables for LOB Handles
 

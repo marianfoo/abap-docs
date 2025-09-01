@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenmesh_path_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_expression.htm)
+- [abenmesh_table_expressions_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_table_expressions_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.497Z
+
+---
+
 ### abenmesh_path_expression.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_path_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_expression.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -47,7 +66,17 @@ Continue
 ![Example](exa.gif "Example") [Mesh Path Expressions](javascript:call_link\('abenmesh_table_expressions_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmesh_path_expression.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_expression.htm)
+
 ### abenmesh_table_expressions_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_table_expressions_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_table_expressions_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenmesh_table_expressions_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_table_expressions_abexa.htm)
+
 
   
 

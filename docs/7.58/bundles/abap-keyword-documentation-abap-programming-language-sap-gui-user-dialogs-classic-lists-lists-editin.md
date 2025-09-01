@@ -3,7 +3,38 @@
 Included pages: 14
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_lists_complex.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_lists_complex.htm)
+- [abapread_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_line.htm)
+- [abapread_line_result.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_line_result.htm)
+- [abapmodify_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line.htm)
+- [abapmodify_line_modification.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line_modification.htm)
+- [abapscroll.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll.htm)
+- [abapscroll_list_horizontal.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll_list_horizontal.htm)
+- [abapscroll_list_vertical.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll_list_vertical.htm)
+- [abapdescribe_list.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_list.htm)
+- [abapdescribe_list_page_properties.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_list_page_properties.htm)
+
+**Bundle Contains**: 10 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:29.000Z
+
+---
+
 ### abenabap_lists_complex.htm
+
+> **📖 Official SAP Documentation**: [abenabap_lists_complex.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_lists_complex.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_lists_complex.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_lists_complex.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -33,7 +64,18 @@ Continue
 [DESCRIBE LIST](javascript:call_link\('abapdescribe_list.htm'\))
 
 
+
+**📖 Source**: [abenabap_lists_complex.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_lists_complex.htm)
+
 ### abapread_line.htm
+
+> **📖 Official SAP Documentation**: [abapread_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapread_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -129,7 +171,18 @@ Continue
 [READ LINE, result](javascript:call_link\('abapread_line_result.htm'\))
 
 
+
+**📖 Source**: [abapread_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_line.htm)
+
 ### abapread_line_result.htm
+
+> **📖 Official SAP Documentation**: [abapread_line_result.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_line_result.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapread_line_result.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_line_result.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -185,7 +238,18 @@ Hints
 -   The content of the line or of the individual output areas in the list is character-like and formatted according to the rules for the WRITE statement. When the read line or an area is assigned to a data object, the conversion rules apply in the same way as to a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\)). This can cause problems with the target fields dobj1 dob ... or war war ..., particularly if these fields are numeric and the output contains separators. Due to this, use of READ LINE is mainly recommended for the evaluation of fields that are ready for input. For other evaluations, [HIDE](javascript:call_link\('abaphide.htm'\)) can be used to save values in a type-compliant way.
 
 
+
+**📖 Source**: [abapread_line_result.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_line_result.htm)
+
 ### abapread_line.htm
+
+> **📖 Official SAP Documentation**: [abapread_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapread_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -281,7 +345,18 @@ Continue
 [READ LINE, result](javascript:call_link\('abapread_line_result.htm'\))
 
 
+
+**📖 Source**: [abapread_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_line.htm)
+
 ### abapmodify_line.htm
+
+> **📖 Official SAP Documentation**: [abapmodify_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapmodify_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -362,7 +437,18 @@ Continue
 [MODIFY LINE, source](javascript:call_link\('abapmodify_line_modification.htm'\))
 
 
+
+**📖 Source**: [abapmodify_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line.htm)
+
 ### abapmodify_line_modification.htm
+
+> **📖 Official SAP Documentation**: [abapmodify_line_modification.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line_modification.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapmodify_line_modification.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line_modification.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -431,7 +517,18 @@ For ext\_format\_options, one or more additions of the statement [FORMAT](javasc
 If data objects dobj1 dobj2... appear more than once in a line with the same name, only the first one is processed. If a data object dobj1 dobj2 ... does not exist at all, the specification is ignored.
 
 
+
+**📖 Source**: [abapmodify_line_modification.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line_modification.htm)
+
 ### abapmodify_line.htm
+
+> **📖 Official SAP Documentation**: [abapmodify_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapmodify_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -512,7 +609,18 @@ Continue
 [MODIFY LINE, source](javascript:call_link\('abapmodify_line_modification.htm'\))
 
 
+
+**📖 Source**: [abapmodify_line.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line.htm)
+
 ### abapscroll.htm
+
+> **📖 Official SAP Documentation**: [abapscroll.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapscroll.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -601,7 +709,18 @@ Continue
 [SCROLL LIST, vertical](javascript:call_link\('abapscroll_list_vertical.htm'\))
 
 
+
+**📖 Source**: [abapscroll.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll.htm)
+
 ### abapscroll_list_horizontal.htm
+
+> **📖 Official SAP Documentation**: [abapscroll_list_horizontal.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll_list_horizontal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapscroll_list_horizontal.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll_list_horizontal.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -677,7 +796,18 @@ Effect
 The addition RIGHT without BY n PLACES sets the line length (sy-linsz) minus the window width (sy-scols minus 2) for the first column in the screen segment. If the result is less than or equal to 0, it is processed as 1. The addition RIGHT with BY n PLACES enters the current first column (sy-staco) plus the value in n for the first column in the display segment; n expects a data object of type i. If the result is greater than the current line length, it is processed like the current line length and sy-subrc is set to 4.
 
 
+
+**📖 Source**: [abapscroll_list_horizontal.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll_list_horizontal.htm)
+
 ### abapscroll_list_vertical.htm
+
+> **📖 Official SAP Documentation**: [abapscroll_list_vertical.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll_list_vertical.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapscroll_list_vertical.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll_list_vertical.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -756,7 +886,18 @@ The additions FORWARD and BACKWARD without n PAGES move the current screen segme
 The additions FORWARD and BACKWARD with n PAGES define the top page in the screen segment on the page derived by adding or subtracting the value in n from the current top page. n expects a data object of type i. If the resulting value is less than or equal to 0 or is greater than the number of pages, it is processed as 1 or like this number of pages and sy-subrc is set to 4. The resulting page is displayed starting with the first line.
 
 
+
+**📖 Source**: [abapscroll_list_vertical.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll_list_vertical.htm)
+
 ### abapscroll.htm
+
+> **📖 Official SAP Documentation**: [abapscroll.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapscroll.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -845,7 +986,18 @@ Continue
 [SCROLL LIST, vertical](javascript:call_link\('abapscroll_list_vertical.htm'\))
 
 
+
+**📖 Source**: [abapscroll.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll.htm)
+
 ### abapdescribe_list.htm
+
+> **📖 Official SAP Documentation**: [abapdescribe_list.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapdescribe_list.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -955,7 +1107,18 @@ Continue
 [DESCRIBE LIST, page\_properties](javascript:call_link\('abapdescribe_list_page_properties.htm'\))
 
 
+
+**📖 Source**: [abapdescribe_list.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_list.htm)
+
 ### abapdescribe_list_page_properties.htm
+
+> **📖 Official SAP Documentation**: [abapdescribe_list_page_properties.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_list_page_properties.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapdescribe_list_page_properties.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_list_page_properties.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1063,7 +1226,21 @@ Effect
 Inserts the number of lines reserved by the addition LINE-COUNT of the statement at the start of the program for the [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry") after footer\_lines.
 
 
+
+**📖 Source**: [abapdescribe_list_page_properties.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_list_page_properties.htm)
+
 ### abapdescribe_list.htm
+
+> **📖 Official SAP Documentation**: [abapdescribe_list.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapdescribe_list.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_list.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapdescribe_list.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_list.htm)
+
 
   
 

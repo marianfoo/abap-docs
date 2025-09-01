@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenprogram_attributes_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attributes_obsolete.htm)
+- [abennon_unicode_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_unicode_obsolete.htm)
+- [abennon_fixed_point_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_fixed_point_obsolete.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.477Z
+
+---
+
 ### abenprogram_attributes_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenprogram_attributes_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attributes_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -28,7 +48,14 @@ Continue
 [Obsolete Disabling of Fixed Point Arithmetic](javascript:call_link\('abennon_fixed_point_obsolete.htm'\))
 
 
+
+**📖 Source**: [abenprogram_attributes_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attributes_obsolete.htm)
+
 ### abennon_unicode_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abennon_unicode_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_unicode_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -53,7 +80,17 @@ Programming Guideline
 [Program Attributes](javascript:call_link\('abenprogram_attribute_guidl.htm'\) "Guideline")
 
 
+
+**📖 Source**: [abennon_unicode_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_unicode_obsolete.htm)
+
 ### abennon_fixed_point_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abennon_fixed_point_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_fixed_point_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abennon_fixed_point_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_fixed_point_obsolete.htm)
+
 
   
 

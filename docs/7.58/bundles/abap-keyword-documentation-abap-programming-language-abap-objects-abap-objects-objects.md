@@ -3,7 +3,32 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenobject.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobject.htm)
+- [abenreferences.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreferences.htm)
+- [abenclass_components_addressing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_components_addressing.htm)
+- [abenclass_attributes_as_key.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_attributes_as_key.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.935Z
+
+---
+
 ### abenobject.htm
+
+> **📖 Official SAP Documentation**: [abenobject.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobject.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenobject.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobject.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -54,7 +79,18 @@ Continue
 [ABAP Objects - Object References in Internal Tables](javascript:call_link\('abenclass_attributes_as_key.htm'\))
 
 
+
+**📖 Source**: [abenobject.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobject.htm)
+
 ### abenreferences.htm
+
+> **📖 Official SAP Documentation**: [abenreferences.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreferences.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenreferences.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreferences.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -169,7 +205,18 @@ Assigning Object References to Field Symbols  
 To assign object references to typed field symbols, the same applies as to passing a reference to typed formal parameters: The types must be identical. Otherwise, incompatibilities between dynamic and static types may occur here. For example, it is sufficient to assign two class reference variables of different classes that implement the same interface one after the other to the same field symbol to cause an inconsistent status.
 
 
+
+**📖 Source**: [abenreferences.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreferences.htm)
+
 ### abenclass_components_addressing.htm
+
+> **📖 Official SAP Documentation**: [abenclass_components_addressing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_components_addressing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenclass_components_addressing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_components_addressing.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -280,7 +327,21 @@ f and c are fields that contain the name of the method meth or class class.
 In the case of a dynamic method call, the actual parameter can be passed dynamically to [specific internal tables](javascript:call_link\('abapcall_method_parameter_tables.htm'\)), similarly to calling function modules.
 
 
+
+**📖 Source**: [abenclass_components_addressing.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_components_addressing.htm)
+
 ### abenclass_attributes_as_key.htm
+
+> **📖 Official SAP Documentation**: [abenclass_attributes_as_key.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_attributes_as_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenclass_attributes_as_key.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_attributes_as_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenclass_attributes_as_key.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_attributes_as_key.htm)
+
 
   
 

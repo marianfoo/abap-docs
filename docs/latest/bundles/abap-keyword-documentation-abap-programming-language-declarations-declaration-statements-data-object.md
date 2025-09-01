@@ -3,7 +3,28 @@
 Included pages: 5
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abapdata_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_itab.htm)
+- [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+- [abapdata_primary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_primary_key.htm)
+- [abapdata_secondary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_secondary_key.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP latest
+**Generated**: 2025-09-01T11:25:44.911Z
+
+---
+
 ### abapdata_itab.htm
+
+> **📖 Official SAP Documentation**: [abapdata_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_itab.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -59,7 +80,14 @@ Continue
 [DATA, tabkeys](javascript:call_link\('abapdata_keydef.htm'\))
 
 
+
+**📖 Source**: [abapdata_itab.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_itab.htm)
+
 ### abapdata_keydef.htm
+
+> **📖 Official SAP Documentation**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -107,7 +135,14 @@ Continue
 [DATA, secondary\_key](javascript:call_link\('abapdata_secondary_key.htm'\))
 
 
+
+**📖 Source**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+
 ### abapdata_primary_key.htm
+
+> **📖 Official SAP Documentation**: [abapdata_primary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_primary_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -207,7 +242,14 @@ DATA unsorted\_carrier\_list
      WITH EMPTY KEY.
 
 
+
+**📖 Source**: [abapdata_primary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_primary_key.htm)
+
 ### abapdata_secondary_key.htm
+
+> **📖 Official SAP Documentation**: [abapdata_secondary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_secondary_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -276,7 +318,17 @@ Example
 The program DEMO\_SECONDARY\_KEYS demonstrates the declaration and use of a secondary table key and the resulting performance gains.
 
 
+
+**📖 Source**: [abapdata_secondary_key.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_secondary_key.htm)
+
 ### abapdata_keydef.htm
+
+> **📖 Official SAP Documentation**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapdata_keydef.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_keydef.htm)
+
 
   
 

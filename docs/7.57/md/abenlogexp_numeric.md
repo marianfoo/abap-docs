@@ -13,10 +13,8 @@ rel\_exp - Comparison Type of Numeric Data Objects
 
 The following tables show the [comparison types](javascript:call_link\('abencomparison_type_glosry.htm'\) "Glossary Entry") for comparisons between numeric data types and other data types. If the type of an operand is not the same as the comparison type, it is [converted](javascript:call_link\('abenconversion_elementary.htm'\)) to this type. The [comparison rules for the comparison types](javascript:call_link\('abencomparison_type.htm'\)) determine how the comparison is executed.
 
--   [Comparisons with Numeric Data Types](#@@ITOC@@ABENLOGEXP_NUMERIC_1)
--   [Comparisons with Character-Like Data Types](#@@ITOC@@ABENLOGEXP_NUMERIC_2)
--   [Comparisons with Byte-Like Data Types](#@@ITOC@@ABENLOGEXP_NUMERIC_3)
--   [Comparisons with Date Types, Time Types, or Time Stamp Types](#@@ITOC@@ABENLOGEXP_NUMERIC_4)
+-   [Comparisons with Numeric Data Types](#abenlogexp-numeric-1-------comparisons-with-character-like-data-types---@ITOC@@ABENLOGEXP_NUMERIC_2)
+-   [Comparisons with Byte-Like Data Types](#abenlogexp-numeric-3-------comparisons-with-date-types--time-types--or-time-stamp-types---@ITOC@@ABENLOGEXP_NUMERIC_4)
 
 Hint
 

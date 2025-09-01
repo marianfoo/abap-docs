@@ -3,7 +3,31 @@
 Included pages: 8
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_subroutines.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_subroutines.htm)
+- [abapform.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform.htm)
+- [abapform_parameters.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform_parameters.htm)
+- [abapform_structure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform_structure.htm)
+- [abapform_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform_tables.htm)
+- [abapendform.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendform.htm)
+- [abapform_definition.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform_definition.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.474Z
+
+---
+
 ### abenabap_subroutines.htm
+
+> **📖 Official SAP Documentation**: [abenabap_subroutines.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_subroutines.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -45,7 +69,14 @@ Continue
 [FORM - DEFINITION, IMPLEMENTATION](javascript:call_link\('abapform_definition.htm'\))
 
 
+
+**📖 Source**: [abenabap_subroutines.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_subroutines.htm)
+
 ### abapform.htm
+
+> **📖 Official SAP Documentation**: [abapform.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -189,7 +220,14 @@ Continue
 [FORM - table\_parameters](javascript:call_link\('abapform_tables.htm'\))
 
 
+
+**📖 Source**: [abapform.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform.htm)
+
 ### abapform_parameters.htm
+
+> **📖 Official SAP Documentation**: [abapform_parameters.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform_parameters.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -224,7 +262,14 @@ Note
 Without an explicit typing, a formal parameter is typed implicitly with the fully generic type any.
 
 
+
+**📖 Source**: [abapform_parameters.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform_parameters.htm)
+
 ### abapform_structure.htm
+
+> **📖 Official SAP Documentation**: [abapform_structure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform_structure.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -267,7 +312,14 @@ FORM demo USING p STRUCTURE line.
 ENDFORM.
 
 
+
+**📖 Source**: [abapform_structure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform_structure.htm)
+
 ### abapform_tables.htm
+
+> **📖 Official SAP Documentation**: [abapform_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform_tables.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -302,7 +354,14 @@ Note
 The definition of table parameters is obsolete and can be replaced by general [formal parameters](javascript:call_link\('abapform_parameters.htm'\)) defined using USING and CHANGING.
 
 
+
+**📖 Source**: [abapform_tables.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform_tables.htm)
+
 ### abapform.htm
+
+> **📖 Official SAP Documentation**: [abapform.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -446,7 +505,14 @@ Continue
 [FORM - table\_parameters](javascript:call_link\('abapform_tables.htm'\))
 
 
+
+**📖 Source**: [abapform.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform.htm)
+
 ### abapendform.htm
+
+> **📖 Official SAP Documentation**: [abapendform.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendform.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -469,7 +535,17 @@ Effect
 The statement ENDFORM closes a subroutine definition introduced using [FORM](javascript:call_link\('abapform.htm'\)).
 
 
+
+**📖 Source**: [abapendform.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendform.htm)
+
 ### abapform_definition.htm
+
+> **📖 Official SAP Documentation**: [abapform_definition.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform_definition.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapform_definition.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform_definition.htm)
+
 
   
 

@@ -3,7 +3,27 @@
 Included pages: 3
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenmesh_insert.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_insert.htm)
+- [abenmesh_insert_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_insert_abexa.htm)
+- [abenmesh_build_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_build_abexa.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.52
+**Generated**: 2025-09-01T11:25:46.496Z
+
+---
+
 ### abenmesh_insert.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_insert.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_insert.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -68,7 +88,14 @@ Continue
 ![Example](exa.gif "Example") [Table Builds Using Mesh Paths](javascript:call_link\('abenmesh_build_abexa.htm'\))
 
 
+
+**📖 Source**: [abenmesh_insert.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_insert.htm)
+
 ### abenmesh_insert_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_insert_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_insert_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -216,7 +243,17 @@ INSERT LINES OF VALUE t\_itab3( ( col3 = 10 )
 As in the previous step, but here three rows of an internal table are inserted for each described row. Only the value of the third column col3 is taken from the table.
 
 
+
+**📖 Source**: [abenmesh_insert_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_insert_abexa.htm)
+
 ### abenmesh_build_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenmesh_build_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_build_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenmesh_build_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_build_abexa.htm)
+
 
   
 

@@ -14,10 +14,8 @@ To create a transaction manager, the static method GET\_TRANSACTION\_MANAGER of 
 
 An ABAP program does not work with the Transaction Manager and the transaction using class reference variables. Instead the program accesses the Transaction Manager and the transaction using the interfaces IF\_OS\_TRANSACTION\_MANAGER and IF\_OS\_TRANSACTION.
 
--   [Relevant Methods of the System Service](#@@ITOC@@ABENOS_TRANSACTION_COMPS_1)
--   [Methods of the Transaction Manager](#@@ITOC@@ABENOS_TRANSACTION_COMPS_2)
--   [Methods of a Transaction](#@@ITOC@@ABENOS_TRANSACTION_COMPS_3)
--   [Events of a Transaction](#@@ITOC@@ABENOS_TRANSACTION_COMPS_4)
+-   [Relevant Methods of the System Service](#abenos-transaction-comps-1-------methods-of-the-transaction-manager---@ITOC@@ABENOS_TRANSACTION_COMPS_2)
+-   [Methods of a Transaction](#abenos-transaction-comps-3-------events-of-a-transaction---@ITOC@@ABENOS_TRANSACTION_COMPS_4)
 
 Relevant Methods of the System Service
 

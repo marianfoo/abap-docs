@@ -3,7 +3,26 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenselection_screen_overview.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_overview.htm)
+- [abensel_screen_gui_status_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_gui_status_abexa.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.54
+**Generated**: 2025-09-01T11:25:45.996Z
+
+---
+
 ### abenselection_screen_overview.htm
+
+> **📖 Official SAP Documentation**: [abenselection_screen_overview.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_overview.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -63,7 +82,17 @@ Continue
 ![Example](exa.gif "Example") [Selection Screens, Changing the Default GUI Status](javascript:call_link\('abensel_screen_gui_status_abexa.htm'\))
 
 
+
+**📖 Source**: [abenselection_screen_overview.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_overview.htm)
+
 ### abensel_screen_gui_status_abexa.htm
+
+> **📖 Official SAP Documentation**: [abensel_screen_gui_status_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_gui_status_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abensel_screen_gui_status_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_gui_status_abexa.htm)
+
 
   
 

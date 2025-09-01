@@ -3,7 +3,35 @@
 Included pages: 9
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenevent_blocks.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenevent_blocks.htm)
+- [abenprogram_constructor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_constructor.htm)
+- [abapload-of-program.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapload-of-program.htm)
+- [abenabap_processing_blocks.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_processing_blocks.htm)
+- [abapinitialization.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinitialization.htm)
+- [abapstart-of-selection.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstart-of-selection.htm)
+- [abenabap_screen_events.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_screen_events.htm)
+
+**Bundle Contains**: 7 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.997Z
+
+---
+
 ### abenevent_blocks.htm
+
+> **📖 Official SAP Documentation**: [abenevent_blocks.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenevent_blocks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenevent_blocks.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenevent_blocks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -50,7 +78,18 @@ Continue
 [Selection Screen Events and List Events](javascript:call_link\('abenabap_screen_events.htm'\))
 
 
+
+**📖 Source**: [abenevent_blocks.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenevent_blocks.htm)
+
 ### abenprogram_constructor.htm
+
+> **📖 Official SAP Documentation**: [abenprogram_constructor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_constructor.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenprogram_constructor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_constructor.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -79,7 +118,18 @@ Continue
 [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\))
 
 
+
+**📖 Source**: [abenprogram_constructor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_constructor.htm)
+
 ### abapload-of-program.htm
+
+> **📖 Official SAP Documentation**: [abapload-of-program.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapload-of-program.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapload-of-program.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapload-of-program.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -122,7 +172,18 @@ Example
 The include program LABAP\_DOCUE00 implements the LOAD-OF-PROGRAM event block of a function pool. It sets a global variable and triggers an action that is relevant for the complete function pool.
 
 
+
+**📖 Source**: [abapload-of-program.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapload-of-program.htm)
+
 ### abenprogram_constructor.htm
+
+> **📖 Official SAP Documentation**: [abenprogram_constructor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_constructor.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenprogram_constructor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_constructor.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -151,7 +212,18 @@ Continue
 [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\))
 
 
+
+**📖 Source**: [abenprogram_constructor.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_constructor.htm)
+
 ### abenabap_processing_blocks.htm
+
+> **📖 Official SAP Documentation**: [abenabap_processing_blocks.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_processing_blocks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_processing_blocks.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_processing_blocks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -181,7 +253,18 @@ Continue
 [START-OF-SELECTION](javascript:call_link\('abapstart-of-selection.htm'\))
 
 
+
+**📖 Source**: [abenabap_processing_blocks.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_processing_blocks.htm)
+
 ### abapinitialization.htm
+
+> **📖 Official SAP Documentation**: [abapinitialization.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinitialization.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapinitialization.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinitialization.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -218,7 +301,18 @@ INITIALIZATION.
   p\_langu = sy-langu.
 
 
+
+**📖 Source**: [abapinitialization.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinitialization.htm)
+
 ### abapstart-of-selection.htm
+
+> **📖 Official SAP Documentation**: [abapstart-of-selection.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstart-of-selection.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapstart-of-selection.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstart-of-selection.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -305,7 +399,18 @@ START-OF-SELECTION.
   cl\_demo\_output=>display\_data( text ).
 
 
+
+**📖 Source**: [abapstart-of-selection.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstart-of-selection.htm)
+
 ### abenabap_processing_blocks.htm
+
+> **📖 Official SAP Documentation**: [abenabap_processing_blocks.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_processing_blocks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_processing_blocks.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_processing_blocks.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -335,7 +440,21 @@ Continue
 [START-OF-SELECTION](javascript:call_link\('abapstart-of-selection.htm'\))
 
 
+
+**📖 Source**: [abenabap_processing_blocks.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_processing_blocks.htm)
+
 ### abenabap_screen_events.htm
+
+> **📖 Official SAP Documentation**: [abenabap_screen_events.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_screen_events.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_screen_events.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_screen_events.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabap_screen_events.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_screen_events.htm)
+
 
   
 

@@ -3,7 +3,28 @@
 Included pages: 4
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abencomments_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomments_gdl.htm)
+- [abencomment_langu_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomment_langu_guidl.htm)
+- [abencontent_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencontent_guidl.htm)
+- [abenarrange_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarrange_guidl.htm)
+
+**Bundle Contains**: 4 documentation pages
+**Version**: ABAP 7.57
+**Generated**: 2025-09-01T11:25:45.231Z
+
+---
+
 ### abencomments_gdl.htm
+
+> **📖 Official SAP Documentation**: [abencomments_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomments_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -43,7 +64,14 @@ Continue
 [Arrangement in the Source Code](javascript:call_link\('abenarrange_guidl.htm'\))
 
 
+
+**📖 Source**: [abencomments_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomments_gdl.htm)
+
 ### abencomment_langu_guidl.htm
+
+> **📖 Official SAP Documentation**: [abencomment_langu_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomment_langu_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -122,7 +150,14 @@ CREATE OBJECT splitter\_v
 The goal of this example is to show the difference between German and English comments. If more meaningful [names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline") had been chosen, that is splitter\_horizontal instead of splitter\_h, and so on, comments could be dispensed with altogether, thus complying with the following [rule](javascript:call_link\('abencontent_guidl.htm'\) "Guideline").
 
 
+
+**📖 Source**: [abencomment_langu_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomment_langu_guidl.htm)
+
 ### abencontent_guidl.htm
+
+> **📖 Official SAP Documentation**: [abencontent_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencontent_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -203,7 +238,17 @@ IF sy-subrc = 0.
 ENDIF.
 
 
+
+**📖 Source**: [abencontent_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencontent_guidl.htm)
+
 ### abenarrange_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenarrange_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarrange_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenarrange_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarrange_guidl.htm)
+
 
   
 

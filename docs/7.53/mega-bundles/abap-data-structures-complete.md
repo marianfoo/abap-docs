@@ -7,6 +7,21 @@
 ---
 
 
+
+## 🔗 Complete Source Documentation
+
+**📖 Official Documentation**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
+**🏷️ Category**: DATA-STRUCTURES
+**🔍 Search Specific Topics**: Use `abap_search query:"data-structures"` for focused results
+**📄 Individual Pages**: All source URLs included in each section below
+
+### 🎯 Quick Navigation
+- **Search for specific statements**: `abap_search query:"SELECT"` or `abap_search query:"LOOP"`
+- **Get individual bundles**: Use `abap_get` with specific bundle doc_id
+- **Browse by difficulty**: Look for **Difficulty** markers in each section
+
+---
+
 ## ABAP Keyword Documentation / ABAP - Dictionary / ABAP CDS in ABAP Dictionary / ABAP CDS - Data Definitions / ABAP CDS - Table Functions
 
 **Files**: 6 | **Difficulty**: advanced
@@ -17,6 +32,10 @@ Included pages: 2
 
 
 ### abencds_f1_param.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -82,7 +101,14 @@ Continue
 [ABAP CDS - parameter\_annot](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm)
+
 ### abencds_f1_parameter_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -247,7 +273,14 @@ id = '1';
 Included pages: 2
 
 
+
+**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
+
 ### abencds_f1_param.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -313,7 +346,14 @@ Continue
 [ABAP CDS - parameter\_annot](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
 
 
+
+**📖 Source**: [abencds_f1_param.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_param.htm)
+
 ### abencds_f1_parameter_annotations.htm
+
+> **📖 Official SAP Documentation**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -478,7 +518,14 @@ id = '1';
 Included pages: 13
 
 
+
+**📖 Source**: [abencds_f1_parameter_annotations.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
+
 ### abapcall_transaction.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -593,7 +640,14 @@ Continue
 [Transaction Call - Examples](javascript:call_link\('abentransactions_abexas.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm)
+
 ### abapcall_transaction_standard.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -658,7 +712,14 @@ Continue
 [CALL TRANSACTION - AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
+
 ### abapcall_transaction_authority.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -723,7 +784,14 @@ Notes
 -   If the addition WITHOUT AUTHORITY-CHECK is specified, the content of the database table [TCDCOUPLES](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)) is ignored.
 
 
+
+**📖 Source**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
+
 ### abapcall_transaction_standard.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -788,7 +856,14 @@ Continue
 [CALL TRANSACTION - AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
+
 ### abapcall_transaction_using.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1013,7 +1088,14 @@ Continue
 [CALL TRANSACTION - Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
+
 ### abenbatch_input_table.htm
+
+> **📖 Official SAP Documentation**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1068,7 +1150,14 @@ Executable Example
 [Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
 
 
+
+**📖 Source**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm)
+
 ### abapcall_transaction_using.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1293,7 +1382,14 @@ Continue
 [CALL TRANSACTION - Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
+
 ### abentransactions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1312,7 +1408,14 @@ Continue
 ![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](javascript:call_link\('abencall_transaction_dialog_abexa.htm'\))
 
 
+
+**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
+
 ### abencall_transaction_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1353,7 +1456,14 @@ Description
 The transaction DEMO\_TRANSACTION displays the details for a flight uniquely identified by the airline and the flight number. It is called from main using the statement CALL TRANSACTION and filled with [SPA/GPA parameters](javascript:call_link\('abenspa_gpa_parameter_1_glosry.htm'\) "Glossary Entry") as initial values using the statement SET PARAMETER.
 
 
+
+**📖 Source**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm)
+
 ### abencall_transaction_bdc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1400,7 +1510,14 @@ Description
 Call Class Builder (transaction SE24) and display the class CL\_ABAP\_BROWSER. The required authorization is checked by using the addition WITH AUTHORITY-CHECK. The internal table bdcdata\_tab contains the entry for the processing of the first dynpro (1000) in the transaction. The structure opt is used to configure processing to skip the first screen and display the subsequent screen in standard size.
 
 
+
+**📖 Source**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
+
 ### abencall_transaction_repo_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_repo_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1454,7 +1571,14 @@ Description
 When the associated transaction DEMO\_REPORT\_TRANSACT is called, the executable program starts with the selection screen 500 in the same GUI window. The further process is described in the executable example [Selection Screens, Calling Standalone Selection Screens](javascript:call_link\('abensel_screen_call_sel_scr_abexa.htm'\)).
 
 
+
+**📖 Source**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_repo_abexa.htm)
+
 ### abencall_transaction_dialog_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1494,7 +1618,14 @@ Description
 When the associated transaction DEMO\_SELSCREEN\_DYNP is called, the program starts by displaying selection screen 500. The user input on the selection screen can be processed, for example, at the event AT SELECTION-SCREEN or later in the application logic. After the event AT SELECTION-SCREEN is processed (PAI of the selection screen), the program branches to a next dynpro, 100.
 
 
+
+**📖 Source**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm)
+
 ### abentransactions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1525,7 +1656,14 @@ Continue
 Included pages: 13
 
 
+
+**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
+
 ### abapcall_transaction.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1640,7 +1778,14 @@ Continue
 [Transaction Call - Examples](javascript:call_link\('abentransactions_abexas.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm)
+
 ### abapcall_transaction_standard.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1705,7 +1850,14 @@ Continue
 [CALL TRANSACTION - AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
+
 ### abapcall_transaction_authority.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1770,7 +1922,14 @@ Notes
 -   If the addition WITHOUT AUTHORITY-CHECK is specified, the content of the database table [TCDCOUPLES](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)) is ignored.
 
 
+
+**📖 Source**: [abapcall_transaction_authority.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_authority.htm)
+
 ### abapcall_transaction_standard.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -1835,7 +1994,14 @@ Continue
 [CALL TRANSACTION - AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_standard.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm)
+
 ### abapcall_transaction_using.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2060,7 +2226,14 @@ Continue
 [CALL TRANSACTION - Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
+
 ### abenbatch_input_table.htm
+
+> **📖 Official SAP Documentation**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2115,7 +2288,14 @@ Executable Example
 [Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
 
 
+
+**📖 Source**: [abenbatch_input_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table.htm)
+
 ### abapcall_transaction_using.htm
+
+> **📖 Official SAP Documentation**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2340,7 +2520,14 @@ Continue
 [CALL TRANSACTION - Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
 
 
+
+**📖 Source**: [abapcall_transaction_using.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_using.htm)
+
 ### abentransactions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2359,7 +2546,14 @@ Continue
 ![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](javascript:call_link\('abencall_transaction_dialog_abexa.htm'\))
 
 
+
+**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
+
 ### abencall_transaction_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2400,7 +2594,14 @@ Description
 The transaction DEMO\_TRANSACTION displays the details for a flight uniquely identified by the airline and the flight number. It is called from main using the statement CALL TRANSACTION and filled with [SPA/GPA parameters](javascript:call_link\('abenspa_gpa_parameter_1_glosry.htm'\) "Glossary Entry") as initial values using the statement SET PARAMETER.
 
 
+
+**📖 Source**: [abencall_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_abexa.htm)
+
 ### abencall_transaction_bdc_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2447,7 +2648,14 @@ Description
 Call Class Builder (transaction SE24) and display the class CL\_ABAP\_BROWSER. The required authorization is checked by using the addition WITH AUTHORITY-CHECK. The internal table bdcdata\_tab contains the entry for the processing of the first dynpro (1000) in the transaction. The structure opt is used to configure processing to skip the first screen and display the subsequent screen in standard size.
 
 
+
+**📖 Source**: [abencall_transaction_bdc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_bdc_abexa.htm)
+
 ### abencall_transaction_repo_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_repo_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2501,7 +2709,14 @@ Description
 When the associated transaction DEMO\_REPORT\_TRANSACT is called, the executable program starts with the selection screen 500 in the same GUI window. The further process is described in the executable example [Selection Screens, Calling Standalone Selection Screens](javascript:call_link\('abensel_screen_call_sel_scr_abexa.htm'\)).
 
 
+
+**📖 Source**: [abencall_transaction_repo_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_repo_abexa.htm)
+
 ### abencall_transaction_dialog_abexa.htm
+
+> **📖 Official SAP Documentation**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2541,7 +2756,14 @@ Description
 When the associated transaction DEMO\_SELSCREEN\_DYNP is called, the program starts by displaying selection screen 500. The user input on the selection screen can be processed, for example, at the event AT SELECTION-SCREEN or later in the application logic. After the event AT SELECTION-SCREEN is processed (PAI of the selection screen), the program branches to a next dynpro, 100.
 
 
+
+**📖 Source**: [abencall_transaction_dialog_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transaction_dialog_abexa.htm)
+
 ### abentransactions_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2572,7 +2794,14 @@ Continue
 Included pages: 2
 
 
+
+**📖 Source**: [abentransactions_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransactions_abexas.htm)
+
 ### abenlogic_functions.htm
+
+> **📖 Official SAP Documentation**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogic_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2598,7 +2827,14 @@ Continue
 [boolc, boolx, xsdbool - Boolean Functions](javascript:call_link\('abenboole_functions.htm'\))
 
 
+
+**📖 Source**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogic_functions.htm)
+
 ### abenboole_functions.htm
+
+> **📖 Official SAP Documentation**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboole_functions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2752,7 +2988,14 @@ ENDIF.
 Included pages: 12
 
 
+
+**📖 Source**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboole_functions.htm)
+
 ### abenitab_key.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2781,7 +3024,14 @@ Continue
 [Duplicate Non-Unique Keys](javascript:call_link\('abenitab_key_secondary_duplicates.htm'\))
 
 
+
+**📖 Source**: [abenitab_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key.htm)
+
 ### abenitab_key_primary.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2841,7 +3091,14 @@ Continue
 [Empty Table Key](javascript:call_link\('abenitab_empty_key.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm)
+
 ### abenitab_standard_key.htm
+
+> **📖 Official SAP Documentation**: [abenitab_standard_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_standard_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2918,7 +3175,14 @@ DATA(scarr\_line) =
                       url      = '...' \] OPTIONAL ).
 
 
+
+**📖 Source**: [abenitab_standard_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_standard_key.htm)
+
 ### abenitab_empty_key.htm
+
+> **📖 Official SAP Documentation**: [abenitab_empty_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_empty_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -2991,7 +3255,14 @@ READ REPORT 'DEMO\_TAB\_EXP\_LINE' INTO source.
 cl\_demo\_output=>display( source ).
 
 
+
+**📖 Source**: [abenitab_empty_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_empty_key.htm)
+
 ### abenitab_key_primary.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3051,7 +3322,14 @@ Continue
 [Empty Table Key](javascript:call_link\('abenitab_empty_key.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_primary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm)
+
 ### abenitab_key_secondary.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3138,7 +3416,14 @@ Continue
 [Restrictions for Secondary Keys](javascript:call_link\('abenitab_key_secondary_restrict.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm)
+
 ### abenitab_key_secondary_update.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_update.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_update.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3171,7 +3456,14 @@ Executable Example
 The example of [Deletion Using Table Keys](javascript:call_link\('abendelete_itab_using_key_abexa.htm'\)) demonstrates the runtimes that are required to create the secondary key and when they occur.
 
 
+
+**📖 Source**: [abenitab_key_secondary_update.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_update.htm)
+
 ### abenitab_key_secondary_usage.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_usage.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_usage.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3208,7 +3500,14 @@ Example
 The program DEMO\_SECONDARY\_KEYS demonstrates how a secondary table key is specified and the resulting performance gain.
 
 
+
+**📖 Source**: [abenitab_key_secondary_usage.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_usage.htm)
+
 ### abenitab_key_secondary_restrict.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_restrict.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_restrict.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3255,7 +3554,14 @@ The use of tables with secondary keys causes syntax or runtime errors for the fo
 -   itab in [WRITE TO itab](javascript:call_link\('abapwrite_to_itab.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_secondary_restrict.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_restrict.htm)
+
 ### abenitab_key_secondary.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3342,7 +3648,14 @@ Continue
 [Restrictions for Secondary Keys](javascript:call_link\('abenitab_key_secondary_restrict.htm'\))
 
 
+
+**📖 Source**: [abenitab_key_secondary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm)
+
 ### abenitab_key_duplicates.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_duplicates.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_duplicates.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3386,7 +3699,14 @@ INSERT 2 INTO TABLE itab.
 INSERT 2 INTO itab INDEX 2.
 
 
+
+**📖 Source**: [abenitab_key_duplicates.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_duplicates.htm)
+
 ### abenitab_key_secondary_duplicates.htm
+
+> **📖 Official SAP Documentation**: [abenitab_key_secondary_duplicates.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_duplicates.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3470,7 +3790,14 @@ cl\_demo\_output=>display( itab ).
 Included pages: 4
 
 
+
+**📖 Source**: [abenitab_key_secondary_duplicates.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_duplicates.htm)
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3490,7 +3817,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3672,7 +4006,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3695,7 +4036,14 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3889,7 +4237,14 @@ Continue
 Included pages: 4
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -3909,7 +4264,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4091,7 +4453,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4114,7 +4483,14 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4308,7 +4684,14 @@ Continue
 Included pages: 4
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4328,7 +4711,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4510,7 +4900,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4533,7 +4930,14 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4727,7 +5131,14 @@ Continue
 Included pages: 4
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4747,7 +5158,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4929,7 +5347,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -4952,7 +5377,14 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5146,7 +5578,14 @@ Continue
 Included pages: 4
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5166,7 +5605,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5348,7 +5794,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5371,7 +5824,14 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5565,7 +6025,14 @@ Continue
 Included pages: 4
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5585,7 +6052,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5767,7 +6241,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5790,7 +6271,14 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -5984,7 +6472,14 @@ Continue
 Included pages: 4
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6004,7 +6499,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6186,7 +6688,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6209,7 +6718,14 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6403,7 +6919,14 @@ Continue
 Included pages: 4
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6423,7 +6946,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6605,7 +7135,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6628,7 +7165,14 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6822,7 +7366,14 @@ Continue
 Included pages: 4
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -6842,7 +7393,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7024,7 +7582,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7047,7 +7612,14 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7241,7 +7813,14 @@ Continue
 Included pages: 4
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7261,7 +7840,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7443,7 +8029,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7466,7 +8059,14 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7660,7 +8260,14 @@ Continue
 Included pages: 4
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7680,7 +8287,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7862,7 +8476,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -7885,7 +8506,14 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8079,7 +8707,14 @@ Continue
 Included pages: 4
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8099,7 +8734,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8281,7 +8923,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8304,7 +8953,14 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8498,7 +9154,14 @@ Continue
 Included pages: 4
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abeninternal_table_interval_spcl.htm
+
+> **📖 Official SAP Documentation**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8518,7 +9181,14 @@ Continue
 [PROVIDE](javascript:call_link\('abapprovide.htm'\))
 
 
+
+**📖 Source**: [abeninternal_table_interval_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_interval_spcl.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8700,7 +9370,14 @@ Continue
 [ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abapendprovide.htm
+
+> **📖 Official SAP Documentation**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8723,7 +9400,14 @@ Effect
 The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
 
 
+
+**📖 Source**: [abapendprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendprovide.htm)
+
 ### abapprovide.htm
+
+> **📖 Official SAP Documentation**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8917,7 +9601,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abapprovide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprovide.htm)
+
 ### abenconstructor_expression_filter.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -8996,7 +9687,14 @@ Continue
 [Examples of Table Filtering](javascript:call_link\('abentable_filtering_abexas.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+
 ### abenconstructor_expr_filter_basic.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9094,7 +9792,14 @@ Executable Example
 [Table Filtering, Single Values](javascript:call_link\('abenfilter_value_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+
 ### abenconstructor_expr_filter_table.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9217,7 +9922,14 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9235,7 +9947,14 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenfilter_value_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9290,7 +10009,14 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
+
+**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+
 ### abenfilter_table_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9353,7 +10079,14 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
+
+**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+
 ### abenfilter_table_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9438,7 +10171,14 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
+
+**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9468,7 +10208,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenconstructor_expression_filter.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9547,7 +10294,14 @@ Continue
 [Examples of Table Filtering](javascript:call_link\('abentable_filtering_abexas.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+
 ### abenconstructor_expr_filter_basic.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9645,7 +10399,14 @@ Executable Example
 [Table Filtering, Single Values](javascript:call_link\('abenfilter_value_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+
 ### abenconstructor_expr_filter_table.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9768,7 +10529,14 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9786,7 +10554,14 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenfilter_value_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9841,7 +10616,14 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
+
+**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+
 ### abenfilter_table_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9904,7 +10686,14 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
+
+**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+
 ### abenfilter_table_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -9989,7 +10778,14 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
+
+**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10019,7 +10815,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenconstructor_expression_filter.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10098,7 +10901,14 @@ Continue
 [Examples of Table Filtering](javascript:call_link\('abentable_filtering_abexas.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+
 ### abenconstructor_expr_filter_basic.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10196,7 +11006,14 @@ Executable Example
 [Table Filtering, Single Values](javascript:call_link\('abenfilter_value_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+
 ### abenconstructor_expr_filter_table.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10319,7 +11136,14 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10337,7 +11161,14 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenfilter_value_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10392,7 +11223,14 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
+
+**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+
 ### abenfilter_table_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10455,7 +11293,14 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
+
+**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+
 ### abenfilter_table_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10540,7 +11385,14 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
+
+**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10570,7 +11422,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenconstructor_expression_filter.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10649,7 +11508,14 @@ Continue
 [Examples of Table Filtering](javascript:call_link\('abentable_filtering_abexas.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+
 ### abenconstructor_expr_filter_basic.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10747,7 +11613,14 @@ Executable Example
 [Table Filtering, Single Values](javascript:call_link\('abenfilter_value_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+
 ### abenconstructor_expr_filter_table.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10870,7 +11743,14 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10888,7 +11768,14 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenfilter_value_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -10943,7 +11830,14 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
+
+**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+
 ### abenfilter_table_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11006,7 +11900,14 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
+
+**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+
 ### abenfilter_table_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11091,7 +11992,14 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
+
+**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11121,7 +12029,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenconstructor_expression_filter.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11200,7 +12115,14 @@ Continue
 [Examples of Table Filtering](javascript:call_link\('abentable_filtering_abexas.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+
 ### abenconstructor_expr_filter_basic.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11298,7 +12220,14 @@ Executable Example
 [Table Filtering, Single Values](javascript:call_link\('abenfilter_value_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+
 ### abenconstructor_expr_filter_table.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11421,7 +12350,14 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11439,7 +12375,14 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenfilter_value_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11494,7 +12437,14 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
+
+**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+
 ### abenfilter_table_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11557,7 +12507,14 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
+
+**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+
 ### abenfilter_table_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11642,7 +12599,14 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
+
+**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11672,7 +12636,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenconstructor_expression_filter.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11751,7 +12722,14 @@ Continue
 [Examples of Table Filtering](javascript:call_link\('abentable_filtering_abexas.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+
 ### abenconstructor_expr_filter_basic.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11849,7 +12827,14 @@ Executable Example
 [Table Filtering, Single Values](javascript:call_link\('abenfilter_value_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+
 ### abenconstructor_expr_filter_table.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11972,7 +12957,14 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -11990,7 +12982,14 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenfilter_value_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12045,7 +13044,14 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
+
+**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+
 ### abenfilter_table_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12108,7 +13114,14 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
+
+**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+
 ### abenfilter_table_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12193,7 +13206,14 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
+
+**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12223,7 +13243,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenconstructor_expression_filter.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12302,7 +13329,14 @@ Continue
 [Examples of Table Filtering](javascript:call_link\('abentable_filtering_abexas.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+
 ### abenconstructor_expr_filter_basic.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12400,7 +13434,14 @@ Executable Example
 [Table Filtering, Single Values](javascript:call_link\('abenfilter_value_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+
 ### abenconstructor_expr_filter_table.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12523,7 +13564,14 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12541,7 +13589,14 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenfilter_value_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12596,7 +13651,14 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
+
+**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+
 ### abenfilter_table_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12659,7 +13721,14 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
+
+**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+
 ### abenfilter_table_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12744,7 +13813,14 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
+
+**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12774,7 +13850,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenconstructor_expression_filter.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12853,7 +13936,14 @@ Continue
 [Examples of Table Filtering](javascript:call_link\('abentable_filtering_abexas.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+
 ### abenconstructor_expr_filter_basic.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -12951,7 +14041,14 @@ Executable Example
 [Table Filtering, Single Values](javascript:call_link\('abenfilter_value_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+
 ### abenconstructor_expr_filter_table.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13074,7 +14171,14 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13092,7 +14196,14 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenfilter_value_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13147,7 +14258,14 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
+
+**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+
 ### abenfilter_table_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13210,7 +14328,14 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
+
+**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+
 ### abenfilter_table_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13295,7 +14420,14 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
+
+**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13325,7 +14457,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenconstructor_expression_filter.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13404,7 +14543,14 @@ Continue
 [Examples of Table Filtering](javascript:call_link\('abentable_filtering_abexas.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+
 ### abenconstructor_expr_filter_basic.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13502,7 +14648,14 @@ Executable Example
 [Table Filtering, Single Values](javascript:call_link\('abenfilter_value_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+
 ### abenconstructor_expr_filter_table.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13625,7 +14778,14 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13643,7 +14803,14 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenfilter_value_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13698,7 +14865,14 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
+
+**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+
 ### abenfilter_table_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13761,7 +14935,14 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
+
+**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+
 ### abenfilter_table_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13846,7 +15027,14 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
+
+**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13876,7 +15064,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenconstructor_expression_filter.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -13955,7 +15150,14 @@ Continue
 [Examples of Table Filtering](javascript:call_link\('abentable_filtering_abexas.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expression_filter.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm)
+
 ### abenconstructor_expr_filter_basic.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14053,7 +15255,14 @@ Executable Example
 [Table Filtering, Single Values](javascript:call_link\('abenfilter_value_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_basic.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_basic.htm)
+
 ### abenconstructor_expr_filter_table.htm
+
+> **📖 Official SAP Documentation**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14176,7 +15385,14 @@ Executable Examples
 -   [Table Filtering, Filterings with Filter Table](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abenconstructor_expr_filter_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_filter_table.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14194,7 +15410,14 @@ Continue
 ![Example](exa.gif "Example") [Table Filtering, Filter Table.](javascript:call_link\('abenfilter_table_condition_abexa.htm'\))
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenfilter_value_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14249,7 +15472,14 @@ Those rows are filtered from an internal table spfli\_tab filled with flight dat
 A further internal table, rest, is given the same table filtering, but the addition EXCEPT is specified. The assertion ASSERT demonstrates that rest contains all rows from spfli\_tab that are not in extract.
 
 
+
+**📖 Source**: [abenfilter_value_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_value_condition_abexa.htm)
+
 ### abenfilter_table_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14312,7 +15542,14 @@ Description
 Those rows are filtered out of an internal table spfli\_tab filled with flight data that have specific values in the columns cityfrom and cityto. The filter is applied using a filter table of the type filter\_tab constructed using VALUE filled with input values. The result is all outbound and return flights for the cities in question.
 
 
+
+**📖 Source**: [abenfilter_table_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_abexa.htm)
+
 ### abenfilter_table_condition_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14397,7 +15634,14 @@ When merged, the results from the first and second filtering are all rows from i
 The fourth filtering does not produce the same result as the second filtering. The fifth filtering does not produce the rows from itab that remain after the third filtering.
 
 
+
+**📖 Source**: [abenfilter_table_condition_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_table_condition_abexa.htm)
+
 ### abentable_filtering_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14427,7 +15671,14 @@ Continue
 Included pages: 2
 
 
+
+**📖 Source**: [abentable_filtering_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_abexas.htm)
+
 ### abenitab_perfo.htm
+
+> **📖 Official SAP Documentation**: [abenitab_perfo.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_perfo.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14666,7 +15917,14 @@ cl\_demo\_output=>display( |Expression: { text\_short }| ).
 Included pages: 11
 
 
+
+**📖 Source**: [abenitab_perfo.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_perfo.htm)
+
 ### abendynp_subscreens.htm
+
+> **📖 Official SAP Documentation**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14694,7 +15952,14 @@ Continue
 [Subscreens, Tabstrips, and Splitter Controls - Examples](javascript:call_link\('abentab_strip_control_abexas.htm'\))
 
 
+
+**📖 Source**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreens.htm)
+
 ### abendynp_subscreen.htm
+
+> **📖 Official SAP Documentation**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14719,7 +15984,14 @@ Executable Example
 [Dynpros, Subscreens](javascript:call_link\('abendynpro_subscreen_abexa.htm'\))
 
 
+
+**📖 Source**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_subscreen.htm)
+
 ### abendynp_tabstrip.htm
+
+> **📖 Official SAP Documentation**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14750,7 +16022,14 @@ Executable Examples
 -   [Dynpros, Tabstrips with Scrolling in AS Instance](javascript:call_link\('abentab_strip_control2_abexa.htm'\))
 
 
+
+**📖 Source**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_tabstrip.htm)
+
 ### abendynp_splitter_control_spcl.htm
+
+> **📖 Official SAP Documentation**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14790,7 +16069,14 @@ Executable Example
 [Dynpros, Splitter Controls](javascript:call_link\('abendynpro_splitter_control_abexa.htm'\))
 
 
+
+**📖 Source**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_splitter_control_spcl.htm)
+
 ### dynpcall.htm
+
+> **📖 Official SAP Documentation**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14871,7 +16157,14 @@ PROCESS AFTER INPUT.
   MODULE handle\_user\_command.
 
 
+
+**📖 Source**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm)
+
 ### abentab_strip_control_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14890,7 +16183,14 @@ Continue
 ![Example](exa.gif "Example") [Dynpros, Splitter Control](javascript:call_link\('abendynpro_splitter_control_abexa.htm'\))
 
 
+
+**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
+
 ### abendynpro_subscreen_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -14999,7 +16299,14 @@ Since all subscreen dynpros use the same field name field, the ABAP field with t
 The function code of the pushbuttons of the subscreen dynpros is different and regular handling in an ABAP field is enough. If the function codes had the same names, it would be necessary to use multiple helper fields here as well.
 
 
+
+**📖 Source**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_subscreen_abexa.htm)
+
 ### abentab_strip_control1_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15045,7 +16352,14 @@ When the program is executed, the user sees a screen, the second tab page of whi
 When the user chooses Continue, the PAI event is triggered, and an information message displays the function code of the tab title of the page that is currently active.
 
 
+
+**📖 Source**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control1_abexa.htm)
+
 ### abentab_strip_control2_abexa.htm
+
+> **📖 Official SAP Documentation**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15103,7 +16417,14 @@ The screen flow logic of dynpro 100 makes a dynamic binding to PBO, a subscreen 
 This example works in exactly the same way as the [example with local scrolling](javascript:call_link\('abentab_strip_control1_abexa.htm'\)) except that scrolling between the tabstrip pages is programmed in the ABAP program. Each time the user chooses a tab title, the function code from the OK field is assigned to the activetab component of structure mytabstrip. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
 
 
+
+**📖 Source**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control2_abexa.htm)
+
 ### abendynpro_splitter_control_abexa.htm
+
+> **📖 Official SAP Documentation**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15144,7 +16465,14 @@ Description
 A subscreen is assigned to both parts of the splitter control. The subscreens are called in the dynpro flow logic.
 
 
+
+**📖 Source**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_splitter_control_abexa.htm)
+
 ### abentab_strip_control_abexas.htm
+
+> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15175,7 +16503,14 @@ Continue
 Included pages: 9
 
 
+
+**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_strip_control_abexas.htm)
+
 ### abenitab_declare_obsolete.htm
+
+> **📖 Official SAP Documentation**: [abenitab_declare_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_declare_obsolete.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15202,7 +16537,14 @@ Continue
 [Internal Tables with Header Line](javascript:call_link\('abenitab_header_line.htm'\))
 
 
+
+**📖 Source**: [abenitab_declare_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_declare_obsolete.htm)
+
 ### abaptypes_occurs.htm
+
+> **📖 Official SAP Documentation**: [abaptypes_occurs.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_occurs.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15231,7 +16573,14 @@ TYPES dtype *{* *{*TYPE STANDARD TABLE OF *\[*REF TO*\]* type*}*
             INITIAL SIZE n.
 
 
+
+**📖 Source**: [abaptypes_occurs.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_occurs.htm)
+
 ### abapdata_occurs.htm
+
+> **📖 Official SAP Documentation**: [abapdata_occurs.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_occurs.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15264,7 +16613,14 @@ DATA itab *{* *{*TYPE STANDARD TABLE OF *\[*REF TO*\]* type*}*
 The use of the addition [WITH HEADER LINE](javascript:call_link\('abapdata_header_line.htm'\)) is obsolete
 
 
+
+**📖 Source**: [abapdata_occurs.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_occurs.htm)
+
 ### abaptable_line.htm
+
+> **📖 Official SAP Documentation**: [abaptable_line.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptable_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15299,7 +16655,14 @@ Good Example
 TYPES itab TYPE SORTED TABLE OF i WITH UNIQUE KEY table\_line.
 
 
+
+**📖 Source**: [abaptable_line.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptable_line.htm)
+
 ### abenitab_header_line.htm
+
+> **📖 Official SAP Documentation**: [abenitab_header_line.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_header_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15347,7 +16710,14 @@ Effect
 The VALID BETWEEN addition of the DATA END OF statement is only important if the internal table is to be processed using the obsolete form of the statement [PROVIDE](javascript:call_link\('abapprovide_obsolete.htm'\)). intlim1 and intlim2 expect columns from the internal table of the data type d, i, n, or t. These columns are used implicitly as interval limits in their obsolete form of the statement PROVIDE.
 
 
+
+**📖 Source**: [abenitab_header_line.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_header_line.htm)
+
 ### abapranges.htm
+
+> **📖 Official SAP Documentation**: [abapranges.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapranges.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15385,7 +16755,14 @@ Notes
 -   The sign and option columns of a ranges table declared using RANGES are not related to data types in ABAP Dictionary. For a ranges table defined in ABAP Dictionary, these columns are based on the data elements DDSIGN and DDOPTION.
 
 
+
+**📖 Source**: [abapranges.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapranges.htm)
+
 ### abenitab_header_line.htm
+
+> **📖 Official SAP Documentation**: [abenitab_header_line.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_header_line.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15401,321 +16778,7 @@ Outside classes, and if it is not a component of a structure or row in another i
 
 -   [Declaration of Header Lines](#abenitab-header-line-1--------properties-of-header-lines---@ITOC@@ABENITAB_HEADER_LINE_2)
 
--   [Use](#@@ITOC@@ABENITAB_HEADER_LINE_3)
-
-Declaration of Header Lines
-
-Header lines of internal tables are created
-
--   by using the addition [WITH HEADER LINE](javascript:call_link\('abapdata_header_line.htm'\)) of the statement DATA to declare internal tables,
-
--   when using the obsolete statement string [DATA - BEGIN OF OCCURS](javascript:call_link\('abapdata_begin_of_occurs.htm'\)) to declare structured standard tables,
-
--   when using the obsolete statement [RANGES](javascript:call_link\('abapranges.htm'\)) to declare [ranges tables](javascript:call_link\('abenranges_table_glosry.htm'\) "Glossary Entry"),
-
--   when declaring [selection tables](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") with the statement [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)),
-
--   when using [table parameters](javascript:call_link\('abentable_parameter_glosry.htm'\) "Glossary Entry") for [function modules](javascript:call_link\('abaptables_parameters_obsolete.htm'\)) and [subroutines](javascript:call_link\('abapform_tables.htm'\)).
-
-Note
-
-The statement [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)) cannot be used to create internal tables with header lines.
-
-Properties of Header Lines
-
-A header line is a work area whose
-
--   data type is the same as the row type of the internal table
-
--   whose name is the same as the name of the internal table.
-
-If a header line exists, therefore, an ABAP program includes two data objects with the same name (the actual internal table and the header line). The internal table and header line are accessed as follows:
-
--   Many processing statements for internal tables have [obsolete](javascript:call_link\('abenitab_short_forms.htm'\)) short forms in which the header lines is used as an implicit work area if no explicit work area is specified.
-
--   In all other cases, the statement and [operand position](javascript:call_link\('abenoperands_data_objects.htm'\)) decide whether the [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry") or the header line is used when the table name is specified. The header line is the usual choice. The name (and just the name) of an internal table with header line is interpreted as the table body only in the following cases:
-
--   Operand positions in the [processing statements for internal tables](javascript:call_link\('abentable_processing_statements.htm'\)) in which the internal table to be processed is specified.
-
--   Operand positions in expressions in which an internal table is expected, as after [FOR ... IN](javascript:call_link\('abenfor_itab.htm'\)) in a [table iteration](javascript:call_link\('abentable_iteration_glosry.htm'\) "Glossary Entry").
-
--   Operand positions in other statements whose operand type is an internal table, such as after [SPLIT ... INTO TABLE](javascript:call_link\('abapsplit.htm'\)), [CONCATENATE LINES OF](javascript:call_link\('abapconcatenate.htm'\)), [SELECT ... INTO TABLE](javascript:call_link\('abapinto_clause.htm'\)), and [READ REPORT ... INTO](javascript:call_link\('abapread_report.htm'\)).
-
--   Internal table specified in a [table expression](javascript:call_link\('abentable_expressions.htm'\))
-
--   When saving and reading [data clusters](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") using [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) and [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)).
-
--   In the statement [FREE](javascript:call_link\('abapfree_dataobject.htm'\)).
-
--   In the obsolete statement [SEARCH](javascript:call_link\('abapsearch_itab.htm'\)).
-
--   When a token is specified dynamically in [ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") (except when database tables are specified).
-
-To force access to the table body in any operand position when a header line exists, square brackets can be specified directly after the name of an internal table in all operand positions (for example, itab\[\]). This does not apply, however, when specifying the internal table in a [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry").
-
-Notes
-
--   When a LIKE reference is made to an internal table with header line, either the header line itself can be referenced or \[\] can be specified to reference the table body. It is not possible, however, to reference the internal table including the header line.
-
--   A field symbol, a formal parameter (with the exception of [table parameters](javascript:call_link\('abentable_parameter_glosry.htm'\) "Glossary Entry")), or a data reference can only address either the table body or the header line. This means that a field symbol, a formal parameter (with the exception of [table parameters](javascript:call_link\('abentable_parameter_glosry.htm'\) "Glossary Entry")), or a data reference can never be ambiguous.
-
--   Both the table body and the header line are passed when a table with header line is passed to [table parameters](javascript:call_link\('abentable_parameter_glosry.htm'\) "Glossary Entry").
-
--   \[\] can be specified for internal tables without header line, but does not need to be. This is because the name (without \[\]) of an internal table without header line is interpreted as the table body in all operand positions regardless.
-
--   In many operand positions that expect internal tables, the syntax check forces \[\] to be specified after the name of an internal table with header line.
-
--   [RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry") does not support internal tables with header lines. A type description object can describe either only the header line or the table body.
-
--   In very old programs, it may be the case that the obsolete pseudo component [\*sys\*](javascript:call_link\('abensys_table_body.htm'\)) is used to address the header line (instead of \[\]).
-
-Use
-
-The use of header lines is highly error-prone, due to the repeated use of one name for two data objects. If at all possible, avoid creating and using header lines (even outside of classes).
-
--   The addition [WITH HEADER LINE](javascript:call_link\('abapdata_header_line.htm'\)) and the statement string [DATA - BEGIN OF OCCURS](javascript:call_link\('abapdata_begin_of_occurs.htm'\)) should no longer be used and ranges tables should no longer be declared using [RANGES](javascript:call_link\('abapranges.htm'\)).
-
--   Avoid using table parameters if at all possible.
-
--   In cases where a header line absolutely has to be created (such as in selection tables or in procedures that still require table parameters (generally only [remote-enabled function modules](javascript:call_link\('abenremote_enabled_fm_glosry.htm'\) "Glossary Entry"))), never work with the header line and use the additional explicitly work areas declared explicitly instead.
-
-Notes
-
--   A work area for replacing a header line can be declared very simply by using the addition LINE OF of the statements TYPES, DATA, and so on.
-
--   The use of an additional work area should not be confused with the explicit completion of the implicit [short forms](javascript:call_link\('abenitab_short_forms.htm'\)), such as LOOP AT itab INTO itab. The latter case is one of the undesired ways to use a header line.
-
--   Tables with header lines do not offer any performance advantages.
-
-Example
-
-The following example shows a typical instance of handling internal tables with header lines: An internal table with header line (here the table parameter of a function module) is initialized using [CLEAR](javascript:call_link\('abapclear.htm'\)), but the \[\] is not appended to the name. In this case, only the header line is deleted, which is not usually noticed until runtime.
-
-FUNCTION work\_with\_tables.
-\*"---------------------------------
-\*"\*"Local Interface
-\*"  TABLES
-\*"      table STRUCTURE  structure
-\*"----------------------------------
-  CLEAR table.
-  ...
-ENDFUNCTION.
-
-Continue
-[DATA - HEADER LINE](javascript:call_link\('abapdata_header_line.htm'\))
-[DATA - BEGIN OF OCCURS](javascript:call_link\('abapdata_begin_of_occurs.htm'\))
-[RANGES](javascript:call_link\('abapranges.htm'\))
-
-
----
-
-
-## ABAP Keyword Documentation / ABAP − Reference / Obsolete Language Elements / Obsolete Processing of Internal Data / Obsolete Internal Table Processing
-
-**Files**: 11 | **Difficulty**: intermediate
-
-# ABAP Keyword Documentation / ABAP − Reference / Obsolete Language Elements / Obsolete Processing of Internal Data / Obsolete Extracts
-
-Included pages: 17
-
-
-### abenabap_extracts_extended.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) → 
-
-Obsolete Extracts
-
-An extract dataset, or extract for short, is a dataset in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of an ABAP program that is not handled as a data object and therefore has no data type. There is only one extract dataset for every ABAP program. It can be filled and read using ABAP statements. The content of the extract dataset cannot be deleted explicitly.
-
-In the same way as an internal table, an extract dataset is made up of a dynamic number of lines. The size of the extract dataset is theoretically unlimited. If the size exceeds 500 KB, it is stored in a file of the operating system. Sizes of up to 2 GB (and larger for 64-bit processors) are workable. Unlike internal tables, the individual lines can have different structures. The row structures are declared as field groups using the statement [FIELD-GROUPS](javascript:call_link\('abapfield-groups.htm'\)).
-
-The exact structure of each row is not determined until the program is executed using the statement [INSERT](javascript:call_link\('abapinsert_fg.htm'\)).
-
-The statements used for processing extracts are:
-
--   [EXTRACT](javascript:call_link\('abapextract.htm'\))
-
--   [SORT](javascript:call_link\('abapsort_extract.htm'\))
-
--   [LOOP](javascript:call_link\('abaploop-.htm'\))
-
--   [AT](javascript:call_link\('abapat_extract.htm'\))
-
-Notes
-
--   Field groups cannot be defined in class or interface pools. Their extract dataset, however, can be edited in methods of local classes of other programs.
-
--   Extracts are obsolete. [Internal tables](javascript:call_link\('abenitab.htm'\)) are recommended instead.
-
-Continue
-[FIELD-GROUPS](javascript:call_link\('abapfield-groups.htm'\))
-[INSERT - field\_group](javascript:call_link\('abapinsert_fg.htm'\))
-[EXTRACT](javascript:call_link\('abapextract.htm'\))
-[SORT - Extract](javascript:call_link\('abapsort_extract.htm'\))
-[LOOP - Extract](javascript:call_link\('abaploop-.htm'\))
-[AT - Extract](javascript:call_link\('abapat_extract.htm'\))
-[Examples of Extracts](javascript:call_link\('abenextract_abexas.htm'\))
-
-
-### abapfield-groups.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Extracts](javascript:call_link\('abenabap_extracts_extended.htm'\)) → 
-
-FIELD-GROUPS
-
-[Quick Reference](javascript:call_link\('abapfield-groups_shortref.htm'\))
-
-Obsolete Syntax
-
-FIELD-GROUPS *{* header *|* field\_group *}*.
-
-Effect
-
-Declares a field group for the [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry") of the program. Each field group represents the name of a row structure of the extract dataset. As many field groups as required can be created in a program. The actual components of a field group are defined using the statement [INSERT](javascript:call_link\('abapinsert_fg.htm'\)).
-
-The name of a field group is either the predefined name header or any name field\_group. If a field group header is declared, it automatically becomes the initial part of all remaining field groups of the program and its components constitute the standard sort key of the extract dataset for the statement [SORT](javascript:call_link\('abapsort_extract.htm'\)).
-
-The statement FIELD-GROUPS is possible in the global declaration part of an executable program, of a function group, of a module pool, or of a subroutine pool, as well as in the subroutines and function modules. Field groups that are declared in [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") are visible only there.
-
-Notes
-
--   Since global data objects can only be defined as components of field groups using the statement INSERT, it is best to declare field groups only in the global declaration part of a program.
-    
--   The FIELD-GROUPS statement is forbidden in class pools or interface pools and in the methods of local classes of other programs.
-    
-
-Example
-
-See [INSERT](javascript:call_link\('abapinsert_fg.htm'\)).
-
-
-### abapinsert_fg.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Extracts](javascript:call_link\('abenabap_extracts_extended.htm'\)) → 
-
-INSERT - field\_group
-
-[Quick Reference](javascript:call_link\('abapinsert_field-group_shortref.htm'\))
-
-Obsolete Syntax
-
-INSERT dobj1 dobj2 ... INTO *{* header *|* field\_group *}*.
-
-Effect
-
-This statement is used to build a structure of a field group of the [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry") of the program, where the field group is defined using [FIELD-GROUPS](javascript:call_link\('abapfield-groups.htm'\)) . A list of global [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") data objects dobj can be inserted after INSERT. Specifying local data objects raises an exception. The list defines the components of the field group header or field\_group. Any name can be specified directly for field\_group, whereas header is a predefined name of a special field group whose components are automatically a part and a key of all other field groups. The components of a field group have the function of a pointer to data objects whose contents can be attached as a line to the extract dataset when executing the statement [EXTRACT](javascript:call_link\('abapextract.htm'\)).
-
-The statement INSERT can be used in any [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") of a program and is executed at the given time during the program execution. A field group can have different INSERT statements. Additional components can be added to a field group until the first corresponding line with EXTRACT is attached to the extract dataset. More specifically, components can only be added to the field group header until a field group of the program is extracted because it is a part of all field groups. An INSERT statement for an already extracted field group raises a non-handleable exception.
-
-Field symbols can be specified for dobj but not dereferenced data references. A field symbol is ignored if no data object is assigned to it. Specifying a data reference raises a non-handleable exception.
-
-Notes
-
--   A field group field\_group to which no fields are explicitly added still contains the field of the special field group header.
-    
--   In global classes, no field groups can be defined or edited. In methods of local classes of programs other than class pools, the statement INSERT is possible for globally defined field groups.
-    
--   Extracts are obsolete. [Internal tables](javascript:call_link\('abenitab.htm'\)) are recommended instead.
-    
-
-Example
-
-In this example, three field groups are declared in the global declaration part of an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") and its components are specified in the event block START-OF-SELECTION. The field group flight\_info contains five components of the field group header and its own. The field group flight\_date contains only the components of the field group header.
-
-REPORT ...
-DATA: spfli\_wa    TYPE spfli,
-      sflight\_wa TYPE sflight.
-FIELD-GROUPS: header, flight\_info, flight\_date.
-START-OF-SELECTION.
-  INSERT: spfli\_wa-carrid spfli\_wa-connid sflight\_wa-fldate
-            INTO header,
-          spfli\_wa-cityfrom spfli\_wa-cityto
-            INTO flight\_info.
-
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
-
-Non-Handleable Exceptions
-
--   Cause: Inserts local data objects into a field group.
-    Runtime error: EXTRACT\_INSERT\_LOCAL\_DATA
-    
--   Cause: Field group contains INSERT after sets of this set type have been extracted using EXTRACT.
-    Runtime error: INSERT\_INTO\_LOCKED\_FIELD\_GROUP
-
-
-### abapextract.htm
-
-  
-
-* * *
-
-AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
-
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Extracts](javascript:call_link\('abenabap_extracts_extended.htm'\)) → 
-
-EXTRACT
-
-[Quick Reference](javascript:call_link\('abapextract_shortref.htm'\))
-
-Obsolete Syntax
-
-EXTRACT *\[* header *|* field\_group *\]*.
-
-Effect
-
-This statement appends the current content of the fields previously included in the field group header or field\_group using the statement [INSERT](javascript:call_link\('abapinsert_fg.htm'\)) to the [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry") of the program. If there is no field group specified after EXTRACT, the field group header is added implicitly.
-
-The extract dataset is created the first time EXTRACT is executed and the first row added. Once an EXTRACT statement is executed, no other fields can be included in the specified field group field\_group using INSERT. If not, a non-handleable exception is raised by the next EXTRACT statement for the same field group.
-
-Fields of the types [s](javascript:call_link\('abenbuiltin_types_numeric.htm'\)), [i](javascript:call_link\('abenbuiltin_types_numeric.htm'\)), and [int8](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) with the minimum value -32768, -2147483648, or -9223372036854775808 respectively are set to the value 0 when extracted to the field group header.
-
-Notes
-
--   The field group header is the initial part and sort key of every field group, which means that no more fields can be included in header after EXTRACT is executed for the first time.
-    
--   The rows of an extract dataset cannot be deleted explicitly and are persisted as long as the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of the program.
-    
--   In global classes, no field groups can be defined or edited. In methods of local classes of programs other than class pools, the statement EXTRACT is possible for globally defined field groups.
-    
--   Extracts are obsolete. [Internal tables](javascript:call_link\('abenitab.htm'\)) are recommended instead.
-    
-
-Example
-
-This example continues the example under [INSERT](javascript:call_link\('abapinsert_fg.htm'\)). The fields of the field groups flight\_info and flight\_date are filled in a nested LOOP and appended to the extract dataset.
-
-REPORT ...
-DATA: spfli\_wa    TYPE spfli,
-      sflight\_wa  TYPE sflight,
-      spfli\_tab   LIKE TABLE OF spfli\_wa,
-      sflight\_tab LIKE TABLE OF sflight\_wa.
-FIELD-GROUPS: header, flight\_info, flight\_date.
-START-OF-SELECTION.
-  INSERT: spfli\_wa-carrid spfli\_wa-connid sflight\_wa-fldate
-            INTO header,
-          spfli\_wa-cityfrom spfli\_wa-cityto
-            INTO flight\_info.
-  SELECT \*
-         FROM spfli
-         INTO TABLE @spfli\_tab.
+-   [Use](#abenitab-header-line-3---declaration-of-header-lines--header-lines-of-internal-tables-are-created------by-using-the-addition--with-header-line--javascript-call-link---abapdata-header-line-htm-----of-the-statement-data-to-declare-internal-tables-------when-using-the-obsolete-statement-string--data---begin-of-occurs--javascript-call-link---abapdata-begin-of-occurs-htm-----to-declare-structured-standard-tables-------when-using-the-obsolete-statement--ranges--javascript-call-link---abapranges-htm-----to-declare--ranges-tables--javascript-call-link---abenranges-table-glosry-htm-----glossary-entry---------when-declaring--selection-tables--javascript-call-link---abenselection-table-glosry-htm-----glossary-entry---with-the-statement--select-options--javascript-call-link---abapselect-options-htm-----------when-using--table-parameters--javascript-call-link---abentable-parameter-glosry-htm-----glossary-entry---for--function-modules--javascript-call-link---abaptables-parameters-obsolete-htm-----and--subroutines--javascript-call-link---abapform-tables-htm-------note--the-statement--create-data--javascript-call-link---abapcreate-data-htm-----cannot-be-used-to-create-internal-tables-with-header-lines---properties-of-header-lines--a-header-line-is-a-work-area-whose------data-type-is-the-same-as-the-row-type-of-the-internal-table------whose-name-is-the-same-as-the-name-of-the-internal-table---if-a-header-line-exists--therefore--an-abap-program-includes-two-data-objects-with-the-same-name--the-actual-internal-table-and-the-header-line---the-internal-table-and-header-line-are-accessed-as-follows-------many-processing-statements-for-internal-tables-have--obsolete--javascript-call-link---abenitab-short-forms-htm-----short-forms-in-which-the-header-lines-is-used-as-an-implicit-work-area-if-no-explicit-work-area-is-specified-------in-all-other-cases--the-statement-and--operand-position--javascript-call-link---abenoperands-data-objects-htm-----decide-whether-the--table-body--javascript-call-link---abentable-body-glosry-htm-----glossary-entry---or-the-header-line-is-used-when-the-table-name-is-specified--the-header-line-is-the-usual-choice--the-name--and-just-the-name--of-an-internal-table-with-header-line-is-interpreted-as-the-table-body-only-in-the-following-cases-------operand-positions-in-the--processing-statements-for-internal-tables--javascript-call-link---abentable-processing-statements-htm-----in-which-the-internal-table-to-be-processed-is-specified-------operand-positions-in-expressions-in-which-an-internal-table-is-expected--as-after--for-----in--javascript-call-link---abenfor-itab-htm-----in-a--table-iteration--javascript-call-link---abentable-iteration-glosry-htm-----glossary-entry---------operand-positions-in-other-statements-whose-operand-type-is-an-internal-table--such-as-after--split-----into-table--javascript-call-link---abapsplit-htm-------concatenate-lines-of--javascript-call-link---abapconcatenate-htm-------select-----into-table--javascript-call-link---abapinto-clause-htm------and--read-report-----into--javascript-call-link---abapread-report-htm-----------internal-table-specified-in-a--table-expression--javascript-call-link---abentable-expressions-htm----------when-saving-and-reading--data-clusters--javascript-call-link---abendata-cluster-glosry-htm-----glossary-entry---using--export--javascript-call-link---abapexport-data-cluster-htm-----and--import--javascript-call-link---abapimport-data-cluster-htm-----------in-the-statement--free--javascript-call-link---abapfree-dataobject-htm-----------in-the-obsolete-statement--search--javascript-call-link---abapsearch-itab-htm-----------when-a-token-is-specified-dynamically-in--abap-sql--javascript-call-link---abenopen-sql-glosry-htm-----glossary-entry----except-when-database-tables-are-specified----to-force-access-to-the-table-body-in-any-operand-position-when-a-header-line-exists--square-brackets-can-be-specified-directly-after-the-name-of-an-internal-table-in-all-operand-positions--for-example--itab-------this-does-not-apply--however--when-specifying-the-internal-table-in-a--table-expression--javascript-call-link---abentable-expression-glosry-htm-----glossary-entry-----notes------when-a-like-reference-is-made-to-an-internal-table-with-header-line--either-the-header-line-itself-can-be-referenced-or------can-be-specified-to-reference-the-table-body--it-is-not-possible--however--to-reference-the-internal-table-including-the-header-line-------a-field-symbol--a-formal-parameter--with-the-exception-of--table-parameters--javascript-call-link---abentable-parameter-glosry-htm-----glossary-entry-----or-a-data-reference-can-only-address-either-the-table-body-or-the-header-line--this-means-that-a-field-symbol--a-formal-parameter--with-the-exception-of--table-parameters--javascript-call-link---abentable-parameter-glosry-htm-----glossary-entry-----or-a-data-reference-can-never-be-ambiguous-------both-the-table-body-and-the-header-line-are-passed-when-a-table-with-header-line-is-passed-to--table-parameters--javascript-call-link---abentable-parameter-glosry-htm-----glossary-entry--------------can-be-specified-for-internal-tables-without-header-line--but-does-not-need-to-be--this-is-because-the-name--without-------of-an-internal-table-without-header-line-is-interpreted-as-the-table-body-in-all-operand-positions-regardless-------in-many-operand-positions-that-expect-internal-tables--the-syntax-check-forces------to-be-specified-after-the-name-of-an-internal-table-with-header-line--------rtts--javascript-call-link---abenrun-time-type-services-glosry-htm-----glossary-entry---does-not-support-internal-tables-with-header-lines--a-type-description-object-can-describe-either-only-the-header-line-or-the-table-body-------in-very-old-programs--it-may-be-the-case-that-the-obsolete-pseudo-component----sys----javascript-call-link---abensys-table-body-htm-----is-used-to-address-the-header-line--instead-of---------use--the-use-of-header-lines-is-highly-error-prone--due-to-the-repeated-use-of-one-name-for-two-data-objects--if-at-all-possible--avoid-creating-and-using-header-lines--even-outside-of-classes--------the-addition--with-header-line--javascript-call-link---abapdata-header-line-htm-----and-the-statement-string--data---begin-of-occurs--javascript-call-link---abapdata-begin-of-occurs-htm-----should-no-longer-be-used-and-ranges-tables-should-no-longer-be-declared-using--ranges--javascript-call-link---abapranges-htm-----------avoid-using-table-parameters-if-at-all-possible-------in-cases-where-a-header-line-absolutely-has-to-be-created--such-as-in-selection-tables-or-in-procedures-that-still-require-table-parameters--generally-only--remote-enabled-function-modules--javascript-call-link---abenremote-enabled-fm-glosry-htm-----glossary-entry------never-work-with-the-header-line-and-use-the-additional-explicitly-work-areas-declared-explicitly-instead---notes------a-work-area-for-replacing-a-header-line-can-be-declared-very-simply-by-using-the-addition-line-of-of-the-statements-types--data--and-so-on-------the-use-of-an-additional-work-area-should-not-be-confused-with-the-explicit-completion-of-the-implicit--short-forms--javascript-call-link---abenitab-short-forms-htm------such-as-loop-at-itab-into-itab--the-latter-case-is-one-of-the-undesired-ways-to-use-a-header-line-------tables-with-header-lines-do-not-offer-any-performance-advantages---example--the-following-example-shows-a-typical-instance-of-handling-internal-tables-with-header-lines--an-internal-table-with-header-line--here-the-table-parameter-of-a-function-module--is-initialized-using--clear--javascript-call-link---abapclear-htm------but-the------is-not-appended-to-the-name--in-this-case--only-the-header-line-is-deleted--which-is-not-usually-noticed-until-runtime---function-work--with--tables---------------------------------------------local-interface------tables----------table-structure--structure-----------------------------------------clear-table--------endfunction---continue--data---header-line--javascript-call-link---abapdata-header-line-htm------data---begin-of-occurs--javascript-call-link---abapdata-begin-of-occurs-htm------ranges--javascript-call-link---abapranges-htm----------------abap-keyword-documentation---abap---reference---obsolete-language-elements---obsolete-processing-of-internal-data---obsolete-internal-table-processing----files----11-----difficulty----intermediate----abap-keyword-documentation---abap---reference---obsolete-language-elements---obsolete-processing-of-internal-data---obsolete-extracts--included-pages--17---------source-----abenitab-header-line-htm--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenitab-header-line-htm-------abenabap-extracts-extended-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------obsolete-language-elements--javascript-call-link---abenabap-obsolete-htm---------obsolete-processing-of-internal-data--javascript-call-link---abendata-internal-obsolete-htm---------obsolete-extracts--an-extract-dataset--or-extract-for-short--is-a-dataset-in-the--internal-session--javascript-call-link---abeninternal-session-glosry-htm-----glossary-entry---of-an-abap-program-that-is-not-handled-as-a-data-object-and-therefore-has-no-data-type--there-is-only-one-extract-dataset-for-every-abap-program--it-can-be-filled-and-read-using-abap-statements--the-content-of-the-extract-dataset-cannot-be-deleted-explicitly---in-the-same-way-as-an-internal-table--an-extract-dataset-is-made-up-of-a-dynamic-number-of-lines--the-size-of-the-extract-dataset-is-theoretically-unlimited--if-the-size-exceeds-500-kb--it-is-stored-in-a-file-of-the-operating-system--sizes-of-up-to-2-gb--and-larger-for-64-bit-processors--are-workable--unlike-internal-tables--the-individual-lines-can-have-different-structures--the-row-structures-are-declared-as-field-groups-using-the-statement--field-groups--javascript-call-link---abapfield-groups-htm-------the-exact-structure-of-each-row-is-not-determined-until-the-program-is-executed-using-the-statement--insert--javascript-call-link---abapinsert-fg-htm-------the-statements-used-for-processing-extracts-are--------extract--javascript-call-link---abapextract-htm-----------sort--javascript-call-link---abapsort-extract-htm-----------loop--javascript-call-link---abaploop--htm-----------at--javascript-call-link---abapat-extract-htm------notes------field-groups-cannot-be-defined-in-class-or-interface-pools--their-extract-dataset--however--can-be-edited-in-methods-of-local-classes-of-other-programs-------extracts-are-obsolete---internal-tables--javascript-call-link---abenitab-htm-----are-recommended-instead---continue--field-groups--javascript-call-link---abapfield-groups-htm------insert---field--group--javascript-call-link---abapinsert-fg-htm------extract--javascript-call-link---abapextract-htm------sort---extract--javascript-call-link---abapsort-extract-htm------loop---extract--javascript-call-link---abaploop--htm------at---extract--javascript-call-link---abapat-extract-htm------examples-of-extracts--javascript-call-link---abenextract-abexas-htm-------------source-----abenabap-extracts-extended-htm--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abenabap-extracts-extended-htm-------abapfield-groups-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------obsolete-language-elements--javascript-call-link---abenabap-obsolete-htm---------obsolete-processing-of-internal-data--javascript-call-link---abendata-internal-obsolete-htm---------obsolete-extracts--javascript-call-link---abenabap-extracts-extended-htm---------field-groups---quick-reference--javascript-call-link---abapfield-groups-shortref-htm------obsolete-syntax--field-groups-----header-----field--group-------effect--declares-a-field-group-for-the--extract-dataset--javascript-call-link---abenextract-dataset-glosry-htm-----glossary-entry---of-the-program--each-field-group-represents-the-name-of-a-row-structure-of-the-extract-dataset--as-many-field-groups-as-required-can-be-created-in-a-program--the-actual-components-of-a-field-group-are-defined-using-the-statement--insert--javascript-call-link---abapinsert-fg-htm-------the-name-of-a-field-group-is-either-the-predefined-name-header-or-any-name-field--group--if-a-field-group-header-is-declared--it-automatically-becomes-the-initial-part-of-all-remaining-field-groups-of-the-program-and-its-components-constitute-the-standard-sort-key-of-the-extract-dataset-for-the-statement--sort--javascript-call-link---abapsort-extract-htm-------the-statement-field-groups-is-possible-in-the-global-declaration-part-of-an-executable-program--of-a-function-group--of-a-module-pool--or-of-a-subroutine-pool--as-well-as-in-the-subroutines-and-function-modules--field-groups-that-are-declared-in--procedures--javascript-call-link---abenprocedure-glosry-htm-----glossary-entry---are-visible-only-there---notes------since-global-data-objects-can-only-be-defined-as-components-of-field-groups-using-the-statement-insert--it-is-best-to-declare-field-groups-only-in-the-global-declaration-part-of-a-program-----------the-field-groups-statement-is-forbidden-in-class-pools-or-interface-pools-and-in-the-methods-of-local-classes-of-other-programs--------example--see--insert--javascript-call-link---abapinsert-fg-htm--------------source-----abapfield-groups-htm--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapfield-groups-htm-------abapinsert-fg-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------obsolete-language-elements--javascript-call-link---abenabap-obsolete-htm---------obsolete-processing-of-internal-data--javascript-call-link---abendata-internal-obsolete-htm---------obsolete-extracts--javascript-call-link---abenabap-extracts-extended-htm---------insert---field--group---quick-reference--javascript-call-link---abapinsert-field-group-shortref-htm------obsolete-syntax--insert-dobj1-dobj2-----into-----header-----field--group-------effect--this-statement-is-used-to-build-a-structure-of-a-field-group-of-the--extract-dataset--javascript-call-link---abenextract-dataset-glosry-htm-----glossary-entry---of-the-program--where-the-field-group-is-defined-using--field-groups--javascript-call-link---abapfield-groups-htm-------a-list-of-global--flat--javascript-call-link---abenflat-glosry-htm-----glossary-entry---data-objects-dobj-can-be-inserted-after-insert--specifying-local-data-objects-raises-an-exception--the-list-defines-the-components-of-the-field-group-header-or-field--group--any-name-can-be-specified-directly-for-field--group--whereas-header-is-a-predefined-name-of-a-special-field-group-whose-components-are-automatically-a-part-and-a-key-of-all-other-field-groups--the-components-of-a-field-group-have-the-function-of-a-pointer-to-data-objects-whose-contents-can-be-attached-as-a-line-to-the-extract-dataset-when-executing-the-statement--extract--javascript-call-link---abapextract-htm-------the-statement-insert-can-be-used-in-any--processing-block--javascript-call-link---abenprocessing-block-glosry-htm-----glossary-entry---of-a-program-and-is-executed-at-the-given-time-during-the-program-execution--a-field-group-can-have-different-insert-statements--additional-components-can-be-added-to-a-field-group-until-the-first-corresponding-line-with-extract-is-attached-to-the-extract-dataset--more-specifically--components-can-only-be-added-to-the-field-group-header-until-a-field-group-of-the-program-is-extracted-because-it-is-a-part-of-all-field-groups--an-insert-statement-for-an-already-extracted-field-group-raises-a-non-handleable-exception---field-symbols-can-be-specified-for-dobj-but-not-dereferenced-data-references--a-field-symbol-is-ignored-if-no-data-object-is-assigned-to-it--specifying-a-data-reference-raises-a-non-handleable-exception---notes------a-field-group-field--group-to-which-no-fields-are-explicitly-added-still-contains-the-field-of-the-special-field-group-header-----------in-global-classes--no-field-groups-can-be-defined-or-edited--in-methods-of-local-classes-of-programs-other-than-class-pools--the-statement-insert-is-possible-for-globally-defined-field-groups-----------extracts-are-obsolete---internal-tables--javascript-call-link---abenitab-htm-----are-recommended-instead--------example--in-this-example--three-field-groups-are-declared-in-the-global-declaration-part-of-an--executable-program--javascript-call-link---abenexecutable-program-glosry-htm-----glossary-entry---and-its-components-are-specified-in-the-event-block-start-of-selection--the-field-group-flight--info-contains-five-components-of-the-field-group-header-and-its-own--the-field-group-flight--date-contains-only-the-components-of-the-field-group-header---report-----data--spfli--wa----type-spfli--------sflight--wa-type-sflight--field-groups--header--flight--info--flight--date--start-of-selection----insert--spfli--wa-carrid-spfli--wa-connid-sflight--wa-fldate-------------into-header------------spfli--wa-cityfrom-spfli--wa-cityto-------------into-flight--info----exceptions--javascript-call-link---abenabap-language-exceptions-htm------non-handleable-exceptions------cause--inserts-local-data-objects-into-a-field-group------runtime-error--extract--insert--local--data----------cause--field-group-contains-insert-after-sets-of-this-set-type-have-been-extracted-using-extract------runtime-error--insert--into--locked--field--group---------source-----abapinsert-fg-htm--https---help-sap-com-doc-abapdocu-753-index-htm-7-53-en-us-abapinsert-fg-htm-------abapextract-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------obsolete-language-elements--javascript-call-link---abenabap-obsolete-htm---------obsolete-processing-of-internal-data--javascript-call-link---abendata-internal-obsolete-htm---------obsolete-extracts--javascript-call-link---abenabap-extracts-extended-htm---------extract---quick-reference--javascript-call-link---abapextract-shortref-htm------obsolete-syntax--extract------header-----field--group--------effect--this-statement-appends-the-current-content-of-the-fields-previously-included-in-the-field-group-header-or-field--group-using-the-statement--insert--javascript-call-link---abapinsert-fg-htm-----to-the--extract-dataset--javascript-call-link---abenextract-dataset-glosry-htm-----glossary-entry---of-the-program--if-there-is-no-field-group-specified-after-extract--the-field-group-header-is-added-implicitly---the-extract-dataset-is-created-the-first-time-extract-is-executed-and-the-first-row-added--once-an-extract-statement-is-executed--no-other-fields-can-be-included-in-the-specified-field-group-field--group-using-insert--if-not--a-non-handleable-exception-is-raised-by-the-next-extract-statement-for-the-same-field-group---fields-of-the-types--s--javascript-call-link---abenbuiltin-types-numeric-htm-------i--javascript-call-link---abenbuiltin-types-numeric-htm------and--int8--javascript-call-link---abenbuiltin-types-numeric-htm-----with-the-minimum-value--32768---2147483648--or--9223372036854775808-respectively-are-set-to-the-value-0-when-extracted-to-the-field-group-header---notes------the-field-group-header-is-the-initial-part-and-sort-key-of-every-field-group--which-means-that-no-more-fields-can-be-included-in-header-after-extract-is-executed-for-the-first-time-----------the-rows-of-an-extract-dataset-cannot-be-deleted-explicitly-and-are-persisted-as-long-as-the--internal-session--javascript-call-link---abeninternal-session-glosry-htm-----glossary-entry---of-the-program-----------in-global-classes--no-field-groups-can-be-defined-or-edited--in-methods-of-local-classes-of-programs-other-than-class-pools--the-statement-extract-is-possible-for-globally-defined-field-groups-----------extracts-are-obsolete---internal-tables--javascript-call-link---abenitab-htm-----are-recommended-instead--------example--this-example-continues-the-example-under--insert--javascript-call-link---abapinsert-fg-htm------the-fields-of-the-field-groups-flight--info-and-flight--date-are-filled-in-a-nested-loop-and-appended-to-the-extract-dataset---report-----data--spfli--wa----type-spfli--------sflight--wa--type-sflight--------spfli--tab---like-table-of-spfli--wa--------sflight--tab-like-table-of-sflight--wa--field-groups--header--flight--info--flight--date--start-of-selection----insert--spfli--wa-carrid-spfli--wa-connid-sflight--wa-fldate-------------into-header------------spfli--wa-cityfrom-spfli--wa-cityto-------------into-flight--info----select-------------from-spfli----------into-table-spfli\_tab.
   SELECT \*
          FROM sflight
          INTO TABLE @sflight\_tab.
@@ -15763,7 +16826,14 @@ Non-Handleable Exceptions
     Runtime error: EXTRACT\_TOO\_LARGE
 
 
+
+**📖 Source**: [abapextract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapextract.htm)
+
 ### abapsort_extract.htm
+
+> **📖 Official SAP Documentation**: [abapsort_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15867,7 +16937,14 @@ Continue
 [SORT - sort\_key](javascript:call_link\('abapsort_key.htm'\))
 
 
+
+**📖 Source**: [abapsort_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
+
 ### abapsort_key.htm
+
+> **📖 Official SAP Documentation**: [abapsort_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_key.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -15915,7 +16992,14 @@ Addition 2
 Without the addition AS TEXT after a text-like component field1 field2 ..., the default is applied. If the addition AS TEXT is specified after a text-like component, it overwrites the default for this component. In the case of non-text-like components, AS TEXT cannot be specified. If AS TEXT is specified after a field group, the addition is only applied to the text-like components of this group.
 
 
+
+**📖 Source**: [abapsort_key.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_key.htm)
+
 ### abapsort_extract.htm
+
+> **📖 Official SAP Documentation**: [abapsort_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16019,7 +17103,14 @@ Continue
 [SORT - sort\_key](javascript:call_link\('abapsort_key.htm'\))
 
 
+
+**📖 Source**: [abapsort_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
+
 ### abaploop-.htm
+
+> **📖 Official SAP Documentation**: [abaploop-.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop-.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16080,7 +17171,14 @@ Non-Handleable Exceptions
     Runtime error: LOOP\_WITHIN\_LOOP
 
 
+
+**📖 Source**: [abaploop-.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop-.htm)
+
 ### abapat_extract.htm
+
+> **📖 Official SAP Documentation**: [abapat_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16188,7 +17286,14 @@ Continue
 [sum( )](javascript:call_link\('abapsum_extract.htm'\))
 
 
+
+**📖 Source**: [abapat_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
+
 ### abapcnt.htm
+
+> **📖 Official SAP Documentation**: [abapcnt.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcnt.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16219,7 +17324,14 @@ Notes
 -   No [customizing include](javascript:call_link\('abencustomizing_include_glosry.htm'\) "Glossary Entry") may be specified for field if it is empty.
 
 
+
+**📖 Source**: [abapcnt.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcnt.htm)
+
 ### abapsum_extract.htm
+
+> **📖 Official SAP Documentation**: [abapsum_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsum_extract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16248,7 +17360,14 @@ Notes
 -   No [customizing include](javascript:call_link\('abencustomizing_include_glosry.htm'\) "Glossary Entry") may be specified for field if it is empty.
 
 
+
+**📖 Source**: [abapsum_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsum_extract.htm)
+
 ### abapat_extract.htm
+
+> **📖 Official SAP Documentation**: [abapat_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16356,7 +17475,14 @@ Continue
 [sum( )](javascript:call_link\('abapsum_extract.htm'\))
 
 
+
+**📖 Source**: [abapat_extract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
+
 ### abenextract_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenextract_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16374,7 +17500,14 @@ Continue
 ![Example](exa.gif "Example") [Extracts, Determining Numbers and Totals](javascript:call_link\('abenextract_sum_abexa.htm'\))
 
 
+
+**📖 Source**: [abenextract_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm)
+
 ### abenextract_at_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenextract_at_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16453,7 +17586,14 @@ Description
 This example continues the example given under [EXTRACT](javascript:call_link\('abapextract.htm'\)). After the extract dataset is filled, it is sorted by field group header and, afterwards, control level processing is executed in a LOOP. Here, structured output is created.
 
 
+
+**📖 Source**: [abenextract_at_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_at_abexa.htm)
+
 ### abenextract_group_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenextract_group_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_group_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16524,7 +17664,14 @@ Description
 An example extract is created that contains only the fields from the field group header and is sorted by these fields. The content of the data set and the resulting group level change are produced in the LOOP.
 
 
+
+**📖 Source**: [abenextract_group_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_group_abexa.htm)
+
 ### abenextract_sum_abexa.htm
+
+> **📖 Official SAP Documentation**: [abenextract_sum_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_sum_abexa.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16590,7 +17737,14 @@ Description
 An example extract is created that contains only fields from the field group header. After being sorted, the contents of the data set, plus the numbers from the different fields t1 and the sums of the fields t2, are produced at the end of every control level and at the end of the loop.
 
 
+
+**📖 Source**: [abenextract_sum_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_sum_abexa.htm)
+
 ### abenextract_abexas.htm
+
+> **📖 Official SAP Documentation**: [abenextract_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16620,7 +17774,14 @@ Continue
 Included pages: 8
 
 
+
+**📖 Source**: [abenextract_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm)
+
 ### abenitab_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenitab_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16690,7 +17851,14 @@ Continue
 [Loop Processing](javascript:call_link\('abenloop_guidl.htm'\))
 
 
+
+**📖 Source**: [abenitab_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_guidl.htm)
+
 ### abenselect_table_type_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenselect_table_type_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_table_type_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16750,7 +17918,14 @@ Depending on the length of the key and the number of rows in an internal table, 
 If you use [secondary keys](javascript:call_link\('abensecondary_key_guidl.htm'\) "Guideline"), the rules mentioned here may be qualified to a certain degree, as the overall costs need to be considered in this case.
 
 
+
+**📖 Source**: [abenselect_table_type_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_table_type_guidl.htm)
+
 ### abensecondary_key_guidl.htm
+
+> **📖 Official SAP Documentation**: [abensecondary_key_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_key_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16839,7 +18014,14 @@ LOOP AT itab USING KEY second\_key.
 ENDLOOP.
 
 
+
+**📖 Source**: [abensecondary_key_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_key_guidl.htm)
+
 ### abeninitial_memory_requ_guidl.htm
+
+> **📖 Official SAP Documentation**: [abeninitial_memory_requ_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninitial_memory_requ_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16902,7 +18084,14 @@ TYPES: BEGIN OF line\_structure,
                  WITH UNIQUE KEY ...
 
 
+
+**📖 Source**: [abeninitial_memory_requ_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninitial_memory_requ_guidl.htm)
+
 ### abensort_guidl.htm
+
+> **📖 Official SAP Documentation**: [abensort_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensort_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16966,7 +18155,14 @@ ENDLOOP.
 ...
 
 
+
+**📖 Source**: [abensort_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensort_guidl.htm)
+
 ### abencollect_guidl.htm
+
+> **📖 Official SAP Documentation**: [abencollect_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencollect_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -16997,7 +18193,14 @@ The statement COLLECT is based on unique entries with respect to the primary key
 -   COLLECT can be used for sorted tables and hashed tables without any problems since these, unlike standard tables, always have a separate, stable key administration that can be utilized by COLLECT. COLLECT can work properly for sorted tables only if the primary key is unique. If a sorted table has a non-unique key, only COLLECT can be used to fill the table, which is difficult to guarantee. In hashed tables, the key values are always unique.
 
 
+
+**📖 Source**: [abencollect_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencollect_guidl.htm)
+
 ### abentable_output_guidl.htm
+
+> **📖 Official SAP Documentation**: [abentable_output_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_output_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
 
   
 
@@ -17071,7 +18274,17 @@ LOOP AT itab ASSIGNING <fs>.
 ENDLOOP.
 
 
+
+**📖 Source**: [abentable_output_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_output_guidl.htm)
+
 ### abenloop_guidl.htm
+
+> **📖 Official SAP Documentation**: [abenloop_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenloop_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_guidl.htm)
+
 
   
 
